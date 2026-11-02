@@ -1,0 +1,133 @@
+/* Book site styles: colours and type from the Protocol Institute brand kit
+   (https://npc.here.now/protocolinstitutebrandkit/), with none of its marks.
+   Headings in Instrument Serif 400, body in Lora, navigation and labels in Outfit. */
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Lora:ital,wght@0,400;0,600;1,400&family=Outfit:wght@400;500;600&display=swap");
+
+:root {
+  --book-paper: #f9f8f5;
+  --book-ink: #2c2c2a;
+  --book-ink-2: #5f5e5a;
+  --book-hairline: #e5e7eb;
+  --book-cobalt: #0064ff;
+  --book-cobalt-deep: #004fcc;
+  --book-cobalt-tint: #e6efff;
+  --book-forest: #0f6e56;
+  --book-rust: #d85a30;
+  --book-rust-tint: #faece7;
+  --book-serif: "Instrument Serif", Georgia, serif;
+  --book-body: Lora, Georgia, serif;
+  --book-sans: Outfit, system-ui, sans-serif;
+}
+
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: var(--book-paper);
+  --md-default-fg-color: var(--book-ink);
+  --md-default-fg-color--light: var(--book-ink-2);
+  --md-default-fg-color--lighter: #8a8984;
+  --md-default-fg-color--lightest: var(--book-hairline);
+  --md-primary-fg-color: var(--book-paper);
+  --md-primary-fg-color--light: var(--book-paper);
+  --md-primary-fg-color--dark: var(--book-paper);
+  --md-primary-bg-color: var(--book-ink);
+  --md-primary-bg-color--light: var(--book-ink-2);
+  --md-accent-fg-color: var(--book-cobalt-deep);
+  --md-accent-fg-color--transparent: var(--book-cobalt-tint);
+  --md-typeset-color: var(--book-ink);
+  --md-typeset-a-color: var(--book-cobalt);
+  --md-footer-bg-color: var(--book-paper);
+  --md-footer-bg-color--dark: var(--book-paper);
+  --md-footer-fg-color: var(--book-ink);
+  --md-footer-fg-color--light: var(--book-ink-2);
+  --md-footer-fg-color--lighter: var(--book-ink-2);
+}
+
+/* Dark: the kit's dark surface (forest 950) with mint lines. */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #0a1f17;
+  --md-default-fg-color: #ffffff;
+  --md-default-fg-color--light: #bac0bd;
+  --md-default-fg-color--lighter: #8f9893;
+  --md-default-fg-color--lightest: #24392f;
+  --md-primary-fg-color: #0a1f17;
+  --md-primary-fg-color--light: #0a1f17;
+  --md-primary-fg-color--dark: #0a1f17;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: #bac0bd;
+  --md-accent-fg-color: #bff0dd;
+  --md-typeset-color: #ffffff;
+  --md-typeset-a-color: #bff0dd;
+  --md-footer-bg-color: #0a1f17;
+  --md-footer-bg-color--dark: #0a1f17;
+  --md-footer-fg-color: #ffffff;
+  --md-footer-fg-color--light: #bac0bd;
+  --md-footer-fg-color--lighter: #bac0bd;
+  --md-hue: 160;
+}
+
+:root {
+  --md-text-font-family: var(--book-body);
+  --md-code-font-family: "JetBrains Mono", "Courier New", monospace;
+}
+
+/* Type */
+body, .md-typeset { font-family: var(--book-body); }
+.md-typeset { font-size: 0.85rem; line-height: 1.7; }
+.md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4 {
+  font-family: var(--book-serif);
+  font-weight: 400;
+  color: var(--md-default-fg-color);
+  letter-spacing: 0;
+}
+.md-typeset h1 { font-size: 2.4em; line-height: 1.1; margin-bottom: 0.6em; }
+.md-typeset h2 { font-size: 1.6em; line-height: 1.2; }
+.md-typeset h3 { font-size: 1.3em; }
+.md-header, .md-tabs, .md-nav, .md-footer, .md-search, .md-source,
+.md-typeset table:not([class]) th, .md-typeset .admonition-title, .md-typeset figcaption {
+  font-family: var(--book-sans);
+}
+.md-header__title { font-family: var(--book-serif); font-size: 1.15rem; }
+.md-nav__title, .md-nav__item--section > .md-nav__link {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: var(--md-default-fg-color--light);
+}
+
+/* Header and footer: a light band with a hairline, not a coloured bar. */
+.md-header { box-shadow: none; border-bottom: 1px solid var(--md-default-fg-color--lightest); }
+.md-header[data-md-state="shadow"], .md-header--shadow { box-shadow: none; }
+.md-footer { border-top: 1px solid var(--md-default-fg-color--lightest); }
+.md-footer-meta { background: transparent; }
+
+/* Links */
+.md-typeset a { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+.md-typeset a:hover { color: var(--md-accent-fg-color); }
+
+/* Figures sit on the page, with hairline borders and an 8px radius. */
+.md-typeset img { border-radius: 8px; border: 1px solid var(--md-default-fg-color--lightest); }
+.md-typeset em:only-child { color: var(--md-default-fg-color--light); }
+
+/* Admonitions (the working-copy banner) in rust, the kit's accent. */
+.md-typeset .admonition, .md-typeset details {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 3px solid var(--book-rust);
+  border-radius: 8px;
+  box-shadow: none;
+  font-size: 0.8rem;
+}
+.md-typeset .admonition-title, .md-typeset summary {
+  background-color: var(--book-rust-tint) !important;
+  color: #9e3d18;
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition-title { background-color: #2a1a12 !important; color: #f0b8a0; }
+.md-typeset .admonition-title::before, .md-typeset summary::before { background-color: var(--book-rust) !important; }
+
+/* Tables */
+.md-typeset table:not([class]) { border: 1px solid var(--md-default-fg-color--lightest); border-radius: 8px; box-shadow: none; font-size: 0.75rem; }
+
+/* Search box: a white field with a hairline, not Material's grey. */
+[data-md-color-scheme="default"] .md-search__form { background-color: #ffffff; border: 1px solid var(--book-hairline); border-radius: 8px; }
+[data-md-color-scheme="default"] .md-search__form:hover { background-color: #ffffff; }
+[data-md-color-scheme="slate"] .md-search__form { background-color: #132a20; border-radius: 8px; }
+.md-typeset .admonition.warning, .md-typeset details.warning { border-color: var(--md-default-fg-color--lightest); border-left-color: var(--book-rust); }
