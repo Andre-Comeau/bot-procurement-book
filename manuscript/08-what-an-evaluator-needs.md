@@ -57,3 +57,21 @@ Paths are relative to construction-procurement-protocols unless they start with 
 *Claude's note from `context-bank/privacy-options.md`: three different things need protecting in a partner's data, with different rules: identifying information, copyright in tender documents and standards, and commercially sensitive prices (with competition law if several bidders' prices are pooled). The collusion notes add the fourth: pooled bid data can help tacit collusion (Part 3.4).*
 
 *No passage of Andre's on compute is on file beyond the offline-model reasoning in chapter 10's hidden note (pinned open weights on his own GPU). This is the part of the chapter that is his to write.*
+
+## From the Procurement Machines
+
+*Added 2026-11-02 from the Procurement Machines work package (`work-packages/procurement-machines/`). The cards, the thread and the watchlist are Claude's drafts from research, for Andre's review; only passages marked as Andre's are his. Card names are given so the chapter can point to Appendix A.*
+
+### The flag without an owner
+
+*The machine-auditor card (`machine-auditors-2006`) is the closest precedent for the Evaluator, and the warning. Brazil's auditor reads every federal tender notice each day, and Korea's competition authority scores every reported awarded tender for collusion. Both decide nothing and only flag. Both fell out of use for years: in Korea 7 of 10,036 flags had been followed up by 2017, and Brazil's screen was found in disuse in 2018. Each was repaired by making a step obligatory. Andre asked for the card because they "show failed protocols". The card's line: "it has worked only where someone is obliged to act on the flag." The bot council's unsent question C7, in chapter 10's hidden note, says the same. For the Evaluator, that is the keyholder: a flagged line that no named person must answer is a flag nobody reads.*
+
+*The card's other tensions, each a design question for this chapter (Claude's):*
+
+- *Volume against attention: a screen cheap enough to run on everything flags more than its readers can read; each Brazilian alert took an auditor up to seven working days. Rare items flagged, never silently priced (decision 45), need a cap that fits the keyholder's time.*
+- *Secret tests against published checks: neither authority publishes its tests, while Andre leans to a public buyer-side code base (positions §9). Chapter 10's exploit passages are the cost of publishing.*
+- *Screens made for people, reading bids made by machines: narrow spreads and bids close to the estimate are the collusion indicators, "and they are also what independent bots working from the same public price history would produce with no agreement between them". This is the collusion notes' problem (Part 3.4) seen from the auditor's side.*
+
+### The record the Evaluator keeps
+
+*The watchlist's expected site "evaluation provenance log" (Claude's): Trax shows that a record of which model produced which output, for whom and when, is the missing input. The Evaluator's hash-chained ledger is a first instance; chapter 7 tells why a court would ask for it.*
