@@ -1,0 +1,35 @@
+# Build output (print PDF, EPUB, site)
+_book/
+_site/
+site/
+build/
+dist/
+*.pdf
+*.epub
+.quarto/
+
+# Cover art and typeset files stay outside the CC BY licence; keep them out of the repo
+cover/
+*.psd
+*.afdesign
+*.indd
+
+# Python (book factory and MkDocs)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local secrets and private notes
+.env
+*.local.md
+private/
