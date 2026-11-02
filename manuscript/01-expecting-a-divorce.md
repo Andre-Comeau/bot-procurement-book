@@ -52,3 +52,17 @@ Paths are relative to construction-procurement-protocols unless they start with 
 (positions §21, recorded 2026-10-11)
 
 *Word count of the passages above is about 470 of the 1,200 target. Left for chapter 5: the duty-to-report passages, the banana peel and the construction manager as a fourth party.*
+
+*Added 2026-11-02: evidence that bidders already price the errors. Andre's reaction on reading what the Texas payment reports show of quantities bid and paid:*
+
+> This feels like strong evidence of strategic bidding based on tender deficiencies, the type we debated in the project's discovery phase.
+
+(positions §2.7, added 2026-10-16)
+
+*Claude's figures behind it, from the same section (1,230 Texas contracts paid out): 40% of priced lines were paid under 95% of the tendered quantity. On lines paid under 80%, every bidder had priced cheap against the middle of the bids (the low bidder 21% under) while the engineer's estimate sat 13% over: the overstated quantities were visible to the market and priced, not reported. In 20% of contracts another bidder would have been cheapest at the quantities actually paid, at a cost of 1.5% of all that was paid. In one sentence: the present system prices the deficiencies into the bids and pays for the order of the bids being wrong about one time in five. Check the figures against `work-packages/estimator/RESULTS.md` before printing them.*
+
+*The word for the bidder's cushion. Andre's Galbraith note (in the hidden note above) frames it: the cushion is slack, and the book's choice is to raise processing capacity instead. His older sentence on the limit of any tool:*
+
+> The tool is a hack that cuts across the tensions created by these artifacts: the procurement documents, the construction contract and the building model. The tool can work without understanding those forces, but the existing literature could give insight for building it. More importantly, the research should expose the limits of bot procurement. The Bidder's bot can only be as accurate as the Buyer's data.
+
+(`context-bank/background-notes.md`, "The tool and the artifacts it cuts across", recorded 2026-10-01)

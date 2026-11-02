@@ -9,3 +9,53 @@ Literature (`literature-review-2026-11-01.md`, Part 1): Simon 1944; Banwell 1964
 Paths are relative to construction-procurement-protocols unless they start with C:\.
 -->
 
+## Source passages (to cut and rewrite)
+
+*Laid out by Claude on 2026-11-02. Quoted passages marked "Andre" are his, copied unchanged from the file named under them; the source repository records these as his words, lightly edited from conversation. **The THESIS passages below are not Andre's**: THESIS.md is Claude's draft outline of 2026-10-05, "for the author to rewrite in his own words if it is to be used". They are quoted so the chapter can be redrafted from them, as the outline asks. Notes in italics are Claude's. Delete this section as the chapter is written.*
+
+### The loop
+
+*Claude's draft (THESIS section 1):*
+
+> Pricing building work has run on one loop for about two centuries. Someone measures the design into quantities (the bill of quantities, or the agency's pay-item schedule). Rivals price those quantities in sealed envelopes opened at a fixed hour, and the lowest responsible bid wins (the sealed-bid machine). The opened envelopes become a tabulation, and the tabulations become the next year's price book and the owner's next estimate (the cost-data machine). Around the loop sit three institutions that keep it comparable: a standard-form contract that fixes who bears which risk, a plan room that makes sure every bidder saw the same documents, and a standards body that fixes what each item is called and how it is measured.
+
+*The eras the cards use are Andre's (decision 113, said 2026-10-12):*
+
+> Core eras: Modernity: 1200-1600, Divergence: 1600-2000, Liveness: 2000-2400. These are the eras when they are being built, they operate for 400 years afterwards and fade for 200 years after that. We can cut off Liveness at 2400.
+
+*So the six machines of the loop, begun between 1800 and 1900, were built in Divergence, and their character follows: legible and bureaucratic, built to remove discretion and let mass institutions trust each other (THESIS section 1, Claude's words).*
+
+### Where the loop is fraying
+
+*Claude's draft (THESIS section 2), one tension at each joint:*
+
+> - The measuring machine needs a complete design before tender; design-build and construction management remove it, and building models and AI take-off remove the measurer.
+> - The sealed-bid machine's own law (price only; a bid once opened is a contract) is being bypassed by best-value selection and alternative delivery, which now approaches half of US construction spending.
+> - The cost-data machine is being split between sold databases and free bid tabulations, and its accuracy, measured by this project on a million Texas rows, is level with a moving average.
+> - The standard forms are sold, copyright-locked, and silent on building models and automated tools.
+> - The plan room is being hollowed into owner portals and data standards; the depositories survive only where mandatory.
+> - The standards bodies license their vocabulary while the machine consumers of it want versioned, open schemas.
+
+*Check the "half of US construction spending" figure before printing.*
+
+### The two machines that grew out of the fraying
+
+*Claude's draft (THESIS section 2): open bid data (the tabulation as a dataset, 1982 onward, published as open data from 2014 and, in Texas, as every bidder's item price from 2025) and alternative delivery (the family of bypasses). "Both are plural, negotiated and data-shaped, as the loop's own machines were not."*
+
+*Andre on alternative delivery, from the integrated-delivery note (the full passages are in chapter 3): "The market-rate verification inherent in the traditional competitive tender continues to provide significant value that is difficult to replicate in an integrated approach." (`context-bank/background-notes.md`, section 2)*
+
+*Andre on where the loop could go, the German bill of quantities exchanged as data:*
+
+> Bot-based procurement would pull the Canadian system towards the German approach, in which the bill of quantities is exchanged as data in the GAEB format, so we should learn more about it. It may also inform the documentation system for the Witness. If changes can be priced using the GAEB structure, that may help the F&R Reviewer. I do not yet know enough to say how to use it, but it is a very promising angle.
+
+(`context-bank/background-notes.md`, section 4b)
+
+### How the cards can carry the chapter
+
+> This was meant to be a brake on card generation to avoid burying the lede with an excess of cards. Card proliferation would work well for AI context building, but would easily overwhelm our human tweet sized attention span especially since our presentation did not use narrative tension to hold the reader's attention.
+>
+> The internal tensions in the cards may be worth developing since this could create the drama needed to make the ideas legible to humans.
+
+(positions §12, added 2026-10-17)
+
+*So the chapter can use each card's tension as its drama, citing the cards by name and leaving the full deck to Appendix A. The machinery figure (`images/machinery-thicket.png`) is the candidate illustration for this Part.*
