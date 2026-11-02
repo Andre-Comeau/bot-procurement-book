@@ -24,6 +24,8 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 (Andre, project thread, 2026-11-02)
 
+*Andre's hammer, itemised (Andre, 2026-11-02): an M4 titanium-handle, 12 oz dimple steel head, curved grip finish hammer, Signature Series. List price about $332 USD. The "$600" is what it costs landed in Canada, after the exchange rate, HST and shipping. So both $600 hammers are made of parts the sticker doesn't show: one is mostly overhead spread across a parts order, the other is mostly currency, tax and freight. A reader has to open the number to judge it, and that is what the reference reading does.*
+
 *To ask Andre for: one or two sentences in his words on what makes his hammer worth $600 (steel, balance, years of use, what it lets him do). That passage carries the opening.*
 
 *Callback reminders have been placed in chapters 2, 4, 6, 7, 9, 10 and 11. They may not all be used; they are there to prompt ideas.*
