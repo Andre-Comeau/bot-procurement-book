@@ -82,13 +82,19 @@ site_dir: ../_site/{slug}
 theme:
   name: material
   features: [navigation.sections, navigation.footer, navigation.top]
+  font: false
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: custom
+      accent: custom
       toggle: {{icon: material/brightness-4, name: Dark mode}}
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: custom
+      accent: custom
       toggle: {{icon: material/brightness-7, name: Light mode}}
+extra_css: [stylesheets/book.css]
 markdown_extensions: [attr_list, footnotes, admonition]
 nav:
   - Home: index.md
@@ -153,6 +159,8 @@ def main():
     (work / "index.md").write_text(WORKING_HOME.format(toc="\n".join(wtoc)), encoding="utf-8")
     nav.append('  - "Working copy":\n' + "\n".join(wnav))
     shutil.copytree(ROOT / "images", docs / "images", ignore=shutil.ignore_patterns("README.md", "*.py", "*.js", "*.html"))
+    (docs / "stylesheets").mkdir()
+    shutil.copy(ROOT / "theme" / "book.css", docs / "stylesheets" / "book.css")
     (docs / "index.md").write_text(HOME.format(toc="\n".join(toc)), encoding="utf-8")
     site = ROOT / "_site"
     shutil.rmtree(site, ignore_errors=True)
