@@ -6,5 +6,7 @@
   "name": "bot-procurement-book",
   "compatibility_date": "2026-07-01",
   "assets": { "directory": "./_site", "not_found_handling": "404-page" },
-  "routes": [{ "pattern": "books.andrecomeau.xyz", "custom_domain": true }]
+  "routes": [{ "pattern": "books.andrecomeau.xyz", "custom_domain": true }],
+  // Pull requests get a private preview copy via `wrangler preview`, which needs this block (it can stay empty).
+  "previews": {}
 }
