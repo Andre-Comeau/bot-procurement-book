@@ -5,6 +5,7 @@ Part I. The question
 Target: 1,200 words, redraft
 Brief: The tensions of tendering: the one-shotted design, the long compile, the bidder who prices the errors and sues later. The three-way nexus from the case study's opening paragraph is the chapter's spine.
 Sources: `case-studies/andre-comeau/README.md` (opening and "Who bears the cost of finding errors"), the two paragraphs on tenders ignored or overpriced from `sentences-since-3-october.md`. Andre, 2026-10-31, after reading Galbraith (verbatim): "Our work would raise the organizational capacity to process information. This feels like the correct approach since the current system of PDFs and digital drawings does not seem to produce any slack over the use of paper plan's room. They did raise processing capacity by removing the need to travel to bid, but the actual attention needed remained the same." (In Jay Galbraith's terms the bidder's cushion for drawing errors is slack; the book's choice is to raise processing capacity instead.)
+Literature (`literature-review-2026-11-01.md`, Part 1): Bajari, Houghton & Tadelis 2014 (adaptation costs 7.5 to 14 percent of the winning bid puts a number on pricing the errors); Thaler, *The Winner's Curse*; Latham 1994; Tirole 2009.
 Paths are relative to construction-procurement-protocols unless they start with C:\.
 -->
 

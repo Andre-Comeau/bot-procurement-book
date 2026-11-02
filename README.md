@@ -9,11 +9,14 @@ The book is being written in public during the Protocol Institute's [PiBoWriMo 2
 ## Layout
 
 - `outline.md`: the outline, with each chapter's target length, brief and sources.
-- `manuscript/`: one Markdown file per chapter, in reading order. Each starts with a hidden note (`<!-- -->`) giving its target length, brief and sources. The note doesn't show in the built book and is deleted when the chapter is done.
+- `manuscript/`: one Markdown file per chapter, in reading order. Each starts with a hidden note (`<!-- -->`) giving its target length, brief, sources and the literature to read first. The note doesn't show in the built book and is deleted when the chapter is done.
   - Chapter numbers moved on 2026-10-31: `06b-the-bot-in-the-witness-box.md` is the new chapter 7, and files `07` to `10` hold chapters 8 to 11. File names keep reading order; the outline holds the numbers.
   - `00b-prologue.md` is the author's status write-up for the Institute, placed as the prologue. It may fold into the introduction.
 - `institute-write-up-review-2026-10-14.md`: a review of that write-up, with the lightly copyedited text.
 - `machinery-figure-chat-2026-10.md`: notes on the machinery figure and its eight tension lines.
+- `literature-review-2026-11-01.md`: a literature review of about 165 works (1 November 2026). Part 1 is the synthesis: what has been written near the book, the gaps it fills, what cuts against it, and what to read for each chapter. Parts 2 to 6 are the annotated sources, a shelf for Appendix B; Part 6, the verification pass, wins over earlier parts.
+- `collusion-papers-notes-2026-11-01.md`: a close reading of the Seoul National University papers on AI bidders colluding in construction tenders, a test of the argument that public bid data commoditizes pricing, and what follows for the book's design.
+- `images/`: figures for the book, the site and the listing.
 - `CLAUDE.md`: house rules for the AI assistant that helps with drafting.
 
 Paths in the chapter notes are relative to the author's `construction-procurement-protocols` repository unless they start with `C:\`.
