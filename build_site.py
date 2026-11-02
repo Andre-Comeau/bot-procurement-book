@@ -27,7 +27,7 @@ PARTS = [
     ("Part I. The question", [
         ("01-expecting-a-divorce.md", "1. Starting a relationship expecting a divorce"),
         ("02-the-tender-is-the-api.md", "2. The tender is the API"),
-        ("03-how-a-price-is-judged-today.md", "3. How a tender is judged today")]),
+        ("03-how-a-price-is-judged-today.md", "3. How a price is judged today")]),
     ("Part II. The machines", [
         ("04-two-centuries-of-one-loop.md", "4. Two centuries of one loop"),
         ("05-liability-shifts.md", "5. Liability shifts to the user's bot"),
@@ -49,7 +49,7 @@ HOME = """# Bot Procurement Book
 
 *Working title. A book in progress, written in public during the Protocol Institute's PiBoWriMo, November 2026.*
 
-**Is this in the public interest?** A short manifesto on how anyone knows a construction tender serves the public, why a price can only be judged against the requirements it answers, and what happens to procurement when a bot can check them.
+**When a bot causes harm, who pays?** A short manifesto on liability in construction procurement, public and private, and the standard that has to exist before owners, bidders and courts can rely on a bot.
 
 ![The machinery: the procurement system, the estimator and bot procurement on one ground; BIM, bot monitoring and robotic construction on another, with what each machine makes for the next](images/machinery-thicket.png)
 

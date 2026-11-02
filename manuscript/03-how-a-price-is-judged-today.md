@@ -1,2 +1,2 @@
-# How a tender is judged today
+# How a price is judged today
 
