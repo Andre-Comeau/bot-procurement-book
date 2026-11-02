@@ -6,6 +6,10 @@ writes the site to _site/bot-procurement/. A _redirects file sends
 the bare books.andrecomeau.xyz to the book until there is a shelf page. Chapters not yet published still appear in the
 home page's contents, marked "in progress".
 
+Every chapter and the outline are also built into a "Working copy" section
+(docs/working/), so the draft can be read without GitHub. The hidden notes are
+stripped there too: they point at private folders and stay out of the site.
+
     pip install -r requirements.txt
     python build_site.py && mkdocs build -f _site_src/mkdocs.yml
 """
@@ -57,6 +61,8 @@ HOME = """# Bot Procurement Book
 
 Chapters appear here as they are drafted. The source is on [GitHub](https://github.com/Andre-Comeau/bot-procurement-book).
 
+**Working copy.** Every chapter as it stands today, drafts and stubs included, is in the [working copy](working/index.md). It changes often.
+
 ## Contents
 
 {toc}
@@ -89,6 +95,28 @@ nav:
 {nav}"""
 
 
+WORKING_BANNER = """!!! warning "Working copy"
+    Draft text, rebuilt from the manuscript on every change. Stubs and source passages
+    are still here, and none of it is final. [Back to the working copy contents](index.md)
+
+"""
+
+WORKING_HOME = """# Working copy
+
+Every chapter as it stands in the manuscript today, with the outline. Drafts, stubs and
+source passages laid out for rewriting are all shown. Chapters marked *published* on the
+[home page](../index.md) are the ones ready to read.
+
+- [Outline](outline.md)
+
+{toc}
+"""
+
+
+def strip_notes(text):
+    return re.sub(r"<!--.*?-->\s*", "", text, flags=re.S)
+
+
 def main():
     shutil.rmtree(OUT, ignore_errors=True)
     docs = OUT / "docs"
@@ -100,8 +128,7 @@ def main():
         for name, title in chapters:
             if name in PUBLISHED:
                 text = (SRC / name).read_text(encoding="utf-8")
-                text = re.sub(r"<!--.*?-->\s*", "", text, flags=re.S)
-                (docs / name).write_text(text, encoding="utf-8")
+                (docs / name).write_text(strip_notes(text), encoding="utf-8")
                 toc.append(f"- [{title}]({name})")
                 items.append(f'      - "{title}": {name}')
             else:
@@ -109,6 +136,22 @@ def main():
         toc.append("")
         if items:
             nav.append(f'  - "{part}":\n' + "\n".join(items))
+    # Working copy: every chapter and the outline, notes stripped.
+    work = docs / "working"
+    work.mkdir()
+    wtoc, wnav = [], ['      - "Contents": working/index.md', '      - "Outline": working/outline.md']
+    outline = strip_notes((ROOT / "outline.md").read_text(encoding="utf-8"))
+    (work / "outline.md").write_text(WORKING_BANNER + outline, encoding="utf-8")
+    for part, chapters in PARTS:
+        wtoc.append(f"**{part}**\n")
+        for name, title in chapters:
+            text = strip_notes((SRC / name).read_text(encoding="utf-8"))
+            (work / name).write_text(WORKING_BANNER + text, encoding="utf-8")
+            wtoc.append(f"- [{title}]({name})")
+            wnav.append(f'      - "{title}": working/{name}')
+        wtoc.append("")
+    (work / "index.md").write_text(WORKING_HOME.format(toc="\n".join(wtoc)), encoding="utf-8")
+    nav.append('  - "Working copy":\n' + "\n".join(wnav))
     shutil.copytree(ROOT / "images", docs / "images", ignore=shutil.ignore_patterns("README.md", "*.py", "*.js", "*.html"))
     (docs / "index.md").write_text(HOME.format(toc="\n".join(toc)), encoding="utf-8")
     site = ROOT / "_site"
