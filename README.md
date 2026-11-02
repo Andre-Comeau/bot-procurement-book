@@ -4,7 +4,7 @@ A short book that asks one question: *is this construction price fair and reason
 
 The book is being written in public during the Protocol Institute's [PiBoWriMo 2026](https://protocol-institute.org/events/pibowrimo-2026/), from November 1 to 30. It grows out of Andre Comeau's construction procurement protocols case study for the Institute's Protocols for Business group. The target is 8,000 to 15,000 words of main text, with an illustrated appendix of "Procurement Machines" cards.
 
-**Status:** draft. The outline is settled, the prologue and chapter 1 have first drafts, and the other chapters are stubs.
+**Status:** draft. The outline is settled, the prologue has a first draft, and every chapter now holds its source passages (Andre's quoted sentences and Claude's marked notes) under the sections it will need, ready to cut and rewrite.
 
 ## Layout
 
