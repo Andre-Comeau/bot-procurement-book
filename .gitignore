@@ -2,6 +2,7 @@
 _book/
 _site/
 site/
+_site_src/
 build/
 dist/
 *.pdf

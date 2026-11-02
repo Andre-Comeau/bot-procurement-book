@@ -1,0 +1,10 @@
+{
+  // Serves the built book site (_site/) as static files at book.andrecomeau.xyz.
+  // Cloudflare Workers Builds runs, on every push to main:
+  //   build:  pip install -r requirements.txt && python build_site.py && mkdocs build -f _site_src/mkdocs.yml
+  //   deploy: npx wrangler deploy
+  "name": "bot-procurement-book",
+  "compatibility_date": "2026-07-01",
+  "assets": { "directory": "./_site", "not_found_handling": "404-page" },
+  "routes": [{ "pattern": "book.andrecomeau.xyz", "custom_domain": true }]
+}
