@@ -1,6 +1,6 @@
 # Bot Procurement Book
 
-A short book that asks one question: *is this construction price fair and reasonable?*, and what happens to public procurement when a bot can answer it. The working title is *The Reasonable Bot*.
+A short book that asks one question: *is this construction tender in the public interest?*, and what happens to public procurement when a bot can answer the parts of it that can be checked. A price can only be judged against the requirements it answers, so the tender is what gets judged and price is one input. The working title is *The Reasonable Bot*.
 
 The book is being written in public during the Protocol Institute's [PiBoWriMo 2026](https://protocol-institute.org/events/pibowrimo-2026/), from November 1 to 30. It grows out of Andre Comeau's construction procurement protocols case study for the Institute's Protocols for Business group. The target is 8,000 to 15,000 words of main text, with an illustrated appendix of "Procurement Machines" cards.
 
