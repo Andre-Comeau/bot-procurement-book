@@ -34,3 +34,6 @@ desktop.ini
 .env
 *.local.md
 private/
+
+# Wrangler local dev state
+.wrangler/
