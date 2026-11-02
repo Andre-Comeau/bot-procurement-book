@@ -1,8 +1,9 @@
-"""Build the book site (book.andrecomeau.xyz) from manuscript/.
+"""Build the book site (books.andrecomeau.xyz/bot-procurement/) from manuscript/.
 
 Copies the chapters listed in PUBLISHED into _site_src/docs, strips the hidden
 <!-- --> notes, writes the home page and mkdocs.yml, then `mkdocs build`
-writes the site to _site/. Chapters not yet published still appear in the
+writes the site to _site/bot-procurement/. A _redirects file sends
+the bare books.andrecomeau.xyz to the book until there is a shelf page. Chapters not yet published still appear in the
 home page's contents, marked "in progress".
 
     pip install -r requirements.txt
@@ -12,6 +13,7 @@ import pathlib, re, shutil
 
 ROOT = pathlib.Path(__file__).parent
 SRC, OUT = ROOT / "manuscript", ROOT / "_site_src"
+SLUG = "bot-procurement"  # the book's path on books.andrecomeau.xyz
 
 # Chapters that go on the public site. Add a file here when it is ready to read.
 PUBLISHED = {"00b-prologue.md"}
@@ -57,12 +59,12 @@ By Andre Comeau. Text licensed [CC BY 4.0](https://creativecommons.org/licenses/
 """
 
 CONFIG = """site_name: Bot Procurement Book
-site_url: https://book.andrecomeau.xyz/
+site_url: https://books.andrecomeau.xyz/{slug}/
 site_author: Andre Comeau
 copyright: Text by Andre Comeau, CC BY 4.0
 repo_url: https://github.com/Andre-Comeau/bot-procurement-book
 docs_dir: docs
-site_dir: ../_site
+site_dir: ../_site/{slug}
 theme:
   name: material
   features: [navigation.sections, navigation.footer, navigation.top]
@@ -100,7 +102,11 @@ def main():
         if items:
             nav.append(f'  - "{part}":\n' + "\n".join(items))
     (docs / "index.md").write_text(HOME.format(toc="\n".join(toc)), encoding="utf-8")
-    (OUT / "mkdocs.yml").write_text(CONFIG.format(nav="\n".join(nav) + "\n"), encoding="utf-8")
+    site = ROOT / "_site"
+    shutil.rmtree(site, ignore_errors=True)
+    site.mkdir()
+    (site / "_redirects").write_text(f"/ /{SLUG}/ 302\n", encoding="utf-8")
+    (OUT / "mkdocs.yml").write_text(CONFIG.format(slug=SLUG, nav="\n".join(nav) + "\n"), encoding="utf-8")
 
 
 if __name__ == "__main__":
