@@ -105,7 +105,7 @@ def main():
         toc.append("")
         if items:
             nav.append(f'  - "{part}":\n' + "\n".join(items))
-    shutil.copytree(ROOT / "images", docs / "images", ignore=shutil.ignore_patterns("README.md"))
+    shutil.copytree(ROOT / "images", docs / "images", ignore=shutil.ignore_patterns("README.md", "*.py", "*.js", "*.html"))
     (docs / "index.md").write_text(HOME.format(toc="\n".join(toc)), encoding="utf-8")
     site = ROOT / "_site"
     shutil.rmtree(site, ignore_errors=True)

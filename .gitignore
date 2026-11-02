@@ -37,3 +37,6 @@ private/
 
 # Wrangler local dev state
 .wrangler/
+
+# Intermediate page written when rebuilding the hex map figure
+images/*.html
