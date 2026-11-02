@@ -16,6 +16,7 @@ Open notes, still to be settled in Andre's words:
   - worker autonomy, the project's top goal;
   - optionally, the civil-law contrast after the Hammurabi paragraph;
   - optionally, "reasonable bidder" in place of "reasonable person".
+Literature (`literature-review-2026-11-01.md`, Part 1): Abbott 2020 is the nearest title; Rao, *The Protocol Reader*, for the protocol frame.
 -->
 
 The Stevenson Test states that nature does not allow for appeals. Civilizations are the product of world
