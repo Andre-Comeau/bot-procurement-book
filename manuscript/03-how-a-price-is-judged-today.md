@@ -1,9 +1,9 @@
-# How a tender is judged today
+# How a price is judged today
 
 <!--
 Part I. The question
 Target: 1,200 words, mostly new
-Reframed 2026-11-02 (Andre): the question is "Is this in the public interest?", and judging the price depends on the requirements. Open the chapter on that question; fair and reasonable is the narrow legal test for price inside it. Andre's own early correction fits here: a price unfair "viewed independently" can still be best value (see the prologue's note on origins). Claude's caution: public interest is contested and cannot be rerun the way a price can, so say which parts a bot can check (requirements complete and consistent, price fits them) and which stay with the keyholder.
+Recentred 2026-11-02 (Andre): the book's question is "When a bot causes harm, who pays?". This chapter holds the public buyer's narrower question, "Is this in the public interest?": a price can only be judged against the requirements it answers, and fair and reasonable is the legal test for the price part. Andre's early correction fits here: a price unfair "viewed independently" can still be best value (see the prologue's note on origins).
 Brief: What "fair and reasonable" means to a public buyer, the engineer's estimate, the sold price books and the free bid tabulations, and the author's finding that a bot comes within about 20 percent of a human price line by line and must come within 2 to 3 percent before anyone trusts it alone.
 Sources: positions 18, 22 and 23 (margins, return on capital, the bid cushion); `context-bank/what-buyers-pay.md`; `context-bank/bot-procurement-process.md`; `context-bank/contractor-margins.md` for one or two figures only.
 Correction (2026-11-02, checked against `C:\hex_ai\estimator-workspace\RESULTS.md`): "within 20 percent" is slightly generous. Line by line on the locked test set, v0.3 misses the mean of the three lowest bids by a median 21.0% against the engineer's estimate's 28.6%; at the contract total by 13.0% against 14.4%. Say "about 20 percent" or "about a fifth". Useful for the chapter: the target itself is noisy, since the three lowest bidders differ from each other by a median 50% line by line, and one of them misses the other two by a median 25%. The engineer's estimate misses the three-lowest total by a median 11.2%.
