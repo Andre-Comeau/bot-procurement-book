@@ -14,6 +14,20 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 *Laid out by Claude on 2026-11-02. Every quoted passage is Andre's, copied unchanged from the file named under it; the source repository records these as his words, lightly edited from conversation. Notes in italics are Claude's. Delete this section as the chapter is written. The outline calls this chapter "mostly new", so there is less of Andre's text here than elsewhere.*
 
+### Opening: two $600 hammers
+
+*Andre's choice of opening, 2026-11-02 (the Ephesus card below can follow it). Andre owns a $600 hammer: "It is amazing and worth every penny." The Pentagon's $600 hammer was something else: a hammer of about $15 in a bulk spare-parts order where the contractor spread engineering and support overhead evenly across every line, so the hammer came to about $435, which the press rounded to $600 (Sydney J. Freedberg Jr., "The myth of the $600 hammer," Government Executive, 7 December 1998; Steven Kelman, quoted there: "an accounting artifact"). Same price, opposite answers to the book's question. The price on its own cannot tell you which hammer you are looking at.*
+
+*Why this is a bot's job (Andre, 2026-11-02): it is "the sort of thing bots could resolve that current estimating software would struggle with." Software prices each line against a cost database, so both hammers look absurd. A bot that reads the whole bid and the specification can see why each number is what it is: the overhead spread flat across the lines in one case, a specified premium tool in the other.*
+
+> I own a $600 hammer. It is amazing and worth every penny. The one in the story may have been a victim of overhead mark-up, but this is the sort of thing bots could resolve that current estimating software would struggle with.
+
+(Andre, project thread, 2026-11-02)
+
+*To ask Andre for: one or two sentences in his words on what makes his hammer worth $600 (steel, balance, years of use, what it lets him do). That passage carries the opening.*
+
+*Callback reminders have been placed in chapters 2, 4, 6, 7, 9, 10 and 11. They may not all be used; they are there to prompt ideas.*
+
 ### What "fair and reasonable" means to a public buyer
 
 *Two moments when a price must be judged: at tender, by the market, and after award, when there is no market. Andre's sentences on both:*

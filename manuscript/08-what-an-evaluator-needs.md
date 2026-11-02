@@ -75,3 +75,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 ### The record the Evaluator keeps
 
 *The watchlist's expected site "evaluation provenance log" (Claude's): Trax shows that a record of which model produced which output, for whom and when, is the missing input. The Evaluator's hash-chained ledger is a first instance; chapter 7 tells why a court would ask for it.*
+
+### Callback: the two $600 hammers
+
+*Reminder added 2026-11-02 (chapter 3 opens on Andre's $600 hammer and the Pentagon's). It may not be used; it is here to prompt ideas.* *A concrete test for the Evaluator: given a bid where one line looks absurd, can it say whether the line is an allocation artifact, a specified premium item, or a real outlier? The answer needs the whole bid and the specification, not a price database. A possible item for the validation set.*

@@ -74,3 +74,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 ### Who signs a machine's number
 
 *From the warranted-estimate card's second tension (Claude's): if a bot produces the number, a person must still stand behind it with something at stake, "or the estimate is a guess with a signature". The Ephesian architect pledged his property; the keyholder in this chapter pledges a signature and a stated reason. Laid out in full in chapter 3.*
+
+### Callback: the two $600 hammers
+
+*Reminder added 2026-11-02 (chapter 3 opens on Andre's $600 hammer and the Pentagon's). It may not be used; it is here to prompt ideas.* *The court's question can be put as "which hammer was this?" A line-item lookup cannot answer it; a rerunnable reading of the whole bid and specification can, and a third party can repeat it. Note Andre's rule (2026-11-01): the bot's own explanation is not the evidence; the repeatable reading is.*

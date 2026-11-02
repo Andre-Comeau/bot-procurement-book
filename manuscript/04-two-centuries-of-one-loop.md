@@ -90,3 +90,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 ### Failed protocols
 
 *Andre asked for the machine-auditor card because the auditors "would be good cards for the Procurement Machines since they show failed protocols" (2026-10-13, quoted in the card's notes). Brazil's and Korea's screens read every tender or awarded bid by machine and fell out of use for years because nobody was obliged to act on their flags; each was repaired by making a step obligatory. The lesson belongs in chapter 9, but the chapter can name it here as the loop's first machine participant.*
+
+### Callback: the two $600 hammers
+
+*Reminder added 2026-11-02 (chapter 3 opens on Andre's $600 hammer and the Pentagon's). It may not be used; it is here to prompt ideas.* *What does the loop do with a $435 hammer? Opened bids become next year's price book, so an allocation artifact enters the book as a hammer price unless someone reads the whole bid. A way to show how the loop can carry its own errors forward, and why unit prices from bid tabs are not costs.*

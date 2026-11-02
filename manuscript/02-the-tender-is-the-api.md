@@ -64,3 +64,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 ### The question the chapter leaves open
 
 *The case study lists it among its open questions (the wording may be Claude's, since Claude wrote the case study's connecting passages): "Whether redescribing procurement as software development holds up as more than a useful metaphor is the deepest open question, and the one this write-up tests the least." Worth one honest paragraph at the chapter's end.*
+
+### Callback: the two $600 hammers
+
+*Reminder added 2026-11-02 (chapter 3 opens on Andre's $600 hammer and the Pentagon's). It may not be used; it is here to prompt ideas.* *The Pentagon hammer's price was an allocation choice buried in a PDF-era line item. If the bid were data, with overhead carried as its own line and the item's specification attached, the $435 would have read as $15 plus an allocation rule. Does the API need a field for how indirect costs are spread?*

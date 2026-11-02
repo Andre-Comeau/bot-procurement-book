@@ -49,3 +49,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 (`work-packages/procurement-machines/bot-philosophy.md`, "Philosophy of bots", said 2026-10-11)
 
 *This closes the circle the prologue opens with the Stevenson Test ("nature does not allow for appeals"): if the bots take the attention-heavy work, what is left for people is imagining what to build and appealing what was decided. Andre kept this box apart from the build so as not to bring "more woo to the pragmatic solutions"; a closing chapter may be the one place it fits. His call.*
+
+### Callback: the two $600 hammers
+
+*Reminder added 2026-11-02 (chapter 3 opens on Andre's $600 hammer and the Pentagon's). It may not be used; it is here to prompt ideas.* *Andre's own hammer is a non-price story: a tool worth paying for because of what it lets a craftsperson do. Once a bot settles whether a price is fair, competition can move to the hammers worth $600, which is Scitovsky's shift to non-price value and, perhaps, autonomy in the imagining.*

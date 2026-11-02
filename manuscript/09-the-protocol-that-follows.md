@@ -147,3 +147,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 ### Weights declared before the bids open
 
 *The watchlist's expected site "declared weights" (Claude's): best-value evaluations state their factors in prose. A machine-readable declaration, fixed before bids open, "is what would make an AI's choice of best checkable afterwards". It is the precondition for the pinned-and-published horizon above.*
+
+### Callback: the two $600 hammers
+
+*Reminder added 2026-11-02 (chapter 3 opens on Andre's $600 hammer and the Pentagon's). It may not be used; it is here to prompt ideas.* *For the standard: what the record must show so anyone can tell the two hammers apart (how indirect costs were allocated, which specification line the item answers). Ties to Andre's rule on what stays hidden: the bidder's actual costs stay private, but the allocation method may need to be declared.*

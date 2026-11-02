@@ -40,3 +40,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 ### Admitting uncertainty, with consequences on pricing
 
 *No further passage of Andre's on file. Two things already built follow his rule and could close the chapter: rare items are included and flagged, never silently priced, "as items a keyholder may want to adjust by hand" (decision 45); and the error rate is to be disclosed with every number (the outline's chapter 9 brief, 2026-10-31). Both make the outside of the estimate say how much the inside knows.*
+
+### Callback: the two $600 hammers
+
+*Reminder added 2026-11-02 (chapter 3 opens on Andre's $600 hammer and the Pentagon's). It may not be used; it is here to prompt ideas.* *A price tag is the outside of the banana. Both hammers had the same outside; only the inside (an overhead rule in one, a premium tool in the other) tells you which is fair. The honest design shows the inside: declare how the number was built, including the uncertainty.*
