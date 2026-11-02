@@ -54,3 +54,23 @@ Paths are relative to construction-procurement-protocols unless they start with 
 ### The keyholder
 
 *The keyholder is Andre's term for the person who signs the number and adjusts the flagged lines (THESIS section 4, citing decision 45). The chapter's last witness is a person: the keyholder who chose to rely on the bot.*
+
+## From the Procurement Machines
+
+*Added 2026-11-02 from the Procurement Machines work package (`work-packages/procurement-machines/`). The cards, the thread and the watchlist are Claude's drafts from research, for Andre's review; only passages marked as Andre's are his. Card names are given so the chapter can point to Appendix A.*
+
+### Trax as a whorl in the grain
+
+*The Trax event card (`trax-v-united-states-2026`) is the one real case the constructed one can lean on. A bidder that lost a $449.4 million Army award sued; the court ordered the agency's AI evaluations into the record as considered, and let the award stand. The card reads it as a "whorl", five flows meeting at one place (Claude's reading):*
+
+- *the record doctrine: a court can order into the record whatever the decision-makers considered;*
+- *a contraption with no log: a prototype built in six weeks by two staff, run on live proposals with no logging, "so nothing existed to show who saw which output";*
+- *the evaluation narrative: boards write long findings under rules that describe several steps as checklists, the work a drafting tool can imitate;*
+- *a best-value award, which rests on narrative findings, "where an AI draft is hardest to tell from a human one";*
+- *the disclosure gap: bidders are asked to disclose their AI while agencies are not.*
+
+*Its five predictions (Claude's guesses, with windows) are a ready list for the chapter's ending: agencies begin to log model, prompt, output and recipient by the end of 2027; protests routinely ask which AI reports were generated; a protest succeeds on AI reliance alone (low confidence, 2027 to 2030); evaluation provenance logging becomes a product or standard; a dispute about an agency's AI arises outside the US. Check the card's dated items before printing; they may have settled since October.*
+
+### Who signs a machine's number
+
+*From the warranted-estimate card's second tension (Claude's): if a bot produces the number, a person must still stand behind it with something at stake, "or the estimate is a guess with a signature". The Ephesian architect pledged his property; the keyholder in this chapter pledges a signature and a stated reason. Laid out in full in chapter 3.*

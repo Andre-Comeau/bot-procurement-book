@@ -59,3 +59,34 @@ Paths are relative to construction-procurement-protocols unless they start with 
 (positions §12, added 2026-10-17)
 
 *So the chapter can use each card's tension as its drama, citing the cards by name and leaving the full deck to Appendix A. The machinery figure (`images/machinery-thicket.png`) is the candidate illustration for this Part.*
+
+## From the Procurement Machines
+
+*Added 2026-11-02 from the Procurement Machines work package (`work-packages/procurement-machines/`). The cards, the thread and the watchlist are Claude's drafts from research, for Andre's review; only passages marked as Andre's are his. Card names are given so the chapter can point to Appendix A.*
+
+### The thread: from the builder's liability to the reasonable bot
+
+*The cards page opens with eight cards "in the order the argument takes them" (`thread.yaml`, Claude's lines, 2026-10-15). It could be this chapter's spine, starting a little before the two centuries, or be split with the prologue, which already opens on Hammurabi:*
+
+1. *c. 1753 BCE, the builder's liability: the builder answers for what falls down, and cannot appeal.*
+2. *493 BCE, the public letting: the state lets the work to bidders in public, with sureties and a record; "what can be appealed moves from the builder's body to the file".*
+3. *1809, sealed-bid tendering: sealed envelopes and an award rule take discretion out of the magistrate's hands.*
+4. *1873, cost data and the engineer's estimate: the owner's own number before the market speaks, the one a pricing bot is now measured against.*
+5. *1921, the bid protest and the record: an award tested against the file the agency made at the time.*
+6. *2006, the machine auditors: the first machines to take part in the loop, which fell out of use wherever nobody had to act on the flag.*
+7. *2026, Trax v. United States: an agency's AI reaches the forum (chapter 7).*
+8. *Projected, the bot-first protocol: the machine that does not exist yet (chapter 10).*
+
+*The thread's epigraph is Andre's §13 passage on the two routes ("There are two ways to make this happen…"), quoted in chapter 10.*
+
+### The older machines feed the newer
+
+*Andre's reason for giving the machines before 1809 cards of their own (decision 56, the decision's wording): world machines are theorised to develop over about four centuries, so they are machines in their own right and not footnotes to the modern ones. Claude's line from the README that carries it: "the sealed bid is the open letting with an envelope, the engineer's estimate is the Ephesian architect's number without his property, and the standards body is the lodge's ordinance made into an institute." Three extinct machines (the Roman concession, the medieval building lodges, the crown's purveyance) each lived for several centuries; they show that procurement machines do die.*
+
+### Contraptions, and how a new machine forms
+
+*From `SCHEMA.md` (Claude's wording, decision 55 at Andre's direction): a contraption is "an opportunistic assembly that exploits a gap between machines: a changed market, an output nobody uses, an input nobody makes." Contraptions are built fast, by few people, around one gap. Most collapse because their complexity grows faster than their structure; a few find structure and become machines. Open bid data and alternative delivery, this chapter's two later machines, can be told as contraptions that found structure. The watchlist also lists this project's own estimator as a contraption (chapter 8).*
+
+### Failed protocols
+
+*Andre asked for the machine-auditor card because the auditors "would be good cards for the Procurement Machines since they show failed protocols" (2026-10-13, quoted in the card's notes). Brazil's and Korea's screens read every tender or awarded bid by machine and fell out of use for years because nobody was obliged to act on their flags; each was repaired by making a step obligatory. The lesson belongs in chapter 9, but the chapter can name it here as the loop's first machine participant.*

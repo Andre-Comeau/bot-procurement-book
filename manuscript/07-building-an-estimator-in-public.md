@@ -73,3 +73,17 @@ Paths are relative to construction-procurement-protocols unless they start with 
 (`context-bank/horizon.md`, recorded 2026-10-05)
 
 *Set beside "the Estimator is the flywheel" (hidden note above), this gives the chapter its arc: the estimator began as the souvenir in case the standards fight failed, and became the thing that turns, funds and proves the standards.*
+
+## From the Procurement Machines
+
+*Added 2026-11-02 from the Procurement Machines work package (`work-packages/procurement-machines/`). The cards, the thread and the watchlist are Claude's drafts from research, for Andre's review; only passages marked as Andre's are his. Card names are given so the chapter can point to Appendix A.*
+
+### The estimator is a contraption until it finds structure
+
+*The watchlist lists this project's own estimator as a contraption (`contraption:this-project-estimator`), "because the definition applies to it too": it sits between open bid data and the engineer's estimate, and exploits the public record of every bidder's item price (Texas, from 2025) to estimate prices without buying a database. "The deliverable is a contraption until its structure outgrows its complexity."*
+
+*The signals the card names give the chapter an honest scorecard. Structure would show as a second owner running it on its own data under the same log, results that hold on a second state's data, and someone other than the author maintaining it. Collapse would show as special cases for rare items growing faster than the rule that handles them, dependence on one author, or a data source closing its window. None of the structure signals has fired yet. That fits the chapter's brief: say what the scores prove and what they don't.*
+
+### The cost-data card's measurement
+
+*The cost-data card records the project's own measurement of the engineer's estimate on Texas: a median miss of 30% per item line and 11% at the contract total, and the engineer's estimate level with a twelve-month moving average. These differ slightly from the locked-test-set figures in the hidden note above (28.6% and 14.4% against the three lowest bids). Use one set and say which.*

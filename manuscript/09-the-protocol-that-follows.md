@@ -120,3 +120,30 @@ Paths are relative to construction-procurement-protocols unless they start with 
 > A weak point of the whole project is financial compensation. Taking the whole pie would prevent adoption; having no pie will starve the project and keep it from its full potential. Speculation about the future is meant to guess its shape, so that failing to have a slice now does not mean having none later.
 
 (`context-bank/horizon.md`, "Why speculate at all: the slice of pie", recorded 2026-10-05; the "end-boss" passage from the same file is in chapter 8)
+
+## From the Procurement Machines: the projected card
+
+*Added 2026-11-02 from the Procurement Machines work package (`work-packages/procurement-machines/`). The cards, the thread and the watchlist are Claude's drafts from research, for Andre's review; only passages marked as Andre's are his. Card names are given so the chapter can point to Appendix A.*
+
+### The six tensions on the bot-first card
+
+*The card `bot-first-procurement-protocol-EXTRAP` is the chapter's prediction stated so it can be wrong. Its tensions, in Claude's words except where marked:*
+
+1. *Speed against reviewability: an agent-generated evaluation must still be a record a human board checked (Trax is the first test).*
+2. *Disclosure asymmetry: bidders must disclose their AI while agencies' own use is undisclosed.*
+3. *Compelled disclosure of deficiencies: answered by Andre's five reasons against (chapter 5).*
+4. *Open protocol against platform capture: the first agent-commerce rails are consumer rails built by payment and platform companies. The signal to watch is a government publishing its own bid-and-award schema under an open foundation rather than a vendor's. This tension is the reason the standard should be free and the estimator only its first conforming bot.*
+5. *The unpinned specification (Andre's horizon, positions §8): let the specification stay live and bids be multivariate, "and the lowest price stops being computable by a person".*
+6. *Packaged for a reasonable human, not a reasonable bot (Andre's, positions §13, quoted above).*
+
+### Why a better reader does not remove the need for a standard
+
+*From the card's notes, Claude's summary of Andre's argument (put it in his words): if models come to read documents as well as a competent person, a standard is still needed for a legal reason, because "a standard says which reading binds, which a better reader cannot supply." Claude's addition there: the law already asks what a reasonable bidder would have understood; a reference bot would define that reading, and its version would have to be pinned and logged in the record, as Trax shows. This is the hinge between this chapter and chapter 7.*
+
+### The tolerance window
+
+*The card's window, first instances 2028 to 2035, is Claude's guess, offered so the card can be wrong: "if by 2035 no public owner anywhere runs a tender whose questions, addenda, bids and evaluation are mediated by agents on a published data format, the card was wrong." Andre's own working assumption is 10 to 15 years (2036 to 2041) for the standard to take effect. Research note F reconciles the two: agent-mediated tenders will run on the old rules before any standard exists, so the first precedent comes from Trax-type disputes, not from a standard.*
+
+### Weights declared before the bids open
+
+*The watchlist's expected site "declared weights" (Claude's): best-value evaluations state their factors in prose. A machine-readable declaration, fixed before bids open, "is what would make an AI's choice of best checkable afterwards". It is the precondition for the pinned-and-published horizon above.*

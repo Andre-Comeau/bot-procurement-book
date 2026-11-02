@@ -63,3 +63,29 @@ Paths are relative to construction-procurement-protocols unless they start with 
 (positions §23, recorded 2026-10-12)
 
 *The outline allows one or two figures from `context-bank/contractor-margins.md`; none are chosen yet. Keep this section short, since the book's focus is the framework.*
+
+## From the Procurement Machines
+
+*Added 2026-11-02 from the Procurement Machines work package (`work-packages/procurement-machines/`). The cards, the thread and the watchlist are Claude's drafts from research, for Andre's review; only passages marked as Andre's are his. Card names are given so the chapter can point to Appendix A.*
+
+### The warranted estimate: an estimator who answers for the number
+
+*Claude's summary of the card `warranted-estimate-30bce`: Vitruvius reports a law of Ephesus under which an architect lodged his estimate for a public work and pledged his property against it. If the cost ran up to a quarter over, the public paid the excess; beyond that, the architect paid. It is the oldest known estimate with consequences and a tolerance band. The card's three tensions:*
+
+- *Warranty against tolerance: an estimate has a band, and someone must carry what falls outside it. Ephesus put the first quarter on the public and the rest on the architect; modern owners often push the risk to the contractor.*
+- *Who signs a machine's number: if a bot produces the number, a person must still stand behind it with something at stake, "or the estimate is a guess with a signature". This is the keyholder (chapter 9).*
+- *Reward for accuracy: Vitruvius says the law made architects careful, yet today no estimator is rewarded or punished for accuracy, and no one publishes a score.*
+
+*The README's shortest statement of the lineage: "the engineer's estimate is the Ephesian architect's number without his property." A possible opening for the chapter, in place of the $600 hammer.*
+
+### Nobody scores the engineer's estimate
+
+*From the watchlist's expected site "public scoring of estimates against outcomes" (Claude's): the federal rule that an engineer's estimate should fall within 10% of the low bid on half of projects had not been evaluated since it was set in the early 1980s, a 2019 audit found, and FHWA's 2021 guidance no longer recommends it. No one publishes held-out scores for estimators. This project's results log is a first instance. That gives the 2 to 3 percent threshold its setting: the book is asking a bot to meet a standard nobody measures humans against.*
+
+### The top of the market
+
+*Andre's rule for reading a bid against the industry model's ceiling (union labour plus equipment rented by the day):*
+
+> The new top rates seem reasonable for retail hiring. It implies having equipment and an operator almost at standby. Any bid above this rate should be suspicious or evidence of a particularly difficult requirement.
+
+(decision 88, said 2026-10-12)
