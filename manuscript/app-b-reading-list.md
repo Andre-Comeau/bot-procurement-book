@@ -9,3 +9,17 @@ Literature: `literature-review-2026-11-01.md`, Parts 2 to 6, are the annotated s
 Paths are relative to construction-procurement-protocols unless they start with C:\.
 -->
 
+## Notes the chapters now lean on
+
+*Laid out by Claude on 2026-11-02, after the source passages were placed in each chapter. These are the files in `construction-procurement-protocols` that the passages are quoted from; each needs one line here when the appendix is written. Claude's list, not Andre's words.*
+
+- `case-studies/andre-comeau/README.md`: the case study; chapters 1, 2, 5, 8, 9 and 11.
+- `case-studies/andre-comeau/sentences-since-3-october.md`: Andre's later sentences sorted under the case study's headings.
+- `context-bank/positions-liability-disclosure-buyer-bot.md`: the positions, §1 to §24; most chapters.
+- `context-bank/background-notes.md`: building models, integrated delivery, the F&R Reviewer's use case, GAEB; chapters 1 to 4, 7 to 9.
+- `context-bank/horizon.md`: the end state and why to speculate; chapters 8, 10 and 11.
+- `context-bank/bot-procurement-process.md`: Claude's collation of the duty-to-report discussions, with Andre's quoted lines.
+- `context-bank/what-buyers-pay.md`, `test-set-design.md`, `privacy-options.md`, `legal-assumptions.md`, `disclosure-duty-research.md`: research notes behind chapters 3, 5, 7, 8 and 9.
+- `work-packages/procurement-machines/THESIS.md`: Claude's draft of the cards' argument; chapters 4, 10 and 11.
+- `work-packages/procurement-machines/bot-philosophy.md`: the Bot Philosophy box; chapters 7 and 11.
+- `DECISIONS.md`: decisions 27, 32, 40, 45, 46, 62, 64, 75 and 113.

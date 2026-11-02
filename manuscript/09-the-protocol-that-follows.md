@@ -48,3 +48,75 @@ Paths are relative to construction-procurement-protocols unless they start with 
 > The pass/fail approach for proposals could also help, but the proposer security method helps control for latent risks.
 
 *The control in full, as Claude put it in the thread and Andre picked it: "The proposer posts security on its alternative and pays if the owner has to revert." Gaming already has a rule against it in US federal procurement: offers with line items "significantly overstated or understated" must be analysed for unbalanced pricing and may be rejected if the risk is unreasonable (FAR 15.404-1(g)). Fuller notes, with Scitovsky's argument, are in the Claude Doc "The Reasonable Bot, read through Scitovsky" (claude.ai/artifact/YD4MKxFj1b7hvU7MNkhq5x).*
+
+## Source passages: the protocol (to cut and rewrite)
+
+*Laid out by Claude on 2026-11-02. Every quoted passage is Andre's, copied unchanged from the file named under it; the source repository records these as his words, lightly edited from conversation. Where a source says the meaning is Andre's but the wording is Claude's edit (positions §8, `horizon.md`), the passage is marked "Andre's meaning, edited wording". **THESIS passages are Claude's**, not Andre's. Notes in italics are Claude's. Delete this section as the chapter is written. The exploit passages above stay where they are.*
+
+### The prediction
+
+*Claude's draft (THESIS section 3), for Andre to rewrite:*
+
+> The next machine is the one the author's case study proposes: the tender as canonical, versioned, machine-readable data; bidders' bots that read it and choose whether to raise what they find; a Buyer's Listener that turns questions into addenda rather than answers; bids, evaluations and justifications with a signed, citable trail.
+
+*The tolerance window: the bot-first protocol card puts first instances at 2028 to 2035, with four confirming signals (a public owner publishing a tender as data; a dispute over an agency's AI, of which Trax v. United States in 2026 is the first; a Canadian mirror committee for construction procurement; an agent-protocol foundation accepting a tender profile). Andre took 10 to 15 years (2036 to 2041) as the working assumption for the standard itself to take effect and perhaps meet its first court challenge (positions §13, placement note, 2026-10-09).*
+
+### Two routes: bot-readable documents or a standard bot
+
+> There are two ways to make this happen: produce specifications and drawings with bot-based APIs, or create a bot standard. With a bot standard, the buyer and consultants would run the tender through the bot and verify that the outputs it generated reflect the design intent. The bot would be available to vendors, but vendors could choose other bots as well. The advantage is a baseline that could be reproduced.
+
+> The challenge of that model is verification. The consultants would need to prepare the documents and then check the outputs. That incurs additional cost that the Owner would have to bear. Unless the savings from the bidders are greater than the cost to the consultants, this approach has a misaligned payout structure that will inhibit its adoption.
+
+> As a protocol, the standardized bot has the advantage of shifting verification to the side that benefits most from removing discrepancies in the requirements. That would work in favour of adoption even if the cost implications are ambiguous.
+
+> Perhaps it is better viewed as a missing-tool issue. The standards could be updated to improve both bot-first specifications and standardized bots. Based on current AI progress, the technological developments needed to make this approach profitable could simply be a matter of time. If the groundwork has been done, the technology would be adopted much faster.
+
+(positions §13, recorded 2026-10-09)
+
+*The institute write-up review notes that the prologue leaves out the cost side of these passages (the second paragraph); this chapter is where it belongs.*
+
+### A conformance test, not a model
+
+*Andre's earliest sentence on the idea the outline now calls the conformance test:*
+
+> I suppose that this could be part of the standard building. A standard battery of tests for bots to sign-off against. This would allow them to provide differentiated results based on bidder preferences while ensuring that the bidder has been made aware these potential discrepancies. There is probably something here, but we will leave its development to future version.
+
+(the collated process note, said 2026-10-06)
+
+### The modest path: one trade first
+
+> Decomposing a project into requirements for one bid may be the equivalent of using PDFs in the age of scrolling. Perhaps there is a path that falls short of full project bot procurement but allows standards, or a standardized bot, to be applied to a limited scope of work or a trade. Civil work may be a good candidate, thanks to the existing database that could be used to train bots. Surveys could also be a good place to start. Or landscaping?
+
+(positions §15, recorded 2026-10-09)
+
+*Claude's comparison there: surveys are the cleanest for verification (the deliverable is a dataset checked against a schema) and the weakest for price data; civil items are the reverse, with the Texas prices this project already uses; landscaping priced as highway items is a low-stakes way into the civil data but the least machine-checkable at acceptance. A scope is ready when the task can be specified in machine terms, an executor found by program, completion verified by machine, and payment follow verification.*
+
+### A public ledger for the record
+
+> More importantly, the use of blockchain, while an unlikely form of payment for public procurement or for major contracts, is interesting because it ties the record to a publicly inspectable source, avoiding the issues with version control that come from depositories or downloads.
+
+(positions §15, recorded 2026-10-09)
+
+*Claude's note there: the property needs less than a payment system. A hash of each issued document, written to a public, append-only, timestamped log nobody in the tender controls, proves which version existed when; a transparency log of the kind used for web certificates does this without a currency.*
+
+### Pinned and published: the horizon past the standard
+
+*Andre's meaning, edited wording:*
+
+> Must-have and critical systems would be *pinned*; portions of the specification that need a baseline to guide bidders, without needing specific performance, would be *published*.
+
+> In human-led procurement, bid leveling for mild discrepancies between bids is tedious and often delays project implementation. Bots could remedy this, and would allow bidders to submit multiple bids for various combinations of offers: a blend of spec-build and design-build. Value engineering would move to the tender stage, which should allow better matching between vendors and buyers, with benefits to both parties.
+
+> The challenge would be building a standard tender format to allow this. Without a standard, the legal battles over an AI's choice of "best" options will certainly be litigated. They will likely be litigated no matter the standard, but standards would open the opportunity to move beyond legal issues into the technical ones, as principles of equity are developed for AI.
+
+(positions §8, recorded 2026-10-05; Andre called it "speculative and long-term at best", a horizon and not a change of approach, decision 48)
+
+*The exploit passages above say value engineering is where exploits do the most harm; the pinned-and-published horizon is exactly where value engineering moves to the tender. The chapter can let the two meet.*
+
+### Why the standards are the end-boss
+
+*Andre's meaning, edited wording, on why speculation belongs in the book at all:*
+
+> A weak point of the whole project is financial compensation. Taking the whole pie would prevent adoption; having no pie will starve the project and keep it from its full potential. Speculation about the future is meant to guess its shape, so that failing to have a slice now does not mean having none later.
+
+(`context-bank/horizon.md`, "Why speculate at all: the slice of pie", recorded 2026-10-05; the "end-boss" passage from the same file is in chapter 8)
