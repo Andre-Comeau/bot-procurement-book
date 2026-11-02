@@ -16,6 +16,8 @@ Open notes, still to be settled in Andre's words:
   - worker autonomy, the project's top goal;
   - optionally, the civil-law contrast after the Hammurabi paragraph;
   - optionally, "reasonable bidder" in place of "reasonable person".
+Origins (hex_ai search, 2026-11-02): the project began at the Protocol Institute Symposium's AI Kitcraft workshop on 21 September 2026, as a kit for writing fair-and-reasonable price justifications. The tensions frame first appears about 23 September, in Andre's correction that a price unfair "viewed independently" can still be best value. By 30 September the kit was "a stepping stone" and the case study had begun. Quotable versions are in the case study README and the project README; the day-by-day record is in the private journal and is not to be cited.
+Stevenson's prophecy (Andre, 2026-11-02: use it): a court will one day treat an "AI plus protocol system" as something you "can't sue but can insure against". Source: Sean Stevenson, "De-Dramatizing the Digital", Protocol Institute Symposium 2026, as summarised by PIBot (`C:\hex_ai\bot-council\transcripts\2026-10-18-pibot-web-gramsci-monster.md`). PIBot later said it could not confirm the wording and the transcript cuts off mid-sentence, so check the talk before attributing the exact words. Caution from the same transcript: an insurable system and a reasonable bot (a standard of conduct) are different legal fictions; the book can use the contrast rather than blur it. Fits here or in chapter 7.
 Literature (`literature-review-2026-11-01.md`, Part 1): Abbott 2020 is the nearest title; Rao, *The Protocol Reader*, for the protocol frame.
 -->
 
