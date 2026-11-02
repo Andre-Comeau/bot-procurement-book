@@ -8,6 +8,7 @@ Sources: THESIS sections 3 and 4; position 15 (one trade, a public ledger); `con
 Added 2026-11-02 (hex_ai search): "The Estimator is the flywheel" (Andre) and the model behind it: the standards are free, the author consults on applying them. Bot council material not yet used: the tender is a stack, with a hard bid and a soft discovery channel that re-enters at a timed point and routes every answer to all bidders (`C:\hex_ai\bot-council\transcripts\2026-10-09-pibot-web-soft-channel-and-tender-hardness.md`); the mute buyer bot as "the faithful channel" ("The mute design is not a limitation; it is the hardness source.", `2026-10-09-pibot-web-duty-to-report-and-listener.md`); everything hard lands on "who controls the schema", which is the standard. Unsent council question C7 (`C:\hex_ai\bot-council\QUESTIONS-four-cards.md`): "a machine participant in an institution survives only where a person is bound to act on its output." Standards' rank changed: a side quest on 2 October (decision 18), the main output by late October.
 Literature (`literature-review-2026-11-01.md`, Part 1): ISO 10845 and Watermeyer; CCDC 23; OC4IDS; the ANAC agent competition; Sánchez-Graells 2024. Collusion (`collusion-papers-notes-2026-11-01.md`, Parts 3.1 to 3.3 and 3.5): who sees the reference price and when, publishing line items, evaluation rules, and a joint experiment with the Seoul group.
 Paths are relative to construction-procurement-protocols unless they start with C:\.
+Added 2026-11-02 (branding): Andre asks whether brands could be customized standards. The standard sets the floor of care (his position of 2026-11-01); each brand would publish its own reading of "reasonable bot" above it, and answer for it. Liability does not fall away but is decentralized to brands, and the problem moves from standards into law, where precedent is missing. That pulls against his own line in positions §8 that standards "open the opportunity to move beyond legal issues into the technical ones"; keep both and label the tension. Source: Tom Guarriello (see the passages below). Ties to his "new law beats patched law" point (workers' compensation as the precedent) and to Kolt on special skills raising the standard of care. The brand's death sentence (Hammurabi for branded bots) is laid out in chapter 7.
 -->
 
 
@@ -120,6 +121,28 @@ Paths are relative to construction-procurement-protocols unless they start with 
 > A weak point of the whole project is financial compensation. Taking the whole pie would prevent adoption; having no pie will starve the project and keep it from its full potential. Speculation about the future is meant to guess its shape, so that failing to have a slice now does not mean having none later.
 
 (`context-bank/horizon.md`, "Why speculate at all: the slice of pie", recorded 2026-10-05; the "end-boss" passage from the same file is in chapter 8)
+
+## Source passages: brands as customized standards (to cut and rewrite)
+
+*Laid out by Claude on 2026-11-02. The quoted passage is Andre's, copied unchanged. Notes in italics are Claude's. Delete this section as the chapter is written.*
+
+> Could Branding be considered as customized Standards? The liability for harm issue does not fall away, but becomes decentralized to individual brands. The Brand sets its Standard based on their interpretation of "Reasonable Bot". This would be challenging due to the lack of legal precedents. It would transform the problem from the field of standards to that of legal. See work by Tom Guarriello.
+
+(project thread "Add branding and Hammurabi ideas to the book", said 2026-11-02)
+
+*Andre's position of 2026-11-01 frames it: "The purpose of the standards would be to create a floor for the required standard of care for construction procurement." On that reading the public standard is the floor and a brand is a promise made above it: a vendor's own, published reading of what its reasonable bot does. The floor stays common; the ceiling is sold.*
+
+*Tensions the chapter can label (Claude's):*
+
+- *Standards against law. In positions §8 Andre wrote that standards "would open the opportunity to move beyond legal issues into the technical ones". Branding moves the question back: whether a brand kept its own promise is for a court, and no court has yet ruled on what a brand's "reasonable bot" meant. Both statements are true, and the floor is what keeps them from colliding: a brand can be sued for falling short of its promise, but never argue that its promise lowered the floor.*
+- *Kolt's open problem, from the brand side. Agency law raises the standard of care for an agent that claims special skill (Restatement (Third) of Agency §8.08; Kolt pp. 46-47). A brand is such a claim, so a brand that promises more is held to more. Kolt worried this would push capable vendors away from specialist agents; with a public floor, the brand chooses how far above it to promise and prices that liability in.*
+- *New law, not patched law. Andre's point of 2026-11-02 (lit review thread): employment law grew beside agency law rather than out of it. Branded bots with no precedent are the case for a new statute that names the floor and leaves the brands to contract and consumer law above it, as building codes are adopted by statute rather than made by courts.*
+
+*Older still: hallmarks and makers' marks on silver and gold came before any standards body. The assay office set the floor (the metal's fineness) and the maker's mark said whose work it was, so a maker could promise more but never less. That is the floor-and-brand shape in its oldest form.*
+
+*A precedent worth checking (Claude's, from memory, not yet verified): certification marks are brands that became standards. UL's mark began as one firm's testing promise and is now referenced by codes. The trade-mark law of certification marks may be the nearest existing law for "a brand that sets its own standard".*
+
+*Tom Guarriello, as found on 2026-11-02 (web search; Andre to say which of his works he means): psychologist, faculty of the School of Visual Arts Masters in Branding programme, host of the RoboPsych podcast on how people relate to robots and AI, and author of* The Meaning of Branded Objects: Why Some Things Matter More Than Others *(Rockport, October 2025), which treats brands as how people attach meaning and identity to objects. If that is the source, the book's use is the trust side: people already relate to a bot through its brand, so the brand is where they will look for the standard it keeps.*
 
 ## From the Procurement Machines: the projected card
 

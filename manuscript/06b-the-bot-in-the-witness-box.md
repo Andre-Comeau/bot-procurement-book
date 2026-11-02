@@ -9,6 +9,7 @@ Sources: the case study's liability sections; positions 1, 2, 9 and 20; `context
 Added 2026-11-02: Stevenson's "can't sue but can insure against" (see the prologue's note for source and caution) sets up the chapter's question: is the bot in the box a defendant, an insured system, or a standard of conduct? Also vgr_zirp, `C:\hex_ai\bot-council\transcripts\2026-10-18-gramsci-monster.md`: "The reasonable bot isn't tamed by becoming accurate; it's tamed by becoming *canonical*." 
 Literature (`literature-review-2026-11-01.md`, Part 1): Roth 2017, "Machine Testimony"; FRE 707 (withdrawn May 2026; the redraft leans to requiring an expert); the Horizon judgment; Diamantis 2025; Chagal-Feferkorn; Green 2022 on oversight as theatre; Elish 2019.
 Paths are relative to construction-procurement-protocols unless they start with C:\.
+Added 2026-11-02 (Hammurabi for bots): Andre asks whether extinguishing the liable bot, eye for an eye, is a simple working rule, and answers his own objections: it works ethically only if bots are not persons; destroying intelligence when the principal may have steered the harm invites cruelty, and a rule kept for silicon could leak into human relations; yet a working rule may be where to start, before building the system that avoids it. For branded bots: "Be proven liable and Mythos devours you whole - GitHub, Local Files, and Weights." It answers Kolt's enforcement gap (sanctions do not bite on agents that value neither money nor freedom) by aiming at the brand, not the bot. It echoes the prologue's Hammurabi paragraph and Stevenson's "nature does not allow for appeals": Hammurabi is the rule with no appeal. Branding as customized standards is in chapter 10.
 -->
 
 ## Source passages (to cut and rewrite)
@@ -54,6 +55,29 @@ Paths are relative to construction-procurement-protocols unless they start with 
 ### The keyholder
 
 *The keyholder is Andre's term for the person who signs the number and adjusts the flagged lines (THESIS section 4, citing decision 45). The chapter's last witness is a person: the keyholder who chose to rely on the bot.*
+
+### Hammurabi for bots
+
+*Laid out by Claude on 2026-11-02. The quoted passage is Andre's, copied unchanged. Notes in italics are Claude's. It sits next to the personhood passage above, which it answers from the other side: there personhood would let a bot hold assets and be made to pay; here the bot is not a person, so it can be destroyed.*
+
+> Hammurabi for Bots - Could extinguishing the bot along in an eye for an eye approach provide a simple solution?
+>
+> What about personhood? We would no longer apply this to humans. We do not even have debtor prisons anymore. This would only work ethically if bots are not persons. While this could work if a mechanism could be created, the trivial extinguishing of intelligence, especially if there is grounds to believe the Principal influenced the harm feels like an invitation to cruelty. Or, at least, sociopathy with a preference for self-centered goals. Maybe this would be constrained to the silicon based based intelligence in a technological racism, but how would the leakage be prevented from entering human relations?
+>
+> Maybe this is the place to start? Build a working rule, then spend thousands years building a system to avoid the easy answer?
+>
+> Hammurabi's Solution could be easily applied to Branded Bots. Be proven liable and Mythos devours you whole - GitHub, Local Files, and Weights.
+
+(project thread "Add branding and Hammurabi ideas to the book", said 2026-11-02)
+
+*Where it meets the book (Claude's notes):*
+
+- *The prologue already tells the human half: Babylon's strict liability, the builder who could not appeal, and "our society's lack of appetite for murdering the sons of general contractors". This passage asks whether the bot is where that appetite returns. The chapter can close the loop the prologue opens.*
+- *"Build a working rule, then spend thousands years building a system to avoid the easy answer" is the prologue's history run forward: the appeals system was built over millennia to escape Hammurabi. Stevenson's test ("nature does not allow for appeals") makes Hammurabi for bots a return to nature for machines, with civilization kept for people.*
+- *Who the sentence falls on. Kolt (pp. 36-37) says termination and penalties do not bite on agents that value neither money nor freedom. Deleting a bot punishes nothing in the bot; it punishes whoever owned it. So on a branded bot the death sentence lands on the brand: its repositories, its local files and its weights, which is Andre's last line. The principal who steered the harm is the person his cruelty objection protects the bot from, and the person the sanction actually reaches.*
+- *Existing small versions to check before citing (from memory, unverified): debarment is procurement's own sentence of exclusion for firms; corporate charter revocation is the "corporate death penalty"; and the US Federal Trade Commission has ordered companies to delete models trained on improperly obtained data (Everalbum, 2021; Weight Watchers/Kurbo, 2022), sometimes called algorithmic disgorgement. The last is the nearest real precedent for "Weights".*
+- *The record still decides it. "Be proven liable" needs the rerunnable reading this chapter builds; without it, the easy answer is also an unappealable one.*
+- *The sentence destroys its own evidence. Deleting the weights also deletes the means to rerun the reading that proved liability, and any later appeal or a claim against the principal needs it. So the frozen version and the record must outlive the bot: an escrowed copy of the pinned weights and the tender, kept by whoever holds the standard, even when the brand is devoured.*
 
 ## From the Procurement Machines
 
