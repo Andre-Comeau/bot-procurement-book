@@ -1,0 +1,53 @@
+# Starting a relationship expecting a divorce
+
+<!--
+Part I. The question
+Target: 1,200 words, redraft
+Brief: The tensions of tendering: the one-shotted design, the long compile, the bidder who prices the errors and sues later. The three-way nexus from the case study's opening paragraph is the chapter's spine.
+Sources: `case-studies/andre-comeau/README.md` (opening and "Who bears the cost of finding errors"), the two paragraphs on tenders ignored or overpriced from `sentences-since-3-october.md`. Andre, 2026-10-31, after reading Galbraith (verbatim): "Our work would raise the organizational capacity to process information. This feels like the correct approach since the current system of PDFs and digital drawings does not seem to produce any slack over the use of paper plan's room. They did raise processing capacity by removing the need to travel to bid, but the actual attention needed remained the same." (In Jay Galbraith's terms the bidder's cushion for drawing errors is slack; the book's choice is to raise processing capacity instead.)
+Paths are relative to construction-procurement-protocols unless they start with C:\.
+-->
+
+## Source passages (to cut and rewrite)
+
+*Laid out by Claude on 2026-10-30. Every quoted passage is the author's, copied unchanged from the file named under it. Notes in italics are Claude's. Delete this section as the chapter is written.*
+
+*The spine, the three-way nexus from the case study's opening:*
+
+> Construction procurement runs on protocols that are better described as tensions to be managed by the parties involved than as problems waiting for a solution.
+
+> The heart of the problem lies in the nexus between three things: the strict design lock-in needed for baselining projects for Tenders; the challenge of applying a software level of version control, with live updates, in a world where most workers do not have access to a computer and where constant review of the "code" would be expected to decrease productivity; and the additional low-cost review of documentation that AI now provides.
+
+(`case-studies/andre-comeau/README.md`, opening)
+
+*The one-shotted design and the long compile. These are also chapter 2 material, so keep them here only as far as the tensions need them:*
+
+> **One-shotted design.** While there is iteration within the Design, it needs to ship with all desired features. Some "softer" elements such as interior design can remain flexible, but most systems are resistant to anything but marginal changes.
+
+> **Long compile times.** Even the sub-modules take a long time to compile, which makes changes expensive. For a Change Order, the typical flow is: Design, Tender, Contract Award, Compile, Error (RFI), Design for the bug fix, discussion about cost impacts and, if there are any, pricing for the bug fix, review of the pricing, formal modification of the code and costs, communication of the change to the hardware processing the code, and performance of the changes.
+
+(`case-studies/andre-comeau/README.md`, "Procurement redescribed as software development")
+
+*The bidder who prices the errors and sues later, with the chapter's title line:*
+
+> Bidder bots would need to be able to read and interpret drawings and specs. Ideally, they would detect and communicate discrepancies, underdefined requirements, or unaccounted-for unknown conditions in the plans and specifications.
+
+> While many companies make their margin by pricing projects accounting for unresolved errors in the bid, this generates a lot of animosity and requires active legal claims. It moves the profit and skill away from the field and into the meta-game. It also distracts the effort from product delivery to protection from legal proceedings. Some of this is needed to ensure remedies exist for unknown unknowns, but starting a relationship expecting a divorce feels like an incredibly ineffective system.
+
+(`case-studies/andre-comeau/README.md`, "Who bears the cost of finding errors")
+
+*Tenders ignored or overpriced, from the collated process note. The outline asks for two paragraphs: the first is the one it names, and the second is my best match. Swap it out if you meant another.*
+
+> These days a tender with too many issues is ignored or overpriced since the work to ask questions is greater than the likely reward. It does not help that the questions often go unanswered since there is often insufficient time or resources to address multi-sub-consultant issues.
+
+> One major issue with any bot procurement are real world issues that live outside the Tender. Subsurface conditions is one, but road closures, weather delays, etc. are hard to factor and would still create ambiguous bids. We may need to accept this. The CCDC contracts have already resolved standard solutions for equitable splits of risk and rewards for this.
+
+(`case-studies/andre-comeau/sentences-since-3-october.md`, quoting the collated process note, said 2026-10-06)
+
+*Optional, on the book's method of labelling tensions. It may belong in "How to read this book" instead:*
+
+> Perhaps the best approach would be to keep things in tension until a trade-off decision needs to be made. In the meantime, they should be labeled as Frontier, Monstrous, Kafka, or Tool-building tensions, based on my essay on the subject.
+
+(positions §21, recorded 2026-10-11)
+
+*Word count of the passages above is about 470 of the 1,200 target. Left for chapter 5: the duty-to-report passages, the banana peel and the construction manager as a fourth party.*
