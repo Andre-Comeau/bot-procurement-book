@@ -47,6 +47,10 @@ HOME = """# Bot Procurement Book
 
 **Is this price fair and reasonable?** A short manifesto on how anyone knows a construction price is fair, and what happens to procurement when a bot can answer that question.
 
+![The machinery: the procurement system, the estimator and bot procurement on one ground; BIM, bot monitoring and robotic construction on another, with what each machine makes for the next](images/machinery-thicket.png)
+
+*The machinery, from today's procurement system to robotic construction: what each machine makes for the next.*
+
 Chapters appear here as they are drafted. The source is on [GitHub](https://github.com/Andre-Comeau/bot-procurement-book).
 
 ## Contents
@@ -101,6 +105,7 @@ def main():
         toc.append("")
         if items:
             nav.append(f'  - "{part}":\n' + "\n".join(items))
+    shutil.copytree(ROOT / "images", docs / "images", ignore=shutil.ignore_patterns("README.md"))
     (docs / "index.md").write_text(HOME.format(toc="\n".join(toc)), encoding="utf-8")
     site = ROOT / "_site"
     shutil.rmtree(site, ignore_errors=True)
