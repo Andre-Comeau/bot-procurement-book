@@ -8,7 +8,7 @@ Brief: What "fair and reasonable" means to a public buyer, the engineer's estima
 Sources: positions 18, 22 and 23 (margins, return on capital, the bid cushion); `context-bank/what-buyers-pay.md`; `context-bank/bot-procurement-process.md`; `context-bank/contractor-margins.md` for one or two figures only.
 Correction (2026-11-02, checked against `C:\hex_ai\estimator-workspace\RESULTS.md`): "within 20 percent" is slightly generous. Line by line on the locked test set, v0.3 misses the mean of the three lowest bids by a median 21.0% against the engineer's estimate's 28.6%; at the contract total by 13.0% against 14.4%. Say "about 20 percent" or "about a fifth". Useful for the chapter: the target itself is noisy, since the three lowest bidders differ from each other by a median 50% line by line, and one of them misses the other two by a median 25%. The engineer's estimate misses the three-lowest total by a median 11.2%.
 Literature (`literature-review-2026-11-01.md`, Part 1): FHWA 2004 guidelines and 2015 review (engineer's estimates within 10 percent of the low bid on 48 percent of projects); USDOT OIG 2019; De Silva et al. 2008 (publishing the estimate lowered bids); UK Should Cost Model guidance; PSPC 2023 pricing guide; AACE 18R-97 and 98R-18; the $600-hammer story as a possible opening. Andre keeps the 2 to 3 percent target as a contractor's standard, not an engineer's (2026-11-01).
-Added 2026-11-03 (Andre's draft, lightly edited by Claude): the opening sections below, from "Since the niche world" to "The dark exchange", are Andre's own prose on choosing a delivery method through the Principal/Agent problem. They are finished writing, not source passages; the price material follows on from their last line, the competitive exchange. References (Andre, 2026-11-03: no footnotes or endnotes; works go in Appendix D, the bibliography): the self-performance section draws on Red Green's *How to Do Everything* (2015, confirmed by Andre); "3,776 years" counts from 1750 BC, the usual date for Hammurabi's code (1755 to 1750 BC); Rao's note is https://substack.com/@contraptions/note/c-374727395 (31 Oct 2026), which gives income as margin times velocity, so the formula reads "×" where the draft had "+". The Design-Build sentence ending "through a lump-sum price while keeping the freedom to change their minds" finishes a broken sentence; Andre confirmed it on 2026-11-03.
+Added 2026-11-03 (Andre's draft, lightly edited by Claude): the opening sections below, from "Since the niche world" to "The dark exchange", are Andre's own prose on choosing a delivery method through the Principal/Agent problem. They are finished writing, not source passages; the price material follows on from their last line, the competitive exchange. References (Andre, 2026-11-03: no footnotes or endnotes; works go in Appendix D, the bibliography): the self-performance section draws on Red Green's *How to Do Everything* (2015, confirmed by Andre); "3,776 years" counts from 1750 BC, the usual date for Hammurabi's code (1755 to 1750 BC); Rao's note is https://substack.com/@contraptions/note/c-374727395 (31 Oct 2026), which gives income as margin times velocity, so the formula reads "×" where the draft had "+". The Design-Build sentence ending "through a lump-sum price while keeping the freedom to change their minds" finishes a broken sentence; Andre confirmed it on 2026-11-03. Restaged 2026-11-03 (Andre): Design-Build is the Babylonian problem, Principal to Principal, since the builder has all the control; cost plus shifts it to Principal/Agent but puts all the risk on the Principal; the General Contractor model (design-bid-build) is Principal to Agent for design plus Principal to Principal for the build, the synthesis. "Fiduciary" became "responsibility". The lump-sum trade line and the linking sentences between sections are Claude's, to confirm.
 Paths are relative to construction-procurement-protocols unless they start with C:\.
 -->
 
@@ -26,31 +26,35 @@ All great; all lacking in scale, limited both by one person's ability to project
 
 To solve this, we start to muddy the Principal/Agent waters.
 
-## General Contractor: Principal to Principal with competition
+## Design-Build: the Babylonian problem, Principal to Principal
 
-So, you need more help. We could go trade by trade, but the end story is the same: someone is willing to trade with you, so you arrive at a bargain.
+So, you need more help. We could go trade by trade, but the end story is the same: someone is willing to trade with you, so you arrive at a bargain. Hand the whole job to one builder, design included, and you have Design-Build.
 
-Unlike a bargain for grain, clothes, or pleasurable company, this bargain is for goods that cannot be evaluated before entering into an agreement. For at least 3,776 years, humanity has struggled to resolve the issue.
+Unlike a bargain for grain, clothes, or pleasurable company, this bargain is for goods that cannot be evaluated before entering into an agreement. The builder has all the control. For at least 3,776 years, humanity has struggled to resolve the issue.
 
-The most common fix is to add a small dose of agentic responsibility to the one performing the work. Because they are the expert closer to the solution, this creates a small brake on the natural profit-maximizing tendencies that unmitigated transactions can bring about. This works great when you know what you want, know how to ask for it, and know what it should cost.
+The most common fix is to add a small dose of agentic responsibility to the one performing the work. Because they are the expert closer to the solution, this creates a small brake on the natural profit-maximizing tendencies that unmitigated transactions can bring about.
+
+The rest depends on the contract. A lump sum controls the price, but requires some degree of adversarial relationship. Some try to game the system, to control costs through a lump-sum price while keeping the freedom to change their minds.
+
+But maybe you want something more. You want to change your mind. You want to explore possibilities. You are willing to risk some capital, but don't want it all to go to the counterparty's margin. A cost-plus contract shifts the bargain into a Principal/Agent relationship. The scope and the price float, and to resolve the ambiguity, the protocols, legal and customary, of the Principal/Agent relationship are invited in. The Design-Builder takes on a responsibility towards your best interest. Ideally, this would be shored up by legal protections, but the financial structure goes most of the way. The catch: cost plus places all the risk on the Principal. Tactically useful, but expensive in the long run.
+
+With a lump sum, you trade the relationship for price control. With cost plus, you trade cost certainty for optionality.
+
+"Good options," you say, "but I have read too much Hegel. Give me a synthesis."
+
+## General Contractor: Principal to Agent, then Principal to Principal with competition
+
+To resolve the tension, a more complex protocol is brought into play. The General Contractor model is usually Principal to Agent plus Principal to Principal. Either the buying Principal has the know-how to design, or has hired a Consultant to act as their agent. This allows early optionality on the highest-leverage component: design. Once the design is complete, often with elements of cost plus, the remainder of the work switches to Principal versus Principal, and the General Contractors compete for it. The legal system has built a ring around the sport, with heavy penalties for consultants who fail to act as agents, and rules for the conflict between Principals.
+
+This works great when you know what you want, know how to ask for it, and know what it should cost.
 
 You trade trust in the counterparty for rock-bottom pricing.
 
 We don't all have the Type A energy to always inhabit that world, so we mortals go on tour for alternate solutions.
 
-## Design-Build: Principal to Agent
-
-The General Contractor works well: the cost is discussed and the scope is fixed. But you want something more. You want to change your mind. You want to explore possibilities. You are willing to risk some capital, but don't want it all to go to the counterparty's margin. You want to Design-Build.
-
-Some try to game the system, to control costs through a lump-sum price while keeping the freedom to change their minds. In this relationship, the scope and the price usually float. To resolve the ambiguity, the protocols, legal and customary, of the Principal/Agent relationship are invited in. The Design-Builder becomes an agent with a fiduciary duty towards your best interest. Ideally, this would be shored up by legal protections, but financial structure can go most of the way if a cost-plus approach is taken.
-
-You trade cost certainty for optionality.
-
-"Good option," you say, "but I have read too much Hegel. Give me a synthesis."
-
 ## Construction Manager: Principal to Agent to Agent
 
-The Construction Manager approach shows up when you want the hand-holding agents can provide, but want a bit of extra insurance that they are on your side. The first agent acts as a consultant and prepares the design; the second works as an agentic general contractor to deliver the product. Both agents have a fiduciary duty towards the Principal and act as checks on each other. (We will avoid looking at what happens when they collude. Your pick of a 90s thriller will be far more educational than my exposition.)
+The Construction Manager approach shows up when you want the hand-holding agents can provide through the whole job, but want a bit of extra insurance that they are on your side. The first agent acts as a consultant and prepares the design; the second works as an agentic general contractor to deliver the product. Both agents carry a responsibility towards the Principal and act as checks on each other. (We will avoid looking at what happens when they collude. Your pick of a 90s thriller will be far more educational than my exposition.)
 
 By splitting the work and moving the Principal to Principal interaction further down the hierarchy, the original Principal gains a mix of loyalty and cost control at the expense of more management effort to maintain velocity. There are now three parties to every decision. It takes only one to slow progress.
 
