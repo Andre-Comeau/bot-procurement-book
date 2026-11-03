@@ -6,7 +6,7 @@ So, you want to build a house. Let's look at your options.
 
 ## Self-performance: the embodied Principal/Agent solution
 
-Well done, you have selected the path of self-sufficiency and knowing yourself. If you succeed, new skills are unlocked. If you fail, you gain knowledge of your capacities. [Reference: Red Green's book, title to confirm.]
+Well done, you have selected the path of self-sufficiency and knowing yourself. If you succeed, new skills are unlocked. If you fail, you gain knowledge of your capacities.
 
 For beginners, this works well for that drywall patch. For experts, an entire home may be possible. For masters, small villages could be produced.
 
@@ -56,7 +56,7 @@ You trade a higher share of the benefits for significantly less management effor
 
 Long-term relationships, controlled costs, shared benefits, reduced management effort: sounds great. Let's just do that one over and over. What could go wrong?
 
-Profits = Margin × Velocity. (See Venkatesh Rao's Substack note.)
+Profits = Margin × Velocity, as Venkatesh Rao puts it.
 
 If you have found an agent with a masochistic bent, or one enthralled by your motivational voodoo, you may have a golden goose on your hands. For most, the temptation to turn down the treadmill will build an alternate incentive stack. Raising the margin would solve part of the incentive, but usually spoils the magic for the Principal. The more insidious approach is reducing velocity. Not all at once, but slowly, over time. It may not even be a reduction, just a lack of effort to keep up with the industry's baseline productivity growth.
 

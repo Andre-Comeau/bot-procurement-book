@@ -42,7 +42,8 @@ PARTS = [
     ("Appendices", [
         ("app-a-the-cards.md", "A. Procurement Machines"),
         ("app-b-reading-list.md", "B. Reading list"),
-        ("app-c-glossary.md", "C. Glossary")]),
+        ("app-c-glossary.md", "C. Glossary"),
+        ("app-d-bibliography.md", "D. Bibliography")]),
 ]
 
 HOME = """# Bot Procurement Book
