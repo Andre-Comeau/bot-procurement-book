@@ -70,14 +70,14 @@ Good news. There is a way. Partnerships entangle the Principals, giving them mut
 
 You trade a higher share of the benefits for significantly less management effort.
 
-## Why does Principal to Principal with competition continue to exist?
+## Why does the hard bid survive?
 
-Long-term relationships, controlled costs, shared benefits, reduced management effort: sounds great. Let's just do that one over and over. What could go wrong?
+Long-term relationships, controlled costs, shared benefits, reduced management effort: the peaceful corner sounds great. Let's just do that one over and over. What could go wrong?
 
 Return = Margin × Velocity, as every business school teaches it.
 
-If you have found an agent with a masochistic bent, or one enthralled by your motivational voodoo, you may have a golden goose on your hands. For most, the temptation to turn down the treadmill will build an alternate incentive stack. Raising the margin would solve part of the incentive, but usually spoils the magic for the Principal. The more insidious approach is reducing velocity. Not all at once, but slowly, over time. It may not even be a reduction, just a lack of effort to keep up with the industry's baseline productivity growth.
+If you have found a partner with a masochistic bent, or one enthralled by your motivational voodoo, you may have a golden goose on your hands. For most, the temptation to turn down the treadmill will build an alternate incentive stack. Raising the margin would solve part of the incentive, but usually spoils the magic for the Principal. The more insidious approach is to let velocity slip. Not all at once, but slowly, over time. It may not even be a reduction, just a lack of effort to keep up with the industry's baseline productivity growth. Peace gets more expensive every year.
 
 It works, but like a trophy wife, the glow will fade over time.
 
-Since the market sets the margin, the Principal must manage the velocity. And where does that lead us? To the hungry parties. The Principals looking to trade. The General Contractor and the Principal to Principal exchange. The dark exchange.
+Since the market sets the margin, the Principal must manage the velocity, and velocity lives in the cheap and stressful corner. That is the arrow across the top of the map: sooner or later, every partnership drifts back to the hard bid. Back to the hungry parties, the Principals looking to trade, who know someone else will take the work if they don't. Cheap and stressful wins again, not because anyone enjoys it, but because hunger is the one thing that never slows down.
