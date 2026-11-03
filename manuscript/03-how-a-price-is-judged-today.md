@@ -4,6 +4,10 @@ Since the niche world of construction procurement should put most of us to sleep
 
 So, you want to build a house. Let's look at your options.
 
+![Delivery methods on two axes, Principal to Principal against Principal to Agent and competitive against cooperative: hard bid, partnership, Construction Manager and cost plus in the corners, the General Contractor with a Consultant in the centre](../images/delivery-methods-2x2.png)
+
+*Who works for whom, and how they deal. Cheap and stressful in one corner, peaceful and expensive in the other; the General Contractor with a Consultant balances both axes.*
+
 ## Self-performance: the embodied Principal/Agent solution
 
 Well done, you have selected the path of self-sufficiency and knowing yourself. If you succeed, new skills are unlocked. If you fail, you gain knowledge of your limitations.
