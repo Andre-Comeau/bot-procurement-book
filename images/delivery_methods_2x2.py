@@ -2,7 +2,7 @@
 
 Usage: python images/delivery_methods_2x2.py images/delivery-methods-2x2
 Writes the .svg and an .html; render the PNG with
-node images/project_hex_map_render.js "$PWD/images/delivery-methods-2x2.html" images/delivery-methods-2x2.png 1600 1200
+node images/project_hex_map_render.js "$PWD/images/delivery-methods-2x2.html" images/delivery-methods-2x2.png 1600 1300
 """
 import sys, html
 
@@ -12,8 +12,8 @@ C = dict(action="#0064ff", action_p="#004fcc", action_t="#e6efff",
          canvas="#f9f8f5", surface="#ffffff", muted="#f3f4f6", hair="#e5e7eb",
          ink="#2c2c2a", ink2="#5f5e5a")
 
-W, H = 1600, 1200
-X0, Y0, QW, QH = 250, 300, 620, 380          # grid origin and quadrant size
+W, H = 1600, 1300
+X0, Y0, QW, QH = 250, 300, 620, 400          # grid origin and quadrant size
 XM, YM = X0 + QW, Y0 + QH                    # the axes cross here
 
 # (col, row, fill, stroke, label colour, name, examples, trade lines, text top offset)
@@ -26,10 +26,10 @@ QUADS = [
      ["You trade a higher share of the benefits", "for significantly less management effort."], 44),
     (0, 1, C["ink2"], C["ink"], C["muted"], "Construction Manager",
      ["Two agents, designer and builder,", "acting as checks on each other"],
-     ["You trade accountability for a mild", "dose of certainty and optionality."], 150),
+     ["You trade accountability for a mild", "dose of certainty and optionality."], 180),
     (1, 1, C["action"], C["action_p"], C["action_t"], "Cost plus",
      ["The consulting contractor", "Cost-plus Design-Build"],
-     ["You trade cost certainty", "for optionality."], 150),
+     ["You trade cost certainty", "for optionality."], 180),
 ]
 
 def t(x, y, s, cls, fill=None, anchor="start", extra=""):
@@ -54,10 +54,10 @@ for col, row, fill, stroke, lab, name, ex, trade, top in QUADS:
     o.append(t(x + 40, yy + 30, name, "name", "#ffffff"))
     yy += 70
     for ln in ex:
-        o.append(t(x + 40, yy, ln, "ex", lab)); yy += 26
+        o.append(t(x + 40, yy, ln, "ex", lab)); yy += 30
     yy += 14
     for ln in trade:
-        o.append(t(x + 40, yy, ln, "trade", "#ffffff")); yy += 26
+        o.append(t(x + 40, yy, ln, "trade", "#ffffff")); yy += 30
 
 # axis labels
 o.append(t(X0 - 30, Y0 + QH/2 - 10, "PRINCIPAL TO", "axis", C["ink2"], "end"))
@@ -71,19 +71,19 @@ o.append(t(XM + QW/2, Y0 + 2*QH + 40, "COOPERATIVE", "axis", C["ink2"], "middle"
 
 # the diagonal: cheap and stressful (top left) to peaceful and expensive (bottom right)
 o.append(t(X0 - 24, Y0 - 26, "↖ CHEAP AND STRESSFUL", "tag", C["acc_d"]))
-o.append(t(X0 + 2*QW + 6, Y0 + 2*QH + 40, "PEACEFUL AND EXPENSIVE ↘", "tag", C["action_p"], "end"))
+o.append(t(X0 + 2*QW + 6, Y0 + 2*QH + 74, "PEACEFUL AND EXPENSIVE ↘", "tag", C["action_p"], "end"))
 
 # the General Contractor with a Consultant balances both axes, so it sits on the cross
-CW, CH = 400, 230
+CW, CH = 480, 270
 cx, cy = XM - CW/2, YM - CH/2
 o.append(f'<rect x="{cx-8}" y="{cy-8}" width="{CW+16}" height="{CH+16}" rx="18" fill="{C["canvas"]}"/>')
 o.append(f'<rect x="{cx}" y="{cy}" width="{CW}" height="{CH}" rx="14" fill="{C["surface"]}" stroke="{C["ink"]}" stroke-width="2"/>')
-o.append(t(XM, cy + 50, "General Contractor", "name", C["ink"], "middle"))
-o.append(t(XM, cy + 78, "with a Consultant", "cname", C["ink"], "middle"))
-o.append(t(XM, cy + 110, "Design with an agent, build with a principal", "ex", C["ink2"], "middle"))
-o.append(t(XM, cy + 150, "The synthesis: optionality where", "trade", C["ink"], "middle"))
-o.append(t(XM, cy + 176, "it has the most leverage, competition", "trade", C["ink"], "middle"))
-o.append(t(XM, cy + 202, "for the rest.", "trade", C["ink"], "middle"))
+o.append(t(XM, cy + 56, "General Contractor", "name", C["ink"], "middle"))
+o.append(t(XM, cy + 90, "with a Consultant", "cname", C["ink"], "middle"))
+o.append(t(XM, cy + 128, "Design with an agent, build with a principal", "ex", C["ink2"], "middle"))
+o.append(t(XM, cy + 172, "The synthesis: optionality where", "trade", C["ink"], "middle"))
+o.append(t(XM, cy + 202, "it has the most leverage, competition", "trade", C["ink"], "middle"))
+o.append(t(XM, cy + 232, "for the rest.", "trade", C["ink"], "middle"))
 
 # the velocity drift: cooperation decays back to competition
 ay = Y0 - 22
@@ -91,26 +91,26 @@ o.append(f'<line x1="{XM + QW - 60}" y1="{ay}" x2="{X0 + QW - 60}" y2="{ay}" str
 o.append(t(XM - 40, ay - 14, "Profits = Margin × Velocity: velocity fades, and the Principal returns to the hungry parties", "drift", C["acc_d"], "middle"))
 
 # self-performance sits outside the grid
-o.append(t(80, H - 70, "Off the grid: self-performance, where the Principal and the Agent are one person.", "foot"))
-o.append(t(80, H - 18, "The diagonal runs from cheap and stressful to peaceful and expensive; the centre square balances both axes.", "foot"))
-o.append(t(80, H - 44, "Design-Build lands in two squares: a lump sum keeps it Principal to Principal; cost plus makes it Principal to Agent.", "foot"))
+o.append(t(80, H - 76, "Off the grid: self-performance, where the Principal and the Agent are one person.", "foot"))
+o.append(t(80, H - 20, "The diagonal runs from cheap and stressful to peaceful and expensive; the centre square balances both axes.", "foot"))
+o.append(t(80, H - 48, "Design-Build lands in two squares: a lump sum keeps it Principal to Principal; cost plus makes it Principal to Agent.", "foot"))
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
 <style>
   .eyebrow{{font-family:Outfit,sans-serif;font-weight:600;font-size:15px;letter-spacing:.16em;fill:#0064ff}}
   .title{{font-family:'Instrument Serif',Georgia,serif;font-size:54px;fill:#2c2c2a}}
   .dek{{font-family:Lora,Georgia,serif;font-size:20px;fill:#5f5e5a}}
-  .name{{font-family:'Instrument Serif',Georgia,serif;font-size:36px}}
-  .ex{{font-family:Outfit,sans-serif;font-size:17px}}
-  .trade{{font-family:Lora,Georgia,serif;font-style:italic;font-size:19px}}
-  .axis{{font-family:Outfit,sans-serif;font-weight:600;font-size:14px;letter-spacing:.14em}}
-  .axis-s{{font-family:Lora,Georgia,serif;font-style:italic;font-size:16px}}
-  .tag{{font-family:Outfit,sans-serif;font-weight:600;font-size:13px;letter-spacing:.14em}}
-  .cname{{font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-size:24px}}
+  .name{{font-family:'Instrument Serif',Georgia,serif;font-size:42px}}
+  .ex{{font-family:Outfit,sans-serif;font-weight:500;font-size:21px}}
+  .trade{{font-family:Lora,Georgia,serif;font-style:italic;font-weight:500;font-size:22px}}
+  .axis{{font-family:Outfit,sans-serif;font-weight:600;font-size:16px;letter-spacing:.14em}}
+  .axis-s{{font-family:Lora,Georgia,serif;font-style:italic;font-size:18px}}
+  .tag{{font-family:Outfit,sans-serif;font-weight:600;font-size:16px;letter-spacing:.14em}}
+  .cname{{font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-size:28px}}
   .route{{font-family:'Instrument Serif',Georgia,serif;font-size:24px;paint-order:stroke;stroke:#f9f8f5;stroke-width:6px;stroke-linejoin:round}}
   .route-s{{font-family:Outfit,sans-serif;font-size:14px;paint-order:stroke;stroke:#f9f8f5;stroke-width:6px;stroke-linejoin:round}}
-  .drift{{font-family:Outfit,sans-serif;font-weight:500;font-size:14px}}
-  .foot{{font-family:Outfit,sans-serif;font-size:14px;fill:#5f5e5a}}
+  .drift{{font-family:Outfit,sans-serif;font-weight:500;font-size:17px}}
+  .foot{{font-family:Outfit,sans-serif;font-size:17px;fill:#5f5e5a}}
 </style>
 {chr(10).join(o)}
 </svg>'''
