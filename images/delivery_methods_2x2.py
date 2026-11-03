@@ -19,7 +19,7 @@ XM, YM = X0 + QW, Y0 + QH                    # the axes cross here
 # (col, row, fill, stroke, label colour, name, examples, trade lines, text top offset)
 QUADS = [
     (0, 0, C["acc_t"], C["acc"], C["acc_d"], "Hard bid",
-     ["The General Contractor's tender", "Lump-sum Design-Build"],
+     ["Lump-sum Design-Build", "The build, once tendered"],
      ["You trade trust in the counterparty", "for rock-bottom pricing."], 44),
     (1, 0, C["sec_t"], C["sec"], C["sec_d"], "Partnership",
      ["Principals entangled in a common interest"],
@@ -69,14 +69,21 @@ o.append(t(X0 - 30, YM + QH/2 + 34, "works for you", "axis-s", C["ink2"], "end")
 o.append(t(X0 + QW/2, Y0 + 2*QH + 40, "COMPETITIVE", "axis", C["ink2"], "middle"))
 o.append(t(XM + QW/2, Y0 + 2*QH + 40, "COOPERATIVE", "axis", C["ink2"], "middle"))
 
-# the General Contractor route: design as agent (cost plus), then build by tender (hard bid)
-sx, sy, ex_, ey = XM + 150, YM + 110, XM - 150, YM - 110
-o.append(f'<path d="M{sx},{sy} C{XM+40},{YM+10} {XM-40},{YM-10} {ex_},{ey}" fill="none" stroke="{C["canvas"]}" stroke-width="10"/>')
-o.append(f'<path d="M{sx},{sy} C{XM+40},{YM+10} {XM-40},{YM-10} {ex_},{ey}" fill="none" stroke="{C["ink"]}" stroke-width="3" marker-end="url(#ah-i)"/>')
-o.append(f'<circle cx="{sx}" cy="{sy}" r="6" fill="{C["ink"]}"/>')
-o.append(t(XM + 22, YM - 78, "General Contractor", "route", C["ink"]))
-o.append(t(XM + 22, YM - 56, "design as an agent,", "route-s", C["ink2"]))
-o.append(t(XM + 22, YM - 36, "then build by tender", "route-s", C["ink2"]))
+# the diagonal: cheap and stressful (top left) to peaceful and expensive (bottom right)
+o.append(t(X0 - 24, Y0 - 26, "↖ CHEAP AND STRESSFUL", "tag", C["acc_d"]))
+o.append(t(X0 + 2*QW + 6, Y0 + 2*QH + 40, "PEACEFUL AND EXPENSIVE ↘", "tag", C["action_p"], "end"))
+
+# the General Contractor with a Consultant balances both axes, so it sits on the cross
+CW, CH = 400, 230
+cx, cy = XM - CW/2, YM - CH/2
+o.append(f'<rect x="{cx-8}" y="{cy-8}" width="{CW+16}" height="{CH+16}" rx="18" fill="{C["canvas"]}"/>')
+o.append(f'<rect x="{cx}" y="{cy}" width="{CW}" height="{CH}" rx="14" fill="{C["surface"]}" stroke="{C["ink"]}" stroke-width="2"/>')
+o.append(t(XM, cy + 50, "General Contractor", "name", C["ink"], "middle"))
+o.append(t(XM, cy + 78, "with a Consultant", "cname", C["ink"], "middle"))
+o.append(t(XM, cy + 110, "Design as an agent, then build by tender", "ex", C["ink2"], "middle"))
+o.append(t(XM, cy + 150, "The synthesis: optionality where", "trade", C["ink"], "middle"))
+o.append(t(XM, cy + 176, "it has the most leverage, competition", "trade", C["ink"], "middle"))
+o.append(t(XM, cy + 202, "for the rest.", "trade", C["ink"], "middle"))
 
 # the velocity drift: cooperation decays back to competition
 ay = Y0 - 22
@@ -85,6 +92,7 @@ o.append(t(XM - 40, ay - 14, "Profits = Margin × Velocity: velocity fades, and 
 
 # self-performance sits outside the grid
 o.append(t(80, H - 70, "Off the grid: self-performance, where the Principal and the Agent are one person.", "foot"))
+o.append(t(80, H - 18, "The diagonal runs from cheap and stressful to peaceful and expensive; the centre square balances both axes.", "foot"))
 o.append(t(80, H - 44, "Design-Build lands in two squares: a lump sum keeps it Principal to Principal; cost plus makes it Principal to Agent.", "foot"))
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
@@ -97,6 +105,8 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
   .trade{{font-family:Lora,Georgia,serif;font-style:italic;font-size:19px}}
   .axis{{font-family:Outfit,sans-serif;font-weight:600;font-size:14px;letter-spacing:.14em}}
   .axis-s{{font-family:Lora,Georgia,serif;font-style:italic;font-size:16px}}
+  .tag{{font-family:Outfit,sans-serif;font-weight:600;font-size:13px;letter-spacing:.14em}}
+  .cname{{font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-size:24px}}
   .route{{font-family:'Instrument Serif',Georgia,serif;font-size:24px;paint-order:stroke;stroke:#f9f8f5;stroke-width:6px;stroke-linejoin:round}}
   .route-s{{font-family:Outfit,sans-serif;font-size:14px;paint-order:stroke;stroke:#f9f8f5;stroke-width:6px;stroke-linejoin:round}}
   .drift{{font-family:Outfit,sans-serif;font-weight:500;font-size:14px}}
