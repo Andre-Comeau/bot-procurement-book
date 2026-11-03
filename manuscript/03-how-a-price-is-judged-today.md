@@ -88,9 +88,9 @@ Long-term relationships, controlled costs, shared benefits, reduced management e
 
 Return = Margin × Velocity, as every business school teaches it.
 
-If you have found true love, a partner with a masochistic bent or one enthralled by your motivational voodoo, you may have a golden goose on your hands. Most partners are not true love. For them, the temptation to turn down the treadmill builds an alternate incentive stack. The gold digger raises the margin, which pays, but usually spoils the magic for the Principal. The normie is more insidious and lets velocity slip. Not all at once, but slowly, over time. It may not even be a reduction, just a lack of effort to keep up with the industry's baseline productivity growth. Peace gets more expensive every year.
+If you have found true love, a partner with a masochistic bent or one enthralled by your motivational voodoo, you may have a golden goose on your hands. Most partners are not true love, and they have two ways to step off the treadmill: raise the margin or slow the velocity. The gold digger raises the margin, which pays, but usually spoils the magic for the Principal. The coaster is more insidious and lets velocity slip. Not all at once, but slowly, over time. It may not even be a reduction, just a lack of effort to keep up with the industry's baseline productivity growth. Peace gets more expensive every year.
 
-It works, but like every honeymoon, the glow fades.
+For everyone but true love, the honeymoon ends.
 
 Since the market sets the margin, the Principal must manage the velocity, and velocity lives in the cheap and stressful corner. That is the arrow across the top of the map: sooner or later, every partnership drifts back to the hard bid. Back to the hungry parties, the Principals looking to trade, who know someone else will take the work if they don't. Cheap and stressful wins again, not because anyone enjoys it, but because hunger is the one thing that never slows down.
 
