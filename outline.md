@@ -26,7 +26,7 @@ Part I makes the reader feel the problem before any bot appears. Three chapters,
 
 **2. The tender is the API** (1,000 words, redraft). Design, tender, compilation; the Amazon API mandate applied to a design consultant and a builder; limited test scaffolding and bug-free drawings as a mythical beast. Sources: the case study's "Procurement redescribed as software development" and "A note on PDFs"; position 14 (the model is the specification).
 
-**3. How a price is judged today** (1,200 words, mostly new). For a public buyer the question is "Is this in the public interest?", and a price can only be judged against the requirements it answers; "fair and reasonable" is the legal test for the price part (Andre, 2026-11-02). What that test means to a public buyer, the engineer's estimate, the sold price books and the free bid tabulations, and the author's finding that a bot comes within about 20 percent of a human price line by line (v0.3: 21 percent, against the engineer's estimate's 29) and must come within 2 to 3 percent before anyone trusts it alone. Sources: positions 18, 22 and 23 (margins, return on capital, the bid cushion); `context-bank/what-buyers-pay.md`; `context-bank/bot-procurement-process.md`; `context-bank/contractor-margins.md` for one or two figures only.
+**3. How a price is judged today** (1,200 words, mostly new). For a public buyer the question is "Is this in the public interest?", and a price can only be judged against the requirements it answers; "fair and reasonable" is the legal test for the price part (Andre, 2026-11-02). What that test means to a public buyer, the engineer's estimate, the sold price books and the free bid tabulations, and the author's finding that a bot comes within about 20 percent of a human price line by line (v0.3: 21 percent, against the engineer's estimate's 29) and must come within 2 to 3 percent before anyone trusts it alone. Sources: positions 18, 22 and 23 (margins, return on capital, the bid cushion); `context-bank/what-buyers-pay.md`; `context-bank/bot-procurement-process.md`; `context-bank/contractor-margins.md` for one or two figures only. Added 2026-11-03: the chapter opens with Andre's draft on choosing a delivery method through the Principal/Agent problem (self-performance, general contractor, design-build, construction manager, partnership) and why the competitive exchange persists (profits are margin times velocity, after Venkatesh Rao); about 900 words of finished text, so the chapter will run past its 1,200-word target.
 
 ## Part II. The machines
 
@@ -63,6 +63,8 @@ Part IV says what the standard must cover without pretending it exists, and ends
 **B. A reading list into the context bank** (about 800 words). One line per note that the chapters lean on, with what it holds and why it matters, pointing at the public repository. This replaces footnotes with URLs, which die in print. Source: `context-bank/README.md` and `reading-list.md`.
 
 **C. Glossary** (about 600 words). Keyholder, Witness and Oracle, Listener, pinned and published specifications, the four protocol strategies, bot nomenclature. Source: `glossary.yaml` and position 6.
+
+**D. Bibliography** (added 2026-11-03). The works the text draws on, in one list. Andre wants no footnotes or endnotes; where each work is used is recorded in the chapters' hidden notes.
 
 Not in the book: funding applications, the funding research, the pilot, and anything from the employer's side of the work.
 
