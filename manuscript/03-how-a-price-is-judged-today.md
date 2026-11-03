@@ -74,7 +74,7 @@ You trade a higher share of the benefits for significantly less management effor
 
 Long-term relationships, controlled costs, shared benefits, reduced management effort: sounds great. Let's just do that one over and over. What could go wrong?
 
-Profits = Margin × Velocity, as Venkatesh Rao puts it.
+Return = Margin × Velocity, as every business school teaches it.
 
 If you have found an agent with a masochistic bent, or one enthralled by your motivational voodoo, you may have a golden goose on your hands. For most, the temptation to turn down the treadmill will build an alternate incentive stack. Raising the margin would solve part of the incentive, but usually spoils the magic for the Principal. The more insidious approach is reducing velocity. Not all at once, but slowly, over time. It may not even be a reduction, just a lack of effort to keep up with the industry's baseline productivity growth.
 
