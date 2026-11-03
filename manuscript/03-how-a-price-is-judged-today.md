@@ -68,7 +68,7 @@ The General Contractor model sits at the centre of the map because it visits two
 
 ## Construction Manager: Principal to Agent, competitive
 
-The Construction Manager approach shows up when you want the hand-holding agents can provide through the whole job, but want a bit of extra insurance that they are on your side. The first agent acts as a consultant and prepares the design; the second works as an agentic general contractor to deliver the product. Both agents carry a responsibility towards the Principal and act as checks on each other. (We will avoid looking at what happens when they collude. Your pick of a 90s thriller will be far more educational than my exposition.)
+The Construction Manager approach shows up when you want the hand-holding agents can provide through the whole job, but want a bit of extra insurance that they are on your side. The first agent acts as a consultant and prepares the design; the second works as an agentic general contractor to deliver the product. Both agents carry a responsibility towards the Principal and act as checks on each other.
 
 By splitting the work and moving the Principal to Principal interaction further down the hierarchy, the original Principal gains a mix of loyalty and cost control at the expense of more management effort to maintain velocity. There are now three parties to every decision. It takes only one to slow progress.
 
