@@ -54,7 +54,7 @@ We don't all have the Type A energy to always inhabit that world, so we mortals 
 
 Maybe you want something more. You want to change your mind. You want to explore possibilities. You are willing to risk some capital, but don't want it all to go to the counterparty's margin.
 
-A cost-plus contract moves you to the opposite corner of the map. The builder becomes a consulting contractor: it works for you, and you cooperate instead of competing. The scope and the price float. What keeps the contractor on your side is partly law and custom, but mostly the money: paid its costs plus a fee, it has little to gain by working against you. The catch: cost plus places all the risk on the Principal. Tactically useful, but expensive in the long run.
+A cost-plus contract moves you to the opposite corner of the map. The builder becomes a consulting contractor: it works for you, and you cooperate instead of competing. The scope and the price float. What keeps the contractor on your side is partly law and custom, but mostly the money: paid its costs plus a fee, it has little to gain by working against you. The catch: you pay every cost, whatever it turns out to be, and the contractor has no reason to spend less. When the fee is a percentage, every extra dollar you spend earns it a little more. Useful when you need room to move, but the peaceful corner is also the expensive one.
 
 You trade cost certainty for optionality.
 
