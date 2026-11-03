@@ -1,6 +1,6 @@
 # Tone guide
 
-This guide sets one voice for the whole book, so that a chapter written on a tired day reads like a chapter written on a good one. Andre writes the first drafts. Claude edits them into this voice. The guide is drawn from two pieces of finished prose: the prologue and the delivery-method section that opens chapter 3 (edited with Andre on 3 November 2026).
+This guide sets one voice for the whole book, so that a chapter written on a tired day reads like a chapter written on a good one. It describes a voice, not a template. Chapter 3 is one way the voice sounds when it walks through a list of options; other chapters will tell a story, make an argument or explain a case, and should take their own shape. Andre writes the first drafts. Claude edits them into this voice. The guide is drawn from two pieces of finished prose: the prologue and the delivery-method section that opens chapter 3 (edited with Andre on 3 November 2026).
 
 Andre's drafts think in nested clauses. He calls it hypotaxis hypnosis: it is how he finds the argument, and it is hard for anyone else to follow. The editor's main job is to keep the thinking and undo the nesting.
 
@@ -20,7 +20,7 @@ A builder explaining a hard problem to a smart friend: dry, a little mischievous
 
 **Humour, in small doses.** Game language ("new skills are unlocked"), mock-epic history and deadpan asides all belong. One joke per paragraph is plenty. An aside that pulls the reader out of the argument gets cut, however fun it was to write.
 
-**Refrains.** Chapter 3 closes every option with "You trade X for Y." A refrain gives the reader a rhythm to lean on and makes a list of options feel like one argument. Each chapter can have its own refrain, but use only one per chapter.
+**Refrains, when a chapter earns one.** Chapter 3 closes every option with "You trade X for Y." A refrain gives the reader a rhythm to lean on and makes a list of options feel like one argument. Not every chapter needs one, and a chapter should never have more than one.
 
 **A short line to land the point.** After a long paragraph, a one-line paragraph works as the punchline.
 
@@ -30,9 +30,9 @@ A builder explaining a hard problem to a smart friend: dry, a little mischievous
 
 - **One idea per sentence.** If a sentence has a clause in the middle that interrupts it, split it there.
 - **Put the actor first.** "You invite in the laws and customs", not "the protocols are invited in".
-- **Aim for about 15 words a sentence on average**, which is where chapter 3 sits. The prologue runs at about 23, with five sentences over 30 words. A long sentence is fine when it is building a picture, and never when it is stacking qualifiers.
+- **Keep most sentences short.** Chapter 3 averages about 15 words a sentence and the prologue about 23. That is a check to run on a finished draft, not a target to write to. A long sentence is fine when it is building a picture, and never when it is stacking qualifiers.
 - **Vary the length.** Two or three medium sentences, then a short one.
-- **End each section on a turn** that pulls the reader into the next one: a question, a trade line, or the reader's own voice.
+- **Give sections somewhere to go.** A question, a trade line or the reader's own voice can pull the reader into the next one, but a section can also simply stop when it is done.
 
 ## Let the figures carry the structure
 
@@ -89,6 +89,10 @@ What changed: one 40-word sentence with three nested ideas became four short one
 > **After:** The catch: you pay every cost, whatever it turns out to be, and the contractor has no reason to spend less. When the fee is a percentage, every extra dollar you spend earns it a little more. Useful when you need room to move, but the peaceful corner is also the expensive one.
 
 What changed: "risk" was accurate but new to the section. The after says what the risk is in plain terms, and ends on the figure's own label.
+
+## When to break these
+
+These are defaults, not laws. Break one when the chapter is better for it: a long sentence that builds suspense, a section with no joke because the subject is harm, a chapter without a figure because it tells one story. The test is whether a stranger enjoys reading it, not whether every rule was followed.
 
 ## How Claude edits a draft
 
