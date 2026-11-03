@@ -17,6 +17,7 @@ The book is being written in public during the Protocol Institute's [PiBoWriMo 2
 - `literature-review-2026-11-01.md`: a literature review of about 165 works (1 November 2026). Part 1 is the synthesis: what has been written near the book, the gaps it fills, what cuts against it, and what to read for each chapter. Parts 2 to 6 are the annotated sources, a shelf for Appendix B; Part 6, the verification pass, wins over earlier parts.
 - `collusion-papers-notes-2026-11-01.md`: a close reading of the Seoul National University papers on AI bidders colluding in construction tenders, a test of the argument that public bid data commoditizes pricing, and what follows for the book's design.
 - `images/`: figures for the book, the site and the listing.
+- `TONE.md`: working notes on the book's voice so far, with before-and-after examples from chapter 3. Revised as chapters are finished.
 - `CLAUDE.md`: house rules for the AI assistant that helps with drafting.
 
 Paths in the chapter notes are relative to the author's `construction-procurement-protocols` repository unless they start with `C:\`.
