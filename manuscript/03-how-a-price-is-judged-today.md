@@ -42,7 +42,7 @@ We don't all have the Type A energy to always inhabit that world, so we mortals 
 
 Maybe you want something more. You want to change your mind. You want to explore possibilities. You are willing to risk some capital, but don't want it all to go to the counterparty's margin.
 
-A cost-plus contract shifts the bargain into a Principal/Agent relationship. The scope and the price float. To resolve the ambiguity, you invite in the laws and customs of the Principal/Agent relationship. The builder becomes a consulting contractor, with a responsibility towards your best interest. Ideally, this would be shored up by legal protections, but the financial structure goes most of the way. The catch: cost plus places all the risk on the Principal. Tactically useful, but expensive in the long run.
+A cost-plus contract moves you to the opposite corner of the map. The builder becomes a consulting contractor: it works for you, and you cooperate instead of competing. The scope and the price float. What keeps the contractor on your side is partly law and custom, but mostly the money: paid its costs plus a fee, it has little to gain by working against you. The catch: cost plus places all the risk on the Principal. Tactically useful, but expensive in the long run.
 
 You trade cost certainty for optionality.
 
