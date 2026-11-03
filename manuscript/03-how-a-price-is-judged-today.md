@@ -88,7 +88,7 @@ Long-term relationships, controlled costs, shared benefits, reduced management e
 
 Return = Margin × Velocity, as every business school teaches it.
 
-If you have found a partner with a masochistic bent, or one enthralled by your motivational voodoo, you may have a golden goose on your hands. For most, the temptation to turn down the treadmill will build an alternate incentive stack. Raising the margin would solve part of the incentive, but usually spoils the magic for the Principal. The more insidious approach is to let velocity slip. Not all at once, but slowly, over time. It may not even be a reduction, just a lack of effort to keep up with the industry's baseline productivity growth. Peace gets more expensive every year.
+If you have found true love, a partner with a masochistic bent or one enthralled by your motivational voodoo, you may have a golden goose on your hands. Most partners are not true love. For them, the temptation to turn down the treadmill builds an alternate incentive stack. The gold digger raises the margin, which pays, but usually spoils the magic for the Principal. The normie is more insidious and lets velocity slip. Not all at once, but slowly, over time. It may not even be a reduction, just a lack of effort to keep up with the industry's baseline productivity growth. Peace gets more expensive every year.
 
 It works, but like every honeymoon, the glow fades.
 
