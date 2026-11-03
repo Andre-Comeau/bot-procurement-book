@@ -30,7 +30,7 @@ How much of a dose depends on two questions. Does the other party work for itsel
 
 ## Hard bid: Principal to Principal, competitive
 
-Hand the whole job to one builder, design included, and you have Design-Build: the Babylonian problem. The builder has all the control. A lump sum controls the price, but requires some degree of adversarial relationship. Some try to game the system, to control costs through a lump-sum price while keeping the freedom to change their minds.
+Hand the whole job to one builder, design included, and you have Design-Build: the Babylonian problem. The builder has all the control. A lump sum controls the price, but requires some degree of adversarial relationship. Society can help set a floor against the worst-case scenarios, but friction is to be expected.
 
 This works great when you know what you want, know how to ask for it, and know what it should cost.
 
