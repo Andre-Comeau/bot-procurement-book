@@ -19,7 +19,7 @@ XM, YM = X0 + QW, Y0 + QH                    # the axes cross here
 # (col, row, fill, stroke, label colour, name, examples, trade lines, text top offset)
 QUADS = [
     (0, 0, C["acc_t"], C["acc"], C["acc_d"], "Hard bid",
-     ["Lump-sum Design-Build", "The build, once tendered"],
+     ["The bidding contractor", "Lump-sum Design-Build"],
      ["You trade trust in the counterparty", "for rock-bottom pricing."], 44),
     (1, 0, C["sec_t"], C["sec"], C["sec_d"], "Partnership",
      ["Principals entangled in a common interest"],
@@ -28,7 +28,7 @@ QUADS = [
      ["Two agents, designer and builder,", "acting as checks on each other"],
      ["You trade accountability for a mild", "dose of certainty and optionality."], 150),
     (1, 1, C["action_t"], C["action"], C["action_p"], "Cost plus",
-     ["The design consultant", "Cost-plus Design-Build"],
+     ["The consulting contractor", "Cost-plus Design-Build"],
      ["You trade cost certainty", "for optionality."], 150),
 ]
 
@@ -80,7 +80,7 @@ o.append(f'<rect x="{cx-8}" y="{cy-8}" width="{CW+16}" height="{CH+16}" rx="18" 
 o.append(f'<rect x="{cx}" y="{cy}" width="{CW}" height="{CH}" rx="14" fill="{C["surface"]}" stroke="{C["ink"]}" stroke-width="2"/>')
 o.append(t(XM, cy + 50, "General Contractor", "name", C["ink"], "middle"))
 o.append(t(XM, cy + 78, "with a Consultant", "cname", C["ink"], "middle"))
-o.append(t(XM, cy + 110, "Design as an agent, then build by tender", "ex", C["ink2"], "middle"))
+o.append(t(XM, cy + 110, "Design with an agent, build with a principal", "ex", C["ink2"], "middle"))
 o.append(t(XM, cy + 150, "The synthesis: optionality where", "trade", C["ink"], "middle"))
 o.append(t(XM, cy + 176, "it has the most leverage, competition", "trade", C["ink"], "middle"))
 o.append(t(XM, cy + 202, "for the rest.", "trade", C["ink"], "middle"))
