@@ -4,3 +4,4 @@
 - The registry row in `C:\hex_ai\portfolio\registry.md` is the source of truth for status and links.
 - Source material is read from other folders by path (for example `construction-procurement-protocols`, `bot-council\transcripts`) and quoted into the book. Nothing is copied wholesale.
 - Folder layout is still to be decided. Keep to three levels and add a subfolder only when it earns its own README.
+- When editing or drafting book prose, follow `TONE.md`: one voice for every chapter, whatever the draft's mood.
