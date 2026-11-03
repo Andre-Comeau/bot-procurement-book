@@ -64,6 +64,8 @@ Part IV says what the standard must cover without pretending it exists, and ends
 
 **C. Glossary** (about 600 words). Keyholder, Witness and Oracle, Listener, pinned and published specifications, the four protocol strategies, bot nomenclature. Source: `glossary.yaml` and position 6.
 
+**D. Bibliography** (added 2026-11-03). The works the text draws on, in one list. Andre wants no footnotes or endnotes; where each work is used is recorded in the chapters' hidden notes.
+
 Not in the book: funding applications, the funding research, the pilot, and anything from the employer's side of the work.
 
 ## Word budget and the November schedule
