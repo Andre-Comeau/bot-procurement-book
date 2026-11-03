@@ -1,68 +1,67 @@
-# Tone guide
+# Tone notes
 
-This guide sets one voice for the whole book, so that a chapter written on a tired day reads like a chapter written on a good one. It describes a voice, not a template. Chapter 3 is one way the voice sounds when it walks through a list of options; other chapters will tell a story, make an argument or explain a case, and should take their own shape. Andre writes the first drafts. Claude edits them into this voice. The guide is drawn from two pieces of finished prose: the prologue and the delivery-method section that opens chapter 3 (edited with Andre on 3 November 2026).
+*A working document. Last revised 3 November 2026, from about 1,500 words of finished prose.*
 
-Andre's drafts think in nested clauses. He calls it hypotaxis hypnosis: it is how he finds the argument, and it is hard for anyone else to follow. The editor's main job is to keep the thinking and undo the nesting.
+These notes describe how the book has sounded so far. They are not rules. They are drawn from two pieces of finished prose, the prologue and the delivery-method section that opens chapter 3, and two samples are a small base to generalize from. Expect the notes to change as more chapters are finished.
 
-## The voice in one line
+They are probably most useful in two places:
 
-A builder explaining a hard problem to a smart friend: dry, a little mischievous, never lecturing.
+- **When editing a tangled draft**, as a set of things that have helped before.
+- **In later standardizing passes**, once there are enough chapters to compare. At that point the notes can be checked against the larger set, and the observations that hold up can be firmed up.
 
-## What to keep
+Some chapters will likely need a different tone. A chapter about harm, a failure case or a legal argument may want less humour, longer sentences or a more formal register. The notes should bend to the chapter, not the other way round. If a chapter's tone shifts on purpose, it may be worth adding a line about it here.
 
-**Big frames, then small things.** Chapters open on history or theory with a wink: Hammurabi, a Gramsci monster, three thousand years of builders. Then they come down to something the reader can picture, like a drywall patch or a house.
+## What seems to be working
+
+Andre's drafts tend to think in nested clauses. He calls it hypotaxis hypnosis: it helps him find the argument, but it can be hard for a reader to follow. So far, the edits that worked best kept the thinking and loosened the nesting.
+
+The voice so far might be summed up as a builder explaining a hard problem to a smart friend: fairly dry, a little mischievous, and not lecturing.
+
+**Big frames, then small things.** Both samples open on history or theory with a wink (Hammurabi, a Gramsci monster, three thousand years of builders) and then come down to something the reader can picture, such as a drywall patch or a house.
 
 > While our society's lack of appetite for murdering the sons of general contractors in eye-for-an-eye legal remedies is welcomed by construction workers and their families, moving away from the Mesopotamian solution to the principal-agent problem has required a far more complex framework.
 
-**The reader is in the story.** Write to "you", the person buying the building. Let the reader talk back, and use those lines to move to the next section.
+**The reader in the story.** Chapter 3 writes to "you", the person buying the building, and lets the reader talk back. Those lines also help move between sections. This suits a walk through options. It may suit a narrative or a legal chapter less well.
 
 > "Good options," you say, "but I have read too much Hegel. Give me a synthesis."
 
-**Humour, in small doses.** Game language ("new skills are unlocked"), mock-epic history and deadpan asides all belong. One joke per paragraph is plenty. An aside that pulls the reader out of the argument gets cut, however fun it was to write.
+**Humour in small doses.** Game language ("new skills are unlocked"), mock-epic history and deadpan asides have worked well. About one joke a paragraph seems to be the most the text carries. The one aside cut so far (the 90s thriller line) went because it pulled the reader out of the argument, not because it wasn't funny.
 
-**Refrains, when a chapter earns one.** Chapter 3 closes every option with "You trade X for Y." A refrain gives the reader a rhythm to lean on and makes a list of options feel like one argument. Not every chapter needs one, and a chapter should never have more than one.
+**A refrain, sometimes.** Chapter 3 closes each option with "You trade X for Y." It turned a list into one argument. Whether other chapters want a refrain is an open question, and more than one per chapter would probably blur.
 
-**A short line to land the point.** After a long paragraph, a one-line paragraph works as the punchline.
+**A short line to land a point.** After a long paragraph, a one-line paragraph has worked as a punchline.
 
 > For everyone but true love, the honeymoon ends.
 
 ## Rhythm
 
-- **One idea per sentence.** If a sentence has a clause in the middle that interrupts it, split it there.
-- **Put the actor first.** "You invite in the laws and customs", not "the protocols are invited in".
-- **Keep most sentences short.** Chapter 3 averages about 15 words a sentence and the prologue about 23. That is a check to run on a finished draft, not a target to write to. A long sentence is fine when it is building a picture, and never when it is stacking qualifiers.
-- **Vary the length.** Two or three medium sentences, then a short one.
-- **Give sections somewhere to go.** A question, a trade line or the reader's own voice can pull the reader into the next one, but a section can also simply stop when it is done.
+These are tendencies from the edits so far, not targets.
 
-## Let the figures carry the structure
+- **One idea per sentence, mostly.** Where a clause interrupts the middle of a sentence, splitting there has usually helped.
+- **The actor first.** "You invite in the laws and customs" read more easily than "the protocols are invited in".
+- **Sentence length.** Chapter 3 averages about 15 words a sentence and the prologue about 23. That may be a useful check on a finished draft, but it seems better not to write to a number. A long sentence can build a picture well; it tends to go wrong when it stacks qualifiers.
+- **Varied length.** A short sentence after two or three medium ones has often landed well.
+- **Section endings.** A question, a trade line or the reader's voice can carry the reader into the next section. A section can also just stop when it is done.
 
-When a chapter has a structure, such as two axes, a sequence or a loop, draw it. Then the text can point at the figure instead of rebuilding it in words: "the opposite corner of the map", "the cheap and stressful corner". This is the cure for paragraphs that loop back on themselves. Chapter 3's 2x2 is the model.
+## Figures
+
+In chapter 3, the 2x2 figure did a lot of the work. Once it existed, the text could point at it ("the opposite corner of the map") instead of rebuilding the structure in words, and the paragraphs that had looped back on themselves got shorter. This may help in other chapters with a clear structure (two axes, a sequence, a loop). It is less likely to help in a chapter that tells one story.
 
 ## Words
 
-- **Name a term once, then lean on it.** If "Principal/Agent" appears three times in a paragraph, replace two of them with "you", "the builder" or a place on the map.
-- **Plain words for stacked abstractions.** "Laws and customs", not "the protocols, legal and customary".
-- **Stay in the section's own vocabulary.** Do not bring in a new concept, such as "risk", at the end of a section that never set it up. Say the same thing in words the section already uses.
-- **Name types by what they do.** "The coaster" lets velocity slip; "the normie" said nothing.
-- **Roles are capitalized** when they are the book's terms: Principal, Agent, General Contractor, Construction Manager, Design-Build, Consultant.
-- **Spelling is Canadian** with -ize endings: centre, colour, behaviour, realize.
-- **Hyphenate compound adjectives:** worst-case scenarios, rock-bottom pricing, a cost-plus contract.
+- **Repeated terms.** When "Principal/Agent" appeared three times in one paragraph, it read as recursive. Replacing some uses with "you", "the builder" or a place on the map helped.
+- **Plain words for stacked abstractions.** "Laws and customs" read better than "the protocols, legal and customary".
+- **The section's own vocabulary.** "Risk" was accurate but felt out of place at the end of a section that never mentioned it. Saying the same thing in the section's own words worked better.
+- **Names that describe behaviour.** "The coaster" carried more than "the normie".
 
-## Jokes that punch at systems, not people
+## Decisions so far
 
-The joke is on the incentive, the institution or the author, never on a group of people. A gag that some readers will bounce off costs more than it earns in a book meant to persuade.
+These are choices Andre has made, rather than observations. They can still change.
 
-> **Before:** It works, but like a trophy wife, the glow will fade over time.
->
-> **After:** For everyone but true love, the honeymoon ends.
-
-The after keeps the marriage joke and the mood, and it sets up three partner types (true love, the gold digger and the coaster) that map onto margin and velocity.
-
-## Sources and credit
-
-- **No footnotes or endnotes.** Works the text relies on go in the bibliography (Appendix D). The details of where each one is used go in the chapter's hidden note.
-- **Credit in the sentence when the name matters** to the reader. Otherwise, let the bibliography do it.
-- **Check who an idea really belongs to** before crediting it. "Return = Margin × Velocity" turned out to be the DuPont formula, worded by Ram Charan, not Venkatesh Rao's own idea, so the text now reads "as every business school teaches it".
+- **No footnotes or endnotes** (3 November 2026). Works go in the bibliography (Appendix D), and the details of where each is used go in the chapter's hidden note. Credit a source in the sentence when the name matters to the reader.
+- **Check who an idea belongs to** before crediting it. "Return = Margin × Velocity" turned out to be the DuPont formula in Ram Charan's wording, not Venkatesh Rao's idea, so the text now reads "as every business school teaches it".
+- **Jokes aim at systems, not groups of people.** The trophy-wife line became the honeymoon line. The marriage joke and the mood stayed, and some readers would have bounced off the original.
+- **Spelling and style, for now:** Canadian spelling with -ize endings (centre, colour, realize), as the text already uses; the book's roles capitalized (Principal, Agent, General Contractor, Construction Manager, Design-Build, Consultant); compound adjectives hyphenated (worst-case scenarios, a cost-plus contract).
 
 ## Before and after
 
@@ -72,7 +71,7 @@ The after keeps the marriage joke and the mood, and it sets up three partner typ
 >
 > **After (chapter 3):** A cost-plus contract moves you to the opposite corner of the map. The builder becomes a consulting contractor: it works for you, and you cooperate instead of competing. The scope and the price float. What keeps the contractor on your side is partly law and custom, but mostly the money: paid its costs plus a fee, it has little to gain by working against you.
 
-What changed: the figure places the option, so the paragraph no longer has to define it. "Principal/Agent" and "relationship" each appeared twice and are gone. The interrupting clause became "law and custom". "Fiduciary" was too strong and came out. The last sentence of the draft became the paragraph's point.
+What changed: the figure placed the option, so the paragraph no longer had to define it. "Principal/Agent" and "relationship" each appeared twice and went. The interrupting clause became "law and custom". "Fiduciary" was too strong and came out. The draft's last sentence became the paragraph's point.
 
 ### Leaning on the map
 
@@ -80,7 +79,7 @@ What changed: the figure places the option, so the paragraph no longer has to de
 >
 > **After (chapter 3):** Both agents work for you, which puts you in the bottom row. They keep each other honest, which puts you in the competitive column. The hard bidding still happens, but one level down, where the Construction Manager buys from the trades on your behalf. You gain loyalty and some cost control, and you pay for it in management effort to keep the job moving. There are now three parties to every decision, and it takes only one to slow progress.
 
-What changed: one 40-word sentence with three nested ideas became four short ones, each doing one job. "The original Principal" became "you". The ending, which already worked, stayed.
+What changed: one 40-word sentence with three nested ideas became four shorter ones. "The original Principal" became "you". The ending already worked and stayed.
 
 ### Staying in the section's words
 
@@ -88,17 +87,21 @@ What changed: one 40-word sentence with three nested ideas became four short one
 >
 > **After:** The catch: you pay every cost, whatever it turns out to be, and the contractor has no reason to spend less. When the fee is a percentage, every extra dollar you spend earns it a little more. Useful when you need room to move, but the peaceful corner is also the expensive one.
 
-What changed: "risk" was accurate but new to the section. The after says what the risk is in plain terms, and ends on the figure's own label.
+What changed: the after says what the risk is in the section's own terms, and ends on the figure's label.
 
-## When to break these
+## How Claude has been editing
 
-These are defaults, not laws. Break one when the chapter is better for it: a long sentence that builds suspense, a section with no joke because the subject is harm, a chapter without a figure because it tells one story. The test is whether a stranger enjoys reading it, not whether every rule was followed.
+This is what has worked in the edits so far, and Andre may want it done differently as the book grows.
 
-## How Claude edits a draft
+1. Regroup before rewriting. Many of Andre's sentences survived once they were put in a better order.
+2. Keep his sentences, jokes and frames where they work.
+3. Flag every sentence that is Claude's, in the reply and in the chapter's hidden note, so Andre can confirm it.
+4. Propose an ending for a broken sentence and ask, rather than finishing it silently.
+5. Check facts and credits, and say what couldn't be checked.
+6. Where the tone of a draft differs from these notes, ask whether the shift is intended before smoothing it out.
 
-1. **Regroup before rewriting.** Most of Andre's sentences survive when they are put in a better order. Rewrite only what still tangles after that.
-2. **Keep his sentences where they work,** and keep his jokes, frames and refrains.
-3. **Flag every sentence that is Claude's,** in the reply and in the chapter's hidden note, so Andre can confirm it.
-4. **Never finish a broken sentence silently.** Propose an ending and ask.
-5. **Check facts and credits** (dates, formulas, who said what) and say what could not be checked.
-6. **Read it as a stranger would.** If a sentence needs a second reading, split it.
+## Open questions
+
+- Does the voice change between the book's parts (the question, the history, the standard, the future)?
+- Which of these observations still hold after five or six finished chapters?
+- Should chapters with a shifted tone get their own short entry here?
