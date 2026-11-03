@@ -18,16 +18,16 @@ XM, YM = X0 + QW, Y0 + QH                    # the axes cross here
 
 # (col, row, fill, stroke, label colour, name, examples, trade lines, text top offset)
 QUADS = [
-    (0, 0, C["acc_t"], C["acc"], C["acc_d"], "Hard bid",
+    (0, 0, C["acc"], C["acc_d"], C["acc_t"], "Hard bid",
      ["The bidding contractor", "Lump-sum Design-Build"],
      ["You trade trust in the counterparty", "for rock-bottom pricing."], 44),
-    (1, 0, C["sec_t"], C["sec"], C["sec_d"], "Partnership",
+    (1, 0, C["sec"], C["sec_d"], C["sec_t"], "Partnership",
      ["Principals entangled in a common interest"],
      ["You trade a higher share of the benefits", "for significantly less management effort."], 44),
-    (0, 1, C["muted"], C["ink2"], C["ink2"], "Construction Manager",
+    (0, 1, C["ink2"], C["ink"], C["muted"], "Construction Manager",
      ["Two agents, designer and builder,", "acting as checks on each other"],
      ["You trade accountability for a mild", "dose of certainty and optionality."], 150),
-    (1, 1, C["action_t"], C["action"], C["action_p"], "Cost plus",
+    (1, 1, C["action"], C["action_p"], C["action_t"], "Cost plus",
      ["The consulting contractor", "Cost-plus Design-Build"],
      ["You trade cost certainty", "for optionality."], 150),
 ]
@@ -51,13 +51,13 @@ for col, row, fill, stroke, lab, name, ex, trade, top in QUADS:
     x, y = X0 + col * QW, Y0 + row * QH
     o.append(f'<rect x="{x+6}" y="{y+6}" width="{QW-12}" height="{QH-12}" rx="14" fill="{fill}" stroke="{stroke}" stroke-width="1.5"/>')
     yy = y + top
-    o.append(t(x + 40, yy + 30, name, "name", C["ink"]))
+    o.append(t(x + 40, yy + 30, name, "name", "#ffffff"))
     yy += 70
     for ln in ex:
         o.append(t(x + 40, yy, ln, "ex", lab)); yy += 26
     yy += 14
     for ln in trade:
-        o.append(t(x + 40, yy, ln, "trade", C["ink"])); yy += 26
+        o.append(t(x + 40, yy, ln, "trade", "#ffffff")); yy += 26
 
 # axis labels
 o.append(t(X0 - 30, Y0 + QH/2 - 10, "PRINCIPAL TO", "axis", C["ink2"], "end"))
