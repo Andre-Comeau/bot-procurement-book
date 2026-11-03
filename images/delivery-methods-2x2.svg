@@ -21,29 +21,29 @@
 <text x="80" y="148" class="title" text-anchor="start">Who works for whom, and how they deal</text>
 <text x="80" y="190" class="dek" text-anchor="start">Two questions place every way to build: does the other party work for itself or for you,</text>
 <text x="80" y="218" class="dek" text-anchor="start">and do you get there by competing or by cooperating?</text>
-<rect x="256" y="306" width="608" height="368" rx="14" fill="#faece7" stroke="#d85a30" stroke-width="1.5"/>
-<text x="290" y="374" class="name" text-anchor="start" fill="#2c2c2a">Hard bid</text>
-<text x="290" y="414" class="ex" text-anchor="start" fill="#9e3d18">The bidding contractor</text>
-<text x="290" y="440" class="ex" text-anchor="start" fill="#9e3d18">Lump-sum Design-Build</text>
-<text x="290" y="480" class="trade" text-anchor="start" fill="#2c2c2a">You trade trust in the counterparty</text>
-<text x="290" y="506" class="trade" text-anchor="start" fill="#2c2c2a">for rock-bottom pricing.</text>
-<rect x="876" y="306" width="608" height="368" rx="14" fill="#e1f5ee" stroke="#0f6e56" stroke-width="1.5"/>
-<text x="910" y="374" class="name" text-anchor="start" fill="#2c2c2a">Partnership</text>
-<text x="910" y="414" class="ex" text-anchor="start" fill="#085041">Principals entangled in a common interest</text>
-<text x="910" y="454" class="trade" text-anchor="start" fill="#2c2c2a">You trade a higher share of the benefits</text>
-<text x="910" y="480" class="trade" text-anchor="start" fill="#2c2c2a">for significantly less management effort.</text>
-<rect x="256" y="686" width="608" height="368" rx="14" fill="#f3f4f6" stroke="#5f5e5a" stroke-width="1.5"/>
-<text x="290" y="860" class="name" text-anchor="start" fill="#2c2c2a">Construction Manager</text>
-<text x="290" y="900" class="ex" text-anchor="start" fill="#5f5e5a">Two agents, designer and builder,</text>
-<text x="290" y="926" class="ex" text-anchor="start" fill="#5f5e5a">acting as checks on each other</text>
-<text x="290" y="966" class="trade" text-anchor="start" fill="#2c2c2a">You trade accountability for a mild</text>
-<text x="290" y="992" class="trade" text-anchor="start" fill="#2c2c2a">dose of certainty and optionality.</text>
-<rect x="876" y="686" width="608" height="368" rx="14" fill="#e6efff" stroke="#0064ff" stroke-width="1.5"/>
-<text x="910" y="860" class="name" text-anchor="start" fill="#2c2c2a">Cost plus</text>
-<text x="910" y="900" class="ex" text-anchor="start" fill="#004fcc">The consulting contractor</text>
-<text x="910" y="926" class="ex" text-anchor="start" fill="#004fcc">Cost-plus Design-Build</text>
-<text x="910" y="966" class="trade" text-anchor="start" fill="#2c2c2a">You trade cost certainty</text>
-<text x="910" y="992" class="trade" text-anchor="start" fill="#2c2c2a">for optionality.</text>
+<rect x="256" y="306" width="608" height="368" rx="14" fill="#d85a30" stroke="#9e3d18" stroke-width="1.5"/>
+<text x="290" y="374" class="name" text-anchor="start" fill="#ffffff">Hard bid</text>
+<text x="290" y="414" class="ex" text-anchor="start" fill="#faece7">The bidding contractor</text>
+<text x="290" y="440" class="ex" text-anchor="start" fill="#faece7">Lump-sum Design-Build</text>
+<text x="290" y="480" class="trade" text-anchor="start" fill="#ffffff">You trade trust in the counterparty</text>
+<text x="290" y="506" class="trade" text-anchor="start" fill="#ffffff">for rock-bottom pricing.</text>
+<rect x="876" y="306" width="608" height="368" rx="14" fill="#0f6e56" stroke="#085041" stroke-width="1.5"/>
+<text x="910" y="374" class="name" text-anchor="start" fill="#ffffff">Partnership</text>
+<text x="910" y="414" class="ex" text-anchor="start" fill="#e1f5ee">Principals entangled in a common interest</text>
+<text x="910" y="454" class="trade" text-anchor="start" fill="#ffffff">You trade a higher share of the benefits</text>
+<text x="910" y="480" class="trade" text-anchor="start" fill="#ffffff">for significantly less management effort.</text>
+<rect x="256" y="686" width="608" height="368" rx="14" fill="#5f5e5a" stroke="#2c2c2a" stroke-width="1.5"/>
+<text x="290" y="860" class="name" text-anchor="start" fill="#ffffff">Construction Manager</text>
+<text x="290" y="900" class="ex" text-anchor="start" fill="#f3f4f6">Two agents, designer and builder,</text>
+<text x="290" y="926" class="ex" text-anchor="start" fill="#f3f4f6">acting as checks on each other</text>
+<text x="290" y="966" class="trade" text-anchor="start" fill="#ffffff">You trade accountability for a mild</text>
+<text x="290" y="992" class="trade" text-anchor="start" fill="#ffffff">dose of certainty and optionality.</text>
+<rect x="876" y="686" width="608" height="368" rx="14" fill="#0064ff" stroke="#004fcc" stroke-width="1.5"/>
+<text x="910" y="860" class="name" text-anchor="start" fill="#ffffff">Cost plus</text>
+<text x="910" y="900" class="ex" text-anchor="start" fill="#e6efff">The consulting contractor</text>
+<text x="910" y="926" class="ex" text-anchor="start" fill="#e6efff">Cost-plus Design-Build</text>
+<text x="910" y="966" class="trade" text-anchor="start" fill="#ffffff">You trade cost certainty</text>
+<text x="910" y="992" class="trade" text-anchor="start" fill="#ffffff">for optionality.</text>
 <text x="220" y="480.0" class="axis" text-anchor="end" fill="#5f5e5a">PRINCIPAL TO</text>
 <text x="220" y="500.0" class="axis" text-anchor="end" fill="#5f5e5a">PRINCIPAL</text>
 <text x="220" y="524.0" class="axis-s" text-anchor="end" fill="#5f5e5a">works for itself</text>
