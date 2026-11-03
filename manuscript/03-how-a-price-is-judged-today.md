@@ -18,7 +18,7 @@ So, you want to build a house. Let's look at your options.
 
 ## Self-performance: the embodied Principal/Agent solution
 
-Well done, you have selected the path of self-sufficiency and knowing yourself. If you succeed, new skills are unlocked. If you fail, you gain knowledge of your capacities.
+Well done, you have selected the path of self-sufficiency and knowing yourself. If you succeed, new skills are unlocked. If you fail, you gain knowledge of your limitations.
 
 For beginners, this works well for that drywall patch. For experts, an entire home may be possible. For masters, small villages could be produced.
 
