@@ -52,7 +52,7 @@ You trade cost certainty for optionality.
 
 To resolve the tension, a more complex protocol is brought into play: design with an agent, build with a principal.
 
-The General Contractor model is usually Principal to Agent plus Principal to Principal. Either the buying Principal has the know-how to design, or has hired a Consultant to act as their agent. This allows early optionality on the highest-leverage component: design. Once the design is complete, often with elements of cost plus, the remainder of the work switches to Principal versus Principal, and the General Contractors compete for it. The legal system has built a ring around the sport, with heavy penalties for consultants who fail to act as agents, and rules for the conflict between Principals.
+The General Contractor model sits at the centre of the map because it visits two corners in turn. First comes the design, done by you or by a Consultant you hire. The Consultant works for you, so you keep your options open where they matter most. Once the drawings are done, often paid on a cost-plus basis, the work moves to the hard-bid corner, and General Contractors compete to build it. The legal system has built a ring around the sport, with heavy penalties for consultants who fail to act as agents, and rules for the fight between Principals.
 
 ## Construction Manager: Principal to Agent, competitive
 
