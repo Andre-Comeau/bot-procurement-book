@@ -8,7 +8,7 @@ Brief: What "fair and reasonable" means to a public buyer, the engineer's estima
 Sources: positions 18, 22 and 23 (margins, return on capital, the bid cushion); `context-bank/what-buyers-pay.md`; `context-bank/bot-procurement-process.md`; `context-bank/contractor-margins.md` for one or two figures only.
 Correction (2026-11-02, checked against `C:\hex_ai\estimator-workspace\RESULTS.md`): "within 20 percent" is slightly generous. Line by line on the locked test set, v0.3 misses the mean of the three lowest bids by a median 21.0% against the engineer's estimate's 28.6%; at the contract total by 13.0% against 14.4%. Say "about 20 percent" or "about a fifth". Useful for the chapter: the target itself is noisy, since the three lowest bidders differ from each other by a median 50% line by line, and one of them misses the other two by a median 25%. The engineer's estimate misses the three-lowest total by a median 11.2%.
 Literature (`literature-review-2026-11-01.md`, Part 1): FHWA 2004 guidelines and 2015 review (engineer's estimates within 10 percent of the low bid on 48 percent of projects); USDOT OIG 2019; De Silva et al. 2008 (publishing the estimate lowered bids); UK Should Cost Model guidance; PSPC 2023 pricing guide; AACE 18R-97 and 98R-18; the $600-hammer story as a possible opening. Andre keeps the 2 to 3 percent target as a contractor's standard, not an engineer's (2026-11-01).
-Added 2026-11-03 (Andre's draft, lightly edited by Claude): the opening sections below, from "Since the niche world" to "The dark exchange", are Andre's own prose on choosing a delivery method through the Principal/Agent problem. They are finished writing, not source passages; the price material follows on from their last line, the competitive exchange. References (Andre, 2026-11-03: no footnotes or endnotes; works go in Appendix D, the bibliography): the self-performance section draws on Red Green's *How to Do Everything* (2015, confirmed by Andre); "3,776 years" counts from 1750 BC, the usual date for Hammurabi's code (1755 to 1750 BC); Rao's note is https://substack.com/@contraptions/note/c-374727395 (31 Oct 2026), which gives income as margin times velocity, so the formula reads "×" where the draft had "+". The Design-Build sentence ending "through a lump-sum price while keeping the freedom to change their minds" finishes a broken sentence; Andre confirmed it on 2026-11-03. Figure added 2026-11-03: `images/delivery-methods-2x2.png`, drawn with Andre (2x2 of Principal to Principal or Agent against competitive or cooperative, General Contractor with a Consultant in the centre, cheap and stressful to peaceful and expensive on the diagonal). The text still walks the methods in the older order; Claude offered to rewrite it around the figure. Restaged 2026-11-03 (Andre): Design-Build is the Babylonian problem, Principal to Principal, since the builder has all the control; cost plus shifts it to Principal/Agent but puts all the risk on the Principal; the General Contractor model (design-bid-build) is Principal to Agent for design plus Principal to Principal for the build, the synthesis. "Fiduciary" became "responsibility". The lump-sum trade line and the linking sentences between sections are Claude's, to confirm.
+Added 2026-11-03 (Andre's draft, lightly edited by Claude): the opening sections below, from "Since the niche world" to "The dark exchange", are Andre's own prose on choosing a delivery method through the Principal/Agent problem. They are finished writing, not source passages; the price material follows on from their last line, the competitive exchange. References (Andre, 2026-11-03: no footnotes or endnotes; works go in Appendix D, the bibliography): the self-performance section draws on Red Green's *How to Do Everything* (2015, confirmed by Andre); "3,776 years" counts from 1750 BC, the usual date for Hammurabi's code (1755 to 1750 BC); Rao's note is https://substack.com/@contraptions/note/c-374727395 (31 Oct 2026), which gives income as margin times velocity, so the formula reads "×" where the draft had "+". Changed 2026-11-03 (Andre): the line now reads "Return = Margin × Velocity, as every business school teaches it". The idea is the DuPont formula (return on investment = profit margin × asset turnover, F. Donaldson Brown, DuPont, about 1914 to 1920); the "velocity" wording is Ram Charan's, *What the CEO Wants You to Know* (2001), listed in Appendix D. Rao's note is what reminded Andre of it. The Design-Build sentence ending "through a lump-sum price while keeping the freedom to change their minds" finished a broken sentence in the first draft; on 2026-11-03 Andre replaced it with "Society can help set a floor against the worst-case scenarios, but friction is to be expected." Figure added 2026-11-03: `images/delivery-methods-2x2.png`, drawn with Andre (2x2 of Principal to Principal or Agent against competitive or cooperative, General Contractor with a Consultant in the centre, cheap and stressful to peaceful and expensive on the diagonal). Rewritten 2026-11-03 at Andre's request to follow the figure: self-performance off the grid, the two questions, hard bid, cost plus, the centre, Construction Manager, partnership, then velocity. Claude's sentences, to confirm: the paragraph opening "How much of a dose depends on two questions"; "Maybe you want something more"; the cost-plus paragraph the centre paragraph the Construction Manager paragraph and the closing section (all rewritten 2026-11-03 to lean on the map); the heading "Two questions". Restaged 2026-11-03 (Andre): Design-Build is the Babylonian problem, Principal to Principal, since the builder has all the control; cost plus shifts it to Principal/Agent but puts all the risk on the Principal; the General Contractor model (design-bid-build) is Principal to Agent for design plus Principal to Principal for the build, the synthesis. "Fiduciary" became "responsibility". The lump-sum trade line and the linking sentences between sections are Claude's, to confirm.
 Paths are relative to construction-procurement-protocols unless they start with C:\.
 -->
 
@@ -20,7 +20,7 @@ So, you want to build a house. Let's look at your options.
 
 *Who works for whom, and how they deal. Cheap and stressful in one corner, peaceful and expensive in the other; the General Contractor with a Consultant balances both axes.*
 
-## Self-performance: the embodied Principal/Agent solution
+## Self-performance: off the grid
 
 Well done, you have selected the path of self-sufficiency and knowing yourself. If you succeed, new skills are unlocked. If you fail, you gain knowledge of your limitations.
 
@@ -30,25 +30,19 @@ All great; all lacking in scale, limited both by one person's ability to project
 
 To solve this, we start to muddy the Principal/Agent waters.
 
-## Design-Build: the Babylonian problem, Principal to Principal
+## Two questions
 
-So, you need more help. We could go trade by trade, but the end story is the same: someone is willing to trade with you, so you arrive at a bargain. Hand the whole job to one builder, design included, and you have Design-Build.
+So, you need more help. We could go trade by trade, but the end story is the same: someone is willing to trade with you, so you arrive at a bargain.
 
-Unlike a bargain for grain, clothes, or pleasurable company, this bargain is for goods that cannot be evaluated before entering into an agreement. The builder has all the control. For at least 3,776 years, humanity has struggled to resolve the issue.
+Unlike a bargain for grain, clothes, or pleasurable company, this bargain is for goods that cannot be evaluated before entering into an agreement. For at least 3,776 years, humanity has struggled to resolve the issue.
 
 The most common fix is to add a small dose of agentic responsibility to the one performing the work. Because they are the expert closer to the solution, this creates a small brake on the natural profit-maximizing tendencies that unmitigated transactions can bring about.
 
-The rest depends on the contract. A lump sum controls the price, but requires some degree of adversarial relationship. Some try to game the system, to control costs through a lump-sum price while keeping the freedom to change their minds.
+How much of a dose depends on two questions. Does the other party work for itself, a Principal like you, or for you, as your Agent? And do you deal with them by competing or by cooperating? The answers put every way to build in a corner of the map, with cheap and stressful at one end of the diagonal and peaceful and expensive at the other.
 
-But maybe you want something more. You want to change your mind. You want to explore possibilities. You are willing to risk some capital, but don't want it all to go to the counterparty's margin. A cost-plus contract shifts the bargain into a Principal/Agent relationship. The scope and the price float, and to resolve the ambiguity, the protocols, legal and customary, of the Principal/Agent relationship are invited in. The Design-Builder takes on a responsibility towards your best interest. Ideally, this would be shored up by legal protections, but the financial structure goes most of the way. The catch: cost plus places all the risk on the Principal. Tactically useful, but expensive in the long run.
+## Hard bid: Principal to Principal, competitive
 
-With a lump sum, you trade the relationship for price control. With cost plus, you trade cost certainty for optionality.
-
-"Good options," you say, "but I have read too much Hegel. Give me a synthesis."
-
-## General Contractor: Principal to Agent, then Principal to Principal with competition
-
-To resolve the tension, a more complex protocol is brought into play. The General Contractor model is usually Principal to Agent plus Principal to Principal. Either the buying Principal has the know-how to design, or has hired a Consultant to act as their agent. This allows early optionality on the highest-leverage component: design. Once the design is complete, often with elements of cost plus, the remainder of the work switches to Principal versus Principal, and the General Contractors compete for it. The legal system has built a ring around the sport, with heavy penalties for consultants who fail to act as agents, and rules for the conflict between Principals.
+Hand the whole job to one builder, design included, and you have Design-Build: the Babylonian problem. The builder has all the control. A lump sum controls the price, but requires some degree of adversarial relationship. Society can help set a floor against the worst-case scenarios, but friction is to be expected.
 
 This works great when you know what you want, know how to ask for it, and know what it should cost.
 
@@ -56,33 +50,49 @@ You trade trust in the counterparty for rock-bottom pricing.
 
 We don't all have the Type A energy to always inhabit that world, so we mortals go on tour for alternate solutions.
 
-## Construction Manager: Principal to Agent to Agent
+## Cost plus: Principal to Agent, cooperative
 
-The Construction Manager approach shows up when you want the hand-holding agents can provide through the whole job, but want a bit of extra insurance that they are on your side. The first agent acts as a consultant and prepares the design; the second works as an agentic general contractor to deliver the product. Both agents carry a responsibility towards the Principal and act as checks on each other. (We will avoid looking at what happens when they collude. Your pick of a 90s thriller will be far more educational than my exposition.)
+Maybe you want something more. You want to change your mind. You want to explore possibilities. You are willing to risk some capital, but don't want it all to go to the counterparty's margin.
 
-By splitting the work and moving the Principal to Principal interaction further down the hierarchy, the original Principal gains a mix of loyalty and cost control at the expense of more management effort to maintain velocity. There are now three parties to every decision. It takes only one to slow progress.
+A cost-plus contract moves you to the opposite corner of the map. The builder becomes a consulting contractor: it works for you, and you cooperate instead of competing. The scope and the price float. What keeps the contractor on your side is partly law and custom, but mostly the money: paid its costs plus a fee, it has little to gain by working against you. The catch: cost plus places all the risk on the Principal. Tactically useful, but expensive in the long run.
+
+You trade cost certainty for optionality.
+
+"Good options," you say, "but I have read too much Hegel. Give me a synthesis."
+
+## General Contractor with a Consultant: the centre
+
+To resolve the tension, a more complex protocol is brought into play: design with an agent, build with a principal.
+
+The General Contractor model sits at the centre of the map because it visits two corners in turn. First comes the design, done by you or by a Consultant you hire. The Consultant works for you, so you keep your options open where they matter most. Once the drawings are done, often paid on a cost-plus basis, the work moves to the hard-bid corner, and General Contractors compete to build it. The legal system has built a ring around the sport, with heavy penalties for consultants who fail to act as agents, and rules for the fight between Principals.
+
+## Construction Manager: Principal to Agent, competitive
+
+The Construction Manager approach shows up when you want the hand-holding agents can provide through the whole job, but want a bit of extra insurance that they are on your side. The first agent acts as a consultant and prepares the design; the second works as an agentic general contractor to deliver the product. Both agents carry a responsibility towards the Principal and act as checks on each other.
+
+Both agents work for you, which puts you in the bottom row. They keep each other honest, which puts you in the competitive column. The hard bidding still happens, but one level down, where the Construction Manager buys from the trades on your behalf. You gain loyalty and some cost control, and you pay for it in management effort to keep the job moving. There are now three parties to every decision, and it takes only one to slow progress.
 
 You trade accountability for a mild dose of certainty and optionality.
 
 "Great. This works, but I believe in the goodness of humanity and want a cooperative approach."
 
-## Partnership: Principal to Principal with common interest
+## Partnership: Principal to Principal, cooperative
 
 Good news. There is a way. Partnerships entangle the Principals, giving them mutual benefits and an equitable distribution of the costs.
 
 You trade a higher share of the benefits for significantly less management effort.
 
-## Why does Principal to Principal with competition continue to exist?
+## Why does the hard bid survive?
 
-Long-term relationships, controlled costs, shared benefits, reduced management effort: sounds great. Let's just do that one over and over. What could go wrong?
+Long-term relationships, controlled costs, shared benefits, reduced management effort: the peaceful corner sounds great. Let's just do that one over and over. What could go wrong?
 
-Profits = Margin × Velocity, as Venkatesh Rao puts it.
+Return = Margin × Velocity, as every business school teaches it.
 
-If you have found an agent with a masochistic bent, or one enthralled by your motivational voodoo, you may have a golden goose on your hands. For most, the temptation to turn down the treadmill will build an alternate incentive stack. Raising the margin would solve part of the incentive, but usually spoils the magic for the Principal. The more insidious approach is reducing velocity. Not all at once, but slowly, over time. It may not even be a reduction, just a lack of effort to keep up with the industry's baseline productivity growth.
+If you have found true love, a partner with a masochistic bent or one enthralled by your motivational voodoo, you may have a golden goose on your hands. Most partners are not true love, and they have two ways to step off the treadmill: raise the margin or slow the velocity. The gold digger raises the margin, which pays, but usually spoils the magic for the Principal. The coaster is more insidious and lets velocity slip. Not all at once, but slowly, over time. It may not even be a reduction, just a lack of effort to keep up with the industry's baseline productivity growth. Peace gets more expensive every year.
 
-It works, but like a trophy wife, the glow will fade over time.
+For everyone but true love, the honeymoon ends.
 
-Since the market sets the margin, the Principal must manage the velocity. And where does that lead us? To the hungry parties. The Principals looking to trade. The General Contractor and the Principal to Principal exchange. The dark exchange.
+Since the market sets the margin, the Principal must manage the velocity, and velocity lives in the cheap and stressful corner. That is the arrow across the top of the map: sooner or later, every partnership drifts back to the hard bid. Back to the hungry parties, the Principals looking to trade, who know someone else will take the work if they don't. Cheap and stressful wins again, not because anyone enjoys it, but because hunger is the one thing that never slows down.
 
 ## Source passages (to cut and rewrite)
 
