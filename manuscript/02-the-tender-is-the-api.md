@@ -59,7 +59,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 > Decomposing a project into requirements for one bid may be the equivalent of using PDFs in the age of scrolling.
 
-(positions §15, recorded 2026-10-09; the rest of the passage, on one trade first, is in chapter 10)
+(positions §15, recorded 2026-10-09; the rest of the passage, on one trade first, is in chapter 11)
 
 ### The question the chapter leaves open
 

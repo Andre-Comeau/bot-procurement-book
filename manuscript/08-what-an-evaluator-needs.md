@@ -1,12 +1,12 @@
 # What an evaluator needs
 
 <!--
-Part III. The proof (chapter 9 since 2026-10-31; the file name keeps its old number)
+Part III. The proof (chapter 10 since 2026-11-04; the file name keeps its old number)
 Target: 1,500 words, new, the author's hand
 Andre, 2026-11-02: the Evaluator keeps its name; it is "an important stepping stone in the project in order to generate energy needed to take the project all the way to actual standard implementation."
 Brief: The Fair and Reasonable Evaluator as it would stand in operation by summer 2027: the Witness and the Oracle, the keyholder who signs the number, the record rather than the duty, a public buyer-side code base, and the three things it still lacks: project data, a validation set of real decisions, and compute. Validation is more than hitting 2 to 3 percent: versions frozen and published, results a third party can reproduce, and the error rate disclosed with every number, so the keyholder can defend relying on it (bot council, 2026-10-31). What a data partner gives and what it gets back. This chapter has almost none of the author's existing sentences, because the tool does not exist yet, and it is the one chapter to write from scratch.
 Sources: positions 3, 9, 10 and 11; `context-bank/test-set-design.md`; `context-bank/privacy-options.md`; the Witness and Oracle passage in the case study.
-Added 2026-11-02: two uses for the Evaluator, cleared by Andre for the book: pricing a tender before it goes out, and reviewing change-order prices on a running project, where no market test exists (see chapter 8's note on the F&R Reviewer side quest). Rare items are flagged, never silently priced.
+Added 2026-11-02: two uses for the Evaluator, cleared by Andre for the book: pricing a tender before it goes out, and reviewing change-order prices on a running project, where no market test exists (see chapter 9's note on the F&R Reviewer side quest). Rare items are flagged, never silently priced.
 Literature (`literature-review-2026-11-01.md`, Part 1): Canada's Directive on Automated Decision-Making and its impact assessment (a template for public test plus required record); Chen, Zaharia & Zou 2023; Thinking Machines 2025 (pin the prompt, harness and inference stack, not only the weights). Collusion (`collusion-papers-notes-2026-11-01.md`, Part 3.4): screens the Evaluator could run on the same bid tabs, which flag for review and never auto-reject.
 Paths are relative to construction-procurement-protocols unless they start with C:\.
 -->
@@ -37,13 +37,13 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 > Record keeping would have helped the Army's case: recording what the bot did, and when, and why. Part of the goal is lessening the time needed by a human reviewer, so punting all the reviews to the carbon machine does not help. Perhaps the code for the Buyer-side bot would be public.
 
-(positions §9, recorded 2026-10-07; also in chapter 5, so quote it in one place)
+(positions §9, recorded 2026-10-07; also in chapter 6, so quote it in one place)
 
 > Perhaps the bid evaluating bot, to be true named later since this would not be the Listener, could be published to the bidders? This would allow them to see how their bid will be reviewed and sorted. Would this approach be supported by the current legislation and related court cases?
 
 (the collated process note, said 2026-10-06)
 
-*Claude's note from positions §9: built so far is a run-time ledger with one hash-chained entry per bot action as the release key, human review concentrated on flagged lines, and the keyholder's reason as the record of judgment. Public code makes the clerical steps auditable once; it does not make a model's output reproducible, so the output itself is logged. Chapter 10's exploit passages are the risk on the other side of publishing the evaluator.*
+*Claude's note from positions §9: built so far is a run-time ledger with one hash-chained entry per bot action as the release key, human review concentrated on flagged lines, and the keyholder's reason as the record of judgment. Public code makes the clerical steps auditable once; it does not make a model's output reproducible, so the output itself is logged. Chapter 11's exploit passages are the risk on the other side of publishing the evaluator.*
 
 ### Two uses: before the tender and after award
 
@@ -57,7 +57,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 *Claude's note from `context-bank/privacy-options.md`: three different things need protecting in a partner's data, with different rules: identifying information, copyright in tender documents and standards, and commercially sensitive prices (with competition law if several bidders' prices are pooled). The collusion notes add the fourth: pooled bid data can help tacit collusion (Part 3.4).*
 
-*No passage of Andre's on compute is on file beyond the offline-model reasoning in chapter 10's hidden note (pinned open weights on his own GPU). This is the part of the chapter that is his to write.*
+*No passage of Andre's on compute is on file beyond the offline-model reasoning in chapter 11's hidden note (pinned open weights on his own GPU). This is the part of the chapter that is his to write.*
 
 ## From the Procurement Machines
 
@@ -65,14 +65,14 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 ### The flag without an owner
 
-*The machine-auditor card (`machine-auditors-2006`) is the closest precedent for the Evaluator, and the warning. Brazil's auditor reads every federal tender notice each day, and Korea's competition authority scores every reported awarded tender for collusion. Both decide nothing and only flag. Both fell out of use for years: in Korea 7 of 10,036 flags had been followed up by 2017, and Brazil's screen was found in disuse in 2018. Each was repaired by making a step obligatory. Andre asked for the card because they "show failed protocols". The card's line: "it has worked only where someone is obliged to act on the flag." The bot council's unsent question C7, in chapter 10's hidden note, says the same. For the Evaluator, that is the keyholder: a flagged line that no named person must answer is a flag nobody reads.*
+*The machine-auditor card (`machine-auditors-2006`) is the closest precedent for the Evaluator, and the warning. Brazil's auditor reads every federal tender notice each day, and Korea's competition authority scores every reported awarded tender for collusion. Both decide nothing and only flag. Both fell out of use for years: in Korea 7 of 10,036 flags had been followed up by 2017, and Brazil's screen was found in disuse in 2018. Each was repaired by making a step obligatory. Andre asked for the card because they "show failed protocols". The card's line: "it has worked only where someone is obliged to act on the flag." The bot council's unsent question C7, in chapter 11's hidden note, says the same. For the Evaluator, that is the keyholder: a flagged line that no named person must answer is a flag nobody reads.*
 
 *The card's other tensions, each a design question for this chapter (Claude's):*
 
 - *Volume against attention: a screen cheap enough to run on everything flags more than its readers can read; each Brazilian alert took an auditor up to seven working days. Rare items flagged, never silently priced (decision 45), need a cap that fits the keyholder's time.*
-- *Secret tests against published checks: neither authority publishes its tests, while Andre leans to a public buyer-side code base (positions §9). Chapter 10's exploit passages are the cost of publishing.*
+- *Secret tests against published checks: neither authority publishes its tests, while Andre leans to a public buyer-side code base (positions §9). Chapter 11's exploit passages are the cost of publishing.*
 - *Screens made for people, reading bids made by machines: narrow spreads and bids close to the estimate are the collusion indicators, "and they are also what independent bots working from the same public price history would produce with no agreement between them". This is the collusion notes' problem (Part 3.4) seen from the auditor's side.*
 
 ### The record the Evaluator keeps
 
-*The watchlist's expected site "evaluation provenance log" (Claude's): Trax shows that a record of which model produced which output, for whom and when, is the missing input. The Evaluator's hash-chained ledger is a first instance; chapter 7 tells why a court would ask for it.*
+*The watchlist's expected site "evaluation provenance log" (Claude's): Trax shows that a record of which model produced which output, for whom and when, is the missing input. The Evaluator's hash-chained ledger is a first instance; chapter 8 tells why a court would ask for it.*

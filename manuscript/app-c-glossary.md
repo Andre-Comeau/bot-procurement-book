@@ -5,7 +5,7 @@ Appendices
 Target: about 600 words
 Brief: Keyholder, Witness and Oracle, Listener, pinned and published specifications, the four protocol strategies, bot nomenclature.
 Sources: `glossary.yaml` and position 6.
-Added 2026-11-02: Robotic construction, defined from the field notes as construction by robots "meant to be controlled by *other programs*" (see chapter 11's note). Faithful channel (the Listener that never answers). Patent and latent errors, as the published checks divide them.
+Added 2026-11-02: Robotic construction, defined from the field notes as construction by robots "meant to be controlled by *other programs*" (see chapter 12's note). Faithful channel (the Listener that never answers). Patent and latent errors, as the published checks divide them.
 Paths are relative to construction-procurement-protocols unless they start with C:\.
 -->
 
@@ -19,4 +19,4 @@ Paths are relative to construction-procurement-protocols unless they start with 
 - **Pinned and published specifications**: "Must-have and critical systems would be *pinned*; portions of the specification that need a baseline to guide bidders, without needing specific performance, would be *published*" (positions §8).
 - **The four tension labels**: Frontier, Monstrous, Kafka and Tool-building (positions §21), defined in Andre's Substack essay "Age of AI, the age of protocols".
 - **Bid cushion**: what is paid to owners before profit, which Andre puts "in the variable cost pile" and not in overhead (positions §23).
-- **F&R (fair and reasonable) Reviewer and Evaluator**: the reviewer folded into the estimator on 2026-10-05 (decision 46); the Evaluator is the tool chapter 9 describes, a stepping stone toward the standard. Fair and reasonable is the public buyer's price test, narrower than the book's question (who pays when a bot causes harm).
+- **F&R (fair and reasonable) Reviewer and Evaluator**: the reviewer folded into the estimator on 2026-10-05 (decision 46); the Evaluator is the tool chapter 10 describes, a stepping stone toward the standard. Fair and reasonable is the public buyer's price test, narrower than the book's question (who pays when a bot causes harm).

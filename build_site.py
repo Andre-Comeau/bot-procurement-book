@@ -29,17 +29,17 @@ PARTS = [
         ("02-the-tender-is-the-api.md", "2. The tender is the API"),
         ("03-how-a-price-is-judged-today.md", "3. How a price is judged today")]),
     ("Part II. The machines", [
-        ("04-two-centuries-of-one-loop.md", "4. Two centuries of one loop"),
-        ("05-liability-shifts.md", "5. Liability shifts to the user's bot"),
-        ("06-the-banana-peel.md", "6. The banana peel"),
-        ("06a-what-do-we-do-with-a-drunken-sailor.md", "What do we do with a drunken sailor? (placement to be decided)"),
-        ("06b-the-bot-in-the-witness-box.md", "7. The bot in the witness box")]),
+        ("03b-what-do-we-do-with-a-drunken-sailor.md", "4. What do we do with a drunken sailor?"),
+        ("04-two-centuries-of-one-loop.md", "5. Two centuries of one loop"),
+        ("05-liability-shifts.md", "6. Liability shifts to the user's bot"),
+        ("06-the-banana-peel.md", "7. The banana peel"),
+        ("06b-the-bot-in-the-witness-box.md", "8. The bot in the witness box")]),
     ("Part III. The proof", [
-        ("07-building-an-estimator-in-public.md", "8. Building an estimator in public"),
-        ("08-what-an-evaluator-needs.md", "9. What an evaluator needs")]),
+        ("07-building-an-estimator-in-public.md", "9. Building an estimator in public"),
+        ("08-what-an-evaluator-needs.md", "10. What an evaluator needs")]),
     ("Part IV. The protocol that follows", [
-        ("09-the-protocol-that-follows.md", "10. The protocol that follows"),
-        ("10-the-meta-goal.md", "11. The meta-goal")]),
+        ("09-the-protocol-that-follows.md", "11. The protocol that follows"),
+        ("10-the-meta-goal.md", "12. The meta-goal")]),
     ("Appendices", [
         ("app-a-the-cards.md", "A. Procurement Machines"),
         ("app-b-reading-list.md", "B. Reading list"),

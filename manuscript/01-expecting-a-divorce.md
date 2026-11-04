@@ -51,7 +51,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 (positions §21, recorded 2026-10-11)
 
-*Word count of the passages above is about 470 of the 1,200 target. Left for chapter 5: the duty-to-report passages, the banana peel and the construction manager as a fourth party.*
+*Word count of the passages above is about 470 of the 1,200 target. Left for chapter 6: the duty-to-report passages, the banana peel and the construction manager as a fourth party.*
 
 *Added 2026-11-02: evidence that bidders already price the errors. Andre's reaction on reading what the Texas payment reports show of quantities bid and paid:*
 

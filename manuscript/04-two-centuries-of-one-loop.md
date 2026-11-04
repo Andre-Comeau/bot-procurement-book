@@ -74,10 +74,10 @@ Paths are relative to construction-procurement-protocols unless they start with 
 4. *1873, cost data and the engineer's estimate: the owner's own number before the market speaks, the one a pricing bot is now measured against.*
 5. *1921, the bid protest and the record: an award tested against the file the agency made at the time.*
 6. *2006, the machine auditors: the first machines to take part in the loop, which fell out of use wherever nobody had to act on the flag.*
-7. *2026, Trax v. United States: an agency's AI reaches the forum (chapter 7).*
-8. *Projected, the bot-first protocol: the machine that does not exist yet (chapter 10).*
+7. *2026, Trax v. United States: an agency's AI reaches the forum (chapter 8).*
+8. *Projected, the bot-first protocol: the machine that does not exist yet (chapter 11).*
 
-*The thread's epigraph is Andre's §13 passage on the two routes ("There are two ways to make this happen…"), quoted in chapter 10.*
+*The thread's epigraph is Andre's §13 passage on the two routes ("There are two ways to make this happen…"), quoted in chapter 11.*
 
 ### The older machines feed the newer
 
@@ -85,8 +85,8 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 ### Contraptions, and how a new machine forms
 
-*From `SCHEMA.md` (Claude's wording, decision 55 at Andre's direction): a contraption is "an opportunistic assembly that exploits a gap between machines: a changed market, an output nobody uses, an input nobody makes." Contraptions are built fast, by few people, around one gap. Most collapse because their complexity grows faster than their structure; a few find structure and become machines. Open bid data and alternative delivery, this chapter's two later machines, can be told as contraptions that found structure. The watchlist also lists this project's own estimator as a contraption (chapter 8).*
+*From `SCHEMA.md` (Claude's wording, decision 55 at Andre's direction): a contraption is "an opportunistic assembly that exploits a gap between machines: a changed market, an output nobody uses, an input nobody makes." Contraptions are built fast, by few people, around one gap. Most collapse because their complexity grows faster than their structure; a few find structure and become machines. Open bid data and alternative delivery, this chapter's two later machines, can be told as contraptions that found structure. The watchlist also lists this project's own estimator as a contraption (chapter 9).*
 
 ### Failed protocols
 
-*Andre asked for the machine-auditor card because the auditors "would be good cards for the Procurement Machines since they show failed protocols" (2026-10-13, quoted in the card's notes). Brazil's and Korea's screens read every tender or awarded bid by machine and fell out of use for years because nobody was obliged to act on their flags; each was repaired by making a step obligatory. The lesson belongs in chapter 9, but the chapter can name it here as the loop's first machine participant.*
+*Andre asked for the machine-auditor card because the auditors "would be good cards for the Procurement Machines since they show failed protocols" (2026-10-13, quoted in the card's notes). Brazil's and Korea's screens read every tender or awarded bid by machine and fell out of use for years because nobody was obliged to act on their flags; each was repaired by making a step obligatory. The lesson belongs in chapter 10, but the chapter can name it here as the loop's first machine participant.*
