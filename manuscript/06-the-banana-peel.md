@@ -35,8 +35,8 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 (positions §16, recorded 2026-10-10)
 
-*The perverse-incentive passage from the same section ("those able and willing to circumvent the rules would win most tenders with their lower prices") is in chapter 5; it is the argument this image dramatizes, so one of the two chapters should carry it in full.*
+*The perverse-incentive passage from the same section ("those able and willing to circumvent the rules would win most tenders with their lower prices") is in chapter 6; it is the argument this image dramatizes, so one of the two chapters should carry it in full.*
 
 ### Admitting uncertainty, with consequences on pricing
 
-*No further passage of Andre's on file. Two things already built follow his rule and could close the chapter: rare items are included and flagged, never silently priced, "as items a keyholder may want to adjust by hand" (decision 45); and the error rate is to be disclosed with every number (the outline's chapter 9 brief, 2026-10-31). Both make the outside of the estimate say how much the inside knows.*
+*No further passage of Andre's on file. Two things already built follow his rule and could close the chapter: rare items are included and flagged, never silently priced, "as items a keyholder may want to adjust by hand" (decision 45); and the error rate is to be disclosed with every number (the outline's chapter 10 brief, 2026-10-31). Both make the outside of the estimate say how much the inside knows.*

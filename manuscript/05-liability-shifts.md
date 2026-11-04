@@ -67,7 +67,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 (positions §2.5)
 
-*The strongest counter-case, from the bot council of 2026-10-06 (Claude's summary in positions §2.6): vgr_zirp called the five reasons "a guild protection argument dressed up as efficiency reasoning", and argued that a protocol which gives bidders a detector the buyer lacks creates the asymmetry it then refuses to correct, so the honest bidder who asks loses to the strategic one who stays quiet. Reasons 2.4 and 2.5 were not answered. Andre's own reply was a question: assuming the duty were easy to write, how would it be enforced, when bidders would claim their error detection as confidential? Claude's six mechanisms are in positions §2.7; the one that needs no new law is that a bidder who knew, or should have known, of a patent error cannot price it later, and "should have known" moves once a reasonable bidder's bot would have found it. That is chapter 7's question.*
+*The strongest counter-case, from the bot council of 2026-10-06 (Claude's summary in positions §2.6): vgr_zirp called the five reasons "a guild protection argument dressed up as efficiency reasoning", and argued that a protocol which gives bidders a detector the buyer lacks creates the asymmetry it then refuses to correct, so the honest bidder who asks loses to the strategic one who stays quiet. Reasons 2.4 and 2.5 were not answered. Andre's own reply was a question: assuming the duty were easy to write, how would it be enforced, when bidders would claim their error detection as confidential? Claude's six mechanisms are in positions §2.7; the one that needs no new law is that a bidder who knew, or should have known, of a patent error cannot price it later, and "should have known" moves once a reasonable bidder's bot would have found it. That is chapter 8's question.*
 
 ### The tension, not a conflict
 
@@ -79,7 +79,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 > The two-sided approach of looking at bot-first specifications and standardized bots for baselining the tender may still represent the best distribution of risks based on financial incentives.
 
-(positions §16, recorded 2026-10-10. The banana-peel passages from the same section are in chapter 6.)
+(positions §16, recorded 2026-10-10. The banana-peel passages from the same section are in chapter 7.)
 
 ### The record, not the duty
 
@@ -113,7 +113,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 > The Design and Owner bots could then provide additional commentary, or modify the specs and drawings, in an iterative process until the closing of the questions period, which would lead to bids based on capabilities and capacities instead of the ability to detect errors.
 
-(`case-studies/andre-comeau/README.md`, "Who bears the cost of validating intent". The section's first paragraph, on the two streams of data, is left in the source. Andre's §13 passages on the two routes, bot-readable documents or a standard bot, are in chapter 10.)
+(`case-studies/andre-comeau/README.md`, "Who bears the cost of validating intent". The section's first paragraph, on the two streams of data, is left in the source. Andre's §13 passages on the two routes, bot-readable documents or a standard bot, are in chapter 11.)
 
 ### Silence before the contract
 
