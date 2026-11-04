@@ -32,6 +32,7 @@ PARTS = [
         ("04-two-centuries-of-one-loop.md", "4. Two centuries of one loop"),
         ("05-liability-shifts.md", "5. Liability shifts to the user's bot"),
         ("06-the-banana-peel.md", "6. The banana peel"),
+        ("06a-what-do-we-do-with-a-drunken-sailor.md", "What do we do with a drunken sailor? (placement to be decided)"),
         ("06b-the-bot-in-the-witness-box.md", "7. The bot in the witness box")]),
     ("Part III. The proof", [
         ("07-building-an-estimator-in-public.md", "8. Building an estimator in public"),
