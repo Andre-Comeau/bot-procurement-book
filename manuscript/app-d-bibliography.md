@@ -14,8 +14,6 @@ Hammurabi. *The Code of Hammurabi*, c. 1750 BC. Translated by L. W. King, 1910.
 
 *The Holy Bible*, King James Version, 1611: Genesis 2 to 3, 6 to 9 and 11; Leviticus 13 to 14 and 19:27; Ecclesiastes 1:9; Revelation 12:7 to 9.
 
-"I managed to world conquest as Tannu Tuva (w/ tutorial)." Forum thread, *Hearts of Iron IV*, Paradox Interactive forums, thread 1500616. https://forum.paradoxplaza.com/forum/threads/1500616/.
-
 International Organization for Standardization. ISO 216, *Writing paper and certain classes of printed matter: Trimmed sizes: A and B series*. Geneva, 1975.
 
 Kolt, Noam. "Governing AI Agents." *Notre Dame Law Review* 101 (2026): 335. Preprint, arXiv:2501.07913, 2025.
