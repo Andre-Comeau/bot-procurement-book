@@ -4,4 +4,4 @@
 
 `build_site.py` copies it into the site as `stylesheets/book.css`.
 
-`overrides/main.html` adds the link-preview tags (Open Graph and Twitter card) to every page, so Discord and similar sites show a title, a description and `images/social-card.png` when a link is shared. Each published chapter's description is its first paragraph of prose; the home page and the working copy use `DESCRIPTION` in `build_site.py`. `build_site.py` copies the folder into the site build.
+`overrides/main.html` adds the link-preview tags (Open Graph and Twitter card) to every page, so Discord and similar sites show a title, a description and `images/social-card.png` when a link is shared. Published chapters, and the chapters listed in `PREVIEWS` in `build_site.py`, use their first paragraph of prose as the description; chapters in `PREVIEWS` also get their own figure. Every other page uses `DESCRIPTION` and `images/social-card.png`. `build_site.py` copies the folder into the site build.
