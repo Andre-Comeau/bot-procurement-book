@@ -4,7 +4,6 @@
 Appendices
 Added 2026-11-03 (Andre): the book uses no footnotes or endnotes. Works the text draws on are listed here; where each is used is recorded in the chapters' hidden notes.
 Entries marked "to check" have not been verified against the publication.
-Tannu Tuva thread: author and date not yet confirmed (the forum blocks automated reading); the "build" Andre means is assumed to be the tutorial thread, 1500616, not thread 959544.
 Kolt: end page not yet confirmed (the journal page gives only the first page, 101 Notre Dame L. Rev. 335, published 22 August 2026). Page references in the chapters' notes are to the arXiv v2 PDF.
 -->
 
@@ -21,8 +20,6 @@ Galbraith, J. R. *Achieving Integration through Information Systems.* Working pa
 Hammurabi. *The Code of Hammurabi*, c. 1750 BC. Translated by L. W. King, 1910.
 
 *The Holy Bible*, King James Version, 1611: Genesis 2 to 3, 6 to 9 and 11; Leviticus 13 to 14 and 19:27; Ecclesiastes 1:9; Revelation 12:7 to 9.
-
-"I managed to world conquest as Tannu Tuva (w/ tutorial)." Forum thread, *Hearts of Iron IV*, Paradox Interactive forums, thread 1500616. https://forum.paradoxplaza.com/forum/threads/1500616/.
 
 International Organization for Standardization. ISO 216, *Writing paper and certain classes of printed matter: Trimmed sizes: A and B series*. Geneva, 1975.
 
