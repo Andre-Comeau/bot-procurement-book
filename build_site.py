@@ -13,11 +13,14 @@ stripped there too: they point at private folders and stay out of the site.
     pip install -r requirements.txt
     python build_site.py && mkdocs build -f _site_src/mkdocs.yml
 """
-import pathlib, re, shutil
+import json, pathlib, re, shutil
 
 ROOT = pathlib.Path(__file__).parent
 SRC, OUT = ROOT / "manuscript", ROOT / "_site_src"
 SLUG = "bot-procurement"  # the book's path on books.andrecomeau.xyz
+# Shown in link previews (Discord and the like) for pages without prose of their own.
+DESCRIPTION = ("When a bot causes harm, who pays? A short manifesto on liability in construction "
+               "procurement, written in public during the Protocol Institute's PiBoWriMo, November 2026.")
 
 # Chapters that go on the public site. Add a file here when it is ready to read.
 PUBLISHED = {"00b-prologue.md"}
@@ -77,6 +80,7 @@ By Andre Comeau. Text licensed [CC BY 4.0](https://creativecommons.org/licenses/
 
 CONFIG = """site_name: Bot Procurement Book
 site_url: https://books.andrecomeau.xyz/{slug}/
+site_description: {description}
 site_author: Andre Comeau
 copyright: Text by Andre Comeau, CC BY 4.0
 repo_url: https://github.com/Andre-Comeau/bot-procurement-book
@@ -84,6 +88,7 @@ docs_dir: docs
 site_dir: ../_site/{slug}
 theme:
   name: material
+  custom_dir: overrides
   features: [navigation.sections, navigation.footer, navigation.top]
   font: false
   palette:
@@ -126,6 +131,27 @@ def strip_notes(text):
     return re.sub(r"<!--.*?-->\s*", "", text, flags=re.S)
 
 
+def with_description(text):
+    """Put the chapter's first paragraph of prose in its front matter, for link
+    previews. Published chapters only: working-copy stubs open with editorial
+    notes, so those pages use the book's DESCRIPTION instead."""
+    for para in re.split(r"\n\s*\n", text):
+        para = para.strip()
+        # Skip headings, figures, admonitions, tables, quotes, lists, HTML and rules.
+        if not para or para.startswith(("#", "!", "|", ">", "- ", "* ", "1. ", "<", "---")):
+            continue
+        plain = re.sub(r"!?\[([^\]]*)\]\([^)]*\)", r"\1", para)  # links and images to their text
+        plain = re.sub(r"[*_`]", "", " ".join(plain.split()))
+        # Curly quotes: Material writes the description into an attribute unescaped.
+        plain = re.sub(r'"([^"]*)"', "\u201c\\1\u201d", plain).replace('"', "\u201d")
+        if len(plain) < 40:
+            continue
+        if len(plain) > 200:
+            plain = plain[:200].rsplit(" ", 1)[0].rstrip(",;:") + "\u2026"
+        return f"---\ndescription: {json.dumps(plain, ensure_ascii=False)}\n---\n\n" + text
+    return text
+
+
 def main():
     shutil.rmtree(OUT, ignore_errors=True)
     docs = OUT / "docs"
@@ -137,7 +163,7 @@ def main():
         for name, title in chapters:
             if name in PUBLISHED:
                 text = (SRC / name).read_text(encoding="utf-8")
-                (docs / name).write_text(strip_notes(text), encoding="utf-8")
+                (docs / name).write_text(with_description(strip_notes(text)), encoding="utf-8")
                 toc.append(f"- [{title}]({name})")
                 items.append(f'      - "{title}": {name}')
             else:
@@ -164,12 +190,13 @@ def main():
     shutil.copytree(ROOT / "images", docs / "images", ignore=shutil.ignore_patterns("README.md", "*.py", "*.js", "*.html"))
     (docs / "stylesheets").mkdir()
     shutil.copy(ROOT / "theme" / "book.css", docs / "stylesheets" / "book.css")
+    shutil.copytree(ROOT / "theme" / "overrides", OUT / "overrides")
     (docs / "index.md").write_text(HOME.format(toc="\n".join(toc)), encoding="utf-8")
     site = ROOT / "_site"
     shutil.rmtree(site, ignore_errors=True)
     site.mkdir()
     (site / "_redirects").write_text(f"/ /{SLUG}/ 302\n", encoding="utf-8")
-    (OUT / "mkdocs.yml").write_text(CONFIG.format(slug=SLUG, nav="\n".join(nav) + "\n"), encoding="utf-8")
+    (OUT / "mkdocs.yml").write_text(CONFIG.format(slug=SLUG, description=json.dumps(DESCRIPTION), nav="\n".join(nav) + "\n"), encoding="utf-8")
 
 
 if __name__ == "__main__":
