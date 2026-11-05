@@ -15,8 +15,6 @@ Deutsches Institut für Normung. DIN 476, *Papierformate* (paper formats). Berli
 
 "Drunken Sailor" ("What Shall We Do with the Drunken Sailor?"). Traditional sea shanty, first printed in the nineteenth century.
 
-Gramsci, Antonio. *Selections from the Prison Notebooks.* Edited and translated by Quintin Hoare and Geoffrey Nowell Smith. London: Lawrence and Wishart, 1971.
-
 Hammurabi. *The Code of Hammurabi*, c. 1750 BC. Translated by L. W. King, 1910.
 
 *The Holy Bible*, King James Version, 1611: Genesis 2 to 3, 6 to 9 and 11; Leviticus 13 to 14 and 19:27; Ecclesiastes 1:9; Revelation 12:7 to 9.
@@ -28,6 +26,8 @@ Kolt, Noam. "Governing AI Agents." *Notre Dame Law Review* 101 (2026): 335. Prep
 Lamport, Leslie. "Proving the Correctness of Multiprocess Programs." *IEEE Transactions on Software Engineering* SE-3, no. 2 (1977): 125–143.
 
 Rao, Venkatesh. "Cognitive Mercantilism: AI Panic Weirdly Resembles the Anxiety That Accompanied Early Capitalism." *Contraptions* (newsletter), 25 October 2026. https://contraptions.venkateshrao.com/p/cognitive-mercantilism.
+
+Rao, Venkatesh. "The Gramsci Gap: System Emergence in Monstrously Morbid Interregnums between Worlds." *Contraptions* (newsletter), 11 January 2025. https://contraptions.venkateshrao.com/p/the-gramsci-gap.
 
 Rao, Venkatesh. Note on margin and product velocity ("I think a basic thing people don't get is that most businesses do not try normally try to make their products cheaper"). *Contraptions*, Substack Notes, 31 October 2026. https://substack.com/@contraptions/note/c-374727395.
 
