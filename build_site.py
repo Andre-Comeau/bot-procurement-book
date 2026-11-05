@@ -22,6 +22,18 @@ SLUG = "bot-procurement"  # the book's path on books.andrecomeau.xyz
 DESCRIPTION = ("When a bot causes harm, who pays? A short manifesto on liability in construction "
                "procurement, written in public during the Protocol Institute's PiBoWriMo, November 2026.")
 
+# Link previews for chapters that have been worked on: their own figure (a card
+# made by images/social_card.py) and their opening line as the description, in the
+# working copy too. Every other page uses DESCRIPTION and images/social-card.png.
+PREVIEWS = {
+    "00c-introduction.md": ("social-card.png",
+        "The zombie garden: construction documents shamble as zombies between the designer and the buyer, with the bidders all round the wall"),
+    "03-how-a-price-is-judged-today.md": ("social-card-delivery-methods.png",
+        "Who works for whom, and how they deal: the delivery methods on two axes, Principal to Principal or to Agent, and competitive or cooperative"),
+    "03b-what-do-we-do-with-a-drunken-sailor.md": ("social-card-failure-modes.png",
+        "How words and deeds go wrong: a stained-glass window of the Serpent, the Dragon, the Drunken Sailor and Who's on First, with the standard bot at its centre"),
+}
+
 # Chapters that go on the public site. Add a file here when it is ready to read.
 PUBLISHED = {"00b-prologue.md"}
 
@@ -131,10 +143,13 @@ def strip_notes(text):
     return re.sub(r"<!--.*?-->\s*", "", text, flags=re.S)
 
 
-def with_description(text):
+def with_description(text, name, prefix=""):
     """Put the chapter's first paragraph of prose in its front matter, for link
-    previews. Published chapters only: working-copy stubs open with editorial
-    notes, so those pages use the book's DESCRIPTION instead."""
+    previews, with its card from PREVIEWS if it has one. `prefix` (the working-copy
+    banner) goes after the front matter."""
+    meta = {}
+    if name in PREVIEWS:
+        meta["image"], meta["image_alt"] = PREVIEWS[name]
     for para in re.split(r"\n\s*\n", text):
         para = para.strip()
         # Skip headings, figures, admonitions, tables, quotes, lists, HTML and rules.
@@ -148,8 +163,12 @@ def with_description(text):
             continue
         if len(plain) > 200:
             plain = plain[:200].rsplit(" ", 1)[0].rstrip(",;:") + "\u2026"
-        return f"---\ndescription: {json.dumps(plain, ensure_ascii=False)}\n---\n\n" + text
-    return text
+        meta["description"] = plain
+        break
+    if not meta:
+        return prefix + text
+    front = "".join(f"{k}: {json.dumps(v, ensure_ascii=False)}\n" for k, v in meta.items())
+    return f"---\n{front}---\n\n" + prefix + text
 
 
 def main():
@@ -163,7 +182,7 @@ def main():
         for name, title in chapters:
             if name in PUBLISHED:
                 text = (SRC / name).read_text(encoding="utf-8")
-                (docs / name).write_text(with_description(strip_notes(text)), encoding="utf-8")
+                (docs / name).write_text(with_description(strip_notes(text), name), encoding="utf-8")
                 toc.append(f"- [{title}]({name})")
                 items.append(f'      - "{title}": {name}')
             else:
@@ -181,7 +200,9 @@ def main():
         wtoc.append(f"**{part}**\n")
         for name, title in chapters:
             text = strip_notes((SRC / name).read_text(encoding="utf-8"))
-            (work / name).write_text(WORKING_BANNER + text, encoding="utf-8")
+            # Stubs open with editorial notes, so only worked chapters get their own preview.
+            text = with_description(text, name, WORKING_BANNER) if name in PREVIEWS else WORKING_BANNER + text
+            (work / name).write_text(text, encoding="utf-8")
             wtoc.append(f"- [{title}]({name})")
             wnav.append(f'      - "{title}": working/{name}')
         wtoc.append("")
