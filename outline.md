@@ -16,6 +16,8 @@ Readers, in order: the people who decide on pilots, data access and committee se
 
 **How to read this book.** A half-page. Statements that pull against each other are kept in tension and labelled, following the author's own rule (position 21). The labels are the four protocol strategies from the author's Substack essay: Kafka, Frontier, Monstrous, Tool Building. The reader is told where the author's sentences end and the generated material begins: the chapters are the author's, the footnotes and appendices lean on the context bank, and the repository holds the record.
 
+**Introduction: the zombie garden** (about 1,130 words, finished; added 2026-11-05, `manuscript/00c-introduction.md`). The book's problem statement, placed after the prologue. The PDF as an undead protocol (all safety, no liveness) that construction procurement walls into a garden instead of killing, because the courts have settled who pays around it; the danger (rent-seeking, wasted bids), the treasure (freed time, sealed alternates, BIM, robots programmed from the priced documents) and the campaign (bot-first documents, a standard bot that keeps the PDF dead, and the villagers' approval). Figure: `images/zombie-garden.png`. Proposed by Andre (2026-11-04), not decided: let it replace chapter 1, moving the divorce material to chapters 2, 3 and 6.
+
 **Author's note on method.** Three sentences: the project is run in public, the decisions are numbered, and nothing in the book is legal or procurement advice.
 
 ## Part I. The question

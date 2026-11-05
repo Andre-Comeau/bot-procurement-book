@@ -23,7 +23,8 @@ SLUG = "bot-procurement"  # the book's path on books.andrecomeau.xyz
 PUBLISHED = {"00b-prologue.md"}
 
 PARTS = [
-    ("Front matter", [("00-front-matter.md", "Front matter"), ("00b-prologue.md", "Prologue")]),
+    ("Front matter", [("00-front-matter.md", "Front matter"), ("00b-prologue.md", "Prologue"),
+        ("00c-introduction.md", "Introduction: the zombie garden")]),
     ("Part I. The question", [
         ("01-expecting-a-divorce.md", "1. Starting a relationship expecting a divorce"),
         ("02-the-tender-is-the-api.md", "2. The tender is the API"),
