@@ -22,6 +22,8 @@ International Organization for Standardization. ISO 216, *Writing paper and cert
 
 Lamport, Leslie. "Proving the Correctness of Multiprocess Programs." *IEEE Transactions on Software Engineering* SE-3, no. 2 (1977): 125–143.
 
+Rao, Venkatesh. "Cognitive Mercantilism: AI Panic Weirdly Resembles the Anxiety That Accompanied Early Capitalism." *Contraptions* (newsletter), 25 October 2026. https://contraptions.venkateshrao.com/p/cognitive-mercantilism.
+
 Red Green (Steve Smith). *How to Do Everything: From the Man Who Should Know.* Toronto: Doubleday Canada, 2015. (Publisher to check.)
 
 Sewell, William H., Jr. "Three Temporalities: Toward an Eventful Sociology." In *The Historic Turn in the Human Sciences*, edited by Terrence J. McDonald, 245–280. Ann Arbor: University of Michigan Press, 1996. (Pages to check.)
