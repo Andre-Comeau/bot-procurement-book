@@ -13,7 +13,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 ## Source passages: exploits (to cut and rewrite)
 
-*Laid out by Claude on 2026-11-02, from the Scitovsky thread of 1 November 2026. Quoted passages are Andre's, copied unchanged from that thread. Notes in italics are Claude's. Andre asked for this discussion to go into the manuscript as the book's example of exploits. Delete this section as the chapter is written.*
+*Laid out by Claude on 2026-11-02, from the Scitovsky thread of 1 November 2026. The Scitovsky source is "The Benefits of Asymmetric Markets" (Journal of Economic Perspectives, 1990), listed in Appendix D (Andre, 2026-11-05). Quoted passages are Andre's, copied unchanged from that thread. Notes in italics are Claude's. Andre asked for this discussion to go into the manuscript as the book's example of exploits. Delete this section as the chapter is written.*
 
 *Why a public standard invites exploits:*
 
@@ -27,7 +27,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 > The Tannu Tuva world conquest write-up is an even better example of the exploitability of computer programs. This was done by observant humans, image what trillions of tokens would do!
 
-*Citable versions if wanted. Hearts of Iron IV players conquering the world as Tannu Tuva, a one-province nation, are documented on the Paradox forum ("Tannu Tuva World Conquest", thread 959544; "I managed to world conquest as Tannu Tuva (w/ tutorial)", thread 1500616); the forum blocked automated reading on 2026-11-02, so check the details by hand. A Steam thread of 31 January 2018 asks Paradox to fix the "Paradrop England exploit" (steamcommunity.com/app/394360/discussions/0/1700541698681349596). The lesson for the chapter: every move obeys the rules, but together the moves reach an outcome the designers never intended. That is what a bidder can do to a frozen, published standard bot.*
+*Citable versions if wanted. Hearts of Iron IV players conquering the world as Tannu Tuva, a one-province nation, are documented on the Paradox forum ("Tannu Tuva World Conquest", thread 959544; "I managed to world conquest as Tannu Tuva (w/ tutorial)", thread 1500616); the forum blocked automated reading on 2026-11-02, so check the details by hand. Andre, 2026-11-05: the threads he found are not as good as the write-up he remembers, so the Tannu Tuva example may be dropped; not in Appendix D. A Steam thread of 31 January 2018 asks Paradox to fix the "Paradrop England exploit" (steamcommunity.com/app/394360/discussions/0/1700541698681349596). The lesson for the chapter: every move obeys the rules, but together the moves reach an outcome the designers never intended. That is what a bidder can do to a frozen, published standard bot.*
 
 *Compute is the new asymmetry (Scitovsky's gap between expert and non-expert returns as search power):*
 
