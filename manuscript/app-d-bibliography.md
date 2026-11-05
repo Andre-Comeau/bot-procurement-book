@@ -29,7 +29,7 @@ Rao, Venkatesh. "Cognitive Mercantilism: AI Panic Weirdly Resembles the Anxiety 
 
 Rao, Venkatesh. Note on margin and product velocity ("I think a basic thing people don't get is that most businesses do not try normally try to make their products cheaper"). *Contraptions*, Substack Notes, 31 October 2026. https://substack.com/@contraptions/note/c-374727395.
 
-Red Green (Steve Smith). *How to Do Everything: From the Man Who Should Know.* Toronto: Doubleday Canada, 2015. (Publisher to check.)
+Red Green (Steve Smith). *How to Do Everything: From the Man Who Should Know.* Toronto: Anchor Canada, 2011. Paperback.
 
 Scitovsky, Tibor. "The Benefits of Asymmetric Markets." *Journal of Economic Perspectives* 4, no. 1 (1990): 135–148.
 
