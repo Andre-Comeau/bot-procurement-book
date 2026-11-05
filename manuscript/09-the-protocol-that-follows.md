@@ -13,7 +13,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 ## Source passages: exploits (to cut and rewrite)
 
-*Laid out by Claude on 2026-11-02, from the Scitovsky thread of 1 November 2026. Quoted passages are Andre's, copied unchanged from that thread. Notes in italics are Claude's. Andre asked for this discussion to go into the manuscript as the book's example of exploits. Delete this section as the chapter is written.*
+*Laid out by Claude on 2026-11-02, from the Scitovsky thread of 1 November 2026. The Scitovsky source is "The Benefits of Asymmetric Markets" (Journal of Economic Perspectives, 1990), listed in Appendix D (Andre, 2026-11-05). Quoted passages are Andre's, copied unchanged from that thread. Notes in italics are Claude's. Andre asked for this discussion to go into the manuscript as the book's example of exploits. Delete this section as the chapter is written.*
 
 *Why a public standard invites exploits:*
 

@@ -31,6 +31,8 @@ Rao, Venkatesh. Note on margin and product velocity ("I think a basic thing peop
 
 Red Green (Steve Smith). *How to Do Everything: From the Man Who Should Know.* Toronto: Doubleday Canada, 2015. (Publisher to check.)
 
+Scitovsky, Tibor. "The Benefits of Asymmetric Markets." *Journal of Economic Perspectives* 4, no. 1 (1990): 135–148.
+
 Sewell, William H., Jr. "Three Temporalities: Toward an Eventful Sociology." In *The Historic Turn in the Human Sciences*, edited by Terrence J. McDonald, 245–280. Ann Arbor: University of Michigan Press, 1996. (Pages to check.)
 
 Traugott, Mark. *Armies of the Poor: Determinants of Working-Class Participation in the Parisian Insurrection of June 1848.* Princeton: Princeton University Press, 1985. (Cited through Sewell; to check.)
