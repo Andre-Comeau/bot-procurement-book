@@ -24,6 +24,8 @@ Lamport, Leslie. "Proving the Correctness of Multiprocess Programs." *IEEE Trans
 
 Rao, Venkatesh. "Cognitive Mercantilism: AI Panic Weirdly Resembles the Anxiety That Accompanied Early Capitalism." *Contraptions* (newsletter), 25 October 2026. https://contraptions.venkateshrao.com/p/cognitive-mercantilism.
 
+Rao, Venkatesh. Note on margin and product velocity ("I think a basic thing people don't get is that most businesses do not try normally try to make their products cheaper"). *Contraptions*, Substack Notes, 31 October 2026. https://substack.com/@contraptions/note/c-374727395.
+
 Red Green (Steve Smith). *How to Do Everything: From the Man Who Should Know.* Toronto: Doubleday Canada, 2015. (Publisher to check.)
 
 Sewell, William H., Jr. "Three Temporalities: Toward an Eventful Sociology." In *The Historic Turn in the Human Sciences*, edited by Terrence J. McDonald, 245–280. Ann Arbor: University of Michigan Press, 1996. (Pages to check.)
