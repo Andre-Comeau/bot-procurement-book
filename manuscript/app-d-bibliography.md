@@ -4,6 +4,7 @@
 Appendices
 Added 2026-11-03 (Andre): the book uses no footnotes or endnotes. Works the text draws on are listed here; where each is used is recorded in the chapters' hidden notes.
 Entries marked "to check" have not been verified against the publication.
+Kolt: end page not yet confirmed (the journal page gives only the first page, 101 Notre Dame L. Rev. 335, published 22 August 2026). Page references in the chapters' notes are to the arXiv v2 PDF.
 -->
 
 Abbott, Bud, and Lou Costello. "Who's on First?" Comedy routine, performed from 1937; filmed in *The Naughty Nineties* (Universal, 1945). (Named, not quoted.)
@@ -19,6 +20,8 @@ Hammurabi. *The Code of Hammurabi*, c. 1750 BC. Translated by L. W. King, 1910.
 *The Holy Bible*, King James Version, 1611: Genesis 2 to 3, 6 to 9 and 11; Ecclesiastes 1:9; Revelation 12:7 to 9.
 
 International Organization for Standardization. ISO 216, *Writing paper and certain classes of printed matter: Trimmed sizes: A and B series*. Geneva, 1975.
+
+Kolt, Noam. "Governing AI Agents." *Notre Dame Law Review* 101 (2026): 335. Preprint, arXiv:2501.07913, 2025.
 
 Lamport, Leslie. "Proving the Correctness of Multiprocess Programs." *IEEE Transactions on Software Engineering* SE-3, no. 2 (1977): 125–143.
 
