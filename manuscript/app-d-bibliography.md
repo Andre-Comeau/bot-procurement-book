@@ -41,4 +41,6 @@ Scitovsky, Tibor. "The Benefits of Asymmetric Markets." *Journal of Economic Per
 
 Sewell, William H., Jr. "Three Temporalities: Toward an Eventful Sociology." In *The Historic Turn in the Human Sciences*, edited by Terrence J. McDonald, 245–280. Ann Arbor: University of Michigan Press, 1996. (Pages to check.)
 
+Stevenson, Sean. Post on the Stevenson Test ("What an honor to have my own test!"). *blyg* (blog), 1 October 2026. https://blyg.seanstevenson.org/t/4smjqsxxaxqr8xbvh7m98wg9z7/.
+
 Stevenson, Sean. "De-Dramatizing the Digital: How AI Descends Into New Nature." Talk, Protocol Symposium 2026, 23 September 2026. https://www.youtube.com/watch?v=Ktdu6HjhYFo.
