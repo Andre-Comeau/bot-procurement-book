@@ -1,0 +1,25 @@
+{#- Link previews (Discord, Slack, social sites): Open Graph and Twitter card tags.
+    The image URL must be absolute, so it is built from site_url. -#}
+{% extends "base.html" %}
+{% block extrahead %}
+  {%- set og_title = page.title ~ " - " ~ config.site_name if page and page.title and not page.is_homepage else config.site_name -%}
+  {%- set og_desc = page.meta.description if page and page.meta and page.meta.description else config.site_description -%}
+  {%- set og_image = config.site_url ~ "images/social-card.png" -%}
+  <meta property="og:type" content="{{ 'website' if page and page.is_homepage else 'article' }}">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:title" content="{{ og_title|e }}">
+  <meta property="og:description" content="{{ og_desc|e }}">
+  {%- if page and page.canonical_url %}
+  <meta property="og:url" content="{{ page.canonical_url }}">
+  {%- endif %}
+  <meta property="og:image" content="{{ og_image }}">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="The zombie garden: construction documents shamble as zombies between the designer and the buyer, with the bidders all round the wall">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ og_title|e }}">
+  <meta name="twitter:description" content="{{ og_desc|e }}">
+  <meta name="twitter:image" content="{{ og_image }}">
+  <meta name="theme-color" content="#0064ff">
+{% endblock %}
