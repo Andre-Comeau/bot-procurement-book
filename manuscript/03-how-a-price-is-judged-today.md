@@ -81,3 +81,12 @@ If you have found true love, a partner with a masochistic bent or one enthralled
 For everyone but true love, the honeymoon ends.
 
 Since the market sets the margin, the Principal must manage the velocity, and velocity lives in the cheap and stressful corner. That is the arrow across the top of the map: sooner or later, every partnership drifts back to the hard bid. Back to the hungry parties, the Principals looking to trade, who know someone else will take the work if they don't. Cheap and stressful wins again, not because anyone enjoys it, but because hunger is the one thing that never slows down.
+
+!!! note "Sidebar: two $600 hammers"
+
+    In the 1980s the Pentagon was caught paying $600 for a hammer, and the hammer became the symbol of waste in defence buying. The hammer itself cost about $15. The contractor had spread its engineering and support overhead evenly across every line of a spare-parts order, so a $15 hammer carried the same share as a complex part and came to about $435. The press rounded up. A procurement official later called it "an accounting artifact."
+
+    I own a $600 hammer too. It is amazing and worth every penny. Its list price is about $332 US. The rest is the exchange rate, the HST and the shipping to get it to Canada.
+
+    Same price, opposite answers. Neither number tells you what you are paying for until you open it up. Estimating software prices each line against a cost database, and to it both hammers look absurd. A bot that reads the whole bid and the specification can see why each number is what it is: overhead spread flat across a parts order in one case, a premium tool carried across a border in the other.
+
