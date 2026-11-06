@@ -51,11 +51,10 @@ PARTS = [
         ("06-the-banana-peel.md", "7. The banana peel"),
         ("06b-the-bot-in-the-witness-box.md", "8. The bot in the witness box")]),
     ("Part III. The proof", [
-        ("07-building-an-estimator-in-public.md", "9. Building an estimator in public"),
-        ("08-what-an-evaluator-needs.md", "10. What an evaluator needs")]),
+        ("07-building-an-estimator-in-public.md", "9. A second opinion on every price")]),
     ("Part IV. The protocol that follows", [
-        ("09-the-protocol-that-follows.md", "11. The protocol that follows"),
-        ("10-the-meta-goal.md", "12. The meta-goal")]),
+        ("09-the-protocol-that-follows.md", "10. The protocol that follows"),
+        ("10-the-meta-goal.md", "11. The meta-goal")]),
     ("Appendices", [
         ("app-a-the-cards.md", "A. Procurement Machines"),
         ("app-b-reading-list.md", "B. Reading list"),

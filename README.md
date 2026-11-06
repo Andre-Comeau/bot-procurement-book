@@ -10,7 +10,7 @@ The book is being written in public during the Protocol Institute's [PiBoWriMo 2
 
 - `outline.md`: the outline, with each chapter's target length, brief and sources.
 - `manuscript/`: one Markdown file per chapter, in reading order. Each starts with a hidden note (`<!-- -->`) giving its target length, brief, sources and the literature to read first. The note doesn't show in the built book and is deleted when the chapter is done.
-  - Chapter numbers moved on 2026-10-31 and again on 2026-11-04: `03b-what-do-we-do-with-a-drunken-sailor.md` is chapter 4, files `04` to `06` hold chapters 5 to 7, `06b-the-bot-in-the-witness-box.md` is chapter 8, and files `07` to `10` hold chapters 9 to 12. File names keep reading order; the outline holds the numbers.
+  - Chapter numbers moved on 2026-10-31 and again on 2026-11-04: `03b-what-do-we-do-with-a-drunken-sailor.md` is chapter 4, files `04` to `06` hold chapters 5 to 7, `06b-the-bot-in-the-witness-box.md` is chapter 8, `07-building-an-estimator-in-public.md` is chapter 9, which absorbed the old chapter 10 on 2026-11-06, and files `09` and `10` hold chapters 10 and 11. File names keep reading order; the outline holds the numbers.
   - `00b-prologue.md` is the author's status write-up for the Institute, placed as the prologue. It may fold into the introduction.
 - `institute-write-up-review-2026-10-14.md`: a review of that write-up, with the lightly copyedited text.
 - `machinery-figure-chat-2026-10.md`: notes on the machinery figure and its eight tension lines.
