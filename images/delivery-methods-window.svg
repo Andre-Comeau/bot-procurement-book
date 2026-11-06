@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 1600 1300">
+<style>
+  .eyebrow{font-family:Outfit,sans-serif;font-weight:600;font-size:15px;letter-spacing:.16em;fill:#0064ff}
+  .title{font-family:'Instrument Serif',Georgia,serif;font-size:54px;fill:#2c2c2a}
+  .dek{font-family:Lora,Georgia,serif;font-size:20px;fill:#5f5e5a}
+  .name{font-family:'Instrument Serif',Georgia,serif;font-size:42px}
+  .cbig{font-family:'Instrument Serif',Georgia,serif;font-size:44px}
+  .ex{font-family:Outfit,sans-serif;font-weight:500;font-size:20px}
+  .trade{font-family:Lora,Georgia,serif;font-style:italic;font-size:20px}
+  .ctrade{font-family:Lora,Georgia,serif;font-style:italic;font-weight:500;font-size:21px}
+  .axis{font-family:Outfit,sans-serif;font-weight:600;font-size:16px;letter-spacing:.14em}
+  .axis-s{font-family:Lora,Georgia,serif;font-style:italic;font-size:18px}
+  .tag{font-family:Outfit,sans-serif;font-weight:600;font-size:16px;letter-spacing:.14em}
+  .cname{font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-size:28px}
+  .drift{font-family:Outfit,sans-serif;font-weight:500;font-size:17px}
+  .foot{font-family:Outfit,sans-serif;font-size:17px;fill:#5f5e5a}
+</style>
+<rect width="1600" height="1300" fill="#f9f8f5"/>
+<defs><clipPath id="win"><rect x="250" y="300" width="1240" height="800" rx="10"/></clipPath><marker id="ah-a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d85a30"/></marker></defs>
+<text x="80" y="86" class="eyebrow" text-anchor="start">CHAPTER 3 · CHOOSING A DELIVERY METHOD</text>
+<text x="80" y="148" class="title" text-anchor="start">Who works for whom, and how they deal</text>
+<text x="80" y="190" class="dek" text-anchor="start">Two questions place every way to build: does the other party work for itself or for you,</text>
+<text x="80" y="218" class="dek" text-anchor="start">and do you get there by competing or by cooperating?</text>
+<g clip-path="url(#win)">
+<rect x="250" y="300" width="620" height="400" fill="#d85a30"/>
+<rect x="870" y="300" width="620" height="400" fill="#0f6e56"/>
+<rect x="250" y="700" width="620" height="400" fill="#5f5e5a"/>
+<rect x="870" y="700" width="620" height="400" fill="#0064ff"/>
+<line x1="870" y1="280" x2="870" y2="1120" stroke="#2c2c2a" stroke-width="16"/><line x1="230" y1="700" x2="1510" y2="700" stroke="#2c2c2a" stroke-width="16"/>
+</g>
+<rect x="250" y="300" width="1240" height="800" rx="10" fill="none" stroke="#2c2c2a" stroke-width="22"/>
+<rect x="250" y="300" width="1240" height="800" rx="10" fill="none" stroke="#8a8780" stroke-width="4"/>
+<rect x="284" y="330" width="470" height="200" rx="10" fill="#fbf6e9" stroke="#2c2c2a" stroke-width="5"/>
+<text x="312" y="380" class="name" text-anchor="start" fill="#9e3d18">Hard bid</text>
+<text x="312" y="418" class="ex" text-anchor="start" fill="#2c2c2a">The bidding contractor</text>
+<text x="312" y="445" class="ex" text-anchor="start" fill="#2c2c2a">Lump-sum Design-Build</text>
+<text x="312" y="482" class="trade" text-anchor="start" fill="#5f5e5a">You trade trust in the counterparty</text>
+<text x="312" y="509" class="trade" text-anchor="start" fill="#5f5e5a">for rock-bottom pricing.</text>
+<rect x="986" y="330" width="470" height="200" rx="10" fill="#fbf6e9" stroke="#2c2c2a" stroke-width="5"/>
+<text x="1014" y="380" class="name" text-anchor="start" fill="#085041">Partnership</text>
+<text x="1014" y="418" class="ex" text-anchor="start" fill="#2c2c2a">Principals entangled in a common interest</text>
+<text x="1014" y="455" class="trade" text-anchor="start" fill="#5f5e5a">You trade a higher share of the benefits</text>
+<text x="1014" y="482" class="trade" text-anchor="start" fill="#5f5e5a">for significantly less management effort.</text>
+<rect x="284" y="870" width="470" height="200" rx="10" fill="#fbf6e9" stroke="#2c2c2a" stroke-width="5"/>
+<text x="312" y="920" class="name" text-anchor="start" fill="#2c2c2a">Construction Manager</text>
+<text x="312" y="958" class="ex" text-anchor="start" fill="#2c2c2a">Two agents, designer and builder,</text>
+<text x="312" y="985" class="ex" text-anchor="start" fill="#2c2c2a">acting as checks on each other</text>
+<text x="312" y="1022" class="trade" text-anchor="start" fill="#5f5e5a">You trade accountability for a mild</text>
+<text x="312" y="1049" class="trade" text-anchor="start" fill="#5f5e5a">dose of certainty and optionality.</text>
+<rect x="986" y="870" width="470" height="200" rx="10" fill="#fbf6e9" stroke="#2c2c2a" stroke-width="5"/>
+<text x="1014" y="920" class="name" text-anchor="start" fill="#004fcc">Cost plus</text>
+<text x="1014" y="958" class="ex" text-anchor="start" fill="#2c2c2a">The consulting contractor</text>
+<text x="1014" y="985" class="ex" text-anchor="start" fill="#2c2c2a">Cost-plus Design-Build</text>
+<text x="1014" y="1022" class="trade" text-anchor="start" fill="#5f5e5a">You trade cost certainty</text>
+<text x="1014" y="1049" class="trade" text-anchor="start" fill="#5f5e5a">for optionality.</text>
+<text x="220" y="490.0" class="axis" text-anchor="end" fill="#5f5e5a">PRINCIPAL TO</text>
+<text x="220" y="510.0" class="axis" text-anchor="end" fill="#5f5e5a">PRINCIPAL</text>
+<text x="220" y="534.0" class="axis-s" text-anchor="end" fill="#5f5e5a">works for itself</text>
+<text x="220" y="890.0" class="axis" text-anchor="end" fill="#5f5e5a">PRINCIPAL TO</text>
+<text x="220" y="910.0" class="axis" text-anchor="end" fill="#5f5e5a">AGENT</text>
+<text x="220" y="934.0" class="axis-s" text-anchor="end" fill="#5f5e5a">works for you</text>
+<text x="560.0" y="1150" class="axis" text-anchor="middle" fill="#5f5e5a">COMPETITIVE</text>
+<text x="1180.0" y="1150" class="axis" text-anchor="middle" fill="#5f5e5a">COOPERATIVE</text>
+<text x="226" y="270" class="tag" text-anchor="start" fill="#9e3d18">↖ CHEAP AND STRESSFUL</text>
+<text x="1496" y="1184" class="tag" text-anchor="end" fill="#004fcc">PEACEFUL AND EXPENSIVE ↘</text>
+<rect x="616.0" y="551.0" width="508" height="298" rx="22" fill="#cce0ff" stroke="#2c2c2a" stroke-width="6"/>
+<circle cx="616.0" cy="551.0" r="17" fill="#d85a30" stroke="#2c2c2a" stroke-width="6"/>
+<circle cx="1124.0" cy="551.0" r="17" fill="#0f6e56" stroke="#2c2c2a" stroke-width="6"/>
+<circle cx="616.0" cy="849.0" r="17" fill="#5f5e5a" stroke="#2c2c2a" stroke-width="6"/>
+<circle cx="1124.0" cy="849.0" r="17" fill="#0064ff" stroke="#2c2c2a" stroke-width="6"/>
+<rect x="630.0" y="565.0" width="480" height="270" rx="14" fill="#ffffff" stroke="#2c2c2a" stroke-width="8"/>
+<rect x="642.0" y="577.0" width="456" height="246" rx="8" fill="none" stroke="#2c2c2a" stroke-width="2"/>
+<text x="870" y="627.0" class="cbig" text-anchor="middle" fill="#2c2c2a">General Contractor</text>
+<text x="870" y="661.0" class="cname" text-anchor="middle" fill="#2c2c2a">with a Consultant</text>
+<text x="870" y="699.0" class="ex" text-anchor="middle" fill="#2c2c2a">Design with an agent, build with a principal</text>
+<text x="870" y="741.0" class="ctrade" text-anchor="middle" fill="#004fcc">The synthesis: optionality where</text>
+<text x="870" y="769.0" class="ctrade" text-anchor="middle" fill="#004fcc">it has the most leverage, competition</text>
+<text x="870" y="797.0" class="ctrade" text-anchor="middle" fill="#004fcc">for the rest.</text>
+<line x1="1430" y1="274" x2="810" y2="274" stroke="#d85a30" stroke-width="3" stroke-dasharray="9 7" marker-end="url(#ah-a)"/>
+<text x="830" y="260" class="drift" text-anchor="middle" fill="#9e3d18">Profits = Margin × Velocity: velocity fades, and the Principal returns to the hungry parties</text>
+<text x="80" y="1224" class="foot" text-anchor="start">Off the grid: self-performance, where the Principal and the Agent are one person.</text>
+<text x="80" y="1252" class="foot" text-anchor="start">Design-Build lands in two squares: a lump sum keeps it Principal to Principal; cost plus makes it Principal to Agent.</text>
+<text x="80" y="1280" class="foot" text-anchor="start">The diagonal runs from cheap and stressful to peaceful and expensive; the centre square balances both axes.</text>
+</svg>
