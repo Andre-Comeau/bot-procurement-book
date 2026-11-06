@@ -1,8 +1,8 @@
 """Chapter 9 figure: Bot Procurement World, a retro overworld map.
 
-World 1: start, the estimator's and the evaluator's huts with a path between
-them, both branching on toward the Standard; the reader stands just before the
-book level; the field-building level lies between us and the Standard's castle.
+World 1: start; the reader stands just before the book level (the book will be
+finished first); then the estimator's and the evaluator's huts with a path
+between them, both branching on toward the Standard; the field-building level lies between us and the Standard's castle.
 Roads from the castle lead to the other worlds of bot construction, each with
 its own field-building level and castle. Stained-glass palette (the Protocol
 Institute brand colours with lead outlines, as in failure_modes_glass.py).
@@ -121,17 +121,18 @@ o += glass(X0, Y0, X1, Y1, C["sec"])
 o.append(f'<path d="M840 {Y0} C 800 360, 930 520, 920 700 S 860 920, 900 {Y1}" fill="none" stroke="{LEAD}" stroke-width="76"/>')
 o.append(f'<path d="M840 {Y0} C 800 360, 930 520, 920 700 S 860 920, 900 {Y1}" fill="none" stroke="{C["action"]}" stroke-width="64"/>')
 o.append(f'<path d="M840 {Y0} C 800 360, 930 520, 920 700 S 860 920, 900 {Y1}" fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="14 30" opacity=".6"/>')
-for hx, hy, s in ((120, 300, 1), (220, 280, .8), (620, 300, 1), (470, 280, .7), (1250, 1000, .9), (1150, 1020, .7), (700, 1030, .8), (110, 1040, .7), (480, 1040, 1)):
+for hx, hy, s in ((120, 300, 1), (220, 280, .8), (620, 300, 1), (470, 280, .7), (1250, 1000, .9), (1150, 1020, .7), (700, 1030, .8), (110, 1040, .7)):
     o += hill(hx, hy, s)
 
 # roads: start -> estimator; estimator <-> evaluator; both branch to the meeting point; on to book,
 # field building and the Standard; and out of the world to the east
 JX, JY = 600, 700
-o += road([(140, 900), (300, 900)])
-o += road([(300, 900), (300, 520)])                     # the path between the huts
-o += road([(300, 900), (JX, 900), (JX, JY)])            # estimator's branch
-o += road([(300, 520), (JX, 520), (JX, JY)])            # evaluator's branch
-o += road([(JX, JY), (1100, JY), (1100, 480)])          # book, bridge, field building, castle
+HX, BX, MX = 580, 400, 790                                 # huts, book, where the branches meet
+o += road([(140, 900), (HX, 900)])                      # start, you, the book, the estimator
+o += road([(HX, 900), (HX, 540)])                       # the path between the huts
+o += road([(HX, 900), (MX, 900), (MX, JY)])             # estimator's branch
+o += road([(HX, 540), (MX, 540), (MX, JY)])             # evaluator's branch
+o += road([(MX, JY), (1100, JY), (1100, 480)])          # book, bridge, field building, castle
 o += road([(1100, 380), (1100, 318), (X1 + 10, 318)])   # out to the other worlds
 o.append(f'<rect x="874" y="{JY-30}" width="100" height="60" fill="#c9a46a" stroke="{LEAD}" stroke-width="5"/>')  # bridge deck
 for k in range(5):
@@ -143,21 +144,23 @@ o.append(f'<rect x="72" y="866" width="120" height="68" rx="34" fill="{C["acc"]}
 o.append(t(132, 910, "START", "pxs", "#ffffff"))
 
 # the huts
-o += hut(300, 900, C["action"], "ESTIMATOR")
-o += hut(300, 520, C["sec_d"], "EVALUATOR")
-o.append(f'<rect x="350" y="680" width="230" height="98" rx="8" fill="{LEAD}" opacity=".82"/>')
-o.append(t(465, 708, "One engine, two huts", "lab", "#ffffff"))
-o.append(t(465, 734, "How much should this cost?", "labi", "#ffffff"))
-o.append(t(465, 760, "Are we paying too much?", "labi", "#ffffff"))
+o += hut(HX, 900, C["action"], "ESTIMATOR")
+o += hut(HX, 540, C["sec_d"], "EVALUATOR")
+o.append(f'<rect x="300" y="640" width="250" height="98" rx="8" fill="{LEAD}" opacity=".82"/>')
+o.append(t(425, 668, "One engine, two huts", "lab", "#ffffff"))
+o.append(t(425, 694, "How much should this cost?", "labi", "#ffffff"))
+o.append(t(425, 720, "Are we paying too much?", "labi", "#ffffff"))
 
 # you are here, just before the book
-o += bot(JX + 72, JY - 6)
-o.append(f'<rect x="{JX-8}" y="{JY-150}" width="160" height="44" rx="8" fill="#ffffff" stroke="{LEAD}" stroke-width="4"/>')
-o.append(f'<path d="M{JX+60} {JY-106} L{JX+72} {JY-90} L{JX+84} {JY-106} Z" fill="#ffffff" stroke="{LEAD}" stroke-width="4" stroke-linejoin="round"/>')
-o.append(f'<rect x="{JX+60}" y="{JY-110}" width="24" height="8" fill="#ffffff"/>')
-o.append(t(JX + 72, JY - 122, "YOU ARE HERE", "pxxs", LEAD))
+BOT = (262, 900)
+o += bot(*BOT)
+bx, by = BOX = (BOT[0], BOT[1] - 6)
+o.append(f'<rect x="{bx-80}" y="{by-150}" width="160" height="44" rx="8" fill="#ffffff" stroke="{LEAD}" stroke-width="4"/>')
+o.append(f'<path d="M{bx-12} {by-106} L{bx} {by-90} L{bx+12} {by-106} Z" fill="#ffffff" stroke="{LEAD}" stroke-width="4" stroke-linejoin="round"/>')
+o.append(f'<rect x="{bx-12}" y="{by-110}" width="24" height="8" fill="#ffffff"/>')
+o.append(t(bx, by - 122, "YOU ARE HERE", "pxxs", LEAD))
 
-o += level(790, JY, "1-1", C["acc"], "The book")
+o += level(BX, 900, "1-1", C["acc"], "The book")
 o += level(1100, 590, "1-2", C["action"], None)
 o.append(f'<rect x="1150" y="560" width="190" height="60" rx="8" fill="{LEAD}" opacity=".82"/>')
 o.append(t(1245, 586, "Field building", "lab", "#ffffff"))
