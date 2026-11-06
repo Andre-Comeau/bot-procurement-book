@@ -1,13 +1,14 @@
-"""Delivery-method 2x2 for chapter 3 as a stained-glass window (PI brand kit colours, no PI marks).
+"""Delivery-method 2x2 for chapter 3 in the stained-glass palette (PI brand kit colours, no PI marks).
 
-Same content as delivery_methods_2x2.py, redrawn in the stained-glass palette of
-failure_modes_glass.py and second_opinion.py: jittered glass panes with lead lines,
-pale glass label panels, and the General Contractor as a lead-framed centre light.
+Same content as delivery_methods_2x2.py, redrawn in the palette of failure_modes_glass.py
+and second_opinion.py: solid panes with lead lines and frame, pale label panels, and the
+General Contractor as a lead-framed centre light. Solid colours, not the glass pattern
+(Andre, 2026-11-06: the glass pattern belongs to the drunken sailor chapter's religious undertones).
 
-Usage: python images/delivery_methods_glass.py images/delivery-methods-glass
-Then: node images/project_hex_map_render.js "$PWD/images/delivery-methods-glass.html" images/delivery-methods-glass.png 1600 1300
+Usage: python images/delivery_methods_glass.py images/delivery-methods-window
+Then: node images/project_hex_map_render.js "$PWD/images/delivery-methods-window.html" images/delivery-methods-window.png 1600 1300
 """
-import sys, html, random
+import sys, html
 
 C = dict(action="#0064ff", action_p="#004fcc", action_t="#e6efff",
          sec="#0f6e56", sec_d="#085041", sec_t="#e1f5ee",
@@ -20,7 +21,6 @@ W, H = 1600, 1300
 X0, Y0, QW, QH = 250, 300, 620, 400          # window origin and pane size
 X1, Y1 = X0 + 2 * QW, Y0 + 2 * QH
 XM, YM = X0 + QW, Y0 + QH                    # the cross
-random.seed(11)
 
 def hexrgb(h): return tuple(int(h[i:i+2], 16) for i in (1, 3, 5))
 def rgbhex(c): return "#%02x%02x%02x" % tuple(max(0, min(255, int(v))) for v in c)
@@ -65,27 +65,12 @@ o.append(t(80, 148, "Who works for whom, and how they deal", "title"))
 o.append(t(80, 190, "Two questions place every way to build: does the other party work for itself or for you,", "dek"))
 o.append(t(80, 218, "and do you get there by competing or by cooperating?", "dek"))
 
-# glass: a jittered grid snapped to the cross, each cell coloured by its pane
-cols, rows = 16, 10
-gx = [X0 - 30 + i * (2 * QW + 60) / cols for i in range(cols + 1)]
-gy = [Y0 - 30 + j * (2 * QH + 60) / rows for j in range(rows + 1)]
-pts = {}
-for i in range(cols + 1):
-    for j in range(rows + 1):
-        jx = 0 if i in (0, cols) else random.uniform(-26, 26)
-        jy = 0 if j in (0, rows) else random.uniform(-22, 22)
-        x, y = gx[i] + jx, gy[j] + jy
-        if abs(gx[i] - XM) < 45: x = XM
-        if abs(gy[j] - YM) < 45: y = YM
-        pts[i, j] = (x, y)
+# solid panes in the window's base colours (no glass pattern: that was the drunken sailor's)
 g = ['<g clip-path="url(#win)">']
-for i in range(cols):
-    for j in range(rows):
-        quad = [pts[i, j], pts[i + 1, j], pts[i + 1, j + 1], pts[i, j + 1]]
-        cx = sum(p[0] for p in quad) / 4; cy = sum(p[1] for p in quad) / 4
-        col = mix(random.choice(QUAD[(cx < XM, cy < YM)]), "#ffffff", random.uniform(0, .18))
-        d = "M" + " L".join(f"{x:.1f},{y:.1f}" for x, y in quad) + " Z"
-        g.append(f'<path d="{d}" fill="{col}" stroke="{LEAD}" stroke-width="5" stroke-linejoin="round"/>')
+for (left, top), cols in QUAD.items():
+    x = X0 if left else XM
+    y = Y0 if top else YM
+    g.append(f'<rect x="{x}" y="{y}" width="{QW}" height="{QH}" fill="{cols[0]}"/>')
 g.append(f'<line x1="{XM}" y1="{Y0-20}" x2="{XM}" y2="{Y1+20}" stroke="{LEAD}" stroke-width="16"/>'
          f'<line x1="{X0-20}" y1="{YM}" x2="{X1+20}" y2="{YM}" stroke="{LEAD}" stroke-width="16"/>')
 g.append('</g>')
@@ -170,7 +155,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
 {chr(10).join(o)}
 </svg>'''
 
-out = sys.argv[1] if len(sys.argv) > 1 else "delivery-methods-glass"
+out = sys.argv[1] if len(sys.argv) > 1 else "delivery-methods-window"
 open(out + ".svg", "w").write(svg)
 open(out + ".html", "w").write(f"""<!doctype html><html><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Lora:ital,wght@0,400;0,500;1,400&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
