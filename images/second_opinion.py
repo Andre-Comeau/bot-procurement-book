@@ -155,8 +155,6 @@ o.append(t(1730, 76, "WORLD 1", "pxt2", C["acc"], "end"))
 
 X0, Y0, X1, Y1 = 40, 150, 1350, 1060
 o += glass(X0, Y0, X1, Y1, C["sec"])
-# the slow road runs through haunted ground
-o += glass(440, 150, 1280, 390, mix(LEAD, C["sec_d"], .35), cell=40, spread=(.0, .06, .12))
 # a pond, for scenery
 o.append(f'<ellipse cx="1150" cy="975" rx="150" ry="52" fill="{C["action"]}" stroke="{LEAD}" stroke-width="6"/>')
 o.append(f'<path d="M1060 970 q20 -10 40 0 M1160 990 q20 -10 40 0" fill="none" stroke="#ffffff" stroke-width="3" opacity=".6"/>')
@@ -198,7 +196,6 @@ def note(x, y, lines, w):
     for i, (s, c) in enumerate(lines):
         p.append(t(x + w/2, y + 32 + 26*i, s, c, "#ffffff"))
     return p
-o += note(560, PV + 40, [("One engine, two huts,", "lab"), ("and a secret path between", "labi")], 240)
 
 # the castle: change order
 o += castle(CX, CY, 1.0, mix(LEAD, "#ffffff", .18), C["acc"])
