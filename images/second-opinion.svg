@@ -793,23 +793,21 @@
 <circle cx="692.0" cy="1002.8" r="3.2" fill="#2c2c2a"/><circle cx="708.0" cy="1002.8" r="3.2" fill="#2c2c2a"/>
 <path d="M86.2 1040 Q86.2 999.4 110 999.4 Q133.8 999.4 133.8 1040 Z" fill="#085041" stroke="#2c2c2a" stroke-width="4"/>
 <circle cx="103.0" cy="1016.2" r="2.8" fill="#2c2c2a"/><circle cx="117.0" cy="1016.2" r="2.8" fill="#2c2c2a"/>
-<path d="M446 1040 Q446 982 480 982 Q514 982 514 1040 Z" fill="#085041" stroke="#2c2c2a" stroke-width="4"/>
-<circle cx="470" cy="1006" r="4" fill="#2c2c2a"/><circle cx="490" cy="1006" r="4" fill="#2c2c2a"/>
-<path d="M140 900 L300 900" fill="none" stroke="#2c2c2a" stroke-width="30" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M140 900 L300 900" fill="none" stroke="#f3e6c8" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M140 900 L300 900" fill="none" stroke="#9e3d18" stroke-width="5" stroke-dasharray="2 16" stroke-linecap="round"/>
-<path d="M300 900 L300 520" fill="none" stroke="#2c2c2a" stroke-width="30" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M300 900 L300 520" fill="none" stroke="#f3e6c8" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M300 900 L300 520" fill="none" stroke="#9e3d18" stroke-width="5" stroke-dasharray="2 16" stroke-linecap="round"/>
-<path d="M300 900 L600 900 L600 700" fill="none" stroke="#2c2c2a" stroke-width="30" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M300 900 L600 900 L600 700" fill="none" stroke="#f3e6c8" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M300 900 L600 900 L600 700" fill="none" stroke="#9e3d18" stroke-width="5" stroke-dasharray="2 16" stroke-linecap="round"/>
-<path d="M300 520 L600 520 L600 700" fill="none" stroke="#2c2c2a" stroke-width="30" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M300 520 L600 520 L600 700" fill="none" stroke="#f3e6c8" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M300 520 L600 520 L600 700" fill="none" stroke="#9e3d18" stroke-width="5" stroke-dasharray="2 16" stroke-linecap="round"/>
-<path d="M600 700 L1100 700 L1100 480" fill="none" stroke="#2c2c2a" stroke-width="30" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M600 700 L1100 700 L1100 480" fill="none" stroke="#f3e6c8" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M600 700 L1100 700 L1100 480" fill="none" stroke="#9e3d18" stroke-width="5" stroke-dasharray="2 16" stroke-linecap="round"/>
+<path d="M140 900 L580 900" fill="none" stroke="#2c2c2a" stroke-width="30" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M140 900 L580 900" fill="none" stroke="#f3e6c8" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M140 900 L580 900" fill="none" stroke="#9e3d18" stroke-width="5" stroke-dasharray="2 16" stroke-linecap="round"/>
+<path d="M580 900 L580 540" fill="none" stroke="#2c2c2a" stroke-width="30" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M580 900 L580 540" fill="none" stroke="#f3e6c8" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M580 900 L580 540" fill="none" stroke="#9e3d18" stroke-width="5" stroke-dasharray="2 16" stroke-linecap="round"/>
+<path d="M580 900 L790 900 L790 700" fill="none" stroke="#2c2c2a" stroke-width="30" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M580 900 L790 900 L790 700" fill="none" stroke="#f3e6c8" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M580 900 L790 900 L790 700" fill="none" stroke="#9e3d18" stroke-width="5" stroke-dasharray="2 16" stroke-linecap="round"/>
+<path d="M580 540 L790 540 L790 700" fill="none" stroke="#2c2c2a" stroke-width="30" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M580 540 L790 540 L790 700" fill="none" stroke="#f3e6c8" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M580 540 L790 540 L790 700" fill="none" stroke="#9e3d18" stroke-width="5" stroke-dasharray="2 16" stroke-linecap="round"/>
+<path d="M790 700 L1100 700 L1100 480" fill="none" stroke="#2c2c2a" stroke-width="30" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M790 700 L1100 700 L1100 480" fill="none" stroke="#f3e6c8" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M790 700 L1100 700 L1100 480" fill="none" stroke="#9e3d18" stroke-width="5" stroke-dasharray="2 16" stroke-linecap="round"/>
 <path d="M1100 380 L1100 318 L1360 318" fill="none" stroke="#2c2c2a" stroke-width="30" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M1100 380 L1100 318 L1360 318" fill="none" stroke="#f3e6c8" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M1100 380 L1100 318 L1360 318" fill="none" stroke="#9e3d18" stroke-width="5" stroke-dasharray="2 16" stroke-linecap="round"/>
@@ -824,39 +822,39 @@
 <path d="M874 700 L974 700" fill="none" stroke="#9e3d18" stroke-width="5" stroke-dasharray="2 16" stroke-linecap="round"/>
 <rect x="72" y="866" width="120" height="68" rx="34" fill="#d85a30" stroke="#2c2c2a" stroke-width="5"/>
 <text x="132" y="910" class="pxs" fill="#ffffff" text-anchor="middle">START</text>
-<rect x="258" y="870" width="84" height="62" fill="#ffffff" stroke="#2c2c2a" stroke-width="5"/>
-<path d="M242 872 L300 818 L358 872 Z" fill="#0064ff" stroke="#2c2c2a" stroke-width="5" stroke-linejoin="round"/>
-<rect x="286" y="900" width="28" height="32" fill="#2c2c2a"/>
-<rect x="266" y="884" width="14" height="14" fill="#7fb1ff" stroke="#2c2c2a" stroke-width="3"/>
-<rect x="320" y="884" width="14" height="14" fill="#7fb1ff" stroke="#2c2c2a" stroke-width="3"/>
-<rect x="218" y="772" width="164" height="34" rx="6" fill="#ffffff" stroke="#2c2c2a" stroke-width="3"/>
-<text x="300" y="796" class="pxs" fill="#2c2c2a" text-anchor="middle">ESTIMATOR</text>
-<rect x="258" y="490" width="84" height="62" fill="#ffffff" stroke="#2c2c2a" stroke-width="5"/>
-<path d="M242 492 L300 438 L358 492 Z" fill="#085041" stroke="#2c2c2a" stroke-width="5" stroke-linejoin="round"/>
-<rect x="286" y="520" width="28" height="32" fill="#2c2c2a"/>
-<rect x="266" y="504" width="14" height="14" fill="#83a7a0" stroke="#2c2c2a" stroke-width="3"/>
-<rect x="320" y="504" width="14" height="14" fill="#83a7a0" stroke="#2c2c2a" stroke-width="3"/>
-<rect x="218" y="392" width="164" height="34" rx="6" fill="#ffffff" stroke="#2c2c2a" stroke-width="3"/>
-<text x="300" y="416" class="pxs" fill="#2c2c2a" text-anchor="middle">EVALUATOR</text>
-<rect x="350" y="680" width="230" height="98" rx="8" fill="#2c2c2a" opacity=".82"/>
-<text x="465" y="708" class="lab" fill="#ffffff" text-anchor="middle">One engine, two huts</text>
-<text x="465" y="734" class="labi" fill="#ffffff" text-anchor="middle">How much should this cost?</text>
-<text x="465" y="760" class="labi" fill="#ffffff" text-anchor="middle">Are we paying too much?</text>
-<ellipse cx="672" cy="734" rx="30" ry="8" fill="#2c2c2a" opacity=".35"/>
-<line x1="672" y1="648" x2="672" y2="632" stroke="#2c2c2a" stroke-width="5"/>
-<circle cx="672" cy="628" r="7" fill="#d85a30" stroke="#2c2c2a" stroke-width="3"/>
-<rect x="644" y="648" width="56" height="42" rx="10" fill="#ffffff" stroke="#2c2c2a" stroke-width="5"/>
-<circle cx="661" cy="668" r="6" fill="#0064ff"/><circle cx="683" cy="668" r="6" fill="#0064ff"/>
-<rect x="650" y="694" width="44" height="34" rx="6" fill="#0064ff" stroke="#2c2c2a" stroke-width="5"/>
-<rect x="592" y="550" width="160" height="44" rx="8" fill="#ffffff" stroke="#2c2c2a" stroke-width="4"/>
-<path d="M660 594 L672 610 L684 594 Z" fill="#ffffff" stroke="#2c2c2a" stroke-width="4" stroke-linejoin="round"/>
-<rect x="660" y="590" width="24" height="8" fill="#ffffff"/>
-<text x="672" y="578" class="pxxs" fill="#2c2c2a" text-anchor="middle">YOU ARE HERE</text>
-<rect x="754.0" y="664.0" width="84" height="84" rx="10" fill="#2c2c2a"/>
-<rect x="748.0" y="658.0" width="84" height="84" rx="10" fill="#d85a30" stroke="#2c2c2a" stroke-width="5"/>
-<text x="790" y="709" class="px" fill="#ffffff" text-anchor="middle">1-1</text>
-<rect x="728" y="756.0" width="124" height="34" rx="6" fill="#ffffff" stroke="#2c2c2a" stroke-width="3"/>
-<text x="790" y="780.0" class="lab" fill="#2c2c2a" text-anchor="middle">The book</text>
+<rect x="538" y="870" width="84" height="62" fill="#ffffff" stroke="#2c2c2a" stroke-width="5"/>
+<path d="M522 872 L580 818 L638 872 Z" fill="#0064ff" stroke="#2c2c2a" stroke-width="5" stroke-linejoin="round"/>
+<rect x="566" y="900" width="28" height="32" fill="#2c2c2a"/>
+<rect x="546" y="884" width="14" height="14" fill="#7fb1ff" stroke="#2c2c2a" stroke-width="3"/>
+<rect x="600" y="884" width="14" height="14" fill="#7fb1ff" stroke="#2c2c2a" stroke-width="3"/>
+<rect x="498" y="772" width="164" height="34" rx="6" fill="#ffffff" stroke="#2c2c2a" stroke-width="3"/>
+<text x="580" y="796" class="pxs" fill="#2c2c2a" text-anchor="middle">ESTIMATOR</text>
+<rect x="538" y="510" width="84" height="62" fill="#ffffff" stroke="#2c2c2a" stroke-width="5"/>
+<path d="M522 512 L580 458 L638 512 Z" fill="#085041" stroke="#2c2c2a" stroke-width="5" stroke-linejoin="round"/>
+<rect x="566" y="540" width="28" height="32" fill="#2c2c2a"/>
+<rect x="546" y="524" width="14" height="14" fill="#83a7a0" stroke="#2c2c2a" stroke-width="3"/>
+<rect x="600" y="524" width="14" height="14" fill="#83a7a0" stroke="#2c2c2a" stroke-width="3"/>
+<rect x="498" y="412" width="164" height="34" rx="6" fill="#ffffff" stroke="#2c2c2a" stroke-width="3"/>
+<text x="580" y="436" class="pxs" fill="#2c2c2a" text-anchor="middle">EVALUATOR</text>
+<rect x="300" y="640" width="250" height="98" rx="8" fill="#2c2c2a" opacity=".82"/>
+<text x="425" y="668" class="lab" fill="#ffffff" text-anchor="middle">One engine, two huts</text>
+<text x="425" y="694" class="labi" fill="#ffffff" text-anchor="middle">How much should this cost?</text>
+<text x="425" y="720" class="labi" fill="#ffffff" text-anchor="middle">Are we paying too much?</text>
+<ellipse cx="262" cy="940" rx="30" ry="8" fill="#2c2c2a" opacity=".35"/>
+<line x1="262" y1="854" x2="262" y2="838" stroke="#2c2c2a" stroke-width="5"/>
+<circle cx="262" cy="834" r="7" fill="#d85a30" stroke="#2c2c2a" stroke-width="3"/>
+<rect x="234" y="854" width="56" height="42" rx="10" fill="#ffffff" stroke="#2c2c2a" stroke-width="5"/>
+<circle cx="251" cy="874" r="6" fill="#0064ff"/><circle cx="273" cy="874" r="6" fill="#0064ff"/>
+<rect x="240" y="900" width="44" height="34" rx="6" fill="#0064ff" stroke="#2c2c2a" stroke-width="5"/>
+<rect x="182" y="744" width="160" height="44" rx="8" fill="#ffffff" stroke="#2c2c2a" stroke-width="4"/>
+<path d="M250 788 L262 804 L274 788 Z" fill="#ffffff" stroke="#2c2c2a" stroke-width="4" stroke-linejoin="round"/>
+<rect x="250" y="784" width="24" height="8" fill="#ffffff"/>
+<text x="262" y="772" class="pxxs" fill="#2c2c2a" text-anchor="middle">YOU ARE HERE</text>
+<rect x="364.0" y="864.0" width="84" height="84" rx="10" fill="#2c2c2a"/>
+<rect x="358.0" y="858.0" width="84" height="84" rx="10" fill="#d85a30" stroke="#2c2c2a" stroke-width="5"/>
+<text x="400" y="909" class="px" fill="#ffffff" text-anchor="middle">1-1</text>
+<rect x="338" y="956.0" width="124" height="34" rx="6" fill="#ffffff" stroke="#2c2c2a" stroke-width="3"/>
+<text x="400" y="980.0" class="lab" fill="#2c2c2a" text-anchor="middle">The book</text>
 <rect x="1064.0" y="554.0" width="84" height="84" rx="10" fill="#2c2c2a"/>
 <rect x="1058.0" y="548.0" width="84" height="84" rx="10" fill="#0064ff" stroke="#2c2c2a" stroke-width="5"/>
 <text x="1100" y="599" class="px" fill="#ffffff" text-anchor="middle">1-2</text>
