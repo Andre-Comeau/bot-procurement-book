@@ -1,169 +1,214 @@
-"""Chapter 9 figure: the quest map from the estimator to the end-boss.
+"""Chapter 9 figure: Bot Procurement World, a retro overworld map.
 
-The estimator before the tender, tender day (the one afternoon the buyer sees the
-market price), then a fork after award: the slow road of long reviews, where a
-contractor finds its motivation to claim, or the evaluator's bridge. The road
-ends at the end-boss, the standard, with robotic construction in the fog beyond.
+World 1: start, the estimator's and the evaluator's huts with a path between
+them, both branching on toward the Standard; the reader stands just before the
+book level; the field-building level lies between us and the Standard's castle.
+Roads from the castle lead to the other worlds of bot construction, each with
+its own field-building level and castle. Stained-glass palette (the Protocol
+Institute brand colours with lead outlines, as in failure_modes_glass.py).
+Original drawing in the overworld-map genre: no game characters or sprites.
 
     python images/second_opinion.py images/second-opinion
-    node images/project_hex_map_render.js "$PWD/images/second-opinion.html" images/second-opinion.png 1800 1080
+    node images/project_hex_map_render.js "$PWD/images/second-opinion.html" images/second-opinion.png 1800 1160
 """
-import sys
+import random, sys
 
-C = dict(action="#0064ff", action_p="#004fcc", action_t="#e6efff",
-         sec="#0f6e56", sec_d="#085041", sec_t="#e1f5ee",
-         acc="#d85a30", acc_d="#9e3d18", acc_t="#faece7",
-         canvas="#f9f8f5", surface="#ffffff", muted="#f3f4f6", hair="#e5e7eb",
-         ink="#2c2c2a", ink2="#5f5e5a", road="#e9e4d8", road_e="#d6cfbd")
-W, H = 1800, 1080
+C = dict(action="#0064ff", action_p="#004fcc", sec="#0f6e56", sec_d="#085041",
+         acc="#d85a30", acc_d="#9e3d18", canvas="#f9f8f5", ink="#2c2c2a", ink2="#5f5e5a")
+LEAD = "#2c2c2a"
+W, H = 1800, 1160
+random.seed(7)
 
 
-def t(x, y, s, cls, fill=None, anchor="start", extra=""):
+def mix(a, b, f):
+    a = [int(a[i:i + 2], 16) for i in (1, 3, 5)]; b = [int(b[i:i + 2], 16) for i in (1, 3, 5)]
+    return "#%02x%02x%02x" % tuple(int(x + (y - x) * f) for x, y in zip(a, b))
+
+
+def t(x, y, s, cls, fill=None, anchor="middle"):
     f = f' fill="{fill}"' if fill else ""
-    return f'<text x="{x}" y="{y}" class="{cls}"{f} text-anchor="{anchor}"{extra}>{s}</text>'
+    return f'<text x="{x}" y="{y}" class="{cls}"{f} text-anchor="{anchor}">{s}</text>'
 
 
-def lines(x, y, rows, cls, fill=None, anchor="start", step=26):
-    return [t(x, y + i * step, r, cls, fill, anchor) for i, r in enumerate(rows)]
-
-
-o = [f'<rect width="{W}" height="{H}" fill="{C["canvas"]}"/>',
-     '<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">'
-     '<path d="M0 0L10 5L0 10z" fill="context-stroke"/></marker>'
-     '<radialGradient id="glow"><stop offset="0" stop-color="#ffd27a" stop-opacity=".9"/>'
-     '<stop offset="1" stop-color="#ffd27a" stop-opacity="0"/></radialGradient>'
-     '<linearGradient id="fog" x1="0" x2="1"><stop offset="0" stop-color="#f9f8f5" stop-opacity="0"/>'
-     '<stop offset=".45" stop-color="#f9f8f5" stop-opacity=".55"/><stop offset="1" stop-color="#f9f8f5" stop-opacity=".9"/></linearGradient></defs>']
-
-o.append(t(80, 78, "CHAPTER 9", "eyebrow"))
-o.append(t(80, 136, "A second opinion on every price", "title"))
-o.append(t(80, 176, "The road from the first estimate to the end-boss.", "dek"))
-
-# hills and ground
-o.append(f'<path d="M0 700 C 300 660, 520 690, 760 680 S 1180 650, 1300 560 S 1500 520, 1800 600 L1800 {H} L0 {H} Z" fill="{C["sec_t"]}"/>')
-o.append(f'<path d="M1180 640 C 1260 520, 1380 470, 1480 520 C 1540 550, 1560 600, 1620 640 Z" fill="#cfe9dd"/>')
-
-# the main road: estimator -> hall -> fork
-GY = 700
-o.append(f'<path d="M60 {GY} C 200 {GY-10}, 330 {GY+8}, 470 {GY} S 700 {GY-6}, 780 {GY}" fill="none" stroke="{C["road_e"]}" stroke-width="40" stroke-linecap="round"/>')
-o.append(f'<path d="M60 {GY} C 200 {GY-10}, 330 {GY+8}, 470 {GY} S 700 {GY-6}, 780 {GY}" fill="none" stroke="{C["road"]}" stroke-width="32" stroke-linecap="round"/>')
-# the slow road dips into the swamp
-slow = f"M780 {GY} C 860 {GY+40}, 900 {GY+170}, 1000 {GY+175} S 1150 {GY+140}, 1220 {GY-60} S 1330 560, 1390 548"
-o.append(f'<path d="{slow}" fill="none" stroke="{C["road_e"]}" stroke-width="40" stroke-linecap="round"/>')
-o.append(f'<path d="{slow}" fill="none" stroke="{C["road"]}" stroke-width="32" stroke-linecap="round"/>')
-o.append(f'<path d="{slow}" fill="none" stroke="{C["acc"]}" stroke-width="3" stroke-dasharray="2 14" stroke-linecap="round"/>')
-# swamp
-o.append(f'<ellipse cx="1000" cy="{GY+190}" rx="190" ry="44" fill="{C["acc_t"]}"/>')
-for x, y in ((880, GY + 192), (1110, GY + 200), (960, GY + 214), (1050, GY + 176)):   # thorns: claims
-    o.append(f'<path d="M{x-14} {y} L{x-6} {y-24} L{x} {y-6} L{x+7} {y-30} L{x+14} {y}" fill="{C["acc"]}"/>')
-
-# the evaluator's bridge over the swamp
-o.append(f'<path d="M780 {GY-4} C 900 {GY-210}, 1150 {GY-230}, 1300 572" fill="none" stroke="{C["sec_d"]}" stroke-width="34" stroke-linecap="round"/>')
-o.append(f'<path d="M780 {GY-4} C 900 {GY-210}, 1150 {GY-230}, 1300 572" fill="none" stroke="{C["sec"]}" stroke-width="24" stroke-linecap="round"/>')
-for i in range(1, 9):   # bridge posts
-    s = i / 9
-    bx = (1 - s) ** 3 * 780 + 3 * (1 - s) ** 2 * s * 900 + 3 * (1 - s) * s * s * 1150 + s ** 3 * 1300
-    by = (1 - s) ** 3 * (GY - 4) + 3 * (1 - s) ** 2 * s * (GY - 210) + 3 * (1 - s) * s * s * (GY - 230) + s ** 3 * 572
-    o.append(f'<line x1="{bx:.0f}" y1="{by+12:.0f}" x2="{bx:.0f}" y2="{by+44:.0f}" stroke="{C["sec_d"]}" stroke-width="5"/>')
-
-# 1. the estimator: a signpost
-sx = 200
-o.append(f'<line x1="{sx+20}" y1="{GY-20}" x2="{sx+20}" y2="{GY-140}" stroke="{C["ink"]}" stroke-width="6"/>')
-o.append(f'<rect x="{sx-100}" y="{GY-330}" width="290" height="196" rx="16" fill="{C["action"]}"/>')
-o += lines(sx - 74, GY - 290, ["1 · BEFORE THE TENDER"], "tag", "#ffffff")
-o.append(t(sx - 74, GY - 238, "The Estimator", "name", "#ffffff"))
-o += lines(sx - 74, GY - 198, ["“How much should", "this cost?”"], "q", "#ffffff", step=28)
-
-# 2. tender day: the hall, lit for one afternoon
-hx, hy = 480, GY - 30
-o.append(f'<circle cx="{hx+120}" cy="{hy-130}" r="210" fill="url(#glow)"/>')
-o.append(f'<rect x="{hx}" y="{hy-200}" width="240" height="200" fill="{C["surface"]}" stroke="{C["ink"]}" stroke-width="3"/>')
-o.append(f'<path d="M{hx-20} {hy-196} L{hx+120} {hy-290} L{hx+260} {hy-196} Z" fill="{C["ink"]}"/>')
-o.append(t(hx + 120, hy - 222, "TENDER HALL", "sign", "#ffffff", "middle"))
-for i, dx in enumerate((22, 88, 154)):   # three opened envelopes
-    ex, ey = hx + dx, hy - 168 + (i % 2) * 10
-    o.append(f'<rect x="{ex}" y="{ey}" width="64" height="44" rx="3" fill="#fff8e6" stroke="{C["ink"]}" stroke-width="2.2"/>')
-    o.append(f'<path d="M{ex} {ey} L{ex+32} {ey-22} L{ex+64} {ey}" fill="#fff8e6" stroke="{C["ink"]}" stroke-width="2.2"/>')
-    o.append(f'<line x1="{ex+12}" y1="{ey+18}" x2="{ex+52}" y2="{ey+18}" stroke="{C["ink2"]}" stroke-width="2"/>')
-    o.append(f'<line x1="{ex+12}" y1="{ey+28}" x2="{ex+40}" y2="{ey+28}" stroke="{C["ink2"]}" stroke-width="2"/>')
-o.append(f'<rect x="{hx+96}" y="{hy-82}" width="48" height="82" rx="24" fill="{C["ink"]}"/>')
-o += lines(hx + 120, GY + 62, ["2 · TENDER DAY"], "tag", C["ink"], "middle")
-o += lines(hx + 120, GY + 96, ["The envelopes open. For one", "afternoon, the buyer knows", "the market price."], "cap", C["ink"], "middle", step=27)
-
-# 3a. the evaluator's bridge label
-o.append(f'<rect x="850" y="292" width="360" height="142" rx="16" fill="{C["sec"]}"/>')
-o += lines(878, 330, ["3 · AFTER AWARD"], "tag", "#ffffff")
-o.append(t(878, 378, "The Evaluator", "name", "#ffffff"))
-o.append(t(878, 414, "A second opinion in minutes", "q2", "#ffffff"))
-
-# 3b. the slow road: clock, overhead meter, motivation
-cx, cy = 760, GY + 190     # clock
-o.append(f'<circle cx="{cx}" cy="{cy}" r="34" fill="{C["surface"]}" stroke="{C["acc_d"]}" stroke-width="4"/>')
-o.append(f'<line x1="{cx}" y1="{cy}" x2="{cx}" y2="{cy-22}" stroke="{C["acc_d"]}" stroke-width="4" stroke-linecap="round"/>')
-o.append(f'<line x1="{cx}" y1="{cy}" x2="{cx+16}" y2="{cy+8}" stroke="{C["acc_d"]}" stroke-width="4" stroke-linecap="round"/>')
-o.append(t(cx, cy + 62, "10 working days", "small", C["acc_d"], "middle"))
-o.append(t(cx, cy + 84, "(a service standard)", "smalli", C["acc_d"], "middle"))
-mx, my = 1240, GY + 120    # the overhead meter, climbing
-o.append(t(mx, my - 4, "OVERHEAD", "tag2", C["acc_d"]))
-for i in range(6):
-    h = 14 + i * 12
-    o.append(f'<rect x="{mx + i*22}" y="{my + 80 - h}" width="15" height="{h}" rx="3" fill="{C["acc"]}" opacity="{0.4 + i*0.12:.2f}"/>')
-o += lines(1000, GY + 268, ["THE SLOW ROAD"], "tag", C["acc_d"], "middle")
-o += lines(1000, GY + 300, ["Slow every change and the overhead climbs. A contractor who would",
-                            "have left happy with its margin finds its motivation, and something to claim."],
-           "cap", C["acc_d"], "middle", step=27)
-
-# 4. the end-boss: the standard's castle on the hill
-kx, ky = 1330, 548
-def castle(x, y, s, fill, op=1):
+def glass(x0, y0, x1, y1, base, cell=40, spread=(.0, .10, .2)):
+    """A tiled ground: each square a shade of the base, leaded like glass."""
     p = []
-    p.append(f'<g opacity="{op}">')
-    p.append(f'<rect x="{x}" y="{y - 120*s}" width="{200*s}" height="{120*s}" fill="{fill}"/>')
-    for tx in (x - 20*s, x + 160*s):
-        p.append(f'<rect x="{tx}" y="{y - 190*s}" width="{60*s}" height="{190*s}" fill="{fill}"/>')
+    for gx in range(x0, x1, cell):
+        for gy in range(y0, y1, cell):
+            f = random.choice(spread)
+            p.append(f'<rect x="{gx}" y="{gy}" width="{min(cell, x1-gx)}" height="{min(cell, y1-gy)}" '
+                     f'fill="{mix(base, "#ffffff", f)}" stroke="{mix(base, LEAD, .45)}" stroke-width="1.5"/>')
+    return p
+
+
+def road(pts, w=22):
+    d = "M" + " L".join(f"{x} {y}" for x, y in pts)
+    return [f'<path d="{d}" fill="none" stroke="{LEAD}" stroke-width="{w+8}" stroke-linejoin="round" stroke-linecap="round"/>',
+            f'<path d="{d}" fill="none" stroke="#f3e6c8" stroke-width="{w}" stroke-linejoin="round" stroke-linecap="round"/>',
+            f'<path d="{d}" fill="none" stroke="{C["acc_d"]}" stroke-width="5" stroke-dasharray="2 16" stroke-linecap="round"/>']
+
+
+def hill(x, y, s=1.0, col=None):
+    col = col or C["sec_d"]
+    return [f'<path d="M{x-34*s} {y} Q{x-34*s} {y-58*s} {x} {y-58*s} Q{x+34*s} {y-58*s} {x+34*s} {y} Z" '
+            f'fill="{col}" stroke="{LEAD}" stroke-width="4"/>',
+            f'<circle cx="{x-10*s}" cy="{y-34*s}" r="{4*s}" fill="{LEAD}"/><circle cx="{x+10*s}" cy="{y-34*s}" r="{4*s}" fill="{LEAD}"/>']
+
+
+def level(x, y, label, fill, sub=None, size=84):
+    h = size / 2
+    p = [f'<rect x="{x-h+6}" y="{y-h+6}" width="{size}" height="{size}" rx="10" fill="{LEAD}"/>',
+         f'<rect x="{x-h}" y="{y-h}" width="{size}" height="{size}" rx="10" fill="{fill}" stroke="{LEAD}" stroke-width="5"/>',
+         t(x, y + 9, label, "px", "#ffffff")]
+    if sub:
+        p.append(f'<rect x="{x-62}" y="{y+h+14}" width="124" height="34" rx="6" fill="#ffffff" stroke="{LEAD}" stroke-width="3"/>')
+        p.append(t(x, y + h + 38, sub, "lab", LEAD))
+    return p
+
+
+def hut(x, y, roof, name):
+    return [f'<rect x="{x-42}" y="{y-30}" width="84" height="62" fill="#ffffff" stroke="{LEAD}" stroke-width="5"/>',
+            f'<path d="M{x-58} {y-28} L{x} {y-82} L{x+58} {y-28} Z" fill="{roof}" stroke="{LEAD}" stroke-width="5" stroke-linejoin="round"/>',
+            f'<rect x="{x-14}" y="{y}" width="28" height="32" fill="{LEAD}"/>',
+            f'<rect x="{x-34}" y="{y-16}" width="14" height="14" fill="{mix(roof, "#ffffff", .5)}" stroke="{LEAD}" stroke-width="3"/>',
+            f'<rect x="{x+20}" y="{y-16}" width="14" height="14" fill="{mix(roof, "#ffffff", .5)}" stroke="{LEAD}" stroke-width="3"/>',
+            f'<rect x="{x-82}" y="{y-128}" width="164" height="34" rx="6" fill="#ffffff" stroke="{LEAD}" stroke-width="3"/>',
+            t(x, y - 104, name, "pxs", LEAD)]
+
+
+def castle(x, y, s, body, flag):
+    p = ['<g>']
+    def r(rx, ry, rw, rh, fill=body):
+        p.append(f'<rect x="{x+rx*s}" y="{y+ry*s}" width="{rw*s}" height="{rh*s}" fill="{fill}" stroke="{LEAD}" stroke-width="{max(2.5, 4*s)}"/>')
+    r(-100, -120, 200, 120)
+    for tx in (-120, 60):
+        r(tx, -190, 60, 190)
         for k in range(3):
-            p.append(f'<rect x="{tx + k*22*s}" y="{y - 206*s}" width="{16*s}" height="{18*s}" fill="{fill}"/>')
-    p.append(f'<rect x="{x + 60*s}" y="{y - 170*s}" width="{80*s}" height="{60*s}" fill="{fill}"/>')
+            r(tx + k * 22, -208, 16, 18)
+    r(-40, -170, 80, 50)
     for k in range(4):
-        p.append(f'<rect x="{x + 60*s + k*22*s}" y="{y - 186*s}" width="{14*s}" height="{18*s}" fill="{fill}"/>')
-    p.append(f'<path d="M{x + 76*s} {y} L{x + 76*s} {y - 44*s} Q{x + 100*s} {y - 70*s} {x + 124*s} {y - 44*s} L{x + 124*s} {y} Z" fill="{C["canvas"]}"/>')
-    p.append(f'<line x1="{x + 100*s}" y1="{y - 186*s}" x2="{x + 100*s}" y2="{y - 250*s}" stroke="{fill}" stroke-width="{4*s}"/>')
-    p.append(f'<path d="M{x + 100*s} {y - 250*s} L{x + 146*s} {y - 236*s} L{x + 100*s} {y - 222*s} Z" fill="{C["acc"]}"/>')
+        r(-40 + k * 22, -186, 14, 16)
+    p.append(f'<path d="M{x-24*s} {y} L{x-24*s} {y-44*s} Q{x} {y-70*s} {x+24*s} {y-44*s} L{x+24*s} {y} Z" fill="{LEAD}"/>')
+    for wx in (-98, 82):
+        p.append(f'<rect x="{x+wx*s}" y="{y-150*s}" width="{16*s}" height="{26*s}" fill="#ffd27a" stroke="{LEAD}" stroke-width="{2*s+1}"/>')
+    p.append(f'<line x1="{x}" y1="{y-186*s}" x2="{x}" y2="{y-250*s}" stroke="{LEAD}" stroke-width="{5*s}"/>')
+    p.append(f'<path d="M{x} {y-250*s} L{x+48*s} {y-236*s} L{x} {y-222*s} Z" fill="{flag}" stroke="{LEAD}" stroke-width="{2*s+1}"/>')
     p.append('</g>')
     return p
-o += castle(kx, ky, 1.0, C["ink"])
-o += lines(kx + 100, 236, ["4 · THE END-BOSS"], "tag", C["ink"], "middle")
-o.append(t(kx + 100, 274, "The Standard", "name2", C["ink"], "middle"))
 
-# beyond: robotic construction in the fog
-o += castle(1620, 600, 0.55, C["ink2"], 0.45)
-o.append(f'<rect x="1540" y="380" width="260" height="300" fill="url(#fog)"/>')
-o += lines(1676, 642, ["Robotic", "construction"], "smalli2", C["ink2"], "middle", step=24)
 
-# the flywheel: checked prices feed the next estimate
-o.append(f'<path d="M940 286 C 820 220, 480 210, 300 360" fill="none" stroke="{C["acc"]}" stroke-width="3" stroke-dasharray="9 7" marker-end="url(#ah)"/>')
-o.append(t(620, 228, "Every checked price becomes evidence for the next estimate", "route", C["acc_d"], "middle"))
+def bot(x, y):
+    """The reader's token: a small original robot."""
+    return [f'<ellipse cx="{x}" cy="{y+40}" rx="30" ry="8" fill="{LEAD}" opacity=".35"/>',
+            f'<line x1="{x}" y1="{y-46}" x2="{x}" y2="{y-62}" stroke="{LEAD}" stroke-width="5"/>',
+            f'<circle cx="{x}" cy="{y-66}" r="7" fill="{C["acc"]}" stroke="{LEAD}" stroke-width="3"/>',
+            f'<rect x="{x-28}" y="{y-46}" width="56" height="42" rx="10" fill="#ffffff" stroke="{LEAD}" stroke-width="5"/>',
+            f'<circle cx="{x-11}" cy="{y-26}" r="6" fill="{C["action"]}"/><circle cx="{x+11}" cy="{y-26}" r="6" fill="{C["action"]}"/>',
+            f'<rect x="{x-22}" y="{y}" width="44" height="34" rx="6" fill="{C["action"]}" stroke="{LEAD}" stroke-width="5"/>']
 
-o += lines(1780, 740, ["The treasure is in another castle,", "but this is the path there."], "foot", None, "end", step=32)
+
+o = [f'<rect width="{W}" height="{H}" fill="{LEAD}"/>']
+
+# header
+o.append(t(70, 76, "BOT PROCUREMENT WORLD", "pxt", "#ffffff", "start"))
+o.append(t(70, 116, "Chapter 9 · A second opinion on every price", "dek", "#d9d6cf", "start"))
+o.append(t(1730, 76, "WORLD 1", "pxt2", C["acc"], "end"))
+
+# ---- World 1 ----
+X0, Y0, X1, Y1 = 40, 150, 1350, 1060
+o += glass(X0, Y0, X1, Y1, C["sec"])
+# a river with a bridge
+o.append(f'<path d="M840 {Y0} C 800 360, 930 520, 920 700 S 860 920, 900 {Y1}" fill="none" stroke="{LEAD}" stroke-width="76"/>')
+o.append(f'<path d="M840 {Y0} C 800 360, 930 520, 920 700 S 860 920, 900 {Y1}" fill="none" stroke="{C["action"]}" stroke-width="64"/>')
+o.append(f'<path d="M840 {Y0} C 800 360, 930 520, 920 700 S 860 920, 900 {Y1}" fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="14 30" opacity=".6"/>')
+for hx, hy, s in ((120, 300, 1), (220, 280, .8), (620, 300, 1), (470, 280, .7), (1250, 1000, .9), (1150, 1020, .7), (700, 1030, .8), (110, 1040, .7), (480, 1040, 1)):
+    o += hill(hx, hy, s)
+
+# roads: start -> estimator; estimator <-> evaluator; both branch to the meeting point; on to book,
+# field building and the Standard; and out of the world to the east
+JX, JY = 600, 700
+o += road([(140, 900), (300, 900)])
+o += road([(300, 900), (300, 520)])                     # the path between the huts
+o += road([(300, 900), (JX, 900), (JX, JY)])            # estimator's branch
+o += road([(300, 520), (JX, 520), (JX, JY)])            # evaluator's branch
+o += road([(JX, JY), (1100, JY), (1100, 480)])          # book, bridge, field building, castle
+o += road([(1100, 380), (1100, 318), (X1 + 10, 318)])   # out to the other worlds
+o.append(f'<rect x="874" y="{JY-30}" width="100" height="60" fill="#c9a46a" stroke="{LEAD}" stroke-width="5"/>')  # bridge deck
+for k in range(5):
+    o.append(f'<line x1="{884 + k*20}" y1="{JY-30}" x2="{884 + k*20}" y2="{JY+30}" stroke="{LEAD}" stroke-width="3"/>')
+o += road([(874, JY), (974, JY)], w=14)
+
+# start
+o.append(f'<rect x="72" y="866" width="120" height="68" rx="34" fill="{C["acc"]}" stroke="{LEAD}" stroke-width="5"/>')
+o.append(t(132, 910, "START", "pxs", "#ffffff"))
+
+# the huts
+o += hut(300, 900, C["action"], "ESTIMATOR")
+o += hut(300, 520, C["sec_d"], "EVALUATOR")
+o.append(f'<rect x="350" y="680" width="230" height="98" rx="8" fill="{LEAD}" opacity=".82"/>')
+o.append(t(465, 708, "One engine, two huts", "lab", "#ffffff"))
+o.append(t(465, 734, "How much should this cost?", "labi", "#ffffff"))
+o.append(t(465, 760, "Are we paying too much?", "labi", "#ffffff"))
+
+# you are here, just before the book
+o += bot(JX + 72, JY - 6)
+o.append(f'<rect x="{JX-8}" y="{JY-150}" width="160" height="44" rx="8" fill="#ffffff" stroke="{LEAD}" stroke-width="4"/>')
+o.append(f'<path d="M{JX+60} {JY-106} L{JX+72} {JY-90} L{JX+84} {JY-106} Z" fill="#ffffff" stroke="{LEAD}" stroke-width="4" stroke-linejoin="round"/>')
+o.append(f'<rect x="{JX+60}" y="{JY-110}" width="24" height="8" fill="#ffffff"/>')
+o.append(t(JX + 72, JY - 122, "YOU ARE HERE", "pxxs", LEAD))
+
+o += level(790, JY, "1-1", C["acc"], "The book")
+o += level(1100, 590, "1-2", C["action"], None)
+o.append(f'<rect x="1150" y="560" width="190" height="60" rx="8" fill="{LEAD}" opacity=".82"/>')
+o.append(t(1245, 586, "Field building", "lab", "#ffffff"))
+o.append(t(1245, 610, "users, data, partners", "labi", "#ffffff"))
+
+# the Standard: the next big castle
+o += castle(1100, 420, 1.0, mix(LEAD, "#ffffff", .18), C["acc"])
+o.append(f'<rect x="970" y="432" width="260" height="56" rx="8" fill="#ffffff" stroke="{LEAD}" stroke-width="4"/>')
+o.append(t(1100, 468, "THE STANDARD", "pxs", LEAD))
+o.append(t(1080, 120 + 52, "", "lab"))
+o.append(f'<path d="M{X1-40} 300 l26 0" stroke="{LEAD}" stroke-width="0"/>')
+
+# world frame
+o.append(f'<rect x="{X0}" y="{Y0}" width="{X1-X0}" height="{Y1-Y0}" fill="none" stroke="#ffffff" stroke-width="6"/>')
+
+# ---- the other worlds ----
+WORLDS = [("WORLD 2", "BIM for bots", C["action"]),
+          ("WORLD 3", "Bot monitoring", C["ink2"]),
+          ("WORLD 4", "Robotic construction", C["acc"])]
+PX0, PX1, PH, PG = 1390, 1760, 270, 30
+for i, (wn, name, base) in enumerate(WORLDS):
+    py = Y0 + i * (PH + PG)
+    o += glass(PX0, py, PX1, py + PH, base, cell=30, spread=(.15, .25, .35))
+    o += road([(PX0 - 2, py + 168), (PX0 + 120, py + 168), (PX0 + 250, py + 168)], w=16)
+    o += level(PX0 + 120, py + 168, f"{i+2}-1", C["sec"], None, size=60)
+    o += castle(PX0 + 290, py + 214, .52, mix(LEAD, "#ffffff", .18), base if base != C["acc"] else C["action"])
+    o.append(f'<rect x="{PX0+12}" y="{py+12}" width="{PX1-PX0-24}" height="64" rx="8" fill="{LEAD}" opacity=".82"/>')
+    o.append(t(PX0 + 28, py + 40, wn, "pxs", C["acc"] if base != C["acc"] else "#ffd27a", "start"))
+    o.append(t(PX0 + 28, py + 66, name, "lab", "#ffffff", "start"))
+    o.append(t(PX0 + 120, py + 230, "Field building", "labs", "#ffffff"))
+    o.append(f'<rect x="{PX0}" y="{py}" width="{PX1-PX0}" height="{PH}" fill="none" stroke="#ffffff" stroke-width="5"/>')
+# the road east from the Standard reaches the worlds
+for i in range(3):
+    yy = Y0 + i * (PH + PG) + 168
+    o.append(f'<path d="M{X1+3} 318 L1370 318 L1370 {yy} L{PX0-3} {yy}" fill="none" stroke="#f3e6c8" stroke-width="8" stroke-dasharray="8 8"/>')
+
+# footer
+o.append(t(70, 1112, "The treasure is in another castle, but this is the path there.", "foot", "#ffffff", "start"))
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
 <style>
-  .eyebrow{{font-family:Outfit,sans-serif;font-weight:600;font-size:15px;letter-spacing:.16em;fill:#0064ff}}
-  .title{{font-family:'Instrument Serif',Georgia,serif;font-size:54px;fill:#2c2c2a}}
-  .dek{{font-family:Lora,Georgia,serif;font-size:20px;fill:#5f5e5a}}
-  .tag{{font-family:Outfit,sans-serif;font-weight:600;font-size:15px;letter-spacing:.14em}}
-  .tag2{{font-family:Outfit,sans-serif;font-weight:600;font-size:13px;letter-spacing:.14em}}
-  .sign{{font-family:Outfit,sans-serif;font-weight:600;font-size:14px;letter-spacing:.18em}}
-  .name{{font-family:'Instrument Serif',Georgia,serif;font-size:40px}}
-  .name2{{font-family:'Instrument Serif',Georgia,serif;font-size:36px}}
-  .q{{font-family:Lora,Georgia,serif;font-style:italic;font-weight:500;font-size:21px}}
-  .q2{{font-family:Lora,Georgia,serif;font-style:italic;font-weight:500;font-size:20px}}
-  .cap{{font-family:Lora,Georgia,serif;font-size:19px}}
-  .small{{font-family:Outfit,sans-serif;font-weight:600;font-size:16px}}
-  .smalli{{font-family:Lora,Georgia,serif;font-style:italic;font-size:15px}}
-  .smalli2{{font-family:Lora,Georgia,serif;font-style:italic;font-size:19px}}
-  .route{{font-family:'Instrument Serif',Georgia,serif;font-size:24px;paint-order:stroke;stroke:#f9f8f5;stroke-width:8px;stroke-linejoin:round}}
-  .foot{{font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-size:26px;fill:#2c2c2a}}
+  .pxt{{font-family:'Press Start 2P',monospace;font-size:34px;letter-spacing:.04em}}
+  .pxt2{{font-family:'Press Start 2P',monospace;font-size:26px}}
+  .px{{font-family:'Press Start 2P',monospace;font-size:20px}}
+  .pxs{{font-family:'Press Start 2P',monospace;font-size:15px}}
+  .pxxs{{font-family:'Press Start 2P',monospace;font-size:11px}}
+  .dek{{font-family:Lora,Georgia,serif;font-style:italic;font-size:21px}}
+  .lab{{font-family:Lora,Georgia,serif;font-weight:500;font-size:20px;paint-order:stroke;stroke:#2c2c2a;stroke-width:0}}
+  .labi{{font-family:Lora,Georgia,serif;font-style:italic;font-size:18px}}
+  .labs{{font-family:Lora,Georgia,serif;font-style:italic;font-size:16px;paint-order:stroke;stroke:#2c2c2a;stroke-width:4px}}
+  .foot{{font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-size:28px}}
 </style>
 {chr(10).join(o)}
 </svg>'''
@@ -171,6 +216,6 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
 out = sys.argv[1] if len(sys.argv) > 1 else "second-opinion"
 open(out + ".svg", "w").write(svg)
 page = f"""<!doctype html><html><head><meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Lora:ital,wght@0,400;0,500;1,400&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
-<style>html,body{{margin:0;background:#f9f8f5}}</style></head><body>{svg}</body></html>"""
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Instrument+Serif:ital@0;1&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>html,body{{margin:0;background:#2c2c2a}}</style></head><body>{svg}</body></html>"""
 open(out + ".html", "w").write(page)
