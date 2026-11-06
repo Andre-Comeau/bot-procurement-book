@@ -20,7 +20,7 @@ The PDF is an undead protocol. As a technology it died with the fax machine, but
 
 Construction procurement has built a walled garden around these zombies to control their damage, but refuses to kill them.
 
-![The zombie garden: construction documents shambling between the designer's and the buyer's rooms, bidders all around the wall, one living bot-first spec hidden among them, a slain PDF, and a level-up panel offering four treasures](../images/zombie-garden.png)
+![The zombie garden: construction documents shambling between the designer's and the buyer's rooms, bidders all around the wall, one living bot-first spec hidden among them, and a slain PDF](../images/zombie-garden.png)
 
 The garden may be slow and inefficient, but it moves the information between buyers and bidders in a reliable fashion. The courts have resolved most of the issues, so why go into the courtyard of the undead when there are entire worlds to explore and conquer?
 
