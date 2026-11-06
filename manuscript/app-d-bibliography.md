@@ -50,4 +50,6 @@ Stevenson, Sean. Post on the Stevenson Test ("What an honor to have my own test!
 Stevenson, Sean. "De-Dramatizing the Digital: How AI Descends Into New Nature." Talk, Protocol Symposium 2026, 23 September 2026. https://www.youtube.com/watch?v=Ktdu6HjhYFo.
 
 
+Texas Department of Transportation. "Bid Tabulations." Open dataset de7b-7dna, Texas Open Data Portal. Full export downloaded 3 October 2026 (lettings September 2024 to October 2026). https://data.texas.gov/.
+
 World Machines. Project of SIGPSY, the Special Interest Group in Psychohistory, Protocol Institute, led by Venkatesh Rao and Aneesh Sathe. https://worldmachines.org/.
