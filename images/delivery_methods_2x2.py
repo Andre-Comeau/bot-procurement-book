@@ -16,18 +16,26 @@ W, H = 1600, 1300
 X0, Y0, QW, QH = 250, 300, 620, 400          # grid origin and quadrant size
 XM, YM = X0 + QW, Y0 + QH                    # the axes cross here
 
+# Pane fills darkened toward the lead colour of the stained-glass figures
+# (failure_modes_glass.py, second_opinion.py) so the book's figures share one tone.
+def _mix(a, b, f):
+    A = [int(a[i:i+2], 16) for i in (1, 3, 5)]; B = [int(b[i:i+2], 16) for i in (1, 3, 5)]
+    return "#%02x%02x%02x" % tuple(round(A[i] + (B[i] - A[i]) * f) for i in range(3))
+DARK = 0.2
+D = {k: _mix(C[k], C["ink"], DARK) for k in ("acc", "sec", "ink2", "action")}
+
 # (col, row, fill, stroke, label colour, name, examples, trade lines, text top offset)
 QUADS = [
-    (0, 0, C["acc"], C["acc_d"], C["acc_t"], "Hard bid",
+    (0, 0, D["acc"], C["acc_d"], C["acc_t"], "Hard bid",
      ["The bidding contractor", "Lump-sum Design-Build"],
      ["You trade trust in the counterparty", "for rock-bottom pricing."], 44),
-    (1, 0, C["sec"], C["sec_d"], C["sec_t"], "Partnership",
+    (1, 0, D["sec"], C["sec_d"], C["sec_t"], "Partnership",
      ["Principals entangled in a common interest"],
      ["You trade a higher share of the benefits", "for significantly less management effort."], 44),
-    (0, 1, C["ink2"], C["ink"], C["muted"], "Construction Manager",
+    (0, 1, D["ink2"], C["ink"], C["muted"], "Construction Manager",
      ["Two agents, designer and builder,", "acting as checks on each other"],
      ["You trade accountability for a mild", "dose of certainty and optionality."], 180),
-    (1, 1, C["action"], C["action_p"], C["action_t"], "Cost plus",
+    (1, 1, D["action"], C["action_p"], C["action_t"], "Cost plus",
      ["The consulting contractor", "Cost-plus Design-Build"],
      ["You trade cost certainty", "for optionality."], 180),
 ]
