@@ -60,6 +60,16 @@ The stadium also has its worst spectators. The bidder who spends compute searchi
 
 The way out of the stadium is the path Lang describes, the move into a consortium or a standards body, where the people who rely on the standard share the cost of keeping it. Owners can help before that day comes. Kelly Roegies's guide to open protocols for governments suggests procurement criteria that reward suppliers who contribute upstream, and a public owner who buys bots can ask, in its own tenders, which bidders help maintain the test.
 
+## Two asks
+
+The map has many levels, but the book makes only two asks of its own, one for each tool the prologue named: documents written for machines to read, and a standard bot to read them.
+
+**The documents.** The first ask is a template that replaces the PDF as the copy a bot reads: a tender package written as plain text, with Markdown for the parts people read and JSON for the parts machines count. Every requirement carries an identifier, every pay item a name from the measurement crosswalk, and every addendum a new version of the file rather than a new pile of pages. A fingerprint of each issued version goes on a public log, so anyone can prove later which version existed when. The PDF does not have to die on the first day. It can keep the seal for a while, as the stamped copy a court reads, with the template issued beside it "for reading". The order of precedence flips only when the villagers are ready, and that flip is the moment the zombie is finally laid to rest.
+
+**The bot.** The honest answer here is that nobody yet knows what a reasonable bot has to do, and finding out is the reason the estimator is being built. A standard written today would be a guess with a version number. One part can be asked for now, though, because it does not depend on the answer: the record. Every reading of a tender, by any bot, would leave the same trail: which documents it read, by their fingerprints; which bot read them, down to the model, its weights, the prompt and the settings; what it found; and when. A court can work with a record long before anyone agrees on a tolerance, and a record kept from the first day is what the test set will later be built from. The rest of the bot standard, the test set and the tolerance, is what version 3.0 of the estimator is for.
+
+So the weak link stays, but it is named. The book asks for a template and a record now, and promises the test when the estimator has earned it.
+
 ## The nearest standards
 
 The cliff after the tool was a missing list of asks. Here is one, drawn as World 2. Every level on the map is a standard that already exists, kept by people who already meet, and each needs one change rather than a new institution. The castle is the only new thing.
