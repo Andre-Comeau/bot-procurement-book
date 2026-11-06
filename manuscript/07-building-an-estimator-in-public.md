@@ -2,7 +2,7 @@
 
 <!--
 Part III. The proof. Chapter 9, and since 2026-11-06 the book's only development chapter: the old chapters 9 ("Building an estimator in public") and 10 ("What an evaluator needs") merged here, at Andre's request (thread "Write the evaluator and estimator chapter", 2026-11-06). The file name keeps its old number; 08-what-an-evaluator-needs.md was removed and its source passages are in git history (commit before this one).
-Word count: about 2,300. A first draft by Claude, for Andre to cut and rewrite in his own voice.
+Word count: about 2,500 (after the map pass). A first draft by Claude, for Andre to cut and rewrite in his own voice.
 
 Andre's brief (2026-11-06): combine his earlier evaluator notes into one chapter. "The benefits of the evaluator rest with after tender results." The evaluator and the estimator are entangled. "The particular math I provided works more for the evaluator, but you may be able to alter the verbiage to combine them." Claude and Copilot may be named. Book focus: the estimator is proof of work, at most one development chapter, not too technical for a general reader.
 

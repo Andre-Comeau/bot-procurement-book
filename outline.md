@@ -46,9 +46,9 @@ Part II gives the argument its history and its legal footing, then puts it on tr
 
 ## Part III. The proof
 
-Part III is the proof-of-work and the part funders and sponsors will read. One chapter since 2026-11-06, about 2,200 words, most of it new. After chapter 8 it has a sharper job: show how far the estimator gets toward the two properties, and say plainly which one it does not yet prove.
+Part III is the proof-of-work and the part funders and sponsors will read. One chapter since 2026-11-06, about 2,500 words, most of it new. After chapter 8 it has a sharper job: show how far the estimator gets toward the two properties, and say plainly which one it does not yet prove.
 
-**9. A second opinion on every price** (about 2,200 words, Claude's first draft from Andre's evaluator notes; merged 2026-11-06). The book's one development chapter: the old chapters 9 ("Building an estimator in public") and 10 ("What an evaluator needs") combined, because the estimator and the Fair and Reasonable Evaluator are one engine pointed in two directions (Andre, 2026-11-06: they are entangled, and "the benefits of the evaluator rest with after tender results"). After award the market leaves the room, so someone has to stand in for it; the cost of that review is mostly delay, at market rates. Why bidders' estimating software answers the wrong question, and the data problem (three ways out: mandate, by hand, AI). Why the estimator came first, how its error rate becomes the evaluator's tolerance, what v0.3's scores prove and what they do not. The tool drafts and the keyholder decides; the Witness and the Oracle for when an AI or outsiders are involved. Closes on the flywheel (v1.0 momentum, v2.0 proof of work through the evaluator's savings, v3.0 the model the standard is reverse-engineered from) and the door to the standard. File `07-building-an-estimator-in-public.md`.
+**9. A second opinion on every price** (about 2,500 words, Claude's first draft from Andre's evaluator notes; merged 2026-11-06). The book's one development chapter: the old chapters 9 ("Building an estimator in public") and 10 ("What an evaluator needs") combined, because the estimator and the Fair and Reasonable Evaluator are one engine pointed in two directions (Andre, 2026-11-06: they are entangled, and "the benefits of the evaluator rest with after tender results"). After award the market leaves the room, so someone has to stand in for it; the cost of that review is mostly delay, at market rates. Why bidders' estimating software answers the wrong question, and the data problem (three ways out: mandate, by hand, AI). Why the estimator came first, how its error rate becomes the evaluator's tolerance, what v0.3's scores prove and what they do not. The tool drafts and the keyholder decides; the Witness and the Oracle for when an AI or outsiders are involved. Closes on the flywheel (v1.0 momentum, v2.0 proof of work through the evaluator's savings, v3.0 the model the standard is reverse-engineered from) and the door to the standard. File `07-building-an-estimator-in-public.md`.
 
 ## Part IV. The protocol that follows
 
@@ -85,7 +85,7 @@ Main text about 13,300 words, of which roughly 4,500 are redrafted from the auth
 | 6. Liability shifts to the user's bot | 1,500 | redraft | case study, positions 1, 2, 7, 9, 16, 20 |
 | 7. The banana peel | 600 | redraft | positions 16, 19 |
 | 8. The bot in the witness box | 1,200 | new | case study, positions 1, 2, 9, 20 |
-| 9. A second opinion on every price | 2,200 | new, Claude's draft from Andre's notes | evaluator notes, case study, results log |
+| 9. A second opinion on every price | 2,500 | new, Claude's draft from Andre's notes | evaluator notes, case study, results log |
 | 10. The protocol that follows | 800 | new | THESIS 3 and 4, position 15 |
 | 11. The meta-goal | 500 | redraft | case study |
 | A. The cards | 12,000 | built | cards and images |
