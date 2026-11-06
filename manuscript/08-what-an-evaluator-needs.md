@@ -1,2 +1,0 @@
-# What an evaluator needs
-
