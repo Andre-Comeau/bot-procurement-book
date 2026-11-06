@@ -6,7 +6,7 @@ It does not come back. Halfway through the job the excavator meets rock that the
 
 This chapter is about two bots built to live on either side of that afternoon. The estimator asks its question before the tender: how much should this cost? The Fair and Reasonable Evaluator asks it after: are we paying too much? They began as two tools and turned out to be one engine pointed in two directions, so entangled that it is hard to describe one without the other. The estimator came first and gets most of the attention, but the evaluator is where the money is, because its benefits arrive after the tender, where the market can no longer help.
 
-![Bot Procurement World, an overworld map: from Start, the reader stands just before level 1-1, the book; beyond it the Estimator's hut and the Evaluator's hut, joined by a path, each branch on toward the bridge; level 1-2, field building, leads to the Standard's castle, and roads from it run to World 2 (BIM for bots), World 3 (bot monitoring) and World 4 (robotic construction), each with its own field-building level and castle.](../images/second-opinion.png)
+![Bot Procurement World, an overworld map of the change process: from Start, levels for the tender, the bid, the contract, an RFI, a contemplated change and the quote; from the quote three paths lead to the Change Order castle: the Estimator's hut and the Evaluator's hut, with a secret path between them, marked "minutes, not days", and the slow road from consultant to sub-consultant and back to consultant, "ten working days, an invoice at every pipe". The Standard, BIM for bots, bot monitoring and robotic construction are the other worlds, each with a field-building level and a castle.](../images/second-opinion.png)
 
 ## The slow road
 
