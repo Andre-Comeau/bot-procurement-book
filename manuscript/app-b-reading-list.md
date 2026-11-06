@@ -23,3 +23,14 @@ Paths are relative to construction-procurement-protocols unless they start with 
 - `work-packages/procurement-machines/THESIS.md`: Claude's draft of the cards' argument; chapters 5, 11 and 12.
 - `work-packages/procurement-machines/bot-philosophy.md`: the Bot Philosophy box; chapters 8 and 12.
 - `DECISIONS.md`: decisions 27, 32, 40, 45, 46, 62, 64, 75 and 113.
+
+## On the shelf: possibly useful, not yet used
+
+<!--
+Added 2026-11-06 at Andre's request: works that look promising but that no chapter uses yet. They move to Appendix D only once a chapter draws on them (Appendix D lists only what was read or used).
+Bianchi: open copy at https://consumptionreadinggroup.wordpress.com/wp-content/uploads/2012/03/bianchi-a-questioning-economist.pdf. Possible links: revealed preference ("preferences can be inferred from choices made, with no need to inquire into reasons", quoting Scitovsky, The Joyless Economy, rev. ed. 1992, p. 5) against the book's need for a bot to give reasons for a price; companion to Scitovsky's "The Benefits of Asymmetric Markets", already in Appendix D.
+-->
+
+*Works that look promising but that no chapter draws on yet. Not yet read in full.*
+
+- Bianchi, Marina. "A Questioning Economist: Tibor Scitovsky's Attempt to Bring Joy into Economics." *Journal of Economic Psychology* 24, no. 3 (2003): 391–407. https://doi.org/10.1016/S0167-4870(03)00019-9. An appreciation of Scitovsky written after his death, covering *The Joyless Economy* and his doubt that choices alone reveal what people want.
