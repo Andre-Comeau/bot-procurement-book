@@ -32,6 +32,8 @@ PREVIEWS = {
         "Who works for whom, and how they deal: the delivery methods on two axes, Principal to Principal or to Agent, and competitive or cooperative"),
     "03b-what-do-we-do-with-a-drunken-sailor.md": ("social-card-failure-modes.png",
         "How words and deeds go wrong: a stained-glass window of the Serpent, the Dragon, the Drunken Sailor and Who's on First, with the standard bot at its centre"),
+    "07-building-an-estimator-in-public.md": ("social-card-second-opinion.png",
+        "Bot Procurement World: an overworld map from tender to change order, with the estimator's and evaluator's huts, the slow road of haunted fortresses, and the Standard in the next world"),
 }
 
 # Chapters that go on the public site. Add a file here when it is ready to read.

@@ -15,6 +15,7 @@ CARDS = [  # (figure, card)
     ("zombie-garden.png", "social-card.png"),
     ("delivery-methods-2x2.png", "social-card-delivery-methods.png"),
     ("failure-modes-glass.png", "social-card-failure-modes.png"),
+    ("second-opinion.png", "social-card-second-opinion.png"),
 ]
 
 for figure, card_name in CARDS:
