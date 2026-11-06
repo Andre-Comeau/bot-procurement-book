@@ -4,7 +4,7 @@ A short book that asks one question: *when a bot causes harm, who pays?*, in con
 
 The book is being written in public during the Protocol Institute's [PiBoWriMo 2026](https://protocol-institute.org/events/pibowrimo-2026/), from November 1 to 30. It grows out of Andre Comeau's construction procurement protocols case study for the Institute's Protocols for Business group. The target is 8,000 to 15,000 words of main text, with an illustrated appendix of "Procurement Machines" cards.
 
-**Why:** the author works in this industry, saw a problem, built a tool to understand it, and is writing this book to think it through. The standard is public so anyone can run it. Like a building code, whoever profits will be the people who build on it, not the author.
+**Why:** "I work in this industry, I saw a problem, I built a tool to understand it, and I wrote a book to think it through. The standard is public so anyone can run it. I don't have a plan for what comes after." (Andre Comeau)
 
 **Status:** draft. The outline is settled, the prologue has a first draft, and every chapter now holds its source passages (Andre's quoted sentences and Claude's marked notes) under the sections it will need, ready to cut and rewrite.
 
