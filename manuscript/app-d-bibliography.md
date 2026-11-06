@@ -2,6 +2,10 @@
 
 Abbott, Bud, and Lou Costello. "Who's on First?" Comedy routine, performed from 1937; filmed in *The Naughty Nineties* (Universal, 1945). (Named, not quoted.)
 
+buildingSMART International. *Information Delivery Specification (IDS)*, version 1.0. Final standard, 4 June 2024. https://www.buildingsmart.org/standards/bsi-standards/information-delivery-specification-ids/.
+
+Canadian Construction Documents Committee. *CCDC 23 – 2018: A Guide to Calling Bids and Awarding Construction Contracts.* Ottawa: CCDC, 2018.
+
 Charan, Ram. *What the CEO Wants You to Know: How Your Company Really Works.* New York: Crown Business, 2001.
 
 Deutsches Institut für Normung. DIN 476, *Papierformate* (paper formats). Berlin, 1922.
@@ -16,9 +20,13 @@ Hammurabi. *The Code of Hammurabi*, c. 1750 BC. Translated by L. W. King, 1910.
 
 *The Holy Bible*, King James Version, 1611: Genesis 2 to 3, 6 to 9 and 11; Leviticus 13 to 14 and 19:27; Ecclesiastes 1:9; Revelation 12:7 to 9.
 
+Institute of Electrical and Electronics Engineers. IEEE 3119-2025, *IEEE Standard for the Procurement of Artificial Intelligence and Automated Decision Systems*. New York: IEEE, 2025.
+
 International Organization for Standardization. ISO 216, *Writing paper and certain classes of printed matter: Trimmed sizes: A and B series*. Geneva, 1975.
 
 International Organization for Standardization. ISO 10845-1:2020, *Construction procurement: Part 1: Processes, methods and procedures*. 2nd ed. Geneva, 2020. First edition 2010.
+
+International Organization for Standardization. ISO 10845-3, *Construction procurement: Part 3: Standard conditions of tender*. Geneva. (Edition to check.)
 
 Kolt, Noam. "Governing AI Agents." *Notre Dame Law Review* 101 (2026): 335. Preprint, arXiv:2501.07913, 2025.
 
