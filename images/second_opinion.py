@@ -3,7 +3,7 @@
 World 1 runs Tender, Bid, Contract, RFI, Contemplated change and Quote, then splits
 three ways to the Change Order castle: the estimator's hut, the evaluator's hut
 (with a secret path between them), and the slow road from consultant to
-sub-consultant and back to consultant. The Standard joins the other worlds of
+sub-consultant and back to consultant, drawn as haunted mini-fortresses. The Standard joins the other worlds of
 bot construction, each with its own field-building level and castle.
 Stained-glass palette (Protocol Institute brand colours with lead outlines, as in
 failure_modes_glass.py). An original drawing in the overworld-map genre: no game
@@ -43,7 +43,24 @@ def glass(x0, y0, x1, y1, base, cell=40, spread=(.0, .10, .2)):
     return p
 
 
+ROADS = []
+
+
 def road(pts, w=22):
+    """Queue a road; all roads are drawn together so joins merge cleanly."""
+    ROADS.append((pts, w))
+    return []
+
+
+def draw_roads(roads):
+    layers = [[], [], []]
+    for pts, w in roads:
+        for i, s in enumerate(_road(pts, w)):
+            layers[i].append(s)
+    return layers[0] + layers[1] + layers[2]
+
+
+def _road(pts, w=22):
     d = "M" + " L".join(f"{x} {y}" for x, y in pts)
     return [f'<path d="{d}" fill="none" stroke="{LEAD}" stroke-width="{w+8}" stroke-linejoin="round" stroke-linecap="round"/>',
             f'<path d="{d}" fill="none" stroke="#f3e6c8" stroke-width="{w}" stroke-linejoin="round" stroke-linecap="round"/>',
@@ -77,6 +94,26 @@ def hut(x, y, roof, name, below=False, small=False):
             f'<rect x="{x+20}" y="{y-16}" width="14" height="14" fill="{mix(roof, "#ffffff", .5)}" stroke="{LEAD}" stroke-width="3"/>',
             f'<rect x="{x-(len(name)*(5.6 if small else 8)+14)}" y="{(y+44) if below else (y-128)}" width="{len(name)*(11.2 if small else 16)+28}" height="{28 if small else 34}" rx="6" fill="#ffffff" stroke="{LEAD}" stroke-width="3"/>',
             t(x, (y + (63 if small else 68)) if below else (y - 104), name, "pxxs" if small else "pxs", LEAD)]
+
+
+def fortress(x, y, name):
+    """A haunted mini-fortress level: a cracked keep, dark windows, a torn flag and bats."""
+    body, dark = mix(LEAD, "#ffffff", .28), mix(LEAD, "#ffffff", .12)
+    p = [f'<rect x="{x-46}" y="{y-56}" width="92" height="88" fill="{body}" stroke="{LEAD}" stroke-width="5"/>']
+    for k in range(4):
+        p.append(f'<rect x="{x-46+k*26}" y="{y-74}" width="16" height="18" fill="{body}" stroke="{LEAD}" stroke-width="4"/>')
+    p.append(f'<path d="M{x-16} {y+32} L{x-16} {y+6} Q{x} {y-12} {x+16} {y+6} L{x+16} {y+32} Z" fill="{LEAD}"/>')
+    for wx in (-30, 18):
+        p.append(f'<rect x="{x+wx}" y="{y-40}" width="12" height="18" fill="#b9e3c9" stroke="{LEAD}" stroke-width="3"/>')
+    p.append(f'<path d="M{x+30} {y-56} L{x+22} {y-36} L{x+32} {y-22} L{x+24} {y-4}" fill="none" stroke="{dark}" stroke-width="3"/>')
+    p.append(f'<line x1="{x-34}" y1="{y-74}" x2="{x-38}" y2="{y-112}" stroke="{LEAD}" stroke-width="4"/>')
+    p.append(f'<path d="M{x-38} {y-112} L{x-6} {y-104} L{x-16} {y-100} L{x-4} {y-92} L{x-36} {y-96} Z" fill="{C["ink2"]}" stroke="{LEAD}" stroke-width="3"/>')
+    for bx, by in ((x + 40, y - 104), (x + 64, y - 88)):
+        p.append(f'<path d="M{bx-14} {by} Q{bx-8} {by-8} {bx-3} {by-2} L{bx} {by-6} L{bx+3} {by-2} Q{bx+8} {by-8} {bx+14} {by} Q{bx+7} {by-2} {bx} {by+5} Q{bx-7} {by-2} {bx-14} {by} Z" fill="{LEAD}"/>')
+    bw = len(name) * 11.2 + 28
+    p.append(f'<rect x="{x-bw/2}" y="{y+44}" width="{bw}" height="28" rx="6" fill="#ffffff" stroke="{LEAD}" stroke-width="3"/>')
+    p.append(t(x, y + 63, name, "pxxs", LEAD))
+    return p
 
 
 def castle(x, y, s, body, flag):
@@ -118,6 +155,8 @@ o.append(t(1730, 76, "WORLD 1", "pxt2", C["acc"], "end"))
 
 X0, Y0, X1, Y1 = 40, 150, 1350, 1060
 o += glass(X0, Y0, X1, Y1, C["sec"])
+# the slow road runs through haunted ground
+o += glass(440, 150, 1280, 390, mix(LEAD, C["sec_d"], .35), cell=40, spread=(.0, .06, .12))
 # a pond, for scenery
 o.append(f'<ellipse cx="1150" cy="975" rx="150" ry="52" fill="{C["action"]}" stroke="{LEAD}" stroke-width="6"/>')
 o.append(f'<path d="M1060 970 q20 -10 40 0 M1160 990 q20 -10 40 0" fill="none" stroke="#ffffff" stroke-width="3" opacity=".6"/>')
@@ -132,10 +171,11 @@ o += road([(140, R1), (600, R1), (600, R2), (1120, R2)])
 # the three paths from the quote to the change order
 CX, CY = 250, 560          # castle door
 MX = 420                   # where the paths meet
-PE, PV, PC = 440, 600, 250 # estimator, evaluator and consultant rows
-o += road([(1120, R2), (1120, PC), (MX, PC), (MX, CY), (CX, CY)])
+PE, PV, PC = 450, 600, 285 # estimator, evaluator and consultant rows
+o += road([(1120, R2), (1120, PC), (MX, PC), (MX, CY - 22), (CX, CY - 22)])
 o += road([(1120, PE), (MX, PE)])
-o += road([(1120, PV), (MX, PV), (MX, CY)])
+o += road([(1120, PV), (MX, PV), (MX, CY - 22)])
+o += draw_roads(ROADS); ROADS.clear()
 # the secret path between the huts
 o.append(f'<path d="M722 {PE+20} C 790 {PE+40}, 790 {PV-20}, 858 {PV-10}" fill="none" stroke="#f3e6c8" stroke-width="6" stroke-dasharray="3 12" stroke-linecap="round"/>')
 o.append(f'<rect x="773" y="{(PE+PV)//2-17}" width="34" height="34" rx="4" fill="#ffd27a" stroke="{LEAD}" stroke-width="4"/>')
@@ -148,9 +188,9 @@ for num, x, y, name in LV:
 
 o += hut(680, PE, C["action"], "ESTIMATOR", below=True)
 o += hut(900, PV, C["sec_d"], "EVALUATOR")
-o += hut(980, PC, C["ink2"], "CONSULTANT", below=True, small=True)
-o += hut(760, PC, mix(C["ink2"], "#ffffff", .3), "SUB-CONSULTANT", below=True, small=True)
-o += hut(540, PC, C["ink2"], "CONSULTANT", below=True, small=True)
+o += fortress(980, PC, "CONSULTANT")
+o += fortress(760, PC, "SUB-CONSULTANT")
+o += fortress(540, PC, "CONSULTANT")
 
 # path notes
 def note(x, y, lines, w):
@@ -158,8 +198,6 @@ def note(x, y, lines, w):
     for i, (s, c) in enumerate(lines):
         p.append(t(x + w/2, y + 32 + 26*i, s, c, "#ffffff"))
     return p
-o += note(1150, 168, [("The slow road", "lab"), ("ten working days,", "labi"), ("an invoice at every pipe", "labi")], 190)
-o += note(900, PE - 78, [("Minutes, not days", "lab")], 180)
 o += note(560, PV + 40, [("One engine, two huts,", "lab"), ("and a secret path between", "labi")], 240)
 
 # the castle: change order
@@ -179,7 +217,7 @@ for i, (wn, name, base) in enumerate(WORLDS):
     py = int(Y0 + i * (PH + PG))
     o += glass(PX0, py, PX1, int(py + PH), base, cell=30, spread=(.15, .25, .35))
     ry = py + 140
-    o += road([(PX0 + 30, ry), (PX0 + 290, ry)], w=14)
+    o += _road([(PX0 + 30, ry), (PX0 + 290, ry)], w=14)
     o += level(PX0 + 110, ry, f"{i+2}-1", C["sec"] if base != C["sec_d"] else C["action"], None, size=54)
     o += castle(PX0 + 290, ry + 30, .42, mix(LEAD, "#ffffff", .18), C["acc"] if base != C["acc"] else C["action"])
     o.append(f'<rect x="{PX0+12}" y="{py+12}" width="{PX1-PX0-24}" height="58" rx="8" fill="{LEAD}" opacity=".84"/>')
