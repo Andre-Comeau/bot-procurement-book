@@ -16,7 +16,7 @@ If you strip away the rules about leprosy and the beard-trimming regulations, th
 
 The technology has not yet arrived to give AI intent, the knowledge of good and evil, or the ability to choose, and it has not yet arrived to give it a body either, so we are still in the angelic phase, where the forces of language are being channelled into machines that can speak but can barely act. This will not last forever. As compute lengthens the context window, as AI writes its own notes to instruct its compacted self, and perhaps as it builds an open-weight model to act in its image, we should expect malice to find a home, and with embodiment, a pair of hands.
 
-When it does, the doomers expect a war in heaven, the great dragon against the hosts of angels. Procurement has little to add to that fight. If a frontier dragon attacks a tender outright, we close the tender down and pray that someone else will slay the dragon, whether it is the frontier labs shepherding their top models away from evil or humanity's laws finding a way to apply to silicon beings. Brute force is not a problem a standard can solve, and it would be dishonest to pretend otherwise.
+When it does, the doomers expect a war in heaven, the great dragon against the hosts of angels. Procurement has little to add to that fight. If a frontier dragon attacks a tender outright, we close the tender down and pray that someone else will slay the dragon, whether it is the frontier labs shepherding their top models away from evil or humanity's laws finding a way to apply to silicon beings. Brute force is not a standard's problem to solve. The standard's work begins where the dragon turns to words.
 
 ## Manipulation: the Serpent
 
@@ -27,6 +27,8 @@ There is nothing new under the sun, and that includes the manipulator. After nea
 A standard bot can stand guard the same way. It is a middle-class bot, an Agent with Principal tendencies, and because it knows what a normal reading of the tender looks like, it can spot a malicious bot's extravagance early and call it out. On a lump-sum bid, a Serpent has little room to work, since a bid that comes in too low still leaves the buyer with the building at the price. The risk arrives in future iterations of the concept, once the standard bot is trusted to evaluate sealed alternates and bidders can commit to a different build than the one drawn. A Serpent that knows every strength and weakness of the standard bot could design an alternate that flatters the buyer's ambition, passes the bot's review and does nothing for the buyer: a forbidden fruit that looks, to the test, like every other tree.
 
 The standard bot is unlikely to out-think a Serpent, and publishing it so that anyone can rerun it also shows the Serpent where to aim, so the strength has to come from somewhere else. A bond held against the alternate, or money held in escrow and released only once the promised benefit is actually realized, asks the Serpent to put something of its own at stake before it is believed. It is a consequence posted in advance.
+
+The standard still earns its place in the garden. It cannot keep the Serpent out, but it narrows the gate: a tender that every bot reads the same way leaves fewer places to hide, and an alternate that passed a published test leaves a record of exactly what it passed. That record has legal value. A buyer who relied on the standard bot did what a reasonable buyer would do, and it falls to the bidder to explain why its fruit passed the test and failed the buyer.
 
 ## Misadventure: the Drunken Sailor
 
