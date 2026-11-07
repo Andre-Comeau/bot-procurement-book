@@ -71,6 +71,6 @@ The versions in chapter 1 now line up with the two asks.
 
 The prediction can be wrong, and it should say how. If by 2035 no public owner anywhere runs a tender whose questions, addenda, bids and evaluation pass through agents on a published data format, the forecast failed. The standard itself is further out, in the ten to fifteen years the CubeSat suggests, and its first court challenge will probably come before it, from a dispute fought under the old rules.
 
-The model was never going to generate the field. What it can do is give a small group of people a template to issue, a record to keep and something to argue about. That is how a standard starts, and the villagers, as the introduction promised, are the ones who decide whether it sticks.
+The model was never going to generate the field. What it can do is give a small group of people a template to issue, a record to keep and something to argue about. That is how a standard starts, and the villagers, as the zombie garden in chapter 4 promised, are the ones who decide whether it sticks.
 
 ---
