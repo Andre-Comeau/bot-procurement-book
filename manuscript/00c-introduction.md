@@ -8,7 +8,7 @@ The standardization of paper sizes in the 20th century allowed for the commoditi
 
 The PDF is an undead protocol. As a technology it died with the fax machine, but as a protocol it kept walking, because the paper set it imitates carries the engineer's seal and the contract's signatures. The file inherited the paper's place in the law: the copy that is stamped, issued and frozen, the one a court reads when a dispute arrives. A protocol owes its users two things: safety, the promise that nothing bad will happen, and liveness, the promise that something good eventually will, so that the system keeps growing and changing. The PDF has safety in abundance and no liveness at all. That is what makes it undead.
 
-Construction procurement has built a walled garden around these zombies to control their damage, but refuses to kill them.
+Construction procurement has built a walled garden around these zombies to control their damage, but refuses to kill them. Only the people who live alongside them, the buyers, consultants, bidders and courts, can decide to.
 
 ![The zombie garden: construction documents shambling between the designer's and the buyer's rooms, bidders all around the wall, one living bot-first spec hidden among them, a slain PDF, and a level-up panel offering four treasures for the villagers](../images/zombie-garden.png)
 
@@ -16,13 +16,13 @@ The garden may be slow and inefficient, but it moves the information between buy
 
 There may be no glory in the work, but it has to be done, and if the bots are going to take it on, they will need strange new rules to do it.
 
-Since wandering among the undead involves risk, this chapter lays out the danger, the treasure, and the campaign.
-
-The danger is anachronistic technology crushing innovation, as maintaining the system becomes a rent-seeking enterprise. The impulse to innovate becomes buried under the desire to slow the velocity and raise the margins. Meanwhile, the waste goes on in plain sight. Every bidder reads the same drawings, takes off the same quantities and prices the same work, and on a job with six bidders, five of them do it for nothing. Their effort does not vanish: it comes back as overhead in the next bid, and the buyers pay for it in the end.
+Since wandering among the undead involves risk, this chapter lays out the treasure, the danger, and the campaign.
 
 The treasure is improved productivity in construction, lowering costs and expanding the options. The greatest part of it is the release of human capital from the cognitive serfdom of documentation and administration: the take-offs counted by hand, the quantities retyped from one document into another, the hunt through three addenda for the one that changed a detail. Freed from it, people can turn to exploration, creation, and community building.
 
 The practical treasure begins with sealed alternates. Standardized documents read by a standard bot would bring certainty to the review of a bidder's alternate, and that certainty would unleash the untapped capacity of the bidders to improve the product, with the benefits shared with the buyers. Then there is the industry's transition to digital tools. BIM modelling has existed for long enough that its lack of uptake should be considered structural, and standards for bots could grow to encompass it as well. Finally, programming construction robots currently requires translating data between formats. The checks on each translation ensure a high degree of accuracy, but better base documentation could remove the translation altogether and accelerate adoption. On a standardized, digital-first stack, the robots could program themselves from the same documents the bidders priced, and automated bidding could carry a project from conception to completion.
+
+The danger is anachronistic technology crushing innovation, as maintaining the system becomes a rent-seeking enterprise. The impulse to innovate becomes buried under the desire to slow the velocity and raise the margins. Meanwhile, the waste goes on in plain sight. Every bidder reads the same drawings, takes off the same quantities and prices the same work, and on a job with six bidders, five of them do it for nothing. Their effort does not vanish: it comes back as overhead in the next bid, and the buyers pay for it in the end.
 
 The operational plan? To prepare an expedition to the heart of the procurement process, the documentation of requirements, to slay the PDF zombies and free the villagers from their evil reign.
 
