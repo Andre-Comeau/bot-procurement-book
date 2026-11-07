@@ -2,7 +2,7 @@
 
 Before a bot can judge a price, someone has to decide who works for whom. Economists call this the Principal/Agent problem, and in construction it has a map.
 
-So, you want to build a house. Let's look at your options.
+So, you want to build a house. It is about the largest thing one person could hope to build alone, which makes it a good baseline: anything bigger, from a school to a bridge, takes other people, and other people raise the question the rest of this chapter answers. Why not just get along? Let's look at your options.
 
 ![Delivery methods on two axes, Principal to Principal against Principal to Agent and competitive against cooperative: hard bid, partnership, Construction Manager and cost plus in the corners, the General Contractor with a Consultant in the centre](../images/delivery-methods-2x2.png)
 
