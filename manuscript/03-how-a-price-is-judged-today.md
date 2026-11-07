@@ -82,6 +82,10 @@ For everyone but true love, the honeymoon ends.
 
 Since the market sets the margin, the Principal must manage the velocity, and velocity lives in the cheap and stressful corner. That is the arrow across the top of the map: sooner or later, every partnership drifts back to the hard bid. Back to the hungry parties, the Principals looking to trade, who know someone else will take the work if they don't. Cheap and stressful wins again, not because anyone enjoys it, but because hunger is the one thing that never slows down.
 
+For a public buyer, the arrow is drawn in law. Procurement rules ask for open competition, and often for the lowest compliant price, so most public work is tendered in the cheap and stressful corner whatever the buyer would prefer, and every step away from it has to be justified to an auditor.
+
+This is the world a standard bot would enter. It does not much care which corner of the map you chose. Wherever you stand, someone eventually puts a number in front of you, and the bot has to answer the question every buyer asks in the end: is this price fair and reasonable?
+
 !!! note "Sidebar: two $600 hammers"
 
     In the 1980s the Pentagon was caught paying $600 for a hammer, and the hammer became the symbol of waste in defence buying. The hammer itself cost about $15. The contractor had spread its engineering and support overhead evenly across every line of a spare-parts order, so a $15 hammer carried the same share as a complex part and came to about $435. The press rounded up. A procurement official later called it "an accounting artifact."
