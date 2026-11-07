@@ -16,7 +16,7 @@ The garden may be slow and inefficient, but it moves the information between buy
 
 There may be no glory in the work, but it has to be done, and if the bots are going to take it on, they will need strange new rules to do it.
 
-Since wandering among the undead involves risk, this book lays out the danger, the treasure, and the campaign.
+Since wandering among the undead involves risk, this chapter lays out the danger, the treasure, and the campaign.
 
 The danger is anachronistic technology crushing innovation, as maintaining the system becomes a rent-seeking enterprise. The impulse to innovate becomes buried under the desire to slow the velocity and raise the margins. Meanwhile, the waste goes on in plain sight. Every bidder reads the same drawings, takes off the same quantities and prices the same work, and on a job with six bidders, five of them do it for nothing. Their effort does not vanish: it comes back as overhead in the next bid, and the buyers pay for it in the end.
 

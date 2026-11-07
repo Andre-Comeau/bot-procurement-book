@@ -1,6 +1,6 @@
 # How a price is judged today
 
-Since the niche world of construction procurement should put most of us to sleep, we can spice things up with the buzz topic of the Principal/Agent problem.
+Before a bot can judge a price, someone has to decide who works for whom. Economists call this the Principal/Agent problem, and in construction it has a map.
 
 So, you want to build a house. Let's look at your options.
 

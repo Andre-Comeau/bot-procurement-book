@@ -1,10 +1,8 @@
 # What do we do with a drunken sailor?
 
-Unfortunately, we need to interrupt the joy all children feel when discussing procurement, and look at AI through the lens of Genesis.
-
 Our world has worked itself into a hysteria about misbehaving bots while quietly forgetting the misbehaving human. Perhaps we have grown fond of the mechanical predictability that automata used to bring into our lives, and as our little technology stack becomes a pre-teen, we find ourselves nostalgic for the earlier years.
 
-Like wetware, AI can lose its way, and two questions are enough to sort out how: did it go wrong in what was said or in what was done, and did anyone mean it? Malicious words are manipulation and malicious deeds are malice, while accidental words are miscommunication and accidental deeds are misadventure. Each has its own remedy, and a standard bot has a part to play in all four.
+Like wetware, AI can lose its way, and two questions are enough to sort out how: did it go wrong in what was said or in what was done, and did anyone mean it? Malicious words are manipulation and malicious deeds are malice, while accidental words are miscommunication and accidental deeds are misadventure. Each has its own remedy, and a standard bot has a part to play in all four. The oldest catalogue of these failures is in Genesis, so that is where this chapter looks.
 
 ![A stained-glass window in four panes, words or deeds against malicious or accidental: Manipulation (the Serpent), Miscommunication ("Who's on First?"), Malice (the Dragon) and Misadventure (the Drunken Sailor), with the standard bot in a rose window at the centre](../images/failure-modes-glass.png)
 
