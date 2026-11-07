@@ -1,7 +1,7 @@
 # How a price is judged today
 
 <!--
-Part I. The question
+Part I. The way in (chapter 2 since 2026-11-07, after the proof, following vgr_zirp's suggested reading order for a newcomer (session 2, answer 5); it was chapter 3)
 Target: 1,200 words, mostly new
 Recentred 2026-11-02 (Andre): the book's question is "When a bot causes harm, who pays?". This chapter holds the public buyer's narrower question, "Is this in the public interest?": a price can only be judged against the requirements it answers, and fair and reasonable is the legal test for the price part. Andre's early correction fits here: a price unfair "viewed independently" can still be best value (see the prologue's note on origins).
 Brief: What "fair and reasonable" means to a public buyer, the engineer's estimate, the sold price books and the free bid tabulations, and the author's finding that a bot comes within about 20 percent of a human price line by line and must come within 2 to 3 percent before anyone trusts it alone.
@@ -123,13 +123,13 @@ Placement is provisional. It sits here, after the delivery methods and before th
 
 > That post-award situation is the use case for the F&R Reviewer. The Reviewer provides a protocol for evaluating prices on an ongoing project without needing to go to open tender.
 
-(`context-bank/background-notes.md`, sections 2 and 3, recorded 2026-10-01. In 2026-10 Andre kept the reviewer's use case out of the case study as "too technical for industry outsiders"; on 2026-11-02 he cleared it for the book as a side quest, see chapter 9's note.)
+(`context-bank/background-notes.md`, sections 2 and 3, recorded 2026-10-01. In 2026-10 Andre kept the reviewer's use case out of the case study as "too technical for industry outsiders"; on 2026-11-02 he cleared it for the book as a side quest, see chapter 1's note.)
 
 ### The engineer's estimate, the price books and the bid tabulations
 
 *No passage of Andre's on file. Claude's summary of `context-bank/what-buyers-pay.md` (searched 2026-10-18), for the chapter's money picture: bidders pay hundreds to a few thousand dollars a seat a year (electronic bidding about $60 a month; cost data from about $400 to $2,300 a year; a heavy-civil estimating seat about $4,000). Owners pay millions for platforms and estimate contracts (one state's year of the AASHTOWare suite about $2.15 million; a California on-call independent cost estimator contract listed at $4 to $6.5 million). Nobody pays for a standard directly. Most of these are third-party figures; check before printing.*
 
-*Claude's summary of THESIS section 2, for the cost-data machine: the price book is being split between sold databases and free bid tabulations, and its accuracy, measured by this project on a million Texas rows, is level with a moving average. The evidence that bids lean on the errors (Texas payment reports, Andre's "strong evidence of strategic bidding") is laid out in chapter 1; it also shows the engineer's estimate sitting 13% over on the lines where bidders priced cheap.*
+*Claude's summary of THESIS section 2, for the cost-data machine: the price book is being split between sold databases and free bid tabulations, and its accuracy, measured by this project on a million Texas rows, is level with a moving average. The evidence that bids lean on the errors (Texas payment reports, Andre's "strong evidence of strategic bidding") is laid out in chapter 5; it also shows the engineer's estimate sitting 13% over on the lines where bidders priced cheap.*
 
 ### Within a fifth, and the 2 to 3 percent a bot must reach
 
@@ -172,7 +172,7 @@ Placement is provisional. It sits here, after the delivery methods and before th
 *Claude's summary of the card `warranted-estimate-30bce`: Vitruvius reports a law of Ephesus under which an architect lodged his estimate for a public work and pledged his property against it. If the cost ran up to a quarter over, the public paid the excess; beyond that, the architect paid. It is the oldest known estimate with consequences and a tolerance band. The card's three tensions:*
 
 - *Warranty against tolerance: an estimate has a band, and someone must carry what falls outside it. Ephesus put the first quarter on the public and the rest on the architect; modern owners often push the risk to the contractor.*
-- *Who signs a machine's number: if a bot produces the number, a person must still stand behind it with something at stake, "or the estimate is a guess with a signature". This is the keyholder (chapter 10).*
+- *Who signs a machine's number: if a bot produces the number, a person must still stand behind it with something at stake, "or the estimate is a guess with a signature". This is the keyholder (chapters 10 and 12).*
 - *Reward for accuracy: Vitruvius says the law made architects careful, yet today no estimator is rewarded or punished for accuracy, and no one publishes a score.*
 
 *The README's shortest statement of the lineage: "the engineer's estimate is the Ephesian architect's number without his property." A possible opening for the chapter.*
