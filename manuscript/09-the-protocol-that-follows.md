@@ -107,7 +107,7 @@ The versions in chapter 1 now line up with the two asks.
 
 The prediction can be wrong, and it should say how. If by 2035 no public owner anywhere runs a tender whose questions, addenda, bids and evaluation pass through agents on a published data format, the forecast failed. The standard itself is further out, in the ten to fifteen years the CubeSat suggests, and its first court challenge will probably come before it, from a dispute fought under the old rules.
 
-The model was never going to generate the field. What it can do is give a small group of people a template to issue, a record to keep and something to argue about. That is how a standard starts, and the villagers, as the introduction promised, are the ones who decide whether it sticks.
+The model was never going to generate the field. What it can do is give a small group of people a template to issue, a record to keep and something to argue about. That is how a standard starts, and the villagers, as the zombie garden in chapter 4 promised, are the ones who decide whether it sticks.
 
 ---
 
@@ -223,7 +223,7 @@ The model was never going to generate the field. What it can do is give a small 
 
 > A weak point of the whole project is financial compensation. Taking the whole pie would prevent adoption; having no pie will starve the project and keep it from its full potential. Speculation about the future is meant to guess its shape, so that failing to have a slice now does not mean having none later.
 
-(`context-bank/horizon.md`, "Why speculate at all: the slice of pie", recorded 2026-10-05; the "end-boss" passage from the same file is in chapter 9)
+(`context-bank/horizon.md`, "Why speculate at all: the slice of pie", recorded 2026-10-05; the "end-boss" passage from the same file is in chapter 1)
 
 ### From the Procurement Machines: the projected card
 
@@ -235,14 +235,14 @@ The model was never going to generate the field. What it can do is give a small 
 
 1. *Speed against reviewability: an agent-generated evaluation must still be a record a human board checked (Trax is the first test).*
 2. *Disclosure asymmetry: bidders must disclose their AI while agencies' own use is undisclosed.*
-3. *Compelled disclosure of deficiencies: answered by Andre's five reasons against (chapter 6).*
+3. *Compelled disclosure of deficiencies: answered by Andre's five reasons against (chapter 8).*
 4. *Open protocol against platform capture: the first agent-commerce rails are consumer rails built by payment and platform companies. The signal to watch is a government publishing its own bid-and-award schema under an open foundation rather than a vendor's. This tension is the reason the standard should be free and the estimator only its first conforming bot.*
 5. *The unpinned specification (Andre's horizon, positions §8): let the specification stay live and bids be multivariate, "and the lowest price stops being computable by a person".*
 6. *Packaged for a reasonable human, not a reasonable bot (Andre's, positions §13, quoted above).*
 
 #### Why a better reader does not remove the need for a standard
 
-*From the card's notes, Claude's summary of Andre's argument (put it in his words): if models come to read documents as well as a competent person, a standard is still needed for a legal reason, because "a standard says which reading binds, which a better reader cannot supply." Claude's addition there: the law already asks what a reasonable bidder would have understood; a reference bot would define that reading, and its version would have to be pinned and logged in the record, as Trax shows. This is the hinge between this chapter and chapter 8.*
+*From the card's notes, Claude's summary of Andre's argument (put it in his words): if models come to read documents as well as a competent person, a standard is still needed for a legal reason, because "a standard says which reading binds, which a better reader cannot supply." Claude's addition there: the law already asks what a reasonable bidder would have understood; a reference bot would define that reading, and its version would have to be pinned and logged in the record, as Trax shows. This is the hinge between this chapter and chapter 10, the witness box.*
 
 #### The tolerance window
 
