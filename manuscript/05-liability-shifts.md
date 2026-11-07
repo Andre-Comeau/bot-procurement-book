@@ -1,7 +1,7 @@
 # Liability shifts to the user's bot
 
 <!--
-Part II. The machines
+Part III. The machines (chapter 8 since 2026-11-07)
 Target: 1,500 words, redraft
 Brief: The heart of the manifesto. Why a bidder should not be compelled to report what its bot finds, why the record matters more than the duty, silence before the contract, and the construction manager as a fourth party. Both statements true: the bidder may stay quiet, and the system still needs disclosure. Also (bot council, 2026-10-31): the Listener makes editorial choices about what to bring forward; say who answers for what it collated or left out, or the record reads as one nobody is accountable for reading. Why a bidder would raise an error, Andre, 2026-10-31 (verbatim): "The best reason to raise an error would be to prevent another bidder from exploiting it. This assumes that the firms are competing on primarily on price and the bidder revealing the weakness would rather use their competitive advantage -location, productivity, capital structure, personnel, ect... to win the bid over strategic bidding. Bot Procurement does not fix this issue, but it could lower costs for revealing them. Faster plan reviews from potential bidders combined would allow the issues to be reviewed early in the tender process and the changes reviewed with little effort. Encouraging companies that want to compete based on skill to make more Requests for Information (RFI) since they will be easier to process." (The reward side of Galbraith's Star Model; it needs no duty, since an answer goes to every bidder.)
 Sources: the case study's "Liability shifts to the user's bot" and "Who bears the cost of validating intent"; positions 1, 2, 7, 9, 16 and 20; the quoted passages under "Tensions to be managed" in `sentences-since-3-october.md`.
@@ -67,7 +67,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 (positions §2.5)
 
-*The strongest counter-case, from the bot council of 2026-10-06 (Claude's summary in positions §2.6): vgr_zirp called the five reasons "a guild protection argument dressed up as efficiency reasoning", and argued that a protocol which gives bidders a detector the buyer lacks creates the asymmetry it then refuses to correct, so the honest bidder who asks loses to the strategic one who stays quiet. Reasons 2.4 and 2.5 were not answered. Andre's own reply was a question: assuming the duty were easy to write, how would it be enforced, when bidders would claim their error detection as confidential? Claude's six mechanisms are in positions §2.7; the one that needs no new law is that a bidder who knew, or should have known, of a patent error cannot price it later, and "should have known" moves once a reasonable bidder's bot would have found it. That is chapter 8's question.*
+*The strongest counter-case, from the bot council of 2026-10-06 (Claude's summary in positions §2.6): vgr_zirp called the five reasons "a guild protection argument dressed up as efficiency reasoning", and argued that a protocol which gives bidders a detector the buyer lacks creates the asymmetry it then refuses to correct, so the honest bidder who asks loses to the strategic one who stays quiet. Reasons 2.4 and 2.5 were not answered. Andre's own reply was a question: assuming the duty were easy to write, how would it be enforced, when bidders would claim their error detection as confidential? Claude's six mechanisms are in positions §2.7; the one that needs no new law is that a bidder who knew, or should have known, of a patent error cannot price it later, and "should have known" moves once a reasonable bidder's bot would have found it. That is chapter 10's question.*
 
 ### The tension, not a conflict
 
@@ -79,7 +79,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 > The two-sided approach of looking at bot-first specifications and standardized bots for baselining the tender may still represent the best distribution of risks based on financial incentives.
 
-(positions §16, recorded 2026-10-10. The banana-peel passages from the same section are in chapter 7.)
+(positions §16, recorded 2026-10-10. The banana-peel passages from the same section are in chapter 9.)
 
 ### The record, not the duty
 

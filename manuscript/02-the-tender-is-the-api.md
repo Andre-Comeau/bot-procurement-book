@@ -1,7 +1,7 @@
 # The tender is the API
 
 <!--
-Part I. The question
+Part II. The question (chapter 6 since 2026-11-07; it was chapter 2)
 Target: 1,000 words, redraft
 Brief: Design, tender, compilation; the Amazon API mandate applied to a design consultant and a builder; limited test scaffolding and bug-free drawings as a mythical beast.
 Sources: the case study's "Procurement redescribed as software development" and "A note on PDFs"; position 14 (the model is the specification).
@@ -11,7 +11,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 ## Source passages (to cut and rewrite)
 
-*Laid out by Claude on 2026-11-02. Every quoted passage is Andre's, copied unchanged from the file named under it; the source repository records these as his words, lightly edited from conversation. Notes in italics are Claude's. Delete this section as the chapter is written. The one-shotted design and the long compile are quoted in chapter 1; use them here or there, not both.*
+*Laid out by Claude on 2026-11-02. Every quoted passage is Andre's, copied unchanged from the file named under it; the source repository records these as his words, lightly edited from conversation. Notes in italics are Claude's. Delete this section as the chapter is written. The one-shotted design and the long compile are quoted in chapter 5; use them here or there, not both.*
 
 ### Design, tender, compilation
 

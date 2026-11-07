@@ -40,23 +40,25 @@ PREVIEWS = {
 PUBLISHED = {"00b-prologue.md"}
 
 PARTS = [
-    ("Front matter", [("00-front-matter.md", "Front matter"), ("00b-prologue.md", "Prologue"),
-        ("00c-introduction.md", "Introduction: the zombie garden")]),
-    ("Part I. The question", [
-        ("01-expecting-a-divorce.md", "1. Starting a relationship expecting a divorce"),
-        ("02-the-tender-is-the-api.md", "2. The tender is the API"),
-        ("03-how-a-price-is-judged-today.md", "3. How a price is judged today")]),
-    ("Part II. The machines", [
-        ("03b-what-do-we-do-with-a-drunken-sailor.md", "4. What do we do with a drunken sailor?"),
-        ("04-two-centuries-of-one-loop.md", "5. Two centuries of one loop"),
-        ("05-liability-shifts.md", "6. Liability shifts to the user's bot"),
-        ("06-the-banana-peel.md", "7. The banana peel"),
-        ("06b-the-bot-in-the-witness-box.md", "8. The bot in the witness box")]),
-    ("Part III. The proof", [
-        ("07-building-an-estimator-in-public.md", "9. A second opinion on every price")]),
+    # File names keep their first numbers; this list is the reading order
+    # (since 2026-11-07, Part I follows the vgr_zirp review's order for a newcomer).
+    ("Front matter", [("00-front-matter.md", "Front matter"), ("00b-prologue.md", "Prologue")]),
+    ("Part I. The way in", [
+        ("07-building-an-estimator-in-public.md", "1. A second opinion on every price"),
+        ("03-how-a-price-is-judged-today.md", "2. How a price is judged today"),
+        ("03b-what-do-we-do-with-a-drunken-sailor.md", "3. What do we do with a drunken sailor?"),
+        ("00c-introduction.md", "4. The zombie garden")]),
+    ("Part II. The question", [
+        ("01-expecting-a-divorce.md", "5. Starting a relationship expecting a divorce"),
+        ("02-the-tender-is-the-api.md", "6. The tender is the API")]),
+    ("Part III. The machines", [
+        ("04-two-centuries-of-one-loop.md", "7. Two centuries of one loop"),
+        ("05-liability-shifts.md", "8. Liability shifts to the user's bot"),
+        ("06-the-banana-peel.md", "9. The banana peel"),
+        ("06b-the-bot-in-the-witness-box.md", "10. The bot in the witness box")]),
     ("Part IV. The protocol that follows", [
-        ("09-the-protocol-that-follows.md", "10. The protocol that follows"),
-        ("10-the-meta-goal.md", "11. The meta-goal")]),
+        ("09-the-protocol-that-follows.md", "11. The protocol that follows"),
+        ("10-the-meta-goal.md", "12. The meta-goal")]),
     ("Appendices", [
         ("app-a-the-cards.md", "A. Procurement Machines"),
         ("app-b-reading-list.md", "B. Reading list"),
