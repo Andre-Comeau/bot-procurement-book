@@ -2,7 +2,7 @@
 
 *A working document. Last revised 3 November 2026, from about 1,500 words of finished prose.*
 
-These notes describe how the book has sounded so far. They are not rules. They are drawn from two pieces of finished prose, the prologue and the delivery-method section that opens chapter 3, and two samples are a small base to generalize from. Expect the notes to change as more chapters are finished.
+These notes describe how the book has sounded so far. They are not rules. They are drawn from two pieces of finished prose, the prologue and the delivery-method section that opens chapter 2, and two samples are a small base to generalize from. Expect the notes to change as more chapters are finished.
 
 They are probably most useful in two places:
 
@@ -21,13 +21,13 @@ The voice so far might be summed up as a builder explaining a hard problem to a 
 
 > While our society's lack of appetite for murdering the sons of general contractors in eye-for-an-eye legal remedies is welcomed by construction workers and their families, moving away from the Mesopotamian solution to the principal-agent problem has required a far more complex framework.
 
-**The reader in the story.** Chapter 3 writes to "you", the person buying the building, and lets the reader talk back. Those lines also help move between sections. This suits a walk through options. It may suit a narrative or a legal chapter less well.
+**The reader in the story.** Chapter 2 writes to "you", the person buying the building, and lets the reader talk back. Those lines also help move between sections. This suits a walk through options. It may suit a narrative or a legal chapter less well.
 
 > "Good options," you say, "but I have read too much Hegel. Give me a synthesis."
 
 **Humour in small doses.** Game language ("new skills are unlocked"), mock-epic history and deadpan asides have worked well. About one joke a paragraph seems to be the most the text carries. The one aside cut so far (the 90s thriller line) went because it pulled the reader out of the argument, not because it wasn't funny.
 
-**A refrain, sometimes.** Chapter 3 closes each option with "You trade X for Y." It turned a list into one argument. Whether other chapters want a refrain is an open question, and more than one per chapter would probably blur.
+**A refrain, sometimes.** Chapter 2 closes each option with "You trade X for Y." It turned a list into one argument. Whether other chapters want a refrain is an open question, and more than one per chapter would probably blur.
 
 **A short line to land a point.** After a long paragraph, a one-line paragraph has worked as a punchline.
 
@@ -39,13 +39,13 @@ These are tendencies from the edits so far, not targets.
 
 - **One idea per sentence, mostly.** Where a clause interrupts the middle of a sentence, splitting there has usually helped.
 - **The actor first.** "You invite in the laws and customs" read more easily than "the protocols are invited in".
-- **Sentence length.** Chapter 3 averages about 15 words a sentence and the prologue about 23. That may be a useful check on a finished draft, but it seems better not to write to a number. A long sentence can build a picture well; it tends to go wrong when it stacks qualifiers.
+- **Sentence length.** Chapter 2 averages about 15 words a sentence and the prologue about 23. That may be a useful check on a finished draft, but it seems better not to write to a number. A long sentence can build a picture well; it tends to go wrong when it stacks qualifiers.
 - **Varied length.** A short sentence after two or three medium ones has often landed well.
 - **Section endings.** A question, a trade line or the reader's voice can carry the reader into the next section. A section can also just stop when it is done.
 
 ## Figures
 
-In chapter 3, the 2x2 figure did a lot of the work. Once it existed, the text could point at it ("the opposite corner of the map") instead of rebuilding the structure in words, and the paragraphs that had looped back on themselves got shorter. This may help in other chapters with a clear structure (two axes, a sequence, a loop). It is less likely to help in a chapter that tells one story.
+In chapter 2, the 2x2 figure did a lot of the work. Once it existed, the text could point at it ("the opposite corner of the map") instead of rebuilding the structure in words, and the paragraphs that had looped back on themselves got shorter. This may help in other chapters with a clear structure (two axes, a sequence, a loop). It is less likely to help in a chapter that tells one story.
 
 ## Words
 
@@ -69,7 +69,7 @@ These are choices Andre has made, rather than observations. They can still chang
 
 > **Before (Andre's draft):** In this relationship, the scope and the price usually float. To resolve the ambiguity, the protocols, legal and customary, of the Principal/Agent relationship come are invited into the relationship. The Design-Builder becomes an agent with a fiduciary duty towards your best interest. Ideally, this would be shored by legal protections, but financial structure can go most of the way if a cost plus approach is taken.
 >
-> **After (chapter 3):** A cost-plus contract moves you to the opposite corner of the map. The builder becomes a consulting contractor: it works for you, and you cooperate instead of competing. The scope and the price float. What keeps the contractor on your side is partly law and custom, but mostly the money: paid its costs plus a fee, it has little to gain by working against you.
+> **After (chapter 2):** A cost-plus contract moves you to the opposite corner of the map. The builder becomes a consulting contractor: it works for you, and you cooperate instead of competing. The scope and the price float. What keeps the contractor on your side is partly law and custom, but mostly the money: paid its costs plus a fee, it has little to gain by working against you.
 
 What changed: the figure placed the option, so the paragraph no longer had to define it. "Principal/Agent" and "relationship" each appeared twice and went. The interrupting clause became "law and custom". "Fiduciary" was too strong and came out. The draft's last sentence became the paragraph's point.
 
@@ -77,7 +77,7 @@ What changed: the figure placed the option, so the paragraph no longer had to de
 
 > **Before (Andre's draft):** By splitting the work and moving the Principal to Principal interaction further down the hierarchy, the original Principal gains a mix of loyalty and cost control at the expense of higher management efforts to maintain velocity. There are now three parties to every decision. It takes only one to slow the progress.
 >
-> **After (chapter 3):** Both agents work for you, which puts you in the bottom row. They keep each other honest, which puts you in the competitive column. The hard bidding still happens, but one level down, where the Construction Manager buys from the trades on your behalf. You gain loyalty and some cost control, and you pay for it in management effort to keep the job moving. There are now three parties to every decision, and it takes only one to slow progress.
+> **After (chapter 2):** Both agents work for you, which puts you in the bottom row. They keep each other honest, which puts you in the competitive column. The hard bidding still happens, but one level down, where the Construction Manager buys from the trades on your behalf. You gain loyalty and some cost control, and you pay for it in management effort to keep the job moving. There are now three parties to every decision, and it takes only one to slow progress.
 
 What changed: one 40-word sentence with three nested ideas became four shorter ones. "The original Principal" became "you". The ending already worked and stayed.
 
