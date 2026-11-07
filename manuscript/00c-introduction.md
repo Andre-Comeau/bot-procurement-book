@@ -1,4 +1,4 @@
-# Introduction: the zombie garden
+# The zombie garden
 
 William Sewell, in "Three Temporalities", writes some good prose about the Paris workers' revolt of June 1848 in support of his eventful temporality: the idea that the mechanisms of social life are best understood through the order of events.
 
