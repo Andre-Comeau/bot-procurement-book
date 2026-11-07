@@ -1,6 +1,6 @@
 # The protocol that follows
 
-The tool exists. On public Texas bid data, the estimator missed the lowest bidders' prices by a median of 21 percent line by line, against 29 percent for the state's own engineer's estimate, and the last chapter showed what an evaluator built on it could save a buyer after the tender. It ended at a door, and behind it was the standard, World 2 on the map.
+The tool exists. On public Texas bid data, the estimator missed the lowest bidders' prices by a median of 21 percent line by line, against 29 percent for the state's own engineer's estimate, and chapter 1 showed what an evaluator built on it could save a buyer after the tender. That chapter ended at a door, and behind it was the standard, World 2 on the map. The last chapter put a bot in the witness box and found what a court would ask of it: a record of what the bot did, when and why, and a reasonable reader to measure it against.
 
 Until now, the plan for getting through that door rested on one assumption: build a model that is good enough, publish it, and the field would gather around it on its own: the owners would adopt it, the courts would find it, and one day a standards body would write down what it already did. The estimator would be the seed and the rest would grow.
 
@@ -61,7 +61,7 @@ Then there is upkeep. Nadia Eghbal's *Working in Public* sorts open-source proje
 
 ## The campaign for World 2
 
-The versions in chapter 9 now line up with the two asks.
+The versions in chapter 1 now line up with the two asks.
 
 **Version 1.0, momentum.** One trade first, probably civil work, where public bid prices already exist. The template published for that trade, with its crosswalk to the pay items. The record kept for every reading, on an offline model whose weights do not change, and the OCDS extension that carries it. A small group of true believers, and this book as the vision paper.
 

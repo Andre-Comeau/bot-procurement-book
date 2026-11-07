@@ -1,11 +1,11 @@
-"""Chapter 10 figure: World 2, the Standard, an overworld map of the nearest existing standards.
+"""Chapter 11 figure: World 2, the Standard, an overworld map of the nearest existing standards.
 
 Each level is a standard that already exists, with the change the book would ask of it.
 The road runs from World 1 through field building, the documents (OCDS, IFC and IDS, the
 method of measurement), the tender rules (CCDC 23, ISO 10845-3) and the bot itself (AACE's
 estimate classes, IEEE 3119) to the castle, a new part of ISO 10845 for the reasonable bot.
 Past the castle is the courthouse, where the first case will test it.
-The drawing helpers come from second_opinion.py (chapter 9's Bot Procurement World), so
+The drawing helpers come from second_opinion.py (chapter 1's Bot Procurement World), so
 the two worlds share one style. All proposals on the map are Claude's draft for Andre.
 
     python images/world_2_standards.py images/world-2-standards
@@ -52,7 +52,7 @@ def namebox(x, y, name, cls="pxxs", k=11.2):
 
 o = [f'<rect width="{W}" height="{H}" fill="{LEAD}"/>']
 o.append(t(70, 76, "THE STANDARD", "pxt", "#ffffff", "start"))
-o.append(t(70, 116, "Chapter 10 · The nearest standards, and what each would need to change", "dek", "#d9d6cf", "start"))
+o.append(t(70, 116, "Chapter 11 · The nearest standards, and what each would need to change", "dek", "#d9d6cf", "start"))
 o.append(t(1730, 76, "WORLD 2", "pxt2", C["sec"], "end"))
 
 X0, Y0, X1, Y1 = 40, 150, 1760, 1060
