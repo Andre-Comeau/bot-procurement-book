@@ -1,7 +1,7 @@
 # Starting a relationship expecting a divorce
 
 <!--
-Part I. The question
+Part II. The question (chapter 5 since 2026-11-07; it was chapter 1)
 Target: 1,200 words, redraft
 Brief: The tensions of tendering: the one-shotted design, the long compile, the bidder who prices the errors and sues later. The three-way nexus from the case study's opening paragraph is the chapter's spine.
 Sources: `case-studies/andre-comeau/README.md` (opening and "Who bears the cost of finding errors"), the two paragraphs on tenders ignored or overpriced from `sentences-since-3-october.md`. Andre, 2026-10-31, after reading Galbraith (verbatim): "Our work would raise the organizational capacity to process information. This feels like the correct approach since the current system of PDFs and digital drawings does not seem to produce any slack over the use of paper plan's room. They did raise processing capacity by removing the need to travel to bid, but the actual attention needed remained the same." (In Jay Galbraith's terms the bidder's cushion for drawing errors is slack; the book's choice is to raise processing capacity instead.)
@@ -21,7 +21,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 (`case-studies/andre-comeau/README.md`, opening)
 
-*The one-shotted design and the long compile. These are also chapter 2 material, so keep them here only as far as the tensions need them:*
+*The one-shotted design and the long compile. These are also chapter 6 material, so keep them here only as far as the tensions need them:*
 
 > **One-shotted design.** While there is iteration within the Design, it needs to ship with all desired features. Some "softer" elements such as interior design can remain flexible, but most systems are resistant to anything but marginal changes.
 
@@ -51,7 +51,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 (positions §21, recorded 2026-10-11)
 
-*Word count of the passages above is about 470 of the 1,200 target. Left for chapter 6: the duty-to-report passages, the banana peel and the construction manager as a fourth party.*
+*Word count of the passages above is about 470 of the 1,200 target. Left for chapter 8: the duty-to-report passages, the banana peel and the construction manager as a fourth party.*
 
 *Added 2026-11-02: evidence that bidders already price the errors. Andre's reaction on reading what the Texas payment reports show of quantities bid and paid:*
 

@@ -32,7 +32,7 @@ Literature (`literature-review-2026-11-01.md`, Part 1): read Abbott, *The Reason
 
 ### For "How to read this book"
 
-*The rule for statements in tension, which the outline puts here. Chapter 1 also carries it as optional; use it in one place only:*
+*The rule for statements in tension, which the outline puts here. Chapter 5 (the divorce) also carries it as optional; use it in one place only:*
 
 > I would need examples. There are likely many statements with unresolved tensions between them. Some of these could be resolved by a protocol to manage the specific tensions, but I don't have a rule for batch processing the issues. Perhaps the best approach would be to keep things in tension until a trade-off decision needs to be made. In the meantime, they should be labeled as Frontier, Monstrous, Kafka, or Tool-building tensions, based on my essay on the subject.
 
