@@ -30,6 +30,8 @@ Hammurabi. *The Code of Hammurabi*, c. 1750 BC. Translated by L. W. King, 1910.
 
 Institute of Electrical and Electronics Engineers. IEEE 3119-2025, *IEEE Standard for the Procurement of Artificial Intelligence and Automated Decision Systems*. New York: IEEE, 2025.
 
+International Association of Assessing Officers. *Standard on Ratio Studies.* Kansas City: IAAO, 2013. https://www.iaao.org/.
+
 International Organization for Standardization. ISO 216, *Writing paper and certain classes of printed matter: Trimmed sizes: A and B series*. Geneva, 1975.
 
 International Organization for Standardization. ISO 10845-1:2020, *Construction procurement: Part 1: Processes, methods and procedures*. 2nd ed. Geneva, 2020. First edition 2010.
@@ -57,6 +59,10 @@ Rao, Venkatesh. "New Nature: Contours of Can't-Be-Evil Futures." *Contraptions* 
 Red Green (Steve Smith). *How to Do Everything: From the Man Who Should Know.* Toronto: Anchor Canada, 2011. Paperback.
 
 Roegies, Kelly. "A Government Guide to Open Protocols." *Protocolized*, 19 March 2026. https://protocolized.io/p/a-government-guide-to-open-protocols.
+
+Royal Institution of Chartered Surveyors. *Cost Prediction.* RICS professional standard, 1st ed. London: RICS, 2020; effective 1 July 2021. https://www.rics.org/.
+
+Royal Institution of Chartered Surveyors. *RICS Data Standard* (v3.3.3, MIT licence). https://www.isurv.com/homepage/945/rics_data_standards_and_schema.
 
 Sathe, Aneesh. "The Birth of Thickets: An Interregnum in Space." Blog post, 19 July 2026. https://aneeshsathe.com/the-birth-of-thickets/.
 
