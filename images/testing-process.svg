@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="940" viewBox="0 0 1600 940">
+<style>
+  .eyebrow{font-family:Outfit,sans-serif;font-weight:600;font-size:15px;letter-spacing:.16em;fill:#0064ff}
+  .title{font-family:'Instrument Serif',Georgia,serif;font-size:54px;fill:#2c2c2a}
+  .dek{font-family:Lora,Georgia,serif;font-size:20px;fill:#5f5e5a}
+  .name{font-family:'Instrument Serif',Georgia,serif;font-size:42px}
+  .ex{font-family:Outfit,sans-serif;font-weight:500;font-size:21px}
+  .trade{font-family:Lora,Georgia,serif;font-style:italic;font-weight:500;font-size:22px}
+  .axis{font-family:Outfit,sans-serif;font-weight:600;font-size:16px;letter-spacing:.14em}
+  .axis-s{font-family:Lora,Georgia,serif;font-style:italic;font-size:18px}
+  .pill{font-family:Outfit,sans-serif;font-weight:600;font-size:14px;letter-spacing:.14em}
+  .drift{font-family:Outfit,sans-serif;font-weight:500;font-size:17px}
+  .foot{font-family:Outfit,sans-serif;font-size:17px;fill:#5f5e5a}
+</style>
+<rect width="1600" height="940" fill="#f9f8f5"/>
+<defs><marker id="ah-i" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5f5e5a"/></marker><marker id="ah-l" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2c2c2a"/></marker></defs>
+<text x="80" y="86" class="eyebrow" text-anchor="start">CHAPTER 1 · WHAT THE SCORES SAY</text>
+<text x="80" y="148" class="title" text-anchor="start">How the estimator is checked</text>
+<text x="80" y="190" class="dek" text-anchor="start">The contracts are split by date. The estimator learns from the older ones</text>
+<text x="80" y="218" class="dek" text-anchor="start">and is checked on the newer ones.</text>
+<line x1="80" y1="296" x2="1520" y2="296" stroke="#5f5e5a" stroke-width="2.5" marker-end="url(#ah-i)"/>
+<text x="80" y="282" class="axis" text-anchor="start" fill="#5f5e5a">OLDER CONTRACTS</text>
+<text x="1520" y="282" class="axis" text-anchor="end" fill="#5f5e5a">NEWER CONTRACTS</text>
+<rect x="80" y="330" width="440" height="400" rx="14" fill="#0959d4" stroke="#004fcc" stroke-width="1.5"/>
+<text x="116" y="398" class="name" text-anchor="start" fill="#ffffff">1 · Learn</text>
+<text x="116" y="448" class="ex" text-anchor="start" fill="#e6efff">Texas contracts let</text>
+<text x="116" y="478" class="ex" text-anchor="start" fill="#e6efff">before May 2026</text>
+<text x="116" y="532" class="trade" text-anchor="start" fill="#ffffff">The estimator learns its</text>
+<text x="116" y="563" class="trade" text-anchor="start" fill="#ffffff">prices from what bidders</text>
+<text x="116" y="594" class="trade" text-anchor="start" fill="#ffffff">actually charged.</text>
+<text x="116" y="700" class="axis-s" text-anchor="start" fill="#e6efff">Researchers call this training data</text>
+<line x1="528" y1="530.0" x2="572" y2="530.0" stroke="#5f5e5a" stroke-width="2.5" marker-end="url(#ah-i)"/>
+<rect x="580" y="330" width="440" height="400" rx="14" fill="#15614d" stroke="#085041" stroke-width="1.5"/>
+<text x="616" y="398" class="name" text-anchor="start" fill="#ffffff">2 · Rehearse</text>
+<text x="616" y="448" class="ex" text-anchor="start" fill="#e1f5ee">Texas contracts let</text>
+<text x="616" y="478" class="ex" text-anchor="start" fill="#e1f5ee">from May 2026</text>
+<text x="616" y="532" class="trade" text-anchor="start" fill="#ffffff">Each version is checked on</text>
+<text x="616" y="563" class="trade" text-anchor="start" fill="#ffffff">them, improved, then checked</text>
+<text x="616" y="594" class="trade" text-anchor="start" fill="#ffffff">again. Three versions so far:</text>
+<text x="616" y="625" class="trade" text-anchor="start" fill="#ffffff">v0.1, v0.2 and v0.3.</text>
+<text x="616" y="700" class="axis-s" text-anchor="start" fill="#e1f5ee">Researchers call this validation data</text>
+<line x1="1028" y1="530.0" x2="1072" y2="530.0" stroke="#5f5e5a" stroke-width="2.5" marker-end="url(#ah-i)"/>
+<rect x="1080" y="330" width="440" height="400" rx="14" fill="#faece7" stroke="#9e3d18" stroke-width="2.5" stroke-dasharray="12 8"/>
+<text x="1116" y="398" class="name" text-anchor="start" fill="#2c2c2a">3 · Final test</text>
+<text x="1116" y="448" class="ex" text-anchor="start" fill="#9e3d18">Newer bid results,</text>
+<text x="1116" y="478" class="ex" text-anchor="start" fill="#9e3d18">piling up online</text>
+<text x="1116" y="532" class="trade" text-anchor="start" fill="#2c2c2a">Left alone until there is a</text>
+<text x="1116" y="563" class="trade" text-anchor="start" fill="#2c2c2a">product and someone who</text>
+<text x="1116" y="594" class="trade" text-anchor="start" fill="#2c2c2a">wants the answer. The error</text>
+<text x="1116" y="625" class="trade" text-anchor="start" fill="#2c2c2a">bands we pitch come only</text>
+<text x="1116" y="656" class="trade" text-anchor="start" fill="#2c2c2a">from here.</text>
+<text x="1116" y="700" class="axis-s" text-anchor="start" fill="#9e3d18">Researchers call this test data</text>
+<rect x="1334" y="358" width="150" height="34" rx="17" fill="#9e3d18"/>
+<text x="1409" y="381" class="pill" text-anchor="middle" fill="#ffffff">NOT RUN YET</text>
+<path d="M800.0,734 C800.0,814 300.0,814 300.0,740" fill="none" stroke="#2c2c2a" stroke-width="2.5" stroke-dasharray="9 7" marker-end="url(#ah-l)"/>
+<text x="550.0" y="826" class="drift" text-anchor="middle" fill="#2c2c2a">improve the estimator, then rehearse again</text>
+<text x="80" y="884" class="foot" text-anchor="start">Rehearsal marks show how the estimator is doing. Each version was built knowing the last score, so they probably flatter it a little.</text>
+<text x="80" y="916" class="foot" text-anchor="start">The final test uses newer contracts the project has left alone, so it can say what a buyer should expect.</text>
+</svg>
