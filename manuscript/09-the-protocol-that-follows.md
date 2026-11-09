@@ -1,6 +1,6 @@
 # The protocol that follows
 
-The tool exists. On public Texas bid data, the estimator missed the lowest bidders' prices by a median of 21 percent line by line, against 29 percent for the state's own engineer's estimate, and chapter 1 showed what an evaluator built on it could save a buyer after the tender. That chapter ended at a door, and behind it was the standard, World 2 on the map. The last chapter put a bot in the witness box and found what a court would ask of it: a record of what the bot did, when and why, and a reasonable reader to measure it against.
+The tool exists. In rehearsal checks on public Texas bid data, the estimator missed the lowest bidders' prices by a median of 21 percent line by line, against 29 percent for the state's own engineer's estimate, and chapter 1 showed what an evaluator built on it could save a buyer after the tender. That chapter ended at a door, and behind it was the standard, World 2 on the map. The last chapter put a bot in the witness box and found what a court would ask of it: a record of what the bot did, when and why, and a reasonable reader to measure it against.
 
 Until now, the plan for getting through that door rested on one assumption: build a model that is good enough, publish it, and the field would gather around it on its own: the owners would adopt it, the courts would find it, and one day a standards body would write down what it already did. The estimator would be the seed and the rest would grow.
 
