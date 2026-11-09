@@ -42,11 +42,11 @@ That is where the entanglement begins. On the map the two bots are two huts on n
 
 ## What the scores say
 
-The estimator learned from Texas contracts let up to the end of 2025 and was tested once on contracts let from May 2026, which it had never seen, the way a student is marked on questions they have not read before. Three versions were marked that way in October 2026, and the third is the one worth reporting.
+The estimator learned from Texas contracts let before May 2026. The contracts let from May 2026 on were set aside as a rehearsal, the way a student sits a practice exam before the real one. Three versions were checked against them in October 2026, and the third is the one worth reporting.
 
 Line by line, it missed the average of the three lowest bids by a median of 21 percent, against 29 percent for the engineer's estimate, the price the state's own engineers put on the work before the tender. For a whole contract, where the errors on single lines partly cancel, its price typically came within plus or minus 10 percent of what the lowest bidders bid, level with the engineer's estimate. That may sound loose until you look at the bidders themselves: on the same lines, the three lowest disagree with each other by a median of 50 percent.
 
-The scores prove two things: the method works on contracts it has never seen, and its error rate is known. They do not yet prove that someone outside the project can rerun them and get the same answer, or that a court would accept the number, which chapter 10 argues is a different property altogether. The long-term aim is 2 to 3 percent, about the margin a contractor works to, at which point an estimate could stand on its own. Until then it is a second opinion.
+The scores show two things: the method works on contracts it was not trained on, and its error is known on the rehearsal contracts. They are rehearsal marks, because each version was built knowing how the last one scored, so they probably flatter the estimator a little, by an amount nobody has measured. The real exam is a final test on newer contracts the project has left alone. Bid results keep piling up online, and the project will run the estimator on them once there is a product and someone interested in the answer. The scores do not yet prove that someone outside the project can rerun them and get the same answer, or that a court would accept the number, which chapter 10 argues is a different property altogether. The long-term aim is 2 to 3 percent, about the margin a contractor works to, at which point an estimate could stand on its own. Until then it is a second opinion.
 
 ## The tool drafts, a person decides
 
