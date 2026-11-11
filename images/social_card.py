@@ -16,6 +16,9 @@ CARDS = [  # (figure, card)
     ("delivery-methods-2x2.png", "social-card-delivery-methods.png"),
     ("failure-modes-glass.png", "social-card-failure-modes.png"),
     ("second-opinion.png", "social-card-second-opinion.png"),
+    ("project-hex-map.png", "social-card-hex-map.png"),
+    ("world-2-standards.png", "social-card-world-2.png"),
+    ("one-losing-job.png", "social-card-one-losing-job.png"),
 ]
 
 for figure, card_name in CARDS:
