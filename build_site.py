@@ -55,7 +55,8 @@ PARTS = [
         ("04-two-centuries-of-one-loop.md", "7. Two centuries of one loop"),
         ("05-liability-shifts.md", "8. Liability shifts to the user's bot"),
         ("06-the-banana-peel.md", "9. The banana peel"),
-        ("06b-the-bot-in-the-witness-box.md", "10. The bot in the witness box")]),
+        ("06b-the-bot-in-the-witness-box.md", "10. The bot in the witness box"),
+        ("06e-the-underwriters-chapter.md", "The underwriters' chapter (draft, place to be decided)")]),
     ("Part IV. The protocol that follows", [
         ("09-the-protocol-that-follows.md", "11. The protocol that follows"),
         ("10-the-meta-goal.md", "12. The meta-goal")]),
@@ -63,7 +64,8 @@ PARTS = [
         ("app-a-the-cards.md", "A. Procurement Machines"),
         ("app-b-reading-list.md", "B. Reading list"),
         ("app-c-glossary.md", "C. Glossary"),
-        ("app-d-bibliography.md", "D. Bibliography")]),
+        ("app-d-bibliography.md", "D. Bibliography"),
+        ("app-e-pilot-term-sheet.md", "E. A draft term sheet for a pilot policy")]),
 ]
 
 HOME = """# Bot Procurement Book
