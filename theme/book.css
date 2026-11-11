@@ -131,3 +131,29 @@ body, .md-typeset { font-family: var(--book-body); }
 [data-md-color-scheme="default"] .md-search__form:hover { background-color: #ffffff; }
 [data-md-color-scheme="slate"] .md-search__form { background-color: #132a20; border-radius: 8px; }
 .md-typeset .admonition.warning, .md-typeset details.warning { border-color: var(--md-default-fg-color--lightest); border-left-color: var(--book-rust); }
+
+/* Chapter status labels: "Drafted" in forest, "Outline" as a grey outline,
+   "Ready to read" in cobalt. Solid colours from the figures' palette. */
+.md-typeset .book-status {
+  display: inline-block;
+  font-family: var(--book-sans);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 0.3em 0.6em;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  vertical-align: 0.15em;
+  margin-left: 0.3em;
+  white-space: nowrap;
+}
+.md-typeset .book-status--ready { background: var(--book-cobalt); color: #ffffff; }
+.md-typeset .book-status--drafted { background: var(--book-forest); color: #ffffff; }
+.md-typeset .book-status--outline { background: transparent; color: var(--book-ink-2); border-color: var(--book-ink-2); }
+[data-md-color-scheme="slate"] .md-typeset .book-status--ready { background: #4d8fff; color: #0a1f17; }
+[data-md-color-scheme="slate"] .md-typeset .book-status--drafted { background: #bff0dd; color: #0a1f17; }
+[data-md-color-scheme="slate"] .md-typeset .book-status--outline { color: #bac0bd; border-color: #8f9893; }
+.md-typeset .book-status-line { font-family: var(--book-sans); font-size: 0.75rem; color: var(--md-default-fg-color--light); }
+.md-typeset .book-status-line .book-status { margin-left: 0; margin-right: 0.4em; }
