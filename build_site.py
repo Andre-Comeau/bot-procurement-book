@@ -39,6 +39,34 @@ PREVIEWS = {
 # Chapters that go on the public site. Add a file here when it is ready to read.
 PUBLISHED = {"00b-prologue.md"}
 
+# Chapters with written text, as against an outline (a brief, notes and source
+# passages laid out for writing). Add a file here once its text is drafted; every
+# other chapter is marked "Outline" on the contents pages and at the top of the page.
+DRAFTED = {
+    "00b-prologue.md", "07-building-an-estimator-in-public.md",
+    "03-how-a-price-is-judged-today.md", "03b-what-do-we-do-with-a-drunken-sailor.md",
+    "00c-introduction.md", "06e-the-underwriters-chapter.md",
+    "09-the-protocol-that-follows.md", "app-d-bibliography.md", "app-e-pilot-term-sheet.md",
+}
+
+# The labels, in plain words, and the line at the top of each working-copy page.
+BADGE = '<span class="book-status book-status--{kind}">{label}</span>'
+STATUS = {
+    "ready": ("Ready to read", "This chapter is published on the home page."),
+    "drafted": ("Drafted", "The chapter is written and still being revised."),
+    "outline": ("Outline", "Not written yet: what follows is the plan for the chapter, "
+                           "with notes and passages gathered to write it from."),
+}
+
+
+def status(name):
+    return "ready" if name in PUBLISHED else "drafted" if name in DRAFTED else "outline"
+
+
+def badge(name):
+    kind = status(name)
+    return BADGE.format(kind=kind, label=STATUS[kind][0])
+
 PARTS = [
     # File names keep their first numbers; this list is the reading order
     # (since 2026-11-07, Part I follows the vgr_zirp review's order for a newcomer).
@@ -82,9 +110,9 @@ HOME = """# Bot Procurement Book
 
 *The project as a hex map: one town, one temple, and fog to the east. The order of building comes from an old role-playing game: temple first, then followers, then the stronghold.*
 
-Chapters appear here as they are drafted. The source is on [GitHub](https://github.com/Andre-Comeau/bot-procurement-book).
+Chapters appear here as they are finished. The source is on [GitHub](https://github.com/Andre-Comeau/bot-procurement-book).
 
-**Working copy.** Every chapter as it stands today, drafts and stubs included, is in the [working copy](working/index.md). It changes often.
+**Working copy.** Every chapter as it stands today is in the [working copy](working/index.md), and it changes often. In the contents below, chapters marked {drafted} have been written and can be read there as drafts. Chapters marked {outline} are not written yet: they hold the plan for the chapter and the notes gathered to write it.
 
 ## Contents
 
@@ -135,8 +163,11 @@ WORKING_BANNER = """!!! warning "Working copy"
 WORKING_HOME = """# Working copy
 
 Every chapter as it stands in the manuscript today, with the outline. Drafts, stubs and
-source passages laid out for rewriting are all shown. Chapters marked *published* on the
-[home page](../index.md) are the ones ready to read.
+source passages laid out for rewriting are all shown.
+
+{ready} chapters are also on the [home page](../index.md). {drafted} chapters are written
+and still being revised. {outline} chapters are not written yet: they hold the plan for the
+chapter and the notes gathered to write it.
 
 - [Outline](outline.md)
 
@@ -191,7 +222,7 @@ def main():
                 toc.append(f"- [{title}]({name})")
                 items.append(f'      - "{title}": {name}')
             else:
-                toc.append(f"- {title} *(in progress)*")
+                toc.append(f"- [{title}](working/{name}) {badge(name)}")
         toc.append("")
         if items:
             nav.append(f'  - "{part}":\n' + "\n".join(items))
@@ -205,19 +236,22 @@ def main():
         wtoc.append(f"**{part}**\n")
         for name, title in chapters:
             text = strip_notes((SRC / name).read_text(encoding="utf-8"))
+            line = STATUS[status(name)][1]
+            prefix = WORKING_BANNER + f'<p class="book-status-line">{badge(name)} {line}</p>\n\n'
             # Stubs open with editorial notes, so only worked chapters get their own preview.
-            text = with_description(text, name, WORKING_BANNER) if name in PREVIEWS else WORKING_BANNER + text
+            text = with_description(text, name, prefix) if name in PREVIEWS else prefix + text
             (work / name).write_text(text, encoding="utf-8")
-            wtoc.append(f"- [{title}]({name})")
+            wtoc.append(f"- [{title}]({name}) {badge(name)}")
             wnav.append(f'      - "{title}": working/{name}')
         wtoc.append("")
-    (work / "index.md").write_text(WORKING_HOME.format(toc="\n".join(wtoc)), encoding="utf-8")
+    labels = {k: BADGE.format(kind=k, label=v[0]) for k, v in STATUS.items()}
+    (work / "index.md").write_text(WORKING_HOME.format(toc="\n".join(wtoc), **labels), encoding="utf-8")
     nav.append('  - "Working copy":\n' + "\n".join(wnav))
     shutil.copytree(ROOT / "images", docs / "images", ignore=shutil.ignore_patterns("README.md", "*.py", "*.js", "*.html"))
     (docs / "stylesheets").mkdir()
     shutil.copy(ROOT / "theme" / "book.css", docs / "stylesheets" / "book.css")
     shutil.copytree(ROOT / "theme" / "overrides", OUT / "overrides")
-    (docs / "index.md").write_text(HOME.format(toc="\n".join(toc)), encoding="utf-8")
+    (docs / "index.md").write_text(HOME.format(toc="\n".join(toc), **labels), encoding="utf-8")
     site = ROOT / "_site"
     shutil.rmtree(site, ignore_errors=True)
     site.mkdir()
