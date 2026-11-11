@@ -34,6 +34,14 @@ PREVIEWS = {
         "How words and deeds go wrong: a stained-glass window of the Serpent, the Dragon, the Drunken Sailor and Who's on First, with the standard bot at its centre"),
     "07-building-an-estimator-in-public.md": ("social-card-second-opinion.png",
         "Bot Procurement World: an overworld map from tender to change order, with the estimator's and evaluator's huts, the slow road of haunted fortresses, and the Standard in the next world"),
+    "00b-prologue.md": ("social-card-hex-map.png",
+        "The project as a hex map: one town, one temple, and fog to the east"),
+    "09-the-protocol-that-follows.md": ("social-card-world-2.png",
+        "The Standard, World 2 of the overworld map: existing standards as levels, each with the change the book would ask of it, leading to a castle and a courthouse"),
+    "06e-the-underwriters-chapter.md": ("social-card-one-losing-job.png",
+        "One losing job is not a claim: completed jobs as mugs filled to their margin, and a policy that pays only when the average across many tenders falls short"),
+    "app-e-pilot-term-sheet.md": ("social-card-one-losing-job.png",
+        "A draft term sheet for a pilot policy insuring an estimating bot's margin, for an underwriter to mark up"),
 }
 
 # Chapters that go on the public site. Add a file here when it is ready to read.
