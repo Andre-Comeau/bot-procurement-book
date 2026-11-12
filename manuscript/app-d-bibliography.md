@@ -14,6 +14,8 @@ Deutsches Institut für Normung. DIN 476, *Papierformate* (paper formats). Berli
 
 Eghbal, Nadia. *Working in Public: The Making and Maintenance of Open Source Software.* San Francisco: Stripe Press, 2020.
 
+Federal Highway Administration. *Comparing the Performance of Project Delivery Methods.* TechBrief FHWA-HRT-17-100. McLean, VA: FHWA, 2018.
+
 Galbraith, J. R. *Achieving Integration through Information Systems.* Working paper 364-68. Cambridge, MA: MIT Sloan School of Management, December 1968.
 
 Hammurabi. *The Code of Hammurabi*, c. 1750 BC. Translated by L. W. King, 1910.
@@ -37,6 +39,8 @@ Lamport, Leslie. "Proving the Correctness of Multiprocess Programs." *IEEE Trans
 Lang, David. "Standards Make the World." Summer of Protocols, Ethereum Foundation, December 2023. https://summerofprotocols.com/standards-make-the-world-web. Also in *The Protocol Reader* (edition to check).
 
 Lang, David. Opening talk and roundtable on field building, with Timber Stinson-Schroff and Venkatesh Rao. Protocol Symposium 2026, 23 September 2026. https://www.youtube.com/watch?v=nx-3L5Apbgw.
+
+National Academies of Sciences, Engineering, and Medicine. *Guide to Open-Book Pricing for Alternative Contracting Methods.* Washington, DC: The National Academies Press, 2025. https://doi.org/10.17226/29084.
 
 Open Contracting Partnership. *Open Contracting Data Standard*, version 1.0, 2015; and, with CoST – the Infrastructure Transparency Initiative, *Open Contracting for Infrastructure Data Standard* (OC4IDS), 2019. https://standard.open-contracting.org/.
 
