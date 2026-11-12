@@ -6,6 +6,7 @@ Added 2026-11-03 (Andre): the book uses no footnotes or endnotes. Works the text
 Entries marked "to check" have not been verified against the publication.
 Added 2026-11-06 with Claude's chapter 10 draft, for Andre to confirm (keep only what the finished chapter uses): buildingSMART IDS, CCDC 23, IEEE 3119, ISO 10845-3, Eghbal, ISO 10845-1, Lang (essay and talk), Open Contracting Partnership, Roegies, Watermeyer. The Lang essay's place in The Protocol Reader is not confirmed.
 Kolt: end page not yet confirmed (the journal page gives only the first page, 101 Notre Dame L. Rev. 335, published 22 August 2026). Page references in the chapters' notes are to the arXiv v2 PDF.
+Added 2026-11-12 with the chapter 2 delivery-method edit, for Andre to confirm: FHWA TechBrief HRT-17-100 and the National Academies open-book pricing guide (sources found in research, not yet read by Andre).
 -->
 
 Abbott, Bud, and Lou Costello. "Who's on First?" Comedy routine, performed from 1937; filmed in *The Naughty Nineties* (Universal, 1945). (Named, not quoted.)
@@ -21,6 +22,8 @@ Deutsches Institut für Normung. DIN 476, *Papierformate* (paper formats). Berli
 "Drunken Sailor" ("What Shall We Do with the Drunken Sailor?"). Traditional sea shanty, first printed in the nineteenth century.
 
 Eghbal, Nadia. *Working in Public: The Making and Maintenance of Open Source Software.* San Francisco: Stripe Press, 2020.
+
+Federal Highway Administration. *Comparing the Performance of Project Delivery Methods.* TechBrief FHWA-HRT-17-100. McLean, VA: FHWA, 2018.
 
 Galbraith, J. R. *Achieving Integration through Information Systems.* Working paper 364-68. Cambridge, MA: MIT Sloan School of Management, December 1968.
 
@@ -45,6 +48,8 @@ Lamport, Leslie. "Proving the Correctness of Multiprocess Programs." *IEEE Trans
 Lang, David. "Standards Make the World." Summer of Protocols, Ethereum Foundation, December 2023. https://summerofprotocols.com/standards-make-the-world-web. Also in *The Protocol Reader* (edition to check).
 
 Lang, David. Opening talk and roundtable on field building, with Timber Stinson-Schroff and Venkatesh Rao. Protocol Symposium 2026, 23 September 2026. https://www.youtube.com/watch?v=nx-3L5Apbgw.
+
+National Academies of Sciences, Engineering, and Medicine. *Guide to Open-Book Pricing for Alternative Contracting Methods.* Washington, DC: The National Academies Press, 2025. https://doi.org/10.17226/29084.
 
 Open Contracting Partnership. *Open Contracting Data Standard*, version 1.0, 2015; and, with CoST – the Infrastructure Transparency Initiative, *Open Contracting for Infrastructure Data Standard* (OC4IDS), 2019. https://standard.open-contracting.org/.
 
