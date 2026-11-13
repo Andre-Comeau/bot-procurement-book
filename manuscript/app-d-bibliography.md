@@ -5,7 +5,7 @@ Appendices
 Added 2026-11-03 (Andre): the book uses no footnotes or endnotes. Works the text draws on are listed here; where each is used is recorded in the chapters' hidden notes.
 Entries marked "to check" have not been verified against the publication.
 Added 2026-11-06 with Claude's chapter 10 draft, for Andre to confirm (keep only what the finished chapter uses): buildingSMART IDS, CCDC 23, IEEE 3119, ISO 10845-3, Eghbal, ISO 10845-1, Lang (essay and talk), Open Contracting Partnership, Roegies, Watermeyer. The Lang essay's place in The Protocol Reader is not confirmed.
-Added 2026-11-13 with Claude's drafts of chapter 6 and chapters 6a to 6c, for Andre to confirm (keep only what the finished chapters use; names and titles marked "to check" were taken from research notes, not from the publications): Auditor General of Ontario; Brooks; Clarke; Corrigan; Dark Reading; Dwork and Naor; European Commission (COM(2026) 590); European Court of Auditors; Galbraith 1974; Galdin and Silbert; Graham; Kahneman, Sibony and Sunstein; Kaplow; Laurie and Clayton; Rao and Reiley; Rao, "Engineering Liveness" and "In Search of Liveness"; Santoleri, Rentocchini and Lelli; Shear; Solicitors Regulation Authority; Thomson and Schinazi (RFC 9413); UNCITRAL; United States, 23 CFR 636; Vals AI; World Trade Organization; Xu, Li and Jiang; Yegge.
+Added 2026-11-13 with Claude's drafts of chapter 6 and chapters 6a to 6c, for Andre to confirm (keep only what the finished chapters use; names and titles marked "to check" were taken from research notes, not from the publications): Auditor General of Ontario; Brooks; Clarke; Corrigan; Dark Reading; Dwork and Naor; European Commission (COM(2026) 590); European Court of Auditors; Galbraith 1974; Galdin and Silbert; Graham; Kahneman, Sibony and Sunstein; Kaplow; Laurie and Clayton; Rao and Reiley; Santoleri, Rentocchini and Lelli; Solicitors Regulation Authority; Thomson and Schinazi (RFC 9413); UNCITRAL; United States, 23 CFR 636; Vals AI; World Trade Organization; Xu, Li and Jiang; Yegge. Rao's two liveness essays and Shear's note were listed with the morning draft and removed the same afternoon, when the liveness theory left the reader's text (Andre); they are recorded in chapter 6's hidden note as the writers' working concept.
 Kolt: end page not yet confirmed (the journal page gives only the first page, 101 Notre Dame L. Rev. 335, published 22 August 2026). Page references in the chapters' notes are to the arXiv v2 PDF.
 -->
 
@@ -81,11 +81,7 @@ Rao, Justin M., and David H. Reiley. "The Economics of Spam." *Journal of Econom
 
 Rao, Venkatesh. "Cognitive Mercantilism: AI Panic Weirdly Resembles the Anxiety That Accompanied Early Capitalism." *Contraptions* (newsletter), 25 October 2026. https://contraptions.venkateshrao.com/p/cognitive-mercantilism.
 
-Rao, Venkatesh. "Engineering Liveness." *Contraptions* (newsletter), 1 February 2026. https://contraptions.venkateshrao.com/p/engineering-liveness.
-
 Rao, Venkatesh. "The Gramsci Gap: System Emergence in Monstrously Morbid Interregnums between Worlds." *Contraptions* (newsletter), 11 January 2025. https://contraptions.venkateshrao.com/p/the-gramsci-gap.
-
-Rao, Venkatesh. "In Search of Liveness." *Contraptions* (newsletter), 17 May 2025. https://contraptions.venkateshrao.com/p/in-search-of-liveness.
 
 Rao, Venkatesh. Note on margin and product velocity ("I think a basic thing people don't get is that most businesses do not try normally try to make their products cheaper"). *Contraptions*, Substack Notes, 31 October 2026. https://substack.com/@contraptions/note/c-374727395.
 
@@ -108,8 +104,6 @@ Sathe, Aneesh. *Prime Radiant.* World Machines project. https://primeradiant.wor
 Scitovsky, Tibor. "The Benefits of Asymmetric Markets." *Journal of Economic Perspectives* 4, no. 1 (1990): 135–148.
 
 Sewell, William H., Jr. "Three Temporalities: Toward an Eventful Sociology." In *The Historic Turn in the Human Sciences*, edited by Terrence J. McDonald, 245–280. Ann Arbor: University of Michigan Press, 1996. (Pages to check.)
-
-Shear, Emmett. Note on spare energy, growth and life. Substack Notes, 8 March 2025. https://substack.com/@eshear/note/c-99045437.
 
 Solicitors Regulation Authority. "Garfield AI authorised." Press release, 6 May 2025. https://www.sra.org.uk/sra/news/press/garfield-ai-authorised/. (Title to check.)
 
