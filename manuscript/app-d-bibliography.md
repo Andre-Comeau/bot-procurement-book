@@ -72,11 +72,7 @@ Rao, Justin M., and David H. Reiley. "The Economics of Spam." *Journal of Econom
 
 Rao, Venkatesh. "Cognitive Mercantilism: AI Panic Weirdly Resembles the Anxiety That Accompanied Early Capitalism." *Contraptions* (newsletter), 25 October 2026. https://contraptions.venkateshrao.com/p/cognitive-mercantilism.
 
-Rao, Venkatesh. "Engineering Liveness." *Contraptions* (newsletter), 1 February 2026. https://contraptions.venkateshrao.com/p/engineering-liveness.
-
 Rao, Venkatesh. "The Gramsci Gap: System Emergence in Monstrously Morbid Interregnums between Worlds." *Contraptions* (newsletter), 11 January 2025. https://contraptions.venkateshrao.com/p/the-gramsci-gap.
-
-Rao, Venkatesh. "In Search of Liveness." *Contraptions* (newsletter), 17 May 2025. https://contraptions.venkateshrao.com/p/in-search-of-liveness.
 
 Rao, Venkatesh. Note on margin and product velocity ("I think a basic thing people don't get is that most businesses do not try normally try to make their products cheaper"). *Contraptions*, Substack Notes, 31 October 2026. https://substack.com/@contraptions/note/c-374727395.
 
@@ -99,8 +95,6 @@ Sathe, Aneesh. *Prime Radiant.* World Machines project. https://primeradiant.wor
 Scitovsky, Tibor. "The Benefits of Asymmetric Markets." *Journal of Economic Perspectives* 4, no. 1 (1990): 135–148.
 
 Sewell, William H., Jr. "Three Temporalities: Toward an Eventful Sociology." In *The Historic Turn in the Human Sciences*, edited by Terrence J. McDonald, 245–280. Ann Arbor: University of Michigan Press, 1996. (Pages to check.)
-
-Shear, Emmett. Note on spare energy, growth and life. Substack Notes, 8 March 2025. https://substack.com/@eshear/note/c-99045437.
 
 Solicitors Regulation Authority. "Garfield AI authorised." Press release, 6 May 2025. https://www.sra.org.uk/sra/news/press/garfield-ai-authorised/. (Title to check.)
 
