@@ -55,6 +55,7 @@ DRAFTED = {
     "03-how-a-price-is-judged-today.md", "03b-what-do-we-do-with-a-drunken-sailor.md",
     "00c-introduction.md", "06e-the-underwriters-chapter.md",
     "09-the-protocol-that-follows.md", "app-d-bibliography.md", "app-e-pilot-term-sheet.md",
+    "02-the-tender-is-the-api.md", "02b-the-buyers.md", "02c-the-bidders.md", "02d-the-vendors.md",
 }
 
 # The labels, in plain words, and the line at the top of each working-copy page.
@@ -86,7 +87,11 @@ PARTS = [
         ("00c-introduction.md", "4. The zombie garden")]),
     ("Part II. The question", [
         ("01-expecting-a-divorce.md", "5. Starting a relationship expecting a divorce"),
-        ("02-the-tender-is-the-api.md", "6. The tender is the API")]),
+        ("02-the-tender-is-the-api.md", "6. The tender is the API"),
+        # The three parties at the tender's door, drafted 2026-11-13; numbering to be decided.
+        ("02b-the-buyers.md", "6a. The buyers: more bids than eyes"),
+        ("02c-the-bidders.md", "6b. The bidders: racing for the light"),
+        ("02d-the-vendors.md", "6c. The vendors: players, not referees")]),
     ("Part III. The machines", [
         ("04-two-centuries-of-one-loop.md", "7. Two centuries of one loop"),
         ("05-liability-shifts.md", "8. Liability shifts to the user's bot"),
