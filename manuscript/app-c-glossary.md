@@ -14,7 +14,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 *Laid out by Claude on 2026-11-02. `glossary.yaml` turned out to hold the cards' acronyms (AASHTO, CCDC, GAEB and so on), not the project's own terms, so it serves the acronym half of this appendix. The project's terms are defined in these places; the wording of each is Andre's meaning, edited by Claude, unless marked.*
 
-- **Bot Construction and Bot Procurement** (Andre, 2026-11-14; Claude's wording): Bot Construction is the field, where the work leads, from documents written for machines to robots on site. Bot Procurement is the book and the standard, what has been tested and earned: the price on a tender and who pays when a bot gets it wrong. Stated in the prologue.
+- **Bot Construction and Bot Procurement** (Andre, 2026-11-14; Claude's wording): Bot Construction is the field, where the work leads, from documents written for machines to robots on site. Bot Procurement is the book and the standard, the part kept small enough to test: the price on a tender and who pays when a bot gets it wrong. It has to be earned before the field can lean on it. Stated in the prologue.
 - **Listener**: "The Listener's primary role is collating questions from Bidders, whether human or bot. It may communicate the equivalent of a head bow, a shake or a shrug" (positions §6). The name is C3PO's, for a bot with no outward voice.
 - **Witness and Oracle**: the World Machines pair; one searches the full corpus, the other publishes and never sees the files (case study, "The testing device"; positions §6: they describe the inside of any owner-side bot).
 - **Keyholder**: the person who signs the number and adjusts the flagged lines (Andre's term; THESIS section 4, decision 45).
