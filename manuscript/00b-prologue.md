@@ -21,6 +21,7 @@ Origins (hex_ai search, 2026-11-02): the project began at the Protocol Institute
 Stevenson's prophecy (Andre, 2026-11-02: use it): a court will one day treat an "AI plus protocol system" as something you "can't sue but can insure against". Source: Sean Stevenson, "De-Dramatizing the Digital", Protocol Institute Symposium 2026, as summarised by PIBot (`C:\hex_ai\bot-council\transcripts\2026-10-18-pibot-web-gramsci-monster.md`). PIBot later said it could not confirm the wording and the transcript cuts off mid-sentence, so check the talk before attributing the exact words. Caution from the same transcript: an insurable system and a reasonable bot (a standard of conduct) are different legal fictions; the book can use the contrast rather than blur it. Fits here or in chapter 10.
 Sources in Appendix D (added 2026-11-05): Stevenson's talk "De-Dramatizing the Digital: How AI Descends Into New Nature" (23 September 2026), where he stated the Stevenson Test aloud (Andre, 2026-11-05), and his blyg post of 1 October 2026, which writes it down; both listed; Rao, "New Nature" (Contraptions, 16 January 2026); Sathe, "The Birth of Thickets" (19 July 2026, subtitled "An Interregnum in Space", which ties it to the Gramsci line); the Gramsci monster through Rao, "The Gramsci Gap" (Contraptions, 11 January 2025), which is where Andre met the idea (Andre, 2026-11-05: he has not read Gramsci, so the Prison Notebooks are not listed). Gramsci's own words (Prison Notebooks, Hoare and Nowell Smith, 1971) are "the old is dying and the new cannot be born; in this interregnum a great variety of morbid symptoms appear" ("time of monsters" is a later paraphrase); World Machines (worldmachines.org) and Sathe's Prime Radiant (primeradiant.worldmachines.org); Hammurabi in King's translation.
 Literature (`literature-review-2026-11-01.md`, Part 1): Abbott 2020 is the nearest title; Rao, *The Protocol Reader*, for the protocol frame.
+Two names (Andre, 2026-11-14, approving vgr_zirp's session 7 advice): the last paragraph is Claude's draft, to put in Andre's words. Bot Construction names the field (where the work leads); Bot Procurement names the book and the standard (what has been earned). The rule is stated once here and repeated only where chapter 11 meets field building; elsewhere the two names stay apart. With lawyers and insurers, lead with Bot Procurement. After de Vries, the field is not named against anything: it grows out of the trades, it does not replace them.
 Hammurabi for bots (Andre, 2026-11-02): the eye-for-an-eye paragraph returns in chapter 10 (the bot in the witness box), applied to bots and branded bots; see that chapter's source passages. Keep the two in step.
 -->
 
@@ -65,3 +66,9 @@ AI-first procurement will need two tools: documents written for machines to read
 read them. With these tools, engineers and architects could still certify the canonical copy, the court could use the
 standardized bot as a surrogate for a reasonable bot, and bidders would be able to lower their estimating
 costs. **[d]**
+
+Two names will travel through this book, and they are worth keeping apart. Bot Construction is the field:
+where this work leads, from documents written for machines to robots on site, built on everything the
+trades have already built. Bot Procurement is the standard: the part that has been earned so far, the price
+on a tender and who pays when a bot gets it wrong. The first is where we are going. The second is what we
+can already defend.
