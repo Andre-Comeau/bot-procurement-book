@@ -8,6 +8,7 @@ Sources: the case study's "The meta-goal"; THESIS section 4, "Where value moves"
 Robotic construction (Andre, 2026-11-02): there was never a Robotic Construction plan. It is an end state, the far-off land the project is sailing towards. Write it as the destination, not as a plan with steps. Working definition (Andre, 2026-11-02), from the robot car's field notes (`C:\hex_ai\picar-freenove-fastapi-fieldnotes\README.md`, public): "this robot is meant to be controlled by *other programs*", other robots and fleet agents, not only a person with a joystick. In the record: robotics enters as "robot control as an extension of BIM" (positions §24, 17 October), and on 19 October "BIM and Robots are already independent machines. What our project will be doing will improve their outputs." (`STATUS.md`). Unsent council questions that fit (`C:\hex_ai\bot-council\QUESTIONS.md` Q5, `QUESTIONS-four-cards.md` C4): does a bot-first tender undo or complete Taylor's split; who answers when a robot builds the model's error, and does worker autonomy survive the robot. The robot car and the jobsite camera date from the first workshop week, so robotics was in the room from the start.
 Two names (Andre, 2026-11-14): when this chapter is written, the destination's field name is Bot Construction, with robotic construction (robots on site) at its far end; Bot Procurement stays the name of the standard. The rule is stated in the prologue and chapter 11. Write the destination as growing out of the trades' work, not against it (vgr_zirp, after de Vries). Andre's quoted "chain from Bot Procurement to Robotic Construction" above is his wording and stays as is.
 Literature (`literature-review-2026-11-01.md`, Part 1): Autor 2014 on Polanyi's paradox; Galbraith; Scott, *Seeing Like a State*.
+One door or many (Andre, 2026-11-14, after vgr_zirp's session 7 follow-up: "I'll let you fit what fits and cut what does not"): the many-doors question is staged in the source passages below. Write it as a question about the destination (once machines can read the documents, who is best placed to coordinate, and who stands behind them?), under the field name, never as a plan for buyers and trades to split the general contractor's margin. Large contractors are the standard's first market, chapter 6 asks for a point of convergence, and the field is not named against anyone. Evidence if a paragraph is wanted: New York has required separate trade contracts on public buildings for most of a century (the Wicks Law) and the studies disagree, so name each source (Rojas 2008, about 5 percent lower direct costs, done for the electrical contractors' research foundation; New York State Division of the Budget 1987, at least 20 percent higher, seen only through a critic's article). Do not print vgr_zirp's "consistent finding" on this: it repeated our own question back. The writers' working theory, not for the reader's text: the household reading of de Vries (the interface boundary moves into the components), Levin, Anderson and Williamson's make-or-buy. The full trail, Andre's words, the fact check, a candidate paragraph and the list of what was cut are in the project files: `research-library/one-door-or-many/one-door-or-many-2026-11-14.md` and `pending-notes/meta-goal-chapter-notes.md`, entry 2.
 Paths are relative to construction-procurement-protocols unless they start with C:\.
 -->
 
@@ -42,6 +43,16 @@ Paths are relative to construction-procurement-protocols unless they start with 
 (positions §24, recorded 2026-10-17)
 
 *Robotic construction is the destination, not a plan (hidden note above). The machinery figure's last line, Claude's, is the question the chain leaves: "If a robot builds the error, who answers?"*
+
+### One door or many
+
+> The project takes a single API, the tender, as a given and then works out how to improve it. Would there be value in exploring a multi API world?
+>
+> From the buyer's side, this may not make sense, but from a builder's side, General Contractors use sub-contractor bids to price the work. Could a buyer's access directly to the sub-contractors provide value that a single API could not?
+
+(project files `pending-notes/meta-goal-chapter-notes.md`, entry 2, said 2026-11-14)
+
+*Claude's note: chapter 2's map already has this corner. The Construction Manager buys from the trades on the owner's behalf, and "You trade accountability" for it. The draft of chapter 6 gives the condition: each smaller call still needs someone answerable behind it, and one party answerable for how the pieces fit. So the question for the destination is who stands behind each piece once machines can read the documents, which is the machinery figure's "who answers?" again. It belongs to Bot Construction, the field, and not to the standard. Ask it as a question; the hidden note above says why.*
 
 ### Appeal as a human activity
 
