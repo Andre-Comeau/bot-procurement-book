@@ -1,4 +1,4 @@
-"""Draw the delivery-method 2x2 for chapter 3 (PI brand kit colours, no PI marks).
+"""Draw the delivery-method 2x2 for chapter 2 (PI brand kit colours, no PI marks).
 
 Usage: python images/delivery_methods_2x2.py images/delivery-methods-2x2
 Writes the .svg and an .html; render the PNG with
@@ -27,7 +27,7 @@ D = {k: _mix(C[k], C["ink"], DARK) for k in ("acc", "sec", "ink2", "action")}
 # (col, row, fill, stroke, label colour, name, examples, trade lines, text top offset)
 QUADS = [
     (0, 0, D["acc"], C["acc_d"], C["acc_t"], "Hard bid",
-     ["The bidding contractor", "Lump-sum Design-Build"],
+     ["The lump sum, whoever draws:", "Design-Bid-Build or Design-Build"],
      ["You trade trust in the counterparty", "for rock-bottom pricing."], 44),
     (1, 0, D["sec"], C["sec_d"], C["sec_t"], "Partnership",
      ["Principals entangled in a common interest"],
@@ -36,7 +36,7 @@ QUADS = [
      ["Two agents, designer and builder,", "acting as checks on each other"],
      ["You trade accountability for a mild", "dose of certainty and optionality."], 180),
     (1, 1, D["action"], C["action_p"], C["action_t"], "Cost plus",
-     ["The consulting contractor", "Cost-plus Design-Build"],
+     ["The consulting contractor", "Progressive Design-Build"],
      ["You trade cost certainty", "for optionality."], 180),
 ]
 
@@ -50,7 +50,7 @@ o.append('<defs>'
          f'<marker id="ah-a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="{C["acc"]}"/></marker>'
          f'<marker id="ah-i" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="{C["ink"]}"/></marker>'
          '</defs>')
-o.append(t(80, 86, "CHAPTER 3 · CHOOSING A DELIVERY METHOD", "eyebrow"))
+o.append(t(80, 86, "CHAPTER 2 · CHOOSING A DELIVERY METHOD", "eyebrow"))
 o.append(t(80, 148, "Who works for whom, and how they deal", "title"))
 o.append(t(80, 190, "Two questions place every way to build: does the other party work for itself or for you,", "dek"))
 o.append(t(80, 218, "and do you get there by competing or by cooperating?", "dek"))
@@ -101,7 +101,7 @@ o.append(t(XM - 40, ay - 14, "Profits = Margin × Velocity: velocity fades, and 
 # self-performance sits outside the grid
 o.append(t(80, H - 76, "Off the grid: self-performance, where the Principal and the Agent are one person.", "foot"))
 o.append(t(80, H - 20, "The diagonal runs from cheap and stressful to peaceful and expensive; the centre square balances both axes.", "foot"))
-o.append(t(80, H - 48, "Design-Build lands in two squares: a lump sum keeps it Principal to Principal; cost plus makes it Principal to Agent.", "foot"))
+o.append(t(80, H - 48, "Design-Build lands in two squares: a lump sum puts it beside Design-Bid-Build; progressive Design-Build agrees its price as the design grows.", "foot"))
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
 <style>

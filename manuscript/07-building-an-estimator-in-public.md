@@ -62,7 +62,7 @@ There is a harder version of the same problem. The data this project was built o
 
 ## Why the estimator came first
 
-On paper the evaluator should have been built first. Since the whole process is untested and the best practices for this kind of system are still being written, a simpler owner-side bot would have been a training ground for bot construction and system building. If human engineering provides an appropriate analogy, the evaluator would only need to analyze, while the estimator would need to design.
+On paper the evaluator should have been built first. Since the whole process is untested and the best practices for this kind of system are still being written, a simpler owner-side bot would have been a training ground for building bots and the systems around them. If human engineering provides an appropriate analogy, the evaluator would only need to analyze, while the estimator would need to design.
 
 Then the project found the Texas Department of Transportation's open bid tabulations, about a million prices with every bidder's price for every line of every highway contract the state had let in two years, alongside its engineers' own estimate. That gave enough depth to go straight to the estimator. Since the estimator is the more complex of the two, the reviewer could be based on its work, and two days after the decision to start there, in early October 2026, the evaluator was folded into the estimator's plan as a second use of the same model.
 
