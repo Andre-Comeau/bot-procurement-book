@@ -17,14 +17,14 @@
 </style>
 <rect width="1600" height="1300" fill="#f9f8f5"/>
 <defs><marker id="ah-a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d85a30"/></marker><marker id="ah-i" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2c2c2a"/></marker></defs>
-<text x="80" y="86" class="eyebrow" text-anchor="start">CHAPTER 3 · CHOOSING A DELIVERY METHOD</text>
+<text x="80" y="86" class="eyebrow" text-anchor="start">CHAPTER 2 · CHOOSING A DELIVERY METHOD</text>
 <text x="80" y="148" class="title" text-anchor="start">Who works for whom, and how they deal</text>
 <text x="80" y="190" class="dek" text-anchor="start">Two questions place every way to build: does the other party work for itself or for you,</text>
 <text x="80" y="218" class="dek" text-anchor="start">and do you get there by competing or by cooperating?</text>
 <rect x="256" y="306" width="608" height="388" rx="14" fill="#b6512f" stroke="#9e3d18" stroke-width="1.5"/>
 <text x="290" y="374" class="name" text-anchor="start" fill="#ffffff">Hard bid</text>
-<text x="290" y="414" class="ex" text-anchor="start" fill="#faece7">The bidding contractor</text>
-<text x="290" y="444" class="ex" text-anchor="start" fill="#faece7">Lump-sum Design-Build</text>
+<text x="290" y="414" class="ex" text-anchor="start" fill="#faece7">The lump sum, whoever draws:</text>
+<text x="290" y="444" class="ex" text-anchor="start" fill="#faece7">Design-Bid-Build or Design-Build</text>
 <text x="290" y="488" class="trade" text-anchor="start" fill="#ffffff">You trade trust in the counterparty</text>
 <text x="290" y="518" class="trade" text-anchor="start" fill="#ffffff">for rock-bottom pricing.</text>
 <rect x="876" y="306" width="608" height="388" rx="14" fill="#15614d" stroke="#085041" stroke-width="1.5"/>
@@ -41,7 +41,7 @@
 <rect x="876" y="706" width="608" height="388" rx="14" fill="#0959d4" stroke="#004fcc" stroke-width="1.5"/>
 <text x="910" y="910" class="name" text-anchor="start" fill="#ffffff">Cost plus</text>
 <text x="910" y="950" class="ex" text-anchor="start" fill="#e6efff">The consulting contractor</text>
-<text x="910" y="980" class="ex" text-anchor="start" fill="#e6efff">Cost-plus Design-Build</text>
+<text x="910" y="980" class="ex" text-anchor="start" fill="#e6efff">Progressive Design-Build</text>
 <text x="910" y="1024" class="trade" text-anchor="start" fill="#ffffff">You trade cost certainty</text>
 <text x="910" y="1054" class="trade" text-anchor="start" fill="#ffffff">for optionality.</text>
 <text x="220" y="490.0" class="axis" text-anchor="end" fill="#5f5e5a">PRINCIPAL TO</text>
@@ -66,5 +66,5 @@
 <text x="830" y="264" class="drift" text-anchor="middle" fill="#9e3d18">Profits = Margin × Velocity: velocity fades, and the Principal returns to the hungry parties</text>
 <text x="80" y="1224" class="foot" text-anchor="start">Off the grid: self-performance, where the Principal and the Agent are one person.</text>
 <text x="80" y="1280" class="foot" text-anchor="start">The diagonal runs from cheap and stressful to peaceful and expensive; the centre square balances both axes.</text>
-<text x="80" y="1252" class="foot" text-anchor="start">Design-Build lands in two squares: a lump sum keeps it Principal to Principal; cost plus makes it Principal to Agent.</text>
+<text x="80" y="1252" class="foot" text-anchor="start">Design-Build lands in two squares: a lump sum puts it beside Design-Bid-Build; progressive Design-Build agrees its price as the design grows.</text>
 </svg>

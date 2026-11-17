@@ -30,6 +30,8 @@ European Commission. Proposal for a regulation on public procurement, COM(2026) 
 
 European Court of Auditors. *Public Procurement in the EU: Less Competition for Contracts Awarded for Works, Goods and Services in the 10 Years up to 2021.* Special Report 28/2023. Luxembourg, 2023.
 
+Federal Highway Administration. *Comparing the Performance of Project Delivery Methods.* TechBrief FHWA-HRT-17-100. McLean, VA: FHWA, 2018.
+
 Galbraith, J. R. *Achieving Integration through Information Systems.* Working paper 364-68. Cambridge, MA: MIT Sloan School of Management, December 1968.
 
 Galbraith, Jay R. "Organization Design: An Information Processing View." *Interfaces* 4, no. 3 (1974): 28–36. (To check which of Galbraith's papers chapter 6 leans on; the 1968 working paper is listed above.)
@@ -65,6 +67,8 @@ Lang, David. "Standards Make the World." Summer of Protocols, Ethereum Foundatio
 Lang, David. Opening talk and roundtable on field building, with Timber Stinson-Schroff and Venkatesh Rao. Protocol Symposium 2026, 23 September 2026. https://www.youtube.com/watch?v=nx-3L5Apbgw.
 
 Laurie, Ben, and Richard Clayton. "'Proof-of-Work' Proves Not to Work." Workshop on the Economics of Information Security, Minneapolis, May 2004. https://www.cl.cam.ac.uk/~rnc1/proofwork.pdf.
+
+National Academies of Sciences, Engineering, and Medicine. *Guide to Open-Book Pricing for Alternative Contracting Methods.* Washington, DC: The National Academies Press, 2025. https://doi.org/10.17226/29084.
 
 Open Contracting Partnership. *Open Contracting Data Standard*, version 1.0, 2015; and, with CoST – the Infrastructure Transparency Initiative, *Open Contracting for Infrastructure Data Standard* (OC4IDS), 2019. https://standard.open-contracting.org/.
 

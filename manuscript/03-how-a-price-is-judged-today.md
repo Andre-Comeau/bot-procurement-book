@@ -4,7 +4,7 @@ Before a bot can judge a price, someone has to decide who works for whom. Econom
 
 So, you want to build a house. It is about the largest thing one person could hope to build alone, which makes it a good baseline: anything bigger, from a school to a bridge, takes other people, and other people raise the question the rest of this chapter answers. Why not just get along? Let's look at your options.
 
-![Delivery methods on two axes, Principal to Principal against Principal to Agent and competitive against cooperative: hard bid, partnership, Construction Manager and cost plus in the corners, the General Contractor with a Consultant in the centre](../images/delivery-methods-2x2.png)
+![Delivery methods on two axes, Principal to Principal against Principal to Agent and competitive against cooperative: hard bid (lump-sum Design-Bid-Build or Design-Build), partnership, Construction Manager and cost plus (including progressive Design-Build) in the corners, the General Contractor with a Consultant in the centre](../images/delivery-methods-2x2.png)
 
 *Who works for whom, and how they deal. Cheap and stressful in one corner, peaceful and expensive in the other; the General Contractor with a Consultant balances both axes.*
 
@@ -32,6 +32,8 @@ How much of a dose depends on two questions. Does the other party work for itsel
 
 Hand the whole job to one builder, design included, and you have Design-Build: the Babylonian problem. The builder has all the control. A lump sum controls the price, but requires some degree of adversarial relationship. Society can help set a floor against the worst-case scenarios, but friction is to be expected.
 
+A lump sum works the same way whoever draws the design. Once the drawings are done, the General Contractor in the centre of the map bids for the build exactly like this, so lump-sum Design-Build and Design-Bid-Build share the corner. In both, you fix the price before the work is fully known and the builder carries the risk of getting it wrong. Only the person holding the pencil changes.
+
 This works great when you know what you want, know how to ask for it, and know what it should cost.
 
 You trade trust in the counterparty for rock-bottom pricing.
@@ -43,6 +45,8 @@ We don't all have the Type A energy to always inhabit that world, so we mortals 
 Maybe you want something more. You want to change your mind. You want to explore possibilities. You are willing to risk some capital, but don't want it all to go to the counterparty's margin.
 
 A cost-plus contract moves you to the opposite corner of the map. The builder becomes a consulting contractor: it works for you, and you cooperate instead of competing. The scope and the price float. What keeps the contractor on your side is partly law and custom, but mostly the money: paid its costs plus a fee, it has little to gain by working against you. The catch: you pay every cost, whatever it turns out to be, and the contractor has no reason to spend less. When the fee is a percentage, every extra dollar you spend earns it a little more. Useful when you need room to move, but the peaceful corner is also the expensive one.
+
+Design-Build has a version for this corner too. In progressive Design-Build, you choose the team for its qualifications instead of its price. It designs alongside you, and the price is agreed with open books, one package at a time, as the design firms up. Public road agencies are only starting to use it, and as of 2024 only sixteen US jurisdictions had a law that allowed it. Open books only help if someone on your side can read them.
 
 You trade cost certainty for optionality.
 
