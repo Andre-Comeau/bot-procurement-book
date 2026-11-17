@@ -26,7 +26,7 @@ Clarke, Neil. "A Concerning Trend." Blog post, 15 February 2023; Clarkesworld cl
 
 Corrigan, Tony. Opinion piece on AI transforming how tenders are written but not how they are evaluated. *Silicon Republic*, 26 May 2026. https://www.siliconrepublic.com/business/opinion-ai-transforming-how-tenders-are-written-but-not-how-theyre-evaluated. (Title to check.)
 
-Dark Reading. Report on the results of Google's 2024 email sender rules, with Google and Red Sift figures. February 2025. https://www.darkreading.com/remote-workforce/google-dmarc-push-email-security-challenges. (Title to check.)
+Dark Reading. "Google's DMARC Push Pays Off, but Email Security Challenges Remain." February 2025. https://www.darkreading.com/remote-workforce/google-dmarc-push-email-security-challenges.
 
 Deutsches Institut für Normung. DIN 476, *Papierformate* (paper formats). Berlin, 1922.
 
@@ -46,7 +46,7 @@ Galbraith, J. R. *Achieving Integration through Information Systems.* Working pa
 
 Galbraith, Jay R. "Organization Design: An Information Processing View." *Interfaces* 4, no. 3 (1974): 28–36. (To check which of Galbraith's papers chapter 6 leans on; the 1968 working paper is listed above.)
 
-Galdin and Silbert. "Making Talk Cheap: Generative AI and Labor Market Signaling." arXiv:2511.08785, November 2025. https://arxiv.org/abs/2511.08785. (Authors' first names to check.)
+Galdin, Anais, and Jesse Silbert. "Making Talk Cheap: Generative AI and Labor Market Signaling." arXiv:2511.08785, November 2025. https://arxiv.org/abs/2511.08785.
 
 Graham, Paul. "A Plan for Spam." August 2002. https://www.paulgraham.com/spam.html.
 
@@ -100,7 +100,7 @@ Royal Institution of Chartered Surveyors. *Cost Prediction.* RICS professional s
 
 Royal Institution of Chartered Surveyors. *RICS Data Standard* (v3.3.3, MIT licence). https://www.isurv.com/homepage/945/rics_data_standards_and_schema.
 
-Santoleri, Rentocchini and Lelli. "LLM-Assisted Proposal Writing in Competitive R&D Funding: Evidence from Horizon Europe." JRC Working Paper 02/2026. European Commission, Joint Research Centre, 2026. https://publications.jrc.ec.europa.eu/repository/handle/JRC146131. (Authors' first names to check.)
+Santoleri, Pietro, Francesco Rentocchini and Francesco Lelli. "LLM-Assisted Proposal Writing in Competitive R&D Funding: Evidence from Horizon Europe." JRC Working Paper 02/2026. European Commission, Joint Research Centre, 2026. https://publications.jrc.ec.europa.eu/repository/handle/JRC146131.
 
 Sathe, Aneesh. "The Birth of Thickets: An Interregnum in Space." Blog post, 19 July 2026. https://aneeshsathe.com/the-birth-of-thickets/.
 
@@ -110,7 +110,7 @@ Scitovsky, Tibor. "The Benefits of Asymmetric Markets." *Journal of Economic Per
 
 Sewell, William H., Jr. "Three Temporalities: Toward an Eventful Sociology." In *The Historic Turn in the Human Sciences*, edited by Terrence J. McDonald, 245–280. Ann Arbor: University of Michigan Press, 1996. (Pages to check.)
 
-Solicitors Regulation Authority. "Garfield AI authorised." Press release, 6 May 2025. https://www.sra.org.uk/sra/news/press/garfield-ai-authorised/. (Title to check.)
+Solicitors Regulation Authority. "SRA approves first AI-driven law firm." Press release, 6 May 2025. https://www.sra.org.uk/sra/news/press/garfield-ai-authorised/.
 
 Stevenson, Sean. Post on the Stevenson Test ("What an honor to have my own test!"). *blyg* (blog), 1 October 2026. https://blyg.seanstevenson.org/t/4smjqsxxaxqr8xbvh7m98wg9z7/.
 
@@ -125,7 +125,7 @@ UNCITRAL. *Guide to Enactment of the UNCITRAL Model Law on Public Procurement.* 
 
 United States. Code of Federal Regulations, title 23, part 636, *Design-Build Contracting*, sections 636.112 and 636.113 (stipends).
 
-Vals AI. Legal research benchmark report, October 2025, as reported by LawNext, 23 October 2025. https://www.lawnext.com/2025/10/vals-ais-latest-benchmark-finds-legal-and-general-ai-now-outperform-lawyers-in-legal-research-accuracy.html. (Report title to check.)
+Vals AI. *VLAIR – Legal Research*, October 2025, as reported by LawNext, 23 October 2025. https://www.lawnext.com/2025/10/vals-ais-latest-benchmark-finds-legal-and-general-ai-now-outperform-lawyers-in-legal-research-accuracy.html.
 
 Watermeyer, R. B. "A Generic and Systemic Approach to Procurement: The Case for an International Standard." *Public Procurement Law Review*, no. 1 (2005): 39–61.
 
@@ -133,6 +133,6 @@ World Machines. Project of SIGPSY, the Special Interest Group in Psychohistory, 
 
 World Trade Organization. *Agreement on Government Procurement*, as revised in 2012 (in force 2014), Articles VIII and IX.
 
-Xu, Li and Jiang. "AI Self-Preferencing in Algorithmic Hiring." arXiv:2509.00462, 2025. https://arxiv.org/abs/2509.00462. (Authors' first names to check.)
+Xu, Jiannan, Gujie Li and Jane Yi Jiang. "AI Self-Preferencing in Algorithmic Hiring." arXiv:2509.00462, 2025. https://arxiv.org/abs/2509.00462.
 
 Yegge, Steve. "Stevey's Google Platforms Rant." Google+ post, October 2011, widely mirrored. (Date to check.)
