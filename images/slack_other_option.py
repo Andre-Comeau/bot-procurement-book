@@ -25,8 +25,8 @@ def wrap(s, n):
 o = [f'<rect width="{W}" height="{H}" fill="{C["canvas"]}"/>']
 o.append(t(80, 86, "CHAPTER 6 · SLACK, AND THE OTHER OPTION", "eyebrow"))
 o.append(t(80, 148, "Slack, and the other option", "title"))
-o.append(t(80, 190, "An organization facing more than it can process has two choices, Galbraith wrote: add slack, or raise its capacity", "dek"))
-o.append(t(80, 218, "to process information. Construction has always chosen slack. AI took the slack away and left the attention needed where it was.", "dek"))
+o.append(t(80, 190, "An organization facing more than it can process has two kinds of answer, Galbraith wrote: need less, which in construction means slack,", "dek"))
+o.append(t(80, 218, "or raise its capacity to process information. AI took the slack away and left the attention needed exactly where it was.", "dek"))
 # ---- the chart
 X0, X1, Y0, Y1 = 160, 960, 330, 1080
 ATT = 800
@@ -72,7 +72,7 @@ o.append(f'<line x1="{X0+230}" y1="{Y0+4}" x2="{X0+266}" y2="{Y0+4}" stroke="{C[
 o.append(t(X0 + 276, Y0 + 10, "eyes to read them", "legend", C["ink2"]))
 # ---- the two choices, with where the book finds each
 RX = 1040
-o.append(t(RX, 334, "Two choices, through the book", "lab", C["ink"]))
+o.append(t(RX, 334, "Two kinds of answer, through the book", "lab", C["ink"]))
 boxes = [
     (360, "Add slack", D["ink2"], C["hair"],
      ["A bid cushion for the drawings' errors", "A long tender, a plan room, a committee", "The oak: five bids in six lost, as overhead",
