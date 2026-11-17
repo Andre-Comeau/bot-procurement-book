@@ -43,7 +43,7 @@ PREVIEWS = {
     "02-the-tender-is-the-api.md": ("social-card-oak-falls.png",
         "The oak falls: the cost of bidding stood as an oak over the market for a century; where it stood, a thicket races for the light"),
     "02b-the-buyers.md": ("social-card-three-parties.png",
-        "Three parties at the door: the buyers' house with more bids than eyes, the bidders as a thicket by species, and the vendors' stall of shovels under a ladder to the sun"),
+        "Three parties at the door: the buyers with more bids than eyes, the bidders racing for the light, the vendors selling shovels; what each needs and what a published check gives them"),
     "app-e-pilot-term-sheet.md": ("social-card-one-losing-job.png",
         "A draft term sheet for a pilot policy insuring an estimating bot's margin, for an underwriter to mark up"),
 }

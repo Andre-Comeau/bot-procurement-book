@@ -1,5 +1,5 @@
-"""Slack, and the other option: Galbraith's two choices (chapter 6, schematic, not data).
-Usage: python images/slack_other_option.py images/slack-other-option   (writes the .svg and an .html; render at 1600 1000, see images/README.md)
+"""Slack, and the other option: Galbraith's two choices, found across the book (chapter 6; a ledger, not data).
+Usage: python images/slack_other_option.py images/slack-other-option   (writes the .svg and an .html; render at 1600 1200, see images/README.md)
 """
 import sys, html
 C = dict(action="#0064ff", action_t="#e6efff", sec="#0f6e56", sec_t="#e1f5ee",
@@ -9,7 +9,7 @@ def mix(a, b, f):
     A = [int(a[i:i+2], 16) for i in (1, 3, 5)]; B = [int(b[i:i+2], 16) for i in (1, 3, 5)]
     return "#%02x%02x%02x" % tuple(round(A[i] + (B[i] - A[i]) * f) for i in range(3))
 D = {k: mix(C[k], C["ink"], 0.2) for k in ("action", "sec", "acc", "ink2")}
-W, H = 1600, 1000
+W, H = 1600, 1200
 def t(x, y, s, cls, fill=None, anchor="start"):
     f = f' fill="{fill}"' if fill else ""
     return f'<text x="{x}" y="{y}" class="{cls}" text-anchor="{anchor}"{f}>{html.escape(s)}</text>'
@@ -25,89 +25,80 @@ def wrap(s, n):
 o = [f'<rect width="{W}" height="{H}" fill="{C["canvas"]}"/>']
 o.append(t(80, 86, "CHAPTER 6 · SLACK, AND THE OTHER OPTION", "eyebrow"))
 o.append(t(80, 148, "Slack, and the other option", "title"))
-o.append(t(80, 190, "An organization facing more than it can process has two choices, Galbraith wrote: add slack, or raise its capacity", "dek"))
-o.append(t(80, 218, "to process information. Construction has always chosen slack. AI took the slack away and left the attention needed where it was.", "dek"))
-# ---- the chart
-X0, X1, Y0, Y1 = 160, 960, 320, 800
-ATT = 600
-def bids_y(x):
-    # a gentle drift up through the paper and online eras, then the flood
-    if x <= 760:
-        return 745 - (x - X0) * 0.04
-    u = (x - 760) / (X1 - 760)
-    return 745 - (760 - X0) * 0.04 - 390 * (u ** 2.2)
-pts = [(x, bids_y(x)) for x in range(X0, X1 + 1, 4)]
-# slack (before): attention above bids; the thicket (after): bids above attention
-xcross = next(x for x, y in pts if y <= ATT)
-before = [(x, y) for x, y in pts if x <= xcross] + [(xcross, ATT), (X0, ATT)]
-after = [(x, y) for x, y in pts if x >= xcross] + [(X1, ATT), (xcross, ATT)]
-o.append('<polygon points="' + " ".join(f"{x:.1f},{y:.1f}" for x, y in before) + f'" fill="{C["sec_t"]}"/>')
-o.append('<polygon points="' + " ".join(f"{x:.1f},{y:.1f}" for x, y in after) + f'" fill="{C["acc_t"]}"/>')
-for ex in (480, 760):
-    o.append(f'<line x1="{ex}" y1="{Y0}" x2="{ex}" y2="{Y1}" stroke="{C["hair"]}" stroke-width="2" stroke-dasharray="6 6"/>')
-o.append(f'<line x1="{X0}" y1="{Y1}" x2="{X1}" y2="{Y1}" stroke="{C["ink2"]}" stroke-width="2"/>')
-o.append(f'<line x1="{X0}" y1="{Y0}" x2="{X0}" y2="{Y1}" stroke="{C["ink2"]}" stroke-width="2"/>')
-o.append(f'<line x1="{X0}" y1="{ATT}" x2="{X1}" y2="{ATT}" stroke="{C["action"]}" stroke-width="3.5" stroke-linecap="round"/>')
-o.append('<path d="M' + " L".join(f"{x:.1f},{y:.1f}" for x, y in pts) + f'" fill="none" stroke="{C["acc"]}" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>')
-o.append(f'<circle cx="{X1}" cy="{bids_y(X1):.1f}" r="7" fill="{C["acc"]}" stroke="{C["canvas"]}" stroke-width="2"/>')
-o.append(f'<circle cx="{X1}" cy="{ATT}" r="7" fill="{C["action"]}" stroke="{C["canvas"]}" stroke-width="2"/>')
-# axis words
-o.append(t(X0 - 8, Y0 - 14, "how many", "axis", C["ink2"], "start"))
-for (xa, xb, lab) in ((X0, 480, "the plan room"), (480, 760, "the plan room online"), (760, X1, "AI makes the call nearly free")):
-    o.append(t((xa + xb) / 2, Y1 + 34, lab, "axis", C["ink2"], "middle"))
-o.append(t((X0 + X1) / 2, Y1 + 62, "time, left to right", "axisnote", C["ink2"], "middle"))
-# region labels
-o.append(t(310, 650, "slack", "lab", D["sec"], "middle"))
-o.append(t(310, 677, "the oak kept the stack of bids", "note", C["ink"], "middle"))
-o.append(t(310, 702, "small enough for a committee to read", "note", C["ink"], "middle"))
-o.append(t(870, 450, "the thicket", "lab", D["acc"], "end"))
-o.append(t(870, 478, "slack released without", "note", C["ink"], "end"))
-o.append(t(870, 504, "the capacity to meet it", "note", C["ink"], "end"))
-# direct labels and a legend
-o.append(f'<line x1="{X1-50}" y1="{bids_y(X1)-30:.1f}" x2="{X1-14}" y2="{bids_y(X1)-30:.1f}" stroke="{C["acc"]}" stroke-width="3.5"/>')
-o.append(t(X1 - 60, bids_y(X1) - 24, "bids arriving at the door", "note", C["ink"], "end"))
-o.append(f'<line x1="{X0+16}" y1="{ATT-26}" x2="{X0+56}" y2="{ATT-26}" stroke="{C["action"]}" stroke-width="3.5"/>')
-o.append(t(X0 + 66, ATT - 20, "the attention available to read them", "note", C["ink"], "start"))
-o.append(f'<line x1="{X0}" y1="{Y0+4}" x2="{X0+36}" y2="{Y0+4}" stroke="{C["acc"]}" stroke-width="3.5"/>')
-o.append(t(X0 + 46, Y0 + 10, "bids per tender", "legend", C["ink2"]))
-o.append(f'<line x1="{X0+230}" y1="{Y0+4}" x2="{X0+266}" y2="{Y0+4}" stroke="{C["action"]}" stroke-width="3.5"/>')
-o.append(t(X0 + 276, Y0 + 10, "eyes to read them", "legend", C["ink2"]))
-# ---- the two choices
-RX = 1040
-o.append(t(RX, 334, "Galbraith's two choices", "lab", C["ink"]))
-boxes = [
-    (360, "Add slack", D["ink2"], C["hair"],
-     "More time, more money, more cushion between the parts: a longer tender period, a cushion in the bid for the drawings' errors, a contingency for the rest.",
-     "Construction's habit. It no longer works: AI removed the slack and left the attention needed exactly where it was."),
-    (632, "Raise the capacity", D["sec"], C["sec_t"],
-     "Better systems and shorter lines between the people who need to talk: the same check, applied the same way to every bid.",
-     "The other option. More data moves faster through the door without anyone acquiring a say they did not have before."),
+o.append(t(80, 190, "An organization facing more than it can process has two choices, Galbraith wrote: add slack, or raise its capacity to", "dek"))
+o.append(t(80, 218, "process information. Construction has always chosen slack. Here is where this book finds it, and what the project puts in its place.", "dek"))
+# ---- the two columns and the spine between them
+LX0, LX1, RX0, RX1, SX = 80, 660, 940, 1520, 800
+CWID = LX1 - LX0
+o.append(t(LX0, 302, "Add slack", "lab", D["ink2"]))
+o.append(t(LX0, 332, "construction's habit: more time, more money, more cushion between the parts", "note", C["ink2"]))
+o.append(f'<line x1="{LX0}" y1="348" x2="{LX1}" y2="348" stroke="{D["ink2"]}" stroke-width="3"/>')
+o.append(t(RX0, 302, "Raise the capacity", "lab", D["sec"]))
+o.append(t(RX0, 332, "the other option: the same check for every bid, with a record", "note", C["ink2"]))
+o.append(f'<line x1="{RX0}" y1="348" x2="{RX1}" y2="348" stroke="{D["sec"]}" stroke-width="3"/>')
+rows = [
+    ("The drawings",
+     "Bug-free drawings are a mythical beast, so the bid carries a cushion for their errors.",
+     "A second opinion on every price: a check that flags a line for the firm's own review before the bid goes in."),
+    ("The tender",
+     "A long tender period, a plan room and an evaluation committee, built for a few large bidders and time to read.",
+     "The tender as a data file, and the same check applied the same way to every bid: same bid, same answer, a measured miss rate."),
+    ("The cost of bidding",
+     "The oak: an estimating department, a bonding line and the patience to lose five bids in six, billed as overhead to the jobs that are won.",
+     "A published check reads a thousand bids the same way, so the door stays open without a cap, a key or a fee, and the cost to bid drops."),
+    ("After the award",
+     "The contingency carries a cushion for the rest, and every change is a purchase from a supplier of one, reviewed by whoever has time.",
+     "The evaluator prices each line of a change and hands it to the keyholder, who signs with a reason and leaves a record of what was checked."),
+    ("Who pays",
+     "The margin eats the error: a miss the size of the winner's lead is the year's profit on the job, and the surety stands behind the firm.",
+     "Insurance on the margin picks up the tails a probabilistic tool will always have, priced from the test's measured misses."),
+    ("The whole industry",
+     "Taylorism's gains have plateaued, and so has the largest firm: it bids on a lot and works on a lot, and its size stays where it is.",
+     "A standard: a template and a record, a public test, and a market memory anyone can read against, so more workers step into principal roles."),
 ]
-for (by, title, col, fill, body, verdict) in boxes:
-    o.append(f'<rect x="{RX}" y="{by}" width="{W-80-RX}" height="242" rx="8" fill="{fill}" stroke="{col}" stroke-width="3"/>')
-    o.append(t(RX + 24, by + 44, title, "boxtitle", col))
-    y = by + 78
-    for ln in wrap(body, 46):
-        o.append(t(RX + 24, y, ln, "note", C["ink"])); y += 25
-    y += 6
-    for ln in wrap(verdict, 46):
-        o.append(t(RX + 24, y, ln, "tiny", C["ink2"])); y += 23
-o.append(t(80, H - 40, "Schematic, not data: the lines show the idea, not counts.", "foot", C["ink2"]))
+Y0, PITCH, CH = 380, 110, 96
+o.append(f'<line x1="{SX}" y1="{Y0-6}" x2="{SX}" y2="{Y0+len(rows)*PITCH-14}" stroke="{C["hair"]}" stroke-width="3"/>')
+for i, (station, left, right) in enumerate(rows):
+    y = Y0 + i * PITCH
+    o.append(f'<rect x="{LX0}" y="{y}" width="{CWID}" height="{CH}" rx="8" fill="{C["hair"]}" stroke="{D["ink2"]}" stroke-width="1.5"/>')
+    yy = y + 34
+    for ln in wrap(left, 50):
+        o.append(t(LX0 + 22, yy, ln, "cell", C["ink"])); yy += 26
+    o.append(f'<rect x="{RX0}" y="{y}" width="{CWID}" height="{CH}" rx="8" fill="{C["sec_t"]}" stroke="{D["sec"]}" stroke-width="1.5"/>')
+    yy = y + 34
+    for ln in wrap(right, 50):
+        o.append(t(RX0 + 22, yy, ln, "cell", C["ink"])); yy += 26
+    o.append(f'<circle cx="{SX}" cy="{y+16}" r="9" fill="{C["canvas"]}" stroke="{C["ink"]}" stroke-width="3"/>')
+    o.append(f'<text x="{SX}" y="{y+52}" class="station" text-anchor="middle" fill="{C["ink"]}" stroke="{C["canvas"]}" stroke-width="10" paint-order="stroke" stroke-linejoin="round">{html.escape(station)}</text>')
+# ---- what changed, in one band
+yb = Y0 + len(rows) * PITCH + 16
+o.append(f'<line x1="80" y1="{yb}" x2="{W-80}" y2="{yb}" stroke="{C["hair"]}" stroke-width="2"/>')
+o.append(t(80, yb + 40, "What changed: AI made the call nearly free. It did not remove the uncertainty. It removed the slack, and left the", "cell", C["ink"]))
+o.append(t(80, yb + 68, "attention needed exactly where it was. The thicket is slack released without the capacity to meet it.", "cell", C["ink"]))
+MX0, MX1, MY = 1250, 1470, yb + 56
+o.append(f'<line x1="{MX0}" y1="{MY}" x2="{MX1}" y2="{MY}" stroke="{C["action"]}" stroke-width="3" stroke-linecap="round"/>')
+pts = []
+for k in range(0, 101):
+    u = k / 100; x = MX0 + (MX1 - MX0) * u
+    yv = MY + 30 - 12 * u - 56 * (u ** 4)
+    pts.append(f"{x:.1f},{yv:.1f}")
+o.append(f'<path d="M' + " L".join(pts) + f'" fill="none" stroke="{C["acc"]}" stroke-width="3" stroke-linecap="round"/>')
+o.append(t(MX1 + 12, MY + 6, "eyes", "mini", C["ink"]))
+o.append(t(MX1 + 12, MY - 34, "bids", "mini", C["ink"]))
+o.append(t(80, H - 40, "A ledger, not data: each cell is a sentence of the book, shortened; the two lines on the right show the idea, not counts.", "foot", C["ink2"]))
 css = f'''<style>
 .eyebrow{{font:600 22px "IBM Plex Sans",Arial,sans-serif;letter-spacing:.12em;fill:{C["ink2"]}}}
 .title{{font:700 54px Georgia,"Times New Roman",serif;fill:{C["ink"]}}}
 .dek{{font:400 23px "IBM Plex Sans",Arial,sans-serif;fill:{C["ink2"]}}}
 .lab{{font:700 30px Georgia,serif}}
-.boxtitle{{font:700 27px Georgia,serif}}
+.station{{font:700 22px Georgia,serif}}
 .note{{font:400 20px "IBM Plex Sans",Arial,sans-serif}}
-.legend{{font:600 18px "IBM Plex Sans",Arial,sans-serif}}
-.axis{{font:400 19px "IBM Plex Sans",Arial,sans-serif}}
-.axisnote{{font:italic 400 17px "IBM Plex Sans",Arial,sans-serif}}
-.tiny{{font:italic 400 18px "IBM Plex Sans",Arial,sans-serif}}
+.cell{{font:400 21px "IBM Plex Sans",Arial,sans-serif}}
+.mini{{font:600 17px "IBM Plex Sans",Arial,sans-serif}}
 .foot{{font:italic 400 19px "IBM Plex Sans",Arial,sans-serif}}
 </style>'''
 svg = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">{css}' + "".join(o) + "</svg>"
 stem = sys.argv[1] if len(sys.argv) > 1 else "slack-other-option"
 open(stem + ".svg", "w").write(svg)
 open(stem + ".html", "w").write('<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#f9f8f5}</style></head><body>' + svg + "</body></html>")
-print("wrote", stem, "cross at", xcross)
+print("wrote", stem, "band at", yb)
