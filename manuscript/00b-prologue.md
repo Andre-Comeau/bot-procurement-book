@@ -37,13 +37,13 @@ For long-time followers of the Protocol Institute, the answer may have been obvi
 those who, like me, needed to take the long route, a mini-Prime Radiant project focused on Bot Procurement
 may be needed to arrive at the same answer: [Procurement Machines](link).
 
-AI-first procurement will need two tools: **[c]**
-
-* a shift away from the primacy of human-centric documentation to standardized instructions generated for
-  machine readability. (Yes, for those in the know, it would mean getting rid of PDFs — no one really liked
-  looking at paper sheets on a screen anyhow.)
-* a standardized bot for reading the specifications.
-
-With these tools, engineers and architects could still certify the canonical copy, the court could use the
+AI-first procurement will need two tools: documents written for machines to read, and a standardized bot to
+read them. With these tools, engineers and architects could still certify the canonical copy, the court could use the
 standardized bot as a surrogate for a reasonable bot, and bidders would be able to lower their estimating
 costs. **[d]**
+
+Two names will travel through this book, and they are worth keeping apart. Bot Construction is the field:
+where this work leads, from documents written for machines to robots on site, built on everything the
+trades have already built. Bot Procurement is the standard: the price on a tender and who pays when a bot
+gets it wrong, a part kept small enough to test. Bot Construction is where we are going. Bot Procurement is
+what has to be earned first.
