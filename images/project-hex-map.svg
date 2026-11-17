@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
+<defs>
+<pattern id="fog" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#f9f8f5"/><line x1="0" y1="0" x2="0" y2="12" stroke="#e5e7eb" stroke-width="5"/></pattern>
+<marker id="ah-004fcc" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#004fcc"/></marker>
+<marker id="ah-d85a30" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d85a30"/></marker>
+<marker id="ah-0064ff" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0064ff"/></marker>
+<marker id="ah-0f6e56" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0f6e56"/></marker>
+<marker id="ah-5f5e5a" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5f5e5a"/></marker>
+<style>
+      .eyebrow{font-family:Outfit,sans-serif;font-weight:600;font-size:15px;letter-spacing:.16em;fill:#0064ff}
+      .title{font-family:'Instrument Serif',Georgia,serif;font-size:54px;fill:#2c2c2a}
+      .dek{font-family:Lora,Georgia,serif;font-size:20px;fill:#5f5e5a}
+      .name{font-family:'Instrument Serif',Georgia,serif;font-size:23px}
+      .kind{font-family:Outfit,sans-serif;font-weight:600;font-size:10.5px;letter-spacing:.12em}
+      .note{font-family:Outfit,sans-serif;font-size:12px}
+      .road{font-family:Outfit,sans-serif;font-weight:600;font-size:13px;paint-order:stroke;stroke:#f9f8f5;stroke-width:6px;stroke-linejoin:round}
+      .step-n{font-family:'Instrument Serif',Georgia,serif;font-size:40px;fill:#0064ff}
+      .step-t{font-family:'Instrument Serif',Georgia,serif;font-size:24px;fill:#2c2c2a}
+      .step-b{font-family:Lora,Georgia,serif;font-size:15.5px;fill:#5f5e5a}
+      .lg{font-family:Outfit,sans-serif;font-size:13px;fill:#2c2c2a}
+      .lgh{font-family:Outfit,sans-serif;font-weight:600;font-size:11px;letter-spacing:.14em;fill:#5f5e5a}
+      .foot{font-family:Outfit,sans-serif;font-size:12px;fill:#5f5e5a}
+      .side{font-family:Lora,Georgia,serif;font-style:italic;font-size:17px}
+    </style></defs>
+<rect width="1800" height="1200" fill="#f9f8f5"/>
+<text x="64" y="78" class="eyebrow">THE PROJECT AS A HEX MAP</text>
+<text x="64" y="138" class="title">One town, one temple, and fog to the east</text>
+<text x="64" y="176" class="dek">Field Building turns evidence and working tools into a standard. What lies beyond the standard is a destination, not a plan.</text>
+<polygon points="276.8,343.5 276.8,432.5 199.7,477.0 122.6,432.5 122.6,343.5 199.7,299.0" fill="none" stroke="#e5e7eb" stroke-width="1.5"/>
+<polygon points="436.1,343.5 436.1,432.5 359.0,477.0 281.9,432.5 281.9,343.5 359.0,299.0" fill="none" stroke="#e5e7eb" stroke-width="1.5"/>
+<polygon points="1073.5,343.5 1073.5,432.5 996.4,477.0 919.3,432.5 919.3,343.5 996.4,299.0" fill="none" stroke="#e5e7eb" stroke-width="1.5"/>
+<polygon points="1232.8,343.5 1232.8,432.5 1155.8,477.0 1078.7,432.5 1078.7,343.5 1155.8,299.0" fill="url(#fog)" stroke="#e5e7eb" stroke-width="1.5"/>
+<polygon points="1392.2,343.5 1392.2,432.5 1315.1,477.0 1238.0,432.5 1238.0,343.5 1315.1,299.0" fill="url(#fog)" stroke="#e5e7eb" stroke-width="1.5"/>
+<polygon points="1551.5,343.5 1551.5,432.5 1474.5,477.0 1397.4,432.5 1397.4,343.5 1474.5,299.0" fill="url(#fog)" stroke="#e5e7eb" stroke-width="1.5"/>
+<polygon points="197.1,481.5 197.1,570.5 120.0,615.0 42.9,570.5 42.9,481.5 120.0,437.0" fill="none" stroke="#e5e7eb" stroke-width="1.5"/>
+<polygon points="356.4,481.5 356.4,570.5 279.3,615.0 202.3,570.5 202.3,481.5 279.3,437.0" fill="none" stroke="#e5e7eb" stroke-width="1.5"/>
+<polygon points="993.8,481.5 993.8,570.5 916.7,615.0 839.7,570.5 839.7,481.5 916.7,437.0" fill="none" stroke="#e5e7eb" stroke-width="1.5"/>
+<polygon points="276.8,619.5 276.8,708.5 199.7,753.0 122.6,708.5 122.6,619.5 199.7,575.0" fill="none" stroke="#e5e7eb" stroke-width="1.5"/>
+<polygon points="436.1,619.5 436.1,708.5 359.0,753.0 281.9,708.5 281.9,619.5 359.0,575.0" fill="none" stroke="#e5e7eb" stroke-width="1.5"/>
+<polygon points="1232.8,619.5 1232.8,708.5 1155.8,753.0 1078.7,708.5 1078.7,619.5 1155.8,575.0" fill="url(#fog)" stroke="#e5e7eb" stroke-width="1.5"/>
+<polygon points="1392.2,619.5 1392.2,708.5 1315.1,753.0 1238.0,708.5 1238.0,619.5 1315.1,575.0" fill="url(#fog)" stroke="#e5e7eb" stroke-width="1.5"/>
+<polygon points="1551.5,619.5 1551.5,708.5 1474.5,753.0 1397.4,708.5 1397.4,619.5 1474.5,575.0" fill="url(#fog)" stroke="#e5e7eb" stroke-width="1.5"/>
+<polygon points="197.1,757.5 197.1,846.5 120.0,891.0 42.9,846.5 42.9,757.5 120.0,713.0" fill="none" stroke="#e5e7eb" stroke-width="1.5"/>
+<polygon points="356.4,757.5 356.4,846.5 279.3,891.0 202.3,846.5 202.3,757.5 279.3,713.0" fill="none" stroke="#e5e7eb" stroke-width="1.5"/>
+<polygon points="515.8,757.5 515.8,846.5 438.7,891.0 361.6,846.5 361.6,757.5 438.7,713.0" fill="none" stroke="#e5e7eb" stroke-width="1.5"/>
+<polygon points="993.8,757.5 993.8,846.5 916.7,891.0 839.7,846.5 839.7,757.5 916.7,713.0" fill="none" stroke="#e5e7eb" stroke-width="1.5"/>
+<polygon points="1153.2,757.5 1153.2,846.5 1076.1,891.0 999.0,846.5 999.0,757.5 1076.1,713.0" fill="none" stroke="#e5e7eb" stroke-width="1.5"/>
+<polygon points="1312.5,757.5 1312.5,846.5 1235.4,891.0 1158.4,846.5 1158.4,757.5 1235.4,713.0" fill="url(#fog)" stroke="#e5e7eb" stroke-width="1.5"/>
+<polygon points="1471.9,757.5 1471.9,846.5 1394.8,891.0 1317.7,846.5 1317.7,757.5 1394.8,713.0" fill="url(#fog)" stroke="#e5e7eb" stroke-width="1.5"/>
+<polygon points="675.1,481.5 675.1,570.5 598.0,615.0 521.0,570.5 521.0,481.5 598.0,437.0" fill="#e6efff" stroke="#0064ff" stroke-width="2.4"/>
+<polygon points="834.5,481.5 834.5,570.5 757.4,615.0 680.3,570.5 680.3,481.5 757.4,437.0" fill="#0064ff" stroke="#004fcc" stroke-width="2.4"/>
+<polygon points="595.4,343.5 595.4,432.5 518.4,477.0 441.3,432.5 441.3,343.5 518.4,299.0" fill="#ffffff" stroke="#5f5e5a" stroke-width="2.4"/>
+<polygon points="754.8,343.5 754.8,432.5 677.7,477.0 600.6,432.5 600.6,343.5 677.7,299.0" fill="#ffffff" stroke="#5f5e5a" stroke-width="2.4"/>
+<polygon points="515.8,481.5 515.8,570.5 438.7,615.0 361.6,570.5 361.6,481.5 438.7,437.0" fill="#faece7" stroke="#d85a30" stroke-width="2.4"/>
+<polygon points="595.4,619.5 595.4,708.5 518.4,753.0 441.3,708.5 441.3,619.5 518.4,575.0" fill="#faece7" stroke="#d85a30" stroke-width="2.4"/>
+<polygon points="754.8,619.5 754.8,708.5 677.7,753.0 600.6,708.5 600.6,619.5 677.7,575.0" fill="#e1f5ee" stroke="#0f6e56" stroke-width="2.4"/>
+<polygon points="914.1,619.5 914.1,708.5 837.1,753.0 760.0,708.5 760.0,619.5 837.1,575.0" fill="#e1f5ee" stroke="#0f6e56" stroke-width="2.4"/>
+<polygon points="1073.5,619.5 1073.5,708.5 996.4,753.0 919.3,708.5 919.3,619.5 996.4,575.0" fill="#e1f5ee" stroke="#0f6e56" stroke-width="2.4"/>
+<polygon points="834.5,757.5 834.5,846.5 757.4,891.0 680.3,846.5 680.3,757.5 757.4,713.0" fill="#f3f4f6" stroke="#5f5e5a" stroke-width="2.4"/>
+<polygon points="675.1,757.5 675.1,846.5 598.0,891.0 521.0,846.5 521.0,757.5 598.0,713.0" fill="#f3f4f6" stroke="#5f5e5a" stroke-width="2.4"/>
+<polygon points="914.1,343.5 914.1,432.5 837.1,477.0 760.0,432.5 760.0,343.5 837.1,299.0" fill="#ffffff" stroke="#0064ff" stroke-width="2.4" stroke-dasharray="7 6"/>
+<polygon points="1153.2,481.5 1153.2,570.5 1076.1,615.0 999.0,570.5 999.0,481.5 1076.1,437.0" fill="url(#fog)" stroke="#5f5e5a" stroke-width="2.4" stroke-dasharray="7 6"/>
+<polygon points="1312.5,481.5 1312.5,570.5 1235.4,615.0 1158.4,570.5 1158.4,481.5 1235.4,437.0" fill="url(#fog)" stroke="#5f5e5a" stroke-width="2.4" stroke-dasharray="7 6"/>
+<polygon points="1471.9,481.5 1471.9,570.5 1394.8,615.0 1317.7,570.5 1317.7,481.5 1394.8,437.0" fill="url(#fog)" stroke="#5f5e5a" stroke-width="2.4" stroke-dasharray="7 6"/>
+<text x="598.0" y="482.0" class="kind" text-anchor="middle" fill="#004fcc">TOWN</text>
+<path d="M578.0460228890101,524.0 V512.0 L585.0460228890101,504.0 L592.0460228890101,512.0 V524.0 Z" fill="none" stroke="#004fcc" stroke-width="2" stroke-linejoin="round"/><path d="M591.0460228890101,524.0 V507.0 L598.0460228890101,499.0 L605.0460228890101,507.0 V524.0 Z" fill="none" stroke="#004fcc" stroke-width="2" stroke-linejoin="round"/><path d="M604.0460228890101,524.0 V512.0 L611.0460228890101,504.0 L618.0460228890101,512.0 V524.0 Z" fill="none" stroke="#004fcc" stroke-width="2" stroke-linejoin="round"/>
+<text x="598.0" y="548.0" class="name" text-anchor="middle" fill="#2c2c2a">Field Building</text>
+<text x="598.0" y="570.0" class="note" text-anchor="middle" fill="#004fcc">human-led, the bottleneck</text>
+<text x="757.4" y="482.0" class="kind" text-anchor="middle" fill="#ffffff">TEMPLE</text>
+<path d="M741.3946971853468,508.0 L757.3946971853468,496.0 L773.3946971853468,508.0 Z" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round"/><line x1="746.3946971853468" y1="510.0" x2="746.3946971853468" y2="523.0" stroke="#ffffff" stroke-width="2.2"/><line x1="753.3946971853468" y1="510.0" x2="753.3946971853468" y2="523.0" stroke="#ffffff" stroke-width="2.2"/><line x1="761.3946971853468" y1="510.0" x2="761.3946971853468" y2="523.0" stroke="#ffffff" stroke-width="2.2"/><line x1="768.3946971853468" y1="510.0" x2="768.3946971853468" y2="523.0" stroke="#ffffff" stroke-width="2.2"/><line x1="740.3946971853468" y1="525.0" x2="774.3946971853468" y2="525.0" stroke="#ffffff" stroke-width="2.2"/>
+<text x="757.4" y="548.0" class="name" text-anchor="middle" fill="#ffffff">The Standard</text>
+<text x="757.4" y="570.0" class="note" text-anchor="middle" fill="#ffffff">spec + conformance test</text>
+<text x="518.4" y="344.0" class="kind" text-anchor="middle" fill="#5f5e5a">GUILD HOUSE</text>
+<line x1="508.3716857408417" y1="360.0" x2="508.3716857408417" y2="388.0" stroke="#5f5e5a" stroke-width="2"/><path d="M508.3716857408417,361.0 H530.3716857408417 L524.3716857408417,368.0 L530.3716857408417,375.0 H508.3716857408417" fill="none" stroke="#5f5e5a" stroke-width="2" stroke-linejoin="round"/>
+<text x="518.4" y="404.0" class="name" text-anchor="middle" fill="#2c2c2a">Protocol</text>
+<text x="518.4" y="426.0" class="name" text-anchor="middle" fill="#2c2c2a">Institute</text>
+<text x="677.7" y="344.0" class="kind" text-anchor="middle" fill="#5f5e5a">GUILD HOUSE</text>
+<line x1="667.7203600371785" y1="360.0" x2="667.7203600371785" y2="388.0" stroke="#5f5e5a" stroke-width="2"/><path d="M667.7203600371785,361.0 H689.7203600371785 L683.7203600371785,368.0 L689.7203600371785,375.0 H667.7203600371785" fill="none" stroke="#5f5e5a" stroke-width="2" stroke-linejoin="round"/>
+<text x="677.7" y="404.0" class="name" text-anchor="middle" fill="#2c2c2a">Yak</text>
+<text x="677.7" y="426.0" class="name" text-anchor="middle" fill="#2c2c2a">Collective</text>
+<text x="438.7" y="482.0" class="kind" text-anchor="middle" fill="#9e3d18">LIBRARY</text>
+<path d="M438.6973485926734,506.0 Q429.6973485926734,500.0 420.6973485926734,503.0 V522.0 Q429.6973485926734,519.0 438.6973485926734,525.0 Q447.6973485926734,519.0 456.6973485926734,522.0 V503.0 Q447.6973485926734,500.0 438.6973485926734,506.0 V525.0" fill="none" stroke="#9e3d18" stroke-width="2" stroke-linejoin="round"/>
+<text x="438.7" y="548.0" class="name" text-anchor="middle" fill="#2c2c2a">Case study</text>
+<text x="438.7" y="570.0" class="note" text-anchor="middle" fill="#9e3d18">current tensions</text>
+<text x="518.4" y="620.0" class="kind" text-anchor="middle" fill="#9e3d18">LIBRARY</text>
+<path d="M518.3716857408417,644.0 Q509.3716857408417,638.0 500.3716857408417,641.0 V660.0 Q509.3716857408417,657.0 518.3716857408417,663.0 Q527.3716857408417,657.0 536.3716857408417,660.0 V641.0 Q527.3716857408417,638.0 518.3716857408417,644.0 V663.0" fill="none" stroke="#9e3d18" stroke-width="2" stroke-linejoin="round"/>
+<text x="518.4" y="680.0" class="name" text-anchor="middle" fill="#2c2c2a">Procurement</text>
+<text x="518.4" y="702.0" class="name" text-anchor="middle" fill="#2c2c2a">Machines</text>
+<text x="518.4" y="724.0" class="note" text-anchor="middle" fill="#9e3d18">since 493 BCE</text>
+<text x="677.7" y="620.0" class="kind" text-anchor="middle" fill="#085041">WORKSHOP</text>
+<path d="M661.7203600371785,644.0 H689.7203600371785 Q695.7203600371785,644.0 695.7203600371785,649.0 H683.7203600371785 V654.0 L687.7203600371785,662.0 H667.7203600371785 L671.7203600371785,654.0 V649.0 H665.7203600371785 Z" fill="none" stroke="#085041" stroke-width="2" stroke-linejoin="round"/>
+<text x="677.7" y="686.0" class="name" text-anchor="middle" fill="#2c2c2a">Estimator</text>
+<text x="677.7" y="708.0" class="note" text-anchor="middle" fill="#085041">first reference impl.</text>
+<text x="837.1" y="620.0" class="kind" text-anchor="middle" fill="#085041">WORKSHOP</text>
+<path d="M821.0690343335151,644.0 H849.0690343335151 Q855.0690343335151,644.0 855.0690343335151,649.0 H843.0690343335151 V654.0 L847.0690343335151,662.0 H827.0690343335151 L831.0690343335151,654.0 V649.0 H825.0690343335151 Z" fill="none" stroke="#085041" stroke-width="2" stroke-linejoin="round"/>
+<text x="837.1" y="680.0" class="name" text-anchor="middle" fill="#2c2c2a">F&amp;R</text>
+<text x="837.1" y="702.0" class="name" text-anchor="middle" fill="#2c2c2a">Evaluator</text>
+<text x="837.1" y="724.0" class="note" text-anchor="middle" fill="#085041">for buyers</text>
+<text x="996.4" y="620.0" class="kind" text-anchor="middle" fill="#085041">WORKSHOP</text>
+<path d="M980.4177086298519,644.0 H1008.4177086298519 Q1014.4177086298519,644.0 1014.4177086298519,649.0 H1002.4177086298519 V654.0 L1006.4177086298519,662.0 H986.4177086298519 L990.4177086298519,654.0 V649.0 H984.4177086298519 Z" fill="none" stroke="#085041" stroke-width="2" stroke-linejoin="round"/>
+<text x="996.4" y="680.0" class="name" text-anchor="middle" fill="#2c2c2a">Procurement</text>
+<text x="996.4" y="702.0" class="name" text-anchor="middle" fill="#2c2c2a">bots</text>
+<text x="996.4" y="724.0" class="note" text-anchor="middle" fill="#085041">worked example</text>
+<text x="757.4" y="758.0" class="kind" text-anchor="middle" fill="#5f5e5a">TOWER</text>
+<path d="M749.3946971853468,801.0 V782.0 H746.3946971853468 V774.0 H751.3946971853468 V778.0 H755.3946971853468 V774.0 H759.3946971853468 V778.0 H763.3946971853468 V774.0 H768.3946971853468 V782.0 H765.3946971853468 V801.0 Z" fill="none" stroke="#5f5e5a" stroke-width="2" stroke-linejoin="round"/>
+<text x="757.4" y="824.0" class="name" text-anchor="middle" fill="#2c2c2a">Bot Council</text>
+<text x="757.4" y="846.0" class="note" text-anchor="middle" fill="#5f5e5a">other points of view</text>
+<text x="598.0" y="758.0" class="kind" text-anchor="middle" fill="#5f5e5a">TOWER</text>
+<path d="M590.0460228890101,801.0 V782.0 H587.0460228890101 V774.0 H592.0460228890101 V778.0 H596.0460228890101 V774.0 H600.0460228890101 V778.0 H604.0460228890101 V774.0 H609.0460228890101 V782.0 H606.0460228890101 V801.0 Z" fill="none" stroke="#5f5e5a" stroke-width="2" stroke-linejoin="round"/>
+<text x="598.0" y="824.0" class="name" text-anchor="middle" fill="#2c2c2a">Offline AI</text>
+<text x="598.0" y="846.0" class="note" text-anchor="middle" fill="#5f5e5a">pinned weights</text>
+<text x="837.1" y="344.0" class="kind" text-anchor="middle" fill="#004fcc">FOLLOWERS</text>
+<circle cx="824.0690343335151" cy="369.0" r="4.5" fill="none" stroke="#004fcc" stroke-width="2"/><path d="M817.0690343335151,386.0 Q824.0690343335151,373.0 831.0690343335151,386.0" fill="none" stroke="#004fcc" stroke-width="2"/><circle cx="837.0690343335151" cy="369.0" r="4.5" fill="none" stroke="#004fcc" stroke-width="2"/><path d="M830.0690343335151,386.0 Q837.0690343335151,373.0 844.0690343335151,386.0" fill="none" stroke="#004fcc" stroke-width="2"/><circle cx="850.0690343335151" cy="369.0" r="4.5" fill="none" stroke="#004fcc" stroke-width="2"/><path d="M843.0690343335151,386.0 Q850.0690343335151,373.0 857.0690343335151,386.0" fill="none" stroke="#004fcc" stroke-width="2"/>
+<text x="837.1" y="410.0" class="name" text-anchor="middle" fill="#2c2c2a">Adopters</text>
+<text x="837.1" y="432.0" class="note" text-anchor="middle" fill="#004fcc">arrive on their own</text>
+<text x="1076.1" y="482.0" class="kind" text-anchor="middle" fill="#5f5e5a">UNEXPLORED</text>
+<path d="M1072.0920457780203,497.0 V520.0 M1074.0920457780203,499.0 L1089.0920457780203,517.0 H1074.0920457780203 M1060.0920457780203,521.0 H1090.0920457780203 L1085.0920457780203,527.0 H1065.0920457780203 Z" fill="none" stroke="#5f5e5a" stroke-width="2" stroke-linejoin="round"/>
+<text x="1076.1" y="548.0" class="name" text-anchor="middle" fill="#2c2c2a">BIM for bots</text>
+<text x="1235.4" y="482.0" class="kind" text-anchor="middle" fill="#5f5e5a">UNEXPLORED</text>
+<path d="M1231.440720074357,497.0 V520.0 M1233.440720074357,499.0 L1248.440720074357,517.0 H1233.440720074357 M1219.440720074357,521.0 H1249.440720074357 L1244.440720074357,527.0 H1224.440720074357 Z" fill="none" stroke="#5f5e5a" stroke-width="2" stroke-linejoin="round"/>
+<text x="1235.4" y="542.0" class="name" text-anchor="middle" fill="#2c2c2a">Bot</text>
+<text x="1235.4" y="564.0" class="name" text-anchor="middle" fill="#2c2c2a">Monitoring</text>
+<text x="1394.8" y="482.0" class="kind" text-anchor="middle" fill="#5f5e5a">UNEXPLORED</text>
+<path d="M1390.7893943706936,497.0 V520.0 M1392.7893943706936,499.0 L1407.7893943706936,517.0 H1392.7893943706936 M1378.7893943706936,521.0 H1408.7893943706936 L1403.7893943706936,527.0 H1383.7893943706936 Z" fill="none" stroke="#5f5e5a" stroke-width="2" stroke-linejoin="round"/>
+<text x="1394.8" y="542.0" class="name" text-anchor="middle" fill="#2c2c2a">Robotic</text>
+<text x="1394.8" y="564.0" class="name" text-anchor="middle" fill="#2c2c2a">Construction</text>
+<text x="1394.8" y="586.0" class="note" text-anchor="middle" fill="#5f5e5a">the far-off land</text>
+<line x1="550.7" y1="444.0" x2="565.7" y2="470.0" stroke="#f9f8f5" stroke-width="9" stroke-linecap="round"/><line x1="550.7" y1="444.0" x2="565.7" y2="470.0" stroke="#5f5e5a" stroke-width="3" marker-end="url(#ah-5f5e5a)"/>
+<line x1="645.4" y1="444.0" x2="630.4" y2="470.0" stroke="#f9f8f5" stroke-width="9" stroke-linecap="round"/><line x1="645.4" y1="444.0" x2="630.4" y2="470.0" stroke="#5f5e5a" stroke-width="3" marker-end="url(#ah-5f5e5a)"/>
+<line x1="503.4" y1="526.0" x2="533.4" y2="526.0" stroke="#f9f8f5" stroke-width="9" stroke-linecap="round"/><line x1="503.4" y1="526.0" x2="533.4" y2="526.0" stroke="#9e3d18" stroke-width="3" marker-end="url(#ah-9e3d18)"/>
+<line x1="550.7" y1="608.0" x2="565.7" y2="582.0" stroke="#f9f8f5" stroke-width="9" stroke-linecap="round"/><line x1="550.7" y1="608.0" x2="565.7" y2="582.0" stroke="#9e3d18" stroke-width="3" marker-end="url(#ah-9e3d18)"/>
+<line x1="645.4" y1="608.0" x2="630.4" y2="582.0" stroke="#f9f8f5" stroke-width="9" stroke-linecap="round"/><line x1="645.4" y1="608.0" x2="630.4" y2="582.0" stroke="#0f6e56" stroke-width="3" marker-end="url(#ah-0f6e56)"/>
+<line x1="662.7" y1="526.0" x2="692.7" y2="526.0" stroke="#f9f8f5" stroke-width="9" stroke-linecap="round"/><line x1="662.7" y1="526.0" x2="692.7" y2="526.0" stroke="#0064ff" stroke-width="3" marker-end="url(#ah-0064ff)"/>
+<line x1="710.1" y1="608.0" x2="725.1" y2="582.0" stroke="#f9f8f5" stroke-width="9" stroke-linecap="round"/><line x1="710.1" y1="608.0" x2="725.1" y2="582.0" stroke="#0f6e56" stroke-width="3" marker-end="url(#ah-0f6e56)"/>
+<line x1="804.7" y1="608.0" x2="789.7" y2="582.0" stroke="#f9f8f5" stroke-width="9" stroke-linecap="round"/><line x1="804.7" y1="608.0" x2="789.7" y2="582.0" stroke="#0f6e56" stroke-width="3" marker-end="url(#ah-0f6e56)"/>
+<line x1="899.4" y1="608.0" x2="854.4" y2="582.0" stroke="#f9f8f5" stroke-width="9" stroke-linecap="round"/><line x1="899.4" y1="608.0" x2="854.4" y2="582.0" stroke="#0f6e56" stroke-width="3" marker-end="url(#ah-0f6e56)"/>
+<line x1="630.4" y1="746.0" x2="645.4" y2="720.0" stroke="#f9f8f5" stroke-width="9" stroke-linecap="round"/><line x1="630.4" y1="746.0" x2="645.4" y2="720.0" stroke="#5f5e5a" stroke-width="3" marker-end="url(#ah-5f5e5a)"/>
+<line x1="789.7" y1="746.0" x2="804.7" y2="720.0" stroke="#f9f8f5" stroke-width="9" stroke-linecap="round"/><line x1="789.7" y1="746.0" x2="804.7" y2="720.0" stroke="#5f5e5a" stroke-width="3" marker-end="url(#ah-5f5e5a)"/>
+<line x1="1140.8" y1="526.0" x2="1170.8" y2="526.0" stroke="#f9f8f5" stroke-width="9" stroke-linecap="round"/><line x1="1140.8" y1="526.0" x2="1170.8" y2="526.0" stroke="#5f5e5a" stroke-width="3" stroke-dasharray="6 6" marker-end="url(#ah-5f5e5a)"/>
+<line x1="1300.1" y1="526.0" x2="1330.1" y2="526.0" stroke="#f9f8f5" stroke-width="9" stroke-linecap="round"/><line x1="1300.1" y1="526.0" x2="1330.1" y2="526.0" stroke="#5f5e5a" stroke-width="3" stroke-dasharray="6 6" marker-end="url(#ah-5f5e5a)"/>
+<line x1="804.7" y1="444.0" x2="789.7" y2="470.0" stroke="#f9f8f5" stroke-width="9" stroke-linecap="round"/><line x1="804.7" y1="444.0" x2="789.7" y2="470.0" stroke="#0064ff" stroke-width="3" stroke-dasharray="6 6" marker-end="url(#ah-0064ff)"/>
+<path d="M814.4,526.0 C867.8,486.0 965.7,566.0 1019.1,526.0" fill="none" stroke="#0064ff" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round" marker-end="url(#ah-0064ff)"/>
+<text x="420.3716857408417" y="394.0" class="side" text-anchor="end" fill="#5f5e5a">theory, people, legitimacy</text>
+<text x="340.6973485926734" y="522.0" class="side" text-anchor="end" fill="#9e3d18">evidence</text>
+<text x="420.3716857408417" y="670.0" class="side" text-anchor="end" fill="#9e3d18">evidence, from history</text>
+<text x="500.04602288901015" y="808.0" class="side" text-anchor="end" fill="#5f5e5a">make the work cheaper</text>
+<text x="906.7433714816834" y="796.0" class="side" text-anchor="start" fill="#0f6e56">reference implementations:</text>
+<text x="906.7433714816834" y="818.0" class="side" text-anchor="start" fill="#0f6e56">each must pass the Standard&#x27;s test</text>
+<text x="928.7433714816834" y="492.0" class="side" text-anchor="middle" fill="#004fcc">the voyage east</text>
+<text x="855.4690343335151" y="286.0" class="side" text-anchor="start" fill="#004fcc">you cannot hire followers</text>
+<text x="1394.7893943706936" y="648.0" class="side" text-anchor="middle" fill="#004fcc">a destination, not a plan</text>
+<text x="1530" y="250" class="lgh">ON THE MAP</text>
+<polygon points="1556.1,272.0 1556.1,286.0 1544.0,293.0 1531.9,286.0 1531.9,272.0 1544.0,265.0" fill="#e6efff" stroke="#0064ff" stroke-width="1.8"/>
+<text x="1568" y="284" class="lg">Town: where people gather</text>
+<polygon points="1556.1,312.0 1556.1,326.0 1544.0,333.0 1531.9,326.0 1531.9,312.0 1544.0,305.0" fill="#0064ff" stroke="#004fcc" stroke-width="1.8"/>
+<text x="1568" y="324" class="lg">Temple: the Standard</text>
+<polygon points="1556.1,352.0 1556.1,366.0 1544.0,373.0 1531.9,366.0 1531.9,352.0 1544.0,345.0" fill="#e1f5ee" stroke="#0f6e56" stroke-width="1.8"/>
+<text x="1568" y="364" class="lg">Workshop: tools</text>
+<polygon points="1556.1,392.0 1556.1,406.0 1544.0,413.0 1531.9,406.0 1531.9,392.0 1544.0,385.0" fill="#faece7" stroke="#d85a30" stroke-width="1.8"/>
+<text x="1568" y="404" class="lg">Library: the evidence</text>
+<polygon points="1556.1,432.0 1556.1,446.0 1544.0,453.0 1531.9,446.0 1531.9,432.0 1544.0,425.0" fill="#ffffff" stroke="#5f5e5a" stroke-width="1.8"/>
+<text x="1568" y="444" class="lg">Guild house: allied groups</text>
+<polygon points="1556.1,472.0 1556.1,486.0 1544.0,493.0 1531.9,486.0 1531.9,472.0 1544.0,465.0" fill="#f3f4f6" stroke="#5f5e5a" stroke-width="1.8"/>
+<text x="1568" y="484" class="lg">Tower: labs</text>
+<polygon points="1556.1,512.0 1556.1,526.0 1544.0,533.0 1531.9,526.0 1531.9,512.0 1544.0,505.0" fill="#ffffff" stroke="#0064ff" stroke-width="1.8" stroke-dasharray="4 3"/>
+<text x="1568" y="524" class="lg">Followers: adopters</text>
+<polygon points="1556.1,552.0 1556.1,566.0 1544.0,573.0 1531.9,566.0 1531.9,552.0 1544.0,545.0" fill="url(#fog)" stroke="#5f5e5a" stroke-width="1.8" stroke-dasharray="4 3"/>
+<text x="1568" y="564" class="lg">Fog: the territories</text>
+<text x="1530" y="610" class="lg" fill="#5f5e5a">Empty hexes are normal:</text>
+<text x="1530" y="628" class="lg" fill="#5f5e5a">most of any map is empty.</text>
+<line x1="64" y1="935" x2="1736" y2="935" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="64" y="965" class="eyebrow">THE ORDER OF BUILDING</text>
+<text x="64.0" y="1029" class="step-n">1</text>
+<text x="104.0" y="1021" class="step-t">Temple first</text>
+<text x="104.0" y="1051" class="step-b">Publish the standard: a public, versioned test,</text>
+<text x="104.0" y="1073" class="step-b">free to use, that any bot can be checked against.</text>
+<text x="621.3333333333334" y="1029" class="step-n">2</text>
+<text x="661.3333333333334" y="1021" class="step-t">Then followers</text>
+<text x="661.3333333333334" y="1051" class="step-b">Adopters arrive on their own, or not at all.</text>
+<text x="661.3333333333334" y="1073" class="step-b">Bards carry the word between towns; this book is one.</text>
+<text x="1178.6666666666667" y="1029" class="step-n">3</text>
+<text x="1218.6666666666667" y="1021" class="step-t">Then the stronghold, at half price</text>
+<text x="1218.6666666666667" y="1051" class="step-b">Implementations get cheaper because others help</text>
+<text x="1218.6666666666667" y="1073" class="step-b">build them. No walls until there is bread to protect.</text>
+<text x="64" y="1164" class="foot">Andre Comeau, The Bot Procurement Book, CC BY 4.0. The order of building follows the cleric's stronghold rule in the AD&amp;D 1st edition Dungeon Masters Guide (1979). Colours and type follow the Protocol Institute brand kit; not a Protocol Institute figure.</text>
+</svg>

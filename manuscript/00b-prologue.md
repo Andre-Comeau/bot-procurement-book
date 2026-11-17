@@ -9,14 +9,21 @@ Open notes, still to be settled in Andre's words:
   the source. "Discovered" may also be better as "named", since Rao introduced New Nature in a Protocolized
   post.
 - **[b]** "Through" is Claude's guess for the draft's "from". If he meant "rests on", the clause changes.
-- **[c]** The first bullet describes a shift rather than a tool. "Two changes", or his §13 "two routes",
-  would fit both bullets.
+- **[c]** Settled 2026-11-05: the two bullets became one sentence naming two tools (Claude's compression,
+  approved with the introduction), since the introduction now argues both in full. The PDF aside moved
+  there too.
 - **[d]** Four things were not added because they need his words:
   - the cost of checking the standard bot, which falls on the Owner unless bidders save more than it costs;
   - worker autonomy, the project's top goal;
   - optionally, the civil-law contrast after the Hammurabi paragraph;
   - optionally, "reasonable bidder" in place of "reasonable person".
+Origins (hex_ai search, 2026-11-02): the project began at the Protocol Institute Symposium's AI Kitcraft workshop on 21 September 2026, as a kit for writing fair-and-reasonable price justifications. The tensions frame first appears about 23 September, in Andre's correction that a price unfair "viewed independently" can still be best value. By 30 September the kit was "a stepping stone" and the case study had begun. Quotable versions are in the case study README and the project README; the day-by-day record is in the private journal and is not to be cited.
+Stevenson's prophecy (Andre, 2026-11-02: use it): a court will one day treat an "AI plus protocol system" as something you "can't sue but can insure against". Source: Sean Stevenson, "De-Dramatizing the Digital", Protocol Institute Symposium 2026, as summarised by PIBot (`C:\hex_ai\bot-council\transcripts\2026-10-18-pibot-web-gramsci-monster.md`). PIBot later said it could not confirm the wording and the transcript cuts off mid-sentence, so check the talk before attributing the exact words. Caution from the same transcript: an insurable system and a reasonable bot (a standard of conduct) are different legal fictions; the book can use the contrast rather than blur it. Fits here or in chapter 10.
+Sources in Appendix D (added 2026-11-05): Stevenson's talk "De-Dramatizing the Digital: How AI Descends Into New Nature" (23 September 2026), where he stated the Stevenson Test aloud (Andre, 2026-11-05), and his blyg post of 1 October 2026, which writes it down; both listed; Rao, "New Nature" (Contraptions, 16 January 2026); Sathe, "The Birth of Thickets" (19 July 2026, subtitled "An Interregnum in Space", which ties it to the Gramsci line); the Gramsci monster through Rao, "The Gramsci Gap" (Contraptions, 11 January 2025), which is where Andre met the idea (Andre, 2026-11-05: he has not read Gramsci, so the Prison Notebooks are not listed). Gramsci's own words (Prison Notebooks, Hoare and Nowell Smith, 1971) are "the old is dying and the new cannot be born; in this interregnum a great variety of morbid symptoms appear" ("time of monsters" is a later paraphrase); World Machines (worldmachines.org) and Sathe's Prime Radiant (primeradiant.worldmachines.org); Hammurabi in King's translation.
 Literature (`literature-review-2026-11-01.md`, Part 1): Abbott 2020 is the nearest title; Rao, *The Protocol Reader*, for the protocol frame.
+Two names (Andre, 2026-11-14, approving vgr_zirp's session 7 advice): the last paragraph is Claude's draft, to put in Andre's words. Bot Construction names the field (where the work leads); Bot Procurement names the book and the standard (the part kept small enough to test). The rule is stated once here and repeated only where chapter 11 meets field building; elsewhere the two names stay apart. With lawyers and insurers, lead with Bot Procurement. After de Vries, the field is not named against anything: it grows out of the trades, it does not replace them.
+Two names, wording corrected the same day (Andre, 2026-11-14: "I'll let you fit what fits and cut what does not"): the first version of the paragraph said Bot Procurement is "the part that has been earned so far" and "what we can already defend". The phrase was vgr_zirp's ("what has been earned"), from a question that had called the standard "narrow and tested hard". The test has not been run, and chapter 11 says it comes "when the estimator has earned it", so the paragraph now says "a part kept small enough to test" and "what has to be earned first". Until the test has been run, the book does not call the standard earned, tested or defended. The last two sentences name the two again instead of "the first" and "the second". Still Claude's draft, to put in Andre's words.
+Hammurabi for bots (Andre, 2026-11-02): the eye-for-an-eye paragraph returns in chapter 10 (the bot in the witness box), applied to bots and branded bots; see that chapter's source passages. Keep the two in step.
 -->
 
 The Stevenson Test states that nature does not allow for appeals. Civilizations are the product of world
@@ -56,13 +63,13 @@ For long-time followers of the Protocol Institute, the answer may have been obvi
 those who, like me, needed to take the long route, a mini-Prime Radiant project focused on Bot Procurement
 may be needed to arrive at the same answer: [Procurement Machines](link).
 
-AI-first procurement will need two tools: **[c]**
-
-* a shift away from the primacy of human-centric documentation to standardized instructions generated for
-  machine readability. (Yes, for those in the know, it would mean getting rid of PDFs — no one really liked
-  looking at paper sheets on a screen anyhow.)
-* a standardized bot for reading the specifications.
-
-With these tools, engineers and architects could still certify the canonical copy, the court could use the
+AI-first procurement will need two tools: documents written for machines to read, and a standardized bot to
+read them. With these tools, engineers and architects could still certify the canonical copy, the court could use the
 standardized bot as a surrogate for a reasonable bot, and bidders would be able to lower their estimating
 costs. **[d]**
+
+Two names will travel through this book, and they are worth keeping apart. Bot Construction is the field:
+where this work leads, from documents written for machines to robots on site, built on everything the
+trades have already built. Bot Procurement is the standard: the price on a tender and who pays when a bot
+gets it wrong, a part kept small enough to test. Bot Construction is where we are going. Bot Procurement is
+what has to be earned first.

@@ -1,7 +1,7 @@
 # Starting a relationship expecting a divorce
 
 <!--
-Part I. The question
+Part II. The question (chapter 5 since 2026-11-07; it was chapter 1)
 Target: 1,200 words, redraft
 Brief: The tensions of tendering: the one-shotted design, the long compile, the bidder who prices the errors and sues later. The three-way nexus from the case study's opening paragraph is the chapter's spine.
 Sources: `case-studies/andre-comeau/README.md` (opening and "Who bears the cost of finding errors"), the two paragraphs on tenders ignored or overpriced from `sentences-since-3-october.md`. Andre, 2026-10-31, after reading Galbraith (verbatim): "Our work would raise the organizational capacity to process information. This feels like the correct approach since the current system of PDFs and digital drawings does not seem to produce any slack over the use of paper plan's room. They did raise processing capacity by removing the need to travel to bid, but the actual attention needed remained the same." (In Jay Galbraith's terms the bidder's cushion for drawing errors is slack; the book's choice is to raise processing capacity instead.)
@@ -21,7 +21,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 (`case-studies/andre-comeau/README.md`, opening)
 
-*The one-shotted design and the long compile. These are also chapter 2 material, so keep them here only as far as the tensions need them:*
+*The one-shotted design and the long compile. These are also chapter 6 material, so keep them here only as far as the tensions need them:*
 
 > **One-shotted design.** While there is iteration within the Design, it needs to ship with all desired features. Some "softer" elements such as interior design can remain flexible, but most systems are resistant to anything but marginal changes.
 
@@ -51,4 +51,18 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 (positions §21, recorded 2026-10-11)
 
-*Word count of the passages above is about 470 of the 1,200 target. Left for chapter 5: the duty-to-report passages, the banana peel and the construction manager as a fourth party.*
+*Word count of the passages above is about 470 of the 1,200 target. Left for chapter 8: the duty-to-report passages, the banana peel and the construction manager as a fourth party.*
+
+*Added 2026-11-02: evidence that bidders already price the errors. Andre's reaction on reading what the Texas payment reports show of quantities bid and paid:*
+
+> This feels like strong evidence of strategic bidding based on tender deficiencies, the type we debated in the project's discovery phase.
+
+(positions §2.7, added 2026-10-16)
+
+*Claude's figures behind it, from the same section (1,230 Texas contracts paid out): 40% of priced lines were paid under 95% of the tendered quantity. On lines paid under 80%, every bidder had priced cheap against the middle of the bids (the low bidder 21% under) while the engineer's estimate sat 13% over: the overstated quantities were visible to the market and priced, not reported. In 20% of contracts another bidder would have been cheapest at the quantities actually paid, at a cost of 1.5% of all that was paid. In one sentence: the present system prices the deficiencies into the bids and pays for the order of the bids being wrong about one time in five. Check the figures against `work-packages/estimator/RESULTS.md` before printing them.*
+
+*The word for the bidder's cushion. Andre's Galbraith note (in the hidden note above) frames it: the cushion is slack, and the book's choice is to raise processing capacity instead. His older sentence on the limit of any tool:*
+
+> The tool is a hack that cuts across the tensions created by these artifacts: the procurement documents, the construction contract and the building model. The tool can work without understanding those forces, but the existing literature could give insight for building it. More importantly, the research should expose the limits of bot procurement. The Bidder's bot can only be as accurate as the Buyer's data.
+
+(`context-bank/background-notes.md`, "The tool and the artifacts it cuts across", recorded 2026-10-01)
