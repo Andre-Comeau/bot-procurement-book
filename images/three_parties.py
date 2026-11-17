@@ -1,5 +1,5 @@
 """Three parties at the door: the buyers, the bidders and the vendors (chapters 6a to 6c, three panels).
-Usage: python images/three_parties.py images/three-parties   (writes the .svg and an .html; render at 1600 1220, see images/README.md)
+Usage: python images/three_parties.py images/three-parties   (writes the .svg and an .html; render at 1600 1530, see images/README.md)
 """
 import sys, html, math, random
 C = dict(action="#0064ff", action_t="#e6efff", sec="#0f6e56", sec_t="#e1f5ee",
@@ -9,7 +9,7 @@ def mix(a, b, f):
     A = [int(a[i:i+2], 16) for i in (1, 3, 5)]; B = [int(b[i:i+2], 16) for i in (1, 3, 5)]
     return "#%02x%02x%02x" % tuple(round(A[i] + (B[i] - A[i]) * f) for i in range(3))
 D = {k: mix(C[k], C["ink"], 0.2) for k in ("action", "sec", "acc", "ink2")}
-W, H = 1600, 1220
+W, H = 1600, 1530
 GOLD = "#e0a526"; BARK = mix(C["acc"], C["ink"], 0.55)
 L = f'stroke="{C["ink"]}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"'
 def t(x, y, s, cls, fill=None, anchor="start"):
@@ -42,14 +42,14 @@ def sun(x, y, r):
         g.append(f'<line x1="{x+math.cos(a)*(r+6):.1f}" y1="{y+math.sin(a)*(r+6):.1f}" x2="{x+math.cos(a)*(r+16):.1f}" y2="{y+math.sin(a)*(r+16):.1f}" stroke="{GOLD}" stroke-width="3.5" stroke-linecap="round"/>')
     g.append(f'<circle cx="{x}" cy="{y}" r="{r}" fill="{GOLD}"/>')
     return "".join(g)
-TOP, BOT, CW = 250, 1160, 460
+TOP, BOT, CW = 250, 1190, 460
 XS = (80, 570, 1060)
 BAND = 190
 o = [f'<rect width="{W}" height="{H}" fill="{C["canvas"]}"/>']
 o.append(t(80, 86, "CHAPTERS 6A TO 6C · THE BUYERS, THE BIDDERS, THE VENDORS", "eyebrow"))
 o.append(t(80, 148, "Three parties at the door", "title"))
 o.append(t(80, 190, "Three short chapters ask the same questions of one party each: who they are, what they need from the tender,", "dek"))
-o.append(t(80, 218, "and what a published check gives them. Every line below is a sentence of its chapter, shortened.", "dek"))
+o.append(t(80, 218, "and what a published check gives them. Below the three, the answer they cannot give each other: a standard and an insurer.", "dek"))
 # ---- icons, drawn inside the tinted band at the top of each panel
 def icon_buyers(bx, by):
     gy = by + BAND - 14; g = []
@@ -107,7 +107,7 @@ parties = [
          need=["Volume handled without hiring", "Decisions that survive a challenge", "The door kept open, as the law asks",
                "Time back: funds freed sooner", "Capacity on jobs too big for one head"],
          gives=["Same bid, same answer, measured miss", "No cap, no key, no fee at the door",
-                "Claims checked against evidence", "A shorter tender, an earlier award"],
+                "Claims checked against evidence", "A shorter tender, an earlier award", "An answer to who pays when a bot is wrong"],
          catch=["Two answers to one bid invite a claim;", "their records become the market's memory."]),
     dict(name="The bidders", sub="racing for the light", tint=C["sec_t"], dark=D["sec"], icon=icon_bidders,
          q="Their question: what will it cost us, and what will it take to win?",
@@ -127,7 +127,7 @@ parties = [
 NAME_Y = TOP + BAND + 52
 Y_NEED = NAME_Y + 66 + 2 * 26 + 24
 Y_GIVES = Y_NEED + 38 + 6 * 30 + 16
-Y_CATCH = Y_GIVES + 38 + 4 * 30 + 16
+Y_CATCH = Y_GIVES + 38 + 5 * 30 + 16
 def block(x, y, label, items, col, cls):
     o.append(t(x + 24, y, label, "blab", col))
     o.append(f'<line x1="{x+24}" y1="{y+10}" x2="{x+CW-24}" y2="{y+10}" stroke="{C["hair"]}" stroke-width="2"/>')
@@ -148,7 +148,35 @@ for x, p in zip(XS, parties):
     block(x, Y_NEED, "WHAT THEY NEED", p["need"], p["dark"], "item")
     block(x, Y_GIVES, "WHAT A PUBLISHED CHECK GIVES THEM", p["gives"], p["dark"], "item")
     block(x, Y_CATCH, "THE CATCH", p["catch"], D["acc"], "catch")
-o.append(t(80, H - 40, "The chapters say the rest: who each party is, sorted by what its door looks like when the thicket arrives.", "foot", C["ink2"]))
+def icon_rules(x, y):
+    g = [f'<rect x="{x}" y="{y}" width="64" height="84" rx="3" fill="#ffffff" {L}/>']
+    for k in range(4):
+        g.append(f'<line x1="{x+12}" y1="{y+18+k*13}" x2="{x+52}" y2="{y+18+k*13}" stroke="{C["ink2"]}" stroke-width="2.5"/>')
+    g.append(f'<path d="M{x+16},{y+70} l9,9 l23,-22" fill="none" stroke="{C["sec"]}" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>')
+    return "".join(g)
+def icon_umbrella(x, y):
+    g = [f'<path d="M{x},{y+42} a32,32 0 0 1 64,0 q-8,-8 -16,0 q-8,-8 -16,0 q-8,-8 -16,0 q-8,-8 -16,0 z" fill="{C["action_t"]}" {L}/>']
+    g.append(f'<line x1="{x+32}" y1="{y+10}" x2="{x+32}" y2="{y+4}" {L}/>')
+    g.append(f'<line x1="{x+32}" y1="{y+42}" x2="{x+32}" y2="{y+80}" stroke="{C["ink"]}" stroke-width="4"/>')
+    g.append(f'<path d="M{x+32},{y+80} a8,8 0 0 1 -16,0" fill="none" stroke="{C["ink"]}" stroke-width="3.5" stroke-linecap="round"/>')
+    return "".join(g)
+BY0, BH = BOT + 30, 236
+for x in XS:
+    o.append(f'<line x1="{x+CW/2}" y1="{BOT}" x2="{x+CW/2}" y2="{BY0}" stroke="{C["ink2"]}" stroke-width="2.5"/>')
+o.append(f'<rect x="80" y="{BY0}" width="{W-160}" height="{BH}" rx="10" fill="{mix(C["hair"], C["canvas"], 0.55)}" stroke="{C["ink"]}" stroke-width="2"/>')
+o.append(t(104, BY0 + 40, "THE ANSWER THEY CANNOT GIVE EACH OTHER", "bhead", C["ink"]))
+o.append(t(104, BY0 + 72, "The three meet as principals, none the agent or partner of another, so the answer has to stand outside them: a standard and an insurer.", "bsub", C["ink2"]))
+halves = [
+    (104, "The standard", icon_rules, "A published check: the same answer to the same bid, a measured miss rate, and a record of what was checked. The referee none of the three can be for the others."),
+    (820, "The insurer", icon_umbrella, "Insurance on the margin, priced from the test's measured misses: who pays when the bot is wrong, which none of the three can carry for the others."),
+]
+for hx, name, icon, body in halves:
+    o.append(icon(hx, BY0 + 104))
+    o.append(t(hx + 90, BY0 + 128, name, "ans", C["ink"]))
+    yy = BY0 + 160
+    for ln in wrap(body, 56):
+        o.append(t(hx + 90, yy, ln, "anstext", C["ink"])); yy += 26
+o.append(t(80, H - 40, "Each list is its chapter's sentences, shortened; who pays, in full, is Part III.", "foot", C["ink2"]))
 css = f'''<style>
 .eyebrow{{font:600 22px "IBM Plex Sans",Arial,sans-serif;letter-spacing:.12em;fill:{C["ink2"]}}}
 .title{{font:700 54px Georgia,"Times New Roman",serif;fill:{C["ink"]}}}
@@ -161,6 +189,10 @@ css = f'''<style>
 .catch{{font:italic 400 20px "IBM Plex Sans",Arial,sans-serif}}
 .tagtext{{font:600 17px "IBM Plex Sans",Arial,sans-serif}}
 .foot{{font:italic 400 19px "IBM Plex Sans",Arial,sans-serif}}
+.bhead{{font:600 18px "IBM Plex Sans",Arial,sans-serif;letter-spacing:.1em}}
+.bsub{{font:italic 400 20px "IBM Plex Sans",Arial,sans-serif}}
+.ans{{font:700 26px Georgia,serif}}
+.anstext{{font:400 20px "IBM Plex Sans",Arial,sans-serif}}
 </style>'''
 svg = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">{css}' + "".join(o) + "</svg>"
 stem = sys.argv[1] if len(sys.argv) > 1 else "three-parties"
