@@ -16,6 +16,18 @@ He describes two paths. The first is the formal one, with numbered steps: a prop
 
 Construction procurement has walked both paths before. In 2005 Ron Watermeyer made the case for an international procurement standard built on South Africa's national ones, which already worked; ISO 10845 followed in 2010, and he chaired the ISO subcommittee set up in 2015 to maintain it. The Open Contracting Data Standard went the other way round: a small team, backed by the World Bank and the Omidyar Network, wrote a data format for publishing public contracts, released version 1.0 in 2015, and let governments pick it up one at a time. Neither standard computes anything. ISO 10845 fixes the procedure and OCDS fixes the record of the contract, and both stop at the edge of the question this book asks.
 
+## The ally that stopped at the tender
+
+Of all the standards on the map, the Open Contracting Data Standard is the one this project looks at hardest, and the reason is what it leaves out.
+
+OCDS follows a public contract from start to finish. It gives each contracting process an identifier and a shape that runs from the plan through the tender, the award and the contract to the payments that follow. Ukraine's public buying system publishes in it. The infrastructure version, written with CoST in 2019, adds what construction needs, such as the project itself and the changes made to its contracts along with the reasons for them. Most of the frame a bot would need around a construction tender is already built, in a format governments already publish.
+
+What OCDS does not carry is the tender itself. A tender in OCDS points to its documents, and those documents are still the drawings and specifications that bidders price, usually as PDFs. There is room for items, quantities and unit prices, but few publishers fill it in, and those are the numbers a price check needs.
+
+Stopping there was probably wise. The tender documents are where each country keeps its own law, trade customs and units of measure, and a standard written for every government at once had good reason to leave them alone. This project goes deeper because its question lives in those documents. A bot that judges a price has to read what was priced.
+
+That makes OCDS an ally rather than a rival. Its team wrote something that worked, shipped it, and let governments join one at a time without waiting for perfection. Modern tools make that path easier than it has ever been, and having something that works may now matter more than having something perfect. The template and the record this chapter asks for can hang off the frame OCDS already built instead of building a second one beside it.
+
 ## Two asks
 
 That question is who pays when a bot causes harm, and it decides what the standard is for. Someone will have to say what a reasonable bot would have read in the tender, so the standard is there to say which reading binds. Seen this way, the standard bot is a legal instrument before it is a technical one. Nobody is asked to trust the bot; they are given a reasonable reader they can cite in court. That also moves the project out of the innovation bucket, where public buyers are wary, and into the standards bucket, where they already know how to take part.
