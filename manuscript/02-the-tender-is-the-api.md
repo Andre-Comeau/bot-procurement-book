@@ -12,6 +12,8 @@ A single interface has a second virtue, and it is the one a court cares about. O
 
 The interface, though, is a stack of PDFs. They are enormous files that machines read unreliably. They carry no metadata a bot can use, and they look terrible on the phone of the person who has to build from them. The zombie garden explained why they survive. They are the stamped, frozen copy a court reads. In software terms, the contract is written on the one medium the compiler cannot open.
 
+![One door between two rooms: the design room, with the engineer's beam drawing, and the construction room, with the builder's crew schedule and a surety standing behind the builder; between them the tender as a door made of a stack of PDFs, the call (the bill of quantities) going one way and the answer (the bid) coming back](../images/tender-api-door.png)
+
 The design side is no better tested. BIM modelling, AI review and licensed professionals help screen for errors, but bug-free drawings are still a mythical beast. Every other interface in the world is tested by calling it thousands of times before anyone depends on it. A tender is called once, by each bidder, in the few weeks before the bids close, and the errors it hides are found by the people least placed to say so. That is the divorce of chapter 5. A rich enough building model would be the specification itself, and bots would rather read the model's files than the drawings made from it. The catch is that the designer carries more cost and more risk, because paper can be checked by eye far more easily than the code behind a high-rise. In several countries the interface already exists in a plainer form, where the bid travels as a file the owner writes and the bidder fills in. A later chapter visits them. This chapter is about the traffic through the door.
 
 ## The cost of a call
@@ -30,6 +32,8 @@ The flood arrived first where the door was smallest. Clarkesworld was February 2
 
 Picture the oak falling. Where it stood there is a clearing, and the clearing fills with a thicket racing for the new sunlight. There are more plants than anyone can count, and the old systems, built for the mature forest, cannot cope. Every seedling in the thicket looks much like the next, which is the point. A polished bid used to prove something, because writing one took a week and someone who knew the work. Two economists watched that proof die on a freelance platform. Before AI writing tools, employers paid a premium for applications tailored to the job. After, the premium vanished, the workers who had been hired most were hired less, and the weakest were hired more. The polished bid is now only polish. The market has never been busier, and its bids have never said less.
 
+![The oak falls: for a century the cost of bidding stood as an oak over the market, with a few large bidders and the plan room grown in its shade and the rest shaded out; now a stump, a fallen trunk and light pouring into a clearing where a thicket races for the sun, over a forest floor that is the market's record of what the work has cost](../images/oak-falls.png)
+
 What the thicket cannot fake is the forest floor. A market's memory is its record of what this kind of work has cost, on this kind of job, in this region, under these conditions. A buyer can hold a thousand bids up against that record, and no bid-writing bot can polish it, because it did not write it. One warning comes with the memory. If one company owns the record, and its bot reads for the buyer while its other bot writes for the bidders, the memory stops being the market's. A study of hiring found that a screening model favours résumés written by the same model, shortlisting them up to 60 percent more often. Put the same bot on both sides of a tender and the clearing belongs to one plant. Keep the record public, and keep it plural.
 
 ## Slack, and the other option
@@ -45,6 +49,8 @@ The standard is the other option, Galbraith's improved capacity. The same check,
 ## Four ways to answer a flooded door
 
 Software has met this flood before, and it has four answers to a flooded interface. It can limit how often anyone may call, which engineers call a rate limit and this chapter will call a cap. It can decide who may call, with a key. It can charge for each call, a fee. Or it can check every call against rules that everyone can read, a published check. Construction has a twin for each, and the twins show which answers a public buyer can live with.
+
+![Four ways to answer a flooded door, as four doors: a cap (a plate reading two a month and a rope barrier), a key (a keyhole and a key on a hook), a fee (a slot marked insert bond and a coin) and a published check (a door standing open with the rules posted beside it), each with its online twin, its construction twin and the chapter's verdict; the first three help one party at another's expense and only the fourth scales without shutting anyone out](../images/four-doors.png)
 
 Caps. Clarkesworld's closed door was a cap, and it turned away seven hundred real stories to stop five hundred fakes. arXiv's two papers a month fall on established authors too. Construction's cap is the shortlist. Trade law allows it only when it is announced in advance with the criteria stated. A cap hits good and bad callers alike.
 

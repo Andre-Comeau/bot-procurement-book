@@ -38,6 +38,8 @@ PREVIEWS = {
         "The Standard, World 2 of the overworld map: existing standards as levels, each with the change the book would ask of it, leading to a castle and a courthouse"),
     "06e-the-underwriters-chapter.md": ("social-card-one-losing-job.png",
         "One losing job is not a claim: completed jobs as mugs filled to their margin, and a policy that pays only when the average across many tenders falls short"),
+    "02-the-tender-is-the-api.md": ("social-card-oak-falls.png",
+        "The oak falls: the cost of bidding stood as an oak over the market for a century; where it stood, a thicket races for the light"),
     "app-e-pilot-term-sheet.md": ("social-card-one-losing-job.png",
         "A draft term sheet for a pilot policy insuring an estimating bot's margin, for an underwriter to mark up"),
 }
