@@ -206,7 +206,7 @@ o.append(f'<rect x="{X0}" y="{Y0}" width="{X1-X0}" height="{Y1-Y0}" fill="none" 
 # the other worlds
 WORLDS = [("WORLD 2", "The Standard", C["sec_d"]),
           ("WORLD 3", "BIM for bots", C["action"]),
-          ("WORLD 4", "Bot monitoring", C["ink2"]),
+          ("WORLD 4", "Bot admin", C["ink2"]),
           ("WORLD 5", "Robotic construction", C["acc"])]
 PX0, PX1, PG = 1390, 1760, 20
 PH = (Y1 - Y0 - PG * 3) / 4
