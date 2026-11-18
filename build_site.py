@@ -40,6 +40,10 @@ PREVIEWS = {
         "The Standard, World 2 of the overworld map: existing standards as levels, each with the change the book would ask of it, leading to a castle and a courthouse"),
     "06e-the-underwriters-chapter.md": ("social-card-one-losing-job.png",
         "One losing job is not a claim: completed jobs as mugs filled to their margin, and a policy that pays only when the average across many tenders falls short"),
+    "02-the-tender-is-the-api.md": ("social-card-oak-falls.png",
+        "The oak falls: the cost of bidding stood as an oak over the market for a century; where it stood, a thicket races for the light"),
+    "02b-the-buyers.md": ("social-card-three-parties.png",
+        "Three parties at the door: the buyers with more bids than eyes, the bidders racing for the light, the vendors selling shovels; what each needs, what a published check gives them, and the standard and the insurer beneath them"),
     "app-e-pilot-term-sheet.md": ("social-card-one-losing-job.png",
         "A draft term sheet for a pilot policy insuring an estimating bot's margin, for an underwriter to mark up"),
 }
@@ -55,6 +59,7 @@ DRAFTED = {
     "03-how-a-price-is-judged-today.md", "03b-what-do-we-do-with-a-drunken-sailor.md",
     "00c-introduction.md", "06e-the-underwriters-chapter.md",
     "09-the-protocol-that-follows.md", "app-d-bibliography.md", "app-e-pilot-term-sheet.md",
+    "02-the-tender-is-the-api.md", "02b-the-buyers.md", "02c-the-bidders.md", "02d-the-vendors.md",
 }
 
 # The labels, in plain words, and the line at the top of each working-copy page.
@@ -86,7 +91,11 @@ PARTS = [
         ("00c-introduction.md", "4. The zombie garden")]),
     ("Part II. The question", [
         ("01-expecting-a-divorce.md", "5. Starting a relationship expecting a divorce"),
-        ("02-the-tender-is-the-api.md", "6. The tender is the API")]),
+        ("02-the-tender-is-the-api.md", "6. The tender is the API"),
+        # The three parties at the tender's door, drafted 2026-11-13; numbering to be decided.
+        ("02b-the-buyers.md", "6a. The buyers: more bids than eyes"),
+        ("02c-the-bidders.md", "6b. The bidders: racing for the light"),
+        ("02d-the-vendors.md", "6c. The vendors: players, not referees")]),
     ("Part III. The machines", [
         ("04-two-centuries-of-one-loop.md", "7. Two centuries of one loop"),
         ("05-liability-shifts.md", "8. Liability shifts to the user's bot"),
