@@ -19,8 +19,9 @@ ROOT = pathlib.Path(__file__).parent
 SRC, OUT = ROOT / "manuscript", ROOT / "_site_src"
 SLUG = "bot-procurement"  # the book's path on books.andrecomeau.xyz
 # Shown in link previews (Discord and the like) for pages without prose of their own.
-DESCRIPTION = ("When a bot causes harm, who pays? A short manifesto on liability in construction "
-               "procurement, written in public during the Protocol Institute's PiBoWriMo, November 2026.")
+DESCRIPTION = ("How could bots that price or check construction bids be relied on by buyers, bidders, "
+               "insurers and courts? A short book on Bot Procurement, written in public during the "
+               "Protocol Institute's PiBoWriMo, November 2026.")
 
 # Link previews for chapters that have been worked on: their own figure (a card
 # made by images/social_card.py) and their opening line as the description, in the
