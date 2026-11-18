@@ -40,7 +40,7 @@ Literature (`literature-review-2026-11-01.md`, Part 1): read Abbott, *The Reason
 
 *The four labels come from the Substack essay "Age of AI, the age of protocols" (andrecomeau.substack.com). Its definitions are not yet quoted anywhere in the book's sources; take them from the essay.*
 
-*Possible chapter openers. The eight one-line tensions under the machinery figure are Claude's, tested on the bot council and PIBot, and wait on Andre's words (`machinery-figure-chat-2026-10.md`, section 2): "The lowest bid wins, mistakes and all." (the procurement system); "The owner's estimate against what bidders charge." (the estimator); "Who pays to find the drawings' errors?" (bot procurement); "If a robot builds the error, who answers?" (robots from the model). The others are on BIM, BIM for bots, bot monitoring and robotic construction.*
+*Possible chapter openers. The eight one-line tensions under the machinery figure are Claude's, tested on the bot council and PIBot, and wait on Andre's words (`machinery-figure-chat-2026-10.md`, section 2): "The lowest bid wins, mistakes and all." (the procurement system); "The owner's estimate against what bidders charge." (the estimator); "Who pays to find the drawings' errors?" (bot procurement); "If a robot builds the error, who answers?" (robots from the model). The others are on BIM, BIM for bots, bot monitoring and robotic construction. Since 2026-11-18 the third is called bot admin (Andre: "Bot Admin may be a more neutral term than Bot Monitoring. Workers will not find increased Taylorism to be to their liking"); the machinery figure still says monitoring.*
 
 ### For "Author's note on method"
 

@@ -45,7 +45,7 @@ HEX = {
     (3,4): ("tower", ["Offline AI"], "pinned weights"),
     (4,1): ("followers", ["Adopters"], "arrive on their own"),
     (6,2): ("fog", ["BIM for bots"], ""),
-    (7,2): ("fog", ["Bot", "Monitoring"], ""),
+    (7,2): ("fog", ["Bot", "Admin"], ""),
     (8,2): ("fog", ["Robotic", "Construction"], "the far-off land"),
 }
 FOG_EXTRA = {(6,1),(7,1),(8,1),(6,3),(7,3),(8,3),(7,4),(8,4),(8,5)}

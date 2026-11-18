@@ -114,7 +114,7 @@ HOME = """# Bot Procurement Book
 
 *The machinery, from today's procurement system to robotic construction: what each machine makes for the next.*
 
-![The project as a hex map: Field Building is the town and the Standard its temple; guild houses, libraries, workshops and towers feed them; adopters arrive on their own; BIM for bots, bot monitoring and robotic construction lie in the fog to the east](images/project-hex-map.png)
+![The project as a hex map: Field Building is the town and the Standard its temple; guild houses, libraries, workshops and towers feed them; adopters arrive on their own; BIM for bots, bot admin and robotic construction lie in the fog to the east](images/project-hex-map.png)
 
 *The project as a hex map: one town, one temple, and fog to the east. The order of building comes from an old role-playing game: temple first, then followers, then the stronghold.*
 
