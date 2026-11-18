@@ -34,7 +34,7 @@ A standard sets the floor. It sets a baseline for good judgement, with no guaran
 
 ## Manipulation: the Serpent
 
-In the garden, the Serpent worked with words. He promised Eve that she would be as the gods, and only then did the fruit begin to look good for food and pleasant to the eyes, the same words Genesis had already used for every other tree in the garden.
+In the garden, the Serpent worked with words. He promised Eve that she would be as the gods, and only then did the fruit begin to look good for food and pleasant to the eyes, nearly the same words Genesis had already used for every other tree in the garden.
 
 There is nothing new under the sun, and that includes the manipulator. After nearly four thousand years, the system has developed fairly robust legal and cultural institutions to restrain him, and AI will open new avenues, as every technology does, with the lawsuits and lobbying that follow. AI agents are a new tool for old goals, whether the Serpent is a person using a bot or, one day, a bot working on its own account. Law is the old remedy, and a standard gives the law a yardstick: if anyone can rerun the standard bot on a tender and get the same reading, a bidder who bent the tender has left a mark a judge can measure.
 

@@ -1325,7 +1325,7 @@
 </g>
 <rect x="1402" y="627" width="346" height="58" rx="8" fill="#2c2c2a" opacity=".84"/>
 <text x="1418" y="653" class="pxs" fill="#ffd27a" text-anchor="start">WORLD 4</text>
-<text x="1418" y="677" class="lab" fill="#ffffff" text-anchor="start">Bot monitoring</text>
+<text x="1418" y="677" class="lab" fill="#ffffff" text-anchor="start">Bot admin</text>
 <text x="1500" y="807" class="labs" fill="#ffffff" text-anchor="middle">Field building</text>
 <rect x="1390" y="615" width="370" height="212" fill="none" stroke="#ffffff" stroke-width="5"/>
 <rect x="1390" y="847" width="30" height="30" fill="#dd724f" stroke="#8a452d" stroke-width="1.5"/>

@@ -58,6 +58,8 @@ DRAFTED = {
     "00c-introduction.md", "06e-the-underwriters-chapter.md",
     "09-the-protocol-that-follows.md", "app-d-bibliography.md", "app-e-pilot-term-sheet.md",
     "02-the-tender-is-the-api.md", "02b-the-buyers.md", "02c-the-bidders.md", "02d-the-vendors.md",
+    "06c-the-blessing-of-the-legal-department.md", "08b-the-zombie-lost-to-a-file-format.md",
+    "09a-the-trades-who-holds-the-jig.md", "09b-the-monsters-we-kept.md",
 }
 
 # The labels, in plain words, and the line at the top of each working-copy page.
@@ -99,9 +101,13 @@ PARTS = [
         ("05-liability-shifts.md", "8. Liability shifts to the user's bot"),
         ("06-the-banana-peel.md", "9. The banana peel"),
         ("06b-the-bot-in-the-witness-box.md", "10. The bot in the witness box"),
+        ("06c-the-blessing-of-the-legal-department.md", "The blessing of the legal department (draft, place to be decided)"),
         ("06e-the-underwriters-chapter.md", "The underwriters' chapter (draft, place to be decided)")]),
     ("Part IV. The protocol that follows", [
+        ("08b-the-zombie-lost-to-a-file-format.md", "The zombie lost to a file format (draft, place to be decided)"),
         ("09-the-protocol-that-follows.md", "11. The protocol that follows"),
+        ("09a-the-trades-who-holds-the-jig.md", "The trades: who holds the jig (draft, place to be decided)"),
+        ("09b-the-monsters-we-kept.md", "The monsters we kept (draft, place to be decided)"),
         ("10-the-meta-goal.md", "12. The meta-goal")]),
     ("Appendices", [
         ("app-a-the-cards.md", "A. Procurement Machines"),
@@ -117,7 +123,7 @@ HOME = """# Bot Procurement Book
 
 **When a bot causes harm, who pays?** A short manifesto on liability in construction procurement, public and private, and the standard that has to exist before owners, bidders and courts can rely on a bot.
 
-![The machinery: the procurement system, the estimator and bot procurement on one ground; BIM, bot monitoring and robotic construction on another, with what each machine makes for the next](images/machinery-thicket.png)
+![The machinery: the procurement system, the estimator and bot procurement on one ground; BIM, BIM for bots, bot admin and robotic construction on another, with what each machine makes for the next](images/machinery-thicket.png)
 
 *The machinery, from today's procurement system to robotic construction: what each machine makes for the next.*
 
