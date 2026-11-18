@@ -42,7 +42,7 @@ A standard bot can stand guard the same way. It is a middle-class bot, an Agent 
 
 The standard bot is unlikely to out-think a Serpent, and publishing it so that anyone can rerun it also shows the Serpent where to aim, so the strength has to come from somewhere else. A bond held against the alternate, or money held in escrow and released only once the promised benefit is actually realized, asks the Serpent to put something of its own at stake before it is believed. It is a consequence posted in advance.
 
-The standard still earns its place in the garden. It cannot keep the Serpent out, but it narrows the gate: a tender that every bot reads the same way leaves fewer places to hide, and an alternate that passed a published test leaves a record of exactly what it passed. That record has legal value. A buyer who relied on the standard bot did what a reasonable buyer would do, and it falls to the bidder to explain why its fruit passed the test and failed the buyer.
+The standard still earns its place in the garden. It cannot keep the Serpent out, but it narrows the gate: a tender that every bot reads the same way leaves fewer places to hide, and an alternate that passed a published test leaves a record of exactly what it passed. That record has legal value. A buyer who relied on the standard bot would have a strong answer: it did what a reasonable buyer would do, and it would fall to the bidder to explain why its fruit passed the test and failed the buyer.
 
 ## Malice: the Dragon
 
