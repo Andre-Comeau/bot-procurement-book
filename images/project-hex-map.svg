@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
 <defs>
 <pattern id="fog" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#f9f8f5"/><line x1="0" y1="0" x2="0" y2="12" stroke="#e5e7eb" stroke-width="5"/></pattern>
-<marker id="ah-004fcc" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#004fcc"/></marker>
-<marker id="ah-d85a30" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d85a30"/></marker>
 <marker id="ah-0064ff" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0064ff"/></marker>
+<marker id="ah-d85a30" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d85a30"/></marker>
 <marker id="ah-0f6e56" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0f6e56"/></marker>
+<marker id="ah-004fcc" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#004fcc"/></marker>
 <marker id="ah-5f5e5a" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5f5e5a"/></marker>
 <style>
       .eyebrow{font-family:Outfit,sans-serif;font-weight:600;font-size:15px;letter-spacing:.16em;fill:#0064ff}
@@ -119,7 +119,7 @@
 <text x="1235.4" y="482.0" class="kind" text-anchor="middle" fill="#5f5e5a">UNEXPLORED</text>
 <path d="M1231.440720074357,497.0 V520.0 M1233.440720074357,499.0 L1248.440720074357,517.0 H1233.440720074357 M1219.440720074357,521.0 H1249.440720074357 L1244.440720074357,527.0 H1224.440720074357 Z" fill="none" stroke="#5f5e5a" stroke-width="2" stroke-linejoin="round"/>
 <text x="1235.4" y="542.0" class="name" text-anchor="middle" fill="#2c2c2a">Bot</text>
-<text x="1235.4" y="564.0" class="name" text-anchor="middle" fill="#2c2c2a">Monitoring</text>
+<text x="1235.4" y="564.0" class="name" text-anchor="middle" fill="#2c2c2a">Admin</text>
 <text x="1394.8" y="482.0" class="kind" text-anchor="middle" fill="#5f5e5a">UNEXPLORED</text>
 <path d="M1390.7893943706936,497.0 V520.0 M1392.7893943706936,499.0 L1407.7893943706936,517.0 H1392.7893943706936 M1378.7893943706936,521.0 H1408.7893943706936 L1403.7893943706936,527.0 H1383.7893943706936 Z" fill="none" stroke="#5f5e5a" stroke-width="2" stroke-linejoin="round"/>
 <text x="1394.8" y="542.0" class="name" text-anchor="middle" fill="#2c2c2a">Robotic</text>

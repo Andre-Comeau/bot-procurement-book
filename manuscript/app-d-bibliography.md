@@ -7,7 +7,7 @@ Entries marked "to check" have not been verified against the publication.
 Added 2026-11-06 with Claude's chapter 10 draft, for Andre to confirm (keep only what the finished chapter uses): buildingSMART IDS, CCDC 23, IEEE 3119, ISO 10845-3, Eghbal, ISO 10845-1, Lang (essay and talk), Open Contracting Partnership, Roegies, Watermeyer. The Lang essay's place in The Protocol Reader is not confirmed.
 Added 2026-11-13 with Claude's drafts of chapter 6 and chapters 6a to 6c, for Andre to confirm (keep only what the finished chapters use; names and titles marked "to check" were taken from research notes, not from the publications): Auditor General of Ontario; Brooks; Clarke; Corrigan; Dark Reading; Dwork and Naor; European Commission (COM(2026) 590); European Court of Auditors; Galbraith 1974; Galdin and Silbert; Graham; Kahneman, Sibony and Sunstein; Kaplow; Laurie and Clayton; Rao and Reiley; Santoleri, Rentocchini and Lelli; Solicitors Regulation Authority; Thomson and Schinazi (RFC 9413); UNCITRAL; United States, 23 CFR 636; Vals AI; World Trade Organization; Xu, Li and Jiang; Yegge. Rao's two liveness essays and Shear's note were listed with the morning draft and removed the same afternoon, when the liveness theory left the reader's text (Andre); they are recorded in chapter 6's hidden note as the writers' working concept.
 Kolt: end page not yet confirmed (the journal page gives only the first page, 101 Notre Dame L. Rev. 335, published 22 August 2026). Page references in the chapters' notes are to the arXiv v2 PDF.
-Added 2026-11-12 with the chapter 2 delivery-method edit, for Andre to confirm: FHWA TechBrief HRT-17-100 and the National Academies open-book pricing guide (sources found in research, not yet read by Andre).
+Added 2026-11-12 with the chapter 2 delivery-method edit, for Andre to confirm: FHWA TechBrief HRT-17-100 and the National Academies open-book pricing guide (sources found in research, not yet read by Andre). Titles corrected 2026-11-17 from the source check (manuscript-review-2026-11-17/02b): the guide is Gransberg and Pala, NCHRP Synthesis 653.
 -->
 
 Abbott, Bud, and Lou Costello. "Who's on First?" Comedy routine, performed from 1937; filmed in *The Naughty Nineties* (Universal, 1945). (Named, not quoted.)
@@ -40,7 +40,7 @@ European Commission. Proposal for a regulation on public procurement, COM(2026) 
 
 European Court of Auditors. *Public Procurement in the EU: Less Competition for Contracts Awarded for Works, Goods and Services in the 10 Years up to 2021.* Special Report 28/2023. Luxembourg, 2023.
 
-Federal Highway Administration. *Comparing the Performance of Project Delivery Methods.* TechBrief FHWA-HRT-17-100. McLean, VA: FHWA, 2018.
+Federal Highway Administration. *Alternative Contracting Method Performance in U.S. Highway Construction.* TechBrief FHWA-HRT-17-100. McLean, VA: FHWA, April 2018. https://www.fhwa.dot.gov/publications/research/infrastructure/17100/index.cfm
 
 Galbraith, J. R. *Achieving Integration through Information Systems.* Working paper 364-68. Cambridge, MA: MIT Sloan School of Management, December 1968.
 
@@ -49,6 +49,8 @@ Galbraith, Jay R. "Organization Design: An Information Processing View." *Interf
 Galdin, Anais, and Jesse Silbert. "Making Talk Cheap: Generative AI and Labor Market Signaling." arXiv:2511.08785, November 2025. https://arxiv.org/abs/2511.08785.
 
 Graham, Paul. "A Plan for Spam." August 2002. https://www.paulgraham.com/spam.html.
+
+Gransberg, Douglas D., and Marko Pala. *Open-Book Pricing Practices for Construction Manager/General Contractor and Progressive Design-Build Projects.* NCHRP Synthesis 653. Washington, DC: The National Academies Press, 2025. https://doi.org/10.17226/29084.
 
 Hammurabi. *The Code of Hammurabi*, c. 1750 BC. Translated by L. W. King, 1910.
 
@@ -77,8 +79,6 @@ Lang, David. "Standards Make the World." Summer of Protocols, Ethereum Foundatio
 Lang, David. Opening talk and roundtable on field building, with Timber Stinson-Schroff and Venkatesh Rao. Protocol Symposium 2026, 23 September 2026. https://www.youtube.com/watch?v=nx-3L5Apbgw.
 
 Laurie, Ben, and Richard Clayton. "'Proof-of-Work' Proves Not to Work." Workshop on the Economics of Information Security, Minneapolis, May 2004. https://www.cl.cam.ac.uk/~rnc1/proofwork.pdf.
-
-National Academies of Sciences, Engineering, and Medicine. *Guide to Open-Book Pricing for Alternative Contracting Methods.* Washington, DC: The National Academies Press, 2025. https://doi.org/10.17226/29084.
 
 Open Contracting Partnership. *Open Contracting Data Standard*, version 1.0, 2015; and, with CoST – the Infrastructure Transparency Initiative, *Open Contracting for Infrastructure Data Standard* (OC4IDS), 2019. https://standard.open-contracting.org/.
 
