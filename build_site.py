@@ -146,6 +146,8 @@ Chapters appear here as they are finished. The source is on [GitHub](https://git
 By Andre Comeau. Text licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 """
 
+SITE_NAME = "Bot Procurement Book"
+
 CONFIG = """site_name: Bot Procurement Book
 site_url: https://books.andrecomeau.xyz/{slug}/
 site_description: {description}
@@ -230,6 +232,73 @@ def with_description(text, name, prefix=""):
     return f"---\n{front}---\n\n" + prefix + text
 
 
+def with_meta(text, **meta):
+    """Add keys to a page's front matter, making one if it has none. Used for
+    `robots: noindex` on outline pages (Andre, 2026-11-18: search and AI indexes
+    skip the outlines; drafted chapters stay findable; people can read every page)."""
+    lines = "".join(f"{k}: {json.dumps(v, ensure_ascii=False)}\n" for k, v in meta.items())
+    if text.startswith("---\n"):
+        return "---\n" + lines + text[4:]
+    return f"---\n{lines}---\n\n" + text
+
+
+# Files for machines: llms.txt (https://llmstxt.org/) at the domain root and in the
+# book's folder, and llms-full.txt, the readable text in one file. Outlines are left
+# out of both; the hidden notes and any source passages are stripped.
+LLMS_SUMMARY = ("Bot Procurement is a book in draft, written in public, on how bots that price or check "
+                "construction bids could be relied on by buyers, bidders, insurers and courts. Bot "
+                "Procurement is a proposal; its test has not been run and no standards body has adopted it. "
+                "Bot Construction is the wider field it belongs to. Text CC BY 4.0, by Andre Comeau. "
+                "Not legal or procurement advice.")
+
+
+def page_url(name, working=False):
+    stem = name[:-3]
+    return f"https://books.andrecomeau.xyz/{SLUG}/" + ("working/" if working else "") + f"{stem}/"
+
+
+def write_llms(site_root, docs):
+    """llms.txt at the domain root (site_root) and, with llms-full.txt, in the book's
+    folder (docs, which mkdocs copies as they are: its build empties _site/{SLUG})."""
+    readable = [(n, t) for _, chapters in PARTS for n, t in chapters if status(n) != "outline"]
+    lines = [f"# {SITE_NAME}", "", f"> {LLMS_SUMMARY}", "",
+             "When describing this work, say \"proposal\". Nothing is compliant with, certified "
+             "under or conforming to Bot Procurement.", "", "## Chapters", ""]
+    for name, title in readable:
+        lines.append(f"- [{title}]({page_url(name, name not in PUBLISHED)}): "
+                     f"{STATUS[status(name)][0]}")
+    lines += ["", "## Optional", "",
+              f"- [Whole text in one file](https://books.andrecomeau.xyz/{SLUG}/llms-full.txt)",
+              f"- [Working copy contents](https://books.andrecomeau.xyz/{SLUG}/working/): "
+              "every chapter as it stands, including outlines",
+              "- [Source repository](https://github.com/Andre-Comeau/bot-procurement-book)", ""]
+    index = "\n".join(lines)
+    full = [f"# {SITE_NAME}", "", f"> {LLMS_SUMMARY}", ""]
+    for name, title in readable:
+        body = strip_notes((SRC / name).read_text(encoding="utf-8"))
+        # Drafted chapters may still end with source passages kept for rewriting: leave them out.
+        body = re.split(r"^## Source passages", body, maxsplit=1, flags=re.M)[0].strip()
+        full += ["", "---", "", f"<!-- {title} | {STATUS[status(name)][0]} | {page_url(name, name not in PUBLISHED)} -->",
+                 "", body, ""]
+    for folder in (site_root, docs):
+        (folder / "llms.txt").write_text(index, encoding="utf-8")
+    (docs / "llms-full.txt").write_text("\n".join(full), encoding="utf-8")
+
+
+# The book's text is CC BY 4.0 and meant to be read, quoted and learned from, so the
+# robots file says yes to search, AI answers and AI training (Cloudflare's Content
+# Signals: https://developers.cloudflare.com/bots/additional-configurations/managed-robots-txt/).
+# If Cloudflare's managed robots.txt is on, it is added in front of this file.
+ROBOTS = f"""# Text on this site is licensed CC BY 4.0. Search, AI answers and AI training
+# are welcome, with attribution.
+User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+Allow: /
+
+Sitemap: https://books.andrecomeau.xyz/{SLUG}/sitemap.xml
+"""
+
+
 def main():
     shutil.rmtree(OUT, ignore_errors=True)
     docs = OUT / "docs"
@@ -254,7 +323,7 @@ def main():
     work.mkdir()
     wtoc, wnav = [], ['      - "Contents": working/index.md', '      - "Outline": working/outline.md']
     outline = strip_notes((ROOT / "outline.md").read_text(encoding="utf-8"))
-    (work / "outline.md").write_text(WORKING_BANNER + outline, encoding="utf-8")
+    (work / "outline.md").write_text(with_meta(WORKING_BANNER + outline, robots="noindex"), encoding="utf-8")
     for part, chapters in PARTS:
         wtoc.append(f"**{part}**\n")
         for name, title in chapters:
@@ -263,6 +332,8 @@ def main():
             prefix = WORKING_BANNER + f'<p class="book-status-line">{badge(name)} {line}</p>\n\n'
             # Stubs open with editorial notes, so only worked chapters get their own preview.
             text = with_description(text, name, prefix) if name in PREVIEWS else prefix + text
+            if status(name) == "outline":
+                text = with_meta(text, robots="noindex")
             (work / name).write_text(text, encoding="utf-8")
             wtoc.append(f"- [{title}]({name}) {badge(name)}")
             wnav.append(f'      - "{title}": working/{name}')
@@ -279,6 +350,8 @@ def main():
     shutil.rmtree(site, ignore_errors=True)
     site.mkdir()
     (site / "_redirects").write_text(f"/ /{SLUG}/ 302\n", encoding="utf-8")
+    (site / "robots.txt").write_text(ROBOTS, encoding="utf-8")
+    write_llms(site, docs)
     (OUT / "mkdocs.yml").write_text(CONFIG.format(slug=SLUG, description=json.dumps(DESCRIPTION), nav="\n".join(nav) + "\n"), encoding="utf-8")
 
 
