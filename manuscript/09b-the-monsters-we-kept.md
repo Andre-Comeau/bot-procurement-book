@@ -44,7 +44,7 @@ The third creature has many heads, one for each trade.
 
 It is a fair question. If machines can read the documents, why should a buyer go through one general contractor at all? The buyer could tender each trade separately, through many doors instead of one, and keep the general contractor's margin for itself.
 
-The promise is a cheaper building, at least on paper. New York has required separate trade contracts on many public buildings for most of a century, and the studies of whether that saves money disagree with each other, which is itself a kind of answer.
+The promise is a cheaper building, at least on paper. New York has required separate trade contracts on many public buildings for more than a century, and the studies of whether that saves money disagree with each other, which is itself a kind of answer.
 
 The monstrous trait is that each head can be held responsible for its own piece, and none for how the pieces fit. A single door survives because there is one party behind it to answer for the whole, with a surety behind that party to make the answer worth something. Cut off the general contractor and the buyer becomes the one holding everything together, whether or not it meant to.
 
