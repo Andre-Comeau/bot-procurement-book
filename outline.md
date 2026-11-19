@@ -99,7 +99,7 @@ Main text about 13,300 words, of which roughly 4,500 are redrafted from the auth
 | Chapter | Words on 2026-11-19, hidden notes left out | State |
 | --- | --- | --- |
 | Front matter and prologue | 1,100 | drafted |
-| 1. The tender is the API | 3,700 | drafted |
+| 1. The tender is the API | 4,000 | drafted (the zombie garden moved in from 9, 2026-11-19) |
 | 2. Starting a relationship expecting a divorce | 1,000 | source passages |
 | 3. The insurable event | 2,300 | drafted |
 | 3a. Liability shifts to the user's bot | 2,300 | source passages, to fold into 3 |
@@ -115,7 +115,7 @@ Main text about 13,300 words, of which roughly 4,500 are redrafted from the auth
 | 7g. The insurers | 1,400 | drafted |
 | 8. What do we do with a drunken sailor? | 1,550 | drafted |
 | 8a. The banana peel | 550 | source passages, to fold into 8 |
-| 9. The zombie garden: what AI gets right | 1,200 | drafted |
+| 9. The zombie garden: what AI gets right | 1,700 | drafted (AI strengths sections new, 2026-11-19, for voice pass) |
 | 10. A second opinion on every price | 3,000 | drafted |
 | 11. The protocol that follows | 5,950 | drafted, with source passages |
 | 11a. The bot in the witness box | 2,150 | source passages, to fold into 11 |
