@@ -22,6 +22,22 @@ Many market issues are still open. There is no loss history yet that links a low
 
 Not every bidder needs this. A small company can hold its whole picture in one or two heads: its equipment, its crews, its costs and how much risk it will take. A vanilla AI or a home-built tool already gives it a bid to review, and paying for software and insurance on top would turn profit into overhead. Medium and large companies are different. Their estimating departments have middle managers and span regions, and they bid on the largest jobs, where a losing bid wastes the most effort. For them, insured bot procurement is a way to standardize estimates and raise productivity while keeping risk under control. These are the bidders a pilot should start with.
 
+## The sureties
+
+Sureties have stood behind construction bids longer than anyone, though what they guarantee is the builder, not the price. On most public work in North America a bidder needs a surety's bond to bid and another to sign the contract, and if the builder fails, the surety pays to finish the job.
+
+A surety is closer to a lender than to an insurer. The contractor, and usually its owners, sign an indemnity agreement promising to repay any loss, so the surety pays only when the firm cannot. It underwrites the firm rather than the price: its character, its capacity to do the work and its capital. The method works. In 2023 American sureties paid out about 22 cents in losses for each dollar of premium they earned, and the line has made more than $2 billion a year in underwriting profit since 2022.
+
+Sureties already handle prices at two moments. Right after the bids open, they look at the spread. One large surety asks its contractor for a letter whenever the next bid is more than 10 percent higher, with five questions: are you comfortable with the bid, was anything left out, were there arithmetic errors, what profit do you expect and why, and is there an engineer's estimate. On Texas highway work that letter would go out on about one job in three (chapter 3). Over time, they track a contractor's bids for patterns, such as a firm that keeps underbidding, and when a pattern shows they ask for more frequent reports on the work in progress.
+
+A check before sealing adds little to the first moment. Estimating software already does the arithmetic, bid-levelling tools look for gaps in scope, bid-history services give the comparison, and the spread is the market's own free second opinion. Nor does it touch the surety's biggest losses. When the surety industry reviewed 86 of its claims, unrealistic growth led the causes at 37 percent, including big jumps in the size of single jobs; estimating sat inside accounting problems, at 29 percent. A better price does not give a firm the supervisors, managers and accountants it needs to run a bigger job, and sureties know it.
+
+Where the check could matter is the public backstop. The US Small Business Administration guarantees most of a surety's loss, 80 to 90 percent, on bonds for small contractors, on contracts up to $9 million, or $14 million on some federal work. In fiscal 2025 it backed $10.6 billion of contract value for more than 2,200 small businesses. Here the buyer of a check would be the agency, not the surety. It could ask for a recorded check with each guaranteed bid, or charge less for bids that passed one, and so back more small firms for the same risk. How much that would save depends on how many of the program's claims begin with an underpriced bid, and the program does not publish its claims.
+
+One correction to the way this project first imagined sureties. In a fight over whether a low bid was a slip or a bet, the surety stands with its contractor: when the bidder proves a slip, the surety is released from the bid bond too. A record that tells slips from bets protects the buyer. For the surety its use comes earlier, in knowing quickly whether to back the bidder's claim or to get ready for a losing job.
+
+The ask for sureties is narrow. What would a bid file need to show for a reading like this one to count in your review of a bid?
+
 ## What we need now: the ranges an off-the-shelf policy would require
 
 The project would like input from underwriters on the ranges and variance an off-the-shelf insurance policy for estimating bots would require. How far off may a bot's price be, how often, and how steady must that be before an insurer could sell a standard policy rather than a custom one?
