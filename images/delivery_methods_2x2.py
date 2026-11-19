@@ -1,4 +1,4 @@
-"""Draw the delivery-method 2x2 for chapter 2 (PI brand kit colours, no PI marks).
+"""Draw the delivery-method 2x2 for chapter 4 (PI brand kit colours, no PI marks).
 
 Usage: python images/delivery_methods_2x2.py images/delivery-methods-2x2
 Writes the .svg and an .html; render the PNG with
@@ -50,7 +50,7 @@ o.append('<defs>'
          f'<marker id="ah-a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="{C["acc"]}"/></marker>'
          f'<marker id="ah-i" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="{C["ink"]}"/></marker>'
          '</defs>')
-o.append(t(80, 86, "CHAPTER 2 · CHOOSING A DELIVERY METHOD", "eyebrow"))
+o.append(t(80, 86, "CHAPTER 4 · CHOOSING A DELIVERY METHOD", "eyebrow"))
 o.append(t(80, 148, "Who works for whom, and how they deal", "title"))
 o.append(t(80, 190, "Two questions place every way to build: does the other party work for itself or for you,", "dek"))
 o.append(t(80, 218, "and do you get there by competing or by cooperating?", "dek"))

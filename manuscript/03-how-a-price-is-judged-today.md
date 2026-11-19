@@ -1,4 +1,4 @@
-# How a price is judged today
+# Why does the hard bid survive?
 
 Before a bot can judge a price, someone has to decide who works for whom. Economists call this the Principal/Agent problem, and in construction it has a map.
 

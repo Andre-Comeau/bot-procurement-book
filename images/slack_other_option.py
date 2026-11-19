@@ -1,4 +1,4 @@
-"""Slack, and the other option: Galbraith's two choices (chapter 6, schematic, not data), with the book's slack and capacity instruments listed.
+"""Slack, and the other option: Galbraith's two choices (chapter 1, schematic, not data), with the book's slack and capacity instruments listed.
 Usage: python images/slack_other_option.py images/slack-other-option   (writes the .svg and an .html; render at 1600 1240, see images/README.md)
 """
 import sys, html
@@ -23,7 +23,7 @@ def wrap(s, n):
     if cur: out.append(cur)
     return out
 o = [f'<rect width="{W}" height="{H}" fill="{C["canvas"]}"/>']
-o.append(t(80, 86, "CHAPTER 6 · SLACK, AND THE OTHER OPTION", "eyebrow"))
+o.append(t(80, 86, "CHAPTER 1 · SLACK, AND THE OTHER OPTION", "eyebrow"))
 o.append(t(80, 148, "Slack, and the other option", "title"))
 o.append(t(80, 190, "An organization facing more than it can process has two kinds of answer, Galbraith wrote: need less, which in construction means slack,", "dek"))
 o.append(t(80, 218, "or raise its capacity to process information. AI took the slack away and left the attention needed exactly where it was.", "dek"))
