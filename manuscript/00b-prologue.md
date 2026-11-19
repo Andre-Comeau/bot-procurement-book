@@ -77,6 +77,6 @@ costs. **[d]**
 
 Two names will travel through this book, and they are worth keeping apart. Bot Construction is the field:
 where this work leads, from documents written for machines to robots on site, built on everything the
-trades have already built. Bot Procurement is the standard: the price on a tender and who pays when a bot
+trades have already built. Bot Procurement is the standard: the price on a tender and who is liable when a bot
 gets it wrong, a part kept small enough to test. Bot Construction is where we are going. Bot Procurement is
 what has to be earned first.

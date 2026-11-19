@@ -72,7 +72,7 @@ That makes OCDS an ally rather than a rival. Its team wrote something that worke
 
 ## Two asks
 
-That question is who pays when a bot causes harm, and it decides what the standard is for. Someone will have to say what a reasonable bot would have read in the tender, so the standard is there to say which reading binds. Seen this way, the standard bot is a legal instrument before it is a technical one. Nobody is asked to trust the bot; they are given a reasonable reader they can cite in court. That also moves the project out of the innovation bucket, where public buyers are wary, and into the standards bucket, where they already know how to take part.
+That question is who is liable when a bot causes harm, and it decides what the standard is for. Someone will have to say what a reasonable bot would have read in the tender, so the standard is there to say which reading binds. Seen this way, the standard bot is a legal instrument before it is a technical one. Nobody is asked to trust the bot; they are given a reasonable reader they can cite in court. That also moves the project out of the innovation bucket, where public buyers are wary, and into the standards bucket, where they already know how to take part.
 
 **The first ask is a template.** It replaces the PDF as the copy a bot reads: a tender package written as plain text, with Markdown for the parts people read and JSON for the parts machines count. Every requirement carries an identifier, every pay item a name from a shared list, and every addendum a new version of the file rather than a new pile of pages. A pay item in the template might read like this:
 

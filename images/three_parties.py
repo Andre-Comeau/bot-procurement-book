@@ -107,7 +107,7 @@ parties = [
          need=["Volume handled without hiring", "Decisions that survive a challenge", "The door kept open, as the law asks",
                "Time back: funds freed sooner", "Capacity on jobs too big for one head"],
          gives=["Same bid, same answer, measured miss", "No cap, no key, no fee at the door",
-                "Claims checked against evidence", "A shorter tender, an earlier award", "An answer to who pays when a bot is wrong"],
+                "Claims checked against evidence", "A shorter tender, an earlier award", "Who is liable when a bot is wrong"],
          catch=["Two answers to one bid invite a claim;", "their records become the market's memory."]),
     dict(name="The bidders", sub="racing for the light", tint=C["sec_t"], dark=D["sec"], icon=icon_bidders,
          q="Their question: what will it cost us, and what will it take to win?",
@@ -168,7 +168,7 @@ o.append(t(104, BY0 + 40, "THE ANSWER THEY CANNOT GIVE EACH OTHER", "bhead", C["
 o.append(t(104, BY0 + 72, "The three meet as principals, none the agent or partner of another, so the answer has to stand outside them: a standard and an insurer.", "bsub", C["ink2"]))
 halves = [
     (104, "The standard", icon_rules, "A published check: the same answer to the same bid, a measured miss rate, and a record of what was checked. The referee none of the three can be for the others."),
-    (820, "The insurer", icon_umbrella, "Insurance on the margin, priced from the test's measured misses: who pays when the bot is wrong, which none of the three can carry for the others."),
+    (820, "The insurer", icon_umbrella, "Insurance on the margin, priced from the test's measured misses: who is liable when the bot is wrong, which none of the three can carry for the others."),
 ]
 for hx, name, icon, body in halves:
     o.append(icon(hx, BY0 + 104))

@@ -26,7 +26,7 @@ The virtue of an interface is that nobody has to read the other side's source co
 
 A single interface has a second virtue, and it is the one a court cares about. One door means one builder answers for everything behind it, whoever it hires to do the work. On most public work in North America a surety stands behind that builder, a company that pays if the builder fails. Chapter 4 prices the alternative. Hire a Construction Manager to buy from the trades on your behalf, and accountability is what you trade away.
 
-The interface, though, is a stack of PDFs. They are enormous files that machines read unreliably. They carry no metadata a bot can use, and they look terrible on the phone of the person who has to build from them. The zombie garden explained why they survive. They are the stamped, frozen copy a court reads. In software terms, the contract is written on the one medium the compiler cannot open.
+The interface, though, is a stack of PDFs. They are enormous files that machines read unreliably. They carry no metadata a bot can use, and they look terrible on the phone of the person who has to build from them. Chapter 9, the zombie garden, explains why they survive. They are the stamped, frozen copy a court reads. In software terms, the contract is written on the one medium the compiler cannot open.
 
 ![One door between two rooms: the design room, with the engineer's beam drawing, and the construction room, with the builder's crew schedule and a surety standing behind the builder; between them the tender as a door made of a stack of PDFs, the call (the bill of quantities) going one way and the answer (the bid) coming back](../images/tender-api-door.png)
 
