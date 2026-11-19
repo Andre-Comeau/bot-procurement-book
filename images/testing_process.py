@@ -90,7 +90,7 @@ WINDOWS = [
      "Researchers call this validation data",
      [C["sec"], C["sec_d"], mix(C["sec"], "#ffffff", .25)], loop, C["sec_d"]),
     ("3 · Final test", ["Newer bid results,", "piling up online"],
-     ["Left alone until there is a", "product and someone who", "wants the answer. The error", "bands we quote come only", "from here."],
+     ["Left alone until there is a", "product and someone who", "wants the answer. The only", "error bands a buyer can rely", "on come from here."],
      "Researchers call this test data",
      [mix(C["acc"], "#ffffff", .5), mix(C["acc"], "#ffffff", .64), mix(C["acc"], "#ffffff", .74)], padlock, C["acc_d"]),
 ]
