@@ -1,4 +1,4 @@
-"""The tender is the API: one door between the design and the construction (chapter 6, schematic).
+"""The tender is the API: one door between the design and the construction (chapter 1, schematic).
 Usage: python images/tender_api_door.py images/tender-api-door   (writes the .svg and an .html; render at 1600 1100, see images/README.md)
 """
 import sys, html
@@ -44,7 +44,7 @@ def arrow(x1, x2, y, col, width=8):
             f'<path d="{head}" fill="{col}"/>')
 
 o = [f'<rect width="{W}" height="{H}" fill="{C["canvas"]}"/>']
-o.append(t(80, 86, "CHAPTER 6 · THE TENDER IS THE API", "eyebrow"))
+o.append(t(80, 86, "CHAPTER 1 · THE TENDER IS THE API", "eyebrow"))
 o.append(t(80, 148, "One door between two rooms", "title"))
 o.append(t(80, 190, "The design and the construction negotiate through the tender. The bill of quantities is the call every bidder makes,", "dek"))
 o.append(t(80, 218, "and the bid is the answer that comes back. Nobody has to read the other side's source code.", "dek"))

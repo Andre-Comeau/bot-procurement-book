@@ -1,4 +1,4 @@
-"""Three parties at the door: the buyers, the bidders and the vendors (chapters 6a to 6c, three panels).
+"""Three parties at the door: the buyers, the bidders and the vendors (chapters 7a, 7b and 7e, three panels).
 Usage: python images/three_parties.py images/three-parties   (writes the .svg and an .html; render at 1600 1530, see images/README.md)
 """
 import sys, html, math, random
@@ -46,7 +46,7 @@ TOP, BOT, CW = 250, 1190, 460
 XS = (80, 570, 1060)
 BAND = 190
 o = [f'<rect width="{W}" height="{H}" fill="{C["canvas"]}"/>']
-o.append(t(80, 86, "CHAPTERS 6A TO 6C · THE BUYERS, THE BIDDERS, THE VENDORS", "eyebrow"))
+o.append(t(80, 86, "CHAPTERS 7A, 7B AND 7E · THE BUYERS, THE BIDDERS, THE VENDORS", "eyebrow"))
 o.append(t(80, 148, "Three parties at the door", "title"))
 o.append(t(80, 190, "Three short chapters ask the same questions of one party each: who they are, what they need from the tender,", "dek"))
 o.append(t(80, 218, "and what a published check gives them. Below the three, the answer they cannot give each other: a standard and an insurer.", "dek"))
@@ -176,7 +176,7 @@ for hx, name, icon, body in halves:
     yy = BY0 + 160
     for ln in wrap(body, 56):
         o.append(t(hx + 90, yy, ln, "anstext", C["ink"])); yy += 26
-o.append(t(80, H - 40, "Each list is its chapter's sentences, shortened; who pays, in full, is Part III.", "foot", C["ink2"]))
+o.append(t(80, H - 40, "Each list is its chapter's sentences, shortened; who carries the loss is chapters 3 and 7g.", "foot", C["ink2"]))
 css = f'''<style>
 .eyebrow{{font:600 22px "IBM Plex Sans",Arial,sans-serif;letter-spacing:.12em;fill:{C["ink2"]}}}
 .title{{font:700 54px Georgia,"Times New Roman",serif;fill:{C["ink"]}}}
