@@ -66,7 +66,7 @@ What would open the cage: a published check that a buyer can trust to sort the p
 
 The last creature is the one that could eat this book, and it would be dishonest to leave it out.
 
-Everything in Bot Procurement assumes that machines will need help being trusted: a readable tender, a published test, a clear payer. That assumption rests on how unreliable today's bots are, and on how long it takes them to get better. If swarms of bots become stable enough, quickly enough, they might simply be trusted the way a large, well-run firm is trusted today, on its record, without anyone writing down a standard first. The machines would be the standard.
+Everything in Bot Procurement assumes that machines will need help being trusted: a readable tender, a published test, a clear answer to who is liable. That assumption rests on how unreliable today's bots are, and on how long it takes them to get better. If swarms of bots become stable enough, quickly enough, they might simply be trusted the way a large, well-run firm is trusted today, on its record, without anyone writing down a standard first. The machines would be the standard.
 
 It is a real possibility, and the last two years make it more real, not less.
 
