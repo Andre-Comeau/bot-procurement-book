@@ -5,7 +5,7 @@ Appendices
 Status: draft (2026-11-11), Claude's wording for Andre's voice pass. Requested by vgr_zirp's second review of the underwriters' chapter; its fourth review's redlines (completed contracts with a measurement period, the range in force on bid day, a premium-linked total limit, recovery from a bidder who breaks a condition) are applied. Andre: may also travel separately with a letter to an underwriter.
 -->
 
-This appendix goes with [the underwriters' chapter](06e-the-underwriters-chapter.md), where the pilot it describes is the next step of the ask.
+This appendix goes with [chapter 7g, the insurers](06f-the-insurers.md), where the pilot it describes is the next step of the ask.
 
 This is a starting point for an underwriter to mark up, not an offer. Every number in brackets is a placeholder. The project does not sell insurance and has no stake in the terms an insurer chooses.
 

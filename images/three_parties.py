@@ -48,8 +48,8 @@ BAND = 190
 o = [f'<rect width="{W}" height="{H}" fill="{C["canvas"]}"/>']
 o.append(t(80, 86, "CHAPTERS 7A, 7B AND 7E · THE BUYERS, THE BIDDERS, THE VENDORS", "eyebrow"))
 o.append(t(80, 148, "Three parties at the door", "title"))
-o.append(t(80, 190, "Three short chapters ask the same questions of one party each: who they are, what they need from the tender,", "dek"))
-o.append(t(80, 218, "and what a published check gives them. Below the three, the answer they cannot give each other: a standard and an insurer.", "dek"))
+o.append(t(80, 190, "Each party's chapter asks the same questions: who they are, what they need from the tender,", "dek"))
+o.append(t(80, 218, "and what a published check gives them. Below the three, the answer they cannot give each other: a standard, and someone behind its number.", "dek"))
 # ---- icons, drawn inside the tinted band at the top of each panel
 def icon_buyers(bx, by):
     gy = by + BAND - 14; g = []
@@ -107,7 +107,7 @@ parties = [
          need=["Volume handled without hiring", "Decisions that survive a challenge", "The door kept open, as the law asks",
                "Time back: funds freed sooner", "Capacity on jobs too big for one head"],
          gives=["Same bid, same answer, measured miss", "No cap, no key, no fee at the door",
-                "Claims checked against evidence", "A shorter tender, an earlier award", "An answer to who pays when a bot is wrong"],
+                "Claims checked against evidence", "A shorter tender, an earlier award", "Who is liable when a bot is wrong"],
          catch=["Two answers to one bid invite a claim;", "their records become the market's memory."]),
     dict(name="The bidders", sub="racing for the light", tint=C["sec_t"], dark=D["sec"], icon=icon_bidders,
          q="Their question: what will it cost us, and what will it take to win?",
@@ -165,10 +165,10 @@ for x in XS:
     o.append(f'<line x1="{x+CW/2}" y1="{BOT}" x2="{x+CW/2}" y2="{BY0}" stroke="{C["ink2"]}" stroke-width="2.5"/>')
 o.append(f'<rect x="80" y="{BY0}" width="{W-160}" height="{BH}" rx="10" fill="{mix(C["hair"], C["canvas"], 0.55)}" stroke="{C["ink"]}" stroke-width="2"/>')
 o.append(t(104, BY0 + 40, "THE ANSWER THEY CANNOT GIVE EACH OTHER", "bhead", C["ink"]))
-o.append(t(104, BY0 + 72, "The three meet as principals, none the agent or partner of another, so the answer has to stand outside them: a standard and an insurer.", "bsub", C["ink2"]))
+o.append(t(104, BY0 + 72, "The three meet as principals, none the agent or partner of another, so the answer has to stand outside them: a standard, and someone behind its number.", "bsub", C["ink2"]))
 halves = [
     (104, "The standard", icon_rules, "A published check: the same answer to the same bid, a measured miss rate, and a record of what was checked. The referee none of the three can be for the others."),
-    (820, "The insurer", icon_umbrella, "Insurance on the margin, priced from the test's measured misses: who pays when the bot is wrong, which none of the three can carry for the others."),
+    (820, "Behind the number", icon_umbrella, "The buyer stands behind the standard bot's number. Insurance on the margin, priced from the test's measured misses, covers those who cannot carry the misses alone."),
 ]
 for hx, name, icon, body in halves:
     o.append(icon(hx, BY0 + 104))

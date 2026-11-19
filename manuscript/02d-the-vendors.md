@@ -25,7 +25,7 @@ Germany's vendors live in a different climate. Public tenders there have travell
 
 The newest species is not a vendor at all. It is the general model with a chosen level of effort. The pace of the compute build-out makes me think the specialized tools' edge is temporary. The option to pick a model plus a level of effort should resolve the misses over time faster than the specialized tools can update. Alternatively, AI will eat the costs and margins of the specialized tool. The one head-to-head found so far is from another profession, legal research. In 2025 a general model scored level with the specialized tools on accuracy and both beat the lawyers, while the specialists kept a small edge on citing the right authority, from their own databases. The data was the moat. The writing was not.
 
-## Who pays today
+## Who is liable today
 
 Every major vendor's terms for its AI say the same thing in different words. Liability is capped at a year's fees or a thousand dollars. The outputs are recommendations only. Verification is the user's job. One platform's own AI suppliers must indemnify it for their errors, which is the same rule facing the other way. So the deep pockets a user might sue are, by contract, empty for exactly the loss this book cares about: a number the bot got wrong and the user relied on. Today the user pays, and the vendor sells the shovel.
 
