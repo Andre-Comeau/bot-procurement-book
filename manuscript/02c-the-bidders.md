@@ -37,7 +37,7 @@ A seventh is a surety that sees the difference between a firm that checked its b
 
 ## What they fear
 
-The record proves what they knew. A record that proves a clerical slip also proves that the firm's bot saw the error in the drawings and the firm said nothing. Bidders will keep a record only if it is theirs, sealed, and the buyer keeps the same. Chapter 8 is about that.
+The record proves what they knew. A record that proves a clerical slip also proves that the firm's bot saw the error in the drawings and the firm said nothing. Bidders will keep a record only if it is theirs, sealed, and the buyer keeps the same. Chapter 3 is about that.
 
 Everyone leaning on the same bot. The winner's curse works because each bidder's estimate has its own error, and the lowest bidder is often the one whose error ran lowest. If many bidders check their prices against the same reference, and the reference leans one way, their errors stop being independent and the whole market is pulled the same way at once. The standard creates a risk for both sides of the tender: if the reference runs too low, bidders lose as a group; if it runs too high, buyers lose. The answer is a market where several independent choices diffuse the bias, rather than one reference everyone leans on. The lean is chosen by the firm using the tool, as a setting of its own risk appetite, with insurance on the margin as the backstop for the tool's error. A shared reference that moves prices together can also look like coordination when nobody agreed to anything, which is one more reason the check flags and never prices.
 

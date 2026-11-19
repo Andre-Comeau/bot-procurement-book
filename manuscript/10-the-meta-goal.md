@@ -52,7 +52,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 (project files `pending-notes/meta-goal-chapter-notes.md`, entry 2, said 2026-11-14)
 
-*Claude's note: chapter 2's map already has this corner. The Construction Manager buys from the trades on the owner's behalf, and "You trade accountability" for it. The draft of chapter 6 gives the condition: each smaller call still needs someone answerable behind it, and one party answerable for how the pieces fit. So the question for the destination is who stands behind each piece once machines can read the documents, which is the machinery figure's "who answers?" again. It belongs to Bot Construction, the field, and not to the standard. Ask it as a question; the hidden note above says why.*
+*Claude's note: chapter 4's map already has this corner. The Construction Manager buys from the trades on the owner's behalf, and "You trade accountability" for it. The draft of chapter 1 gives the condition: each smaller call still needs someone answerable behind it, and one party answerable for how the pieces fit. So the question for the destination is who stands behind each piece once machines can read the documents, which is the machinery figure's "who answers?" again. It belongs to Bot Construction, the field, and not to the standard. Ask it as a question; the hidden note above says why.*
 
 ### Appeal as a human activity
 

@@ -21,7 +21,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 (`case-studies/andre-comeau/README.md`, opening)
 
-*The one-shotted design and the long compile. These are also chapter 6 material, so keep them here only as far as the tensions need them:*
+*The one-shotted design and the long compile. These are also chapter 1 material, so keep them here only as far as the tensions need them:*
 
 > **One-shotted design.** While there is iteration within the Design, it needs to ship with all desired features. Some "softer" elements such as interior design can remain flexible, but most systems are resistant to anything but marginal changes.
 
@@ -51,7 +51,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 (positions §21, recorded 2026-10-11)
 
-*Word count of the passages above is about 470 of the 1,200 target. Left for chapter 8: the duty-to-report passages, the banana peel and the construction manager as a fourth party.*
+*Word count of the passages above is about 470 of the 1,200 target. Left for chapter 3: the duty-to-report passages, the banana peel and the construction manager as a fourth party.*
 
 *Added 2026-11-02: evidence that bidders already price the errors. Andre's reaction on reading what the Texas payment reports show of quantities bid and paid:*
 
