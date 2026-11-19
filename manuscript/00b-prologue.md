@@ -5,9 +5,15 @@ Front matter: the Institute write-up as the opening. It may later fold into the 
 Source: institute-write-up-review-2026-10-14.md, section 2. The text is Andre's, lightly copyedited on 2026-10-14. The review in section 1 of that file has further fixes worth reading before redrafting: the cost side of positions §13 is missing, worker autonomy is absent, and the court-using-the-standard-bot claim has no legal check yet.
 The link in "[Procurement Machines](link)" needs its final address. The book has no links in print, so it may become a reference to Appendix A.
 Open notes, still to be settled in Andre's words:
-- **[a]** In Sathe's thickets essay AI is the flattening force, so "AI-powered … re-wilds" may run against
-  the source. "Discovered" may also be better as "named", since Rao introduced New Nature in a Protocolized
-  post.
+- **[a]** Settled by the source check, 2026-11-18 (Claude's wording, for Andre's voice pass): the old line
+  ("discovered New Nature: an AI-powered phenomenon where pre-commodification re-wilds the world") did not
+  match Rao. He defines New Nature as "regimes of reality governed by technologically mediated laws that are
+  nearly as inviolable, immutable, and persistent as those of nature"; AI is one class of them, and neither
+  "re-wilding" nor "pre-commodification" is in his essay, which does not credit Sathe or SIGPSY. The
+  sentence now credits the name to Rao alone. The Stevenson Test line was also reworded: the blyg post of
+  1 October 2026 says "the test of New Nature should be that there is nobody to appeal to", so the test is
+  of New Nature, and "Civilizations are the product of world machines … systems for appeals" is Andre's own
+  gloss, which the post does not contain.
 - **[b]** "Through" is Claude's guess for the draft's "from". If he meant "rests on", the clause changes.
 - **[c]** Settled 2026-11-05: the two bullets became one sentence naming two tools (Claude's compression,
   approved with the introduction), since the introduction now argues both in full. The PDF aside moved
@@ -26,12 +32,13 @@ Two names, wording corrected the same day (Andre, 2026-11-14: "I'll let you fit 
 Hammurabi for bots (Andre, 2026-11-02): the eye-for-an-eye paragraph returns in chapter 10 (the bot in the witness box), applied to bots and branded bots; see that chapter's source passages. Keep the two in step.
 -->
 
-The Stevenson Test states that nature does not allow for appeals. Civilizations are the product of world
+The Stevenson Test says that New Nature is wherever there is nobody to appeal to. Civilizations are the product of world
 machines humanity has built to generate systems for appeals.
 
 Venkatesh Rao, Aneesh Sathe and SIGPSY (the Special Interest Group in Psychohistory), with the World
-Machines and Prime Radiant projects, have been mapping out humanity's recent efforts and discovered New
-Nature: an AI-powered phenomenon where pre-commodification re-wilds the world. **[a]** In this jungle, a
+Machines and Prime Radiant projects, have been mapping out humanity's recent efforts. Rao calls the result New
+Nature: laws made by technology that are nearly as hard to appeal as nature's own, and AI is the newest
+and wildest of them. In this jungle, a
 small sliver of light fell onto my industry, left behind on the forest floor as tech-based businesses
 reached for the sky.
 
