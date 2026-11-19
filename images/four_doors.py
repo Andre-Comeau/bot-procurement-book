@@ -1,4 +1,4 @@
-"""Four ways to answer a flooded door: cap, key, fee, published check (chapter 6, schematic).
+"""Four ways to answer a flooded door: cap, key, fee, published check (chapter 1, schematic).
 Usage: python images/four_doors.py images/four-doors   (writes the .svg and an .html; render at 1600 1210, see images/README.md)
 """
 import sys, html
@@ -25,7 +25,7 @@ def wrap(s, n):
     if cur: out.append(cur)
     return out
 o = [f'<rect width="{W}" height="{H}" fill="{C["canvas"]}"/>']
-o.append(t(80, 86, "CHAPTER 6 · FOUR WAYS TO ANSWER A FLOODED DOOR", "eyebrow"))
+o.append(t(80, 86, "CHAPTER 1 · FOUR WAYS TO ANSWER A FLOODED DOOR", "eyebrow"))
 o.append(t(80, 148, "Four ways to answer a flooded door", "title"))
 o.append(t(80, 190, "Software has four answers to a flooded interface. Construction has a twin for each,", "dek"))
 o.append(t(80, 218, "and the twins show which answers a public buyer can live with.", "dek"))

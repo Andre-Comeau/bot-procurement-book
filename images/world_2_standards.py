@@ -5,7 +5,7 @@ The road runs from World 1 through field building, the documents (OCDS, IFC and 
 method of measurement), the tender rules (CCDC 23, ISO 10845-3) and the bot itself (AACE's
 estimate classes, IEEE 3119) to the castle, a new part of ISO 10845 for the reasonable bot.
 Past the castle is the courthouse, where the first case will test it.
-The drawing helpers come from second_opinion.py (chapter 1's Bot Procurement World), so
+The drawing helpers come from second_opinion.py (chapter 10's Bot Procurement World), so
 the two worlds share one style. All proposals on the map are Claude's draft for Andre.
 
     python images/world_2_standards.py images/world-2-standards
@@ -13,7 +13,7 @@ the two worlds share one style. All proposals on the map are Claude's draft for 
 """
 import pathlib, random, sys
 
-# Reuse chapter 9's drawing helpers (everything before its drawing code).
+# Reuse chapter 10's drawing helpers (everything before its drawing code).
 _src = (pathlib.Path(__file__).parent / "second_opinion.py").read_text().split("\no = [")[0]
 exec(_src)
 random.seed(11)

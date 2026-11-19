@@ -8,6 +8,16 @@ It may be possible to insure against insufficient margins instead. Lost margin i
 
 ![One losing job is not a claim: completed jobs drawn as mugs filled to the margin each made against the costs declared on bid day, with a target margin and a trigger line. In a normal year a few jobs come up short but the average stays above the trigger, so there is no payment. In a bad year most jobs fall short and the average sinks below the trigger, so the policy pays its share of the shortfall and the bidder carries the rest](../images/one-losing-job.png)
 
+## The buyer stands behind its number
+
+Margin insurance is the bidder's cover, and it needs an insurer that does not exist yet. The base case needs no insurer at all. The buyer runs the standard bot, publishes its number, and stands behind it. If the number was wrong, the buyer carries the loss, not the bidder.
+
+That sounds generous, but it is arithmetic. A buyer who lets many tenders a year sees what a reverse auction does to a reliable reference. The bids gather closer to the number, and the cheaper bids across the year outweigh the occasional payout when the bot missed. The buyer already controls its own cost through the auction, so it is the party best placed to carry the error of the tool it chose. Buyers already carry this kind of risk on their own quantities: when the real quantity strays far enough from the estimate, many contracts reset the price, and differing site condition clauses do the same for the ground. Standing behind a price is a step further, and it is the step this book proposes.
+
+The promise starts a new argument. After every loss, someone has to decide whether the number was wrong or the work was done badly, and each side has a reason to tell it differently. The bidder will be tempted to bid low on the strength of the number and claim high when the job goes wrong. Only the record can settle it, which is why the standard keeps one, and why the rule for deciding is something to fix before the bids open, not after. The witness box in chapter 11 is where that argument ends up.
+
+Self-insurance only works for a buyer with enough tenders to average out a bad year. A small town that lets two jobs a year cannot carry the promise alone, so it insures it. Third-party cover also matters for marginal bidders, the thin firms a self-insuring buyer would rather not sponsor but cannot shut out of an open competition. The insurer sits beside the buyer for them, and above the buyer for the rare year when every bot misses together. The rest of this chapter is about what that insurer would need to measure.
+
 ## Four open questions
 
 Four questions direct this effort, and the project cannot answer them alone:
