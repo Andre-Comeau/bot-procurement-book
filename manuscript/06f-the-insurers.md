@@ -3,7 +3,7 @@
 <!--
 Part IV. What each party stands to gain. Chapter 7g, the insurers' pitch.
 Split 2026-11-19 from the underwriters' chapter (06e, now chapter 3, "The insurable event"), at Andre's request. Title from the last section heading ("What we need later: a pilot, then a standard"), following Andre's "retitle using the section headings when possible".
-The sections below are unchanged from 06e version 4 (2026-11-11). What is whose there: Claude wrote the standards and players sections, the paragraph on which bidders need this and the wording of the ask; they still need Andre's voice pass. The sources list and figure notes stay in 06e's header.
+The sections below are unchanged from 06e version 4 (2026-11-11). What is whose there: Claude wrote the standards and players sections, the paragraph on which bidders need this and the wording of the ask; they still need Andre's voice pass. The sources list, figure notes and the source check of 2026-11-18 (which cut AIUC's interviews line and rewrote Munich Re's process and Armilla's verification; all carried over here at the merge of 2026-11-19) stay in 06e's header.
 Claude's sentences added on 2026-11-19, to confirm in Andre's voice: the opening paragraph.
 Open for Andre: whether this chapter takes the 7a-7e headings (what they need, what they fear, what a standard does for them); whether Appendix E moves into Appendix A with the insurers' one-page pitch.
 -->
