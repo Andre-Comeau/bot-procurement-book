@@ -7,6 +7,7 @@ Brief: Measure the design into quantities, price them in sealed envelopes, turn 
 Sources: `work-packages/procurement-machines/THESIS.md` sections 1 and 2; the cards are cited by name and left to Appendix A.
 Literature (`literature-review-2026-11-01.md`, Part 1): Simon 1944; Banwell 1964; Friedman 1956 and Gates 1967 on bidding models; Spearin 1918; Flyvbjerg's reference-class forecasting; Harford's *Fifty Things* as a format model.
 Paths are relative to construction-procurement-protocols unless they start with C:\.
+Source check, applied 2026-11-18 (project files manuscript-review-2026-11-17/02a and 02b; structure-review-2026-11-18/07 and 08). Claude's wording, for Andre's voice pass: notes added beside the THESIS line on alternative delivery and the 493 BCE and 1809 cards. The 1873 card's source is still not found. The cards themselves are in the Procurement Machines repository and are not changed here.
 -->
 
 ## Source passages (to cut and rewrite)
@@ -36,7 +37,7 @@ Paths are relative to construction-procurement-protocols unless they start with 
 > - The plan room is being hollowed into owner portals and data standards; the depositories survive only where mandatory.
 > - The standards bodies license their vocabulary while the machine consumers of it want versioned, open schemas.
 
-*Check the "half of US construction spending" figure before printing.*
+*Check the "half of US construction spending" figure before printing. Source check 2026-11-17/18: the nearest figure is FMI's, for design-build alone: 42 percent of construction spending in the segments FMI studies (2021), forecast at 47 percent by 2025 (Building Design + Construction, reporting FMI). That is a forecast for one method, not measured spending on alternative delivery as a whole. If the line reaches reader text: "design-build alone is, by one industry forecast, close to half of spending in the segments it covers", or cut the number.*
 
 ### The two machines that grew out of the fraying
 
@@ -69,8 +70,8 @@ Paths are relative to construction-procurement-protocols unless they start with 
 *The cards page opens with eight cards "in the order the argument takes them" (`thread.yaml`, Claude's lines, 2026-10-15). It could be this chapter's spine, starting a little before the two centuries, or be split with the prologue, which already opens on Hammurabi:*
 
 1. *c. 1753 BCE, the builder's liability: the builder answers for what falls down, and cannot appeal.*
-2. *493 BCE, the public letting: the state lets the work to bidders in public, with sureties and a record; "what can be appealed moves from the builder's body to the file".*
-3. *1809, sealed-bid tendering: sealed envelopes and an award rule take discretion out of the magistrate's hands.*
+2. *493 BCE, the public letting: the state lets the work to bidders in public, with sureties and a record; "what can be appealed moves from the builder's body to the file".* (Source check, 2026-11-17/18: 493 BCE is the dedication of the Temple of Ceres, Liber and Libera, not evidence of a public letting with sureties. The censorship begins in 443 BCE; Polybius 6.17, in the 2nd century BCE, describes the censors' contracts with partners and sureties; Epidauros, about 400 to 350 BCE, has the earliest well-dated guarantors and fines. Redate the card, or drop the year, before printing; the card itself lives in the Procurement Machines repository.)
+3. *1809, sealed-bid tendering: sealed envelopes and an award rule take discretion out of the magistrate's hands.* (Source check, 2026-11-18: the Act of 3 March 1809, ch. 28, s. 5, requires purchases by "open purchase, or by previously advertising for proposals"; nothing found says "sealed", and an 1809 US purchasing officer was not a magistrate. Safer: "1809, advertised tendering: Congress requires federal purchases to be made in the open or by advertising for proposals, which takes discretion out of the official's hands." The card's own source has not been found; the 1873 card's has not either.)
 4. *1873, cost data and the engineer's estimate: the owner's own number before the market speaks, the one a pricing bot is now measured against.*
 5. *1921, the bid protest and the record: an award tested against the file the agency made at the time.*
 6. *2006, the machine auditors: the first machines to take part in the loop, which fell out of use wherever nobody had to act on the flag.*

@@ -20,6 +20,7 @@ Sources and backstage theory (not for the reader):
 - The swarm that needs no standard: Andre's 16 Nov line. Scaffolding image is Claude's.
 - The bid depository: checked 18 Nov for Yukon (Yukon Contractors Association rules, 1 March 2023), Saskatchewan (Saskatchewan Bid Depository Inc., against bid shopping) and Quebec (BSDQ); full sources in the trades chapter's note. Which provinces in all, and since when, is still not found.
 - Wording to check with Andre: "bot gardener" is his; "parliament", "hive", "hydra" are Claude's names.
+Source check, applied 2026-11-18 (project files manuscript-review-2026-11-17/02a and 02b; structure-review-2026-11-18/07 and 08). Claude's wording, for Andre's voice pass: the Wicks Law is "more than a century" old (1912 by most accounts, 1921 per City Journal; the Wicks name from a 1946 amendment). City Journal, "Politics and the Wicks Law", https://www.city-journal.org/article/politics-and-the-wicks-law . Bid depositories in "parts of Canada" are now checked (Yukon, Saskatchewan, Quebec; see the trades chapter).
 -->
 
 A paper about an experiment usually has a section that most readers skip, where the authors list the approaches they considered and set aside. It is the least exciting part of the paper and one of the most honest, because it tells you what the authors bet against. This chapter is that section, moved to the end so that it doesn't slow down the story, and written with a little more affection than a methods section allows.
@@ -66,7 +67,7 @@ The third creature has many heads, one for each trade.
 
 It is a fair question. If machines can read the documents, why should a buyer go through one general contractor at all? The buyer could tender each trade separately, through many doors instead of one, and keep the general contractor's margin for itself.
 
-The promise is a cheaper building, at least on paper. New York has required separate trade contracts on many public buildings for most of a century, and the studies of whether that saves money disagree with each other, which is itself a kind of answer.
+The promise is a cheaper building, at least on paper. New York has required separate trade contracts on many public buildings for more than a century, and the studies of whether that saves money disagree with each other, which is itself a kind of answer.
 
 The monstrous trait is that each head can be held responsible for its own piece, and none for how the pieces fit. A single door survives because there is one party behind it to answer for the whole, with a surety behind that party to make the answer worth something. Cut off the general contractor and the buyer becomes the one holding everything together, whether or not it meant to.
 
