@@ -64,7 +64,7 @@
 
 **Patent and latent errors.** A patent error is one a careful bidder should have spotted in the tender; a latent one could not have been seen. A bidder who should have seen a patent error and did not ask usually cannot charge for it later (chapter 11a).
 
-**PDF zombie.** The tender document that died as a technology but kept walking as a protocol, because it carries the seal and the signatures the law still asks for (chapters 5 and 9).
+**PDF zombie.** The tender document that died as a technology but kept walking as a protocol, because it carries the seal and the signatures the law still asks for (chapters 1, 5 and 9).
 
 **Pinned and published.** Two kinds of specification: pinned parts are the must-have and critical systems, fixed in detail; published parts set a baseline to guide bidders without fixing how the work is done (chapter 11).
 
