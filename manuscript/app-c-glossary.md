@@ -45,7 +45,7 @@ Added 2026-11-19 (Claude, thread "Build the source ledger, glossary and FAQ", fo
 
 **Design-Build.** One firm both designs and builds, under one contract. In progressive Design-Build the team is chosen for its qualifications and the price is agreed in packages as the design firms up (chapter 4).
 
-**Engineer's estimate.** The price the buyer's own engineers put on the work before the tender. It is the yardstick the estimator will be measured against (chapter 10).
+**Engineer's estimate.** The price the buyer's own engineers put on the work before the tender. It is the price the estimator will be measured against (chapter 10).
 
 **Estimator.** A bot the project is building that will put a price on each line of a tender from what bidders have charged before, as a second opinion before the tender closes (chapter 10).
 
