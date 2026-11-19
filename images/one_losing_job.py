@@ -65,7 +65,7 @@ def row(y,levels,title,sub,avg,verdict,pays):
         o.append(t(vx,yb-6+k*28,line,"note",C["ink2"]))
     return o
 o=[f'<rect width="{W}" height="{H}" fill="{C["canvas"]}"/>']
-o.append(t(80,86,"THE UNDERWRITERS' CHAPTER · THE INSURABLE EVENT","eyebrow"))
+o.append(t(80,86,"CHAPTER 3 · THE INSURABLE EVENT","eyebrow"))
 o.append(t(80,148,"One losing job is not a claim","title"))
 o.append(t(80,190,"Each mug is a completed job, filled to the margin it made against the costs declared on bid day.","dek"))
 o.append(t(80,218,"The policy only looks at the average across a broad spectrum of tenders.","dek"))

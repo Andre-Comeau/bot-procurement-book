@@ -19,7 +19,7 @@ Source check, applied 2026-11-18 (project files manuscript-review-2026-11-17/02a
 
 ### The case: a quantity error the market priced and nobody reported
 
-*The real pattern behind the constructed case is in chapter 5's added passage: on the Texas lines paid under 80% of the tendered quantity, every bidder priced cheap and the engineer's estimate sat 13% over. The bidders saw the error, priced it, and said nothing, and Andre called it "strong evidence of strategic bidding based on tender deficiencies". Build the failure case on that pattern, so the chapter is fiction resting on a measured fact.*
+*The real pattern behind the constructed case is in chapter 2's added passage: on the Texas lines paid under 80% of the tendered quantity, every bidder priced cheap and the engineer's estimate sat 13% over. The bidders saw the error, priced it, and said nothing, and Andre called it "strong evidence of strategic bidding based on tender deficiencies". Build the failure case on that pattern, so the chapter is fiction resting on a measured fact.*
 
 ### Who decides what is reasonable
 
@@ -115,4 +115,4 @@ Source check, applied 2026-11-18 (project files manuscript-review-2026-11-17/02a
 
 ### Who signs a machine's number
 
-*From the warranted-estimate card's second tension (Claude's): if a bot produces the number, a person must still stand behind it with something at stake, "or the estimate is a guess with a signature". The Ephesian architect pledged his property; the keyholder in this chapter pledges a signature and a stated reason. Laid out in full in chapter 2.*
+*From the warranted-estimate card's second tension (Claude's): if a bot produces the number, a person must still stand behind it with something at stake, "or the estimate is a guess with a signature". The Ephesian architect pledged his property; the keyholder in this chapter pledges a signature and a stated reason. Laid out in full in chapter 4.*

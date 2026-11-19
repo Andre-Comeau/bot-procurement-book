@@ -39,7 +39,7 @@ PREVIEWS = {
     "09-the-protocol-that-follows.md": ("social-card-world-2.png",
         "The Standard, World 2 of the overworld map: existing standards as levels, each with the change the book would ask of it, leading to a castle and a courthouse"),
     "06e-the-underwriters-chapter.md": ("social-card-one-losing-job.png",
-        "One losing job is not a claim: completed jobs as mugs filled to their margin, and a policy that pays only when the average across many tenders falls short"),
+        "The insurable event. One losing job is not a claim: completed jobs as mugs filled to their margin, and a policy that pays only when the average across many tenders falls short"),
     "02-the-tender-is-the-api.md": ("social-card-oak-falls.png",
         "The oak falls: the cost of bidding stood as an oak over the market for a century; where it stood, a thicket races for the light"),
     "02b-the-buyers.md": ("social-card-three-parties.png",
@@ -59,7 +59,7 @@ DRAFTED = {
     "03-how-a-price-is-judged-today.md", "03b-what-do-we-do-with-a-drunken-sailor.md",
     "00c-introduction.md", "06e-the-underwriters-chapter.md",
     "09-the-protocol-that-follows.md", "app-d-bibliography.md", "app-e-pilot-term-sheet.md",
-    "02-the-tender-is-the-api.md", "02b-the-buyers.md", "02c-the-bidders.md", "02d-the-vendors.md",
+    "02-the-tender-is-the-api.md", "02b-the-buyers.md", "02c-the-bidders.md", "02d-the-vendors.md", "02e-the-designers.md", "06f-the-insurers.md",
     "06c-the-blessing-of-the-legal-department.md", "08b-the-zombie-lost-to-a-file-format.md",
     "09a-the-trades-who-holds-the-jig.md", "09b-the-monsters-we-kept.md",
 }
@@ -86,28 +86,31 @@ PARTS = [
     # File names keep their first numbers; this list is the reading order.
     # Since 2026-11-19 it follows Andre's outline (approved 2026-11-19): overview, the problem,
     # the solution, why not something else, what each party gains, how we get there, past and future.
-    # Not written yet, so not listed: the designers (7d).
+    # Titles since 2026-11-19 (Andre: "retitle using the section headings when possible;
+    # chapter headings when it makes sense"): 3 and 4 take a section heading as their title.
     ("Front matter", [("00-front-matter.md", "Front matter"), ("00b-prologue.md", "Prologue")]),
     ("Part I. The problem", [
         ("02-the-tender-is-the-api.md", "1. The tender is the API"),
         ("01-expecting-a-divorce.md", "2. Starting a relationship expecting a divorce")]),
     ("Part II. The solution", [
-        ("06e-the-underwriters-chapter.md", "3. The standard and insurance (today the underwriters' chapter)"),
+        ("06e-the-underwriters-chapter.md", "3. The insurable event"),
         ("05-liability-shifts.md", "3a. Liability shifts to the user's bot (to fold into chapter 3)")]),
     ("Part III. Why not something else?", [
-        ("03-how-a-price-is-judged-today.md", "4. How a price is judged today"),
+        ("03-how-a-price-is-judged-today.md", "4. Why does the hard bid survive?"),
         ("08b-the-zombie-lost-to-a-file-format.md", "5. The zombie lost to a file format"),
         ("09b-the-monsters-we-kept.md", "6. The monsters we kept")]),
     ("Part IV. What each party stands to gain", [
         ("02b-the-buyers.md", "7a. The buyers: more bids than eyes"),
         ("02c-the-bidders.md", "7b. The bidders: racing for the light"),
         ("09a-the-trades-who-holds-the-jig.md", "7c. The trades: who holds the jig"),
+        ("02e-the-designers.md", "7d. The designers and consultants: a second reading"),
         ("02d-the-vendors.md", "7e. The vendors: players, not referees"),
-        ("06c-the-blessing-of-the-legal-department.md", "7f. The blessing of the legal department")]),
+        ("06c-the-blessing-of-the-legal-department.md", "7f. The blessing of the legal department"),
+        ("06f-the-insurers.md", "7g. The insurers: a pilot, then a standard")]),
     ("Part V. How we get there", [
         ("03b-what-do-we-do-with-a-drunken-sailor.md", "8. What do we do with a drunken sailor?"),
         ("06-the-banana-peel.md", "8a. The banana peel (to fold into chapter 8)"),
-        ("00c-introduction.md", "9. The zombie garden (what AI gets right)"),
+        ("00c-introduction.md", "9. The zombie garden: what AI gets right"),
         ("07-building-an-estimator-in-public.md", "10. A second opinion on every price"),
         ("09-the-protocol-that-follows.md", "11. The protocol that follows"),
         ("06b-the-bot-in-the-witness-box.md", "11a. The bot in the witness box (to fold into chapter 11)")]),

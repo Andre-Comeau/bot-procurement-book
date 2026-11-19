@@ -17,7 +17,7 @@
 <clipPath id="win1"><path d="M620,1040 L620,400 A391.0,391.0 0 0 1 850.0,290 A391.0,391.0 0 0 1 1080,400 L1080,1040 Z"/></clipPath>
 <clipPath id="win2"><path d="M1150,1040 L1150,400 A391.0,391.0 0 0 1 1380.0,290 A391.0,391.0 0 0 1 1610,400 L1610,1040 Z"/></clipPath>
 </defs>
-<text x="80" y="86" class="eyebrow" text-anchor="start">CHAPTER 1 · WHAT THE SCORES SAY</text>
+<text x="80" y="86" class="eyebrow" text-anchor="start">CHAPTER 10 · WHAT THE SCORES SAY</text>
 <text x="80" y="148" class="title" text-anchor="start">How the estimator is checked</text>
 <text x="80" y="190" class="dek" text-anchor="start">The contracts are split by date. The estimator learns from the older ones</text>
 <text x="80" y="218" class="dek" text-anchor="start">and is checked on the newer ones.</text>

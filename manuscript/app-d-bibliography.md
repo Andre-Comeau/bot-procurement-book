@@ -44,7 +44,7 @@ Federal Highway Administration. *Alternative Contracting Method Performance in U
 
 Galbraith, J. R. *Achieving Integration through Information Systems.* Working paper 364-68. Cambridge, MA: MIT Sloan School of Management, December 1968.
 
-Galbraith, Jay R. "Organization Design: An Information Processing View." *Interfaces* 4, no. 3 (1974): 28–36. (To check which of Galbraith's papers chapter 6 leans on; the 1968 working paper is listed above.)
+Galbraith, Jay R. "Organization Design: An Information Processing View." *Interfaces* 4, no. 3 (1974): 28–36. (To check which of Galbraith's papers chapter 1 leans on; the 1968 working paper is listed above.)
 
 Galdin, Anaïs, and Jesse Silbert. "Making Talk Cheap: Generative AI and Labor Market Signaling." arXiv:2511.08785, November 2025. https://arxiv.org/abs/2511.08785.
 
