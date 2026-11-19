@@ -2,7 +2,7 @@
 
 Abbott, Bud, and Lou Costello. "Who's on First?" Comedy routine, performed from 1937; filmed in *The Naughty Nineties* (Universal, 1945). (Named, not quoted.)
 
-Auditor General of Ontario. *Annual Report 2024*, chapter "Procurement and Delivery of Selected Infrastructure Projects". Toronto: Office of the Auditor General of Ontario, 2024. https://www.auditor.on.ca/en/content/annualreports/arreports/en24/pa_infrastructureON_en24.pdf. (Chapter title to check.)
+Auditor General of Ontario. *Annual Report 2024*, chapter "Procurement and Delivery of Selected Infrastructure Projects". Toronto: Office of the Auditor General of Ontario, 2024. https://www.auditor.on.ca/en/content/annualreports/arreports/en24/pa_infrastructureON_en24.pdf.
 
 Brooks, Frederick P., Jr. *The Mythical Man-Month: Essays on Software Engineering.* Reading, MA: Addison-Wesley, 1975. Chapter 3, "The Surgical Team".
 
@@ -12,7 +12,7 @@ Canadian Construction Documents Committee. *CCDC 23 – 2018: A Guide to Calling
 
 Charan, Ram. *What the CEO Wants You to Know: How Your Company Really Works.* New York: Crown Business, 2001.
 
-Clarke, Neil. "A Concerning Trend." Blog post, 15 February 2023; Clarkesworld closed submissions on 20 February 2023. https://neil-clarke.com/a-concerning-trend/. (To check.)
+Clarke, Neil. "A Concerning Trend." Blog post, 15 February 2023; Clarkesworld closed submissions on 20 February 2023. https://neil-clarke.com/a-concerning-trend/.
 
 Corrigan, Tony. Opinion piece on AI transforming how tenders are written but not how they are evaluated. *Silicon Republic*, 26 May 2026. https://www.siliconrepublic.com/business/opinion-ai-transforming-how-tenders-are-written-but-not-how-theyre-evaluated. (Title to check.)
 
@@ -26,7 +26,7 @@ Dwork, Cynthia, and Moni Naor. "Pricing via Processing or Combatting Junk Mail."
 
 Eghbal, Nadia. *Working in Public: The Making and Maintenance of Open Source Software.* San Francisco: Stripe Press, 2020.
 
-European Commission. Proposal for a regulation on public procurement, COM(2026) 590, 9 September 2026. (Title to check.)
+European Commission. Proposal for a Regulation on public procurement and concessions (Public Procurement Act), COM(2026) 590, 9 September 2026.
 
 European Court of Auditors. *Public Procurement in the EU: Less Competition for Contracts Awarded for Works, Goods and Services in the 10 Years up to 2021.* Special Report 28/2023. Luxembourg, 2023.
 
@@ -36,7 +36,7 @@ Galbraith, J. R. *Achieving Integration through Information Systems.* Working pa
 
 Galbraith, Jay R. "Organization Design: An Information Processing View." *Interfaces* 4, no. 3 (1974): 28–36. (To check which of Galbraith's papers chapter 1 leans on; the 1968 working paper is listed above.)
 
-Galdin, Anais, and Jesse Silbert. "Making Talk Cheap: Generative AI and Labor Market Signaling." arXiv:2511.08785, November 2025. https://arxiv.org/abs/2511.08785.
+Galdin, Anaïs, and Jesse Silbert. "Making Talk Cheap: Generative AI and Labor Market Signaling." arXiv:2511.08785, November 2025. https://arxiv.org/abs/2511.08785.
 
 Graham, Paul. "A Plan for Spam." August 2002. https://www.paulgraham.com/spam.html.
 
@@ -90,7 +90,7 @@ Royal Institution of Chartered Surveyors. *Cost Prediction.* RICS professional s
 
 Royal Institution of Chartered Surveyors. *RICS Data Standard* (v3.3.3, MIT licence). https://www.isurv.com/homepage/945/rics_data_standards_and_schema.
 
-Santoleri, Pietro, Francesco Rentocchini and Francesco Lelli. "LLM-Assisted Proposal Writing in Competitive R&D Funding: Evidence from Horizon Europe." JRC Working Paper 02/2026. European Commission, Joint Research Centre, 2026. https://publications.jrc.ec.europa.eu/repository/handle/JRC146131.
+Santoleri, Pietro, Francesco Rentocchini and Francesco Lelli. "LLM-Assisted Proposal Writing in Competitive R&D Funding: Evidence from Horizon Europe." JRC Working Papers on Territorial Modelling and Analysis No 02/2026. European Commission, Joint Research Centre, 18 March 2026. https://publications.jrc.ec.europa.eu/repository/handle/JRC146131.
 
 Sathe, Aneesh. "The Birth of Thickets: An Interregnum in Space." Blog post, 19 July 2026. https://aneeshsathe.com/the-birth-of-thickets/.
 
@@ -122,6 +122,6 @@ World Machines. Project of SIGPSY, the Special Interest Group in Psychohistory, 
 
 World Trade Organization. *Agreement on Government Procurement*, as revised in 2012 (in force 2014), Articles VIII and IX.
 
-Xu, Jiannan, Gujie Li and Jane Yi Jiang. "AI Self-Preferencing in Algorithmic Hiring." arXiv:2509.00462, 2025. https://arxiv.org/abs/2509.00462.
+Xu, Jiannan, Gujie Li and Jane Yi Jiang. "AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights." arXiv:2509.00462, 2025. https://arxiv.org/abs/2509.00462.
 
-Yegge, Steve. "Stevey's Google Platforms Rant." Google+ post, October 2011, widely mirrored. (Date to check.)
+Yegge, Steve. "Stevey's Google Platforms Rant." Google+ post, October 2011, widely mirrored.

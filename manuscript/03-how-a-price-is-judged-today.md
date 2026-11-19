@@ -46,7 +46,7 @@ Maybe you want something more. You want to change your mind. You want to explore
 
 A cost-plus contract moves you to the opposite corner of the map. The builder becomes a consulting contractor: it works for you, and you cooperate instead of competing. The scope and the price float. What keeps the contractor on your side is partly law and custom, but mostly the money: paid its costs plus a fee, it has little to gain by working against you. The catch: you pay every cost, whatever it turns out to be, and the contractor has no reason to spend less. When the fee is a percentage, every extra dollar you spend earns it a little more. Useful when you need room to move, but the peaceful corner is also the expensive one.
 
-Design-Build has a version for this corner too. In progressive Design-Build, you choose the team for its qualifications instead of its price. It designs alongside you, and the price is agreed with open books, one package at a time, as the design firms up. Public road agencies are only starting to use it, and as of 2024 only sixteen US jurisdictions had a law that allowed it. Open books only help if someone on your side can read them.
+Design-Build has a version for this corner too. In progressive Design-Build, you choose the team for its qualifications instead of its price. It designs alongside you, and the price is agreed with open books, one package at a time, as the design firms up. Public road agencies are only starting to use it, and as of 2024 only sixteen state transportation departments had a law that allowed it. Open books only help if someone on your side can read them.
 
 You trade cost certainty for optionality.
 
