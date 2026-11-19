@@ -81,34 +81,37 @@ def badge(name):
     return BADGE.format(kind=kind, label=STATUS[kind][0])
 
 PARTS = [
-    # File names keep their first numbers; this list is the reading order
-    #.
+    # File names keep their first numbers; this list is the reading order.
+    # Since 2026-11-19 it follows Andre's outline (approved 2026-11-19): overview, the problem,
+    # the solution, why not something else, what each party gains, how we get there, past and future.
+    # Not written yet, so not listed: what AI gets right (10), the designers (8d).
     ("Front matter", [("00-front-matter.md", "Front matter"), ("00b-prologue.md", "Prologue")]),
-    ("Part I. The way in", [
-        ("07-building-an-estimator-in-public.md", "1. A second opinion on every price"),
-        ("03-how-a-price-is-judged-today.md", "2. How a price is judged today"),
-        ("03b-what-do-we-do-with-a-drunken-sailor.md", "3. What do we do with a drunken sailor?"),
-        ("00c-introduction.md", "4. The zombie garden")]),
-    ("Part II. The question", [
-        ("01-expecting-a-divorce.md", "5. Starting a relationship expecting a divorce"),
-        ("02-the-tender-is-the-api.md", "6. The tender is the API"),
-        # The three parties at the tender's door, drafted 2026-11-13; numbering to be decided.
-        ("02b-the-buyers.md", "6a. The buyers: more bids than eyes"),
-        ("02c-the-bidders.md", "6b. The bidders: racing for the light"),
-        ("02d-the-vendors.md", "6c. The vendors: players, not referees")]),
-    ("Part III. The machines", [
-        ("04-two-centuries-of-one-loop.md", "7. Two centuries of one loop"),
-        ("05-liability-shifts.md", "8. Liability shifts to the user's bot"),
-        ("06-the-banana-peel.md", "9. The banana peel"),
-        ("06b-the-bot-in-the-witness-box.md", "10. The bot in the witness box"),
-        ("06c-the-blessing-of-the-legal-department.md", "The blessing of the legal department (draft, place to be decided)"),
-        ("06e-the-underwriters-chapter.md", "The underwriters' chapter (draft, place to be decided)")]),
-    ("Part IV. The protocol that follows", [
-        ("08b-the-zombie-lost-to-a-file-format.md", "The zombie lost to a file format (draft, place to be decided)"),
-        ("09-the-protocol-that-follows.md", "11. The protocol that follows"),
-        ("09a-the-trades-who-holds-the-jig.md", "The trades: who holds the jig (draft, place to be decided)"),
-        ("09b-the-monsters-we-kept.md", "The monsters we kept (draft, place to be decided)"),
-        ("10-the-meta-goal.md", "12. The meta-goal")]),
+    ("Part I. The problem", [
+        ("02-the-tender-is-the-api.md", "1. The tender is the API"),
+        ("01-expecting-a-divorce.md", "2. Starting a relationship expecting a divorce"),
+        ("00c-introduction.md", "3. The zombie garden")]),
+    ("Part II. The solution", [
+        ("06e-the-underwriters-chapter.md", "4. The standard and insurance (today the underwriters' chapter)"),
+        ("05-liability-shifts.md", "4a. Liability shifts to the user's bot (to fold into chapter 4)")]),
+    ("Part III. Why not something else?", [
+        ("03-how-a-price-is-judged-today.md", "5. How a price is judged today"),
+        ("08b-the-zombie-lost-to-a-file-format.md", "6. The zombie lost to a file format"),
+        ("09b-the-monsters-we-kept.md", "7. The monsters we kept")]),
+    ("Part IV. What each party stands to gain", [
+        ("02b-the-buyers.md", "8a. The buyers: more bids than eyes"),
+        ("02c-the-bidders.md", "8b. The bidders: racing for the light"),
+        ("09a-the-trades-who-holds-the-jig.md", "8c. The trades: who holds the jig"),
+        ("02d-the-vendors.md", "8e. The vendors: players, not referees"),
+        ("06c-the-blessing-of-the-legal-department.md", "8f. The blessing of the legal department")]),
+    ("Part V. How we get there", [
+        ("03b-what-do-we-do-with-a-drunken-sailor.md", "9. What do we do with a drunken sailor?"),
+        ("06-the-banana-peel.md", "9a. The banana peel (to fold into chapter 9)"),
+        ("07-building-an-estimator-in-public.md", "11. A second opinion on every price"),
+        ("09-the-protocol-that-follows.md", "12. The protocol that follows"),
+        ("06b-the-bot-in-the-witness-box.md", "12a. The bot in the witness box (to fold into chapter 12)")]),
+    ("Part VI. Past and future", [
+        ("04-two-centuries-of-one-loop.md", "13. Two centuries of one loop"),
+        ("10-the-meta-goal.md", "14. The meta-goal")]),
     ("Appendices", [
         ("app-a-the-cards.md", "A. Procurement Machines"),
         ("app-b-reading-list.md", "B. Reading list"),
