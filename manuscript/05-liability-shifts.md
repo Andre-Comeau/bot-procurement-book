@@ -146,4 +146,4 @@ Source gaps checked 2026-11-19 (Claude, thread "Close the book's source gaps"; l
 
 (`case-studies/andre-comeau/README.md`, "Who benefits when error detection becomes cheap")
 
-*The case study's own caution (perhaps Claude's wording): the deeper moat in construction bidding is usually bonding capacity, surety and prequalification history, none of which AI changes directly. The Seoul group's evidence that AI bidders collude tacitly (`collusion-papers-notes-2026-11-01.md`, Part 3.1) pulls against Andre's optimism; keep them in tension, as the hidden note says.*
+*The case study's own caution (perhaps Claude's wording): the deeper moat in construction bidding is usually bonding capacity, the bonding company's backing and prequalification history, none of which AI changes directly. The Seoul group's evidence that AI bidders collude tacitly (`collusion-papers-notes-2026-11-01.md`, Part 3.1) pulls against Andre's optimism; keep them in tension, as the hidden note says.*
