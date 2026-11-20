@@ -19,7 +19,7 @@ Who is racing for the light?
 
 The small firm, first, because it is the one the project is not for. When the whole picture, the crews, the equipment, the costs and the appetite for risk, fits in one head, an off-the-shelf AI already gives a bid to review, and a tool with insurance on top would turn profit into overhead. The small firm needs nothing from a standard except to be left alone by it, and not pressed by buyers to keep records it does not need.
 
-The ambitious smaller firm stretching to a bigger job is the exception worth naming. Firms cannot discuss prices with other bidders under collusion legislation, so a smaller ambitious firm would either need to take a massive amount of risk when bidding a bigger project, or use AI to confirm its hand calculation. The check is the second option made respectable. But better estimation and bidding strategies are only part of a firm's capacity to deliver projects. Front-line, supervision, administrative, management and accounting skill all need to grow in order to increase capacity. Sureties know this and are unlikely to change their winning strategies.
+The ambitious smaller firm stretching to a bigger job is the exception worth naming. Firms cannot discuss prices with other bidders under collusion legislation, so a smaller ambitious firm would either need to take a massive amount of risk when bidding a bigger project, or use AI to confirm its hand calculation. The check is the second option made respectable. But better estimation and bidding strategies are only part of a firm's capacity to deliver projects. Front-line, supervision, administrative, management and accounting skill all need to grow in order to increase capacity. Bonding companies know this and are unlikely to change their winning strategies.
 
 The medium and large firm is the market. It has several estimating offices, middle managers between the estimators and the people who sign, and a bonding line in the tens of millions. It bids the largest jobs, where a losing bid wastes the most work and where no single person can check everything. What it needs from a check is trust between its own people: a senior manager relying on a bid built in another office, with a record of what was checked.
 
@@ -35,7 +35,7 @@ Put plainly, a bidder wants six things from the tender's door.
 
 A check before the bid goes in, because the money is in the gap. A way for managers to trust bids they did not build. Fewer wasted bids, which means clean documents, questions answered before the bids close, and the five losing bids in six costing less to prepare. A fair and predictable hearing, where the same bid gets the same answer and the reasons are given. Room to spread the price their own way, so a check flags a line for the firm's own review and never sets the price, which also keeps it on the safe side of competition law. And their own data kept their own: a firm's bid history is its memory, and it will share the market's record, not its own.
 
-A seventh is a surety that sees the difference between a firm that checked its bid and one that did not. The bonding market will be the slowest to move, for the reason given above; chapter 7g says where a check could still help a surety.
+A seventh is a bonding company that sees the difference between a firm that checked its bid and one that did not. The bonding market will be the slowest to move, for the reason given above; chapter 7g says where a check could still help a bonding company.
 
 ## What they fear
 
