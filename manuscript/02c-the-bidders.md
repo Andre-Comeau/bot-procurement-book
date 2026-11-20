@@ -20,7 +20,7 @@ And then the new species: firms that had never tendered, now feeding their sales
 
 Put plainly, a bidder wants six things from the tender's door.
 
-A check before the bid goes in, because the money is in the gap. A way for managers to trust bids they did not build. Fewer wasted bids, which means clean documents, questions answered before the bids close, and the five losing bids in six costing less to prepare. A fair and predictable hearing, where the same bid gets the same answer and the reasons are given. Room to spread the price their own way, so a check flags a line for the firm's own review and never sets the price, which is also what competition law requires of it. And their own data kept their own: a firm's bid history is its memory, and it will share the market's record, not its own.
+A check before the bid goes in, because the money is in the gap. A way for managers to trust bids they did not build. Fewer wasted bids, which means clean documents, questions answered before the bids close, and the five losing bids in six costing less to prepare. A fair and predictable hearing, where the same bid gets the same answer and the reasons are given. Room to spread the price their own way, so a check flags a line for the firm's own review and never sets the price, which also keeps it on the safe side of competition law. And their own data kept their own: a firm's bid history is its memory, and it will share the market's record, not its own.
 
 A seventh is a surety that sees the difference between a firm that checked its bid and one that did not. The bonding market will be the slowest to move, for the reason given above; chapter 7g says where a check could still help a surety.
 

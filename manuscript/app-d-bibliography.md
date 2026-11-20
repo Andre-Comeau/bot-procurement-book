@@ -4,6 +4,8 @@ Abbott, Bud, and Lou Costello. "Who's on First?" Comedy routine, performed from 
 
 AM Best. *Best's Special Report: Infrastructure Projects Spur Growth and Help Fuel Profits for U.S. Surety Insurers.* 19 January 2026. Summary: https://www.businesswire.com/news/home/20260119512086/en/.
 
+Artificial Intelligence Underwriting Company. *AIUC-1*, a standard for AI agents; requirements E004 ("Assign accountability") and E015 ("Log AI system activity") in its evidence index, read 19 November 2026. https://standard.aiuc-1.com/. Terms of use, 15 July 2025, https://standard.aiuc-1.com/legal/terms.md.
+
 Auditor General of Ontario. *Annual Report 2024*, chapter "Procurement and Delivery of Selected Infrastructure Projects". Toronto: Office of the Auditor General of Ontario, 2024. https://www.auditor.on.ca/en/content/annualreports/arreports/en24/pa_infrastructureON_en24.pdf.
 
 Brooks, Frederick P., Jr. *The Mythical Man-Month: Essays on Software Engineering.* Reading, MA: Addison-Wesley, 1975. Chapter 3, "The Surgical Team".
@@ -17,6 +19,10 @@ Canadian Construction Documents Committee. *CCDC 23 – 2018: A Guide to Calling
 Charan, Ram. *What the CEO Wants You to Know: How Your Company Really Works.* New York: Crown Business, 2001.
 
 Clarke, Neil. "A Concerning Trend." Blog post, 15 February 2023; Clarkesworld closed submissions on 20 February 2023. https://neil-clarke.com/a-concerning-trend/.
+
+Clarkesworld Magazine. "Submission Guidelines." Web page, 2025. https://clarkesworldmagazine.com/submissions/.
+
+Competition Bureau Canada. *Algorithmic Pricing and Competition: Discussion Paper.* June 2025. https://competition-bureau.canada.ca/en/node/963.
 
 Congressional Research Service. *SBA Surety Bond Guarantee Program.* Report R42037, updated 18 July 2025. https://www.everycrsreport.com/reports/R42037.html.
 
@@ -43,6 +49,8 @@ European Court of Auditors. *Public Procurement in the EU: Less Competition for 
 Federal Highway Administration. *Alternative Contracting Method Performance in U.S. Highway Construction.* TechBrief FHWA-HRT-17-100. McLean, VA: FHWA, April 2018. https://www.fhwa.dot.gov/publications/research/infrastructure/17100/index.cfm
 
 Federal Highway Administration. *National Review of State Cost Estimation Practice.* Washington, DC: FHWA, February 2015. https://www.fhwa.dot.gov/construction/contracts/2014cost.pdf.
+
+Freedberg, Sydney J., Jr. "The Myth of the $600 Hammer." *Government Executive*, 7 December 1998. https://www.govexec.com/federal-news/1998/12/the-myth-of-the-600-hammer/5271/.
 
 Galbraith, J. R. *Achieving Integration through Information Systems.* Working paper 364-68. Cambridge, MA: MIT Sloan School of Management, December 1968.
 
@@ -86,7 +94,11 @@ Laurie, Ben, and Richard Clayton. "'Proof-of-Work' Proves Not to Work." Workshop
 
 Liu, Bannerman, Elliot, Ewart and Atkinson (first names to check). "Underpricing for Construction Projects: A Double-Edged Sword." PMI Learning Library, 2014. https://www.pmi.org/learning/library/underpricing-construction-projects-8958.
 
+Nithyanantham, Bharathi Kannan, Clemens Kujat, Tobias Sesterhenn, et al. "BIM-Edit: Benchmarking Large Language Models for IFC-Based Building Information Modeling." arXiv:2606.20146, June 2026. https://arxiv.org/abs/2606.20146.
+
 Old Republic Surety. "Can You Explain Your Bid Spread?" Blog post, undated. https://orsurety.com/blog/can-you-explain-your-bid-spread.
+
+Ontario General Contractors Association. "Progressive Procurement P3 – Q&As" (on Infrastructure Ontario's progressive P3s: "a proposal fee will be offered"). https://www.naylornetwork.com/oga-nwl/pdf/Progressive_Procurement_P3_-_Q&As.pdf. (Title and date to check.)
 
 Open Contracting Partnership. *Open Contracting Data Standard*, version 1.0, 2015; and, with CoST – the Infrastructure Transparency Initiative, *Open Contracting for Infrastructure Data Standard* (OC4IDS), 2019. https://standard.open-contracting.org/.
 
@@ -124,6 +136,8 @@ Stevenson, Sean. Post on the Stevenson Test ("What an honor to have my own test!
 
 Stevenson, Sean. "De-Dramatizing the Digital: How AI Descends Into New Nature." Talk, Protocol Symposium 2026, 23 September 2026. https://www.youtube.com/watch?v=Ktdu6HjhYFo.
 
+Stinson-Schroff, Timber. "Introducing the Protocol Institute." *Protocolized*, 27 April 2026. https://protocolized.summerofprotocols.com/p/introducing-the-protocol-institute.
+
 Surety & Fidelity Association of America. *Surety Results 2023Y* (preliminary). Washington, DC: SFAA, 2024. Copy: https://mbasurety.com/wp-content/uploads/2024/04/SFAA-Surety-Results_2023Y.pdf.
 
 Surety Information Office. Article on why contractors fail (title to check). *Modern Contractor Solutions*, October 2007, 42–43, reporting an SFAA review of 86 claims. https://suretyinfo.org/pdf/WhyContractorsFailMCS.pdf.
@@ -139,6 +153,10 @@ U.S. Small Business Administration. "Growth, Demand in Manufacturing Drives Reco
 UNCITRAL. *Guide to Enactment of the UNCITRAL Model Law on Public Procurement.* New York: United Nations, 2012. Paragraphs 101 to 102.
 
 United States. Code of Federal Regulations, title 23, part 636, *Design-Build Contracting*, sections 636.112 and 636.113 (stipends).
+
+United States. Federal Acquisition Regulation, 48 CFR 15.404-1, "Proposal Analysis Techniques". https://www.acquisition.gov/far/15.404-1.
+
+United States Department of Justice. Press release on the proposed RealPage settlement ("Justice Department Requires RealPage to End the Sharing of Competitively Sensitive Information"), 24 November 2025. https://www.justice.gov/opa/pr/justice-department-requires-realpage-end-sharing-competitively-sensitive-information-and.
 
 Vals AI. *VLAIR – Legal Research*, October 2025, as reported by LawNext, 23 October 2025. https://www.lawnext.com/2025/10/vals-ais-latest-benchmark-finds-legal-and-general-ai-now-outperform-lawyers-in-legal-research-accuracy.html.
 
