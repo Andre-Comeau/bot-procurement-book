@@ -28,7 +28,7 @@ Then the bidders against each other. In Texas the second-lowest bid was more tha
 
 None of this says the low bid lost money. A low price can be a real advantage: a yard nearby, owned equipment, a crew that would otherwise sit idle. Whether it was an error only shows on the contractor's books, and those are rarely public. What is public is softer. In a 2019 survey of 666 American construction firms, 29 percent said they usually make less profit than they estimated. In a smaller Australian survey, almost two in five quantity surveyors and contractors said their last completed project had been underpriced. In laboratory auctions, experienced construction executives fell into the winner's curse, with two winning bids in three below the price at which they would break even. In the field the industry survives the curse anyway, through habits learned on the job and ways back from a bid that went too low.
 
-So the base rate an insurer would start from is not zero, and it is not one number. Human prices run well below the market often, and lose money less often. A bot's error has to be measured against both, which is why every version of the bot will report its lean beside its middle.
+So the base rate an insurer would start from is not zero, and it is not one number. Human prices run well below the market often, and lose money less often. A bot's error has to be measured against both, which is why every version of the bot will report its lean beside its middle. The prototype's own lean, low by design, is in chapter 10.
 
 ## Four open questions
 
