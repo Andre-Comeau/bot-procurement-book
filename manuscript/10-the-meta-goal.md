@@ -32,7 +32,9 @@ This is the destination, not a plan. The field this book belongs to is Bot Const
 
 Some questions belong to the field, not to the standard, and this book leaves them open.
 
-Who answers for a jigbot? Probably the same three things that answer for a powder-actuated tool or a scissor lift today: a standard, training with a ticket to show for it, and insurance. The hard part is the width of the teaching. Makers will want the machine to do only what they planned, and the trades will need it to follow the site.
+Who answers for a jigbot? Probably the same three things that answer for a powder-actuated tool or a scissor lift today: a standard, training with a ticket to show for it, and insurance. Whatever the answer, the bill should not land on the tradesperson simply because they were the last to touch the setup. The hard part is the width of the teaching. Makers will want the machine to do only what they planned, and the trades will need it to follow the site.
+
+Who holds the authority to teach it? If it sits with the maker, the jigbot is one more machine programmed from head office. If it sits with the worker, the teaching has to be possible without a degree in computer science, and the machine has to respect a body that knows where it is on a ladder in ways no model does. That is a harder design problem than it sounds, and a later standard may have to protect it.
 
 How many doors should a project have? Today one builder usually answers for everything behind the tender. Once machines can read the documents, a buyer might reach the trades more directly. Whether that helps depends on who stands behind each piece and who answers for how the pieces fit. That question belongs to all of them, not to one side.
 
