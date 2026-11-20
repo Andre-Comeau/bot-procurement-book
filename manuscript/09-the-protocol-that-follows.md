@@ -104,7 +104,7 @@ One standard cannot carry all of that, and the older bodies never tried. ASTM te
  "requirement": "02-310-3.2", "version": "addendum 2"}
 ```
 
-A bidder's bot can read it without guessing, a person without software, and two versions can be compared line by line. The PDF need not die on day one. It can keep the seal for a while, as the stamped copy a court reads, with the template issued beside it "for reading". The order of precedence flips only when the villagers are ready, and that flip finally lays the zombie to rest.
+A bidder's bot can read it without guessing, a person without software, and two versions can be compared line by line. The PDF need not die on day one. It can keep the seal for a while, as the stamped copy a court reads, with the template issued beside it "for reading". The order of precedence flips only when the villagers are ready, and that flip lays the zombie to rest.
 
 **The second standard is the tool test.** It is Dudley's half of the problem: measure what is being sold, in a way the seller cannot argue with. For a pricing bot, that means a public set of tenders it has never seen, one fixed way of scoring its prices against what bidders actually bid, and a published miss rate with a tolerance around it. It is written backwards from what it has to catch, so the project's own estimator will be only the first tool to sit it, and a second vendor's bot can pass it too. What the tolerance should be is a question for evidence, not for a drafting committee, and the estimator is being built to answer it. A tolerance written today would be a guess with a version number, so this standard is drafted now and fixed when the estimator has earned it.
 
