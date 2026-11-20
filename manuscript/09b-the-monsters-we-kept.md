@@ -46,7 +46,7 @@ It is a fair question. If machines can read the documents, why should a buyer go
 
 The promise is a cheaper building, at least on paper. New York has required separate trade contracts on many public buildings for more than a century, and the studies of whether that saves money disagree with each other, which is itself a kind of answer.
 
-The monstrous trait is that each head can be held responsible for its own piece, and none for how the pieces fit. A single door survives because there is one party behind it to answer for the whole, with a surety behind that party to make the answer worth something. Cut off the general contractor and the buyer becomes the one holding everything together, whether or not it meant to.
+The monstrous trait is that each head can be held responsible for its own piece, and none for how the pieces fit. A single door survives because there is one party behind it to answer for the whole, with a bonding company behind that party to make the answer worth something. Cut off the general contractor and the buyer becomes the one holding everything together, whether or not it meant to.
 
 What would open the cage: someone, bot or firm, who coordinates the pieces and can be sued for the coordination, with a bond to match.
 
