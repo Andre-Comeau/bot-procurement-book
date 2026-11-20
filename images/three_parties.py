@@ -1,4 +1,4 @@
-"""Three parties at the door: the buyers, the bidders and the vendors (chapters 7a, 7b and 7e, three panels).
+"""Three parties at the door: the buyers, the bidders and the vendors (chapters 7, 8 and 11, three panels).
 Usage: python images/three_parties.py images/three-parties   (writes the .svg and an .html; render at 1600 1530, see images/README.md)
 """
 import sys, html, math, random
@@ -46,7 +46,7 @@ TOP, BOT, CW = 250, 1190, 460
 XS = (80, 570, 1060)
 BAND = 190
 o = [f'<rect width="{W}" height="{H}" fill="{C["canvas"]}"/>']
-o.append(t(80, 86, "CHAPTERS 7A, 7B AND 7E · THE BUYERS, THE BIDDERS, THE VENDORS", "eyebrow"))
+o.append(t(80, 86, "CHAPTERS 7, 8 AND 11 · THE BUYERS, THE BIDDERS, THE VENDORS", "eyebrow"))
 o.append(t(80, 148, "Three parties at the door", "title"))
 o.append(t(80, 190, "Each party's chapter asks the same questions: who they are, what they need from the tender,", "dek"))
 o.append(t(80, 218, "and what a published check gives them. Below the three, the answer they cannot give each other: a standard, and someone behind its number.", "dek"))

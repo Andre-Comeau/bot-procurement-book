@@ -1,4 +1,4 @@
-"""Chapter 10 figure: Bot Procurement World, a retro overworld map of the bid, award and change process.
+"""Chapter 16 figure: Bot Procurement World, a retro overworld map of the bid, award and change process.
 
 World 1 runs Tender, Bid, Contract, RFI, Contemplated change and Quote, then splits
 three ways to the Change Order castle: the estimator's hut, the evaluator's hut
@@ -150,7 +150,7 @@ def bot(x, y):
 
 o = [f'<rect width="{W}" height="{H}" fill="{LEAD}"/>']
 o.append(t(70, 76, "BOT PROCUREMENT WORLD", "pxt", "#ffffff", "start"))
-o.append(t(70, 116, "Chapter 10 · From tender to change order", "dek", "#d9d6cf", "start"))
+o.append(t(70, 116, "Chapter 16 · From tender to change order", "dek", "#d9d6cf", "start"))
 o.append(t(1730, 76, "WORLD 1", "pxt2", C["acc"], "end"))
 
 X0, Y0, X1, Y1 = 40, 150, 1350, 1060
