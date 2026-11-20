@@ -7,6 +7,7 @@ Brief: The twenty cards from 493 BCE to 2026, each with its image, as rendered t
 Sources: `work-packages/procurement-machines/cards/` and `images/`.
 Literature (`literature-review-2026-11-01.md`, Part 1): Augustine's *Laws*, Parkinson, Harford's *Fifty Things* and the Nobel 2020 lesson diagrams as register and format models.
 Paths are relative to construction-procurement-protocols unless they start with C:\.
+Source gaps checked 2026-11-19 (Claude, thread "Close the book's source gaps"; ledger appa-01): the cards repeat chapter 12's dates, so any change Andre makes there lands here too. Sources now found, with suggested wording in chapter 12's notes: 493 BCE (Dionysius 6.17.2 reports the letting of temple contracts about 495 BCE, dedication 493; the sureties and record come later), 1809 (the Act asks for advertised proposals, the procedure later called sealed bidding), 1873 (first edition of Spon's price book). The cards and the machines site live in the Procurement Machines repository and were not changed.
 -->
 
 ## Source passages (to cut and rewrite)
