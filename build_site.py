@@ -60,6 +60,10 @@ DRAFTED = {
     "02-the-tender-is-the-api.md", "02b-the-buyers.md", "02c-the-bidders.md", "02d-the-vendors.md", "02e-the-designers.md", "06f-the-insurers.md",
     "06c-the-blessing-of-the-legal-department.md", "08b-the-zombie-lost-to-a-file-format.md",
     "09a-the-trades-who-holds-the-jig.md", "09b-the-monsters-we-kept.md",
+    # Drafted 2026-11-20 (thread "Retitle chapters and draft missing pieces"), for Andre's read.
+    "00-front-matter.md", "01-expecting-a-divorce.md", "05-liability-shifts.md", "06-the-banana-peel.md",
+    "06b-the-bot-in-the-witness-box.md", "04-two-centuries-of-one-loop.md", "10-the-meta-goal.md",
+    "app-a-the-cards.md", "app-b-reading-list.md", "app-c-glossary.md",
 }
 
 # The labels, in plain words, and the line at the top of each working-copy page.

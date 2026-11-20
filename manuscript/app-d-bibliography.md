@@ -32,9 +32,15 @@ Corrigan, Tony. Opinion piece on AI transforming how tenders are written but not
 
 Dark Reading. "Google's DMARC Push Pays Off, but Email Security Challenges Remain." February 2025. https://www.darkreading.com/remote-workforce/google-dmarc-push-email-security-challenges.
 
+Del Valle (first name to check). "Bid Express Turns 20: A History." Infotech blog, 20 November 2019. https://www.infotechinc.com/blog/bid-express-turns-20-a-history/. (Open bid data from 1982; chapter 18.)
+
+Design-Build Institute of America. "New FMI Report 2024." Blog post, 7 January 2025. https://dbia.org/blog/new-fmi-report-2024/. (Design-build forecast; chapter 18.)
+
 Deutsches Institut für Normung. DIN 476, *Papierformate* (paper formats). Berlin, 1922.
 
 "Drunken Sailor" ("What Shall We Do with the Drunken Sailor?"). Traditional sea shanty, first printed in the nineteenth century.
+
+Dionysius of Halicarnassus. *Roman Antiquities*, book 6, 17.2 and 94. Translated by Earnest Cary, Loeb Classical Library, 1940. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Dionysius_of_Halicarnassus/6A*.html. (The temple contracts of about 495 BCE; chapter 18 and Appendix A.)
 
 Dwork, Cynthia, and Moni Naor. "Pricing via Processing or Combatting Junk Mail." In *Advances in Cryptology: CRYPTO '92*, 139–147. Lecture Notes in Computer Science 740. Berlin: Springer, 1993.
 
@@ -136,6 +142,8 @@ Sewell, William H., Jr. "Three Temporalities: Toward an Eventful Sociology." In 
 
 Solicitors Regulation Authority. "SRA approves first AI-driven law firm." Press release, 6 May 2025. https://www.sra.org.uk/sra/news/press/garfield-ai-authorised/.
 
+*Spon's Architects' and Builders' Price Book.* First edition 1873; 150th edition, Boca Raton: CRC Press, 2025. (The price book; chapter 18 and Appendix A.)
+
 Stevenson, Sean. Post on the Stevenson Test ("What an honor to have my own test!"). *blyg* (blog), 1 October 2026. https://blyg.seanstevenson.org/t/4smjqsxxaxqr8xbvh7m98wg9z7/.
 
 Stevenson, Sean. "De-Dramatizing the Digital: How AI Descends Into New Nature." Talk, Protocol Symposium 2026, 23 September 2026. https://www.youtube.com/watch?v=Ktdu6HjhYFo.
@@ -155,6 +163,8 @@ Thomson, Martin, and David Schinazi. *Maintaining Robust Protocols.* RFC 9413. I
 U.S. Small Business Administration. "Growth, Demand in Manufacturing Drives Record Surety Bond Guarantees in FY25." News release 26-20, 13 January 2026. https://legacy.sba.gov/article/2026/01/13/growth-demand-manufacturing-drives-record-surety-bond-guarantees-fy25.
 
 UNCITRAL. *Guide to Enactment of the UNCITRAL Model Law on Public Procurement.* New York: United Nations, 2012. Paragraphs 101 to 102.
+
+United States. Act of 3 March 1809, chapter 28, section 5. *Statutes at Large*, vol. 2, 10th Congress, 2nd session. https://en.wikisource.org/wiki/United_States_Statutes_at_Large/Volume_2/10th_Congress/2nd_Session/Chapter_28. (Formal advertising; chapter 18 and Appendix A.)
 
 United States. Code of Federal Regulations, title 23, part 636, *Design-Build Contracting*, sections 636.112 and 636.113 (stipends).
 
