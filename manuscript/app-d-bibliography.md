@@ -4,6 +4,7 @@
 Appendices
 Added 2026-11-03 (Andre): the book uses no footnotes or endnotes. Works the text draws on are listed here; where each is used is recorded in the chapters' hidden notes.
 Entries marked "to check" have not been verified against the publication.
+Added 2026-11-20 (Claude, Dudley and OSI passages in chapter 11, for Andre to confirm): ASTM International history; Russell 2013.
 Added 2026-11-06 with Claude's chapter 10 draft, for Andre to confirm (keep only what the finished chapter uses): buildingSMART IDS, CCDC 23, IEEE 3119, ISO 10845-3, Eghbal, ISO 10845-1, Lang (essay and talk), Open Contracting Partnership, Roegies, Watermeyer. The Lang essay's place in The Protocol Reader is not confirmed.
 Added 2026-11-13 with Claude's drafts of chapter 6 and chapters 6a to 6c, for Andre to confirm (keep only what the finished chapters use; names and titles marked "to check" were taken from research notes, not from the publications): Auditor General of Ontario; Brooks; Clarke; Corrigan; Dark Reading; Dwork and Naor; European Commission (COM(2026) 590); European Court of Auditors; Galbraith 1974; Galdin and Silbert; Graham; Kahneman, Sibony and Sunstein; Kaplow; Laurie and Clayton; Rao and Reiley; Santoleri, Rentocchini and Lelli; Solicitors Regulation Authority; Thomson and Schinazi (RFC 9413); UNCITRAL; United States, 23 CFR 636; Vals AI; World Trade Organization; Xu, Li and Jiang; Yegge. Rao's two liveness essays and Shear's note were listed with the morning draft and removed the same afternoon, when the liveness theory left the reader's text (Andre); they are recorded in chapter 6's hidden note as the writers' working concept.
 Kolt: end page not yet confirmed (the journal page gives only the first page, 101 Notre Dame L. Rev. 335, published 22 August 2026). Page references in the chapters' notes are to the arXiv v2 PDF.
@@ -17,6 +18,8 @@ Abbott, Bud, and Lou Costello. "Who's on First?" Comedy routine, performed from 
 AM Best. *Best's Special Report: Infrastructure Projects Spur Growth and Help Fuel Profits for U.S. Surety Insurers.* 19 January 2026. Summary: https://www.businesswire.com/news/home/20260119512086/en/.
 
 Artificial Intelligence Underwriting Company. *AIUC-1*, a standard for AI agents; requirements E004 ("Assign accountability") and E015 ("Log AI system activity") in its evidence index, read 19 November 2026. https://standard.aiuc-1.com/. Terms of use, 15 July 2025, https://standard.aiuc-1.com/legal/terms.md.
+
+ASTM International. "The History of ASTM International." https://about.astm.org/ABOUT/history_book.html.
 
 Auditor General of Ontario. *Annual Report 2024*, chapter "Procurement and Delivery of Selected Infrastructure Projects". Toronto: Office of the Auditor General of Ontario, 2024. https://www.auditor.on.ca/en/content/annualreports/arreports/en24/pa_infrastructureON_en24.pdf.
 
@@ -131,6 +134,8 @@ Roegies, Kelly. "A Government Guide to Open Protocols." *Protocolized*, 19 March
 Royal Institution of Chartered Surveyors. *Cost Prediction.* RICS professional standard, 1st ed. London: RICS, 2020; effective 1 July 2021. https://www.rics.org/.
 
 Royal Institution of Chartered Surveyors. *RICS Data Standard* (v3.3.3, MIT licence). https://www.isurv.com/homepage/945/rics_data_standards_and_schema.
+
+Russell, Andrew L. "OSI: The Internet That Wasn't." *IEEE Spectrum*, 29 July 2013. https://spectrum.ieee.org/osi-the-internet-that-wasnt.
 
 Santoleri, Pietro, Francesco Rentocchini and Francesco Lelli. "LLM-Assisted Proposal Writing in Competitive R&D Funding: Evidence from Horizon Europe." JRC Working Papers on Territorial Modelling and Analysis No 02/2026. European Commission, Joint Research Centre, 18 March 2026. https://publications.jrc.ec.europa.eu/repository/handle/JRC146131.
 
