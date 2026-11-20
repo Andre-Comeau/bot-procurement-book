@@ -47,11 +47,11 @@ The standards bodies license their vocabulary, while the machines that now read 
 
 ## What grew out of the fraying
 
-Two newer machines grew in the gaps. The first is open bid data: the tabulation as a dataset. It began in 1982 with a vendor's bid analysis system for one state highway agency, grown out of bid-rigging cases, and gained an open data standard in 2014. Since 2025 Texas publishes every bidder's price for every line. That record is what this book's estimator will learn from.
+Two newer machines grew in the gaps. The first is open bid data: the tabulation as a dataset. It began in 1982 with a vendor's bid analysis system for one state highway agency, grown out of bid-rigging cases, and gained an open data standard in 2014. Since 2025 Texas publishes every bidder's price for every line. That record is what this book's estimator learns from.
 
 The second is alternative delivery, the family of ways around the sealed bid. It is plural, negotiated and shaped by data, as the loop's own machines were not. It has not replaced the loop. The market-rate check built into a competitive tender keeps a value that integrated approaches find hard to copy, which is chapter 4's reason the hard bid survives.
 
-Between the machines sit contraptions: quick assemblies built by a few people around one gap. Most collapse because they grow complicated faster than they grow structure. A few find structure and become machines. The first machines to take part in the loop itself were the auditors' screens that read every tender for signs of collusion, and chapter 16 tells how they fell out of use wherever nobody had to act on a flag.
+Between the machines sit contraptions: quick assemblies built by a few people around one gap. Most collapse because they grow complicated faster than they grow structure. A few find structure and become machines. The first machines to take part in the loop itself were the auditors' screens that read public tenders and flagged the suspicious ones, and chapter 16 tells how they fell out of use wherever nobody had to act on a flag.
 
 ## The next turn
 
