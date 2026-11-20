@@ -9,19 +9,24 @@ Added 2026-11-09: Rehearsal contracts and the final test (Andre's wording rule; 
 Added 2026-11-02: Robotic construction, defined from the field notes as construction by robots "meant to be controlled by *other programs*" (see chapter 12's note). Faithful channel (the Listener that never answers). Patent and latent errors, as the published checks divide them.
 Paths are relative to construction-procurement-protocols unless they start with C:\.
 Added 2026-11-19 (Claude, thread "Build the source ledger, glossary and FAQ", for Andre to cut and rewrite): a reader's list of terms, drawn from the chapters that use them, and a list of acronyms. Each entry names its chapter so the definition can be checked against it. Wording rules followed: the book's question is "Who is liable?"; the estimator and the model are described in the future tense; the standard is a proposal. Two items wait on Andre: the C3PO line in the Listener passage below (C-3PO is the droid who talks; a bot with no outward voice sounds more like R2-D2), and whether the "Rehearsal contracts and the final test" passage should be renamed in plain words; the reader's entry "Checking the estimator" below avoids both terms meanwhile. The two "who pays" phrasings in the source passages, both Claude's wording, now read "who is liable".
+Added 2026-11-19 (Claude, thread "Fill the estimator and surety gaps"): Bid spread and Surety, for chapters 3 and 7g.
 -->
 
 ## Terms
 
 *Each term names the chapter where it is used most.*
 
-**Bid bond.** A guarantee, usually from a surety, that a bidder who wins will sign the contract at the price it bid. It is one of the four answers highway construction already has to a flood of bids (chapter 1).
+**Bid bond.** A guarantee, usually from a bonding company, that a bidder who wins will sign the contract at the price it bid. It is one of the four answers highway construction already has to a flood of bids (chapter 1).
 
 **Bid cushion.** The money a bidder adds to cover what it could not check in the time it had: errors in the drawings, unclear quantities, risk it cannot price. The book calls it slack (chapter 1).
 
 **Bid depository.** An office that receives trade contractors' sealed prices on bid day, stamps them with its own clock and passes them to the general contractors bidding the job (chapter 7c).
 
+**Bid spread.** The gap between the lowest bid and the next one. Bonding companies read it first: one large bonding company asks for a letter of explanation when the next bid is more than 10 percent higher (chapters 3 and 7g).
+
 **Bill of quantities.** A list of every item of work in a tender with its measured quantity, so that each bidder prices the same list. Highway agencies call the items pay items (chapters 2 and 5).
+
+**Bonding company.** The book's plain word for a surety: the company that issues a builder's bid, performance and payment bonds. Chapter 7g, written for them, uses their own word (see Surety).
 
 **Bot admin.** The project's name for the far world where machines keep track of the work and the documents, not the people. It replaced "bot monitoring" (chapters 7c and 10).
 
@@ -94,6 +99,8 @@ Added 2026-11-19 (Claude, thread "Build the source ledger, glossary and FAQ", fo
 **Standard bot.** A proposal: a published bot that reads a tender the way the standard says it should be read, so anyone can rerun it and a judge can measure other bots against it (chapters 8, 9 and 11).
 
 **Stipend.** A payment from the buyer to the losing bidders on a large job, to cover part of what their bids cost to prepare (chapters 1 and 9).
+
+**Surety.** The industry's word for a bonding company: a company that guarantees a builder's promise to the buyer, through a bid bond and, if the builder wins, performance and payment bonds. The builder and its owners promise to repay any loss, so a surety underwrites the firm rather than the price (chapter 7g).
 
 **Template.** A tender's items, units and quantities written as plain data beside the PDF, so a bot can read them without guessing and a person can read them without software (chapter 11).
 
