@@ -2,6 +2,8 @@
 
 Abbott, Bud, and Lou Costello. "Who's on First?" Comedy routine, performed from 1937; filmed in *The Naughty Nineties* (Universal, 1945). (Named, not quoted.)
 
+AM Best. *Best's Special Report: Infrastructure Projects Spur Growth and Help Fuel Profits for U.S. Surety Insurers.* 19 January 2026. Summary: https://www.businesswire.com/news/home/20260119512086/en/.
+
 Artificial Intelligence Underwriting Company. *AIUC-1*, a standard for AI agents; requirements E004 ("Assign accountability") and E015 ("Log AI system activity") in its evidence index, read 19 November 2026. https://standard.aiuc-1.com/. Terms of use, 15 July 2025, https://standard.aiuc-1.com/legal/terms.md.
 
 Auditor General of Ontario. *Annual Report 2024*, chapter "Procurement and Delivery of Selected Infrastructure Projects". Toronto: Office of the Auditor General of Ontario, 2024. https://www.auditor.on.ca/en/content/annualreports/arreports/en24/pa_infrastructureON_en24.pdf.
@@ -9,6 +11,8 @@ Auditor General of Ontario. *Annual Report 2024*, chapter "Procurement and Deliv
 Brooks, Frederick P., Jr. *The Mythical Man-Month: Essays on Software Engineering.* Reading, MA: Addison-Wesley, 1975. Chapter 3, "The Surgical Team".
 
 buildingSMART International. *Information Delivery Specification (IDS)*, version 1.0. Final standard, 4 June 2024. https://www.buildingsmart.org/standards/bsi-standards/information-delivery-specification-ids/.
+
+California Department of Transportation (Caltrans). Bid summaries for state highway construction contracts, bid openings 1999 to 2009, as collected by the project.
 
 Canadian Construction Documents Committee. *CCDC 23 – 2018: A Guide to Calling Bids and Awarding Construction Contracts.* Ottawa: CCDC, 2018.
 
@@ -20,6 +24,8 @@ Clarkesworld Magazine. "Submission Guidelines." Web page, 2025. https://clarkesw
 
 Competition Bureau Canada. *Algorithmic Pricing and Competition: Discussion Paper.* June 2025. https://competition-bureau.canada.ca/en/node/963.
 
+Congressional Research Service. *SBA Surety Bond Guarantee Program.* Report R42037, updated 18 July 2025. https://www.everycrsreport.com/reports/R42037.html.
+
 Corrigan, Tony. Opinion piece on AI transforming how tenders are written but not how they are evaluated. *Silicon Republic*, 26 May 2026. https://www.siliconrepublic.com/business/opinion-ai-transforming-how-tenders-are-written-but-not-how-theyre-evaluated. (Title to check.)
 
 Dark Reading. "Google's DMARC Push Pays Off, but Email Security Challenges Remain." February 2025. https://www.darkreading.com/remote-workforce/google-dmarc-push-email-security-challenges.
@@ -30,6 +36,10 @@ Deutsches Institut für Normung. DIN 476, *Papierformate* (paper formats). Berli
 
 Dwork, Cynthia, and Moni Naor. "Pricing via Processing or Combatting Junk Mail." In *Advances in Cryptology: CRYPTO '92*, 139–147. Lecture Notes in Computer Science 740. Berlin: Springer, 1993.
 
+Dyer, Douglas, and John H. Kagel. "Bidding in Common Value Auctions: How the Commercial Construction Industry Corrects for the Winner's Curse." *Management Science* 42, no. 10 (1996): 1463–1475. https://doi.org/10.1287/mnsc.42.10.1463.
+
+Dyer, Douglas, John H. Kagel and Dan Levin. "A Comparison of Naive and Experienced Bidders in Common Value Offer Auctions: A Laboratory Analysis." *Economic Journal* 99, no. 394 (1989): 108–115.
+
 Eghbal, Nadia. *Working in Public: The Making and Maintenance of Open Source Software.* San Francisco: Stripe Press, 2020.
 
 European Commission. Proposal for a Regulation on public procurement and concessions (Public Procurement Act), COM(2026) 590, 9 September 2026.
@@ -37,6 +47,8 @@ European Commission. Proposal for a Regulation on public procurement and concess
 European Court of Auditors. *Public Procurement in the EU: Less Competition for Contracts Awarded for Works, Goods and Services in the 10 Years up to 2021.* Special Report 28/2023. Luxembourg, 2023.
 
 Federal Highway Administration. *Alternative Contracting Method Performance in U.S. Highway Construction.* TechBrief FHWA-HRT-17-100. McLean, VA: FHWA, April 2018. https://www.fhwa.dot.gov/publications/research/infrastructure/17100/index.cfm
+
+Federal Highway Administration. *National Review of State Cost Estimation Practice.* Washington, DC: FHWA, February 2015. https://www.fhwa.dot.gov/construction/contracts/2014cost.pdf.
 
 Freedberg, Sydney J., Jr. "The Myth of the $600 Hammer." *Government Executive*, 7 December 1998. https://www.govexec.com/federal-news/1998/12/the-myth-of-the-600-hammer/5271/.
 
@@ -64,6 +76,8 @@ International Organization for Standardization. ISO 10845-1:2020, *Construction 
 
 International Organization for Standardization. ISO 10845-3, *Construction procurement: Part 3: Standard conditions of tender*. Geneva. (Edition to check.)
 
+Intuit QuickBooks and TSheets. Job-costing survey of 666 construction business owners and financial experts, 2019. Reported in "Survey: 1 in 3 Construction Companies Earning Less Than Expected", *For Construction Pros*, 3 May 2019. https://www.forconstructionpros.com/profit-matters/news/21067180/survey-1-in-3-construction-companies-earning-less-than-expected.
+
 Kahneman, Daniel, Olivier Sibony, and Cass R. Sunstein. *Noise: A Flaw in Human Judgment.* New York: Little, Brown Spark, 2021.
 
 Kaplow, Louis. "Rules versus Standards: An Economic Analysis." *Duke Law Journal* 42, no. 3 (1992): 557–629. https://scholarship.law.duke.edu/dlj/vol42/iss3/2.
@@ -78,7 +92,11 @@ Lang, David. Opening talk and roundtable on field building, with Timber Stinson-
 
 Laurie, Ben, and Richard Clayton. "'Proof-of-Work' Proves Not to Work." Workshop on the Economics of Information Security, Minneapolis, May 2004. https://www.cl.cam.ac.uk/~rnc1/proofwork.pdf.
 
+Liu, Bannerman, Elliot, Ewart and Atkinson (first names to check). "Underpricing for Construction Projects: A Double-Edged Sword." PMI Learning Library, 2014. https://www.pmi.org/learning/library/underpricing-construction-projects-8958.
+
 Nithyanantham, Bharathi Kannan, Clemens Kujat, Tobias Sesterhenn, et al. "BIM-Edit: Benchmarking Large Language Models for IFC-Based Building Information Modeling." arXiv:2606.20146, June 2026. https://arxiv.org/abs/2606.20146.
+
+Old Republic Surety. "Can You Explain Your Bid Spread?" Blog post, undated. https://orsurety.com/blog/can-you-explain-your-bid-spread.
 
 Ontario General Contractors Association. "Progressive Procurement P3 – Q&As" (on Infrastructure Ontario's progressive P3s: "a proposal fee will be offered"). https://www.naylornetwork.com/oga-nwl/pdf/Progressive_Procurement_P3_-_Q&As.pdf. (Title and date to check.)
 
@@ -120,9 +138,17 @@ Stevenson, Sean. "De-Dramatizing the Digital: How AI Descends Into New Nature." 
 
 Stinson-Schroff, Timber. "Introducing the Protocol Institute." *Protocolized*, 27 April 2026. https://protocolized.summerofprotocols.com/p/introducing-the-protocol-institute.
 
+Surety & Fidelity Association of America. *Surety Results 2023Y* (preliminary). Washington, DC: SFAA, 2024. Copy: https://mbasurety.com/wp-content/uploads/2024/04/SFAA-Surety-Results_2023Y.pdf.
+
+Surety Information Office. Article on why contractors fail (title to check). *Modern Contractor Solutions*, October 2007, 42–43, reporting an SFAA review of 86 claims. https://suretyinfo.org/pdf/WhyContractorsFailMCS.pdf.
+
 Texas Department of Transportation. "Bid Tabulations." Open dataset de7b-7dna, Texas Open Data Portal. Full export downloaded 3 October 2026 (lettings September 2024 to October 2026). https://data.texas.gov/.
 
+Texas Department of Transportation. Letting archive of bid tabulations, monthly files 2013 to 2024. ftp.dot.state.tx.us/pub/txdot-info/cmd/cserve/bidtab/.
+
 Thomson, Martin, and David Schinazi. *Maintaining Robust Protocols.* RFC 9413. Internet Architecture Board, June 2023. https://www.rfc-editor.org/rfc/rfc9413.html.
+
+U.S. Small Business Administration. "Growth, Demand in Manufacturing Drives Record Surety Bond Guarantees in FY25." News release 26-20, 13 January 2026. https://legacy.sba.gov/article/2026/01/13/growth-demand-manufacturing-drives-record-surety-bond-guarantees-fy25.
 
 UNCITRAL. *Guide to Enactment of the UNCITRAL Model Law on Public Procurement.* New York: United Nations, 2012. Paragraphs 101 to 102.
 

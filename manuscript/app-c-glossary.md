@@ -10,6 +10,8 @@
 
 **Bid depository.** An office that receives trade contractors' sealed prices on bid day, stamps them with its own clock and passes them to the general contractors bidding the job (chapter 7c).
 
+**Bid spread.** The gap between the lowest bid and the next one. Sureties read it first: one large surety asks for a letter of explanation when the next bid is more than 10 percent higher (chapters 3 and 7g).
+
 **Bill of quantities.** A list of every item of work in a tender with its measured quantity, so that each bidder prices the same list. Highway agencies call the items pay items (chapters 2 and 5).
 
 **Bot admin.** The project's name for the far world where machines keep track of the work and the documents, not the people. It replaced "bot monitoring" (chapters 7c and 10).
@@ -83,6 +85,8 @@
 **Standard bot.** A proposal: a published bot that reads a tender the way the standard says it should be read, so anyone can rerun it and a judge can measure other bots against it (chapters 8, 9 and 11).
 
 **Stipend.** A payment from the buyer to the losing bidders on a large job, to cover part of what their bids cost to prepare (chapters 1 and 9).
+
+**Surety.** A company that guarantees a builder's promise to the buyer, through a bid bond and, if the builder wins, performance and payment bonds. The builder and its owners promise to repay any loss, so a surety underwrites the firm rather than the price (chapter 7g).
 
 **Template.** A tender's items, units and quantities written as plain data beside the PDF, so a bot can read them without guessing and a person can read them without software (chapter 11).
 

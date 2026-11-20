@@ -18,6 +18,18 @@ The promise starts a new argument. After every loss, someone has to decide wheth
 
 Self-insurance only works for a buyer with enough tenders to average out a bad year. A small town that lets two jobs a year cannot carry the promise alone, so it insures it. Third-party cover also matters for marginal bidders, the thin firms a self-insuring buyer would rather not sponsor but cannot shut out of an open competition. The insurer sits beside the buyer for them, and above the buyer for the rare year when every bot misses together. The rest of this chapter is about what that insurer would need to measure.
 
+## How often a price runs low
+
+An underwriter's first question about any price is which way it leans, and how far. For human prices the public records give a fair answer: low prices are common, and losses, as far as anyone can see, are rarer.
+
+Start with the buyer's own number. On Texas highway contracts let from 2017 to 2024, the winning bid came in more than 10 percent under the state engineers' estimate on about a third of contracts, and more than 20 percent under on one in eight. In California from 2000 to 2008 the same happened on half of contracts and on nearly a third. Nationally, the Federal Highway Administration found the low bid within 10 percent of the estimate on just under half of projects. Which way the miss runs depends on the market. When work is scarce and many firms bid, the bids fall below the estimate; when bidders are busy, they climb above it.
+
+Then the bidders against each other. In Texas the second-lowest bid was more than 10 percent above the winner's on a third of contracts, and more than 20 percent above on one in eight. Against the middle of the other bids, the winner was more than a fifth lower on more than a quarter of contracts. Ten percent is the spread at which one large surety asks its contractor to explain the bid, so on this work the letter would go out on one job in three.
+
+None of this says the low bid lost money. A low price can be a real advantage: a yard nearby, owned equipment, a crew that would otherwise sit idle. Whether it was an error only shows on the contractor's books, and those are rarely public. What is public is softer. In a 2019 survey of 666 American construction firms, 29 percent said they usually make less profit than they estimated. In a smaller Australian survey, almost two in five quantity surveyors and contractors said their last completed project had been underpriced. In laboratory auctions, experienced construction executives fell into the winner's curse, with two winning bids in three below the price at which they would break even. In the field the industry survives the curse anyway, through habits learned on the job and ways back from a bid that went too low.
+
+So the base rate an insurer would start from is not zero, and it is not one number. Human prices run well below the market often, and lose money less often. A bot's error has to be measured against both, which is why every version of the bot will report its lean beside its middle. The prototype's own lean, low by design, is in chapter 10.
+
 ## Four open questions
 
 Four questions direct this effort, and the project cannot answer them alone:
