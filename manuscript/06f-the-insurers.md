@@ -24,7 +24,7 @@ Not every bidder needs this. A small company can hold its whole picture in one o
 
 ## The sureties
 
-Sureties have stood behind construction bids longer than anyone, though what they guarantee is the builder, not the price. On most public work in North America a bidder needs a surety's bond to bid and another to sign the contract, and if the builder fails, the surety pays to finish the job.
+Sureties are what the rest of this book calls bonding companies. Surety is the industry's own word, and this section uses it because it is written for them. They have stood behind construction bids longer than anyone, though what they guarantee is the builder, not the price. On most public work in North America a bidder needs a surety's bond to bid and another to sign the contract, and if the builder fails, the surety pays to finish the job.
 
 A surety is closer to a lender than to an insurer. The contractor, and usually its owners, sign an indemnity agreement promising to repay any loss, so the surety pays only when the firm cannot. It underwrites the firm rather than the price: its character, its capacity to do the work and its capital. The method works. In 2023 American sureties paid out about 22 cents in losses for each dollar of premium they earned, and the line has made more than $2 billion a year in underwriting profit since 2022.
 
