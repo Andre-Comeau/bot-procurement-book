@@ -2,7 +2,7 @@
 
 The clock on the wall of the bid depository is not an ordinary clock. It prints the time on whatever is pushed into it, and on bid day the estimators of a dozen mechanical and electrical firms take turns pushing envelopes into it as late as they dare.
 
-The scene is invented, but the clock is not. On jobs that use a bid depository, a trade contractor does not send its price to the general contractors bidding the job. It sends it to the depository, sealed, stamped and on time, and the general contractors collect the prices from there. In Yukon, the depository's clock is the official time, and a copy of every bid is kept for at least a year. The estimator who finishes early does not hand in early. A price that leaves the office early can find its way to a rival, and the rival only has to beat it by a little.
+The scene is invented, but the clock is not. On jobs that use a bid depository, a trade contractor does not send its price to the general contractors bidding the job. It sends it to the depository, sealed, stamped and on time, and the general contractors collect the prices from there. In Yukon, the depository's clock is the official time, and a copy of every bid is kept for at least a year. The estimator who finishes early does not hand in early. A price that leaves the office early can find its way to a rival, or be shopped by a general contractor to a rival, and the rival only has to beat it by a little. Trades dislike being shopped, so they hold their prices until the last useful moment.
 
 So everyone hurries to be last. It looks like bad planning from the outside. It is a protocol the trades helped build, out of an envelope and a clock, to keep a price where it was put.
 
