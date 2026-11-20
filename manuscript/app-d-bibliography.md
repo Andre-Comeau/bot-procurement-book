@@ -6,6 +6,8 @@ AM Best. *Best's Special Report: Infrastructure Projects Spur Growth and Help Fu
 
 Artificial Intelligence Underwriting Company. *AIUC-1*, a standard for AI agents; requirements E004 ("Assign accountability") and E015 ("Log AI system activity") in its evidence index, read 19 November 2026. https://standard.aiuc-1.com/. Terms of use, 15 July 2025, https://standard.aiuc-1.com/legal/terms.md.
 
+ASTM International. "The History of ASTM International." https://about.astm.org/ABOUT/history_book.html.
+
 Auditor General of Ontario. *Annual Report 2024*, chapter "Procurement and Delivery of Selected Infrastructure Projects". Toronto: Office of the Auditor General of Ontario, 2024. https://www.auditor.on.ca/en/content/annualreports/arreports/en24/pa_infrastructureON_en24.pdf.
 
 Brooks, Frederick P., Jr. *The Mythical Man-Month: Essays on Software Engineering.* Reading, MA: Addison-Wesley, 1975. Chapter 3, "The Surgical Team".
@@ -119,6 +121,8 @@ Roegies, Kelly. "A Government Guide to Open Protocols." *Protocolized*, 19 March
 Royal Institution of Chartered Surveyors. *Cost Prediction.* RICS professional standard, 1st ed. London: RICS, 2020; effective 1 July 2021. https://www.rics.org/.
 
 Royal Institution of Chartered Surveyors. *RICS Data Standard* (v3.3.3, MIT licence). https://www.isurv.com/homepage/945/rics_data_standards_and_schema.
+
+Russell, Andrew L. "OSI: The Internet That Wasn't." *IEEE Spectrum*, 29 July 2013. https://spectrum.ieee.org/osi-the-internet-that-wasnt.
 
 Santoleri, Pietro, Francesco Rentocchini and Francesco Lelli. "LLM-Assisted Proposal Writing in Competitive R&D Funding: Evidence from Horizon Europe." JRC Working Papers on Territorial Modelling and Analysis No 02/2026. European Commission, Joint Research Centre, 18 March 2026. https://publications.jrc.ec.europa.eu/repository/handle/JRC146131.
 
