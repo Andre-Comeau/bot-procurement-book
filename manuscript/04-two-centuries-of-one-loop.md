@@ -75,10 +75,10 @@ Source check, applied 2026-11-18 (project files manuscript-review-2026-11-17/02a
 4. *1873, the price book: published cost data give the owner a number before the market speaks, the forerunner of the engineer's estimate a pricing bot is now measured against.* (Reworded 2026-11-20 at Andre's ask; was "1873, cost data and the engineer's estimate". A search on 2026-11-20 found no earlier or more exact date for the engineer's estimate itself; New York's highway law, for one, published the estimate and barred awards above it until 1971, when both were kept confidential until award (Harp, "Historical Background: Low Bid Concept", TRB Circular 386, https://onlinepubs.trb.org/Onlinepubs/trcircular/386/386-010.pdf ). Source found 2026-11-19, ledger loop-04: 1873 is the first edition of Spon's Architects' and Builders' Price Book, the card's first timeline entry; the 2025 edition's imprint reads "First edition 1873" and "One hundred and fiftieth edition published 2025" (CRC Press; preview, https://api.pageplace.de/preview/DT0400.9781040132975_A49278474/preview-9781040132975_A49278474.pdf ). It dates the published price book, not the engineer's estimate, which the card follows from ENR's cost index (1908, formalized 1921) and RSMeans (1942). Safer wording: "1873, the price book: published cost data give the owner a number before the market speaks.")
 5. *1921, the bid protest and the record: an award tested against the file the agency made at the time.*
 6. *2006, the machine auditors: the first machines to take part in the loop, which fell out of use wherever nobody had to act on the flag.*
-7. *2026, Trax v. United States: an agency's AI reaches the forum (chapter 11).*
-8. *Projected, the bot-first protocol: the machine that does not exist yet (chapter 11).*
+7. *2026, Trax v. United States: an agency's AI reaches the forum (chapter 17).*
+8. *Projected, the bot-first protocol: the machine that does not exist yet (chapter 17).*
 
-*The thread's epigraph is Andre's §13 passage on the two routes ("There are two ways to make this happen…"), quoted in chapter 11.*
+*The thread's epigraph is Andre's §13 passage on the two routes ("There are two ways to make this happen…"), quoted in chapter 17.*
 
 ### The older machines feed the newer
 
@@ -86,8 +86,8 @@ Source check, applied 2026-11-18 (project files manuscript-review-2026-11-17/02a
 
 ### Contraptions, and how a new machine forms
 
-*From `SCHEMA.md` (Claude's wording, decision 55 at Andre's direction): a contraption is "an opportunistic assembly that exploits a gap between machines: a changed market, an output nobody uses, an input nobody makes." Contraptions are built fast, by few people, around one gap. Most collapse because their complexity grows faster than their structure; a few find structure and become machines. Open bid data and alternative delivery, this chapter's two later machines, can be told as contraptions that found structure. The watchlist also lists this project's own estimator as a contraption (chapter 10).*
+*From `SCHEMA.md` (Claude's wording, decision 55 at Andre's direction): a contraption is "an opportunistic assembly that exploits a gap between machines: a changed market, an output nobody uses, an input nobody makes." Contraptions are built fast, by few people, around one gap. Most collapse because their complexity grows faster than their structure; a few find structure and become machines. Open bid data and alternative delivery, this chapter's two later machines, can be told as contraptions that found structure. The watchlist also lists this project's own estimator as a contraption (chapter 16).*
 
 ### Failed protocols
 
-*Andre asked for the machine-auditor card because the auditors "would be good cards for the Procurement Machines since they show failed protocols" (2026-10-13, quoted in the card's notes). Brazil's and Korea's screens read every tender or awarded bid by machine and fell out of use for years because nobody was obliged to act on their flags; each was repaired by making a step obligatory. The lesson belongs in chapter 10 (the evaluator), but the chapter can name it here as the loop's first machine participant.*
+*Andre asked for the machine-auditor card because the auditors "would be good cards for the Procurement Machines since they show failed protocols" (2026-10-13, quoted in the card's notes). Brazil's and Korea's screens read every tender or awarded bid by machine and fell out of use for years because nobody was obliged to act on their flags; each was repaired by making a step obligatory. The lesson belongs in chapter 16 (the evaluator), but the chapter can name it here as the loop's first machine participant.*

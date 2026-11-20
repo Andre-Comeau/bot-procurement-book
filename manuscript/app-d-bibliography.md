@@ -194,24 +194,24 @@ Yegge, Steve. "Stevey's Google Platforms Rant." Google+ post, October 2011, wide
 Added 2026-11-20 at Andre's word ("We can keep them in the Appendix"; ledger appd-01). Bibliography style, as for the works above: the citation, the court and the year, with a few words in brackets on what the book uses it for. No commentary; the chapters carry the argument. Keep only the cases the finished chapters use. Canadian cases are cited by the Supreme Court Reports, US cases by the reporter or docket.
 -->
 
-*Battelle Memorial Institute*, B-418047.3, B-418047.4. US Government Accountability Office, 2020. https://www.gao.gov/products/b-418047.3,b-418047.4. (A single scoring inconsistency sustained a protest; chapter 7a.)
+*Battelle Memorial Institute*, B-418047.3, B-418047.4. US Government Accountability Office, 2020. https://www.gao.gov/products/b-418047.3,b-418047.4. (A single scoring inconsistency sustained a protest; chapter 7.)
 
-*Daubert v. Merrell Dow Pharmaceuticals, Inc.*, 509 U.S. 579 (1993). Supreme Court of the United States. (Reliability of expert evidence, including a known error rate; chapter 11.)
+*Daubert v. Merrell Dow Pharmaceuticals, Inc.*, 509 U.S. 579 (1993). Supreme Court of the United States. (Reliability of expert evidence, including a known error rate; chapter 17.)
 
-*Everalbum, Inc., In the Matter of*. US Federal Trade Commission, File No. 192-3172, decision and order, 2021. (Deletion of models built on improperly collected data; chapter 11a.)
+*Everalbum, Inc., In the Matter of*. US Federal Trade Commission, File No. 192-3172, decision and order, 2021. (Deletion of models built on improperly collected data; chapter 17a.)
 
-*Kurbo, Inc. and WW International, Inc., United States v.* US District Court, Northern District of California, stipulated order, 2022. (The same remedy; chapter 11a.)
+*Kurbo, Inc. and WW International, Inc., United States v.* US District Court, Northern District of California, stipulated order, 2022. (The same remedy; chapter 17a.)
 
-*M.J.B. Enterprises Ltd. v. Defence Construction (1951) Ltd.*, [1999] 1 S.C.R. 619. Supreme Court of Canada. (The tender contract, Contract A; chapter 9.)
+*M.J.B. Enterprises Ltd. v. Defence Construction (1951) Ltd.*, [1999] 1 S.C.R. 619. Supreme Court of Canada. (The tender contract, Contract A; chapter 15.)
 
-*Office Design Group v. United States*, 951 F.3d 1366 (Fed. Cir. 2020). US Court of Appeals for the Federal Circuit. (Unequal scoring of indistinguishable proposals; chapter 7a.)
+*Office Design Group v. United States*, 951 F.3d 1366 (Fed. Cir. 2020). US Court of Appeals for the Federal Circuit. (Unequal scoring of indistinguishable proposals; chapter 7.)
 
-*R. v. Mohan*, [1994] 2 S.C.R. 9. Supreme Court of Canada. (Admissibility of expert evidence; chapter 11.)
+*R. v. Mohan*, [1994] 2 S.C.R. 9. Supreme Court of Canada. (Admissibility of expert evidence; chapter 17.)
 
-*R. v. Ron Engineering & Construction (Eastern) Ltd.*, [1981] 1 S.C.R. 111. Supreme Court of Canada. (A bid, once opened, binds the bidder; chapters 3a and 9.)
+*R. v. Ron Engineering & Construction (Eastern) Ltd.*, [1981] 1 S.C.R. 111. Supreme Court of Canada. (A bid, once opened, binds the bidder; chapters 3a and 15.)
 
-*Ryan v. Victoria (City)*, [1999] 1 S.C.R. 201. Supreme Court of Canada. (Following a standard is evidence of reasonable care, not a complete defence; chapter 11a.)
+*Ryan v. Victoria (City)*, [1999] 1 S.C.R. 201. Supreme Court of Canada. (Following a standard is evidence of reasonable care, not a complete defence; chapter 17a.)
 
-*Tercon Contractors Ltd. v. British Columbia (Transportation and Highways)*, 2010 SCC 4, [2010] 1 S.C.R. 69. Supreme Court of Canada. (Exclusion clauses in a tender; chapters 3a and 9.)
+*Tercon Contractors Ltd. v. British Columbia (Transportation and Highways)*, 2010 SCC 4, [2010] 1 S.C.R. 69. Supreme Court of Canada. (Exclusion clauses in a tender; chapters 3a and 15.)
 
-*Trax v. United States*, No. 26-796. US Court of Federal Claims, Judge Carolyn N. Lerner; opinion filed under seal 3 September 2026, public 22 September 2026. (An agency's AI evaluations ordered into the record; chapters 3a, 11 and 11a.)
+*Trax v. United States*, No. 26-796. US Court of Federal Claims, Judge Carolyn N. Lerner; opinion filed under seal 3 September 2026, public 22 September 2026. (An agency's AI evaluations ordered into the record; chapters 3a, 17 and 17a.)

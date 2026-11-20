@@ -39,4 +39,4 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 ### Admitting uncertainty, with consequences on pricing
 
-*No further passage of Andre's on file. Two things already built follow his rule and could close the chapter: rare items are included and flagged, never silently priced, "as items a keyholder may want to adjust by hand" (decision 45); and the error rate is to be disclosed with every number (the outline's evaluator brief, 2026-10-31, now chapter 10). Both make the outside of the estimate say how much the inside knows.*
+*No further passage of Andre's on file. Two things already built follow his rule and could close the chapter: rare items are included and flagged, never silently priced, "as items a keyholder may want to adjust by hand" (decision 45); and the error rate is to be disclosed with every number (the outline's evaluator brief, 2026-10-31, now chapter 16). Both make the outside of the estimate say how much the inside knows.*

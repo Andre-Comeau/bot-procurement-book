@@ -47,7 +47,7 @@ Sources and where they are used:
 - How-to guides found but not used in the prose (for Andre to pick from): Dave Winer, "Manifesto: Rules for standards-makers" (scripting.com, 9 May 2017), whose rules include "Interop is all that matters", "If practice deviates from the spec, change the spec", "No breakage" and "Freeze the spec" (headings from a secondary listing, check against the original); the Standards Council of Canada's pages on international standards development and its mirror committees (scc-ccn.ca, Directives Part 1 and Part 3); the IETF's guide for newcomers, "The Tao of the IETF"; Andrew Russell, *Open Standards and the Digital Age* (Cambridge, 2014); Shapiro and Varian, "The Art of Standards Wars" (California Management Review, 1999).
 -->
 
-The tool exists. In rehearsal checks on public Texas bid data, the estimator missed the lowest bidders' prices by a median of 21 percent line by line, against 29 percent for the state's own engineer's estimate, and chapter 10 showed what an evaluator built on it could save a buyer after the tender. That chapter ended at a door, and behind it was the standard, World 2 on the map. The last chapter put a bot in the witness box and found what a court would ask of it: a record of what the bot did, when and why, and a reasonable reader to measure it against.
+The tool exists. In rehearsal checks on public Texas bid data, the estimator missed the lowest bidders' prices by a median of 21 percent line by line, against 29 percent for the state's own engineer's estimate, and chapter 16 showed what an evaluator built on it could save a buyer after the tender. That chapter ended at a door, and behind it was the standard, World 2 on the map. The last chapter put a bot in the witness box and found what a court would ask of it: a record of what the bot did, when and why, and a reasonable reader to measure it against.
 
 Until now, the plan for getting through that door rested on one assumption: build a model that is good enough, publish it, and the field would gather around it on its own: the owners would adopt it, the courts would find it, and one day a standards body would write down what it already did. The estimator would be the seed and the rest would grow.
 
@@ -134,7 +134,7 @@ Then there is upkeep. Nadia Eghbal's *Working in Public* sorts open-source proje
 
 ## The campaign for World 2
 
-The versions in chapter 10 now line up with the two asks.
+The versions in chapter 16 now line up with the two asks.
 
 **Version 1.0, momentum.** One trade first, probably civil work, where public bid prices already exist. The template published for that trade, with its crosswalk to the pay items. The record kept for every reading, on an offline model whose weights do not change, and the OCDS extension that carries it. A small group of true believers, and this book as the vision paper.
 
@@ -144,7 +144,7 @@ The versions in chapter 10 now line up with the two asks.
 
 The prediction can be wrong, and it should say how. If by 2035 no public owner anywhere runs a tender whose questions, addenda, bids and evaluation pass through agents on a published data format, the forecast failed. The standard itself is further out, in the ten to fifteen years the CubeSat suggests, and its first court challenge will probably come before it, from a dispute fought under the old rules.
 
-The model was never going to generate the field. What it can do is give a small group of people a template to issue, a record to keep and something to argue about. That is how a standard starts, and the villagers, as the zombie garden in chapter 9 promised, are the ones who decide whether it sticks.
+The model was never going to generate the field. What it can do is give a small group of people a template to issue, a record to keep and something to argue about. That is how a standard starts, and the villagers, as the zombie garden in chapter 15 promised, are the ones who decide whether it sticks.
 
 ---
 
@@ -260,7 +260,7 @@ The model was never going to generate the field. What it can do is give a small 
 
 > A weak point of the whole project is financial compensation. Taking the whole pie would prevent adoption; having no pie will starve the project and keep it from its full potential. Speculation about the future is meant to guess its shape, so that failing to have a slice now does not mean having none later.
 
-(`context-bank/horizon.md`, "Why speculate at all: the slice of pie", recorded 2026-10-05; the "end-boss" passage from the same file is in chapter 10)
+(`context-bank/horizon.md`, "Why speculate at all: the slice of pie", recorded 2026-10-05; the "end-boss" passage from the same file is in chapter 16)
 
 ### From the Procurement Machines: the projected card
 
@@ -279,7 +279,7 @@ The model was never going to generate the field. What it can do is give a small 
 
 #### Why a better reader does not remove the need for a standard
 
-*From the card's notes, Claude's summary of Andre's argument (put it in his words): if models come to read documents as well as a competent person, a standard is still needed for a legal reason, because "a standard says which reading binds, which a better reader cannot supply." Claude's addition there: the law already asks what a reasonable bidder would have understood; a reference bot would define that reading, and its version would have to be pinned and logged in the record, as Trax shows. This is the hinge between this chapter and the witness box (11a, to fold into it).*
+*From the card's notes, Claude's summary of Andre's argument (put it in his words): if models come to read documents as well as a competent person, a standard is still needed for a legal reason, because "a standard says which reading binds, which a better reader cannot supply." Claude's addition there: the law already asks what a reasonable bidder would have understood; a reference bot would define that reading, and its version would have to be pinned and logged in the record, as Trax shows. This is the hinge between this chapter and the witness box (17a, to fold into it).*
 
 #### The tolerance window
 
