@@ -46,7 +46,7 @@ The prologue. Parts I and II are the overview's two halves: what is the problem,
 
 **5. The zombie lost to a file format** (about 3,150 words, Claude's draft from the GAEB thread, `08b`). Why not other tools: the bid as a file in Germany and on US highways, who measures and who carries the bill's mistakes. The document standard helps but is not enough.
 
-**6. The monsters we kept** (about 2,000 words, Claude's draft, `09b`). The bigger approaches set aside: the parliament of requirements, the hive, the hydra, the swarm. Its "flood" section repeats chapter 1 and may go.
+**6. The monsters we kept** (about 2,000 words, Claude's draft, `09b`). The bigger approaches set aside: the parliament of requirements, the hive, the hydra, the flood, the electronic person (added 2026-11-21: AI personhood comes back to assets, insurance and a bonding company), the swarm. Its "flood" section repeats chapter 1 and may go.
 
 ## Part IV. What do the stakeholders stand to gain?
 

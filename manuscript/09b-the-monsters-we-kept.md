@@ -21,6 +21,14 @@ Sources and backstage theory (not for the reader):
 - The bid depository: checked 18 Nov for Yukon (Yukon Contractors Association rules, 1 March 2023), Saskatchewan (Saskatchewan Bid Depository Inc., against bid shopping) and Quebec (BSDQ); full sources in the trades chapter's note. Which provinces in all, and since when, is still not found.
 - Wording to check with Andre: "bot gardener" is his; "parliament", "hive", "hydra" are Claude's names.
 Source check, applied 2026-11-18 (project files manuscript-review-2026-11-17/02a and 02b; structure-review-2026-11-18/07 and 08). Claude's wording, for Andre's voice pass: the Wicks Law is "more than a century" old (1912 by most accounts, 1921 per City Journal; the Wicks name from a 1946 amendment). City Journal, "Politics and the Wicks Law", https://www.city-journal.org/article/politics-and-the-wicks-law . Bid depositories in "parts of Canada" are now checked (Yukon, Saskatchewan, Quebec; see the trades chapter).
+Electronic person section (added 2026-11-21, Claude's draft from Andre's question of 21 Nov in the project chat: "Would we be better off making AI 'persons'?", and his follow-up on blockchain assets, escrow as dead capital, a thin-wallet bot that buys margin insurance from its fees, the business model, and Good Samaritan laws). Every sentence is Claude's and needs Andre's voice pass. Sources (checked by search summary, not full text, 2026-11-21):
+- European Parliament resolution of 16 Feb 2017, Civil Law Rules on Robotics, 2015/2103(INL), para 59(f): https://www.europarl.europa.eu/doceo/document/TA-8-2017-0051_EN.html ; the experts' open letter against: http://www.robotics-openletter.eu/
+- "Several American states": source check 02a item 16 (Idaho, North Dakota, Utah, Tennessee; Ohio bill). https://ai-frontiers.org/articles/its-too-early-to-ban-ai-personhood
+- Moffatt v. Air Canada, 2024 BCCRT 149: the airline argued the chatbot was "a separate legal entity that is responsible for its own actions"; the tribunal called it "a remarkable submission" and found negligent misrepresentation. https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do
+- Sarcuni v. bZx DAO, No. 3:22-cv-00618 (S.D. Cal., 27 Mar 2023): token holders plausibly general partners, jointly and severally liable. https://law.justia.com/cases/federal/district-courts/california/casdce/3:2022cv00618/732409/49 . Also CFTC v. Ooki DAO (N.D. Cal., June 2023): a DAO can be sued as an unincorporated association; default judgment, website shut down. Not used in the text.
+- Ontario Good Samaritan Act, 2001 (emergency first aid only): https://www.ontario.ca/laws/statute/01g02 . US Volunteer Protection Act of 1997, 42 U.S.C. 14501-14505 (protects individual volunteers of non-profits, not the organization; gross negligence excluded).
+- Not used in the text, for the bibliography if wanted: Shawn Bayern on memberless LLCs run by algorithms (2015, Stanford Technology Law Review; 2016, European Journal of Risk Regulation); Radin, "Property and Personhood" (1982); EU Product Liability Directive 2024/2853, which treats software as a product and spares free and open-source software supplied outside a commercial activity.
+- Earlier thinking, kept out of the reader text until now: procurement-machines/bot-philosophy.md (2026-10-11, escrow, personhood "like corporations", AI judges); commonplace journal CP-001 (2026-11-15/17, personhood after property and the corporation, "is the next step based on the API?", h/t Sachin); the "judge with a paper bond" creature cut on 18 Nov. Andre's call of 12 Nov ("licensed and insured like a professional, liable through its maker", personhood out of the reader text) is reopened by his request of 21 Nov.
 -->
 
 A paper about an experiment usually has a section that most readers skip, where the authors list the approaches they considered and set aside. It is the least exciting part of the paper and one of the most honest, because it tells you what the authors bet against. This chapter is that section, moved to the end so that it doesn't slow down the story, and written with a little more affection than a methods section allows.
@@ -84,6 +92,20 @@ The monstrous trait is the same as the magazine's. A buyer who sees three hundre
 The tools to tame it are old and dull: limits on how many bids one firm may send, a key that proves a bid came from a real firm, a fee or a bond that makes a careless bid cost something, and a published check that every bid must pass before anyone reads it. Highway buyers already use rough versions of all four.
 
 What would open the cage: a published check that a buyer can trust to sort the plausible from the careless, which is, as it happens, roughly what this book asks for.
+
+## The electronic person
+
+The fifth creature lives in the law library. If a bot could be sued, nobody else would have to answer for it. A corporation already lets a crowd of people be sued as one. Why not let a bot be sued as itself?
+
+Europe asked the question first. In 2017 the European Parliament invited the Commission to consider a status of "electronic persons" for the most autonomous robots. Experts answered with an open letter against it, and the idea went no further. Several American states have since passed laws to rule it out.
+
+The promise is a clean line: the bot decides, and the bot pays. It also seems to solve a puzzle, since a machine has no intent to prove. But the law rarely needs intent. A broken contract or careless advice is paid for without anyone asking what was meant. In 2024 Air Canada told a tribunal that its chatbot was "a separate legal entity that is responsible for its own actions". The tribunal called that a remarkable submission and made the airline pay.
+
+The monstrous trait is the empty wallet. A judgment against a person who owns nothing is a piece of paper. A company is a person because owners and assets stand behind it. A bot would need assets too. Held in escrow, they are dead capital, and held on a blockchain, they may sit beyond the reach of any local court. A lean bot that spends part of its fees on insurance does better, but an insurer needs someone to sign the policy, and that someone is a company again. Courts already look behind the code. In 2023 an American court let investors treat the token holders of a blockchain organization as partners, each answerable for the whole.
+
+Then there is the builder of the bot. Nobody builds a bot that keeps none of its takings, unless it is a public service. Good Samaritan laws will not shelter that service, since they cover first aid in an emergency, not advice on a tender.
+
+What would open the cage: a bot with assets, an insurer and an address where a claim can be served. That is a company with a bot inside it and a bonding company behind it. Personhood changes who gets sued. It does not change what has to be proved, and the yardstick for a wrong price is still the standard.
 
 ## The swarm that needs no standard
 
