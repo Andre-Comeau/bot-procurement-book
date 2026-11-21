@@ -7,9 +7,20 @@ Brief: Amber Case's image, credited: the outside should tell you what is going o
 Sources: positions 16 and 19.
 Literature (`literature-review-2026-11-01.md`, Part 1): Kroll et al., "Accountable Algorithms"; Hubbard on calibrated uncertainty.
 Paths are relative to construction-procurement-protocols unless they start with C:\.
+Drafted 2026-11-20 by Claude (thread "Retitle chapters and draft missing pieces") as a fold-sized section of about 300 words for chapter 14, placed by the outline ("to fold into chapter 8", now 14). Suggested place: at the end of "Misadventure: the Drunken Sailor", where consequences are the remedy and the standard is the floor; the culling report suggested chapter 16's "The tool drafts, a person decides" instead, which also fits. Claude's wording from positions §16 and §19; Amber Case credited for the image (decision 75), "calm technology" in lower case (the trademark question is open). Record keeping is kept out, per Andre's 18 Nov note.
 -->
 
-## Source passages (to cut and rewrite)
+## The banana peel
+
+Amber Case has a simple test for calm technology: the outside should tell you what is going on inside, the way a banana peel tells you when the fruit is ready. Tenders are unlikely ever to earn her designation. The peel is still a fair goal for the bots and for the standard they are read against.
+
+The trouble is that a peel can be dressed up. Ask bidders to log what their bots found, or to sign a declaration that they raised everything, and the logs and declarations become something to manage. An unscrupulous bidder will follow the letter and not the spirit. A scrupulous one will follow both, and the buyer will read the tidy log as a sign that the documents had no defects. Either way the peel claims to know more about the fruit than it does.
+
+The honest design admits the uncertainty and lets it change the price. The estimator is being built to work that way. A line it has seen too rarely is flagged for a person to price, never quietly priced. Each version will publish the size of its usual miss, so a reader can see how much the inside knows. A bidder who bids against a flagged line knows the risk is there, and so does the buyer.
+
+That is what a sailor's consequences look like before the ship leaves the harbour. Nobody is promised a sober bot. Everyone is shown how far it tends to wander.
+
+## Source passages (kept until Andre has read the draft)
 
 *Laid out by Claude on 2026-11-02. Every quoted passage is Andre's, copied unchanged from the file named under it; the source repository records these as his words, lightly edited from conversation. Notes in italics are Claude's. Delete this section as the chapter is written.*
 
@@ -39,4 +50,4 @@ Paths are relative to construction-procurement-protocols unless they start with 
 
 ### Admitting uncertainty, with consequences on pricing
 
-*No further passage of Andre's on file. Two things already built follow his rule and could close the chapter: rare items are included and flagged, never silently priced, "as items a keyholder may want to adjust by hand" (decision 45); and the error rate is to be disclosed with every number (the outline's evaluator brief, 2026-10-31, now chapter 10). Both make the outside of the estimate say how much the inside knows.*
+*No further passage of Andre's on file. Two things already built follow his rule and could close the chapter: rare items are included and flagged, never silently priced, "as items a keyholder may want to adjust by hand" (decision 45); and the error rate is to be disclosed with every number (the outline's evaluator brief, 2026-10-31, now chapter 16). Both make the outside of the estimate say how much the inside knows.*

@@ -137,7 +137,7 @@ Placement is provisional. It sits here, after the delivery methods and before th
 
 > That post-award situation is the use case for the F&R Reviewer. The Reviewer provides a protocol for evaluating prices on an ongoing project without needing to go to open tender.
 
-(`context-bank/background-notes.md`, sections 2 and 3, recorded 2026-10-01. In 2026-10 Andre kept the reviewer's use case out of the case study as "too technical for industry outsiders"; on 2026-11-02 he cleared it for the book as a side quest, see chapter 10's note.)
+(`context-bank/background-notes.md`, sections 2 and 3, recorded 2026-10-01. In 2026-10 Andre kept the reviewer's use case out of the case study as "too technical for industry outsiders"; on 2026-11-02 he cleared it for the book as a side quest, see chapter 16's note.)
 
 ### The engineer's estimate, the price books and the bid tabulations
 
@@ -186,7 +186,7 @@ Placement is provisional. It sits here, after the delivery methods and before th
 *Claude's summary of the card `warranted-estimate-30bce`: Vitruvius reports a law of Ephesus under which an architect lodged his estimate for a public work and pledged his property against it. If the cost ran up to a quarter over, the public paid the excess; beyond that, the architect paid. It is the oldest known estimate with consequences and a tolerance band. The card's three tensions:*
 
 - *Warranty against tolerance: an estimate has a band, and someone must carry what falls outside it. Ephesus put the first quarter on the public and the rest on the architect; modern owners often push the risk to the contractor.*
-- *Who signs a machine's number: if a bot produces the number, a person must still stand behind it with something at stake, "or the estimate is a guess with a signature". This is the keyholder (chapters 11 and 13).*
+- *Who signs a machine's number: if a bot produces the number, a person must still stand behind it with something at stake, "or the estimate is a guess with a signature". This is the keyholder (chapters 17 and 19).*
 - *Reward for accuracy: Vitruvius says the law made architects careful, yet today no estimator is rewarded or punished for accuracy, and no one publishes a score.*
 
 *The README's shortest statement of the lineage: "the engineer's estimate is the Ephesian architect's number without his property." A possible opening for the chapter.*
