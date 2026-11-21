@@ -8,9 +8,58 @@ Sources: `work-packages/procurement-machines/THESIS.md` sections 1 and 2; the ca
 Literature (`literature-review-2026-11-01.md`, Part 1): Simon 1944; Banwell 1964; Friedman 1956 and Gates 1967 on bidding models; Spearin 1918; Flyvbjerg's reference-class forecasting; Harford's *Fifty Things* as a format model.
 Paths are relative to construction-procurement-protocols unless they start with C:\.
 Source check, applied 2026-11-18 (project files manuscript-review-2026-11-17/02a and 02b; structure-review-2026-11-18/07 and 08). Claude's wording, for Andre's voice pass: notes added beside the THESIS line on alternative delivery and the 493 BCE and 1809 cards. The 1873 card's source is still not found. Updated 2026-11-19 (thread "Close the book's source gaps"): sources found or corrected for the 493 BCE, 1809 and 1873 cards, the design-build figure and the open-data dates, in the notes beside each; the wording is still Andre's call, and any change goes into the cards (Procurement Machines repository), Appendix A and the machines site together. The cards themselves are in the Procurement Machines repository and are not changed here.
+Drafted 2026-11-20 by Claude (thread "Retitle chapters and draft missing pieces"), about 1,000 words, as a short chapter (culling decision D2 is still open: Appendix A thread or a chapter of up to 900 words; Andre asked today for the missing elements to be drafted, so this is the short-chapter option, and it can still move to Appendix A whole). Claude's wording from THESIS sections 1 and 2 (also Claude's) and the cards' sourced wording of 20 Nov (about 495 BCE, 1809 formal advertising, 1873 the price book). Design-build: the safe wording from the 19 Nov check (FMI forecast, one method, segments studied). Open data: "an open data standard from 2014", per ledger loop-09. Andre's eras are given as his rule of thumb without the era names, since "Liveness" stays backstage. Brazil and Korea are told in chapter 16; one sentence here points there. "Bonding company" used for the Roman and Athenian guarantors in plain words ("guarantors").
 -->
 
-## Source passages (to cut and rewrite)
+Pricing building work has run on one loop for about two centuries. Someone measures the design into quantities. Rivals price those quantities in sealed envelopes opened at a fixed hour, and the lowest responsible bid wins. The opened envelopes become a tabulation, and the tabulations become next year's price book and the owner's next estimate. Then the loop turns again.
+
+Three institutions stand around the loop and keep it fair. A standard form of contract fixes who carries which risk. A plan room makes sure every bidder saw the same documents. A standards body fixes what each item is called and how it is measured. None of them is exciting, and together they let strangers trust each other with large sums of money.
+
+## The older machines
+
+The loop is younger than the problem it solves. The prologue began with Hammurabi, whose builder answered for what fell down and could not appeal. Every machine since has moved some of that answer somewhere else.
+
+About 495 BCE, Rome let the building of a temple to contractors, the first such letting on record. Guarantors and a public record followed over the next centuries, in Athens and in the work of Rome's censors. What could be appealed moved from the builder's body to the file.
+
+In 1809, the United States Congress required federal purchases to be advertised for proposals. That procedure became the sealed bid, and the open call took the choice of supplier out of the official's hands.
+
+In 1873, the first edition of a builders' price book gave the owner a number before the market spoke. It is the forerunner of the engineer's estimate, the number a pricing bot is now measured against.
+
+In 1921 came the bid protest and the record: an award could be tested against the file the agency made at the time.
+
+The cards in Appendix A follow a rule of thumb of mine. A procurement machine takes a few centuries to build, runs for about four more, and fades over two after that. Machines do die. The Roman concession, the medieval building lodges and the crown's right to buy at its own price each lived for centuries and are gone.
+
+## Where the loop is fraying
+
+The loop is fraying at every joint, and the threads are worth naming one at a time.
+
+The measuring needs a complete design before the tender, and design-build and construction management remove that. By one industry forecast, design-build alone will soon be close to half of spending in the parts of the US market it studies. Building models and AI take-off are removing the person who measures.
+
+The sealed bid's own law, price only and a bid once opened is binding, is being bypassed by best-value selection and the other forms of alternative delivery.
+
+The price book is splitting between sold databases and free bid tabulations, which an agency now publishes line by line for anyone to read.
+
+The standard forms of contract are sold, locked by copyright, and silent on building models and automated tools.
+
+The plan room is being hollowed out into owner portals. The bid depositories survive mostly where their use is mandatory.
+
+The standards bodies license their vocabulary, while the machines that now read it want versioned, open schemas.
+
+## What grew out of the fraying
+
+Two newer machines grew in the gaps. The first is open bid data: the tabulation as a dataset. It began in 1982 with a vendor's bid analysis system for one state highway agency, grown out of bid-rigging cases, and gained an open data standard in 2014. Since 2025 Texas publishes every bidder's price for every line. That record is what this book's estimator learns from.
+
+The second is alternative delivery, the family of ways around the sealed bid. It is plural, negotiated and shaped by data, as the loop's own machines were not. It has not replaced the loop. The market-rate check built into a competitive tender keeps a value that integrated approaches find hard to copy, which is chapter 4's reason the hard bid survives.
+
+Between the machines sit contraptions: quick assemblies built by a few people around one gap. Most collapse because they grow complicated faster than they grow structure. A few find structure and become machines. The first machines to take part in the loop itself were the auditors' screens that read public tenders and flagged the suspicious ones, and chapter 16 tells how they fell out of use wherever nobody had to act on a flag.
+
+## The next turn
+
+In 2026 an agency's AI reached a court for the first time, in the Army case of chapter 1. It is a small event, and the cards treat it as a knot in the grain, where several of these threads meet in one place.
+
+The machine that does not exist yet is the bot-first tender: documents written for machines to read, a standard bot to read them, and people who sign for what they rely on. It would keep the loop's oldest promise, that every bidder prices the same thing, in a form the newest readers can use. The cards in Appendix A tell the rest of the history, one machine at a time.
+
+## Source passages (kept until Andre has read the draft)
 
 *Laid out by Claude on 2026-11-02. Quoted passages marked "Andre" are his, copied unchanged from the file named under them; the source repository records these as his words, lightly edited from conversation. **The THESIS passages below are not Andre's**: THESIS.md is Claude's draft outline of 2026-10-05, "for the author to rewrite in his own words if it is to be used". They are quoted so the chapter can be redrafted from them, as the outline asks. Notes in italics are Claude's. Delete this section as the chapter is written.*
 
@@ -75,10 +124,10 @@ Source check, applied 2026-11-18 (project files manuscript-review-2026-11-17/02a
 4. *1873, the price book: published cost data give the owner a number before the market speaks, the forerunner of the engineer's estimate a pricing bot is now measured against.* (Reworded 2026-11-20 at Andre's ask; was "1873, cost data and the engineer's estimate". A search on 2026-11-20 found no earlier or more exact date for the engineer's estimate itself; New York's highway law, for one, published the estimate and barred awards above it until 1971, when both were kept confidential until award (Harp, "Historical Background: Low Bid Concept", TRB Circular 386, https://onlinepubs.trb.org/Onlinepubs/trcircular/386/386-010.pdf ). Source found 2026-11-19, ledger loop-04: 1873 is the first edition of Spon's Architects' and Builders' Price Book, the card's first timeline entry; the 2025 edition's imprint reads "First edition 1873" and "One hundred and fiftieth edition published 2025" (CRC Press; preview, https://api.pageplace.de/preview/DT0400.9781040132975_A49278474/preview-9781040132975_A49278474.pdf ). It dates the published price book, not the engineer's estimate, which the card follows from ENR's cost index (1908, formalized 1921) and RSMeans (1942). Safer wording: "1873, the price book: published cost data give the owner a number before the market speaks.")
 5. *1921, the bid protest and the record: an award tested against the file the agency made at the time.*
 6. *2006, the machine auditors: the first machines to take part in the loop, which fell out of use wherever nobody had to act on the flag.*
-7. *2026, Trax v. United States: an agency's AI reaches the forum (chapter 11).*
-8. *Projected, the bot-first protocol: the machine that does not exist yet (chapter 11).*
+7. *2026, Trax v. United States: an agency's AI reaches the forum (chapter 17).*
+8. *Projected, the bot-first protocol: the machine that does not exist yet (chapter 17).*
 
-*The thread's epigraph is Andre's §13 passage on the two routes ("There are two ways to make this happen…"), quoted in chapter 11.*
+*The thread's epigraph is Andre's §13 passage on the two routes ("There are two ways to make this happen…"), quoted in chapter 17.*
 
 ### The older machines feed the newer
 
@@ -86,8 +135,8 @@ Source check, applied 2026-11-18 (project files manuscript-review-2026-11-17/02a
 
 ### Contraptions, and how a new machine forms
 
-*From `SCHEMA.md` (Claude's wording, decision 55 at Andre's direction): a contraption is "an opportunistic assembly that exploits a gap between machines: a changed market, an output nobody uses, an input nobody makes." Contraptions are built fast, by few people, around one gap. Most collapse because their complexity grows faster than their structure; a few find structure and become machines. Open bid data and alternative delivery, this chapter's two later machines, can be told as contraptions that found structure. The watchlist also lists this project's own estimator as a contraption (chapter 10).*
+*From `SCHEMA.md` (Claude's wording, decision 55 at Andre's direction): a contraption is "an opportunistic assembly that exploits a gap between machines: a changed market, an output nobody uses, an input nobody makes." Contraptions are built fast, by few people, around one gap. Most collapse because their complexity grows faster than their structure; a few find structure and become machines. Open bid data and alternative delivery, this chapter's two later machines, can be told as contraptions that found structure. The watchlist also lists this project's own estimator as a contraption (chapter 16).*
 
 ### Failed protocols
 
-*Andre asked for the machine-auditor card because the auditors "would be good cards for the Procurement Machines since they show failed protocols" (2026-10-13, quoted in the card's notes). Brazil's and Korea's screens read every tender or awarded bid by machine and fell out of use for years because nobody was obliged to act on their flags; each was repaired by making a step obligatory. The lesson belongs in chapter 10 (the evaluator), but the chapter can name it here as the loop's first machine participant.*
+*Andre asked for the machine-auditor card because the auditors "would be good cards for the Procurement Machines since they show failed protocols" (2026-10-13, quoted in the card's notes). Brazil's and Korea's screens read every tender or awarded bid by machine and fell out of use for years because nobody was obliged to act on their flags; each was repaired by making a step obligatory. The lesson belongs in chapter 16 (the evaluator), but the chapter can name it here as the loop's first machine participant.*

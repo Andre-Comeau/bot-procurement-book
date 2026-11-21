@@ -9,9 +9,23 @@ Reasons against compelling disclosure (Andre's memo of 2 October 2026; Andre cle
 Literature (`literature-review-2026-11-01.md`, Part 1): Ron Engineering, Edgeworth, Bail, Tercon; Sintra 2024 (Quebec duty to inquire); Texas Bus. & Com. Code §59.051 (bid-stage diligence; both qualify "no compelled disclosure"); Bajari, McMillan & Tadelis 2009; Scholz on algorithmic contracts. Collusion (`collusion-papers-notes-2026-11-01.md`, Part 3.1): who may use the standard bot, with the Seoul group's collusion evidence on one side and De Silva on the other, kept in tension.
 Paths are relative to construction-procurement-protocols unless they start with C:\.
 Source gaps checked 2026-11-19 (Claude, thread "Close the book's source gaps"; ledger shift-04 and shift-05), source passages only. Estoppel (shift-04): Andre's quoted line ("estoppel allows a verbal contract to take place anytime, anywhere") is his view and stays his voice; it is legally loose. Contracts form by offer and acceptance, and a verbal contract needs no estoppel; in Canada promissory estoppel needs parties already in a legal relationship, a promise or assurance intended to affect that relationship and to be acted on, and actual reliance (Maracle v. Travellers Indemnity Co. of Canada, [1991] 2 S.C.R. 50, restated in Trial Lawyers Association of British Columbia v. Royal & Sun Alliance, 2021 SCC 47, https://yorku.ca/osgoode/thecourt/2021/11/24/insurer-not-estopped-from-denying-coverage-scc-finds-in-trial-lawyers-association-v-royal-and-sun-alliance-insurance-company-of-canada ); it is generally used as a defence rather than to found a claim. When the chapter is written, either attribute the line to Andre as his reading or narrow it to "a bot's answer can bind its owner if someone reasonably relies on it", and cite the case. The bonding moat (shift-05): a GAO survey found only about 23 percent of small construction firms surveyed had obtained surety bonds, with financial condition and lack of experience the usual reasons for denial (GAO, Small Business: Access to Surety Bonds, T-RCED-95-150, 5 April 1995, https://www.gao.gov/products/t-rced-95-150 ). It is old and American, so it supports the note as argument, not as a current figure.
+Drafted 2026-11-20 by Claude (thread "Retitle chapters and draft missing pieces") as a fold-sized section of about 420 words, written to drop into chapter 3, after "The buyer stands behind its number", under its own heading. Claude's wording, from Andre's case-study section and positions §1, §2 and §7; for Andre's voice pass. The five reasons are one sentence each, as the culling report proposed. Left in the passages below, not in the text: the Listener, the construction manager as a fourth party, and estoppel (Andre's line is legally loose; the text uses the narrow form "a bot's answer can bind its owner if someone reasonably relies on it", per the source-gap note above). The vgr_zirp counter-case ("guild protection") is named in one sentence so the section does not read as settled.
+vgr_zirp review, 2026-11-20 (session 3, answer 2, for bid teams): "who eats the cost when the reading was wrong" said beside "responsibility".
 -->
 
-## Source passages (to cut and rewrite)
+## Who answers for the reading
+
+Liability for what a bot reads will likely sit with the user's bot, not with the bot that supplied the information. That matches how contract law already works. An AI vendor can tell its own customer to use the tool at their own risk. A company whose bot answers strangers cannot so easily, because a bot's answer can bind its owner when someone reasonably relies on it. Drawings and specifications already work this way for human estimators: the buyer answers for the documents, and each bidder answers for its own reading of them.
+
+Two statements are true at once. The bidder's bot's reading of the requirements is the bidder's responsibility, and when the reading is wrong, the bidder eats the cost. The buyer and its designers are still responsible for documents free of errors. Those documents are written for people today, and that is why a move to documents written for bots needs a standard. Until one limits what a designer answers for, few designers will write for machines.
+
+It also explains why the buyer should not run a bot that answers bidders' questions. Bidders would each ask differently, a bot answers from probabilities, and the answers would differ from one bidder to the next. In Canada the buyer has to treat bidders equally, and a bidder who lost could say it relied on what it was told. A shared bot would turn every answer into a liability.
+
+So each bidder brings its own bot, and the bidder decides whether to raise what the bot finds. Compelling it to report would not work, for five reasons. Bidders are not the designers, and a duty to find errors hands them a licensed professional's liability. Nobody pays them for the review, and paying for it invites bidders who bid for the fee. A flood of minor issues would hide the major one and push tenders into the building season. Anyone can be made to ask a question, but nobody can be made to ask a useful one. And designers would have less reason to get the drawings right if the bidders were made to check them.
+
+Critics call this a guild protecting its habits, and the point is fair: the honest bidder who asks can lose to the strategic one who stays quiet. The best reason to raise an error is to stop a rival from exploiting it, and that works for a firm that would rather win on its location, its crew or its capital than on the buyer's mistakes. A bot does not create that motive. It makes acting on it cheap, because a question found and written in minutes can be answered to every bidder at once.
+
+## Source passages (kept until Andre has read the draft)
 
 *Laid out by Claude on 2026-11-02. Every quoted passage is Andre's, copied unchanged from the file named under it; the source repository records these as his words, lightly edited from conversation. Positions §1 to §7 were written before the repository began quoting him: there the meaning is Andre's and much of the wording is Claude's edit, and they are marked "Andre's meaning, edited wording". Notes in italics are Claude's. Delete this section as the chapter is written. This is the longest set; the chapter's 1,500 words will use perhaps a third of it.*
 
@@ -68,7 +82,7 @@ Source gaps checked 2026-11-19 (Claude, thread "Close the book's source gaps"; l
 
 (positions §2.5)
 
-*The strongest counter-case, from the bot council of 2026-10-06 (Claude's summary in positions §2.6): vgr_zirp called the five reasons "a guild protection argument dressed up as efficiency reasoning", and argued that a protocol which gives bidders a detector the buyer lacks creates the asymmetry it then refuses to correct, so the honest bidder who asks loses to the strategic one who stays quiet. Reasons 2.4 and 2.5 were not answered. Andre's own reply was a question: assuming the duty were easy to write, how would it be enforced, when bidders would claim their error detection as confidential? Claude's six mechanisms are in positions §2.7; the one that needs no new law is that a bidder who knew, or should have known, of a patent error cannot price it later, and "should have known" moves once a reasonable bidder's bot would have found it. That is chapter 11's question.*
+*The strongest counter-case, from the bot council of 2026-10-06 (Claude's summary in positions §2.6): vgr_zirp called the five reasons "a guild protection argument dressed up as efficiency reasoning", and argued that a protocol which gives bidders a detector the buyer lacks creates the asymmetry it then refuses to correct, so the honest bidder who asks loses to the strategic one who stays quiet. Reasons 2.4 and 2.5 were not answered. Andre's own reply was a question: assuming the duty were easy to write, how would it be enforced, when bidders would claim their error detection as confidential? Claude's six mechanisms are in positions §2.7; the one that needs no new law is that a bidder who knew, or should have known, of a patent error cannot price it later, and "should have known" moves once a reasonable bidder's bot would have found it. That is chapter 17's question.*
 
 ### The tension, not a conflict
 
@@ -80,7 +94,7 @@ Source gaps checked 2026-11-19 (Claude, thread "Close the book's source gaps"; l
 
 > The two-sided approach of looking at bot-first specifications and standardized bots for baselining the tender may still represent the best distribution of risks based on financial incentives.
 
-(positions §16, recorded 2026-10-10. The banana-peel passages from the same section are in chapter 8.)
+(positions §16, recorded 2026-10-10. The banana-peel passages from the same section are in chapter 14.)
 
 ### The record, not the duty
 
@@ -114,7 +128,7 @@ Source gaps checked 2026-11-19 (Claude, thread "Close the book's source gaps"; l
 
 > The Design and Owner bots could then provide additional commentary, or modify the specs and drawings, in an iterative process until the closing of the questions period, which would lead to bids based on capabilities and capacities instead of the ability to detect errors.
 
-(`case-studies/andre-comeau/README.md`, "Who bears the cost of validating intent". The section's first paragraph, on the two streams of data, is left in the source. Andre's §13 passages on the two routes, bot-readable documents or a standard bot, are in chapter 11.)
+(`case-studies/andre-comeau/README.md`, "Who bears the cost of validating intent". The section's first paragraph, on the two streams of data, is left in the source. Andre's §13 passages on the two routes, bot-readable documents or a standard bot, are in chapter 17.)
 
 ### Silence before the contract
 

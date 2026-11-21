@@ -11,6 +11,7 @@ Kolt: end page not yet confirmed (the journal page gives only the first page, 10
 Added 2026-11-12 with the chapter 2 delivery-method edit, for Andre to confirm: FHWA TechBrief HRT-17-100 and the National Academies open-book pricing guide (sources found in research, not yet read by Andre). Titles corrected 2026-11-17 from the source check (manuscript-review-2026-11-17/02b): the guide is Gransberg and Pala, NCHRP Synthesis 653.
 Added 2026-11-19 (Claude, thread "Fill the estimator and surety gaps", for chapters 3 and 7g; for Andre to confirm): AM Best 2026; Caltrans bid summaries; CRS R42037; Dyer and Kagel 1996; Dyer, Kagel and Levin 1989; FHWA 2015 national review; Intuit QuickBooks and TSheets 2019; Liu et al. 2014; Old Republic Surety; SFAA 2023; Surety Information Office 2007; TxDOT letting archive; SBA news release 26-20.
 Added 2026-11-19 (Claude, thread "Close the book's source gaps", ledger appd-01, for Andre to confirm; keep only what the finished chapters use): AIUC-1 and its terms (7g); Clarkesworld's guidelines (chapter 1); Competition Bureau Canada and the US Department of Justice on algorithmic pricing (7b); Freedberg (chapter 10's $600 hammer sidebar); Nithyanantham et al., BIM-Edit (7d); the OGCA Q&A on Infrastructure Ontario's proposal fee (chapter 1); Stinson-Schroff on the Protocol Institute (chapter 11); FAR 15.404-1 (chapter 10). Court cases are still left out until Andre decides whether Appendix D lists them.
+Added 2026-11-20 (thread "Retitle chapters and draft missing pieces"): Del Valle, DBIA/FMI, Dionysius, Spon's and the 1809 Act, the sources behind chapter 18 and Appendix A's thread (found in the 19 Nov source-gap check, ledger loop-02 to loop-09). They are the cards' sources rather than works Andre read; drop them if Appendix D stays to what he read. Amber Case (chapter 14a's banana peel) still has no entry: the source is a report on the Calm Tech Institute's site of her Tokyo talk of 4 March 2026, URL to find.
 -->
 
 Abbott, Bud, and Lou Costello. "Who's on First?" Comedy routine, performed from 1937; filmed in *The Naughty Nineties* (Universal, 1945). (Named, not quoted.)
@@ -45,9 +46,15 @@ Corrigan, Tony. Opinion piece on AI transforming how tenders are written but not
 
 Dark Reading. "Google's DMARC Push Pays Off, but Email Security Challenges Remain." February 2025. https://www.darkreading.com/remote-workforce/google-dmarc-push-email-security-challenges.
 
+Del Valle (first name to check). "Bid Express Turns 20: A History." Infotech blog, 20 November 2019. https://www.infotechinc.com/blog/bid-express-turns-20-a-history/. (Open bid data from 1982; chapter 18.)
+
+Design-Build Institute of America. "New FMI Report 2024." Blog post, 7 January 2025. https://dbia.org/blog/new-fmi-report-2024/. (Design-build forecast; chapter 18.)
+
 Deutsches Institut für Normung. DIN 476, *Papierformate* (paper formats). Berlin, 1922.
 
 "Drunken Sailor" ("What Shall We Do with the Drunken Sailor?"). Traditional sea shanty, first printed in the nineteenth century.
+
+Dionysius of Halicarnassus. *Roman Antiquities*, book 6, 17.2 and 94. Translated by Earnest Cary, Loeb Classical Library, 1940. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Dionysius_of_Halicarnassus/6A*.html. (The temple contracts of about 495 BCE; chapter 18 and Appendix A.)
 
 Dwork, Cynthia, and Moni Naor. "Pricing via Processing or Combatting Junk Mail." In *Advances in Cryptology: CRYPTO '92*, 139–147. Lecture Notes in Computer Science 740. Berlin: Springer, 1993.
 
@@ -149,6 +156,8 @@ Sewell, William H., Jr. "Three Temporalities: Toward an Eventful Sociology." In 
 
 Solicitors Regulation Authority. "SRA approves first AI-driven law firm." Press release, 6 May 2025. https://www.sra.org.uk/sra/news/press/garfield-ai-authorised/.
 
+*Spon's Architects' and Builders' Price Book.* First edition 1873; 150th edition, Boca Raton: CRC Press, 2025. (The price book; chapter 18 and Appendix A.)
+
 Stevenson, Sean. Post on the Stevenson Test ("What an honor to have my own test!"). *blyg* (blog), 1 October 2026. https://blyg.seanstevenson.org/t/4smjqsxxaxqr8xbvh7m98wg9z7/.
 
 Stevenson, Sean. "De-Dramatizing the Digital: How AI Descends Into New Nature." Talk, Protocol Symposium 2026, 23 September 2026. https://www.youtube.com/watch?v=Ktdu6HjhYFo.
@@ -169,6 +178,8 @@ Thomson, Martin, and David Schinazi. *Maintaining Robust Protocols.* RFC 9413. I
 U.S. Small Business Administration. "Growth, Demand in Manufacturing Drives Record Surety Bond Guarantees in FY25." News release 26-20, 13 January 2026. https://legacy.sba.gov/article/2026/01/13/growth-demand-manufacturing-drives-record-surety-bond-guarantees-fy25.
 
 UNCITRAL. *Guide to Enactment of the UNCITRAL Model Law on Public Procurement.* New York: United Nations, 2012. Paragraphs 101 to 102.
+
+United States. Act of 3 March 1809, chapter 28, section 5. *Statutes at Large*, vol. 2, 10th Congress, 2nd session. https://en.wikisource.org/wiki/United_States_Statutes_at_Large/Volume_2/10th_Congress/2nd_Session/Chapter_28. (Formal advertising; chapter 18 and Appendix A.)
 
 United States. Code of Federal Regulations, title 23, part 636, *Design-Build Contracting*, sections 636.112 and 636.113 (stipends).
 
@@ -194,24 +205,24 @@ Yegge, Steve. "Stevey's Google Platforms Rant." Google+ post, October 2011, wide
 Added 2026-11-20 at Andre's word ("We can keep them in the Appendix"; ledger appd-01). Bibliography style, as for the works above: the citation, the court and the year, with a few words in brackets on what the book uses it for. No commentary; the chapters carry the argument. Keep only the cases the finished chapters use. Canadian cases are cited by the Supreme Court Reports, US cases by the reporter or docket.
 -->
 
-*Battelle Memorial Institute*, B-418047.3, B-418047.4. US Government Accountability Office, 2020. https://www.gao.gov/products/b-418047.3,b-418047.4. (A single scoring inconsistency sustained a protest; chapter 7a.)
+*Battelle Memorial Institute*, B-418047.3, B-418047.4. US Government Accountability Office, 2020. https://www.gao.gov/products/b-418047.3,b-418047.4. (A single scoring inconsistency sustained a protest; chapter 7.)
 
-*Daubert v. Merrell Dow Pharmaceuticals, Inc.*, 509 U.S. 579 (1993). Supreme Court of the United States. (Reliability of expert evidence, including a known error rate; chapter 11.)
+*Daubert v. Merrell Dow Pharmaceuticals, Inc.*, 509 U.S. 579 (1993). Supreme Court of the United States. (Reliability of expert evidence, including a known error rate; chapter 17.)
 
-*Everalbum, Inc., In the Matter of*. US Federal Trade Commission, File No. 192-3172, decision and order, 2021. (Deletion of models built on improperly collected data; chapter 11a.)
+*Everalbum, Inc., In the Matter of*. US Federal Trade Commission, File No. 192-3172, decision and order, 2021. (Deletion of models built on improperly collected data; chapter 17a.)
 
-*Kurbo, Inc. and WW International, Inc., United States v.* US District Court, Northern District of California, stipulated order, 2022. (The same remedy; chapter 11a.)
+*Kurbo, Inc. and WW International, Inc., United States v.* US District Court, Northern District of California, stipulated order, 2022. (The same remedy; chapter 17a.)
 
-*M.J.B. Enterprises Ltd. v. Defence Construction (1951) Ltd.*, [1999] 1 S.C.R. 619. Supreme Court of Canada. (The tender contract, Contract A; chapter 9.)
+*M.J.B. Enterprises Ltd. v. Defence Construction (1951) Ltd.*, [1999] 1 S.C.R. 619. Supreme Court of Canada. (The tender contract, Contract A; chapter 15.)
 
-*Office Design Group v. United States*, 951 F.3d 1366 (Fed. Cir. 2020). US Court of Appeals for the Federal Circuit. (Unequal scoring of indistinguishable proposals; chapter 7a.)
+*Office Design Group v. United States*, 951 F.3d 1366 (Fed. Cir. 2020). US Court of Appeals for the Federal Circuit. (Unequal scoring of indistinguishable proposals; chapter 7.)
 
-*R. v. Mohan*, [1994] 2 S.C.R. 9. Supreme Court of Canada. (Admissibility of expert evidence; chapter 11.)
+*R. v. Mohan*, [1994] 2 S.C.R. 9. Supreme Court of Canada. (Admissibility of expert evidence; chapter 17.)
 
-*R. v. Ron Engineering & Construction (Eastern) Ltd.*, [1981] 1 S.C.R. 111. Supreme Court of Canada. (A bid, once opened, binds the bidder; chapters 3a and 9.)
+*R. v. Ron Engineering & Construction (Eastern) Ltd.*, [1981] 1 S.C.R. 111. Supreme Court of Canada. (A bid, once opened, binds the bidder; chapters 3a and 15.)
 
-*Ryan v. Victoria (City)*, [1999] 1 S.C.R. 201. Supreme Court of Canada. (Following a standard is evidence of reasonable care, not a complete defence; chapter 11a.)
+*Ryan v. Victoria (City)*, [1999] 1 S.C.R. 201. Supreme Court of Canada. (Following a standard is evidence of reasonable care, not a complete defence; chapter 17a.)
 
-*Tercon Contractors Ltd. v. British Columbia (Transportation and Highways)*, 2010 SCC 4, [2010] 1 S.C.R. 69. Supreme Court of Canada. (Exclusion clauses in a tender; chapters 3a and 9.)
+*Tercon Contractors Ltd. v. British Columbia (Transportation and Highways)*, 2010 SCC 4, [2010] 1 S.C.R. 69. Supreme Court of Canada. (Exclusion clauses in a tender; chapters 3a and 15.)
 
-*Trax v. United States*, No. 26-796. US Court of Federal Claims, Judge Carolyn N. Lerner; opinion filed under seal 3 September 2026, public 22 September 2026. (An agency's AI evaluations ordered into the record; chapters 3a, 11 and 11a.)
+*Trax v. United States*, No. 26-796. US Court of Federal Claims, Judge Carolyn N. Lerner; opinion filed under seal 3 September 2026, public 22 September 2026. (An agency's AI evaluations ordered into the record; chapters 3a, 17 and 17a.)
