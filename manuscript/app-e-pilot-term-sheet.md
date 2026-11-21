@@ -1,6 +1,6 @@
 # Appendix E. A draft term sheet for a pilot policy
 
-This appendix goes with [chapter 7g, the insurers](06f-the-insurers.md), where the pilot it describes is the next step of the ask.
+This appendix goes with [chapter 13, the insurers](06f-the-insurers.md), where the pilot it describes is the next step of the ask.
 
 This is a starting point for an underwriter to mark up, not an offer. Every number in brackets is a placeholder. The project does not sell insurance and has no stake in the terms an insurer chooses.
 
