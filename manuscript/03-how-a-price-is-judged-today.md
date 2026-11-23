@@ -1,10 +1,10 @@
-# How a price is judged today
+# Why does the hard bid survive?
 
 Before a bot can judge a price, someone has to decide who works for whom. Economists call this the Principal/Agent problem, and in construction it has a map.
 
 So, you want to build a house. It is about the largest thing one person could hope to build alone, which makes it a good baseline: anything bigger, from a school to a bridge, takes other people, and other people raise the question the rest of this chapter answers. Why not just get along? Let's look at your options.
 
-![Delivery methods on two axes, Principal to Principal against Principal to Agent and competitive against cooperative: hard bid (lump-sum Design-Bid-Build or Design-Build), partnership, Construction Manager and cost plus (including progressive Design-Build) in the corners, the General Contractor with a Consultant in the centre](../images/delivery-methods-2x2.png)
+![Two-by-two chart titled "Who works for whom, and how they deal". The rows ask whether the other party works for itself (Principal to Principal) or for you (Principal to Agent); the columns ask whether you get there by competing or by cooperating. Top left, hard bid: the lump sum, whoever draws, Design-Bid-Build or Design-Build; you trade trust in the counterparty for rock-bottom pricing. Top right, partnership: principals entangled in a common interest; you trade a higher share of the benefits for significantly less management effort. Bottom left, Construction Manager: two agents, designer and builder, acting as checks on each other; you trade accountability for a mild dose of certainty and optionality. Bottom right, cost plus: the consulting contractor, or progressive Design-Build; you trade cost certainty for optionality. In the centre, overlapping all four squares, the General Contractor with a Consultant: design with an agent, build with a principal, keeping optionality where it has the most leverage and competition for the rest. The diagonal runs from "cheap and stressful" at top left to "peaceful and expensive" at bottom right. A dashed arrow along the top points back towards the hard bid: "Profits = Margin × Velocity: velocity fades, and the Principal returns to the hungry parties." Notes underneath: self-performance, where the Principal and the Agent are one person, is off the grid, and Design-Build lands in two squares.](../images/delivery-methods-2x2.png)
 
 *Who works for whom, and how they deal. Cheap and stressful in one corner, peaceful and expensive in the other; the General Contractor with a Consultant balances both axes.*
 
@@ -46,7 +46,7 @@ Maybe you want something more. You want to change your mind. You want to explore
 
 A cost-plus contract moves you to the opposite corner of the map. The builder becomes a consulting contractor: it works for you, and you cooperate instead of competing. The scope and the price float. What keeps the contractor on your side is partly law and custom, but mostly the money: paid its costs plus a fee, it has little to gain by working against you. The catch: you pay every cost, whatever it turns out to be, and the contractor has no reason to spend less. When the fee is a percentage, every extra dollar you spend earns it a little more. Useful when you need room to move, but the peaceful corner is also the expensive one.
 
-Design-Build has a version for this corner too. In progressive Design-Build, you choose the team for its qualifications instead of its price. It designs alongside you, and the price is agreed with open books, one package at a time, as the design firms up. Public road agencies are only starting to use it, and as of 2024 only sixteen US jurisdictions had a law that allowed it. Open books only help if someone on your side can read them.
+Design-Build has a version for this corner too. In progressive Design-Build, you choose the team for its qualifications instead of its price. It designs alongside you, and the price is agreed with open books, one package at a time, as the design firms up. Public road agencies are only starting to use it, and as of 2024 only sixteen state transportation departments had a law that allowed it. Open books only help if someone on your side can read them.
 
 You trade cost certainty for optionality.
 

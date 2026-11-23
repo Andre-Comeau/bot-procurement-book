@@ -211,7 +211,7 @@ abilities = [
     (FOR_D, "Freed Time", "Hand the take-offs", "to the bots. Spend the", "hours on creation."),
     ("#003a99", "Sealed Alternates", "Propose a better build;", "the standard bot gives", "the review certainty."),
     (RUST_D, "BIM Vision", "The model becomes the", "tender, not a secondary", "reference."),
-    ("#8a5d0e", "Robot Command", "Robots program", "themselves from the", "documents you priced."),
+    ("#8a5d0e", "Better Jigbots", "Robots that program", "themselves let a trade", "teach a better jigbot."),
 ]
 for k, (col, name, *lines) in enumerate(abilities):
     y = HY + 130 + k * 170

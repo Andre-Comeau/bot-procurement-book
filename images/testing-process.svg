@@ -17,7 +17,7 @@
 <clipPath id="win1"><path d="M620,1040 L620,400 A391.0,391.0 0 0 1 850.0,290 A391.0,391.0 0 0 1 1080,400 L1080,1040 Z"/></clipPath>
 <clipPath id="win2"><path d="M1150,1040 L1150,400 A391.0,391.0 0 0 1 1380.0,290 A391.0,391.0 0 0 1 1610,400 L1610,1040 Z"/></clipPath>
 </defs>
-<text x="80" y="86" class="eyebrow" text-anchor="start">CHAPTER 1 · WHAT THE SCORES SAY</text>
+<text x="80" y="86" class="eyebrow" text-anchor="start">CHAPTER 16 · WHAT THE SCORES SAY</text>
 <text x="80" y="148" class="title" text-anchor="start">How the estimator is checked</text>
 <text x="80" y="190" class="dek" text-anchor="start">The contracts are split by date. The estimator learns from the older ones</text>
 <text x="80" y="218" class="dek" text-anchor="start">and is checked on the newer ones.</text>
@@ -275,9 +275,9 @@
 <text x="1380.0" y="715" class="who" text-anchor="middle" fill="#5f5e5a">piling up online</text>
 <text x="1380.0" y="770" class="rem" text-anchor="middle" fill="#2c2c2a">Left alone until there is a</text>
 <text x="1380.0" y="804" class="rem" text-anchor="middle" fill="#2c2c2a">product and someone who</text>
-<text x="1380.0" y="838" class="rem" text-anchor="middle" fill="#2c2c2a">wants the answer. The error</text>
-<text x="1380.0" y="872" class="rem" text-anchor="middle" fill="#2c2c2a">bands we quote come only</text>
-<text x="1380.0" y="906" class="rem" text-anchor="middle" fill="#2c2c2a">from here.</text>
+<text x="1380.0" y="838" class="rem" text-anchor="middle" fill="#2c2c2a">wants the answer. The only</text>
+<text x="1380.0" y="872" class="rem" text-anchor="middle" fill="#2c2c2a">error bands a buyer can rely</text>
+<text x="1380.0" y="906" class="rem" text-anchor="middle" fill="#2c2c2a">on come from here.</text>
 <text x="1380.0" y="960" class="term" text-anchor="middle" fill="#9e3d18">Researchers call this test data</text>
 <rect x="1292.0" y="553" width="176" height="34" rx="17" fill="#9e3d18" stroke="#2c2c2a" stroke-width="3"/>
 <text x="1380.0" y="576" class="pill" text-anchor="middle" fill="#ffffff">NOT RUN YET</text>

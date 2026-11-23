@@ -2,41 +2,69 @@
 
 Abbott, Bud, and Lou Costello. "Who's on First?" Comedy routine, performed from 1937; filmed in *The Naughty Nineties* (Universal, 1945). (Named, not quoted.)
 
-Auditor General of Ontario. *Annual Report 2024*, chapter "Procurement and Delivery of Selected Infrastructure Projects". Toronto: Office of the Auditor General of Ontario, 2024. https://www.auditor.on.ca/en/content/annualreports/arreports/en24/pa_infrastructureON_en24.pdf. (Chapter title to check.)
+AM Best. *Best's Special Report: Infrastructure Projects Spur Growth and Help Fuel Profits for U.S. Surety Insurers.* 19 January 2026. Summary: https://www.businesswire.com/news/home/20260119512086/en/.
+
+Artificial Intelligence Underwriting Company. *AIUC-1*, a standard for AI agents; requirements E004 ("Assign accountability") and E015 ("Log AI system activity") in its evidence index, read 19 November 2026. https://standard.aiuc-1.com/. Terms of use, 15 July 2025, https://standard.aiuc-1.com/legal/terms.md.
+
+ASTM International. "The History of ASTM International." https://about.astm.org/ABOUT/history_book.html.
+
+Auditor General of Ontario. *Annual Report 2024*, chapter "Procurement and Delivery of Selected Infrastructure Projects". Toronto: Office of the Auditor General of Ontario, 2024. https://www.auditor.on.ca/en/content/annualreports/arreports/en24/pa_infrastructureON_en24.pdf.
 
 Brooks, Frederick P., Jr. *The Mythical Man-Month: Essays on Software Engineering.* Reading, MA: Addison-Wesley, 1975. Chapter 3, "The Surgical Team".
 
 buildingSMART International. *Information Delivery Specification (IDS)*, version 1.0. Final standard, 4 June 2024. https://www.buildingsmart.org/standards/bsi-standards/information-delivery-specification-ids/.
 
+California Department of Transportation (Caltrans). Bid summaries for state highway construction contracts, bid openings 1999 to 2009, as collected by the project.
+
 Canadian Construction Documents Committee. *CCDC 23 – 2018: A Guide to Calling Bids and Awarding Construction Contracts.* Ottawa: CCDC, 2018.
 
 Charan, Ram. *What the CEO Wants You to Know: How Your Company Really Works.* New York: Crown Business, 2001.
 
-Clarke, Neil. "A Concerning Trend." Blog post, 15 February 2023; Clarkesworld closed submissions on 20 February 2023. https://neil-clarke.com/a-concerning-trend/. (To check.)
+Clarke, Neil. "A Concerning Trend." Blog post, 15 February 2023; Clarkesworld closed submissions on 20 February 2023. https://neil-clarke.com/a-concerning-trend/.
+
+Clarkesworld Magazine. "Submission Guidelines." Web page, 2025. https://clarkesworldmagazine.com/submissions/.
+
+Competition Bureau Canada. *Algorithmic Pricing and Competition: Discussion Paper.* June 2025. https://competition-bureau.canada.ca/en/node/963.
+
+Congressional Research Service. *SBA Surety Bond Guarantee Program.* Report R42037, updated 18 July 2025. https://www.everycrsreport.com/reports/R42037.html.
 
 Corrigan, Tony. Opinion piece on AI transforming how tenders are written but not how they are evaluated. *Silicon Republic*, 26 May 2026. https://www.siliconrepublic.com/business/opinion-ai-transforming-how-tenders-are-written-but-not-how-theyre-evaluated. (Title to check.)
 
 Dark Reading. "Google's DMARC Push Pays Off, but Email Security Challenges Remain." February 2025. https://www.darkreading.com/remote-workforce/google-dmarc-push-email-security-challenges.
 
+Del Valle (first name to check). "Bid Express Turns 20: A History." Infotech blog, 20 November 2019. https://www.infotechinc.com/blog/bid-express-turns-20-a-history/. (Open bid data from 1982; chapter 18.)
+
+Design-Build Institute of America. "New FMI Report 2024." Blog post, 7 January 2025. https://dbia.org/blog/new-fmi-report-2024/. (Design-build forecast; chapter 18.)
+
 Deutsches Institut für Normung. DIN 476, *Papierformate* (paper formats). Berlin, 1922.
 
 "Drunken Sailor" ("What Shall We Do with the Drunken Sailor?"). Traditional sea shanty, first printed in the nineteenth century.
 
+Dionysius of Halicarnassus. *Roman Antiquities*, book 6, 17.2 and 94. Translated by Earnest Cary, Loeb Classical Library, 1940. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Dionysius_of_Halicarnassus/6A*.html. (The temple contracts of about 495 BCE; chapter 18 and Appendix A.)
+
 Dwork, Cynthia, and Moni Naor. "Pricing via Processing or Combatting Junk Mail." In *Advances in Cryptology: CRYPTO '92*, 139–147. Lecture Notes in Computer Science 740. Berlin: Springer, 1993.
+
+Dyer, Douglas, and John H. Kagel. "Bidding in Common Value Auctions: How the Commercial Construction Industry Corrects for the Winner's Curse." *Management Science* 42, no. 10 (1996): 1463–1475. https://doi.org/10.1287/mnsc.42.10.1463.
+
+Dyer, Douglas, John H. Kagel and Dan Levin. "A Comparison of Naive and Experienced Bidders in Common Value Offer Auctions: A Laboratory Analysis." *Economic Journal* 99, no. 394 (1989): 108–115.
 
 Eghbal, Nadia. *Working in Public: The Making and Maintenance of Open Source Software.* San Francisco: Stripe Press, 2020.
 
-European Commission. Proposal for a regulation on public procurement, COM(2026) 590, 9 September 2026. (Title to check.)
+European Commission. Proposal for a Regulation on public procurement and concessions (Public Procurement Act), COM(2026) 590, 9 September 2026.
 
 European Court of Auditors. *Public Procurement in the EU: Less Competition for Contracts Awarded for Works, Goods and Services in the 10 Years up to 2021.* Special Report 28/2023. Luxembourg, 2023.
 
 Federal Highway Administration. *Alternative Contracting Method Performance in U.S. Highway Construction.* TechBrief FHWA-HRT-17-100. McLean, VA: FHWA, April 2018. https://www.fhwa.dot.gov/publications/research/infrastructure/17100/index.cfm
 
+Federal Highway Administration. *National Review of State Cost Estimation Practice.* Washington, DC: FHWA, February 2015. https://www.fhwa.dot.gov/construction/contracts/2014cost.pdf.
+
+Freedberg, Sydney J., Jr. "The Myth of the $600 Hammer." *Government Executive*, 7 December 1998. https://www.govexec.com/federal-news/1998/12/the-myth-of-the-600-hammer/5271/.
+
 Galbraith, J. R. *Achieving Integration through Information Systems.* Working paper 364-68. Cambridge, MA: MIT Sloan School of Management, December 1968.
 
-Galbraith, Jay R. "Organization Design: An Information Processing View." *Interfaces* 4, no. 3 (1974): 28–36. (To check which of Galbraith's papers chapter 6 leans on; the 1968 working paper is listed above.)
+Galbraith, Jay R. "Organization Design: An Information Processing View." *Interfaces* 4, no. 3 (1974): 28–36. (To check which of Galbraith's papers chapter 1 leans on; the 1968 working paper is listed above.)
 
-Galdin, Anais, and Jesse Silbert. "Making Talk Cheap: Generative AI and Labor Market Signaling." arXiv:2511.08785, November 2025. https://arxiv.org/abs/2511.08785.
+Galdin, Anaïs, and Jesse Silbert. "Making Talk Cheap: Generative AI and Labor Market Signaling." arXiv:2511.08785, November 2025. https://arxiv.org/abs/2511.08785.
 
 Graham, Paul. "A Plan for Spam." August 2002. https://www.paulgraham.com/spam.html.
 
@@ -56,6 +84,8 @@ International Organization for Standardization. ISO 10845-1:2020, *Construction 
 
 International Organization for Standardization. ISO 10845-3, *Construction procurement: Part 3: Standard conditions of tender*. Geneva. (Edition to check.)
 
+Intuit QuickBooks and TSheets. Job-costing survey of 666 construction business owners and financial experts, 2019. Reported in "Survey: 1 in 3 Construction Companies Earning Less Than Expected", *For Construction Pros*, 3 May 2019. https://www.forconstructionpros.com/profit-matters/news/21067180/survey-1-in-3-construction-companies-earning-less-than-expected.
+
 Kahneman, Daniel, Olivier Sibony, and Cass R. Sunstein. *Noise: A Flaw in Human Judgment.* New York: Little, Brown Spark, 2021.
 
 Kaplow, Louis. "Rules versus Standards: An Economic Analysis." *Duke Law Journal* 42, no. 3 (1992): 557–629. https://scholarship.law.duke.edu/dlj/vol42/iss3/2.
@@ -69,6 +99,14 @@ Lang, David. "Standards Make the World." Summer of Protocols, Ethereum Foundatio
 Lang, David. Opening talk and roundtable on field building, with Timber Stinson-Schroff and Venkatesh Rao. Protocol Symposium 2026, 23 September 2026. https://www.youtube.com/watch?v=nx-3L5Apbgw.
 
 Laurie, Ben, and Richard Clayton. "'Proof-of-Work' Proves Not to Work." Workshop on the Economics of Information Security, Minneapolis, May 2004. https://www.cl.cam.ac.uk/~rnc1/proofwork.pdf.
+
+Liu, Bannerman, Elliot, Ewart and Atkinson (first names to check). "Underpricing for Construction Projects: A Double-Edged Sword." PMI Learning Library, 2014. https://www.pmi.org/learning/library/underpricing-construction-projects-8958.
+
+Nithyanantham, Bharathi Kannan, Clemens Kujat, Tobias Sesterhenn, et al. "BIM-Edit: Benchmarking Large Language Models for IFC-Based Building Information Modeling." arXiv:2606.20146, June 2026. https://arxiv.org/abs/2606.20146.
+
+Old Republic Surety. "Can You Explain Your Bid Spread?" Blog post, undated. https://orsurety.com/blog/can-you-explain-your-bid-spread.
+
+Ontario General Contractors Association. "Progressive Procurement P3 – Q&As" (on Infrastructure Ontario's progressive P3s: "a proposal fee will be offered"). https://www.naylornetwork.com/oga-nwl/pdf/Progressive_Procurement_P3_-_Q&As.pdf. (Title and date to check.)
 
 Open Contracting Partnership. *Open Contracting Data Standard*, version 1.0, 2015; and, with CoST – the Infrastructure Transparency Initiative, *Open Contracting for Infrastructure Data Standard* (OC4IDS), 2019. https://standard.open-contracting.org/.
 
@@ -90,7 +128,9 @@ Royal Institution of Chartered Surveyors. *Cost Prediction.* RICS professional s
 
 Royal Institution of Chartered Surveyors. *RICS Data Standard* (v3.3.3, MIT licence). https://www.isurv.com/homepage/945/rics_data_standards_and_schema.
 
-Santoleri, Pietro, Francesco Rentocchini and Francesco Lelli. "LLM-Assisted Proposal Writing in Competitive R&D Funding: Evidence from Horizon Europe." JRC Working Paper 02/2026. European Commission, Joint Research Centre, 2026. https://publications.jrc.ec.europa.eu/repository/handle/JRC146131.
+Russell, Andrew L. "OSI: The Internet That Wasn't." *IEEE Spectrum*, 29 July 2013. https://spectrum.ieee.org/osi-the-internet-that-wasnt.
+
+Santoleri, Pietro, Francesco Rentocchini and Francesco Lelli. "LLM-Assisted Proposal Writing in Competitive R&D Funding: Evidence from Horizon Europe." JRC Working Papers on Territorial Modelling and Analysis No 02/2026. European Commission, Joint Research Centre, 18 March 2026. https://publications.jrc.ec.europa.eu/repository/handle/JRC146131.
 
 Sathe, Aneesh. "The Birth of Thickets: An Interregnum in Space." Blog post, 19 July 2026. https://aneeshsathe.com/the-birth-of-thickets/.
 
@@ -102,17 +142,35 @@ Sewell, William H., Jr. "Three Temporalities: Toward an Eventful Sociology." In 
 
 Solicitors Regulation Authority. "SRA approves first AI-driven law firm." Press release, 6 May 2025. https://www.sra.org.uk/sra/news/press/garfield-ai-authorised/.
 
+*Spon's Architects' and Builders' Price Book.* First edition 1873; 150th edition, Boca Raton: CRC Press, 2025. (The price book; chapter 18 and Appendix A.)
+
 Stevenson, Sean. Post on the Stevenson Test ("What an honor to have my own test!"). *blyg* (blog), 1 October 2026. https://blyg.seanstevenson.org/t/4smjqsxxaxqr8xbvh7m98wg9z7/.
 
 Stevenson, Sean. "De-Dramatizing the Digital: How AI Descends Into New Nature." Talk, Protocol Symposium 2026, 23 September 2026. https://www.youtube.com/watch?v=Ktdu6HjhYFo.
 
+Stinson-Schroff, Timber. "Introducing the Protocol Institute." *Protocolized*, 27 April 2026. https://protocolized.summerofprotocols.com/p/introducing-the-protocol-institute.
+
+Surety & Fidelity Association of America. *Surety Results 2023Y* (preliminary). Washington, DC: SFAA, 2024. Copy: https://mbasurety.com/wp-content/uploads/2024/04/SFAA-Surety-Results_2023Y.pdf.
+
+Surety Information Office. Article on why contractors fail (title to check). *Modern Contractor Solutions*, October 2007, 42–43, reporting an SFAA review of 86 claims. https://suretyinfo.org/pdf/WhyContractorsFailMCS.pdf.
+
 Texas Department of Transportation. "Bid Tabulations." Open dataset de7b-7dna, Texas Open Data Portal. Full export downloaded 3 October 2026 (lettings September 2024 to October 2026). https://data.texas.gov/.
+
+Texas Department of Transportation. Letting archive of bid tabulations, monthly files 2013 to 2024. ftp.dot.state.tx.us/pub/txdot-info/cmd/cserve/bidtab/.
 
 Thomson, Martin, and David Schinazi. *Maintaining Robust Protocols.* RFC 9413. Internet Architecture Board, June 2023. https://www.rfc-editor.org/rfc/rfc9413.html.
 
+U.S. Small Business Administration. "Growth, Demand in Manufacturing Drives Record Surety Bond Guarantees in FY25." News release 26-20, 13 January 2026. https://legacy.sba.gov/article/2026/01/13/growth-demand-manufacturing-drives-record-surety-bond-guarantees-fy25.
+
 UNCITRAL. *Guide to Enactment of the UNCITRAL Model Law on Public Procurement.* New York: United Nations, 2012. Paragraphs 101 to 102.
 
+United States. Act of 3 March 1809, chapter 28, section 5. *Statutes at Large*, vol. 2, 10th Congress, 2nd session. https://en.wikisource.org/wiki/United_States_Statutes_at_Large/Volume_2/10th_Congress/2nd_Session/Chapter_28. (Formal advertising; chapter 18 and Appendix A.)
+
 United States. Code of Federal Regulations, title 23, part 636, *Design-Build Contracting*, sections 636.112 and 636.113 (stipends).
+
+United States. Federal Acquisition Regulation, 48 CFR 15.404-1, "Proposal Analysis Techniques". https://www.acquisition.gov/far/15.404-1.
+
+United States Department of Justice. Press release on the proposed RealPage settlement ("Justice Department Requires RealPage to End the Sharing of Competitively Sensitive Information"), 24 November 2025. https://www.justice.gov/opa/pr/justice-department-requires-realpage-end-sharing-competitively-sensitive-information-and.
 
 Vals AI. *VLAIR – Legal Research*, October 2025, as reported by LawNext, 23 October 2025. https://www.lawnext.com/2025/10/vals-ais-latest-benchmark-finds-legal-and-general-ai-now-outperform-lawyers-in-legal-research-accuracy.html.
 
@@ -122,6 +180,30 @@ World Machines. Project of SIGPSY, the Special Interest Group in Psychohistory, 
 
 World Trade Organization. *Agreement on Government Procurement*, as revised in 2012 (in force 2014), Articles VIII and IX.
 
-Xu, Jiannan, Gujie Li and Jane Yi Jiang. "AI Self-Preferencing in Algorithmic Hiring." arXiv:2509.00462, 2025. https://arxiv.org/abs/2509.00462.
+Xu, Jiannan, Gujie Li and Jane Yi Jiang. "AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights." arXiv:2509.00462, 2025. https://arxiv.org/abs/2509.00462.
 
-Yegge, Steve. "Stevey's Google Platforms Rant." Google+ post, October 2011, widely mirrored. (Date to check.)
+Yegge, Steve. "Stevey's Google Platforms Rant." Google+ post, October 2011, widely mirrored.
+
+## Cases and orders
+
+*Battelle Memorial Institute*, B-418047.3, B-418047.4. US Government Accountability Office, 2020. https://www.gao.gov/products/b-418047.3,b-418047.4. (A single scoring inconsistency sustained a protest; chapter 7.)
+
+*Daubert v. Merrell Dow Pharmaceuticals, Inc.*, 509 U.S. 579 (1993). Supreme Court of the United States. (Reliability of expert evidence, including a known error rate; chapter 17.)
+
+*Everalbum, Inc., In the Matter of*. US Federal Trade Commission, File No. 192-3172, decision and order, 2021. (Deletion of models built on improperly collected data; chapter 17a.)
+
+*Kurbo, Inc. and WW International, Inc., United States v.* US District Court, Northern District of California, stipulated order, 2022. (The same remedy; chapter 17a.)
+
+*M.J.B. Enterprises Ltd. v. Defence Construction (1951) Ltd.*, [1999] 1 S.C.R. 619. Supreme Court of Canada. (The tender contract, Contract A; chapter 15.)
+
+*Office Design Group v. United States*, 951 F.3d 1366 (Fed. Cir. 2020). US Court of Appeals for the Federal Circuit. (Unequal scoring of indistinguishable proposals; chapter 7.)
+
+*R. v. Mohan*, [1994] 2 S.C.R. 9. Supreme Court of Canada. (Admissibility of expert evidence; chapter 17.)
+
+*R. v. Ron Engineering & Construction (Eastern) Ltd.*, [1981] 1 S.C.R. 111. Supreme Court of Canada. (A bid, once opened, binds the bidder; chapters 3a and 15.)
+
+*Ryan v. Victoria (City)*, [1999] 1 S.C.R. 201. Supreme Court of Canada. (Following a standard is evidence of reasonable care, not a complete defence; chapter 17a.)
+
+*Tercon Contractors Ltd. v. British Columbia (Transportation and Highways)*, 2010 SCC 4, [2010] 1 S.C.R. 69. Supreme Court of Canada. (Exclusion clauses in a tender; chapters 3a and 15.)
+
+*Trax v. United States*, No. 26-796. US Court of Federal Claims, Judge Carolyn N. Lerner; opinion filed under seal 3 September 2026, public 22 September 2026. (An agency's AI evaluations ordered into the record; chapters 3a, 17 and 17a.)

@@ -1,4 +1,4 @@
-"""Chapter 1 figure: how the estimator is checked, as three stained-glass windows side by side.
+"""Chapter 16 figure: how the estimator is checked, as three stained-glass windows side by side.
 
 Same glass as failure_modes_glass.py (a jittered grid of cells in a leaded pointed-arch
 window, Protocol Institute brand colours, none of its marks). One window per stage, left to
@@ -90,7 +90,7 @@ WINDOWS = [
      "Researchers call this validation data",
      [C["sec"], C["sec_d"], mix(C["sec"], "#ffffff", .25)], loop, C["sec_d"]),
     ("3 · Final test", ["Newer bid results,", "piling up online"],
-     ["Left alone until there is a", "product and someone who", "wants the answer. The error", "bands we quote come only", "from here."],
+     ["Left alone until there is a", "product and someone who", "wants the answer. The only", "error bands a buyer can rely", "on come from here."],
      "Researchers call this test data",
      [mix(C["acc"], "#ffffff", .5), mix(C["acc"], "#ffffff", .64), mix(C["acc"], "#ffffff", .74)], padlock, C["acc_d"]),
 ]
@@ -109,7 +109,7 @@ for i in range(3):
     o.append(f'<clipPath id="win{i}"><path d="{arch_path(x0, x0 + WD)}"/></clipPath>')
 o.append('</defs>')
 
-o.append(t(80, 86, "CHAPTER 1 · WHAT THE SCORES SAY", "eyebrow"))
+o.append(t(80, 86, "CHAPTER 16 · WHAT THE SCORES SAY", "eyebrow"))
 o.append(t(80, 148, "How the estimator is checked", "title"))
 o.append(t(80, 190, "The contracts are split by date. The estimator learns from the older ones", "dek"))
 o.append(t(80, 218, "and is checked on the newer ones.", "dek"))

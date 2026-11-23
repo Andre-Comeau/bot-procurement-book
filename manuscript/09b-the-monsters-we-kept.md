@@ -44,9 +44,9 @@ The third creature has many heads, one for each trade.
 
 It is a fair question. If machines can read the documents, why should a buyer go through one general contractor at all? The buyer could tender each trade separately, through many doors instead of one, and keep the general contractor's margin for itself.
 
-The promise is a cheaper building, at least on paper. New York has required separate trade contracts on many public buildings for most of a century, and the studies of whether that saves money disagree with each other, which is itself a kind of answer.
+The promise is a cheaper building, at least on paper. New York has required separate trade contracts on many public buildings for more than a century, and the studies of whether that saves money disagree with each other, which is itself a kind of answer.
 
-The monstrous trait is that each head can be held responsible for its own piece, and none for how the pieces fit. A single door survives because there is one party behind it to answer for the whole, with a surety behind that party to make the answer worth something. Cut off the general contractor and the buyer becomes the one holding everything together, whether or not it meant to.
+The monstrous trait is that each head can be held responsible for its own piece, and none for how the pieces fit. A single door survives because there is one party behind it to answer for the whole, with a bonding company behind that party to make the answer worth something. Cut off the general contractor and the buyer becomes the one holding everything together, whether or not it meant to.
 
 What would open the cage: someone, bot or firm, who coordinates the pieces and can be sued for the coordination, with a bond to match.
 
@@ -66,7 +66,7 @@ What would open the cage: a published check that a buyer can trust to sort the p
 
 The last creature is the one that could eat this book, and it would be dishonest to leave it out.
 
-Everything in Bot Procurement assumes that machines will need help being trusted: a readable tender, a published test, a clear payer. That assumption rests on how unreliable today's bots are, and on how long it takes them to get better. If swarms of bots become stable enough, quickly enough, they might simply be trusted the way a large, well-run firm is trusted today, on its record, without anyone writing down a standard first. The machines would be the standard.
+Everything in Bot Procurement assumes that machines will need help being trusted: a readable tender, a published test, a clear answer to who is liable. That assumption rests on how unreliable today's bots are, and on how long it takes them to get better. If swarms of bots become stable enough, quickly enough, they might simply be trusted the way a large, well-run firm is trusted today, on its record, without anyone writing down a standard first. The machines would be the standard.
 
 It is a real possibility, and the last two years make it more real, not less.
 

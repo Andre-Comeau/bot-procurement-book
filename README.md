@@ -1,6 +1,6 @@
 # Bot Procurement Book
 
-A short book that asks one question: *when a bot causes harm, who pays?*, in construction procurement, public and private, and what has to exist before owners, bidders and courts can rely on a bot's reading of a tender. The working title is *The Reasonable Bot*.
+A short book that asks one question: *when a bot causes harm, who is liable?*, in construction procurement, public and private, and what has to exist before owners, bidders and courts can rely on a bot's reading of a tender. The working title is *The Reasonable Bot*.
 
 The book is being written in public during the Protocol Institute's [PiBoWriMo 2026](https://protocol-institute.org/events/pibowrimo-2026/), from November 1 to 30. It grows out of Andre Comeau's construction procurement protocols case study for the Institute's Protocols for Business group. The target is 8,000 to 15,000 words of main text, with an illustrated appendix of "Procurement Machines" cards.
 
@@ -12,14 +12,14 @@ The book is being written in public during the Protocol Institute's [PiBoWriMo 2
 
 - `outline.md`: the outline, with each chapter's target length, brief and sources.
 - `manuscript/`: one Markdown file per chapter. Each starts with a hidden note (`<!-- -->`) giving its target length, brief, sources and the literature to read first. The note doesn't show in the built book and is deleted when the chapter is done.
-  - File names keep their first numbers, so they no longer follow reading order: `PARTS` in `build_site.py` holds the order and the outline holds the numbers. chapters 1 to 4 are `07-building-an-estimator-in-public.md`, `03-how-a-price-is-judged-today.md`, `03b-what-do-we-do-with-a-drunken-sailor.md` and `00c-introduction.md` (the zombie garden); chapters 5 and 6 are `01` and `02`, and the three short chapters on the buyers, the bidders and the vendors (6a to 6c, added 2026-11-13, numbering to be decided) are `02b`, `02c` and `02d`; chapters 7 to 10 are `04`, `05`, `06` and `06b`; chapters 11 and 12 are `09` and `10`.
+  - File names keep their first numbers, so they no longer follow reading order: `PARTS` in `build_site.py` holds the order and the outline holds the numbers. Since 2026-11-19 the order follows Andre's outline: Part I the problem (`02`, `01`); Part II the solution (`06e`, with `05` to fold in); Part III why not something else (`03`, `08b`, `09b`); Part IV what each party gains (`02b`, `02c`, `09a`, `02e` designers, `02d`, `06c`, `06f` insurers, split from `06e`); Part V how we get there (`03b` with `06`, `00c` as what AI gets right, `07`, `09` with `06b`); Part VI past and future (`04`, `10`). Chapters 3 and 4 take a section heading as their title (2026-11-19).
   - `00b-prologue.md` is the author's status write-up for the Institute, placed as the prologue.
 - `institute-write-up-review-2026-10-14.md`: a review of that write-up, with the lightly copyedited text.
 - `machinery-figure-chat-2026-10.md`: notes on the machinery figure and its eight tension lines.
 - `literature-review-2026-11-01.md`: a literature review of about 165 works (1 November 2026). Part 1 is the synthesis: what has been written near the book, the gaps it fills, what cuts against it, and what to read for each chapter. Parts 2 to 6 are the annotated sources, a shelf for Appendix B; Part 6, the verification pass, wins over earlier parts.
 - `collusion-papers-notes-2026-11-01.md`: a close reading of the Seoul National University papers on AI bidders colluding in construction tenders, a test of the argument that public bid data commoditizes pricing, and what follows for the book's design.
 - `images/`: figures for the book, the site and the listing.
-- `TONE.md`: working notes on the book's voice so far, with before-and-after examples from chapter 2 (the delivery methods). Revised as chapters are finished.
+- `TONE.md`: working notes on the book's voice so far, with before-and-after examples from chapter 4 (the delivery methods; chapter 2 when the notes were written). Revised as chapters are finished.
 - `CLAUDE.md`: house rules for the AI assistant that helps with drafting.
 
 Paths in the chapter notes point to the author's own working folders, which are not part of this repository.

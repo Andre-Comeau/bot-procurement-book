@@ -1,4 +1,4 @@
-"""The oak falls: the cost of bidding, before and after (chapter 6, schematic).
+"""The oak falls: the cost of bidding, before and after (chapter 1, schematic).
 Usage: python images/oak_falls.py images/oak-falls   (writes the .svg and an .html; render at 1600 1000, see images/README.md)
 """
 import sys, html, random, math
@@ -17,7 +17,7 @@ def t(x, y, s, cls, fill=None, anchor="start"):
     f = f' fill="{fill}"' if fill else ""
     return f'<text x="{x}" y="{y}" class="{cls}" text-anchor="{anchor}"{f}>{html.escape(s)}</text>'
 o = [f'<rect width="{W}" height="{H}" fill="{C["canvas"]}"/>']
-o.append(t(80, 86, "CHAPTER 6 · THE OAK FALLS", "eyebrow"))
+o.append(t(80, 86, "CHAPTER 1 · THE OAK FALLS", "eyebrow"))
 o.append(t(80, 148, "The oak falls", "title"))
 o.append(t(80, 190, "For a century the cost of bidding stood over the market and shaded out everyone who could not afford to grow under it.", "dek"))
 o.append(t(80, 218, "Then AI made the call nearly free.", "dek"))

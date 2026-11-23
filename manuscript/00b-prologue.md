@@ -1,11 +1,12 @@
 # Prologue
 
-The Stevenson Test states that nature does not allow for appeals. Civilizations are the product of world
+The Stevenson Test says that New Nature is wherever there is nobody to appeal to. Civilizations are the product of world
 machines humanity has built to generate systems for appeals.
 
 Venkatesh Rao, Aneesh Sathe and SIGPSY (the Special Interest Group in Psychohistory), with the World
-Machines and Prime Radiant projects, have been mapping out humanity's recent efforts and discovered New
-Nature: an AI-powered phenomenon where pre-commodification re-wilds the world. **[a]** In this jungle, a
+Machines and Prime Radiant projects, have been mapping out humanity's recent efforts. Rao calls the result New
+Nature: laws made by technology that are nearly as hard to appeal as nature's own, and AI is the newest
+and wildest of them. In this jungle, a
 small sliver of light fell onto my industry, left behind on the forest floor as tech-based businesses
 reached for the sky.
 
@@ -44,6 +45,6 @@ costs. **[d]**
 
 Two names will travel through this book, and they are worth keeping apart. Bot Construction is the field:
 where this work leads, from documents written for machines to robots on site, built on everything the
-trades have already built. Bot Procurement is the standard: the price on a tender and who pays when a bot
+trades have already built. Bot Procurement is the standard: the price on a tender and who is liable when a bot
 gets it wrong, a part kept small enough to test. Bot Construction is where we are going. Bot Procurement is
 what has to be earned first.

@@ -1,6 +1,6 @@
 # Appendix E. A draft term sheet for a pilot policy
 
-This appendix goes with [the underwriters' chapter](06e-the-underwriters-chapter.md), where the pilot it describes is the next step of the ask.
+This appendix goes with [chapter 13, the insurers](06f-the-insurers.md), where the pilot it describes is the next step of the ask.
 
 This is a starting point for an underwriter to mark up, not an offer. Every number in brackets is a placeholder. The project does not sell insurance and has no stake in the terms an insurer chooses.
 
@@ -26,7 +26,7 @@ This is a starting point for an underwriter to mark up, not an offer. Every numb
 2. The bot's price falls within the range set by the reference standard, or the bid is not covered. The range in force on bid day governs, even if the standard changes later. The range is published by the body that keeps the standard, with its version and date.
 3. The bidder keeps its books for [number] years after the contract ends.
 
-**Audit right:** The insurer may check the bidder's books and the estimate file, as sureties already do.
+**Audit right:** The insurer may check the bidder's books and the estimate file, as bonding companies already do.
 
 **Voiding:** A false declaration of costs in the estimate file voids coverage for that bid.
 
