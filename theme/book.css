@@ -162,3 +162,9 @@ body, .md-typeset { font-family: var(--book-body); }
 .md-typeset .book-lead { font-size: 1.15em; line-height: 1.6; }
 .md-typeset .book-doors > ul > li { border-color: var(--md-default-fg-color--lightest); }
 .md-typeset .book-doors > ul > li > p:first-child strong { font-family: var(--book-serif); font-weight: 400; font-size: 1.5em; }
+
+/* Contents: one collapsible block per part, titled with the part's question. */
+.md-typeset details.book-part { border: 1px solid var(--md-default-fg-color--lightest); border-left-width: 1px; box-shadow: none; font-size: inherit; }
+.md-typeset details.book-part > summary { background: transparent; font-family: var(--book-sans); font-weight: 500; padding-left: 0.8rem; }
+.md-typeset details.book-part > summary::before { display: none; }
+.md-typeset details.book-part > ul { margin-top: 0.2em; }

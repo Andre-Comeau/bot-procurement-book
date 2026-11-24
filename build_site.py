@@ -204,7 +204,7 @@ theme:
       accent: custom
       toggle: {{icon: material/brightness-7, name: Light mode}}
 extra_css: [stylesheets/book.css]
-markdown_extensions: [attr_list, footnotes, admonition, md_in_html]
+markdown_extensions: [attr_list, footnotes, admonition, md_in_html, pymdownx.details]
 nav:
   - Home: index.md
 {nav}"""
@@ -367,16 +367,16 @@ def main():
     docs.mkdir(parents=True)
     toc, nav = [], []
     for part, chapters in PARTS:
-        toc.append(f"**{part}**\n")
+        toc.append(f'??? book-part "{part}"\n')
         items = []
         for name, title in chapters:
             if name in PUBLISHED:
                 text = (SRC / name).read_text(encoding="utf-8")
                 (docs / name).write_text(with_description(strip_notes(text), name), encoding="utf-8")
-                toc.append(f"- [{title}]({name})")
+                toc.append(f"    - [{title}]({name})")
                 items.append(f'      - "{title}": {name}')
             else:
-                toc.append(f"- [{title}](working/{name}) {badge(name)}")
+                toc.append(f"    - [{title}](working/{name}) {badge(name)}")
         toc.append("")
         if items:
             nav.append(f'  - "{part}":\n' + "\n".join(items))
@@ -388,7 +388,8 @@ def main():
     outline = strip_notes((ROOT / "outline.md").read_text(encoding="utf-8"))
     (work / "outline.md").write_text(WORKING_BANNER + outline, encoding="utf-8")
     for part, chapters in PARTS:
-        wtoc.append(f"**{part}**\n")
+        wtoc.append(f'??? book-part "{part}"\n')
+        wnav.append(f'      - "{part}":')
         for name, title in chapters:
             text = strip_notes((SRC / name).read_text(encoding="utf-8"))
             line = STATUS[status(name)][1]
@@ -398,8 +399,8 @@ def main():
             if status(name) == "outline":
                 text = with_meta(text, robots="noindex")
             (work / name).write_text(text, encoding="utf-8")
-            wtoc.append(f"- [{title}]({name}) {badge(name)}")
-            wnav.append(f'      - "{title}": working/{name}')
+            wtoc.append(f"    - [{title}]({name}) {badge(name)}")
+            wnav.append(f'          - "{title}": working/{name}')
         wtoc.append("")
     labels = {k: BADGE.format(kind=k, label=v[0]) for k, v in STATUS.items()}
     (work / "index.md").write_text(WORKING_HOME.format(toc="\n".join(wtoc), **labels), encoding="utf-8")
