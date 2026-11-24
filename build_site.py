@@ -194,11 +194,13 @@ WORKING_BANNER = """!!! warning "Working copy"
 
 WORKING_HOME = """# Working copy
 
-Every chapter as it stands in the manuscript today. Drafts and stubs are both shown.
+Every chapter as it stands in the manuscript today, with the outline. Drafts and stubs are both shown.
 
 {ready} chapters are also on the [home page](../index.md). {drafted} chapters are written
 and still being revised. {outline} chapters are not written yet: they hold the plan for the
 chapter and the notes gathered to write it.
+
+- [Outline](outline.md)
 
 {toc}
 """
@@ -325,7 +327,10 @@ def main():
     # Working copy: every chapter and the outline, notes stripped.
     work = docs / "working"
     work.mkdir()
-    wtoc, wnav = [], ['      - "Contents": working/index.md']
+    wtoc, wnav = [], ['      - "Contents": working/index.md', '      - "Outline": working/outline.md']
+    # The outline is a reader's map of the book; working notes stay out of the repository.
+    outline = strip_notes((ROOT / "outline.md").read_text(encoding="utf-8"))
+    (work / "outline.md").write_text(with_meta(WORKING_BANNER + outline, robots="noindex"), encoding="utf-8")
     for part, chapters in PARTS:
         wtoc.append(f"**{part}**\n")
         for name, title in chapters:
@@ -351,10 +356,7 @@ def main():
     site = ROOT / "_site"
     shutil.rmtree(site, ignore_errors=True)
     site.mkdir()
-    # The outline left the site on 2026-11-24; old links to it land on the contents.
-    (site / "_redirects").write_text(f"/ /{SLUG}/ 302\n"
-                                     f"/{SLUG}/working/outline/ /{SLUG}/working/ 301\n",
-                                     encoding="utf-8")
+    (site / "_redirects").write_text(f"/ /{SLUG}/ 302\n", encoding="utf-8")
     (site / "robots.txt").write_text(ROBOTS, encoding="utf-8")
     write_llms(site, docs)
     (OUT / "mkdocs.yml").write_text(CONFIG.format(slug=SLUG, description=json.dumps(DESCRIPTION), nav="\n".join(nav) + "\n"), encoding="utf-8")

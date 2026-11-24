@@ -13,6 +13,7 @@ The book is being written in public during the Protocol Institute's [PiBoWriMo 2
 - `manuscript/`: one Markdown file per chapter. Working notes for each chapter (brief, sources, open questions) are kept outside this repository.
   - File names keep their first numbers, so they no longer follow reading order: `PARTS` in `build_site.py` holds the order and the chapter numbers. Since 2026-11-19 the order follows Andre's outline: Part I the problem (`02`, `01`); Part II the solution (`06e`, with `05` to fold in); Part III why not something else (`03`, `08b`, `09b`); Part IV what each party gains (`02b`, `02c`, `09a`, `02e` designers, `02d`, `06c`, `06f` insurers, split from `06e`); Part V how we get there (`03b` with `06`, `00c` as what AI gets right, `07`, `09` with `06b`); Part VI past and future (`04`, `10`). Chapters 3 and 4 take a section heading as their title (2026-11-19).
   - `00b-prologue.md` is the author's status write-up for the Institute, placed as the prologue.
+- `outline.md`: a map of the book in reading order, one paragraph per chapter.
 - `images/`: figures for the book, the site and the listing.
 - `TONE.md`: working notes on the book's voice so far, with before-and-after examples from chapter 4 (the delivery methods; chapter 2 when the notes were written). Revised as chapters are finished.
 - `CLAUDE.md`: house rules for the AI assistant that helps with drafting.
