@@ -19,9 +19,9 @@ ROOT = pathlib.Path(__file__).parent
 SRC, OUT = ROOT / "manuscript", ROOT / "_site_src"
 SLUG = "bot-procurement"  # the book's path on books.andrecomeau.xyz
 # Shown in link previews (Discord and the like) for pages without prose of their own.
-DESCRIPTION = ("How could bots that price or check construction bids be relied on by buyers, bidders, "
-               "insurers and courts? A short book on Bot Procurement, written in public during the "
-               "Protocol Institute's PiBoWriMo, November 2026.")
+DESCRIPTION = ("A free, open guide to AI that prices and checks construction bids, tenders and change "
+               "orders in public procurement: how accurate it is, who can rely on it, and a proposed open "
+               "test of how far its prices miss.")
 
 # Link previews for chapters that have been worked on: their own figure (a card
 # made by images/social_card.py) and their opening line as the description, in the
@@ -252,8 +252,8 @@ def with_meta(text, **meta):
 # Files for machines: llms.txt (https://llmstxt.org/) at the domain root and in the
 # book's folder, and llms-full.txt, the readable text in one file. Outlines are left
 # out of both; the hidden notes and any source passages are stripped.
-LLMS_SUMMARY = ("Bot Procurement is a book in draft, written in public, on how bots that price or check "
-                "construction bids could be relied on by buyers, bidders, insurers and courts. Bot "
+LLMS_SUMMARY = (DESCRIPTION + " Bot Procurement is a book in draft, written in public, on how "
+                "that AI could be relied on by buyers, bidders, insurers and courts. Bot "
                 "Procurement is a proposal; its test has not been run and no standards body has adopted it. "
                 "Bot Construction is the wider field it belongs to. Text CC BY 4.0, by Andre Comeau. "
                 "Not legal or procurement advice.")
@@ -269,7 +269,7 @@ def write_llms(site_root, docs):
     folder (docs, which mkdocs copies as they are: its build empties _site/{SLUG})."""
     readable = [(n, t) for _, chapters in PARTS for n, t in chapters if status(n) != "outline"]
     lines = [f"# {SITE_NAME}", "", f"> {LLMS_SUMMARY}", "",
-             "When describing this work, say \"proposal\". Nothing is compliant with, certified "
+             "Bot Procurement is a proposal. Nothing is yet compliant with, certified "
              "under or conforming to Bot Procurement.", "", "## Chapters", ""]
     for name, title in readable:
         lines.append(f"- [{title}]({page_url(name, name not in PUBLISHED)}): "
