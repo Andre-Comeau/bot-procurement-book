@@ -12,7 +12,7 @@ A map of the book in reading order, one short paragraph per chapter.
 
 **1. The tender is the API.** A tender is the interface between a buyer and every bidder. AI floods that interface with polished bids that say less than they used to, and the old ways of reading them cannot keep up.
 
-**2. Tensions built into the tender.** The tensions built into tendering: a design fixed before anyone prices it, a long and costly bid, and the bidder who prices the errors and claims for them later.
+**2. Tensions built into the tender.** A design fixed before anyone prices it, a long and costly bid, and the bidder who prices the errors and claims for them later.
 
 ## Part II. How should we solve it?
 
