@@ -142,7 +142,7 @@ HOME = """# Bot Procurement Book
 
 Chapters appear here as they are finished. The source is on [GitHub](https://github.com/Andre-Comeau/bot-procurement-book).
 
-**Working copy.** Every chapter as it stands today is in the [working copy](working/index.md), and it changes often. In the contents below, chapters marked {drafted} have been written and can be read there as drafts. Chapters marked {outline} are not written yet: they hold the plan for the chapter and the notes gathered to write it.
+**Working copy.** Every chapter as it stands today is in the [working copy](working/index.md), and it changes often. In the contents below, chapters marked {drafted} can be read there as drafts. The [outline](working/outline.md) is a one-page map of the whole book.
 
 ## Contents
 
@@ -187,8 +187,7 @@ nav:
 
 
 WORKING_BANNER = """!!! warning "Working copy"
-    Draft text, rebuilt from the manuscript on every change. Stubs are still here,
-    and none of it is final. [Back to the working copy contents](index.md)
+    Draft text, rebuilt from the manuscript on every change. None of it is final yet. [Back to the working copy contents](index.md)
 
 """
 
@@ -197,8 +196,7 @@ WORKING_HOME = """# Working copy
 Every chapter as it stands in the manuscript today, with the outline. Drafts and stubs are both shown.
 
 {ready} chapters are also on the [home page](../index.md). {drafted} chapters are written
-and still being revised. {outline} chapters are not written yet: they hold the plan for the
-chapter and the notes gathered to write it.
+and still being revised. The outline is a one-page map of the whole book.
 
 - [Outline](outline.md)
 
@@ -276,7 +274,7 @@ def write_llms(site_root, docs):
     lines += ["", "## Optional", "",
               f"- [Whole text in one file](https://books.andrecomeau.xyz/{SLUG}/llms-full.txt)",
               f"- [Working copy contents](https://books.andrecomeau.xyz/{SLUG}/working/): "
-              "every chapter as it stands, including outlines",
+              "every chapter as it stands",
               "- [Source repository](https://github.com/Andre-Comeau/bot-procurement-book)", ""]
     index = "\n".join(lines)
     full = [f"# {SITE_NAME}", "", f"> {LLMS_SUMMARY}", ""]
@@ -330,7 +328,7 @@ def main():
     wtoc, wnav = [], ['      - "Contents": working/index.md', '      - "Outline": working/outline.md']
     # The outline is a reader's map of the book; working notes stay out of the repository.
     outline = strip_notes((ROOT / "outline.md").read_text(encoding="utf-8"))
-    (work / "outline.md").write_text(with_meta(WORKING_BANNER + outline, robots="noindex"), encoding="utf-8")
+    (work / "outline.md").write_text(WORKING_BANNER + outline, encoding="utf-8")
     for part, chapters in PARTS:
         wtoc.append(f"**{part}**\n")
         for name, title in chapters:

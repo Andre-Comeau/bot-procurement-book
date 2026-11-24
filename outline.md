@@ -1,6 +1,6 @@
 # Outline
 
-A map of the book in reading order, one short paragraph per chapter. The book is a draft written in public: chapters marked as outlines in the working copy are not written yet.
+A map of the book in reading order, one short paragraph per chapter.
 
 **The question.** AI can now price and check construction bids. What has to exist before buyers, bidders, insurers and courts can rely on it? The book's answer is a proposal, Bot Procurement: a public standard for how such a bot is tested and recorded, paired with insurance for the bidder's margin.
 

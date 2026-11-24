@@ -28,11 +28,11 @@ Competition Bureau Canada. *Algorithmic Pricing and Competition: Discussion Pape
 
 Congressional Research Service. *SBA Surety Bond Guarantee Program.* Report R42037, updated 18 July 2025. https://www.everycrsreport.com/reports/R42037.html.
 
-Corrigan, Tony. Opinion piece on AI transforming how tenders are written but not how they are evaluated. *Silicon Republic*, 26 May 2026. https://www.siliconrepublic.com/business/opinion-ai-transforming-how-tenders-are-written-but-not-how-theyre-evaluated. (Title to check.)
+Corrigan, Tony. Opinion piece on AI transforming how tenders are written but not how they are evaluated. *Silicon Republic*, 26 May 2026. https://www.siliconrepublic.com/business/opinion-ai-transforming-how-tenders-are-written-but-not-how-theyre-evaluated.
 
 Dark Reading. "Google's DMARC Push Pays Off, but Email Security Challenges Remain." February 2025. https://www.darkreading.com/remote-workforce/google-dmarc-push-email-security-challenges.
 
-Del Valle (first name to check). "Bid Express Turns 20: A History." Infotech blog, 20 November 2019. https://www.infotechinc.com/blog/bid-express-turns-20-a-history/. (Open bid data from 1982; chapter 18.)
+Del Valle. "Bid Express Turns 20: A History." Infotech blog, 20 November 2019. https://www.infotechinc.com/blog/bid-express-turns-20-a-history/. (Open bid data from 1982; chapter 18.)
 
 Design-Build Institute of America. "New FMI Report 2024." Blog post, 7 January 2025. https://dbia.org/blog/new-fmi-report-2024/. (Design-build forecast; chapter 18.)
 
@@ -62,7 +62,7 @@ Freedberg, Sydney J., Jr. "The Myth of the $600 Hammer." *Government Executive*,
 
 Galbraith, J. R. *Achieving Integration through Information Systems.* Working paper 364-68. Cambridge, MA: MIT Sloan School of Management, December 1968.
 
-Galbraith, Jay R. "Organization Design: An Information Processing View." *Interfaces* 4, no. 3 (1974): 28–36. (To check which of Galbraith's papers chapter 1 leans on; the 1968 working paper is listed above.)
+Galbraith, Jay R. "Organization Design: An Information Processing View." *Interfaces* 4, no. 3 (1974): 28–36.
 
 Galdin, Anaïs, and Jesse Silbert. "Making Talk Cheap: Generative AI and Labor Market Signaling." arXiv:2511.08785, November 2025. https://arxiv.org/abs/2511.08785.
 
@@ -82,7 +82,7 @@ International Organization for Standardization. ISO 216, *Writing paper and cert
 
 International Organization for Standardization. ISO 10845-1:2020, *Construction procurement: Part 1: Processes, methods and procedures*. 2nd ed. Geneva, 2020. First edition 2010.
 
-International Organization for Standardization. ISO 10845-3, *Construction procurement: Part 3: Standard conditions of tender*. Geneva. (Edition to check.)
+International Organization for Standardization. ISO 10845-3, *Construction procurement: Part 3: Standard conditions of tender*. Geneva.
 
 Intuit QuickBooks and TSheets. Job-costing survey of 666 construction business owners and financial experts, 2019. Reported in "Survey: 1 in 3 Construction Companies Earning Less Than Expected", *For Construction Pros*, 3 May 2019. https://www.forconstructionpros.com/profit-matters/news/21067180/survey-1-in-3-construction-companies-earning-less-than-expected.
 
@@ -94,19 +94,19 @@ Kolt, Noam. "Governing AI Agents." *Notre Dame Law Review* 101 (2026): 335. Prep
 
 Lamport, Leslie. "Proving the Correctness of Multiprocess Programs." *IEEE Transactions on Software Engineering* SE-3, no. 2 (1977): 125–143.
 
-Lang, David. "Standards Make the World." Summer of Protocols, Ethereum Foundation, December 2023. https://summerofprotocols.com/standards-make-the-world-web. Also in *The Protocol Reader* (edition to check).
+Lang, David. "Standards Make the World." Summer of Protocols, Ethereum Foundation, December 2023. https://summerofprotocols.com/standards-make-the-world-web. Also in *The Protocol Reader*.
 
 Lang, David. Opening talk and roundtable on field building, with Timber Stinson-Schroff and Venkatesh Rao. Protocol Symposium 2026, 23 September 2026. https://www.youtube.com/watch?v=nx-3L5Apbgw.
 
 Laurie, Ben, and Richard Clayton. "'Proof-of-Work' Proves Not to Work." Workshop on the Economics of Information Security, Minneapolis, May 2004. https://www.cl.cam.ac.uk/~rnc1/proofwork.pdf.
 
-Liu, Bannerman, Elliot, Ewart and Atkinson (first names to check). "Underpricing for Construction Projects: A Double-Edged Sword." PMI Learning Library, 2014. https://www.pmi.org/learning/library/underpricing-construction-projects-8958.
+Liu, Bannerman, Elliot, Ewart and Atkinson. "Underpricing for Construction Projects: A Double-Edged Sword." PMI Learning Library, 2014. https://www.pmi.org/learning/library/underpricing-construction-projects-8958.
 
 Nithyanantham, Bharathi Kannan, Clemens Kujat, Tobias Sesterhenn, et al. "BIM-Edit: Benchmarking Large Language Models for IFC-Based Building Information Modeling." arXiv:2606.20146, June 2026. https://arxiv.org/abs/2606.20146.
 
 Old Republic Surety. "Can You Explain Your Bid Spread?" Blog post, undated. https://orsurety.com/blog/can-you-explain-your-bid-spread.
 
-Ontario General Contractors Association. "Progressive Procurement P3 – Q&As" (on Infrastructure Ontario's progressive P3s: "a proposal fee will be offered"). https://www.naylornetwork.com/oga-nwl/pdf/Progressive_Procurement_P3_-_Q&As.pdf. (Title and date to check.)
+Ontario General Contractors Association. "Progressive Procurement P3 – Q&As" (on Infrastructure Ontario's progressive P3s: "a proposal fee will be offered"). https://www.naylornetwork.com/oga-nwl/pdf/Progressive_Procurement_P3_-_Q&As.pdf.
 
 Open Contracting Partnership. *Open Contracting Data Standard*, version 1.0, 2015; and, with CoST – the Infrastructure Transparency Initiative, *Open Contracting for Infrastructure Data Standard* (OC4IDS), 2019. https://standard.open-contracting.org/.
 
@@ -138,7 +138,7 @@ Sathe, Aneesh. *Prime Radiant.* World Machines project. https://primeradiant.wor
 
 Scitovsky, Tibor. "The Benefits of Asymmetric Markets." *Journal of Economic Perspectives* 4, no. 1 (1990): 135–148.
 
-Sewell, William H., Jr. "Three Temporalities: Toward an Eventful Sociology." In *The Historic Turn in the Human Sciences*, edited by Terrence J. McDonald, 245–280. Ann Arbor: University of Michigan Press, 1996. (Pages to check.)
+Sewell, William H., Jr. "Three Temporalities: Toward an Eventful Sociology." In *The Historic Turn in the Human Sciences*, edited by Terrence J. McDonald, 245–280. Ann Arbor: University of Michigan Press, 1996.
 
 Solicitors Regulation Authority. "SRA approves first AI-driven law firm." Press release, 6 May 2025. https://www.sra.org.uk/sra/news/press/garfield-ai-authorised/.
 
@@ -152,7 +152,7 @@ Stinson-Schroff, Timber. "Introducing the Protocol Institute." *Protocolized*, 2
 
 Surety & Fidelity Association of America. *Surety Results 2023Y* (preliminary). Washington, DC: SFAA, 2024. Copy: https://mbasurety.com/wp-content/uploads/2024/04/SFAA-Surety-Results_2023Y.pdf.
 
-Surety Information Office. Article on why contractors fail (title to check). *Modern Contractor Solutions*, October 2007, 42–43, reporting an SFAA review of 86 claims. https://suretyinfo.org/pdf/WhyContractorsFailMCS.pdf.
+Surety Information Office. Article on why contractors fail. *Modern Contractor Solutions*, October 2007, 42–43, reporting an SFAA review of 86 claims. https://suretyinfo.org/pdf/WhyContractorsFailMCS.pdf.
 
 Texas Department of Transportation. "Bid Tabulations." Open dataset de7b-7dna, Texas Open Data Portal. Full export downloaded 3 October 2026 (lettings September 2024 to October 2026). https://data.texas.gov/.
 

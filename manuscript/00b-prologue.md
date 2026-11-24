@@ -36,7 +36,7 @@ realized if humans must always review the work of bots?
 
 For long-time followers of the Protocol Institute, the answer may have been obvious: standardization. For
 those who, like me, needed to take the long route, a mini-Prime Radiant project focused on Bot Procurement
-may be needed to arrive at the same answer: [Procurement Machines](link).
+may be needed to arrive at the same answer: [Procurement Machines](https://books.andrecomeau.xyz/bot-procurement/working/app-a-the-cards/).
 
 AI-first procurement will need two tools: documents written for machines to read, and a standardized bot to
 read them. With these tools, engineers and architects could still certify the canonical copy, the court could use the
