@@ -6,7 +6,7 @@ writes the site to _site/bot-procurement/. A _redirects file sends
 the bare books.andrecomeau.xyz to the book until there is a shelf page. Chapters not yet published still appear in the
 home page's contents, marked "in progress".
 
-Every chapter and the outline are also built into a "Working copy" section
+Every chapter is also built into a "Working copy" section
 (docs/working/), so the draft can be read without GitHub. The hidden notes are
 stripped there too: they point at private folders and stay out of the site.
 
@@ -187,21 +187,18 @@ nav:
 
 
 WORKING_BANNER = """!!! warning "Working copy"
-    Draft text, rebuilt from the manuscript on every change. Stubs and source passages
-    are still here, and none of it is final. [Back to the working copy contents](index.md)
+    Draft text, rebuilt from the manuscript on every change. Stubs are still here,
+    and none of it is final. [Back to the working copy contents](index.md)
 
 """
 
 WORKING_HOME = """# Working copy
 
-Every chapter as it stands in the manuscript today, with the outline. Drafts, stubs and
-source passages laid out for rewriting are all shown.
+Every chapter as it stands in the manuscript today. Drafts and stubs are both shown.
 
 {ready} chapters are also on the [home page](../index.md). {drafted} chapters are written
 and still being revised. {outline} chapters are not written yet: they hold the plan for the
 chapter and the notes gathered to write it.
-
-- [Outline](outline.md)
 
 {toc}
 """
@@ -328,9 +325,7 @@ def main():
     # Working copy: every chapter and the outline, notes stripped.
     work = docs / "working"
     work.mkdir()
-    wtoc, wnav = [], ['      - "Contents": working/index.md', '      - "Outline": working/outline.md']
-    outline = strip_notes((ROOT / "outline.md").read_text(encoding="utf-8"))
-    (work / "outline.md").write_text(with_meta(WORKING_BANNER + outline, robots="noindex"), encoding="utf-8")
+    wtoc, wnav = [], ['      - "Contents": working/index.md']
     for part, chapters in PARTS:
         wtoc.append(f"**{part}**\n")
         for name, title in chapters:
