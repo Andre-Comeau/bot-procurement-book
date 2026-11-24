@@ -22,7 +22,7 @@ related:
 sources:
   - {title: "De Silva, Dunne, Kankanamge and Kosmopoulou (2008), 'The impact of public information on bidding in highway procurement auctions', European Economic Review 52(1): 150-181", url: "https://eprints.lancs.ac.uk/id/eprint/52461"}
   - {title: "Bot Procurement (book in draft), chapter 8, 'The bidders: racing for the light'", url: "https://books.andrecomeau.xyz/bot-procurement/working/02c-the-bidders/"}
-book: [02b-the-buyers.md, 02c-the-bidders.md, 05-liability-shifts.md]
+book: [02b-the-buyers.md, 02c-the-bidders.md, 06e-the-underwriters-chapter.md]
 terms: [Reference bot]
 allow_words: [tested]
 ---

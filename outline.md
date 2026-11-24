@@ -12,13 +12,11 @@ A map of the book in reading order, one short paragraph per chapter.
 
 **1. The tender is the API.** A tender is the interface between a buyer and every bidder. AI floods that interface with polished bids that say less than they used to, and the old ways of reading them cannot keep up.
 
-**2. Starting a relationship expecting a divorce.** The tensions built into tendering: a design fixed before anyone prices it, a long and costly bid, and the bidder who prices the errors and claims for them later.
+**2. Tensions built into the tender.** A design fixed before anyone prices it, a long and costly bid, and the bidder who prices the errors and claims for them later.
 
 ## Part II. How should we solve it?
 
-**3. The insurable event.** The proposed solution: insure a shortfall in margin across many tenders, measured against costs declared on bid day, and follow the AI frameworks that underwriters and lawyers already use.
-
-**3a. Liability shifts to the user's bot.** When a bot causes harm, who pays? Why a bidder should not be forced to report what its bot finds, and why a record of what the bot read matters more than a duty to speak.
+**3. The insurable event.** The proposed solution: insure a shortfall in margin across many tenders, measured against costs declared on bid day, and follow the AI frameworks that underwriters and lawyers already use. Along the way: who answers when a bot misreads a tender, and why a bidder should not be forced to report what its bot finds.
 
 ## Part III. Why not use other tools? Why not change the contract type?
 

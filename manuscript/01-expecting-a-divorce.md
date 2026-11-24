@@ -1,4 +1,4 @@
-# Starting a relationship expecting a divorce
+# Tensions built into the tender
 
 A tender is a proposal with the prenuptial agreement already attached. The buyer says what it wants, the bidders say what they will charge, and the contract says who keeps what when it goes wrong. Nobody signs expecting the worst, but a good many bidders price it in.
 

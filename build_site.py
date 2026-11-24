@@ -62,7 +62,7 @@ DRAFTED = {
     "06c-the-blessing-of-the-legal-department.md", "08b-the-zombie-lost-to-a-file-format.md",
     "09a-the-trades-who-holds-the-jig.md", "09b-the-monsters-we-kept.md",
     # Drafted 2026-11-20 (thread "Retitle chapters and draft missing pieces"), for Andre's read.
-    "00-front-matter.md", "01-expecting-a-divorce.md", "05-liability-shifts.md", "06-the-banana-peel.md",
+    "00-front-matter.md", "01-expecting-a-divorce.md", "06-the-banana-peel.md",
     "06b-the-bot-in-the-witness-box.md", "04-two-centuries-of-one-loop.md", "10-the-meta-goal.md",
     "app-a-the-cards.md", "app-b-reading-list.md", "app-c-glossary.md",
 }
@@ -95,10 +95,9 @@ PARTS = [
     ("Overview. Why do we need a standard?", [("00b-prologue.md", "Prologue")]),
     ("Part I. What is the problem?", [
         ("02-the-tender-is-the-api.md", "1. The tender is the API"),
-        ("01-expecting-a-divorce.md", "2. Starting a relationship expecting a divorce")]),
+        ("01-expecting-a-divorce.md", "2. Tensions built into the tender")]),
     ("Part II. How should we solve it?", [
-        ("06e-the-underwriters-chapter.md", "3. The insurable event"),
-        ("05-liability-shifts.md", "3a. Liability shifts to the user's bot (to fold into chapter 3)")]),
+        ("06e-the-underwriters-chapter.md", "3. The insurable event")]),
     ("Part III. Why not use other tools? Why not change the contract type?", [
         ("03-how-a-price-is-judged-today.md", "4. Why does the hard bid survive?"),
         ("08b-the-zombie-lost-to-a-file-format.md", "5. The zombie lost to a file format"),
@@ -132,23 +131,43 @@ PARTS = [
 
 HOME = """# Bot Procurement Book
 
-*Working title. A book in progress, written in public during the Protocol Institute's PiBoWriMo, November 2026.*
+*A book in progress, written in public during the Protocol Institute's PiBoWriMo, November 2026.*
 
-**When a bot causes harm, who pays?** A short manifesto on liability in construction procurement, public and private, and the standard that has to exist before owners, bidders and courts can rely on a bot.
+<p class="book-lead">{description}</p>
+
+## Two editions, one argument
+
+The same ideas are written twice: once as a book for people to read from start to finish, and once as short, sourced modules for AI assistants to look things up in.
+
+<div class="grid cards book-doors" markdown>
+
+-   **For people: the book**
+
+    ---
+
+    Chapters that build one argument, from the problem through the people who gain to the road there. Read it in order, or start with your own chapter.
+
+    [Start with the prologue](working/00b-prologue.md) · [Contents](#contents) · [Outline](working/outline.md)
+
+-   **For AI assistants: the AI edition**
+
+    ---
+
+    Thirty-five short modules, each answering its own questions, with the sources and asides the book leaves out. Point your assistant here.
+
+    [AI edition](ai/README.md) · [Index](ai/INDEX.md) · [llms.txt](ai/llms.txt)
+
+</div>
+
+*This is not legal, insurance or financial advice. The legal and insurance points in this work have not been reviewed by a lawyer or an underwriter. Ask your own adviser before relying on them.*
 
 ![The machinery: the procurement system, the estimator and bot procurement on one ground; BIM, BIM for bots, bot admin and robotic construction on another, with what each machine makes for the next](images/machinery-thicket.png)
 
 *The machinery, from today's procurement system to robotic construction: what each machine makes for the next.*
 
-Chapters appear here as they are finished. The source is on [GitHub](https://github.com/Andre-Comeau/bot-procurement-book).
-
-**Working copy.** Every chapter as it stands today is in the [working copy](working/index.md), and it changes often. In the contents below, chapters marked {drafted} can be read there as drafts. The [outline](working/outline.md) is a one-page map of the whole book.
-
-**AI edition.** The same ideas in short, sourced modules for AI assistants and the people who use them are in the [AI edition](ai/README.md).
-
-*This is not legal, insurance or financial advice. The legal and insurance points in this work have not been reviewed by a lawyer or an underwriter. Ask your own adviser before relying on them.*
-
 ## Contents
+
+Every chapter is in the [working copy](working/index.md) as it stands today, and it changes often. Chapters marked {drafted} can be read there as drafts. The source is on [GitHub](https://github.com/Andre-Comeau/bot-procurement-book).
 
 {toc}
 
@@ -185,7 +204,7 @@ theme:
       accent: custom
       toggle: {{icon: material/brightness-7, name: Light mode}}
 extra_css: [stylesheets/book.css]
-markdown_extensions: [attr_list, footnotes, admonition]
+markdown_extensions: [attr_list, footnotes, admonition, md_in_html, pymdownx.details]
 nav:
   - Home: index.md
 {nav}"""
@@ -348,16 +367,16 @@ def main():
     docs.mkdir(parents=True)
     toc, nav = [], []
     for part, chapters in PARTS:
-        toc.append(f"**{part}**\n")
+        toc.append(f'??? book-part "{part}"\n')
         items = []
         for name, title in chapters:
             if name in PUBLISHED:
                 text = (SRC / name).read_text(encoding="utf-8")
                 (docs / name).write_text(with_description(strip_notes(text), name), encoding="utf-8")
-                toc.append(f"- [{title}]({name})")
+                toc.append(f"    - [{title}]({name})")
                 items.append(f'      - "{title}": {name}')
             else:
-                toc.append(f"- [{title}](working/{name}) {badge(name)}")
+                toc.append(f"    - [{title}](working/{name}) {badge(name)}")
         toc.append("")
         if items:
             nav.append(f'  - "{part}":\n' + "\n".join(items))
@@ -369,7 +388,8 @@ def main():
     outline = strip_notes((ROOT / "outline.md").read_text(encoding="utf-8"))
     (work / "outline.md").write_text(WORKING_BANNER + outline, encoding="utf-8")
     for part, chapters in PARTS:
-        wtoc.append(f"**{part}**\n")
+        wtoc.append(f'??? book-part "{part}"\n')
+        wnav.append(f'      - "{part}":')
         for name, title in chapters:
             text = strip_notes((SRC / name).read_text(encoding="utf-8"))
             line = STATUS[status(name)][1]
@@ -379,8 +399,8 @@ def main():
             if status(name) == "outline":
                 text = with_meta(text, robots="noindex")
             (work / name).write_text(text, encoding="utf-8")
-            wtoc.append(f"- [{title}]({name}) {badge(name)}")
-            wnav.append(f'      - "{title}": working/{name}')
+            wtoc.append(f"    - [{title}]({name}) {badge(name)}")
+            wnav.append(f'          - "{title}": working/{name}')
         wtoc.append("")
     labels = {k: BADGE.format(kind=k, label=v[0]) for k, v in STATUS.items()}
     (work / "index.md").write_text(WORKING_HOME.format(toc="\n".join(wtoc), **labels), encoding="utf-8")
@@ -392,11 +412,15 @@ def main():
     (docs / "stylesheets").mkdir()
     shutil.copy(ROOT / "theme" / "book.css", docs / "stylesheets" / "book.css")
     shutil.copytree(ROOT / "theme" / "overrides", OUT / "overrides")
-    (docs / "index.md").write_text(HOME.format(toc="\n".join(toc), **labels), encoding="utf-8")
+    (docs / "index.md").write_text(HOME.format(toc="\n".join(toc), description=DESCRIPTION, **labels), encoding="utf-8")
     site = ROOT / "_site"
     shutil.rmtree(site, ignore_errors=True)
     site.mkdir()
-    (site / "_redirects").write_text(f"/ /{SLUG}/ 302\n", encoding="utf-8")
+    (site / "_redirects").write_text(
+        f"/ /{SLUG}/ 302\n"
+        # Chapter 3a was folded into chapter 3 (2026-11-24).
+        f"/{SLUG}/working/05-liability-shifts/ /{SLUG}/working/06e-the-underwriters-chapter/#who-answers-for-the-reading 301\n",
+        encoding="utf-8")
     (site / "robots.txt").write_text(ROBOTS, encoding="utf-8")
     write_llms(site, docs)
     (OUT / "mkdocs.yml").write_text(CONFIG.format(slug=SLUG, description=json.dumps(DESCRIPTION), nav="\n".join(nav) + "\n"), encoding="utf-8")
