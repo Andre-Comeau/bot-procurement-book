@@ -97,4 +97,3 @@ This is the world a standard bot would enter. It does not much care which corner
     I own a $600 hammer too. It is amazing and worth every penny. Its list price is about $332 US. The rest is the exchange rate, the HST and the shipping to get it to Canada.
 
     Same price, opposite answers. Neither number tells you what you are paying for until you open it up. Estimating software prices each line against a cost database, and to it both hammers look absurd. A bot that reads the whole bid and the specification can see why each number is what it is: overhead spread flat across a parts order in one case, a premium tool carried across a border in the other.
-

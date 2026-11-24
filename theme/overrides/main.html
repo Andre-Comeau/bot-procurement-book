@@ -24,4 +24,40 @@
   <meta name="twitter:description" content="{{ og_desc|e }}">
   <meta name="twitter:image" content="{{ og_image }}">
   <meta name="theme-color" content="#0064ff">
+  {#- Outline pages carry `robots: noindex` (build_site.py): people can read them,
+      search and AI indexes skip them. -#}
+  {%- if meta.robots %}
+  <meta name="robots" content="{{ meta.robots }}">
+  {%- endif %}
+  {#- Structured data (schema.org) for machines: what the book is, who wrote it, its
+      licence and that it is a draft. Kept to what the page itself says. -#}
+  {%- set book = {
+      "@type": "Book",
+      "@id": config.site_url ~ "#book",
+      "name": "Bot Procurement",
+      "alternateName": "The Reasonable Bot",
+      "description": config.site_description,
+      "author": {"@type": "Person", "name": "Andre Comeau"},
+      "inLanguage": "en",
+      "creativeWorkStatus": "Draft",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "url": config.site_url,
+      "sameAs": [config.repo_url]
+  } -%}
+  {%- if page and page.is_homepage %}
+  {%- set ld = dict(book, **{"@context": "https://schema.org"}) -%}
+  {%- else %}
+  {%- set ld = {
+      "@context": "https://schema.org",
+      "@type": "Chapter",
+      "name": page.title if page and page.title else config.site_name,
+      "url": page.canonical_url if page and page.canonical_url else config.site_url,
+      "description": og_desc,
+      "creativeWorkStatus": "Draft",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isPartOf": book
+  } -%}
+  {%- endif %}
+  <script type="application/ld+json">{{ ld | tojson }}</script>
 {% endblock %}
