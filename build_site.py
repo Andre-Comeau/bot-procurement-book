@@ -351,7 +351,10 @@ def main():
     site = ROOT / "_site"
     shutil.rmtree(site, ignore_errors=True)
     site.mkdir()
-    (site / "_redirects").write_text(f"/ /{SLUG}/ 302\n", encoding="utf-8")
+    # The outline left the site on 2026-11-24; old links to it land on the contents.
+    (site / "_redirects").write_text(f"/ /{SLUG}/ 302\n"
+                                     f"/{SLUG}/working/outline/ /{SLUG}/working/ 301\n",
+                                     encoding="utf-8")
     (site / "robots.txt").write_text(ROBOTS, encoding="utf-8")
     write_llms(site, docs)
     (OUT / "mkdocs.yml").write_text(CONFIG.format(slug=SLUG, description=json.dumps(DESCRIPTION), nav="\n".join(nav) + "\n"), encoding="utf-8")
