@@ -31,11 +31,13 @@ sources:
   - {title: "Rocha, Rezende and Oliveira, 'Alice: desafios, resultados e perspectivas...', Revista da CGU 14(26), 2022", url: "https://revista.cgu.gov.br/Revista_da_CGU/article/download/530/357"}
   - {title: "OECD, DAF/COMP/WP3/WD(2022)31, note by Korea", url: "https://one.oecd.org/document/DAF/COMP/WP3/WD(2022)31/en/pdf"}
   - {title: "Washington Technology, 'Trax loses White Sands protest, but judge hits government over AI disclosures', September 2026", url: "https://www.washingtontechnology.com/contracts/2026/09/trax-loses-white-sands-protest-judge-hits-government-over-ai-disclosures/416334/"}
-  - {title: "Trax v. United States, No. 26-796 (Ct. Fed. Cl. 2026), opinion", url: "https://www.washingtontechnology.com/media/general/2026/9/trax_army_ai_protest_ruling_20260922.pdf"}
+  - {title: "TRAX International Corp. v. United States, No. 26-796 (Fed. Cl. 2026), opinion", url: "https://www.washingtontechnology.com/media/general/2026/9/trax_army_ai_protest_ruling_20260922.pdf"}
   - {title: "Open Contracting Data Standard", url: "https://standard.open-contracting.org/"}
   - {title: "Open Contracting for Infrastructure Data Standard (OC4IDS), Open Contracting Partnership and CoST", url: "https://standard.open-contracting.org/infrastructure/"}
-  - {title: "ISO 10845-1:2010, Construction procurement: Processes, methods and procedures", url: "https://www.iso.org/standard/46190.html"}
-  - {title: "buildingSMART, IFC 4.3 (ISO 16739-1:2024) and IDS 1.0 (June 2024)", url: "https://technical.buildingsmart.org/standards/"}
+  - {title: "Open Contracting Partnership, 'The OC4IDS: a new standard for infrastructure transparency', 17 April 2019", url: "https://www.open-contracting.org/2019/04/17/the-oc4ids-a-new-standard-for-infrastructure-transparency/"}
+  - {title: "ISO 10845-1:2020, Construction procurement, Part 1: Processes, methods and procedures (first published 2010)", url: "https://www.iso.org/standard/72467.html"}
+  - {title: "buildingSMART, IFC schema specifications (IFC 4.3 ADD2 = ISO 16739-1:2024)", url: "https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/"}
+  - {title: "buildingSMART, 'Information Delivery Specification (IDS) v1.0 is approved as a final standard', 4 June 2024", url: "https://www.buildingsmart.org/information-delivery-specification-ids-v1-0-is-approved-as-a-final-standard/"}
   - {title: "Bot Procurement (book in draft), chapter 17, 'The protocol that follows' (the 2035 test is the project's own forecast)", url: "https://books.andrecomeau.xyz/bot-procurement/working/09-the-protocol-that-follows/"}
 book: [00b-prologue.md, 02-the-tender-is-the-api.md, 06e-the-underwriters-chapter.md, 07-building-an-estimator-in-public.md, 09-the-protocol-that-follows.md]
 terms: [Bot Procurement, Estimator (the project's), Fair and Reasonable Evaluator, Keyholder, Margin insurance, Buyer as its own insurer]

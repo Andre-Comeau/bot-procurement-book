@@ -23,7 +23,7 @@ related:
   - {id: bp-stakeholder-insurers, relation: see-also}
   - {id: bp-why-not-existing-software, relation: see-also}
 sources:
-  - {title: "ISO 10845-1:2010, Construction procurement: Processes, methods and procedures", url: "https://www.iso.org/standard/46190.html"}
+  - {title: "ISO 10845-1:2020, Construction procurement, Part 1: Processes, methods and procedures (first published 2010)", url: "https://www.iso.org/standard/72467.html"}
   - {title: "Open Contracting Data Standard", url: "https://standard.open-contracting.org/"}
   - {title: "GAEB, certification of data-exchange software", url: "https://www.gaeb.de/de/produkte/gaeb-datenaustausch/zertifizierung/"}
   - {title: "Bot Procurement (book in draft), chapter 17, 'The protocol that follows'", url: "https://books.andrecomeau.xyz/bot-procurement/working/09-the-protocol-that-follows/"}
