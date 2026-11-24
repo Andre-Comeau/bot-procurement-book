@@ -95,7 +95,7 @@ PARTS = [
     ("Overview. Why do we need a standard?", [("00b-prologue.md", "Prologue")]),
     ("Part I. What is the problem?", [
         ("02-the-tender-is-the-api.md", "1. The tender is the API"),
-        ("01-expecting-a-divorce.md", "2. Starting a relationship expecting a divorce")]),
+        ("01-expecting-a-divorce.md", "2. Tensions built into the tender")]),
     ("Part II. How should we solve it?", [
         ("06e-the-underwriters-chapter.md", "3. The insurable event")]),
     ("Part III. Why not use other tools? Why not change the contract type?", [
