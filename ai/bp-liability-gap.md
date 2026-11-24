@@ -43,7 +43,7 @@ allow_words: [certified]
 - **The insurer:** Verisk's ISO form CG 40 47 (edition 01 26, available from January 2026) lets insurers exclude injury and damage arising from generative AI from general liability policies. General liability never covered a pure pricing loss, so the exclusion shows the direction of travel. The project found no insurer offering cover for a bot's construction pricing errors.
 - **The bot:** holds no assets and cannot be sued in any useful sense.
 - **The bidder:** answers for its own reading of the tender, including the reading its bot made.
-- **The buyer and designer:** answer for the documents they issued (in Canada, an engineer who prepares tender documents owes a duty of care to bidders known to rely on them).
+- **The buyer and designer:** answer for the documents they issued (in Canada, an engineering firm that prepares tender documents can owe a duty of care to bidders known to rely on them).
 - **What is missing:** a measure of what a reasonable bot would have read, so that "the bot got it wrong" can be told apart from "the bidder priced it badly" or "the documents were wrong".
 
 ## Party by party

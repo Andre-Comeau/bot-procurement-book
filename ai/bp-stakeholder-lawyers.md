@@ -41,8 +41,8 @@ allow_words: [conforming]
 
 ## What the courts have taught so far (Canada and the US)
 
-- **A person decided, so the tool did not matter:** in 2023 a Federal Court judge reviewing an immigration refusal made with a software tool held that an officer had decided and the reasons were the officer's. Later cases went the other way only where the reasons could not stand alone. The tool was never the problem; thin reasons were.
-- **Hidden method, void decision:** the Supreme Court of Canada set aside prison reclassifications made with an undisclosed scoring matrix, because those affected could not see how they were scored (*May v Ferndale Institution*, 2005 SCC 82).
+- **A person decided, so the tool did not matter:** in 2023 a Federal Court judge reviewing an immigration refusal made with a software tool held that an officer had decided and the reasons were the officer's. A later refusal was set aside because its reasons conflicted with the applicant's evidence, not because of the tool. The tool was never the problem; thin reasons were.
+- **Hidden method, void decision:** the Supreme Court of Canada set aside prison transfers made after a reclassification with an undisclosed scoring matrix, because those affected could not see how they were scored (*May v Ferndale Institution*, 2005 SCC 82).
 - **AI output goes on the record:** in 2026 a US court ordered an agency's AI evaluations into the record of an army contract protest because officials had looked at them ([the Trax case](bp-trax-case.md)).
 
 ## Admissible is not the same as reliable
