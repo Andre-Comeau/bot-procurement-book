@@ -238,8 +238,8 @@ def with_description(text, name, prefix=""):
 
 def with_meta(text, **meta):
     """Add keys to a page's front matter, making one if it has none. Used for
-    `robots: noindex` on outline pages (search and AI indexes
-    skip the outlines; drafted chapters stay findable; people can read every page)."""
+    `robots: noindex` on outline pages (search and AI indexes skip the outlines;
+    drafted chapters stay findable; people can read every page)."""
     lines = "".join(f"{k}: {json.dumps(v, ensure_ascii=False)}\n" for k, v in meta.items())
     if text.startswith("---\n"):
         return "---\n" + lines + text[4:]
