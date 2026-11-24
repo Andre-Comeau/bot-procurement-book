@@ -42,6 +42,20 @@ None of this says the low bid lost money. A low price can be a real advantage: a
 
 So the base rate an insurer would start from is not zero, and it is not one number. Human prices run well below the market often, and lose money less often. A bot's error has to be measured against both, which is why every version of the bot will report its lean beside its middle. The prototype's own lean, low by design, is in chapter 16.
 
+## What economists already know
+
+Insurance against a bad price is new. The economics of buying insurance is not, and four old results carry over.
+
+The first is about deductibles. An insurer pays for its staff, its brokers and the capital it holds for a bad year, so a policy always costs more than the losses it expects to pay. In the 1960s the economists Kenneth Arrow and Jan Mossin showed what a sensible buyer does about that: it keeps the small losses and insures only the large ones. A buyer with deep pockets keeps more, and may buy nothing at all. For a bidder, that means a policy that pays only once a miss is large, with the bidder carrying the first part.
+
+The second is about size. In 1982 David Mayers and Clifford Smith found that large, diversified companies gain less from insurance, because they can absorb a loss that would sink a smaller firm. When they buy it, they buy it for other reasons: a lender asks for it, or the insurer handles claims better than they could. A contractor with thirty bids a year can carry its own misses, and a firm with a handful cannot. The cover is most useful to small bidders, and to whoever has the most jobs to spread it over, which is the software vendor.
+
+The third is about prevention. In 1972 Isaac Ehrlich and Gary Becker separated insurance, which moves a loss to someone else, from self-protection, which makes the loss less likely. Self-protection is often worth more. Checking a bot's price against the lowest prices paid in recent years, and against the standard, before the bid goes in, is self-protection. In the project's own model, those checks do more for a bidder than any policy, and they leave a remainder small enough to insure cheaply. An insurer that charges less for checked bids pays the bidder to check.
+
+The fourth is the oldest warning in bidding. In 1971 Ed Capen and two colleagues at Atlantic Richfield worked out why the oil leases their company won kept disappointing. The winning bid tended to be the one whose estimate was most wrong. They called it the winner's curse. Douglas Dyer and John Kagel later showed how construction firms learn to live with it. A bot that errs the same way for every client brings the curse back in a new form, because its mistakes no longer cancel out across the bidders.
+
+None of this is news to an underwriter. It may be news to an estimator.
+
 ## Four open questions
 
 Four questions direct this effort, and the project cannot answer them alone:
