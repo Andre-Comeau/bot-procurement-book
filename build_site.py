@@ -132,23 +132,43 @@ PARTS = [
 
 HOME = """# Bot Procurement Book
 
-*Working title. A book in progress, written in public during the Protocol Institute's PiBoWriMo, November 2026.*
+*A book in progress, written in public during the Protocol Institute's PiBoWriMo, November 2026.*
 
-**When a bot causes harm, who pays?** A short manifesto on liability in construction procurement, public and private, and the standard that has to exist before owners, bidders and courts can rely on a bot.
+<p class="book-lead">{description}</p>
+
+## Two editions, one argument
+
+The same ideas are written twice: once as a book for people to read from start to finish, and once as short, sourced modules for AI assistants to look things up in.
+
+<div class="grid cards book-doors" markdown>
+
+-   **For people: the book**
+
+    ---
+
+    Chapters that build one argument, from the problem through the people who gain to the road there. Read it in order, or start with your own chapter.
+
+    [Start with the prologue](working/00b-prologue.md) · [Contents](#contents) · [Outline](working/outline.md)
+
+-   **For AI assistants: the AI edition**
+
+    ---
+
+    Thirty-five short modules, each answering its own questions, with the sources and asides the book leaves out. Point your assistant here.
+
+    [AI edition](ai/README.md) · [Index](ai/INDEX.md) · [llms.txt](ai/llms.txt)
+
+</div>
+
+*This is not legal, insurance or financial advice. The legal and insurance points in this work have not been reviewed by a lawyer or an underwriter. Ask your own adviser before relying on them.*
 
 ![The machinery: the procurement system, the estimator and bot procurement on one ground; BIM, BIM for bots, bot admin and robotic construction on another, with what each machine makes for the next](images/machinery-thicket.png)
 
 *The machinery, from today's procurement system to robotic construction: what each machine makes for the next.*
 
-Chapters appear here as they are finished. The source is on [GitHub](https://github.com/Andre-Comeau/bot-procurement-book).
-
-**Working copy.** Every chapter as it stands today is in the [working copy](working/index.md), and it changes often. In the contents below, chapters marked {drafted} can be read there as drafts. The [outline](working/outline.md) is a one-page map of the whole book.
-
-**AI edition.** The same ideas in short, sourced modules for AI assistants and the people who use them are in the [AI edition](ai/README.md).
-
-*This is not legal, insurance or financial advice. The legal and insurance points in this work have not been reviewed by a lawyer or an underwriter. Ask your own adviser before relying on them.*
-
 ## Contents
+
+Every chapter is in the [working copy](working/index.md) as it stands today, and it changes often. Chapters marked {drafted} can be read there as drafts. The source is on [GitHub](https://github.com/Andre-Comeau/bot-procurement-book).
 
 {toc}
 
@@ -185,7 +205,7 @@ theme:
       accent: custom
       toggle: {{icon: material/brightness-7, name: Light mode}}
 extra_css: [stylesheets/book.css]
-markdown_extensions: [attr_list, footnotes, admonition]
+markdown_extensions: [attr_list, footnotes, admonition, md_in_html]
 nav:
   - Home: index.md
 {nav}"""
@@ -392,7 +412,7 @@ def main():
     (docs / "stylesheets").mkdir()
     shutil.copy(ROOT / "theme" / "book.css", docs / "stylesheets" / "book.css")
     shutil.copytree(ROOT / "theme" / "overrides", OUT / "overrides")
-    (docs / "index.md").write_text(HOME.format(toc="\n".join(toc), **labels), encoding="utf-8")
+    (docs / "index.md").write_text(HOME.format(toc="\n".join(toc), description=DESCRIPTION, **labels), encoding="utf-8")
     site = ROOT / "_site"
     shutil.rmtree(site, ignore_errors=True)
     site.mkdir()
