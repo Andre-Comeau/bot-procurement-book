@@ -16,9 +16,7 @@ A map of the book in reading order, one short paragraph per chapter.
 
 ## Part II. How should we solve it?
 
-**3. The insurable event.** The proposed solution: insure a shortfall in margin across many tenders, measured against costs declared on bid day, and follow the AI frameworks that underwriters and lawyers already use.
-
-**3a. Liability shifts to the user's bot.** When a bot causes harm, who pays? Why a bidder should not be forced to report what its bot finds, and why a record of what the bot read matters more than a duty to speak.
+**3. The insurable event.** The proposed solution: insure a shortfall in margin across many tenders, measured against costs declared on bid day, and follow the AI frameworks that underwriters and lawyers already use. Along the way: who answers when a bot misreads a tender, and why a bidder should not be forced to report what its bot finds.
 
 ## Part III. Why not use other tools? Why not change the contract type?
 

@@ -23,8 +23,8 @@ related:
 sources:
   - {title: "Bot Procurement (book in draft), chapter 16, 'A second opinion on every price'", url: "https://books.andrecomeau.xyz/bot-procurement/working/07-building-an-estimator-in-public/"}
   - {title: "Bot Procurement (book in draft), chapter 4, 'Why does the hard bid survive?'", url: "https://books.andrecomeau.xyz/bot-procurement/working/03-how-a-price-is-judged-today/"}
-  - {title: "Bot Procurement (book in draft), chapter 3a, 'Liability shifts to the user's bot'", url: "https://books.andrecomeau.xyz/bot-procurement/working/05-liability-shifts/"}
-book: [07-building-an-estimator-in-public.md, 03-how-a-price-is-judged-today.md, 05-liability-shifts.md]
+  - {title: "Bot Procurement (book in draft), chapter 3, 'The insurable event', section 'Who answers for the reading'", url: "https://books.andrecomeau.xyz/bot-procurement/working/06e-the-underwriters-chapter/#who-answers-for-the-reading"}
+book: [07-building-an-estimator-in-public.md, 03-how-a-price-is-judged-today.md, 06e-the-underwriters-chapter.md]
 terms: [Flag, Second opinion]
 ---
 
@@ -124,7 +124,7 @@ terms: [Flag, Second opinion]
 
 **Wrong:** Price the error in silently, or report it to the buyer without the firm's decision.
 
-**Why:** The firm answers for its reading of the documents, and the record may later decide whether a reasonable bidder should have found the error. The book's chapter 3a gives the case for and against telling the buyer.
+**Why:** The firm answers for its reading of the documents, and the record may later decide whether a reasonable bidder should have found the error. The book's chapter 3 gives the case for and against telling the buyer.
 
 **Related:** [the liability gap](bp-liability-gap.md).
 

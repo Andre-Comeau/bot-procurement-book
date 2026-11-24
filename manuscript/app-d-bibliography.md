@@ -200,10 +200,10 @@ Yegge, Steve. "Stevey's Google Platforms Rant." Google+ post, October 2011, wide
 
 *R. v. Mohan*, [1994] 2 S.C.R. 9. Supreme Court of Canada. (Admissibility of expert evidence; chapter 17.)
 
-*R. v. Ron Engineering & Construction (Eastern) Ltd.*, [1981] 1 S.C.R. 111. Supreme Court of Canada. (A bid, once opened, binds the bidder; chapters 3a and 15.)
+*R. v. Ron Engineering & Construction (Eastern) Ltd.*, [1981] 1 S.C.R. 111. Supreme Court of Canada. (A bid, once opened, binds the bidder; chapters 3 and 15.)
 
 *Ryan v. Victoria (City)*, [1999] 1 S.C.R. 201. Supreme Court of Canada. (Following a standard is evidence of reasonable care, not a complete defence; chapter 17a.)
 
-*Tercon Contractors Ltd. v. British Columbia (Transportation and Highways)*, 2010 SCC 4, [2010] 1 S.C.R. 69. Supreme Court of Canada. (Exclusion clauses in a tender; chapters 3a and 15.)
+*Tercon Contractors Ltd. v. British Columbia (Transportation and Highways)*, 2010 SCC 4, [2010] 1 S.C.R. 69. Supreme Court of Canada. (Exclusion clauses in a tender; chapters 3 and 15.)
 
-*Trax v. United States*, No. 26-796. US Court of Federal Claims, Judge Carolyn N. Lerner; opinion filed under seal 3 September 2026, public 22 September 2026. (An agency's AI evaluations ordered into the record; chapters 3a, 17 and 17a.)
+*Trax v. United States*, No. 26-796. US Court of Federal Claims, Judge Carolyn N. Lerner; opinion filed under seal 3 September 2026, public 22 September 2026. (An agency's AI evaluations ordered into the record; chapters 3, 17 and 17a.)

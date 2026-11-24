@@ -62,7 +62,7 @@ DRAFTED = {
     "06c-the-blessing-of-the-legal-department.md", "08b-the-zombie-lost-to-a-file-format.md",
     "09a-the-trades-who-holds-the-jig.md", "09b-the-monsters-we-kept.md",
     # Drafted 2026-11-20 (thread "Retitle chapters and draft missing pieces"), for Andre's read.
-    "00-front-matter.md", "01-expecting-a-divorce.md", "05-liability-shifts.md", "06-the-banana-peel.md",
+    "00-front-matter.md", "01-expecting-a-divorce.md", "06-the-banana-peel.md",
     "06b-the-bot-in-the-witness-box.md", "04-two-centuries-of-one-loop.md", "10-the-meta-goal.md",
     "app-a-the-cards.md", "app-b-reading-list.md", "app-c-glossary.md",
 }
@@ -97,8 +97,7 @@ PARTS = [
         ("02-the-tender-is-the-api.md", "1. The tender is the API"),
         ("01-expecting-a-divorce.md", "2. Starting a relationship expecting a divorce")]),
     ("Part II. How should we solve it?", [
-        ("06e-the-underwriters-chapter.md", "3. The insurable event"),
-        ("05-liability-shifts.md", "3a. Liability shifts to the user's bot (to fold into chapter 3)")]),
+        ("06e-the-underwriters-chapter.md", "3. The insurable event")]),
     ("Part III. Why not use other tools? Why not change the contract type?", [
         ("03-how-a-price-is-judged-today.md", "4. Why does the hard bid survive?"),
         ("08b-the-zombie-lost-to-a-file-format.md", "5. The zombie lost to a file format"),
@@ -416,7 +415,11 @@ def main():
     site = ROOT / "_site"
     shutil.rmtree(site, ignore_errors=True)
     site.mkdir()
-    (site / "_redirects").write_text(f"/ /{SLUG}/ 302\n", encoding="utf-8")
+    (site / "_redirects").write_text(
+        f"/ /{SLUG}/ 302\n"
+        # Chapter 3a was folded into chapter 3 (2026-11-24).
+        f"/{SLUG}/working/05-liability-shifts/ /{SLUG}/working/06e-the-underwriters-chapter/#who-answers-for-the-reading 301\n",
+        encoding="utf-8")
     (site / "robots.txt").write_text(ROBOTS, encoding="utf-8")
     write_llms(site, docs)
     (OUT / "mkdocs.yml").write_text(CONFIG.format(slug=SLUG, description=json.dumps(DESCRIPTION), nav="\n".join(nav) + "\n"), encoding="utf-8")
