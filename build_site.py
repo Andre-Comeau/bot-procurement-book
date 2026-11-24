@@ -193,7 +193,7 @@ WORKING_BANNER = """!!! warning "Working copy"
 
 WORKING_HOME = """# Working copy
 
-Every chapter as it stands in the manuscript today, with the outline. Drafts and stubs are both shown.
+Every chapter as it stands in the manuscript today, with a one-page outline of the book.
 
 {ready} chapters are also on the [home page](../index.md). {drafted} chapters are written
 and still being revised. The outline is a one-page map of the whole book.
