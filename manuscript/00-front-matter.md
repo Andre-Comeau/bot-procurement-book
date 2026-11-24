@@ -12,4 +12,4 @@ The appendices hold what a reader can skip: the history of procurement as a deck
 
 ## Author's note on method
 
-The project behind this book was run in public, and its decisions are numbered and kept. The chapters were drafted with AI assistants from my own notes and sentences, and every one has passed through my hands. Nothing here is legal or procurement advice.
+The project behind this book was run in public, and its decisions are numbered and kept. The chapters were drafted with AI assistants from my own notes and sentences, and every one has passed through my hands. This is not legal, insurance or financial advice. The legal and insurance points in this work have not been reviewed by a lawyer or an underwriter. Ask your own adviser before relying on them.

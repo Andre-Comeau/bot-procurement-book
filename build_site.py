@@ -13,7 +13,7 @@ stripped there too: they point at private folders and stay out of the site.
     pip install -r requirements.txt
     python build_site.py && mkdocs build -f _site_src/mkdocs.yml
 """
-import json, pathlib, re, shutil
+import json, pathlib, re, shutil, subprocess, sys
 
 ROOT = pathlib.Path(__file__).parent
 SRC, OUT = ROOT / "manuscript", ROOT / "_site_src"
@@ -144,6 +144,10 @@ Chapters appear here as they are finished. The source is on [GitHub](https://git
 
 **Working copy.** Every chapter as it stands today is in the [working copy](working/index.md), and it changes often. In the contents below, chapters marked {drafted} can be read there as drafts. The [outline](working/outline.md) is a one-page map of the whole book.
 
+**AI edition.** The same ideas in short, sourced modules for AI assistants and the people who use them are in the [AI edition](ai/README.md).
+
+*This is not legal, insurance or financial advice. The legal and insurance points in this work have not been reviewed by a lawyer or an underwriter. Ask your own adviser before relying on them.*
+
 ## Contents
 
 {toc}
@@ -162,6 +166,7 @@ site_author: Andre Comeau
 copyright: Text by Andre Comeau, CC BY 4.0
 repo_url: https://github.com/Andre-Comeau/bot-procurement-book
 docs_dir: docs
+hooks: [hooks.py]
 site_dir: ../_site/{slug}
 theme:
   name: material
@@ -253,7 +258,7 @@ LLMS_SUMMARY = (DESCRIPTION + " Bot Procurement is a book in draft, written in p
                 "that AI could be relied on by buyers, bidders, insurers and courts. Bot "
                 "Procurement is a proposal; its test has not been run and no standards body has adopted it. "
                 "Bot Construction is the wider field it belongs to. Text CC BY 4.0, by Andre Comeau. "
-                "Not legal or procurement advice.")
+                "This is not legal, insurance or financial advice. The legal and insurance points in this work have not been reviewed by a lawyer or an underwriter. Ask your own adviser before relying on them.")
 
 
 def page_url(name, working=False):
@@ -275,6 +280,8 @@ def write_llms(site_root, docs):
               f"- [Whole text in one file](https://books.andrecomeau.xyz/{SLUG}/llms-full.txt)",
               f"- [Working copy contents](https://books.andrecomeau.xyz/{SLUG}/working/): "
               "every chapter as it stands",
+              f"- [AI edition](https://books.andrecomeau.xyz/{SLUG}/ai/llms.txt): the same ideas "
+              "in short, sourced modules, with their own llms.txt",
               "- [Source repository](https://github.com/Andre-Comeau/bot-procurement-book)", ""]
     index = "\n".join(lines)
     full = [f"# {SITE_NAME}", "", f"> {LLMS_SUMMARY}", ""]
@@ -301,6 +308,38 @@ Allow: /
 
 Sitemap: https://books.andrecomeau.xyz/{SLUG}/sitemap.xml
 """
+
+
+# The AI edition (ai/) is built by tools/build_ai.py into docs/ai, where mkdocs renders each
+# module as a page. The hook then copies the Markdown itself next to the pages, so agents can
+# read /ai/<module>.md, the address its llms.txt gives.
+HOOKS = """import pathlib, shutil
+
+def on_post_build(config):
+    src = pathlib.Path(config["docs_dir"]) / "ai"
+    out = pathlib.Path(config["site_dir"]) / "ai"
+    for p in src.glob("*.md"):
+        shutil.copy(p, out / p.name)
+"""
+
+
+def build_ai(docs):
+    """Copy the AI edition into the site and build its index files. Modules held back
+    from publication (publish: hold) are left out, and any link to one fails the build."""
+    shutil.copytree(ROOT / "ai", docs / "ai")
+    subprocess.run([sys.executable, str(ROOT / "tools" / "build_ai.py"), str(docs / "ai"),
+                    "--public", "--strict"], check=True)
+    # The sources sit in each module's front matter, which the page hides: list them on the page too.
+    import yaml
+    for p in sorted((docs / "ai").glob("bp-*.md")):
+        text = p.read_text(encoding="utf-8")
+        meta = yaml.safe_load(text.split("---", 2)[1]) or {}
+        items = []
+        for s in meta.get("sources") or []:
+            s = s if isinstance(s, dict) else {"title": str(s)}
+            items.append(f"- [{s['title']}]({s['url']})" if s.get("url") else f"- {s['title']}")
+        if items and not re.search(r"^## Sources", text, flags=re.M):
+            p.write_text(text.rstrip() + "\n\n## Sources\n\n" + "\n".join(items) + "\n", encoding="utf-8")
 
 
 def main():
@@ -346,6 +385,9 @@ def main():
     labels = {k: BADGE.format(kind=k, label=v[0]) for k, v in STATUS.items()}
     (work / "index.md").write_text(WORKING_HOME.format(toc="\n".join(wtoc), **labels), encoding="utf-8")
     nav.append('  - "Working copy":\n' + "\n".join(wnav))
+    build_ai(docs)
+    nav.append('  - "AI edition":\n      - "About": ai/README.md\n      - "Index": ai/INDEX.md\n      - "Questions": ai/FAQ.md')
+    (OUT / "hooks.py").write_text(HOOKS, encoding="utf-8")
     shutil.copytree(ROOT / "images", docs / "images", ignore=shutil.ignore_patterns("README.md", "*.py", "*.js", "*.html"))
     (docs / "stylesheets").mkdir()
     shutil.copy(ROOT / "theme" / "book.css", docs / "stylesheets" / "book.css")
