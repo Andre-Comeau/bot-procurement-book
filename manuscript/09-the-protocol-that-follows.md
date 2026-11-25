@@ -101,6 +101,10 @@ The versions in chapter 16 now line up with the three standards.
 
 **Version 3.0, the working model.** By now the signed readings hold enough to build the test from, and it goes looking for its castle.
 
+Past the versions is the rung chapter 19 describes: a bot that bids on its own, backed by the test, a public reference price and cover for its errors, with a signature the bidder may still give but no longer has to.
+
+![A schematic ladder, not data, titled "From the signer to the bot that bids on its own", with four rungs, each trusting the bot a little further. For each it names who signs and who carries a miss. Version 1.0, momentum: one trade first, the template published; a person signs every line, and the bidder carries every miss. Version 2.0, proof of work: the evaluator in an owner's hands and the first tenders issued with the template; a named person signs each reading, and a pilot policy covers a few bidders. Version 3.0, the working model: the tool test built from the signed readings, with a published range; a person looks at what the test flags, and margin insurance covers checked bids. The goal, autonomous bidding: the bot bids on its own, backed by the test, a public reference price and cover; signing is a choice, not a rule, and the cover is sold with the bot. A note says the project is working toward the bottom rung now.](../images/maturity-ladder.png)
+
 The prediction can be wrong, and it should say how. If by 2035 no public owner anywhere runs a tender whose questions, addenda, bids and evaluation pass through agents on a published data format, the forecast failed. The standard itself is further out, in the ten to fifteen years the CubeSat suggests, and its first court challenge will probably come before it, from a dispute fought under the old rules.
 
 The model was never going to generate the field. What it can do is give a small group of people a template to issue, a reading to sign and a test to argue about. That is how a standard starts, and the villagers, as the zombie garden in chapter 15 promised, are the ones who decide whether it sticks.
