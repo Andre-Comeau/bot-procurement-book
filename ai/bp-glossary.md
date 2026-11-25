@@ -6,7 +6,7 @@ status: draft
 summary: >
   The terms used across the Bot Procurement modules, each with one meaning. Where a module uses one of
   these terms, it means what this glossary says. Bot Procurement itself is a proposal; its test has not been run.
-updated: 2026-11-19
+updated: 2026-11-25
 audience: [everyone]
 questions:
   - What does a term used in Bot Procurement mean?
@@ -32,7 +32,7 @@ book: [app-c-glossary.md]
 Each heading carries an anchor, so a term can be cited as `bp-glossary.md#<anchor>`. Where a term names something the project proposes, the definition says "proposal" in the same sentence.
 
 ### Bot Procurement {#bot-procurement}
-A proposal, made in 2026 by a public project, for how a bot that prices or checks a construction bid could be relied on: documents written for machines to read, a published reference bot to read them, and a record of each reading someone relied on. It is also the name of the book that argues for it. Bot Procurement is a proposal; its test has not been run.
+A proposal, made in 2026 by a public project, for how a bot that prices or checks a construction bid could be relied on, through three standards: documents written for machines to read (the template), a public test of the bot (the tool test), and a sign-off by the person who relies on its reading. It is also the name of the book that argues for it. Bot Procurement is a proposal; its test has not been run.
 
 Not to be confused with procurement of bots (buying AI software); the proposal is about bots used inside procurement.
 
@@ -87,9 +87,15 @@ The proposed form of a tender written for machines: plain text, Markdown for the
 In the book: Template (tender template).
 
 ### Record {#record}
-The entry kept for each bot reading someone relies on: which documents were read (by fingerprint), which bot and version, with what settings, what it found, when, and who chose to rely on it. It is what lets a dispute be settled after a loss. A proposal.
+The entry kept for each bot reading someone relies on: which documents were read (by fingerprint), which bot and version, with what settings, what it found, when, and who chose to rely on it. It is what lets a dispute be settled after a loss. A proposal; it is a clause in the tool test and the sign-off rather than a standard of its own.
 
 In the book: Record (run record).
+
+### Tool test {#tool-test}
+The second of Bot Procurement's three standards: a public set of tenders a pricing bot has never seen, one fixed way of scoring its prices against what bidders bid, and a published miss rate with a tolerance around it. A proposal; it has not been run, and its tolerance waits for evidence from the project's estimator.
+
+### Sign-off {#sign-off}
+The third of Bot Procurement's three standards: before relying on a bot's reading of a tender, a named person confirms that the bot passed the tool test for that kind of work, that it read the version of the documents that governs, and that someone able to overrule it looked at what it found, then puts their name to the reading. A proposal.
 
 ### PDF zombie (the zombie garden) {#pdf-zombie}
 The book's image for tender documents issued as PDFs: dead as a technology, still walking as a protocol, because the PDF inherited the stamped paper set's place in law. It is safe (nothing changes) and has no liveness (nothing can grow). The garden is the set of practices built to live with them.

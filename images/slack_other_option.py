@@ -82,7 +82,7 @@ boxes = [
     (730, "Raise the capacity", D["sec"], C["sec_t"],
      ["A second opinion on every price", "The tender as a data file", "The same check, the same way, every bid",
       "A measured miss rate, and a record", "The door open: no cap, no key, no fee", "The evaluator, and the keyholder who signs",
-      "Insurance on the margin picks up the tails", "A standard: template, record, public test"],
+      "Insurance on the margin picks up the tails", "Three standards: documents, test, sign-off"],
      "The other option. More data moves faster through the door without anyone acquiring a say they did not have before."),
 ]
 for (by, title, col, fill, items, verdict) in boxes:

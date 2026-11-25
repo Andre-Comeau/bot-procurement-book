@@ -1,9 +1,10 @@
-"""Chapter 11 figure: World 2, the Standard, an overworld map of the nearest existing standards.
+"""Chapter 17 figure: World 2, the Standard, an overworld map of the nearest existing standards.
 
-Each level is a standard that already exists, with the change the book would ask of it.
-The road runs from World 1 through field building, the documents (OCDS, IFC and IDS, the
-method of measurement), the tender rules (CCDC 23, ISO 10845-3) and the bot itself (AACE's
-estimate classes, IEEE 3119) to the castle, a new part of ISO 10845 for the reasonable bot.
+Each level is a standard that already exists, with the change the book would ask of it,
+coloured by which of the book's three standards it carries: the documents (IFC and IDS,
+the method of measurement, CCDC 23, ISO 10845-3), the tool test (AACE's estimate classes,
+IEEE 3119, and the castle, a new part of ISO 10845 for the reasonable bot) and the
+sign-off (an OCDS extension for signed readings, the professions' practice notes).
 Past the castle is the courthouse, where the first case will test it.
 The drawing helpers come from second_opinion.py (chapter 10's Bot Procurement World), so
 the two worlds share one style. All proposals on the map are Claude's draft for Andre.
@@ -52,7 +53,7 @@ def namebox(x, y, name, cls="pxxs", k=11.2):
 
 o = [f'<rect width="{W}" height="{H}" fill="{LEAD}"/>']
 o.append(t(70, 76, "THE STANDARD", "pxt", "#ffffff", "start"))
-o.append(t(70, 116, "Chapter 11 · The nearest standards, and what each would need to change", "dek", "#d9d6cf", "start"))
+o.append(t(70, 116, "Chapter 17 · Three standards, and the existing ones that could carry them", "dek", "#d9d6cf", "start"))
 o.append(t(1730, 76, "WORLD 2", "pxt2", C["sec"], "end"))
 
 X0, Y0, X1, Y1 = 40, 150, 1760, 1060
@@ -77,15 +78,18 @@ o.append(f'<rect x="60" y="{R1-34}" width="150" height="68" rx="34" fill="{C["ac
 o.append(t(135, R1 + 4, "FROM", "pxxs", "#ffffff"))
 o.append(t(135, R1 + 22, "WORLD 1", "pxxs", "#ffffff"))
 
-LV = [  # number, x, y, colour, name under the level, the ask above it
-    ("2-1", 360, R1, C["acc"], "FIELD BUILDING", ["Name it loudly, define it slowly,", "gather a small group"]),
-    ("2-2", 660, R1, C["action"], "OCDS + OC4IDS", ["An extension for the tender's", "questions, addenda and readings"]),
-    ("2-3", 960, R1, C["action"], "IFC 4.3 + IDS", ["Requirements a bot can check", "before the bid, not after"]),
-    ("2-4", 1260, R1, C["action"], "MEASUREMENT", ["One name for each pay item,", "so prices can be compared"]),
-    ("2-5", 1300, R2, C["sec"], "CCDC 23", ["A guide note: name the bot", "version the tender was read by"]),
-    ("2-6", 900, R2, C["sec"], "ISO 10845-3", ["Conditions of tender: a bot's", "question answered to every bidder"]),
-    ("2-7", 500, R2, C["sec"], "AACE CLASSES", ["A conformance class beside", "the five estimate classes"]),
-    ("2-8", 520, R3, C["acc"], "IEEE 3119", ["A construction profile: buy bots", "that pass the public test"]),
+DOCS, TEST, SIGN = C["action"], C["sec"], C["acc"]
+FIELD = mix(C["ink2"], "#ffffff", .25)
+LV = [  # number, x, y, colour (which standard it carries), name under the level, the ask above it
+    ("2-1", 360, R1, FIELD, "FIELD BUILDING", ["Name it loudly, define it slowly,", "gather a small group"]),
+    ("2-2", 660, R1, SIGN, "OCDS + OC4IDS", ["An extension for signed readings,", "beside the contract data"]),
+    ("2-3", 960, R1, DOCS, "IFC 4.3 + IDS", ["Requirements a bot can check", "before the bid, not after"]),
+    ("2-4", 1260, R1, DOCS, "MEASUREMENT", ["One name for each pay item,", "so prices can be compared"]),
+    ("2-5", 1330, R2, SIGN, "PRACTICE NOTES", ["A named person signs for", "what the bot read and found"]),
+    ("2-6", 1015, R2, DOCS, "CCDC 23", ["A guide note: the template beside", "the PDF, and which one governs"]),
+    ("2-7", 700, R2, DOCS, "ISO 10845-3", ["Conditions of tender: a bot's", "question answered to every bidder"]),
+    ("2-8", 385, R2, TEST, "AACE CLASSES", ["A conformance class beside", "the five estimate classes"]),
+    ("2-9", 520, R3, TEST, "IEEE 3119", ["A construction profile: buy bots", "that pass the public test"]),
 ]
 for num, x, y, col, name, ask in LV:
     o += note(x, y - 132, ask)
@@ -106,6 +110,10 @@ o += note(HX, HY - 240, ["Daubert, Mohan, the Rule 707 redraft:", "a method and 
 
 o.append(f'<rect x="{X0}" y="{Y0}" width="{X1-X0}" height="{Y1-Y0}" fill="none" stroke="#ffffff" stroke-width="6"/>')
 o.append(t(70, 1112, "Every level is a standard that already exists. The castle is the one that doesn't.", "foot", "#ffffff", "start"))
+# legend: which of the three standards each level carries
+for lx, (lab, col) in zip((1250, 1425, 1570), (("Documents", DOCS), ("Tool test", TEST), ("Sign-off", SIGN))):
+    o.append(f'<rect x="{lx}" y="1092" width="26" height="26" rx="5" fill="{col}" stroke="#ffffff" stroke-width="3"/>')
+    o.append(t(lx + 36, 1113, lab, "leg", "#ffffff", "start"))
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
 <style>
@@ -117,6 +125,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
   .dek{{font-family:Lora,Georgia,serif;font-style:italic;font-size:21px}}
   .lab{{font-family:Lora,Georgia,serif;font-weight:500;font-size:20px}}
   .labs2{{font-family:Lora,Georgia,serif;font-style:italic;font-size:18px}}
+  .leg{{font-family:Lora,Georgia,serif;font-size:21px}}
   .foot{{font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-size:28px}}
 </style>
 {chr(10).join(o)}

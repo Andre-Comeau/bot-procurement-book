@@ -8,7 +8,7 @@ summary: >
   (by fingerprint), the bot and its version, its settings, what it found, when, and who chose to rely
   on it. After a loss, only the record can settle whether the bot's price was wrong or the work went
   badly. It is a proposal.
-updated: 2026-11-19
+updated: 2026-11-25
 audience: [lawyers, insurers, buyers, bidders, auditors, standard writers]
 questions:
   - What should be recorded when an AI prices or checks a construction bid?
@@ -18,6 +18,7 @@ questions:
 related:
   - {id: bp-overview, relation: part-of}
   - {id: bp-reference-bot, relation: supports}
+  - {id: bp-sign-off, relation: supports}
   - {id: bp-tender-template, relation: see-also}
   - {id: bp-buyer-as-insurer, relation: supports}
   - {id: bp-evaluator, relation: see-also}
@@ -42,6 +43,7 @@ terms: [Record, Keyholder, Witness and Oracle]
 - **Fields:** the documents read, by fingerprint; the bot, its version, its prompt and settings; what it found and flagged; when; who asked; who chose to rely on it and with what reason.
 - **Chained:** each entry carries the fingerprint of the one before, so a later edit would show.
 - **Two copies:** bidders will keep a record only if it is theirs, so the buyer and each bidder keep their own.
+- **Where it sits:** the record is a clause in two of the book's three standards, the tool test and the [sign-off](bp-sign-off.md), not a standard of its own. Without it the test cannot be rerun and the sign-off has nothing to point at.
 - **Purpose:** after a loss, each side tells the story differently; only the record settles whether the bot's price was wrong or the bidder built badly.
 
 ## Why it matters more than accuracy
