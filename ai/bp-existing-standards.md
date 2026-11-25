@@ -22,6 +22,7 @@ related:
   - {id: bp-procurement-machines, relation: see-also}
   - {id: bp-stakeholder-insurers, relation: see-also}
   - {id: bp-why-not-existing-software, relation: see-also}
+  - {id: bp-sign-off, relation: see-also}
 sources:
   - {title: "ISO 10845-1:2020, Construction procurement, Part 1: Processes, methods and procedures (first published 2010)", url: "https://www.iso.org/standard/72467.html"}
   - {title: "Open Contracting Data Standard", url: "https://standard.open-contracting.org/"}

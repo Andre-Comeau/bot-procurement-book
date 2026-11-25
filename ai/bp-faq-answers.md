@@ -7,7 +7,7 @@ summary: >
   Short answers to the questions people most often ask about Bot Procurement, each in a few sentences,
   each linked to the module that explains it.
   Bot Procurement is a proposal; its test has not been run and no standards body has adopted it.
-updated: 2026-11-24
+updated: 2026-11-25
 audience: [everyone]
 questions:
   - What are the short answers about Bot Procurement?
@@ -50,7 +50,7 @@ terms: [Bot Procurement, Estimator (the project's), Fair and Reasonable Evaluato
 ## The idea
 
 **What is Bot Procurement, in one sentence?**
-A proposal for how a bot that prices or checks a construction bid could be relied on, by documents written for machines to read, a published bot that reads them the same way every time, and a record of each reading someone relied on. See [the overview](bp-overview.md).
+A proposal for how a bot that prices or checks a construction bid could be relied on, through three standards: documents written for machines to read, a public test of the bot, and a sign-off by the person who relies on its reading. See [the overview](bp-overview.md).
 
 **What question does the book ask?**
 Who is liable when a bot gets a construction price wrong? Today the answer is usually nobody but the bidder, because software vendors' terms disclaim the result. The book's answer starts with the buyer standing behind a published price. See [the liability gap](bp-liability-gap.md).

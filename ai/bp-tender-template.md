@@ -24,6 +24,7 @@ related:
   - {id: bp-stakeholder-designers, relation: see-also}
   - {id: bp-tender-as-interface, relation: see-also}
   - {id: bp-why-not-change-contract-type, relation: see-also}
+  - {id: bp-sign-off, relation: see-also}
 sources:
   - {title: "Bot Procurement (book in draft), chapter 17, 'The protocol that follows'", url: "https://books.andrecomeau.xyz/bot-procurement/working/09-the-protocol-that-follows/"}
   - {title: "Bot Procurement (book in draft), chapter 5, 'The zombie lost to a file format'", url: "https://books.andrecomeau.xyz/bot-procurement/working/08b-the-zombie-lost-to-a-file-format/"}

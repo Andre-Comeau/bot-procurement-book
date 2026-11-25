@@ -94,6 +94,6 @@ What would open the cage: a buyer's legal department that signs off on a swarm's
 
 A cage is not a grave. Every creature in this chapter is fed a little, on purpose.
 
-The standard asks for documents written for machines first, which is what the parliament of requirements would need. It asks for a record of what a bot read and decided, which is what anyone would need to find the failure between two advocates, or two members of a hive. It asks who makes good when a bot is wrong, which the hydra cannot yet answer. And it asks for a published test, which is the only thing that could tell anyone, early, that the swarm no longer needs one.
+The standard asks for documents written for machines first, which is what the parliament of requirements would need. It asks for a named person to sign for what a bot read and decided, with a record behind the signature, which is what anyone would need to find the failure between two advocates, or two members of a hive. It asks who makes good when a bot is wrong, which the hydra cannot yet answer. And it asks for a published test, which is the only thing that could tell anyone, early, that the swarm no longer needs one.
 
 So the small project and the big creatures are not at war. Bot Procurement is the part small enough to try first. Bot Construction, the field, is where the monsters live, and where some of them will one day be let out.

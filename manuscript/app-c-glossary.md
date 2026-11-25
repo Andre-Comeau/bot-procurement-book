@@ -78,9 +78,11 @@
 
 **Reasonable bot.** The bot a judge would compare others against when asking what a careful reader should have understood from a tender, the way the law already asks what a reasonable bidder would have understood (prologue and chapter 14).
 
-**Record.** What is kept each time a bot's reading is relied on: the tender, the version of the standard it was read against, and the reading, so a court can check it later (chapter 17).
+**Record.** What is kept each time a bot's reading is relied on: the tender, the version of the standard it was read against, and the reading, so a court can check it later. It is a clause in the tool test and the sign-off rather than a standard of its own (chapter 17).
 
 **Second opinion.** What the estimator and the evaluator will offer: a price drawn from past tenders, beside the price the buyer is being asked to pay, for a person to weigh (chapter 16).
+
+**Sign-off.** The third of the book's three standards: before relying on a bot's reading of a tender, a named person confirms the bot passed the test for that kind of work, read the version of the documents that governs, and had what it found looked at by someone able to overrule it, then puts their name to the reading (chapter 17).
 
 **Slack.** Time, money and cushion kept between the parts of a system so that nobody has to know everything. Construction has always chosen slack; the book asks for more capacity to read instead (chapter 1).
 
@@ -95,6 +97,10 @@
 **Tender.** The package a buyer issues to invite priced offers for construction work, and the competition that follows until the bids are opened. The book's first chapter treats it as an interface between the buyer and everyone who bids (chapter 1).
 
 **Thicket.** The crowd of new bids that springs up once bidding becomes nearly free, the way a thicket fills the clearing where an old oak fell (chapters 1 and 15).
+
+**Three standards.** The book's proposal for the documents a bot reads (the template), the test a pricing bot sits (the tool test) and the person who signs for what it found (the sign-off) (chapter 17).
+
+**Tool test.** The second of the three standards: a public set of tenders a bot has never seen, one fixed way of scoring its prices against what bidders bid, and a published miss rate with a tolerance. Drafted now and fixed when the estimator has earned it (chapter 17).
 
 **Witness and Oracle.** A pair of bots inside any buyer-side system: the Witness reads the full records, and the Oracle checks what leaves, so the bot that faces outward never touches the files (chapter 16).
 

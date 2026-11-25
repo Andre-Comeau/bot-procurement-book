@@ -23,6 +23,7 @@ related:
   - {id: bp-stakeholder-vendors, relation: see-also}
   - {id: bp-stakeholder-insurers, relation: see-also}
   - {id: bp-trax-case, relation: see-also}
+  - {id: bp-sign-off, relation: see-also}
 sources:
   - {title: "Bot Procurement (book in draft), chapter 11, 'The vendors: players, not referees'", url: "https://books.andrecomeau.xyz/bot-procurement/working/02d-the-vendors/"}
   - {title: "Insurance Business, 'ISO's generative AI exclusion is already on thousands of CGL policies', 16 September 2026", url: "https://www.insurancebusinessmag.com/us/news/professional-liability/isos-generative-ai-exclusion-is-already-on-thousands-of-cgl-policies-589971.aspx"}

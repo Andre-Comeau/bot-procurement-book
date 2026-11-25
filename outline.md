@@ -52,7 +52,7 @@ A map of the book in reading order, one short paragraph per chapter.
 
 **16. A second opinion on every price.** The project's estimator and the fair and reasonable evaluator: one engine pointed in two directions, built and tested in public.
 
-**17. The protocol that follows.** How standards are made by small groups of people, the two asks the book makes, and how they could stick.
+**17. The protocol that follows.** How standards are made by small groups of people, the three standards the book proposes (the documents, the tool test and the sign-off), and how they could stick.
 
 **17a. The bot in the witness box.** One failure told from start to finish, from a quantity error in a tender to the claim in court.
 
