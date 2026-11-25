@@ -64,6 +64,8 @@ Eghbal, Nadia. *Working in Public: The Making and Maintenance of Open Source Sof
 
 Ehrlich, Isaac, and Gary S. Becker. "Market Insurance, Self-Insurance, and Self-Protection." *Journal of Political Economy* 80, no. 4 (1972): 623–648.
 
+European Commission, Directorate-General for Research and Innovation. Maija Breque, Lars De Nul and Athanasios Petridis. *Industry 5.0: Towards a Sustainable, Human-Centric and Resilient European Industry*. Luxembourg: Publications Office of the European Union, 2021. (Chapter 19.)
+
 European Commission. Proposal for a Regulation on public procurement and concessions (Public Procurement Act), COM(2026) 590, 9 September 2026.
 
 European Court of Auditors. *Public Procurement in the EU: Less Competition for Contracts Awarded for Works, Goods and Services in the 10 Years up to 2021.* Special Report 28/2023. Luxembourg, 2023.
@@ -155,6 +157,8 @@ Procore Technologies. "Procore Launches Construction Insurance Brokerage to Empo
 Rao, Justin M., and David H. Reiley. "The Economics of Spam." *Journal of Economic Perspectives* 26, no. 3 (2012): 87–110.
 
 Rao, Venkatesh. "Cognitive Mercantilism: AI Panic Weirdly Resembles the Anxiety That Accompanied Early Capitalism." *Contraptions* (newsletter), 25 October 2026. https://contraptions.venkateshrao.com/p/cognitive-mercantilism.
+
+Rao, Venkatesh. "On Learning to Ride Your Brain." *Contraptions* (newsletter), 24 October 2026. https://contraptions.venkateshrao.com/p/on-learning-to-ride-your-brain. (The brain a bicycle, AI a motorcycle; chapter 19.)
 
 Rao, Venkatesh. "The Gramsci Gap: System Emergence in Monstrously Morbid Interregnums between Worlds." *Contraptions* (newsletter), 11 January 2025. https://contraptions.venkateshrao.com/p/the-gramsci-gap.
 
