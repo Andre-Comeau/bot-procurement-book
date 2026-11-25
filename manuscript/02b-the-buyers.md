@@ -38,4 +38,4 @@ It gives time back in the order the budget feels it: a shorter tender, an earlie
 
 The private owner gains the same check as an option and keeps its freedom to narrow the door. What it gets that it cannot buy today is a bid it can compare across firms on the same terms, and a known answer to who is liable when a bot somewhere in the chain is wrong. Chapter 3 takes up that question.
 
-The buyers' part of the convergence is the one they will like least. The market's memory is made of their records. Every bid tabulation they publish, with a licence that lets anyone read it, is a line in the memory the check reads against, and every one they keep behind a paywall or in a PDF is a line the thicket grows into instead.
+The buyers' part of the convergence is the one they will like least. The market's memory is made of their records. Every bid tabulation they publish, the table of every price in every bid opened, with a licence that lets anyone read it, is a line in the memory the check reads against, and every one they keep behind a paywall or in a PDF is a line the thicket grows into instead.
