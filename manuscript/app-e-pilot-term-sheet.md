@@ -23,7 +23,7 @@ This is a starting point for an underwriter to mark up, not an offer. Every numb
 **Conditions:**
 
 1. The bid and the estimate file are fixed and time-stamped before the tender closes.
-2. The bot's price falls within the range set by the reference standard, or the bid is not covered. The range in force on bid day governs, even if the standard changes later. The range is published by the body that keeps the standard, with its version and date.
+2. The bot's price falls within the range set by the reference standard, or the bid is not covered. The range in force on bid day governs, even if the standard changes later. The range is published by the body that keeps the standard, with its version and date. A bidder who sees the bot's price fall below the range may change the bid or send it in at its own risk. Either way, the policy does not pay for a gap the bidder could see on bid day.
 3. The bidder keeps its books for [number] years after the contract ends.
 
 **Audit right:** The insurer may check the bidder's books and the estimate file, as bonding companies already do.

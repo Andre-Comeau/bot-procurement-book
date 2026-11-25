@@ -4,6 +4,8 @@ Abbott, Bud, and Lou Costello. "Who's on First?" Comedy routine, performed from 
 
 AM Best. *Best's Special Report: Infrastructure Projects Spur Growth and Help Fuel Profits for U.S. Surety Insurers.* 19 January 2026. Summary: https://www.businesswire.com/news/home/20260119512086/en/.
 
+Arrow, Kenneth J. "Uncertainty and the Welfare Economics of Medical Care." *American Economic Review* 53, no. 5 (1963): 941–973.
+
 Artificial Intelligence Underwriting Company. *AIUC-1*, a standard for AI agents; requirements E004 ("Assign accountability") and E015 ("Log AI system activity") in its evidence index, read 19 November 2026. https://standard.aiuc-1.com/. Terms of use, 15 July 2025, https://standard.aiuc-1.com/legal/terms.md.
 
 ASTM International. "The History of ASTM International." https://about.astm.org/ABOUT/history_book.html.
@@ -17,6 +19,8 @@ buildingSMART International. *Information Delivery Specification (IDS)*, version
 California Department of Transportation (Caltrans). Bid summaries for state highway construction contracts, bid openings 1999 to 2009, as collected by the project.
 
 Canadian Construction Documents Committee. *CCDC 23 – 2018: A Guide to Calling Bids and Awarding Construction Contracts.* Ottawa: CCDC, 2018.
+
+Capen, E. C., R. V. Clapp and W. M. Campbell. "Competitive Bidding in High-Risk Situations." *Journal of Petroleum Technology* 23, no. 6 (1971): 641–653.
 
 Charan, Ram. *What the CEO Wants You to Know: How Your Company Really Works.* New York: Crown Business, 2001.
 
@@ -47,6 +51,8 @@ Dwork, Cynthia, and Moni Naor. "Pricing via Processing or Combatting Junk Mail."
 Dyer, Douglas, and John H. Kagel. "Bidding in Common Value Auctions: How the Commercial Construction Industry Corrects for the Winner's Curse." *Management Science* 42, no. 10 (1996): 1463–1475. https://doi.org/10.1287/mnsc.42.10.1463.
 
 Dyer, Douglas, John H. Kagel and Dan Levin. "A Comparison of Naive and Experienced Bidders in Common Value Offer Auctions: A Laboratory Analysis." *Economic Journal* 99, no. 394 (1989): 108–115.
+
+Ehrlich, Isaac, and Gary S. Becker. "Market Insurance, Self-Insurance, and Self-Protection." *Journal of Political Economy* 80, no. 4 (1972): 623–648.
 
 Eghbal, Nadia. *Working in Public: The Making and Maintenance of Open Source Software.* San Francisco: Stripe Press, 2020.
 
@@ -103,6 +109,10 @@ Lang, David. Opening talk and roundtable on field building, with Timber Stinson-
 Laurie, Ben, and Richard Clayton. "'Proof-of-Work' Proves Not to Work." Workshop on the Economics of Information Security, Minneapolis, May 2004. https://www.cl.cam.ac.uk/~rnc1/proofwork.pdf.
 
 Liu, Bannerman, Elliot, Ewart and Atkinson. "Underpricing for Construction Projects: A Double-Edged Sword." PMI Learning Library, 2014. https://www.pmi.org/learning/library/underpricing-construction-projects-8958.
+
+Mayers, David, and Clifford W. Smith, Jr. "On the Corporate Demand for Insurance." *Journal of Business* 55, no. 2 (1982): 281–296.
+
+Mossin, Jan. "Aspects of Rational Insurance Purchasing." *Journal of Political Economy* 76, no. 4 (1968): 553–568.
 
 Nithyanantham, Bharathi Kannan, Clemens Kujat, Tobias Sesterhenn, et al. "BIM-Edit: Benchmarking Large Language Models for IFC-Based Building Information Modeling." arXiv:2606.20146, June 2026. https://arxiv.org/abs/2606.20146.
 
