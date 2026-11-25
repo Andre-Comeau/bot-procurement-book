@@ -22,7 +22,7 @@ The courts have been teaching that lesson with machines for a few years now. In 
 
 An older Supreme Court case shows the other side. Prison officials used a scoring matrix to reclassify inmates and move them to higher security, and did not disclose it. The transfers fell, not because the matrix was wrong, but because the people affected could not see how they had been scored. Hidden method, void decision.
 
-Put those together and a legal department's checklist writes itself. A person must decide, and be seen to decide. The reasons must be the person's own and must make sense without the tool. And whatever the tool contributed must be disclosed, because a court can order it into the record anyway. In 2026 an American court did exactly that with an army contract. The agency said its AI evaluations had played no part, until it admitted they had been sent to two board members and the contracting officer, and the court ordered them into the record as relevant to the process. The bidder still lost: it could not show that the AI had caused an error.
+Put those together and a legal department's checklist writes itself. A person must decide, and be seen to decide. The reasons must be the person's own and must make sense without the tool. And whatever the tool contributed must be disclosed, because a court can order it into the record anyway. In 2026 an American court did exactly that with the Army contract of chapter 1, once the agency admitted its AI evaluations had been sent to two board members and the contracting officer.
 
 This is good news for the keyholder that chapter 16 introduces, the named person who signs the number and gives a reason. The keyholder is not a courtesy. It is the part of the design a legal department will look for first.
 

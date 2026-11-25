@@ -28,7 +28,7 @@ It also explains why the buyer should not run a bot that answers bidders' questi
 
 So each bidder brings its own bot, and the bidder decides whether to raise what the bot finds. Compelling it to report would not work, for five reasons. Bidders are not the designers, and a duty to find errors hands them a licensed professional's liability. Nobody pays them for the review, and paying for it invites bidders who bid for the fee. A flood of minor issues would hide the major one and push tenders into the building season. Anyone can be made to ask a question, but nobody can be made to ask a useful one. And designers would have less reason to get the drawings right if the bidders were made to check them.
 
-Critics call this a guild protecting its habits, and the point is fair: the honest bidder who asks can lose to the strategic one who stays quiet. The best reason to raise an error is to stop a rival from exploiting it, and that works for a firm that would rather win on its location, its crew or its capital than on the buyer's mistakes. A bot does not create that motive. It makes acting on it cheap, because a question found and written in minutes can be answered to every bidder at once.
+Critics call this a guild protecting its habits, and the point is fair: the honest bidder who asks can lose to the strategic one who stays quiet. The best reason to raise an error is to stop a rival from exploiting it, and that works for a firm that would rather win on its location, its crew or its capital than on the buyer's mistakes. A bot does not create that motive. As chapter 2 put it, the bot makes acting on it cheap.
 
 ## How often a price runs low
 

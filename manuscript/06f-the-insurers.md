@@ -20,7 +20,7 @@ So the project is not a competitor to either firm. It does not sell insurance an
 
 Many market issues are still open. There is no loss history yet that links a low bid to real losses. Many bidders using the same standard could all fail at once. The bidders keenest to buy coverage may be the riskiest ones, and an open range can be gamed. The market may also be too small for an insurer to build a product alone. The project is not meant to solve these. It exists to show that the conversation is worth having.
 
-Not every bidder needs this. A small company can hold its whole picture in one or two heads: its equipment, its crews, its costs and how much risk it will take. A vanilla AI or a home-built tool already gives it a bid to review, and paying for software and insurance on top would turn profit into overhead. Medium and large companies are different. Their estimating departments have middle managers and span regions, and they bid on the largest jobs, where a losing bid wastes the most effort. For them, insured bot procurement is a way to standardize estimates and raise productivity while keeping risk under control. These are the bidders a pilot should start with.
+Not every bidder needs this, as chapter 8 explains: the small firm that holds its whole picture in one head is better left alone. For medium and large firms, whose estimating departments span regions and bid the largest jobs, insured bot procurement is a way to standardize estimates and raise productivity while keeping risk under control. These are the bidders a pilot should start with.
 
 ## The sureties
 

@@ -22,7 +22,7 @@ These two goals are not rivals. They meet in one machine.
 
 Chapter 9 gave it its name. A jigbot is what a tradesperson builds when they set up and teach a robot for the task at hand, the way they'd build a jig.
 
-Today's site robots are mostly programmed away from the site. Programming them means translating data from one format into another, with a check at every step. Documents written for machines would remove much of that translation. A robot could then program itself from the same documents the bidders priced, and the tradesperson's job would be to teach it the task at hand. That is how a better jigbot gets built: by the person who knows the cut, with the machine doing the rest.
+Chapter 15 described the robot that programs itself from the same documents the bidders priced. The tradesperson's job would then be to teach it the task at hand. That is how a better jigbot gets built: by the person who knows the cut, with the machine doing the rest.
 
 The jigbot serves both goals at once. The worker who teaches it gains autonomy in the doing, because the machine answers to the person beside it and not to head office. Everyone gains autonomy in the imagining, because things that cannot be built today become affordable to try.
 
@@ -30,13 +30,9 @@ This is the destination, not a plan. The field this book belongs to is Bot Const
 
 ## Questions for the destination
 
-Some questions belong to the field, not to the standard, and this book leaves them open.
-
-Who answers for a jigbot? Probably the same three things that answer for a powder-actuated tool or a scissor lift today: a standard, training with a ticket to show for it, and insurance. Whatever the answer, the bill should not land on the tradesperson simply because they were the last to touch the setup. The hard part is the width of the teaching. Makers will want the machine to do only what they planned, and the trades will need it to follow the site.
+Some questions belong to the field, not to the standard, and this book leaves them open. Chapter 9 asked who answers for a jigbot, and chapter 6 how many doors a project should have. One more is new.
 
 Who holds the authority to teach it? If it sits with the maker, the jigbot is one more machine programmed from head office. If it sits with the worker, the teaching has to be possible without a degree in computer science, and the machine has to respect a body that knows where it is on a ladder in ways no model does. That is a harder design problem than it sounds, and a later standard may have to protect it.
-
-How many doors should a project have? Today one builder usually answers for everything behind the tender. Once machines can read the documents, a buyer might reach the trades more directly. Whether that helps depends on who stands behind each piece and who answers for how the pieces fit. That question belongs to all of them, not to one side.
 
 ## Hammurabi for bots
 
