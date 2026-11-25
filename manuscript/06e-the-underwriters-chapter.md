@@ -54,6 +54,8 @@ As a probabilistic technology, bringing an AI-powered pricing bot's error to zer
 
 By picking up the tail risk, insurers will allow for faster iterations. Software developers and their clients could forgo a lengthy trial period and begin using productivity-enhancing tools much earlier in the lifecycle. This is great for the software client receiving the productivity gains, and great for the software developer receiving cash flow to develop the next iteration of the product. What would an insurer need to see before covering a tool that has not finished its trials?
 
+A common view in the software market is that nobody needs this. A tool that is right nine times in ten is good enough, the argument goes, as long as a person checks the tenth. That is a fair description of the market today, and it leaves two costs in place. The person's check is the estimating cost the bot was meant to cut, so the hours saved are spent again on checking. And checkers miss things too, more so when every firm runs similar models and the misses line up across bids. Those two costs are what insurance prices. Paying for them is what lets the person stop checking every line.
+
 ### 3. How should the tails be covered?
 
 With careful measurements and validation, it should be possible to insure a product based on its own characteristics, but the coverage of the tails would be tricky. Should the risk be capped leaving the vendor and their client exposed in the case of a major failure? Should the insurance premium be increased making deals less likely to close?
