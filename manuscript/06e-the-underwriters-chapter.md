@@ -80,6 +80,23 @@ The check matters more than the cover. A bot sent out on its own would need a pr
 
 The cover sells to any firm with thin capital, and through the vendor to most firms. It rarely sells on its own to a firm with deep pockets, as Arrow, Mossin, Mayers and Smith would have predicted. These are the model's figures, on assumptions that a real bidder's books would replace.
 
+## How the numbers would be checked
+
+Every figure above assumes a typical bot that misses by about 6 percent. The project's own estimator is not there yet, and the model says so plainly. Run on its measured misses on Texas lettings, the same checks would send about two bids in five back to be priced by hand, and the cover on a checked bid would cost about 1.6 percent of the contract, about $128,000 on an $8 million job. The prototype should not be bid from yet, with or without cover.
+
+| | The estimator today | A realistic target | The limit |
+|---|---|---|---|
+| How far it typically misses | about 14 percent | about 4.5 percent | about 2.5 percent |
+| Bids sent back to be priced by hand | about 2 in 5 | about 1 in 45 | about 1 in 100 |
+| Cover on a checked bid, $8 million job | 1.6 percent, about $128,000 | 0.06 percent, about $5,000 | 0.01 percent, about $1,100 |
+
+The gap between the columns is the work still to do, and checking it takes four steps, each of which can prove the model wrong.
+
+1. **A record.** The frozen bot prices tenders it has never seen, before the bids open, and the prices are stored where nobody can change them. Compared with the bids, they show how far the bot misses and which way it leans.
+2. **The yardstick.** The reference standard that settles claims is built, published with its version and date, and measured the same way. The test also measures how often the standard and the bot are wrong on the same job, because a check that shares the bot's blind spots catches less. If they share them often, the premium on a checked bid rises from about 0.15 percent toward 0.4 percent.
+3. **The books.** A margin can only be checked against a bidder's books from finished jobs, against the costs it declared on bid day. Those books are private, and a pilot is the way to see them.
+4. **The pilot.** A small policy on a few bidders, as chapter 13 proposes and Appendix E drafts, reports its claims, its near misses and the spread of margins against the target, and the results go into the open standard.
+
 ## Four open questions
 
 Four questions direct this effort, and the project cannot answer them alone:
