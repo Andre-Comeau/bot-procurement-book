@@ -56,6 +56,25 @@ The fourth is the oldest warning in bidding. In 1971 Ed Capen and two colleagues
 
 None of this is news to an underwriter. It may be news to an estimator.
 
+## Who would buy it
+
+The project's model puts these ideas to work on two Texas highway bidders. The medium bidder sends 31 bids a year on jobs of about $8 million, wins about five, and earns about $2 million a year. The small bidder sends 12 bids a year on jobs of about $1.5 million, wins about two, and earns about $125,000. Both price with a bot that typically misses by 6 percent, both check every price before it goes out, and both keep the first 5 percent of any miss, with the cover paying 80 percent of the rest.
+
+What the cover is worth depends on how much a bad year hurts, which economists call risk tolerance. Picture a coin toss that wins a sum or loses half of it. The largest sum a firm would just about accept is its risk tolerance. The table writes it as a share of a year's profit. A firm with thin capital sits low on that scale, and a firm with deep pockets sits high.
+
+| Bidder | Risk tolerance, as a share of a year's profit | What the cover is worth to the bidder, per job won | Buys it at 0.15 percent, sold on its own? | Buys it at 0.11 percent, through the vendor? |
+|---|---|---|---|---|
+| Medium | 35 percent | $18,500 on an $8 million job (0.23 percent) | Yes | Yes |
+| Medium | 70 percent | $10,700 (0.13 percent) | No | Yes |
+| Medium | 140 percent | $8,200 (0.10 percent) | No | Barely |
+| Small | 40 percent | $12,000 on a $1.5 million job (0.80 percent) | Yes | Yes |
+| Small | 80 percent | $4,250 (0.28 percent) | Yes | Yes |
+| Small | 160 percent | $2,300 (0.15 percent) | Barely | Yes |
+
+The two prices in the last columns are the lowest an insurer could charge and still earn a fair return. Sold on its own through a broker, the cover needs about 0.15 percent of the contract. Sold by the software vendor with its bot, with claims handled automatically and a yearly cap on what the insurer pays, it needs about 0.11 percent.
+
+The cover sells to any firm with thin capital, and through the vendor to most firms. It rarely sells on its own to a firm with deep pockets, as Arrow, Mossin, Mayers and Smith would have predicted. These are the model's figures, on assumptions that a real bidder's books would replace.
+
 ## Four open questions
 
 Four questions direct this effort, and the project cannot answer them alone:
