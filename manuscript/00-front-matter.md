@@ -20,7 +20,7 @@ Each part answers one question. The prologue and Parts I and II give the argumen
 
 Where two true statements pull against each other, both are kept and the tension is named. Construction has more tensions to manage than problems to solve, and a book that resolved them all would be a book about some other industry.
 
-The appendices hold what a reader can skip: the history of procurement as a deck of cards, a reading list, a glossary, the bibliography and a draft term sheet. A companion edition written for AI assistants carries the sources and asides this one leaves out.
+The appendices hold what a reader can skip: the history of procurement as a deck of cards, a reading list, a glossary, the bibliography, a draft term sheet and a list of who to talk to first. A companion edition written for AI assistants carries the sources and asides this one leaves out.
 
 ## Author's note on method
 

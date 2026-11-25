@@ -65,6 +65,8 @@ DRAFTED = {
     "00-front-matter.md", "01-expecting-a-divorce.md", "06-the-banana-peel.md",
     "06b-the-bot-in-the-witness-box.md", "04-two-centuries-of-one-loop.md", "10-the-meta-goal.md",
     "app-a-the-cards.md", "app-b-reading-list.md", "app-c-glossary.md",
+    # Drafted 2026-11-25 (overnight v1.0 queue), for Andre's read.
+    "app-f-who-to-talk-to-first.md",
 }
 
 # The labels, in plain words, and the line at the top of each working-copy page.
@@ -126,7 +128,8 @@ PARTS = [
         ("app-b-reading-list.md", "B. Reading list"),
         ("app-c-glossary.md", "C. Glossary"),
         ("app-d-bibliography.md", "D. Bibliography"),
-        ("app-e-pilot-term-sheet.md", "E. A draft term sheet for a pilot policy")]),
+        ("app-e-pilot-term-sheet.md", "E. A draft term sheet for a pilot policy"),
+        ("app-f-who-to-talk-to-first.md", "F. Who to talk to first")]),
 ]
 
 HOME = """# Bot Procurement Book
