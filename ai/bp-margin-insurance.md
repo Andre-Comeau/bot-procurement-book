@@ -54,7 +54,7 @@ terms: [Margin insurance]
 | Measurement | Contracts followed to completion, up to [n] months after the policy period |
 | Payment | [y] percent of the shortfall below the trigger; the bidder carries the rest |
 | Limits | [$] per contract; total no more than [n] times the premium |
-| Key conditions | Bid and estimate file fixed and time-stamped before close; the bot's price within the range set by the reference standard, the range in force on bid day governing |
+| Key conditions | Bid and estimate file fixed and time-stamped before close; the bot's price within the range set by the reference standard, the range in force on bid day governing; a bid sent in below the range is not covered, because the bidder could run the public standard and see the gap before closing |
 
 The project does not sell insurance and has no stake in the terms an insurer chooses.
 

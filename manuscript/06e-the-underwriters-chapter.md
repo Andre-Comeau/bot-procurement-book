@@ -42,6 +42,36 @@ None of this says the low bid lost money. A low price can be a real advantage: a
 
 So the base rate an insurer would start from is not zero, and it is not one number. Human prices run well below the market often, and lose money less often. A bot's error has to be measured against both, which is why every version of the bot will report its lean beside its middle. The prototype's own lean, low by design, is in chapter 16.
 
+## What economists already know
+
+Insurance against a bad price is new. The economics of buying insurance is not, and four old results carry over.
+
+The first is about deductibles. An insurer pays for its staff, its brokers and the capital it holds for a bad year, so a policy always costs more than the losses it expects to pay. In the 1960s the economists Kenneth Arrow and Jan Mossin showed what a sensible buyer does about that: it keeps the small losses and insures only the large ones. A buyer with deep pockets keeps more, and may buy nothing at all. For a bidder, that means a policy that pays only once a miss is large, with the bidder carrying the first part.
+
+The second is about size. In 1982 David Mayers and Clifford Smith found that large, diversified companies gain less from insurance, because they can absorb a loss that would sink a smaller firm. When they buy it, they buy it for other reasons: a lender asks for it, or the insurer handles claims better than they could. A contractor with thirty bids a year can carry its own misses, and a firm with a handful cannot. The cover is most useful to small bidders, and to whoever has the most jobs to spread it over, which is the software vendor.
+
+The third is about prevention. In 1972 Isaac Ehrlich and Gary Becker separated insurance, which moves a loss to someone else, from self-protection, which makes the loss less likely. Self-protection is often worth more. Checking a bot's price against the lowest prices paid in recent years, and against the standard, before the bid goes in, is self-protection. In the project's own model, those checks do more for a bidder than any policy, and they leave a remainder small enough to insure cheaply. An insurer that charges less for checked bids pays the bidder to check.
+
+The fourth is the oldest warning in bidding. In 1971 Ed Capen and two colleagues at Atlantic Richfield worked out why the oil leases their company won kept disappointing. The winning bid tended to be the one whose estimate was most wrong. They called it the winner's curse. Douglas Dyer and John Kagel later showed how construction firms learn to live with it. A bot that errs the same way for every client brings the curse back in a new form, because its mistakes no longer cancel out across the bidders.
+
+None of this is news to an underwriter. It may be news to an estimator.
+
+## Who would buy it
+
+The project's model puts these ideas to work on two Texas highway bidders. The medium bidder sends 31 bids a year on jobs of about $8 million, wins about five, and earns about $2 million a year. The small bidder sends 12 bids a year on jobs of about $1.5 million, wins about two, and earns about $125,000. Both price with a bot that typically misses by 6 percent, both check every price before it goes out, and both keep the first 5 percent of any miss, with the cover paying 80 percent of the rest.
+
+What the cover is worth depends on how much a bad year would hurt the firm, which comes down mostly to its capital.
+
+| Bidder's capital | Cover sold on its own, at about 0.15 percent of the contract | Cover sold by the software vendor, at about 0.11 percent |
+|---|---|---|
+| Thin | Buys | Buys |
+| Typical | The small bidder buys; the medium bidder does not | Buys |
+| Deep | Does not buy | Only just |
+
+The two prices are the lowest an insurer could charge and still earn a fair return. Sold on its own through a broker, the cover needs about 0.15 percent of the contract. Sold by the software vendor with its bot, with claims handled automatically and a yearly cap on what the insurer pays, it needs about 0.11 percent.
+
+The cover sells to any firm with thin capital, and through the vendor to most firms. It rarely sells on its own to a firm with deep pockets, as Arrow, Mossin, Mayers and Smith would have predicted. These are the model's figures, on assumptions that a real bidder's books would replace.
+
 ## Four open questions
 
 Four questions direct this effort, and the project cannot answer them alone:
@@ -60,7 +90,7 @@ With careful measurements and validation, it should be possible to insure a prod
 
 ### 4. Would a shared standard lower insurance premiums?
 
-Both of the questions about the tails are ameliorated through a reference standard. In our case of AI enhanced procurement, a standard AI-powered estimating system would provide a baseline insurers could use to limit payout risks. Since the reference standard would be able to generate estimates with error ranges, commercial products could be measured against this standard. Premiums could be capped by making the deviation a condition of each insurance policy. A bidder who prices below the standard is free to do so, but that bid is not covered. How much would a shared standard need to tell an insurer before it changes the price of a policy?
+Both of the questions about the tails are ameliorated through a reference standard. In our case of AI enhanced procurement, a standard AI-powered estimating system would provide a baseline insurers could use to limit payout risks. Since the reference standard would be able to generate estimates with error ranges, commercial products could be measured against this standard. Premiums could be capped by making the deviation a condition of each insurance policy. A bidder who prices below the standard is free to do so, but that bid is not covered. The rule carries more weight than it seems to. The standard is public, so a bidder can run it before the tender closes and see a claim coming. Without the rule, a bidder could bid below the standard on purpose to win the job and leave the insurer to pay for the gap. How much would a shared standard need to tell an insurer before it changes the price of a policy?
 
 There is also the issue of bid inflation. By limiting coverage of bids that may be too low based on the standard, insurers will create incentives for keeping bids closer to the expected outcomes. There will be systematic risk to buyers from this approach. The carrot to counterbalance this risk would be the growth of custom bids. Alternative bids are tricky for people to judge, and they draw complaints from unsuccessful bidders because the selection criteria cannot be written in advance without knowing the nature of the value engineering. A working, open-source estimator would solve this problem, because the method itself becomes the criterion disclosed in the tender. Bidders can model their proposals on their own copy before closing and see the outcomes, and the buyer judges them the same way afterwards. The same file always gets the same price, whoever runs it. A person still needs to review each alternative, since it may conflict with a need the tender never stated. The tender can say up front that alternatives pass or fail on the engineer's technical review, with written reasons, and a back-up lowest-cost bid applies if none of the alternatives is suitable. Life-cycle costs could come into a later version of the standard. Standardized AI could then replace the incentives for bid inflation with the opportunity for contractors to use their expertise to offer solutions unforeseen in the tender.
 
