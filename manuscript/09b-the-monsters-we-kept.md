@@ -62,6 +62,20 @@ The tools to tame it are old and dull: limits on how many bids one firm may send
 
 What would open the cage: a published check that a buyer can trust to sort the plausible from the careless, which is, as it happens, roughly what this book asks for.
 
+## The electronic person
+
+The fifth creature lives in the law library. If a bot could be sued, nobody else would have to answer for it. A corporation already lets a crowd of people be sued as one. Why not let a bot be sued as itself?
+
+Europe asked the question first. In 2017 the European Parliament invited the Commission to consider a status of "electronic persons" for the most autonomous robots. Experts answered with an open letter against it, and the idea went no further. Several American states have since passed laws to rule it out.
+
+The promise is a clean line: the bot decides, and the bot pays. It also seems to solve a puzzle, since a machine has no intent to prove. But the law rarely needs intent. A broken contract or careless advice is paid for without anyone asking what was meant. In 2024 Air Canada told a tribunal that its chatbot was "a separate legal entity that is responsible for its own actions". The tribunal called that a remarkable submission and made the airline pay.
+
+The monstrous trait is the empty wallet. A judgment against a person who owns nothing is a piece of paper. A company is a person because owners and assets stand behind it. A bot would need assets too. Held in escrow, they are dead capital, and held on a blockchain, they may sit beyond the reach of any local court. A lean bot that spends part of its fees on insurance does better, but an insurer needs someone to sign the policy, and that someone is a company again. Courts already look behind the code. In 2023 an American court let investors treat the token holders of a blockchain organization as partners, each answerable for the whole.
+
+Then there is the builder of the bot. Nobody builds a bot that keeps none of its takings, unless it is a public service. Good Samaritan laws will not shelter that service, since they cover first aid in an emergency, not advice on a tender.
+
+What would open the cage: a bot with assets, an insurer and an address where a claim can be served. That is a company with a bot inside it and a bonding company behind it. Personhood changes who gets sued. It does not change what has to be proved, and the yardstick for a wrong price is still the standard.
+
 ## The swarm that needs no standard
 
 The last creature is the one that could eat this book, and it would be dishonest to leave it out.
