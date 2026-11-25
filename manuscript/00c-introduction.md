@@ -36,7 +36,7 @@ So the useful questions are not whether the bot is right. They are how big its u
 
 Speed and breadth do not make a reading accountable. A bot cannot sign a memo, and a court will want to know what a person considered and what the tool did. The losing bidder on the US Army contract in chapter 1 could not trace an error to the evaluators' tool, and the court still ordered the tool's output added to the record. The bot can draft, but someone has to answer for the draft.
 
-That is why the project's design will keep a named person on every decision and treat the bot's price as a second opinion. The bot brings the averages, the speed and the reading. The person brings the signature.
+That is why, for now, the project's design keeps a named person on every decision and treats the bot's price as a second opinion. The bot brings the averages, the speed and the reading. The person brings the signature. The signature is a starting point, not the end state. The aim is a bot whose record, test and insurance answer for the draft, so that the person may still sign but no longer has to.
 
 ## The treasure
 
