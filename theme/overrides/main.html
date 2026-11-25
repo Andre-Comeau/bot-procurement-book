@@ -1,6 +1,18 @@
 {#- Link previews (Discord, Slack, social sites): Open Graph and Twitter card tags.
     The image URL must be absolute, so it is built from site_url. -#}
 {% extends "base.html" %}
+{#- Page titles. The home page leads with the plain words people search, not only the
+    book's name. AI-edition modules already end in "(Bot Procurement)", so they drop the
+    site-name suffix, which would push the words that matter past where results cut off. -#}
+{% block htmltitle %}
+  {%- if page and page.is_homepage %}
+  <title>Bot Procurement: a free, open book on AI that prices and checks construction bids</title>
+  {%- elif page and page.meta and page.meta.id %}
+  <title>{{ page.title | striptags }}</title>
+  {%- else %}
+  {{ super() }}
+  {%- endif %}
+{% endblock %}
 {% block extrahead %}
   {%- set og_title = page.title ~ " - " ~ config.site_name if page and page.title and not page.is_homepage else config.site_name -%}
   {%- set og_desc = page.meta.description if page and page.meta and page.meta.description else config.site_description -%}
@@ -45,7 +57,38 @@
       "url": config.site_url,
       "sameAs": [config.repo_url]
   } -%}
-  {%- if page and page.is_homepage %}
+  {%- if page and page.meta and page.meta.id %}
+  {#- An AI-edition module: an article that is part of the book, dated by its own
+      `updated`, with its Markdown twin named as an alternate encoding. -#}
+  <link rel="alternate" type="text/markdown" href="{{ config.site_url }}ai/{{ page.meta.id }}.md">
+  {%- set ld = {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      "headline": page.title,
+      "name": page.title,
+      "url": page.canonical_url,
+      "description": og_desc,
+      "dateModified": page.meta.updated | string,
+      "author": {"@type": "Person", "name": "Andre Comeau"},
+      "inLanguage": "en",
+      "creativeWorkStatus": "Draft",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "identifier": page.meta.id,
+      "keywords": (page.meta.terms or []) | join(", "),
+      "encoding": {"@type": "MediaObject", "encodingFormat": "text/markdown",
+                   "contentUrl": config.site_url ~ "ai/" ~ page.meta.id ~ ".md"},
+      "isPartOf": book
+  } -%}
+  {%- if page.meta.defined_terms %}
+  {%- set terms = [] -%}
+  {%- for t in page.meta.defined_terms %}
+  {%- set _ = terms.append({"@type": "DefinedTerm", "name": t.name, "description": t.description,
+                            "url": page.canonical_url ~ "#" ~ t.anchor}) -%}
+  {%- endfor %}
+  {%- set ld = dict(ld, **{"@type": "DefinedTermSet", "hasDefinedTerm": terms}) -%}
+  {%- endif %}
+  {%- elif page and page.is_homepage %}
   {%- set ld = dict(book, **{"@context": "https://schema.org"}) -%}
   {%- else %}
   {%- set ld = {

@@ -332,14 +332,52 @@ Sitemap: https://books.andrecomeau.xyz/{SLUG}/sitemap.xml
 # The AI edition (ai/) is built by tools/build_ai.py into docs/ai, where mkdocs renders each
 # module as a page. The hook then copies the Markdown itself next to the pages, so agents can
 # read /ai/<module>.md, the address its llms.txt gives.
-HOOKS = """import pathlib, shutil
+HOOKS = """import gzip, pathlib, re
+
+BUILD_KEYS = re.compile(r"^(?:title|description|defined_terms): .*\\n", flags=re.M)
+
 
 def on_post_build(config):
     src = pathlib.Path(config["docs_dir"]) / "ai"
     out = pathlib.Path(config["site_dir"]) / "ai"
+    updated = {}
     for p in src.glob("*.md"):
-        shutil.copy(p, out / p.name)
+        text = p.read_text(encoding="utf-8")
+        # The Markdown twin keeps the module's own front matter, not the keys the build added.
+        if text.startswith("---\\n"):
+            front, body = text[4:].split("---\\n", 1)
+            front = BUILD_KEYS.sub("", front)
+            text = ("---\\n" + front + "---\\n" + body) if front.strip() else body.lstrip()
+            m = re.search(r"^updated: *['\\"]?([0-9-]{10})", front, flags=re.M)
+            if m:
+                updated[p.stem] = m.group(1)
+        (out / p.name).write_text(text, encoding="utf-8")
+    # Sitemap: a module's lastmod is its own `updated` date, not the build date, so search
+    # engines can tell which pages changed.
+    sm = pathlib.Path(config["site_dir"]) / "sitemap.xml"
+    xml = sm.read_text(encoding="utf-8")
+    def fix(m):
+        stem = m.group(2)
+        return m.group(1) + (f"<lastmod>{updated[stem]}</lastmod>" if stem in updated else m.group(3))
+    xml = re.sub(r"(<loc>[^<]*/ai/([\\w-]+)/</loc>\\s*)(<lastmod>[^<]*</lastmod>)", fix, xml)
+    sm.write_text(xml, encoding="utf-8")
+    with gzip.open(str(sm) + ".gz", "wb") as gz:
+        gz.write(xml.encode("utf-8"))
 """
+
+
+# Titles and descriptions for the AI edition's routing pages, which have no front matter of their own.
+AI_PAGES = {
+    "README.md": ("AI-first edition: AI that prices and checks construction bids",
+                  "The AI-first edition of Bot Procurement: short, sourced modules on AI that prices and "
+                 "checks construction bids, tenders and change orders, written for AI assistants and the people who use them."),
+    "INDEX.md": ("Index of the AI-first edition",
+                 "Every module of the AI-first edition of Bot Procurement, by type, with a one-line summary: "
+                "AI construction bid pricing, tender evaluation, margin insurance, liability and the proposed standard."),
+    "FAQ.md": ("Questions and answers on AI construction procurement",
+               "Questions and short answers on AI construction procurement: AI bid generation and estimating, "
+              "AI bid and tender evaluation, margin insurance for construction bids, and who is liable when an AI price is wrong."),
+}
 
 
 def build_ai(docs):
@@ -357,8 +395,25 @@ def build_ai(docs):
         for s in meta.get("sources") or []:
             s = s if isinstance(s, dict) else {"title": str(s)}
             items.append(f"- [{s['title']}]({s['url']})" if s.get("url") else f"- {s['title']}")
+        # The questions the module answers, shown on the page in the asker's own words.
+        qs = [f"- {q}" for q in meta.get("questions") or []]
+        if qs and not re.search(r"^## Questions this page answers", text, flags=re.M):
+            text = text.rstrip() + "\n\n## Questions this page answers\n\n" + "\n".join(qs) + "\n"
         if items and not re.search(r"^## Sources", text, flags=re.M):
-            p.write_text(text.rstrip() + "\n\n## Sources\n\n" + "\n".join(items) + "\n", encoding="utf-8")
+            text = text.rstrip() + "\n\n## Sources\n\n" + "\n".join(items) + "\n"
+        # Each page's own summary becomes its meta description (search snippets, link previews,
+        # JSON-LD); without it every page shares the site's description.
+        extra = {"description": " ".join(str(meta.get("summary", "")).split())}
+        if meta["id"] == "bp-glossary":
+            # Terms for the DefinedTermSet block in theme/overrides/main.html.
+            extra["defined_terms"] = [
+                {"name": n.strip(), "anchor": a, "description": " ".join(d.split())}
+                for n, a, d in re.findall(r"^### (.+?)\s*\{#([\w-]+)\}\s*\n(.+?)(?=\n\n|\n###|\Z)",
+                                          text, flags=re.M | re.S)]
+        p.write_text(with_meta(text, **extra), encoding="utf-8")
+    for name, (title, desc) in AI_PAGES.items():
+        p = docs / "ai" / name
+        p.write_text(with_meta(p.read_text(encoding="utf-8"), title=title, description=desc), encoding="utf-8")
 
 
 def main():
