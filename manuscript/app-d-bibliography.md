@@ -78,7 +78,11 @@ Gransberg, Douglas D., and Marko Pala. *Open-Book Pricing Practices for Construc
 
 Hammurabi. *The Code of Hammurabi*, c. 1750 BC. Translated by L. W. King, 1910.
 
-Herbosch, Maarten. "Liability for AI Agents." *North Carolina Journal of Law & Technology* 26, no. 3 (2025): 391. (Developer liability and insurance; pure economic loss; the informed user; chapter 6c.)
+Herbosch, Maarten. "Liability for AI Agents." *North Carolina Journal of Law & Technology* 26, no. 3 (2025): 391. (Developer liability and insurance; pure economic loss; the informed user; chapter 12.)
+
+Herbosch, Maarten. *Intelligent contracteren: Het precontractueel gebruik van systemen op basis van artificiële intelligentie*. PhD thesis, KU Leuven, 2023. https://lirias.kuleuven.be/4031921. Published as a book by Wolters Kluwer, 2023. (The user carries the loss; standards and records as care; checking every output; chapter 12.)
+
+Herbosch, Maarten. "Contracting with Artificial Intelligence: A Comparative Analysis of the Intent to Contract." *Rabels Zeitschrift für ausländisches und internationales Privatrecht* 87, no. 4 (2023): 672. (A manifestly undesirable declaration; chapter 12.)
 
 *The Holy Bible*, King James Version, 1611: Genesis 2 to 3, 6 to 9 and 11; Leviticus 13 to 14 and 19:27; Ecclesiastes 1:9; Revelation 12:7 to 9.
 
@@ -117,6 +121,8 @@ Mossin, Jan. "Aspects of Rational Insurance Purchasing." *Journal of Political E
 Nithyanantham, Bharathi Kannan, Clemens Kujat, Tobias Sesterhenn, et al. "BIM-Edit: Benchmarking Large Language Models for IFC-Based Building Information Modeling." arXiv:2606.20146, June 2026. https://arxiv.org/abs/2606.20146.
 
 Old Republic Surety. "Can You Explain Your Bid Spread?" Blog post, undated. https://orsurety.com/blog/can-you-explain-your-bid-spread.
+
+Oliver, Matthew. "Contracting by Artificial Intelligence: Open Offers, Unilateral Mistakes, and Why Algorithms Are Not Agents." *ANU Journal of Law and Technology* 2, no. 1 (2021): 45. https://anujolt.org/article/24466. (The operator of a contracting program is bound by its deals; chapter 12.)
 
 Ontario General Contractors Association. "Progressive Procurement P3 – Q&As" (on Infrastructure Ontario's progressive P3s: "a proposal fee will be offered"). https://www.naylornetwork.com/oga-nwl/pdf/Progressive_Procurement_P3_-_Q&As.pdf.
 
@@ -200,7 +206,7 @@ Yegge, Steve. "Stevey's Google Platforms Rant." Google+ post, October 2011, wide
 
 *Battelle Memorial Institute*, B-418047.3, B-418047.4. US Government Accountability Office, 2020. https://www.gao.gov/products/b-418047.3,b-418047.4. (A single scoring inconsistency sustained a protest; chapter 7.)
 
-*Calgary (City) v. Northern Construction Co.*, [1987] 2 S.C.R. 757, affirming [1986] 2 W.W.R. 426 (Alta. C.A.). Supreme Court of Canada. (A bidder held to a mistaken price it disclosed before award; chapter 6c.)
+*Calgary (City) v. Northern Construction Co.*, [1987] 2 S.C.R. 757, affirming [1986] 2 W.W.R. 426 (Alta. C.A.). Supreme Court of Canada. (A bidder held to a mistaken price it disclosed before award; chapter 12.)
 
 *Daubert v. Merrell Dow Pharmaceuticals, Inc.*, 509 U.S. 579 (1993). Supreme Court of the United States. (Reliability of expert evidence, including a known error rate; chapter 17.)
 
@@ -211,6 +217,8 @@ Yegge, Steve. "Stevey's Google Platforms Rant." Google+ post, October 2011, wide
 *M.J.B. Enterprises Ltd. v. Defence Construction (1951) Ltd.*, [1999] 1 S.C.R. 619. Supreme Court of Canada. (The tender contract, Contract A; chapter 15.)
 
 *Office Design Group v. United States*, 951 F.3d 1366 (Fed. Cir. 2020). US Court of Appeals for the Federal Circuit. (Unequal scoring of indistinguishable proposals; chapter 7.)
+
+*Quoine Pte Ltd v. B2C2 Ltd*, [2020] SGCA(I) 2. Court of Appeal of Singapore. (Trades made by algorithms stand despite a glitch; knowledge judged by the programmer's mind; chapter 12.)
 
 *R. v. Mohan*, [1994] 2 S.C.R. 9. Supreme Court of Canada. (Admissibility of expert evidence; chapter 17.)
 

@@ -126,6 +126,20 @@ A survey of who is liable under today's law is useful, but it is not what a lega
 
 None of this is a reason to stop. It is a list of what the standard must do so that a legal department, and its insurer, can live with it. It must say clearly who is relying on what. It must make the human decision visible. It must come with tests good enough to price, tails included. And it must be written so that following it is strong evidence of care, even though it can never be a shield.
 
+## When the bot bids on its own
+
+The goal of this book is a bot that bids with nobody checking each line. Three strands of legal writing say what happens when it does, and at first they seem to pull against each other.
+
+The first says the bid binds. Matthew Oliver argues that a firm running a program that makes contracts has made an open offer to contract on whatever terms the program agrees. It takes the unprofitable deals with the profitable ones, and a mistake made by the program is not the kind of mistake that lets it walk away. Singapore's highest commercial court reached a similar result in *Quoine v B2C2* in 2020. After a glitch, two trading programs dealt at about 250 times the going rate, and the platform reversed the trades. The court held that the trades stood. Whether anyone knew of the mistake was judged by what the programmer had in mind when writing the program, and the programmer had meant no trick. Canadian tender law already holds a bidder to a price it did not mean. For autonomous bidding that is good news, because a bid with no signer still counts. It is also the risk, because every error the bot makes is the bidder's.
+
+The second says the user carries the loss, with a narrow exit. Maarten Herbosch, in his 2023 doctoral thesis on contracting with AI, finds that today's AI makes errors a user can foresee, so the harm traces back to whoever chose to deploy it. A declaration that is manifestly wrong may still be escaped, because the other side could not in good faith believe the user meant it, much as Canadian law makes room for an error apparent on the face of a tender. A plausible but wrong price binds. His 2025 article would move the loss to the developer, with insurance beside it, but as the last section showed, that route stops at pure economic loss, which is what a low price is.
+
+The third asks what care looks like. Herbosch finds that a user who meets a published standard or certificate is in principle careful. A user who keeps no record of the system's outputs and settings cannot later prove that it was fit for the job. And a duty to check every output would, in his words, hollow out the benefits of using the system at all.
+
+Read together, the three strands describe the job the standard and the margin cover were built for. The published test and the record are what a court would look to for care, and they show what the bot read and which line went wrong, so a clerical slip can be told from a pricing judgement. The floor in the tool test catches the manifest errors, the ones the buyer could not rely on anyway, before the bid goes in. The plausible errors, the ones that bind, are what margin insurance is for: the bid stands, and the insurer carries the shortfall across many jobs. The vendor, which knows its bot's record best, can sell that cover, which gives the bidder what Herbosch wanted developer liability to give without asking tort law to reach economic loss. And because the cover pays for errors nobody checked, nobody has to check every line. The person who signs today is a step on the way, not something the law requires.
+
+None of these writers looked at construction tenders. The fit is this book's reading of their work, not theirs.
+
 ## Three standards, not one
 
 The road to the legal department's blessing runs through the three standards of chapter 17, and each has to hold up under the law as it stands.
