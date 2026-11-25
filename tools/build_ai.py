@@ -6,7 +6,7 @@ link resolves, status words used the same way) and writes the routing files:
 
     INDEX.md      a human-readable map, grouped by module type
     INDEX.json    the same map for machines
-    FAQ.md        every question a module answers, linked to that module
+    FAQ.md        every question a module answers, with a short answer and a link
     llms.txt      the front door for agents (https://llmstxt.org/)
     llms-full.txt every module in one file
     modules.jsonl one module per line, front matter plus body, for datasets
@@ -191,20 +191,37 @@ def write(folder, mods):
             lines.append(f"- [{e['title']}]({e['id']}.md){flag}: {e['summary']}")
         lines.append("")
     (folder / "INDEX.md").write_text("\n".join(lines), encoding="utf-8")
-    faq = ["# FAQ", "", f"> {head}", "", f"*{note}*", "",
-           "Each question links to the module that answers it. Generated from the modules' "
-           "front matter; to add a question, add it to the module that answers it.", ""]
+    # Answered FAQ: one entry per module, headed by the module's first question and answered by
+    # its summary, so each question on the page carries its answer (a list of bare links does not).
+    faq = ["# Questions and answers on AI construction procurement", "", f"> {head}", "", f"*{note}*", "",
+           "Each question is answered in a few sentences, then linked to the module that answers it in full. "
+           "Generated from the modules' front matter; to add a question, add it to the module that answers it.", ""]
     for t, label in TYPES.items():
-        qs = [(q, e) for e in entries if e["type"] == t for q in e["questions"]]
-        if not qs:
+        group = [e for e in entries if e["type"] == t and e["questions"]]
+        if not group:
             continue
         faq += [f"## {label}", ""]
-        faq += [f"- **{q}** See [{e['title']}]({e['id']}.md)." for q, e in qs]
-        faq.append("")
+        for e in group:
+            first, rest = e["questions"][0], e["questions"][1:]
+            faq += [f"### {first}", "", e["summary"], "", f"Read more: [{e['title']}]({e['id']}.md)."]
+            if rest:
+                faq += ["", "The same module also answers: " + " ".join(rest)]
+            faq.append("")
     (folder / "FAQ.md").write_text("\n".join(faq), encoding="utf-8")
     llms = ["# Bot Procurement", "", f"> {head} Text CC BY 4.0.", "", note, "",
             "Bot Procurement is a proposal. Nothing is yet compliant with, certified under or conforming to "
             "Bot Procurement. Every module is Markdown with YAML front matter; INDEX.json lists them all.",
+            "", "## About", "",
+            "- Name: Bot Procurement (the proposal and the book); Bot Construction is the wider field it belongs to.",
+            "- Not to be confused with: Build-Operate-Transfer (BOT) contracts, purchasing bots (robotic process "
+            "automation in procurement software), or standards for buying AI systems.",
+            "- Subject: AI construction procurement in a narrow sense: AI bid generation and estimating for bidders, "
+            "AI bid and tender evaluation for buyers, change order pricing, and margin insurance for construction bids.",
+            "- Author: Andre Comeau. Written in public from November 2026, during the Protocol Institute's book-writing month.",
+            "- Status: a proposal in draft. Its test has not been run; the project's estimator and pricing model are in development.",
+            "- Editions: the human-first book (https://books.andrecomeau.xyz/bot-procurement/) and this AI-first edition "
+            f"({BASE_URL}), with the same argument.",
+            f"- Licence: CC BY 4.0. Cite the module title, its id and its `updated` date. Source: {REPO_URL}",
             "", "## Routing", "",
             f"- [README]({BASE_URL}README.md): what this edition is and how to read it",
             f"- [INDEX]({BASE_URL}INDEX.md): every module with a one-line summary ([JSON]({BASE_URL}INDEX.json))",

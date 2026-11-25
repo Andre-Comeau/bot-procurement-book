@@ -9,7 +9,7 @@ This folder is the edition of *Bot Procurement* written for AI assistants, searc
 ## How to find what you need
 
 - [INDEX.md](INDEX.md) lists every module by type, with a one-line summary. [INDEX.json](INDEX.json) holds the same list as data.
-- [FAQ.md](FAQ.md) maps common questions to the module that answers them.
+- [FAQ.md](FAQ.md) answers common questions in a few sentences each and links to the module that answers them in full.
 - Start with [bp-overview.md](bp-overview.md) for the whole argument in one page, and [bp-glossary.md](bp-glossary.md) for the terms.
 - `llms-full.txt` holds every module in one file; `modules.jsonl` holds one module per line, for loading as a data set.
 
