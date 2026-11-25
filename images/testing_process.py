@@ -5,7 +5,7 @@ window, Protocol Institute brand colours, none of its marks). One window per sta
 right from older contracts to newer: Learn (blue), Rehearse (green) and Final test (rust, in
 pale glass because it has not been run yet). Each window has a pale-glass emblem (a book, a
 loop, a padlock) and a pale panel with the stage's name, its contracts, what happens and the
-researchers' term (training, validation, test data). All wording is Claude's draft for Andre.
+researchers' term (training, validation, test data). All wording is a draft.
 
 Usage: python images/testing_process.py images/testing-process
 Then: node images/project_hex_map_render.js "$PWD/images/testing-process.html" images/testing-process.png 1700 1250

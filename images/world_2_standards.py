@@ -7,7 +7,7 @@ IEEE 3119, and the castle, a new part of ISO 10845 for the reasonable bot) and t
 sign-off (an OCDS extension for signed readings, the professions' practice notes).
 Past the castle is the courthouse, where the first case will test it.
 The drawing helpers come from second_opinion.py (chapter 10's Bot Procurement World), so
-the two worlds share one style. All proposals on the map are Claude's draft for Andre.
+the two worlds share one style. All proposals on the map are drafts.
 
     python images/world_2_standards.py images/world-2-standards
     node images/project_hex_map_render.js "$PWD/images/world-2-standards.html" images/world-2-standards.png 1800 1160

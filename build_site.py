@@ -61,11 +61,9 @@ DRAFTED = {
     "02-the-tender-is-the-api.md", "02b-the-buyers.md", "02c-the-bidders.md", "02d-the-vendors.md", "02e-the-designers.md", "06f-the-insurers.md",
     "06c-the-blessing-of-the-legal-department.md", "08b-the-zombie-lost-to-a-file-format.md",
     "09a-the-trades-who-holds-the-jig.md", "09b-the-monsters-we-kept.md",
-    # Drafted 2026-11-20 (thread "Retitle chapters and draft missing pieces"), for Andre's read.
     "00-front-matter.md", "01-expecting-a-divorce.md", "06-the-banana-peel.md",
     "06b-the-bot-in-the-witness-box.md", "04-two-centuries-of-one-loop.md", "10-the-meta-goal.md",
     "app-a-the-cards.md", "app-b-reading-list.md", "app-c-glossary.md",
-    # Drafted 2026-11-25 (overnight v1.0 queue), for Andre's read.
     "app-f-who-to-talk-to-first.md",
 }
 
@@ -89,10 +87,7 @@ def badge(name):
 
 PARTS = [
     # File names keep their first numbers; this list is the reading order.
-    # Since 2026-11-19 it follows Andre's outline (approved 2026-11-19). Since 2026-11-20 the
-    # groupings are the questions of his structure (Andre: "The questions should be chapter
-    # titles or chapter groupings"), and each stakeholder has its own chapter number.
-    # Chapter titles since 2026-11-19 take a section heading where one names the chapter better.
+    # The part names are the book's questions, and each stakeholder has its own chapter number.
     ("Front matter", [("00-front-matter.md", "Front matter")]),
     ("Overview. Why do we need a standard?", [("00b-prologue.md", "Prologue")]),
     ("Part I. What is the problem?", [
@@ -421,7 +416,7 @@ def main():
     site.mkdir()
     (site / "_redirects").write_text(
         f"/ /{SLUG}/ 302\n"
-        # Chapter 3a was folded into chapter 3 (2026-11-24).
+        # Chapter 3a was folded into chapter 3.
         f"/{SLUG}/working/05-liability-shifts/ /{SLUG}/working/06e-the-underwriters-chapter/#who-answers-for-the-reading 301\n",
         encoding="utf-8")
     (site / "robots.txt").write_text(ROBOTS, encoding="utf-8")
