@@ -1,6 +1,6 @@
 # Three standards, and how they could stick
 
-Chapter 16 ended at a door, and behind it was the standard, World 2 on the map. A good rehearsal score does not open it. A court, as the witness box at the end of this chapter shows, will ask for more: a record of what the bot did, when and why, and a reasonable reader to measure it against.
+Chapter 16 ended at a door, and behind it was the standard, World 2 on the map. A good rehearsal score does not open it. A court, as the witness box in chapter 17a shows, will ask for more: a record of what the bot did, when and why, and a reasonable reader to measure it against.
 
 Until now, the plan for getting through that door rested on one assumption: build a model that is good enough, publish it, and the field would gather around it on its own. The estimator would be the seed and the rest would grow.
 
@@ -116,5 +116,3 @@ Past the versions is the rung chapter 19 describes: a bot that bids on its own, 
 The prediction can be wrong, and it should say how. If by 2035 no public owner anywhere runs a tender whose questions, addenda, bids and evaluation pass through agents on a published data format, the forecast failed. The standard itself is further out, in the ten to fifteen years the CubeSat suggests, and its first court challenge will probably come before it, from a dispute fought under the old rules.
 
 The model was never going to generate the field. What it can do is give a small group of people a template to issue, a reading to sign and a test to argue about. That is how a standard starts, and the villagers, as the zombie garden in chapter 15 promised, are the ones who decide whether it sticks.
-
----
