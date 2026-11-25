@@ -1,8 +1,14 @@
 # Appendix D. Bibliography
 
+AACE International. Recommended Practice 17R-97, *Cost Estimate Classification System*. (Estimate classes by stage of design; chapter 17.)
+
 Abbott, Bud, and Lou Costello. "Who's on First?" Comedy routine, performed from 1937; filmed in *The Naughty Nineties* (Universal, 1945). (Named, not quoted.)
 
+Actuarial Standards Board. Actuarial Standard of Practice No. 56, *Modeling*. (Relying on a model someone else built; chapters 3 and 17.)
+
 AM Best. *Best's Special Report: Infrastructure Projects Spur Growth and Help Fuel Profits for U.S. Surety Insurers.* 19 January 2026. Summary: https://www.businesswire.com/news/home/20260119512086/en/.
+
+Armilla AI. "Armilla Launches Affirmative AI Liability Insurance with Lloyd's Underwriter Chaucer." https://www.armilla.ai/resources/armilla-launches-affirmative-ai-liability-insurance-with-lloyds-underwriter-chaucer. (Chapter 13.)
 
 Arrow, Kenneth J. "Uncertainty and the Welfare Economics of Medical Care." *American Economic Review* 53, no. 5 (1963): 941–973.
 
@@ -42,9 +48,9 @@ Design-Build Institute of America. "New FMI Report 2024." Blog post, 7 January 2
 
 Deutsches Institut für Normung. DIN 476, *Papierformate* (paper formats). Berlin, 1922.
 
-"Drunken Sailor" ("What Shall We Do with the Drunken Sailor?"). Traditional sea shanty, first printed in the nineteenth century.
-
 Dionysius of Halicarnassus. *Roman Antiquities*, book 6, 17.2 and 94. Translated by Earnest Cary, Loeb Classical Library, 1940. https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Dionysius_of_Halicarnassus/6A*.html. (The temple contracts of about 495 BCE; chapter 18 and Appendix A.)
+
+"Drunken Sailor" ("What Shall We Do with the Drunken Sailor?"). Traditional sea shanty, first printed in the nineteenth century.
 
 Dwork, Cynthia, and Moni Naor. "Pricing via Processing or Combatting Junk Mail." In *Advances in Cryptology: CRYPTO '92*, 139–147. Lecture Notes in Computer Science 740. Berlin: Springer, 1993.
 
@@ -52,17 +58,21 @@ Dyer, Douglas, and John H. Kagel. "Bidding in Common Value Auctions: How the Com
 
 Dyer, Douglas, John H. Kagel and Dan Levin. "A Comparison of Naive and Experienced Bidders in Common Value Offer Auctions: A Laboratory Analysis." *Economic Journal* 99, no. 394 (1989): 108–115.
 
-Ehrlich, Isaac, and Gary S. Becker. "Market Insurance, Self-Insurance, and Self-Protection." *Journal of Political Economy* 80, no. 4 (1972): 623–648.
-
 Eghbal, Nadia. *Working in Public: The Making and Maintenance of Open Source Software.* San Francisco: Stripe Press, 2020.
+
+Ehrlich, Isaac, and Gary S. Becker. "Market Insurance, Self-Insurance, and Self-Protection." *Journal of Political Economy* 80, no. 4 (1972): 623–648.
 
 European Commission. Proposal for a Regulation on public procurement and concessions (Public Procurement Act), COM(2026) 590, 9 September 2026.
 
 European Court of Auditors. *Public Procurement in the EU: Less Competition for Contracts Awarded for Works, Goods and Services in the 10 Years up to 2021.* Special Report 28/2023. Luxembourg, 2023.
 
+European Union. Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act), Article 15, "Accuracy, robustness and cybersecurity." *Official Journal of the European Union*, 12 July 2024. https://eur-lex.europa.eu/eli/reg/2024/1689/oj. (Declared accuracy and its metrics; chapter 3.)
+
 Federal Highway Administration. *Alternative Contracting Method Performance in U.S. Highway Construction.* TechBrief FHWA-HRT-17-100. McLean, VA: FHWA, April 2018. https://www.fhwa.dot.gov/publications/research/infrastructure/17100/index.cfm
 
 Federal Highway Administration. *National Review of State Cost Estimation Practice.* Washington, DC: FHWA, February 2015. https://www.fhwa.dot.gov/construction/contracts/2014cost.pdf.
+
+Florida Statutes, section 627.0628, Florida Commission on Hurricane Loss Projection Methodology. https://m.flsenate.gov/Statutes/627.0628. (Private hurricane models accepted against published standards; chapter 3.)
 
 Freedberg, Sydney J., Jr. "The Myth of the $600 Hammer." *Government Executive*, 7 December 1998. https://www.govexec.com/federal-news/1998/12/the-myth-of-the-600-hammer/5271/.
 
@@ -96,7 +106,9 @@ International Organization for Standardization. ISO 10845-1:2020, *Construction 
 
 International Organization for Standardization. ISO 10845-3, *Construction procurement: Part 3: Standard conditions of tender*. Geneva.
 
-Intuit QuickBooks and TSheets. Job-costing survey of 666 construction business owners and financial experts, 2019. Reported in "Survey: 1 in 3 Construction Companies Earning Less Than Expected", *For Construction Pros*, 3 May 2019. https://www.forconstructionpros.com/profit-matters/news/21067180/survey-1-in-3-construction-companies-earning-less-than-expected.
+International Organization for Standardization and International Electrotechnical Commission. ISO/IEC 42001:2023, *Information technology: Artificial intelligence: Management system*. Geneva: ISO, 2023. (Cited by clause number only; chapter 3.)
+
+Intuit QuickBooks and TSheets. Job-costing survey of 666 construction business owners and financial experts, 2019. Reported in "Survey: 1 in 3 Construction Companies Earning Less Than Expected", *For Construction Pros*, 3 May 2019. https://www.forconstructionpros.com/business/business-services/financing-insurance-leasing/news/21067180/intuit-quickbooks-survey-1-in-3-construction-companies-earning-less-than-expected.
 
 Kahneman, Daniel, Olivier Sibony, and Cass R. Sunstein. *Noise: A Flaw in Human Judgment.* New York: Little, Brown Spark, 2021.
 
@@ -116,7 +128,13 @@ Liu, Bannerman, Elliot, Ewart and Atkinson. "Underpricing for Construction Proje
 
 Mayers, David, and Clifford W. Smith, Jr. "On the Corporate Demand for Insurance." *Journal of Business* 55, no. 2 (1982): 281–296.
 
+MITRE. *ATLAS: Adversarial Threat Landscape for Artificial-Intelligence Systems*. https://atlas.mitre.org/. (Poisoned data; chapter 3.)
+
 Mossin, Jan. "Aspects of Rational Insurance Purchasing." *Journal of Political Economy* 76, no. 4 (1968): 553–568.
+
+Munich Re. "Insure AI" and its FAQ. https://www.munichre.com/en/solutions/for-industry-clients/insure-ai.html. (Insuring the performance of AI models; chapter 13.)
+
+National Institute of Standards and Technology. *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*. NIST AI 100-1. Gaithersburg, MD: NIST, January 2023. https://doi.org/10.6028/NIST.AI.100-1. (Chapter 3.)
 
 Nithyanantham, Bharathi Kannan, Clemens Kujat, Tobias Sesterhenn, et al. "BIM-Edit: Benchmarking Large Language Models for IFC-Based Building Information Modeling." arXiv:2606.20146, June 2026. https://arxiv.org/abs/2606.20146.
 
@@ -143,6 +161,8 @@ Red Green (Steve Smith). *How to Do Everything: From the Man Who Should Know.* T
 Roegies, Kelly. "A Government Guide to Open Protocols." *Protocolized*, 19 March 2026. https://protocolized.io/p/a-government-guide-to-open-protocols.
 
 Royal Institution of Chartered Surveyors. *Cost Prediction.* RICS professional standard, 1st ed. London: RICS, 2020; effective 1 July 2021. https://www.rics.org/.
+
+Royal Institution of Chartered Surveyors. *Responsible Use of Artificial Intelligence in Surveying Practice*. RICS professional standard, 1st ed., September 2025; mandatory from 9 March 2026. https://www.rics.org/content/dam/ricsglobal/documents/standards/Responsible-use-of-artificial-intelligence-in-surveying-practice_September-2025.pdf. (Chapters 3 and 17.)
 
 Royal Institution of Chartered Surveyors. *RICS Data Standard* (v3.3.3, MIT licence). https://www.isurv.com/homepage/945/rics_data_standards_and_schema.
 
@@ -210,11 +230,11 @@ Yegge, Steve. "Stevey's Google Platforms Rant." Google+ post, October 2011, wide
 
 *Calgary (City) v. Northern Construction Co.*, [1987] 2 S.C.R. 757, affirming [1986] 2 W.W.R. 426 (Alta. C.A.). Supreme Court of Canada. (A bidder held to a mistaken price it disclosed before award; chapter 12.)
 
-*Daubert v. Merrell Dow Pharmaceuticals, Inc.*, 509 U.S. 579 (1993). Supreme Court of the United States. (Reliability of expert evidence, including a known error rate; chapter 17.)
+*Daubert v. Merrell Dow Pharmaceuticals, Inc.*, 509 U.S. 579 (1993). Supreme Court of the United States. (Reliability of expert evidence, including a known error rate; chapters 17 and 17a.)
 
-*Everalbum, Inc., In the Matter of*. US Federal Trade Commission, File No. 192-3172, decision and order, 2021. (Deletion of models built on improperly collected data; chapter 17a.)
+*Everalbum, Inc., In the Matter of*. US Federal Trade Commission, File No. 192-3172, decision and order, 2021. (Deletion of models built on improperly collected data; chapter 19.)
 
-*Kurbo, Inc. and WW International, Inc., United States v.* US District Court, Northern District of California, stipulated order, 2022. (The same remedy; chapter 17a.)
+*Kurbo, Inc. and WW International, Inc., United States v.* US District Court, Northern District of California, stipulated order, 2022. (The same remedy; chapter 19.)
 
 *M.J.B. Enterprises Ltd. v. Defence Construction (1951) Ltd.*, [1999] 1 S.C.R. 619. Supreme Court of Canada. (The tender contract, Contract A; chapter 15.)
 
@@ -222,12 +242,12 @@ Yegge, Steve. "Stevey's Google Platforms Rant." Google+ post, October 2011, wide
 
 *Quoine Pte Ltd v. B2C2 Ltd*, [2020] SGCA(I) 2. Court of Appeal of Singapore. (Trades made by algorithms stand despite a glitch; knowledge judged by the programmer's mind; chapter 12.)
 
-*R. v. Mohan*, [1994] 2 S.C.R. 9. Supreme Court of Canada. (Admissibility of expert evidence; chapter 17.)
+*R. v. Mohan*, [1994] 2 S.C.R. 9. Supreme Court of Canada. (Admissibility of expert evidence; chapters 17 and 17a.)
 
-*R. v. Ron Engineering & Construction (Eastern) Ltd.*, [1981] 1 S.C.R. 111. Supreme Court of Canada. (A bid, once opened, binds the bidder; chapters 3 and 15.)
+*R. v. Ron Engineering & Construction (Eastern) Ltd.*, [1981] 1 S.C.R. 111. Supreme Court of Canada. (A bid, once opened, binds the bidder; chapters 12, 15 and 18.)
 
-*Ryan v. Victoria (City)*, [1999] 1 S.C.R. 201. Supreme Court of Canada. (Following a standard is evidence of reasonable care, not a complete defence; chapter 17a.)
+*Ryan v. Victoria (City)*, [1999] 1 S.C.R. 201. Supreme Court of Canada. (Following a standard is evidence of reasonable care, not a complete defence; chapter 12.)
 
-*Tercon Contractors Ltd. v. British Columbia (Transportation and Highways)*, 2010 SCC 4, [2010] 1 S.C.R. 69. Supreme Court of Canada. (Exclusion clauses in a tender; chapters 3 and 15.)
+*Tercon Contractors Ltd. v. British Columbia (Transportation and Highways)*, 2010 SCC 4, [2010] 1 S.C.R. 69. Supreme Court of Canada. (Exclusion clauses in a tender; chapter 15.)
 
-*Trax v. United States*, No. 26-796. US Court of Federal Claims, Judge Carolyn N. Lerner; opinion filed under seal 3 September 2026, public 22 September 2026. (An agency's AI evaluations ordered into the record; chapters 3, 17 and 17a.)
+*Trax v. United States*, No. 26-796. US Court of Federal Claims, Judge Carolyn N. Lerner; opinion filed under seal 3 September 2026, public 22 September 2026. (An agency's AI evaluations ordered into the record; chapters 1, 12, 15 and 17a.)
