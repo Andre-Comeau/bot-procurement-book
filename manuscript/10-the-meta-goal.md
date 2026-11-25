@@ -48,6 +48,6 @@ It is a working rule, and it may even be where to start. But deleting a bot puni
 
 The Stevenson Test said New Nature is wherever there is nobody to appeal to. Bots will make a great deal of new nature. They will read faster than any of us, and they will be wrong in ways that are hard to argue with. What is left for people is to imagine what to build, to decide, and to appeal what was decided. That may be the most human work there is.
 
-So the book ends with a person, not a bot. The keyholder reads what the machine drafted, adjusts the lines it flagged, signs, and gives a reason. Every chapter has been about making that signature cheaper to give and safer to rely on.
+So the book ends with a person, but not with a person checking every line. Today the keyholder reads what the machine drafted, adjusts the lines it flagged, signs, and gives a reason. Every chapter has been about making that signature cheaper to give and safer to rely on, until it is no longer needed. The goal is a bot that bids on its own, backed by a published test, a public reference price and cover for its errors. The keyholder may still choose to sign, and many will want to, but they will not have to. What stays with them is the work no bot takes over: deciding what to bid on, changing a price when they disagree, and appealing what was decided.
 
 None of this is built by one person. The project hopes to arrive as a field: buyers, bidders, trades, designers, vendors, lawyers and insurers, each holding a piece of the jig.

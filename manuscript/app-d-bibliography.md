@@ -78,6 +78,8 @@ Gransberg, Douglas D., and Marko Pala. *Open-Book Pricing Practices for Construc
 
 Hammurabi. *The Code of Hammurabi*, c. 1750 BC. Translated by L. W. King, 1910.
 
+Herbosch, Maarten. "Liability for AI Agents." *North Carolina Journal of Law & Technology* 26, no. 3 (2025): 391. (Developer liability and insurance; pure economic loss; the informed user; chapter 6c.)
+
 *The Holy Bible*, King James Version, 1611: Genesis 2 to 3, 6 to 9 and 11; Leviticus 13 to 14 and 19:27; Ecclesiastes 1:9; Revelation 12:7 to 9.
 
 Institute of Electrical and Electronics Engineers. IEEE 3119-2025, *IEEE Standard for the Procurement of Artificial Intelligence and Automated Decision Systems*. New York: IEEE, 2025.
@@ -197,6 +199,8 @@ Yegge, Steve. "Stevey's Google Platforms Rant." Google+ post, October 2011, wide
 ## Cases and orders
 
 *Battelle Memorial Institute*, B-418047.3, B-418047.4. US Government Accountability Office, 2020. https://www.gao.gov/products/b-418047.3,b-418047.4. (A single scoring inconsistency sustained a protest; chapter 7.)
+
+*Calgary (City) v. Northern Construction Co.*, [1987] 2 S.C.R. 757, affirming [1986] 2 W.W.R. 426 (Alta. C.A.). Supreme Court of Canada. (A bidder held to a mistaken price it disclosed before award; chapter 6c.)
 
 *Daubert v. Merrell Dow Pharmaceuticals, Inc.*, 509 U.S. 579 (1993). Supreme Court of the United States. (Reliability of expert evidence, including a known error rate; chapter 17.)
 
