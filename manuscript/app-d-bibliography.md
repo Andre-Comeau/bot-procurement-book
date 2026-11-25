@@ -18,6 +18,8 @@ ASTM International. "The History of ASTM International." https://about.astm.org/
 
 Auditor General of Ontario. *Annual Report 2024*, chapter "Procurement and Delivery of Selected Infrastructure Projects". Toronto: Office of the Auditor General of Ontario, 2024. https://www.auditor.on.ca/en/content/annualreports/arreports/en24/pa_infrastructureON_en24.pdf.
 
+Bolton, Alexandra, Mark Enzer, Jennifer Schooling, et al. *The Gemini Principles*. Cambridge: Centre for Digital Built Britain and Digital Framework Task Group, 2018. https://doi.org/10.17863/CAM.32260. Licence CC BY 3.0. (Quality "transparent, defined and measured"; liability named and left open; chapter 17.)
+
 Brooks, Frederick P., Jr. *The Mythical Man-Month: Essays on Software Engineering.* Reading, MA: Addison-Wesley, 1975. Chapter 3, "The Surgical Team".
 
 buildingSMART International. *Information Delivery Specification (IDS)*, version 1.0. Final standard, 4 June 2024. https://www.buildingsmart.org/standards/bsi-standards/information-delivery-specification-ids/.
@@ -99,6 +101,8 @@ Herbosch, Maarten. "Contracting with Artificial Intelligence: A Comparative Anal
 Institute of Electrical and Electronics Engineers. IEEE 3119-2025, *IEEE Standard for the Procurement of Artificial Intelligence and Automated Decision Systems*. New York: IEEE, 2025.
 
 International Association of Assessing Officers. *Standard on Ratio Studies.* Kansas City: IAAO, 2013. https://www.iaao.org/.
+
+International Organization for Standardization. ISO 19650-2:2018, *Organization and digitization of information about buildings and civil engineering works, including building information modelling (BIM): Information management using building information modelling: Part 2: Delivery phase of the assets*. Geneva: ISO, 2018. (Information requirements in the tender; chapter 17.)
 
 International Organization for Standardization. ISO 216, *Writing paper and certain classes of printed matter: Trimmed sizes: A and B series*. Geneva, 1975.
 
@@ -201,6 +205,8 @@ Texas Department of Transportation. "Bid Tabulations." Open dataset de7b-7dna, T
 Texas Department of Transportation. Letting archive of bid tabulations, monthly files 2013 to 2024. ftp.dot.state.tx.us/pub/txdot-info/cmd/cserve/bidtab/.
 
 Thomson, Martin, and David Schinazi. *Maintaining Robust Protocols.* RFC 9413. Internet Architecture Board, June 2023. https://www.rfc-editor.org/rfc/rfc9413.html.
+
+UK BIM Alliance, Centre for Digital Built Britain and BSI. *Information Management according to BS EN ISO 19650: Guidance Part 1: Concepts*. 1st ed., April 2019. (Requirements readable by people and technology; the common data environment; chapter 17.)
 
 U.S. Small Business Administration. "Growth, Demand in Manufacturing Drives Record Surety Bond Guarantees in FY25." News release 26-20, 13 January 2026. https://legacy.sba.gov/article/2026/01/13/growth-demand-manufacturing-drives-record-surety-bond-guarantees-fy25.
 
