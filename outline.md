@@ -66,7 +66,7 @@ A map of the book in reading order, one short paragraph per chapter.
 
 ## Appendices
 
-**A. Procurement Machines.** Twenty cards on the machines of procurement, from 493 BCE to 2026.
+**A. Procurement Machines.** Twenty cards on the machines of procurement, from Babylon to 2026.
 
 **B. Reading list.** Works for a reader who wants to go further.
 
