@@ -66,7 +66,7 @@
 
 **Keyholder.** The named person who reviews what a bot drafted, adjusts the flagged lines, decides and signs, with a reason (chapters 12, 16 and 17a). The keyholder is today's step: the long-term goal is a bot that bids on its own, which the keyholder may still choose to sign but no longer has to (chapter 19).
 
-**Listener.** A bot that collects bidders' questions during a tender, from people or bots, and answers with no more than a nod, a shake or a shrug (chapter 17).
+**Listener.** The buyer's bot that collects bidders' questions during a tender, from people or bots. A question raised by any bidder's bot is answered to every bidder, by a new version of the template (chapter 17).
 
 **Lump sum.** One price for the whole of the work, or for a few large parts, instead of a price for each line (chapters 4 and 16).
 
