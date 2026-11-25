@@ -36,7 +36,7 @@ terms: [The tender as the interface, Tender]
 
 - **Three components:** the design; the tender, which is the interface; and construction, which compiles the design. The builder agrees, in an auction, to provide everything needed to compile it.
 - **The virtue of an interface:** neither side reads the other's source code. The designer need not know how the builder schedules crews; the builder need not know why the engineer chose that beam.
-- **The second virtue:** one door means one builder answers for everything behind it, and on most North American public work a surety stands behind that builder. Hiring a construction manager to buy from the trades for you trades that accountability away.
+- **The second virtue:** one door means one builder answers for everything behind it, and on most North American public work a bonding company stands behind that builder. Hiring a construction manager to buy from the trades for you trades that accountability away.
 - **The flaw:** the interface is a stack of PDFs, and unlike software interfaces it is called once per bidder, in a few weeks, with its errors found by the people least placed to say so.
 - **The threat:** when writing a bid becomes nearly free, the door floods.
 

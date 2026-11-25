@@ -58,7 +58,7 @@
 
 **Key.** One of the four answers to a flood of requests: deciding who may send one. Construction's keys are prequalification and capacity ratings (chapter 1).
 
-**Keyholder.** The named person who reviews what a bot drafted, adjusts the flagged lines, decides and signs, with a reason (chapters 16 and 17a).
+**Keyholder.** The named person who reviews what a bot drafted, adjusts the flagged lines, decides and signs, with a reason (chapters 16 and 17a). The keyholder is today's step: the long-term goal is a bot that bids on its own, which the keyholder may still choose to sign but no longer has to (chapter 19).
 
 **Listener.** A bot that collects bidders' questions during a tender, from people or bots, and answers with no more than a nod, a shake or a shrug (chapter 17).
 

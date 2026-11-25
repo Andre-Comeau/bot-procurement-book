@@ -42,7 +42,7 @@ terms: [Margin insurance]
 - **Why not insure the low bid:** the bidder controls costs and could make every line pay out; a clever bot may bid low on purpose when the firm can still profit; and every winning low bid makes the bidder's finances worse before data arrives.
 - **The insurable event:** a shortfall in margin, measured against a cost model built from costs the bidder declared in the estimate file on bid day (owned equipment, crew rates, a nearby yard).
 - **The trigger:** the average margin across the covered, completed contracts falls more than a set number of points below the target. One losing job does not trigger anything.
-- **Guards:** costs on site never enter the claim, so inflating them gains nothing; a false declaration voids cover; the insurer keeps a right to audit, as sureties do; the bidder carries a share of any shortfall.
+- **Guards:** costs on site never enter the claim, so inflating them gains nothing; a false declaration voids cover; the insurer keeps a right to audit, as bonding companies do; the bidder carries a share of any shortfall.
 
 ## The draft term sheet (Appendix E, placeholders in brackets)
 
@@ -53,7 +53,8 @@ terms: [Margin insurance]
 | Trigger | Average margin on completed covered contracts more than [x] points below target |
 | Measurement | Contracts followed to completion, up to [n] months after the policy period |
 | Payment | [y] percent of the shortfall below the trigger; the bidder carries the rest |
-| Limits | [$] per contract; total no more than [n] times the premium |
+| Premium | [p] percent of the contract price on each contract won, paid at award like a bond premium; the book's model puts the lowest fair price at about 0.11 to 0.15 percent ($8,800 to $12,000 on an $8 million contract) |
+| Limits | [$] per contract; total no more than [n] times the premiums paid in the policy period |
 | Key conditions | Bid and estimate file fixed and time-stamped before close; the bot's price within the range set by the reference standard, the range in force on bid day governing; a bid sent in below the range is not covered, because the bidder could run the public standard and see the gap before closing |
 
 The project does not sell insurance and has no stake in the terms an insurer chooses.

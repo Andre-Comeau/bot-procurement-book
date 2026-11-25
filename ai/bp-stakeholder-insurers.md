@@ -36,7 +36,7 @@ book: [06e-the-underwriters-chapter.md, 06f-the-insurers.md, app-e-pilot-term-sh
 - **Today:** insurers measure AI products one at a time, each with custom validation, which makes it hard for a vendor to shop for a better price. General liability insurers are adding exclusions for generative AI.
 - **The pitch:** a reference standard as a common baseline for measuring how far any estimating product deviates; a record that settles, after a loss, whether the bot or the bidder caused it.
 - **The product the project proposes:** [margin insurance](bp-margin-insurance.md), paid when a bot's bids keep falling short of a target margin across many completed contracts; one losing job is not a claim. A draft term sheet exists for an underwriter to mark up.
-- **Bonding companies (sureties):** they guarantee the builder, not the price, and lose money mainly on firms that grow too fast; the project's one standing surety use case is the SBA guarantee program ([sureties](bp-sureties.md)).
+- **Bonding companies (sureties):** they guarantee the builder, not the price, and lose money mainly on firms that grow too fast; the project's one standing use case for bonding companies is the SBA guarantee program ([sureties](bp-sureties.md)).
 - **The base rate:** human prices run far below the market often (the low bid more than 20 percent under the engineer's estimate on one Texas highway contract in eight) and lose money less often ([estimate accuracy](bp-estimate-accuracy.md)).
 - **The base case for large buyers:** the buyer as its own insurer, with third-party cover essential for small buyers and marginal bidders ([buyer as insurer](bp-buyer-as-insurer.md)).
 

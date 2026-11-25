@@ -14,9 +14,9 @@ This is a starting point for an underwriter to mark up, not an offer. Every numb
 
 **Payment:** [y] percent of the shortfall below the trigger. The bidder carries the rest of the shortfall.
 
-**Premium:** [$] for the policy period.
+**Premium:** [p] percent of the contract price on each contract won, paid at award, the way a bond premium is. For scale, the project's model puts the lowest fair price at about 0.11 to 0.15 percent: $8,800 to $12,000 on an $8 million contract (chapter 3).
 
-**Limits:** [$] per contract, and a total of no more than [number] times the premium for the policy period.
+**Limits:** [$] per contract, and a total of no more than [number] times the premiums paid in the policy period.
 
 **Policy period:** [12] months, on [number] tenders by [number] bidders.
 

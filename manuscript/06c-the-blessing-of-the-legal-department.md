@@ -10,7 +10,7 @@ Writing this book changed the picture. The buyers this book is about do not pric
 
 So the tool, however good, arrives second. The record of who decided, on what, and why, arrives first.
 
-That flips the order of the road. Legal questions cannot wait for adoption, because for this audience they are the gate to adoption. A legal department blesses a method only when it can see how the method will hold up in front of a tribunal, under today's law, not the law the project hopes for. That means three things have to hold up together: the model, the standard that says what a conforming model must do, and the document standard that says what the model reads.
+That flips the order of the road. Legal questions cannot wait for adoption, because for this audience they are the gate to adoption. A legal department blesses a method only when it can see how the method will hold up in front of a tribunal, under today's law, not the law the project hopes for. That means three things have to hold up together: the documents the bot reads, the test that says what a conforming bot must do, and the sign-off of the person who relies on it.
 
 The path is clearer than it was. It is also longer, and steeper.
 
@@ -26,7 +26,7 @@ Put those together and a legal department's checklist writes itself. A person mu
 
 This is good news for the keyholder that chapter 16 introduces, the named person who signs the number and gives a reason. The keyholder is not a courtesy. It is the part of the design a legal department will look for first.
 
-It is less good news for the idea that a bot's number could ever stand alone. For this audience, it won't, at least not until a standard exists that a court already trusts. The bot's job is to make the person's reasons better and faster, and to leave a trail that shows it.
+It is less good news for the idea that a bot's number could stand alone today. For this audience, it won't until a standard exists that a court already trusts. The signature is today's step, not the destination (chapter 19). The bot's job is to make the person's reasons better and faster, and to leave a trail that shows it.
 
 ## Admissible is not the same as reliable
 
@@ -106,7 +106,7 @@ Then the ends. A typical miss is only the middle, and a cross-examiner will ask 
 
 Then the honesty of the test itself. A test is spent once. Scoring the same contracts again with each new version, and choosing the next version after seeing the scores, turns a test into practice. The results are still useful, but they are a rehearsal, and they flatter. A test the law can lean on is run on contracts nobody has looked at, under rules published before the first one is opened, in more than one place.
 
-None of that is a reason to hide the numbers when they come. It is the reason every version of the bot should report its middle, its ends and its lean together, and say plainly which kind of test produced them. The details of how that is done belong to the method, at the back of the book.
+None of that is a reason to hide the numbers when they come. It is the reason every version of the bot should report its middle, its ends and its lean together, and say plainly which kind of test produced them. The details of how that is done are in the AI edition that accompanies this book.
 
 ## Who is liable when the standard is wrong
 
@@ -128,9 +128,9 @@ None of this is a reason to stop. It is a list of what the standard must do so t
 
 ## Three standards, not one
 
-The road to the legal department's blessing runs through three artifacts, and each has to hold up under the law as it stands.
+The road to the legal department's blessing runs through the three standards of chapter 17, and each has to hold up under the law as it stands.
 
-The model has to be frozen, fingerprinted, tested in public, and scoped: this is what it is for, and this is what it is not for, written so the scope can go into a contract. The standard has to be a test any vendor's model can pass, not a mandate to use one particular bot, because Canada's trade agreements bar a buyer from naming one brand without accepting equivalents. And the document standard, the machine-readable tender that replaces the PDF as the copy the bot reads, has to settle which copy wins when the two disagree, because courts often treat the meaning of a standard-form contract as a question of law, and a court will want to know which words the parties agreed to.
+The documents standard, the machine-readable tender that replaces the PDF as the copy the bot reads, has to settle which copy wins when the two disagree, because courts often treat the meaning of a standard-form contract as a question of law, and a court will want to know which words the parties agreed to. The tool test has to be one any vendor's bot can pass, not a mandate to use one particular bot, because Canada's trade agreements bar a buyer from naming one brand without accepting equivalents; the bot that sits it has to be frozen, fingerprinted, tested in public and scoped, with what it is not for written so the scope can go into a contract. And the sign-off has to name the person who relied on the reading and record what they checked, because that is the decision a tribunal will review.
 
 That is more steps than the old plan.
 
@@ -138,7 +138,7 @@ That is more steps than the old plan.
 
 The old order was model, consensus, adoption, law. The new order puts the law beside the model from the start.
 
-In practice that means some of the work planned for later moves to the start: a fresh test agreed before it is run, a second jurisdiction, the edges reported with every middle, and an honest note of what each test cannot show. The method that keeps all of this checkable is set out in the appendix.
+In practice that means some of the work planned for later moves to the start: a fresh test agreed before it is run, a second jurisdiction, the edges reported with every middle, and an honest note of what each test cannot show. The method that keeps all of this checkable is set out in the AI edition.
 
 None of it makes the model more accurate. All of it makes the model's accuracy something a legal department can point to.
 
