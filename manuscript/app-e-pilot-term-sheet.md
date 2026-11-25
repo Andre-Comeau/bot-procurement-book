@@ -32,4 +32,17 @@ This is a starting point for an underwriter to mark up, not an offer. Every numb
 
 **Exclusions:** [to be set by the insurer, for example changes in scope after award, events covered by other insurance, and bids altered after the bot prepared them].
 
+**Suggested starting values.** These are the project's suggestions, not terms, taken from its insurance model (chapter 3). The model measured each job's miss on its own, while this sheet pays on an average across jobs, so an underwriter would need to convert them.
+
+| Blank | Suggested value | Where it comes from |
+|---|---|---|
+| Trigger [x] | 5 percentage points below the target margin | The bidder keeps the first 5 percent of a miss |
+| Payment [y] | 80 percent of the shortfall below the trigger | The cover pays 80 percent of the rest |
+| Range edge (condition 2) | 15 percent below the reference standard | Where a small bidder and the insurer meet |
+| Limit per contract [$] | 8 percent of the contract price | 80 percent of the band from 5 to 15 percent |
+| Total limit | A yearly cap for each version of the bot, about twice the payouts expected in a year | Shared errors that more clients cannot average out |
+| Premium [p] | About 0.15 percent sold on its own; about 0.11 percent sold by the vendor | The insurer's lowest price for a typical bot whose bids are checked |
+
+The other blanks, the measurement period, the numbers of tenders and bidders and the years of books kept, are for the insurer and the pilot's partners to set.
+
 **What the pilot reports:** claims and near misses, the spread of margins against the target, and which terms needed changing. The results go into the open standard.
