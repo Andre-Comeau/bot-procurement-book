@@ -146,6 +146,8 @@ Ontario General Contractors Association. "Progressive Procurement P3 – Q&As" (
 
 Open Contracting Partnership. *Open Contracting Data Standard*, version 1.0, 2015; and, with CoST – the Infrastructure Transparency Initiative, *Open Contracting for Infrastructure Data Standard* (OC4IDS), 2019. https://standard.open-contracting.org/.
 
+Procore Technologies. "Procore Launches Construction Insurance Brokerage to Empower Builders." Press release, Business Wire, 21 March 2023. https://www.businesswire.com/news/home/20230321005294/en/Procore-Launches-Construction-Insurance-Brokerage-to-Empower-Builders. (A software vendor as licensed insurance broker; chapter 11.)
+
 Rao, Justin M., and David H. Reiley. "The Economics of Spam." *Journal of Economic Perspectives* 26, no. 3 (2012): 87–110.
 
 Rao, Venkatesh. "Cognitive Mercantilism: AI Panic Weirdly Resembles the Anxiety That Accompanied Early Capitalism." *Contraptions* (newsletter), 25 October 2026. https://contraptions.venkateshrao.com/p/cognitive-mercantilism.
