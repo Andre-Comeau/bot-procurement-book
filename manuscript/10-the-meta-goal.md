@@ -34,6 +34,20 @@ Some questions belong to the field, not to the standard, and this book leaves th
 
 Who holds the authority to teach it? If it sits with the maker, the jigbot is one more machine programmed from head office. If it sits with the worker, the teaching has to be possible without a degree in computer science, and the machine has to respect a body that knows where it is on a ladder in ways no model does. That is a harder design problem than it sounds, and a later standard may have to protect it.
 
+## The case against
+
+Not everyone wants this destination. Scalera, a Zürich firm that sells AI for suppliers' quotes, calls autonomous bidding hype, and its guides make the case well. It is worth answering point by point, because the goal is only as strong as its answers.
+
+First, tender data is not structured enough for a machine to decide on. That is true, and it is truer in North America than in the German-speaking countries Scalera serves, where bills of quantities already travel as standard files. The goal depends on the documents standard. Until a tender meets it, a bot should not bid on it alone.
+
+Second, language models give fluent wrong answers, and people trust them too much. Scalera's guides cite Germany's federal IT security office, which advises that critical outputs be checked and finished by hand. The book does not rely on the bot being right. It measures how often the bot is wrong, in public, and pays for the misses through insurance. Over-trust is an argument against the half-way state, a person who nods through what the machine drafted, and that half-way state is what a tool with a mandatory human finish sells. The human check is not a safe net either: a study Scalera itself cites found that people inspecting spreadsheets caught only about 60 percent of the errors.
+
+Third, pricing stays with people and with the rules in the firm's own systems. But rules in a firm's system are already automated pricing: the person approves, and the rules decide. The model in chapter 17 is the same thing made public and testable. The fair point is that the book still has to show how a firm's own cost records feed the bot, and chapter 3 begins that with the costs a bidder declares on bid day.
+
+Fourth, a public client may ask a bidder to show how each unit rate was built, and an unusually low bid must be explained or rejected. A bot that bids alone has to explain every line. The model's four prices give it a breakdown for each one, and the rules on abnormally low bids are outside support for the floor.
+
+On the rest, Scalera and the book agree. Tools should be judged on the buyer's own documents against thresholds written down first, and trust is built on low-risk tasks before the price. The difference is that Scalera stops before the price, and the book carries the same staging on to it.
+
 ## Hammurabi for bots
 
 The prologue opened in Babylon, where the builder answered with his life. It is tempting to bring the rule back for bots. Let the bot that causes harm be switched off, and on a branded bot let the sentence fall on the brand: its code, its files and its weights.
