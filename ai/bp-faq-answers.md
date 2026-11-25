@@ -27,7 +27,7 @@ sources:
   - {title: "NPR, 'A sci-fi magazine has cut off submissions after a flood of AI-generated stories', 24 February 2023", url: "https://www.kunc.org/npr-news/2023-02-24/a-sci-fi-magazine-has-cut-off-submissions-after-a-flood-of-ai-generated-stories"}
   - {title: "European Court of Auditors, Special Report 28/2023, Public procurement in the EU", url: "https://www.eca.europa.eu/ECAHTMLNews/NEWS-SR-2023-28/en/body.html"}
   - {title: "Auditor General of Ontario, Annual Report 2024, 'Procurement and Delivery of Selected Infrastructure Projects'", url: "https://www.auditor.on.ca/en/content/annualreports/arreports/en24/pa_infrastructureON_en24.pdf"}
-  - {title: "Bot Procurement (book in draft), chapter 16, 'A second opinion on every price' (the project's own checks on public Texas data; the review-cost figures are the author's experience)", url: "https://books.andrecomeau.xyz/bot-procurement/working/07-building-an-estimator-in-public/"}
+  - {title: "Bot Procurement (book in draft), chapter 16, 'The estimator and the evaluator: a second opinion on every price' (the project's own checks on public Texas data; the review-cost figures are the author's experience)", url: "https://books.andrecomeau.xyz/bot-procurement/working/07-building-an-estimator-in-public/"}
   - {title: "Rocha, Rezende and Oliveira, 'Alice: desafios, resultados e perspectivas...', Revista da CGU 14(26), 2022", url: "https://revista.cgu.gov.br/Revista_da_CGU/article/download/530/357"}
   - {title: "OECD, DAF/COMP/WP3/WD(2022)31, note by Korea", url: "https://one.oecd.org/document/DAF/COMP/WP3/WD(2022)31/en/pdf"}
   - {title: "Washington Technology, 'Trax loses White Sands protest, but judge hits government over AI disclosures', September 2026", url: "https://www.washingtontechnology.com/contracts/2026/09/trax-loses-white-sands-protest-judge-hits-government-over-ai-disclosures/416334/"}
@@ -38,7 +38,7 @@ sources:
   - {title: "ISO 10845-1:2020, Construction procurement, Part 1: Processes, methods and procedures (first published 2010)", url: "https://www.iso.org/standard/72467.html"}
   - {title: "buildingSMART, IFC schema specifications (IFC 4.3 ADD2 = ISO 16739-1:2024)", url: "https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/"}
   - {title: "buildingSMART, 'Information Delivery Specification (IDS) v1.0 is approved as a final standard', 4 June 2024", url: "https://www.buildingsmart.org/information-delivery-specification-ids-v1-0-is-approved-as-a-final-standard/"}
-  - {title: "Bot Procurement (book in draft), chapter 17, 'The protocol that follows' (the 2035 test is the project's own forecast)", url: "https://books.andrecomeau.xyz/bot-procurement/working/09-the-protocol-that-follows/"}
+  - {title: "Bot Procurement (book in draft), chapter 17, 'Three standards, and how they could stick' (the 2035 test is the project's own forecast)", url: "https://books.andrecomeau.xyz/bot-procurement/working/09-the-protocol-that-follows/"}
 book: [00b-prologue.md, 02-the-tender-is-the-api.md, 06e-the-underwriters-chapter.md, 07-building-an-estimator-in-public.md, 09-the-protocol-that-follows.md]
 terms: [Bot Procurement, Estimator (the project's), Fair and Reasonable Evaluator, Keyholder, Margin insurance, Buyer as its own insurer]
 ---

@@ -28,8 +28,8 @@ related:
   - {id: bp-model, relation: see-also}
   - {id: bp-stakeholder-lawyers, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 16, 'A second opinion on every price'", url: "https://books.andrecomeau.xyz/bot-procurement/working/07-building-an-estimator-in-public/"}
-  - {title: "Bot Procurement (book in draft), chapter 17, 'The protocol that follows'", url: "https://books.andrecomeau.xyz/bot-procurement/working/09-the-protocol-that-follows/"}
+  - {title: "Bot Procurement (book in draft), chapter 16, 'The estimator and the evaluator: a second opinion on every price'", url: "https://books.andrecomeau.xyz/bot-procurement/working/07-building-an-estimator-in-public/"}
+  - {title: "Bot Procurement (book in draft), chapter 17, 'Three standards, and how they could stick'", url: "https://books.andrecomeau.xyz/bot-procurement/working/09-the-protocol-that-follows/"}
 book: [07-building-an-estimator-in-public.md, 09-the-protocol-that-follows.md, 06b-the-bot-in-the-witness-box.md]
 terms: [Record, Keyholder, Witness and Oracle]
 ---

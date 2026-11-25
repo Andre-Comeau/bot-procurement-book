@@ -1,4 +1,4 @@
-# A second opinion on every price
+# The estimator and the evaluator: a second opinion on every price
 
 A tender is a strange kind of market. For a few weeks, a handful of builders study the same drawings, price the same work and seal their numbers in envelopes. On closing day the envelopes are opened, and for one afternoon the buyer knows something it almost never knows: what the work is worth to the people who would actually do it. Then the contract is signed, the losing bidders go home, and the market leaves the room.
 

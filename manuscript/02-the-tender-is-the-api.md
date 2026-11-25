@@ -1,4 +1,4 @@
-# The tender is the API
+# The tender and the flood of AI bids
 
 In February 2023 the editor of a science fiction magazine closed his door. Clarkesworld had taken stories from anyone since 2006, paid for the ones it printed and answered every writer within days. That made it a target. When a chatbot that could write a passable story became free, people who had never written one started sending stories in, following advice going around online about easy money. By the twentieth of the month the magazine had received about five hundred machine-written stories and about seven hundred real ones. Neil Clarke, the editor, could no longer sort the two piles fast enough to keep reading, so he stopped taking submissions at all. The real writers lost their door along with the fakes.
 

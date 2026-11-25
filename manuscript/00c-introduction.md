@@ -1,4 +1,4 @@
-# The zombie garden: what AI gets right
+# What AI gets right
 
 Chapter 14 ended on the words and the accidents, the places where the standard bot has work to do. This chapter asks what a bot is good for once it is put to that work.
 

@@ -26,7 +26,7 @@ related:
   - {id: bp-sureties, relation: contrasts}
 sources:
   - {title: "USDA Risk Management Agency, Margin Protection insurance", url: "https://www.rma.usda.gov/en/Policy-and-Procedure/Insurance-Plans/Margin-Protection"}
-  - {title: "Bot Procurement (book in draft), chapter 3, 'The insurable event'", url: "https://books.andrecomeau.xyz/bot-procurement/working/06e-the-underwriters-chapter/"}
+  - {title: "Bot Procurement (book in draft), chapter 3, 'Insuring the bidder's margin'", url: "https://books.andrecomeau.xyz/bot-procurement/working/06e-the-underwriters-chapter/"}
   - {title: "Bot Procurement (book in draft), appendix E, 'A draft term sheet for a pilot policy'", url: "https://books.andrecomeau.xyz/bot-procurement/working/app-e-pilot-term-sheet/"}
 book: [06e-the-underwriters-chapter.md, app-e-pilot-term-sheet.md]
 terms: [Margin insurance]

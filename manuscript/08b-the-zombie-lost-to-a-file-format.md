@@ -1,4 +1,4 @@
-# The zombie lost to a file format
+# Where bids already travel as data
 
 In March 2019 a German construction firm sent in the cheapest bid for a public contract, and lost it over a file. The buyer had asked for the priced bill of quantities as a data file, in the format German tendering software reads. The firm sent PDFs. The buyer threw the bid out, the firm went to court, and the case climbed to the Federal Court of Justice. In 2023 the court held that the electronic means a buyer asks for are part of a bid's form, as much as a signature is, and that a bid which ignores them must be excluded. It sent the case back to Cologne, and in 2024 the court there found the exclusion lawful. The cheapest bid stayed out.
 

@@ -1,4 +1,4 @@
-# What do we do with a drunken sailor?
+# How AI fails, and a remedy for each
 
 Our world has worked itself into a hysteria about misbehaving bots while quietly forgetting the misbehaving human. Perhaps we have grown fond of the mechanical predictability that automata used to bring into our lives, and as our little technology stack becomes a pre-teen, we find ourselves nostalgic for the earlier years.
 
@@ -24,7 +24,7 @@ A standard bot can start small: a frozen letter for one trade, written down so t
 
 ## Misadventure: the Drunken Sailor
 
-Every child knows the question in this chapter's title, and every answer the song gives is a consequence: put him in the longboat till he's sober. Nobody suggests the sailor meant any harm. He is drunk, he will do something foolish, and the crew will have to deal with it.
+Every child knows the song that asks what to do with a drunken sailor, and every answer it gives is a consequence: put him in the longboat till he's sober. Nobody suggests the sailor meant any harm. He is drunk, he will do something foolish, and the crew will have to deal with it.
 
 If malice is stopped by strength, misadventure is controlled by consequences, and it is the problem we have with the AIs we have, not the future ones. The pain inflicted through AIs with poor judgement will be real, and work to reduce that harm to humans is valuable. The tools against it are familiar from software: better technology, hard guardrails in the programming, version control and reverting to the last model that worked.
 

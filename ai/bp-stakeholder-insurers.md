@@ -23,7 +23,7 @@ related:
   - {id: bp-sureties, relation: has-part}
   - {id: bp-estimate-accuracy, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 3, 'The insurable event'", url: "https://books.andrecomeau.xyz/bot-procurement/working/06e-the-underwriters-chapter/"}
+  - {title: "Bot Procurement (book in draft), chapter 3, 'Insuring the bidder's margin'", url: "https://books.andrecomeau.xyz/bot-procurement/working/06e-the-underwriters-chapter/"}
   - {title: "Bot Procurement (book in draft), chapter 13, 'The insurers: a pilot, then a standard'", url: "https://books.andrecomeau.xyz/bot-procurement/working/06f-the-insurers/"}
 book: [06e-the-underwriters-chapter.md, 06f-the-insurers.md, app-e-pilot-term-sheet.md]
 ---

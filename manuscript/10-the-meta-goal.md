@@ -1,4 +1,4 @@
-# The meta-goal
+# The goal: more autonomy for the people who build
 
 Frederick Taylor split the worker from the manager. Someone in an office would plan the work, and someone on the floor would do it. The gains were real and measurable, and in construction they have flattened out. The office kept growing anyway. Every estimate, schedule, submittal and change order needs someone at a desk, and the people who know the work best are often the ones least at home with the paperwork.
 

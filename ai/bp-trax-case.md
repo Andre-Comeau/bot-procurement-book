@@ -20,7 +20,7 @@ related:
   - {id: bp-stakeholder-lawyers, relation: see-also}
 sources:
   - {title: "Washington Technology, 'Trax loses White Sands protest, but judge hits government over AI disclosures' (2026)"}
-  - {title: "Bot Procurement (book in draft), chapter 17a, 'The bot in the witness box'", url: "https://books.andrecomeau.xyz/bot-procurement/working/06b-the-bot-in-the-witness-box/"}
+  - {title: "Bot Procurement (book in draft), chapter 17a, 'One bot failure, from tender to court'", url: "https://books.andrecomeau.xyz/bot-procurement/working/06b-the-bot-in-the-witness-box/"}
 book: [06b-the-bot-in-the-witness-box.md, 02-the-tender-is-the-api.md]
 ---
 

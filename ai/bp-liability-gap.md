@@ -25,7 +25,7 @@ related:
   - {id: bp-trax-case, relation: see-also}
   - {id: bp-sign-off, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 11, 'The vendors: players, not referees'", url: "https://books.andrecomeau.xyz/bot-procurement/working/02d-the-vendors/"}
+  - {title: "Bot Procurement (book in draft), chapter 11, 'The software vendors: why a shared test suits them'", url: "https://books.andrecomeau.xyz/bot-procurement/working/02d-the-vendors/"}
   - {title: "Insurance Business, 'ISO's generative AI exclusion is already on thousands of CGL policies', 16 September 2026", url: "https://www.insurancebusinessmag.com/us/news/professional-liability/isos-generative-ai-exclusion-is-already-on-thousands-of-cgl-policies-589971.aspx"}
   - {title: "Ryan v Victoria (City), [1999] 1 SCR 201, headnote", url: "https://ca.vlex.com/vid/ryan-v-victoria-680588037"}
   - {title: "Legal 500, 'Focus on construction: liability of consultants in tendering process' (quoting Cardinal Construction v Brockville, 1984)", url: "https://www.legal500.com/intelligence/canada/real-estate-and-construction/focus-on-construction-liability-of-consultants-in-tendering-process"}

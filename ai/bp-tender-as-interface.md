@@ -22,7 +22,7 @@ related:
   - {id: bp-tender-template, relation: see-also}
   - {id: bp-future, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 1, 'The tender is the API'", url: "https://books.andrecomeau.xyz/bot-procurement/working/02-the-tender-is-the-api/"}
+  - {title: "Bot Procurement (book in draft), chapter 1, 'The tender and the flood of AI bids'", url: "https://books.andrecomeau.xyz/bot-procurement/working/02-the-tender-is-the-api/"}
   - {title: "Neil Clarke, 'A Concerning Trend', Clarkesworld editor's blog, February 2023", url: "https://neil-clarke.com/a-concerning-trend/"}
 book: [02-the-tender-is-the-api.md, 02b-the-buyers.md, 02c-the-bidders.md, 02d-the-vendors.md]
 terms: [The tender as the interface, Tender]

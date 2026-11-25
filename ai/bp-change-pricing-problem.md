@@ -22,7 +22,7 @@ related:
   - {id: bp-stakeholder-buyers, relation: see-also}
   - {id: bp-why-not-change-contract-type, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 16, 'A second opinion on every price'", url: "https://books.andrecomeau.xyz/bot-procurement/working/07-building-an-estimator-in-public/"}
+  - {title: "Bot Procurement (book in draft), chapter 16, 'The estimator and the evaluator: a second opinion on every price'", url: "https://books.andrecomeau.xyz/bot-procurement/working/07-building-an-estimator-in-public/"}
   - {title: "Bot Procurement (book in draft), chapter 4, 'Why does the hard bid survive?'", url: "https://books.andrecomeau.xyz/bot-procurement/working/03-how-a-price-is-judged-today/"}
 book: [07-building-an-estimator-in-public.md, 03-how-a-price-is-judged-today.md]
 terms: [Change (change order), Fair and reasonable, Engineer's estimate]

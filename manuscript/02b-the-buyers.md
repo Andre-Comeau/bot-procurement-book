@@ -1,4 +1,4 @@
-# The buyers: more bids than eyes
+# The buyers: more bids than they can read
 
 Chapter 4 sorted buyers by how they hire. This chapter sorts them by what their door looks like when the thicket arrives, because the flood does not land on every buyer the same way.
 

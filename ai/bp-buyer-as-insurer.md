@@ -24,7 +24,7 @@ related:
   - {id: bp-stakeholder-buyers, relation: see-also}
   - {id: bp-competition-risk, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 3, 'The insurable event'", url: "https://books.andrecomeau.xyz/bot-procurement/working/06e-the-underwriters-chapter/"}
+  - {title: "Bot Procurement (book in draft), chapter 3, 'Insuring the bidder's margin'", url: "https://books.andrecomeau.xyz/bot-procurement/working/06e-the-underwriters-chapter/"}
   - {title: "US Federal Acquisition Regulation 52.211-18, Variation in Estimated Quantity", url: "https://www.acquisition.gov/far/52.211-18"}
 book: [06e-the-underwriters-chapter.md]
 terms: [Buyer as its own insurer, Reference bot]

@@ -1,4 +1,4 @@
-# The banana peel
+# A bot should show what it does not know
 
 ## The banana peel
 

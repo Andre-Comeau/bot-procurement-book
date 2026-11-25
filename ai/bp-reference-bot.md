@@ -27,7 +27,7 @@ related:
   - {id: bp-stakeholder-lawyers, relation: see-also}
   - {id: bp-existing-standards, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 17, 'The protocol that follows'", url: "https://books.andrecomeau.xyz/bot-procurement/working/09-the-protocol-that-follows/"}
+  - {title: "Bot Procurement (book in draft), chapter 17, 'Three standards, and how they could stick'", url: "https://books.andrecomeau.xyz/bot-procurement/working/09-the-protocol-that-follows/"}
   - {title: "Bot Procurement (book in draft), prologue", url: "https://books.andrecomeau.xyz/bot-procurement/00b-prologue/"}
   - {title: "David Lang, 'Standards Make the World', Summer of Protocols (Protocol Institute)"}
 book: [00b-prologue.md, 09-the-protocol-that-follows.md, 06b-the-bot-in-the-witness-box.md]

@@ -1,4 +1,4 @@
-# The monsters we kept
+# Bigger ideas set aside for now
 
 A paper about an experiment usually has a section that most readers skip, where the authors list the approaches they considered and set aside. It is the least exciting part of the paper and one of the most honest, because it tells you what the authors bet against. This chapter is that section, written with a little more affection than a methods section allows.
 

@@ -24,7 +24,7 @@ related:
   - {id: bp-stakeholder-trades, relation: see-also}
   - {id: bp-sureties, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 8, 'The bidders: racing for the light'", url: "https://books.andrecomeau.xyz/bot-procurement/working/02c-the-bidders/"}
+  - {title: "Bot Procurement (book in draft), chapter 8, 'The bidders: what a check and cover change'", url: "https://books.andrecomeau.xyz/bot-procurement/working/02c-the-bidders/"}
 book: [02c-the-bidders.md]
 ---
 # Stakeholders: what bidders stand to gain

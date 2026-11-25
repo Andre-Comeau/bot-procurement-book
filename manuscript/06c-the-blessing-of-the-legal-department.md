@@ -1,4 +1,4 @@
-# The blessing of the legal department
+# What a legal department needs before relying on a bot
 
 ## The deck builder and the legal department
 

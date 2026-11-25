@@ -1,4 +1,4 @@
-# The protocol that follows
+# Three standards, and how they could stick
 
 Chapter 16 ended at a door, and behind it was the standard, World 2 on the map. A good rehearsal score does not open it. A court, as the witness box at the end of this chapter shows, will ask for more: a record of what the bot did, when and why, and a reasonable reader to measure it against.
 

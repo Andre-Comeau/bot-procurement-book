@@ -27,7 +27,7 @@ sources:
   - {title: "ISO 10845-1:2020, Construction procurement, Part 1: Processes, methods and procedures (first published 2010)", url: "https://www.iso.org/standard/72467.html"}
   - {title: "Open Contracting Data Standard", url: "https://standard.open-contracting.org/"}
   - {title: "GAEB, certification of data-exchange software", url: "https://www.gaeb.de/de/produkte/gaeb-datenaustausch/zertifizierung/"}
-  - {title: "Bot Procurement (book in draft), chapter 17, 'The protocol that follows'", url: "https://books.andrecomeau.xyz/bot-procurement/working/09-the-protocol-that-follows/"}
+  - {title: "Bot Procurement (book in draft), chapter 17, 'Three standards, and how they could stick'", url: "https://books.andrecomeau.xyz/bot-procurement/working/09-the-protocol-that-follows/"}
 book: [09-the-protocol-that-follows.md, 08b-the-zombie-lost-to-a-file-format.md]
 terms: [Template]
 allow_words: [certified, certifies]

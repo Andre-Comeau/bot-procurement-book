@@ -23,7 +23,7 @@ related:
   - {id: bp-stakeholder-buyers, relation: see-also}
   - {id: bp-sign-off, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 12, 'The blessing of the legal department'", url: "https://books.andrecomeau.xyz/bot-procurement/working/06c-the-blessing-of-the-legal-department/"}
+  - {title: "Bot Procurement (book in draft), chapter 12, 'What a legal department needs before relying on a bot'", url: "https://books.andrecomeau.xyz/bot-procurement/working/06c-the-blessing-of-the-legal-department/"}
   - {title: "May v Ferndale Institution, 2005 SCC 82"}
 book: [06c-the-blessing-of-the-legal-department.md]
 terms: [Keyholder]

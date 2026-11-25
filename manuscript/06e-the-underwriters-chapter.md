@@ -1,4 +1,4 @@
-# The insurable event
+# Insuring the bidder's margin
 
 When a bot causes financial harm, someone carries the loss. Lawyers will answer who is liable later in this book, with the legal department and the witness box. Underwriters put a price on harm before it happens, and this turned out to be more useful for the project. To underwrite a risk, an insurer needs to measure a risk. Insurers already measure AI products one at a time, but each evaluation needs its own custom validation, which makes it hard for a vendor to shop around for the best price. A reference standard would provide a baseline for measuring the deviation of AI-powered estimating products. The project thinks the insurable event is a shortfall in margin, measured across a broad spectrum of tenders rather than on one job. The bidder declares its costs on bid day, and the insurer keeps a right to audit the books as bonding companies already do. This is a proposal to test with underwriters, and the rest of this opening explains why.
 

@@ -1,4 +1,4 @@
-# The vendors: players, not referees
+# The software vendors: why a shared test suits them
 
 My first reaction to a survey of what construction's software vendors are building with AI was that this is sort of good news. The technology is being used, which is good, but the vendors may be able to outcompete an open approach thanks to high levels of service and pockets deep enough for a user to sue for product malfunctions. Still, there seems to be room for an open solution to sprout. The rest of this chapter is what the survey found, sorted by who sells what to whom.
 

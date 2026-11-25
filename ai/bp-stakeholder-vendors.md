@@ -21,7 +21,7 @@ related:
   - {id: bp-why-not-existing-software, relation: see-also}
   - {id: bp-margin-insurance, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 11, 'The vendors: players, not referees'", url: "https://books.andrecomeau.xyz/bot-procurement/working/02d-the-vendors/"}
+  - {title: "Bot Procurement (book in draft), chapter 11, 'The software vendors: why a shared test suits them'", url: "https://books.andrecomeau.xyz/bot-procurement/working/02d-the-vendors/"}
 book: [02d-the-vendors.md]
 allow_words: [certified]
 ---

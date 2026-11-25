@@ -23,8 +23,8 @@ related:
   - {id: bp-existing-standards, relation: see-also}
   - {id: bp-why-not-change-contract-type, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 16, 'A second opinion on every price'", url: "https://books.andrecomeau.xyz/bot-procurement/working/07-building-an-estimator-in-public/"}
-  - {title: "Bot Procurement (book in draft), chapter 11, 'The vendors: players, not referees'", url: "https://books.andrecomeau.xyz/bot-procurement/working/02d-the-vendors/"}
+  - {title: "Bot Procurement (book in draft), chapter 16, 'The estimator and the evaluator: a second opinion on every price'", url: "https://books.andrecomeau.xyz/bot-procurement/working/07-building-an-estimator-in-public/"}
+  - {title: "Bot Procurement (book in draft), chapter 11, 'The software vendors: why a shared test suits them'", url: "https://books.andrecomeau.xyz/bot-procurement/working/02d-the-vendors/"}
 book: [07-building-an-estimator-in-public.md, 02d-the-vendors.md]
 terms: [Second opinion, Fair and reasonable]
 allow_words: [certified]

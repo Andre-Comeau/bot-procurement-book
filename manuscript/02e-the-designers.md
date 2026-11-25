@@ -1,4 +1,4 @@
-# The designers and consultants: a second reading
+# The designers and consultants: checking the documents before issue
 
 A design firm makes its fee on the documents and loses it after them. The drawings and the specification go out to tender, and the questions start. Bidders ask what a detail means. Addenda go out. During construction come requests for information, submittal reviews, change pricing and the occasional claim. Most fees pay for all of this with a fixed slice, and a good share of the work traces back to gaps and conflicts in the documents themselves.
 

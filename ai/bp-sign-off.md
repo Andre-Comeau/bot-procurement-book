@@ -24,8 +24,8 @@ related:
   - {id: bp-stakeholder-lawyers, relation: see-also}
   - {id: bp-existing-standards, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 17, 'The protocol that follows'", url: "https://books.andrecomeau.xyz/bot-procurement/working/09-the-protocol-that-follows/"}
-  - {title: "Bot Procurement (book in draft), chapter 3, 'The insurable event'", url: "https://books.andrecomeau.xyz/bot-procurement/working/06e-the-underwriters-chapter/"}
+  - {title: "Bot Procurement (book in draft), chapter 17, 'Three standards, and how they could stick'", url: "https://books.andrecomeau.xyz/bot-procurement/working/09-the-protocol-that-follows/"}
+  - {title: "Bot Procurement (book in draft), chapter 3, 'Insuring the bidder's margin'", url: "https://books.andrecomeau.xyz/bot-procurement/working/06e-the-underwriters-chapter/"}
   - {title: "Actuarial Standards Board, ASOP No. 56, Modeling"}
   - {title: "RICS, professional standard on the responsible use of AI in surveying practice (mandatory from 9 March 2026)"}
 book: [09-the-protocol-that-follows.md, 06e-the-underwriters-chapter.md]

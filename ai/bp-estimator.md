@@ -25,7 +25,7 @@ related:
   - {id: bp-ai-strengths, relation: see-also}
   - {id: bp-cases, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 16, 'A second opinion on every price'", url: "https://books.andrecomeau.xyz/bot-procurement/working/07-building-an-estimator-in-public/"}
+  - {title: "Bot Procurement (book in draft), chapter 16, 'The estimator and the evaluator: a second opinion on every price'", url: "https://books.andrecomeau.xyz/bot-procurement/working/07-building-an-estimator-in-public/"}
   - {title: "Texas Department of Transportation, public bid tabulations"}
 book: [07-building-an-estimator-in-public.md]
 terms: [Estimator (the project's), Engineer's estimate, Second opinion]

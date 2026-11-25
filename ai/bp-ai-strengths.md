@@ -22,8 +22,8 @@ related:
   - {id: bp-margin-insurance, relation: see-also}
   - {id: bp-why-not-existing-software, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 3, 'The insurable event'", url: "https://books.andrecomeau.xyz/bot-procurement/working/06e-the-underwriters-chapter/"}
-  - {title: "Bot Procurement (book in draft), chapter 16, 'A second opinion on every price'", url: "https://books.andrecomeau.xyz/bot-procurement/working/07-building-an-estimator-in-public/"}
+  - {title: "Bot Procurement (book in draft), chapter 3, 'Insuring the bidder's margin'", url: "https://books.andrecomeau.xyz/bot-procurement/working/06e-the-underwriters-chapter/"}
+  - {title: "Bot Procurement (book in draft), chapter 16, 'The estimator and the evaluator: a second opinion on every price'", url: "https://books.andrecomeau.xyz/bot-procurement/working/07-building-an-estimator-in-public/"}
   - {title: "Vals AI, legal research benchmark, October 2025, as reported by LawNext, 23 October 2025"}
 book: [06e-the-underwriters-chapter.md, 07-building-an-estimator-in-public.md, 02d-the-vendors.md]
 terms: [Estimator (the project's), Second opinion]
