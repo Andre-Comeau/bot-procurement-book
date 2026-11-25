@@ -86,11 +86,11 @@ Every figure above assumes a typical bot that misses by about 6 percent. The pro
 
 | | The estimator today | A realistic target | The limit |
 |---|---|---|---|
-| How far it typically misses | about 14 percent | about 4.5 percent | about 2.5 percent |
+| Spread of its misses | about 14 percent, leaning 5 percent low | about 4.5 percent | about 2.5 percent |
 | Bids sent back to be priced by hand | about 2 in 5 | about 1 in 45 | about 1 in 100 |
 | Cover on a checked bid, $8 million job | 1.6 percent, about $128,000 | 0.06 percent, about $5,000 | 0.01 percent, about $1,100 |
 
-The gap between the columns is the work still to do, and checking it takes four steps, each of which can prove the model wrong.
+The spread is a wider measure than chapter 16's median miss of about 10 percent, because it counts the far misses: today one bid in three would come in more than 10 percent low. The gap between the columns is the work still to do, and checking it takes four steps, each of which can prove the model wrong.
 
 1. **A record.** The frozen bot prices tenders it has never seen, before the bids open, and the prices are stored where nobody can change them. Compared with the bids, they show how far the bot misses and which way it leans.
 2. **The yardstick.** The reference standard that settles claims is built, published with its version and date, and measured the same way. The test also measures how often the standard and the bot are wrong on the same job, because a check that shares the bot's blind spots catches less. If they share them often, the premium on a checked bid rises from about 0.15 percent toward 0.4 percent.
