@@ -154,6 +154,8 @@ Sathe, Aneesh. "The Birth of Thickets: An Interregnum in Space." Blog post, 19 J
 
 Sathe, Aneesh. *Prime Radiant.* World Machines project. https://primeradiant.worldmachines.org/.
 
+Scholz, Lauren Henry. "Algorithmic Contracts." *Stanford Technology Law Review* 20 (2017): 128. https://law.stanford.edu/wp-content/uploads/2018/03/3_SCHOLZ-FINAL_Formatted_Mar18.pdf. (Insurance beside a human approval as a way to show intent to be bound, p. 167; chapter 12.)
+
 Scitovsky, Tibor. "The Benefits of Asymmetric Markets." *Journal of Economic Perspectives* 4, no. 1 (1990): 135–148.
 
 Sewell, William H., Jr. "Three Temporalities: Toward an Eventful Sociology." In *The Historic Turn in the Human Sciences*, edited by Terrence J. McDonald, 245–280. Ann Arbor: University of Michigan Press, 1996.
