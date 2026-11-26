@@ -1,4 +1,4 @@
-# The blessing of the legal department
+# What a legal department needs before relying on a bot
 
 ## The deck builder and the legal department
 
@@ -10,7 +10,7 @@ Writing this book changed the picture. The buyers this book is about do not pric
 
 So the tool, however good, arrives second. The record of who decided, on what, and why, arrives first.
 
-That flips the order of the road. Legal questions cannot wait for adoption, because for this audience they are the gate to adoption. A legal department blesses a method only when it can see how the method will hold up in front of a tribunal, under today's law, not the law the project hopes for. That means three things have to hold up together: the model, the standard that says what a conforming model must do, and the document standard that says what the model reads.
+That flips the order of the road. Legal questions cannot wait for adoption, because for this audience they are the gate to adoption. A legal department blesses a method only when it can see how the method will hold up in front of a tribunal, under today's law, not the law the project hopes for. That means three things have to hold up together: the documents the bot reads, the test that says what a conforming bot must do, and the sign-off of the person who relies on it.
 
 The path is clearer than it was. It is also longer, and steeper.
 
@@ -22,11 +22,11 @@ The courts have been teaching that lesson with machines for a few years now. In 
 
 An older Supreme Court case shows the other side. Prison officials used a scoring matrix to reclassify inmates and move them to higher security, and did not disclose it. The transfers fell, not because the matrix was wrong, but because the people affected could not see how they had been scored. Hidden method, void decision.
 
-Put those together and a legal department's checklist writes itself. A person must decide, and be seen to decide. The reasons must be the person's own and must make sense without the tool. And whatever the tool contributed must be disclosed, because a court can order it into the record anyway. In 2026 an American court did exactly that with an army contract. The agency said its AI evaluations had played no part, until it admitted they had been sent to two board members and the contracting officer, and the court ordered them into the record as relevant to the process. The bidder still lost: it could not show that the AI had caused an error.
+Put those together and a legal department's checklist writes itself. A person must decide, and be seen to decide. The reasons must be the person's own and must make sense without the tool. And whatever the tool contributed must be disclosed, because a court can order it into the record anyway. In 2026 an American court did exactly that with the Army contract of chapter 1, once the agency admitted its AI evaluations had been sent to two board members and the contracting officer.
 
 This is good news for the keyholder that chapter 16 introduces, the named person who signs the number and gives a reason. The keyholder is not a courtesy. It is the part of the design a legal department will look for first.
 
-It is less good news for the idea that a bot's number could ever stand alone. For this audience, it won't, at least not until a standard exists that a court already trusts. The bot's job is to make the person's reasons better and faster, and to leave a trail that shows it.
+It is less good news for the idea that a bot's number could stand alone today. For this audience, it won't until a standard exists that a court already trusts. The signature is today's step, not the destination (chapter 19). The bot's job is to make the person's reasons better and faster, and to leave a trail that shows it.
 
 ## Admissible is not the same as reliable
 
@@ -106,7 +106,7 @@ Then the ends. A typical miss is only the middle, and a cross-examiner will ask 
 
 Then the honesty of the test itself. A test is spent once. Scoring the same contracts again with each new version, and choosing the next version after seeing the scores, turns a test into practice. The results are still useful, but they are a rehearsal, and they flatter. A test the law can lean on is run on contracts nobody has looked at, under rules published before the first one is opened, in more than one place.
 
-None of that is a reason to hide the numbers when they come. It is the reason every version of the bot should report its middle, its ends and its lean together, and say plainly which kind of test produced them. The details of how that is done belong to the method, at the back of the book.
+None of that is a reason to hide the numbers when they come. It is the reason every version of the bot should report its middle, its ends and its lean together, and say plainly which kind of test produced them. The details of how that is done are in the AI edition that accompanies this book.
 
 ## Who is liable when the standard is wrong
 
@@ -126,11 +126,25 @@ A survey of who is liable under today's law is useful, but it is not what a lega
 
 None of this is a reason to stop. It is a list of what the standard must do so that a legal department, and its insurer, can live with it. It must say clearly who is relying on what. It must make the human decision visible. It must come with tests good enough to price, tails included. And it must be written so that following it is strong evidence of care, even though it can never be a shield.
 
+## When the bot bids on its own
+
+The goal of this book is a bot that bids with nobody checking each line. Three strands of legal writing say what happens when it does, and at first they seem to pull against each other.
+
+The first says the bid binds. Matthew Oliver argues that a firm running a program that makes contracts has made an open offer to contract on whatever terms the program agrees. It takes the unprofitable deals with the profitable ones, and a mistake made by the program is not the kind of mistake that lets it walk away. Singapore's highest commercial court reached a similar result in *Quoine v B2C2* in 2020. After a glitch, two trading programs dealt at about 250 times the going rate, and the platform reversed the trades. The court held that the trades stood. Whether anyone knew of the mistake was judged by what the programmer had in mind when writing the program, and the programmer had meant no trick. Canadian tender law already holds a bidder to a price it did not mean. For autonomous bidding that is good news, because a bid with no signer still counts. It is also the risk, because every error the bot makes is the bidder's.
+
+The second says the user carries the loss, with a narrow exit. Maarten Herbosch, in his 2023 doctoral thesis on contracting with AI, finds that today's AI makes errors a user can foresee, so the harm traces back to whoever chose to deploy it. A declaration that is manifestly wrong may still be escaped, because the other side could not in good faith believe the user meant it, much as Canadian law makes room for an error apparent on the face of a tender. A plausible but wrong price binds. His 2025 article would move the loss to the developer, with insurance beside it, but as the last section showed, that route stops at pure economic loss, which is what a low price is.
+
+The third asks what care looks like. Herbosch finds that a user who meets a published standard or certificate is in principle careful. A user who keeps no record of the system's outputs and settings cannot later prove that it was fit for the job. And a duty to check every output would, in his words, hollow out the benefits of using the system at all.
+
+Read together, the three strands describe the job the standard and the margin cover were built for. The published test and the record are what a court would look to for care, and they show what the bot read and which line went wrong, so a clerical slip can be told from a pricing judgement. The floor in the tool test catches the manifest errors, the ones the buyer could not rely on anyway, before the bid goes in. The plausible errors, the ones that bind, are what margin insurance is for: the bid stands, and the insurer carries the shortfall across many jobs. The vendor, which knows its bot's record best, can sell that cover, which gives the bidder what Herbosch wanted developer liability to give without asking tort law to reach economic loss. And because the cover pays for errors nobody checked, nobody has to check every line. Lauren Henry Scholz made the same point about trading programs in 2017: a firm can show it meant to be bound by what its program does either by having a person approve each deal or by insuring the program against its own uncertainty. The person who signs today is a step on the way, not something the law requires.
+
+None of these writers looked at construction tenders. The fit is this book's reading of their work, not theirs.
+
 ## Three standards, not one
 
-The road to the legal department's blessing runs through three artifacts, and each has to hold up under the law as it stands.
+The road to the legal department's blessing runs through the three standards of chapter 17, and each has to hold up under the law as it stands.
 
-The model has to be frozen, fingerprinted, tested in public, and scoped: this is what it is for, and this is what it is not for, written so the scope can go into a contract. The standard has to be a test any vendor's model can pass, not a mandate to use one particular bot, because Canada's trade agreements bar a buyer from naming one brand without accepting equivalents. And the document standard, the machine-readable tender that replaces the PDF as the copy the bot reads, has to settle which copy wins when the two disagree, because courts often treat the meaning of a standard-form contract as a question of law, and a court will want to know which words the parties agreed to.
+The documents standard, the machine-readable tender that replaces the PDF as the copy the bot reads, has to settle which copy wins when the two disagree. Courts often treat the meaning of a standard-form contract as a question of law, and a court will want to know which words the parties agreed to. The tool test has to be one any vendor's bot can pass, not a mandate to use one particular bot, because Canada's trade agreements bar a buyer from naming one brand without accepting equivalents. The bot that sits it has to be frozen, fingerprinted, tested in public and scoped, with what it is not for written down so the scope can go into a contract. And the sign-off has to name the person who relied on the reading and record what they checked, because that is the decision a tribunal will review.
 
 That is more steps than the old plan.
 
@@ -138,7 +152,7 @@ That is more steps than the old plan.
 
 The old order was model, consensus, adoption, law. The new order puts the law beside the model from the start.
 
-In practice that means some of the work planned for later moves to the start: a fresh test agreed before it is run, a second jurisdiction, the edges reported with every middle, and an honest note of what each test cannot show. The method that keeps all of this checkable is set out in the appendix.
+In practice that means some of the work planned for later moves to the start: a fresh test agreed before it is run, a second jurisdiction, the edges reported with every middle, and an honest note of what each test cannot show. The method that keeps all of this checkable is set out in the AI edition.
 
 None of it makes the model more accurate. All of it makes the model's accuracy something a legal department can point to.
 

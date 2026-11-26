@@ -23,7 +23,7 @@ related:
   - {id: bp-stakeholder-lawyers, relation: see-also}
   - {id: bp-stakeholder-designers, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 7, 'The buyers: more bids than eyes'", url: "https://books.andrecomeau.xyz/bot-procurement/working/02b-the-buyers/"}
+  - {title: "Bot Procurement (book in draft), chapter 7, 'The buyers: more bids than they can read'", url: "https://books.andrecomeau.xyz/bot-procurement/working/02b-the-buyers/"}
 book: [02b-the-buyers.md]
 ---
 # Stakeholders: what construction buyers stand to gain

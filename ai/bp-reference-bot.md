@@ -8,7 +8,7 @@ summary: >
   rerun and get the same answer, so that courts, insurers and buyers have a concrete measure of what a
   reasonable bot would have read, as the reasonable person is the measure for people. It is a proposal;
   no reference bot has been adopted and its test has not been run.
-updated: 2026-11-19
+updated: 2026-11-25
 audience: [lawyers, standard writers, buyers, researchers, AI vendors]
 questions:
   - What is a reference bot in construction procurement?
@@ -20,17 +20,18 @@ related:
   - {id: bp-liability-gap, relation: answers}
   - {id: bp-tender-template, relation: depends-on}
   - {id: bp-reading-record, relation: depends-on}
+  - {id: bp-sign-off, relation: see-also}
   - {id: bp-estimator, relation: see-also}
   - {id: bp-competition-risk, relation: contrasts}
   - {id: bp-ai-failure-modes, relation: see-also}
   - {id: bp-stakeholder-lawyers, relation: see-also}
   - {id: bp-existing-standards, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 17, 'The protocol that follows'", url: "https://books.andrecomeau.xyz/bot-procurement/working/09-the-protocol-that-follows/"}
+  - {title: "Bot Procurement (book in draft), chapter 17, 'Three standards, and how they could stick'", url: "https://books.andrecomeau.xyz/bot-procurement/working/09-the-protocol-that-follows/"}
   - {title: "Bot Procurement (book in draft), prologue", url: "https://books.andrecomeau.xyz/bot-procurement/00b-prologue/"}
   - {title: "David Lang, 'Standards Make the World', Summer of Protocols (Protocol Institute)"}
 book: [00b-prologue.md, 09-the-protocol-that-follows.md, 06b-the-bot-in-the-witness-box.md]
-terms: [Reference bot, Reasonable bot, Record, Template]
+terms: [Reference bot, Reasonable bot, Record, Template, Tool test, Sign-off]
 ---
 
 # The reference bot: a reasonable reader a court can rerun
@@ -53,9 +54,9 @@ This also moves the project from the "innovation" bucket, where public buyers ar
 ## What it needs to work
 
 1. **Documents it can read without guessing.** A PDF tender forces every bot to guess at tables and drawings, and guesses differ. The [tender template](bp-tender-template.md) gives the reference the same text every bidder's bot reads.
-2. **A record of each reading.** Without a record of which version read which document with what settings, a later dispute cannot rerun anything ([the reading record](bp-reading-record.md)).
-3. **A stated error.** A reference that does not say how far it misses invites being treated as exact. The project's draft standard measures misses on contracts let after the bot's version was frozen (the project's draft standard, not yet public).
-4. **Someone who stands behind it.** A measure with nobody liable for it is a suggestion. The book's base case is the buyer as its own insurer ([buyer as insurer](bp-buyer-as-insurer.md)).
+2. **A record of each reading.** Without a record of which version read which document with what settings, a later dispute cannot rerun anything. The record is a clause in the tool test and the sign-off, not a standard of its own ([the reading record](bp-reading-record.md)).
+3. **A stated error.** A reference that does not say how far it misses invites being treated as exact. This is the tool test, the second of the book's three standards: the reference is the first tool to sit it, and any other vendor's bot can sit it too. The project's draft standard measures misses on contracts let after the bot's version was frozen (the project's draft standard, not yet public).
+4. **Someone who stands behind it.** A measure with nobody liable for it is a suggestion. Whoever relies on a reading signs for it ([the sign-off](bp-sign-off.md)), and the book's base case is the buyer as its own insurer ([buyer as insurer](bp-buyer-as-insurer.md)).
 
 ## How a standard like this gets made
 

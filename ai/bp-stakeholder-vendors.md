@@ -21,7 +21,7 @@ related:
   - {id: bp-why-not-existing-software, relation: see-also}
   - {id: bp-margin-insurance, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 11, 'The vendors: players, not referees'", url: "https://books.andrecomeau.xyz/bot-procurement/working/02d-the-vendors/"}
+  - {title: "Bot Procurement (book in draft), chapter 11, 'The software vendors: why a shared test suits them'", url: "https://books.andrecomeau.xyz/bot-procurement/working/02d-the-vendors/"}
 book: [02d-the-vendors.md]
 allow_words: [certified]
 ---
@@ -41,7 +41,7 @@ allow_words: [certified]
 ## What a published check gives them
 
 1. **A target to build to.** A strict, public format lets a new tool compete on equal terms; a published check does the same for a bot.
-2. **Demand.** Each tool sold creates a user who relies on numbers under terms that leave the risk with them, and who will want a check they can show a surety or owner. Email authentication is the precedent: when the big mail providers required it, about two million domains adopted the standard in a year.
+2. **Demand.** Each tool sold creates a user who relies on numbers under terms that leave the risk with them, and who will want a check they can show a bonding company or owner. Email authentication is the precedent: when the big mail providers required it, about two million domains adopted the standard in a year.
 3. **Protection from general models.** Insurance on outputs, and the ability to use numbers without being solely responsible for them, would favour tools that pass a published check ([margin insurance](bp-margin-insurance.md)).
 
 ## Aside: the data was the moat

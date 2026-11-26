@@ -1,4 +1,4 @@
-# The trades: who holds the jig
+# The trades: who sets up the machines
 
 The clock on the wall of the bid depository is not an ordinary clock. It prints the time on whatever is pushed into it, and on bid day the estimators of a dozen mechanical and electrical firms take turns pushing envelopes into it as late as they dare.
 

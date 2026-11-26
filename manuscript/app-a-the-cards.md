@@ -14,15 +14,6 @@ An event card marks a place where several machines meet at once. It makes predic
 
 A contraption is a quick assembly built in a gap between machines. Most collapse. A few find structure and become machines. The watchlist follows them, including this project's own estimator.
 
-## The thread
+## Where to start
 
-Eight cards carry the argument in order, and they are the best way into the deck.
-
-1. About 1750 BCE, the builder's liability. The builder answers for what falls down and cannot appeal.
-2. About 495 BCE, the public letting. Rome lets the building of a temple to contractors, and guarantors and a public record follow over the centuries after.
-3. 1809, formal advertising. Federal purchases must be advertised for proposals, the procedure that became the sealed bid.
-4. 1873, the price book. Published cost data give the owner a number before the market speaks.
-5. 1921, the bid protest and the record. An award is tested against the file the agency made at the time.
-6. 2006, the machine auditors. The first machines to take part in the loop fall out of use wherever nobody has to act on their flags.
-7. 2026, the Army case. An agency's AI reaches a court.
-8. Projected, the bot-first protocol. The machine that does not exist yet.
+Chapter 18 walks through the eight cards that carry the argument, from Hammurabi's builder to the bot-first tender that does not exist yet. They are the best way into the deck.

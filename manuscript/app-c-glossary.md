@@ -4,6 +4,8 @@
 
 *Each term names the chapter where it is used most.*
 
+**Autonomous bidding.** A bot that prices and sends a bid with nobody checking each line. It is the book's long-term goal; the person who signs today is a step on the way (chapters 12 and 19).
+
 **Bid bond.** A guarantee, usually from a bonding company, that a bidder who wins will sign the contract at the price it bid. It is one of the four answers highway construction already has to a flood of bids (chapter 1).
 
 **Bid cushion.** The money a bidder adds to cover what it could not check in the time it had: errors in the drawings, unclear quantities, risk it cannot price. The book calls it slack (chapter 1).
@@ -38,6 +40,8 @@
 
 **Design-Build.** One firm both designs and builds, under one contract. In progressive Design-Build the team is chosen for its qualifications and the price is agreed in packages as the design firms up (chapter 4).
 
+**Documents standard.** The first of the three standards: the tender written as data a bot can read, beside the PDF, with a rule for which copy governs when they disagree. Its working form is the template (chapters 12 and 17).
+
 **Engineer's estimate.** The price the buyer's own engineers put on the work before the tender. It is the price the estimator will be measured against (chapter 16).
 
 **Estimator.** A bot the project is building that will put a price on each line of a tender from what bidders have charged before, as a second opinion before the tender closes (chapter 16).
@@ -50,6 +54,8 @@
 
 **Flag.** A mark the estimator or the evaluator will put on a line it has seen too rarely to price with confidence, so that a person prices it instead. A flag only works if someone has to act on it (chapter 16).
 
+**Floor.** The lowest of the model's four prices: what the work would cost if every item came from an owner-operator at the lowest cost, with no payroll, coordination, overhead or profit. A winning bid below it gets a close look, but the model is taken to be wrong first (chapter 17).
+
 **General Contractor.** The builder that holds the contract with the owner and hires the trade contractors who do most of the work (chapter 4).
 
 **Hard bid.** A tender won on price alone, usually a lump sum, by the lowest bidder that meets the terms (chapter 4).
@@ -58,13 +64,13 @@
 
 **Key.** One of the four answers to a flood of requests: deciding who may send one. Construction's keys are prequalification and capacity ratings (chapter 1).
 
-**Keyholder.** The named person who reviews what a bot drafted, adjusts the flagged lines, decides and signs, with a reason (chapters 16 and 17a).
+**Keyholder.** The named person who reviews what a bot drafted, adjusts the flagged lines, decides and signs, with a reason (chapters 12, 16 and 17a). The keyholder is today's step: the long-term goal is a bot that bids on its own, which the keyholder may still choose to sign but no longer has to (chapter 19).
 
-**Listener.** A bot that collects bidders' questions during a tender, from people or bots, and answers with no more than a nod, a shake or a shrug (chapter 17).
+**Listener.** The buyer's bot that collects bidders' questions during a tender, from people or bots. A question raised by any bidder's bot is answered to every bidder, by a new version of the template (chapter 17).
 
 **Lump sum.** One price for the whole of the work, or for a few large parts, instead of a price for each line (chapters 4 and 16).
 
-**Margin insurance.** The bidder's cover in the book's plan: a policy that would pay part of the shortfall when the average margin on a bidder's covered contracts falls below its target. No insurer offers it yet (chapter 3 and Appendix E).
+**Margin insurance.** The bidder's cover in the book's plan: a policy that would pay part of the shortfall when the average margin on a bidder's covered contracts falls below its target. The premium is paid on each job won, as a share of the contract, the way a bond premium is. No insurer offers it yet (chapter 3 and Appendix E).
 
 **Patent and latent errors.** A patent error is one a careful bidder should have spotted in the tender; a latent one could not have been seen. A bidder who should have seen a patent error and did not ask usually cannot charge for it later (chapter 17a).
 
@@ -76,11 +82,15 @@
 
 **Published check.** One of the four answers to a flood of requests: checking every request against rules that everyone can read. It is the answer this book builds on (chapter 1).
 
-**Reasonable bot.** The bot a judge would compare others against when asking what a careful reader should have understood from a tender, the way the law already asks what a reasonable bidder would have understood (prologue and chapter 14).
+**Pure economic loss.** A loss of money with no injury to anyone and no damage to property, which is what a low price causes. Products liability does not cover it and negligence rarely reaches it, which is why the book carries it with margin insurance instead (chapter 12).
 
-**Record.** What is kept each time a bot's reading is relied on: the tender, the version of the standard it was read against, and the reading, so a court can check it later (chapter 17).
+**Reasonable bot.** The bot a judge would compare others against when asking what a careful reader should have understood from a tender, the way the law already asks what a reasonable bidder would have understood (prologue and chapters 14 and 17).
+
+**Record.** What is kept each time a bot's reading is relied on: the tender, the version of the standard it was read against, and the reading, so a court can check it later. It is a clause in the tool test and the sign-off rather than a standard of its own (chapters 12 and 17).
 
 **Second opinion.** What the estimator and the evaluator will offer: a price drawn from past tenders, beside the price the buyer is being asked to pay, for a person to weigh (chapter 16).
+
+**Sign-off.** The third of the book's three standards: before relying on a bot's reading of a tender, a named person confirms the bot passed the test for that kind of work, read the version of the documents that governs, and had what it found looked at by someone able to overrule it, then puts their name to the reading (chapter 17).
 
 **Slack.** Time, money and cushion kept between the parts of a system so that nobody has to know everything. Construction has always chosen slack; the book asks for more capacity to read instead (chapter 1).
 
@@ -95,6 +105,12 @@
 **Tender.** The package a buyer issues to invite priced offers for construction work, and the competition that follows until the bids are opened. The book's first chapter treats it as an interface between the buyer and everyone who bids (chapter 1).
 
 **Thicket.** The crowd of new bids that springs up once bidding becomes nearly free, the way a thicket fills the clearing where an old oak fell (chapters 1 and 15).
+
+**Three standards.** The book's proposal for the documents a bot reads (the template), the test a pricing bot sits (the tool test) and the person who signs for what it found (the sign-off) (chapter 17).
+
+**Tool test.** The second of the three standards: a public set of tenders a bot has never seen, one fixed way of scoring its prices against what bidders bid, and a published miss rate with a tolerance. It scores a bot against the model's four prices, from the floor up to the price of a large firm. Drafted now and fixed when the estimator has earned it (chapter 17).
+
+**Winner's curse.** In a tender the winning bid tends to be the one whose estimate was most wrong, so a bidder that is right on average still loses on the jobs it wins (chapters 3 and 8).
 
 **Witness and Oracle.** A pair of bots inside any buyer-side system: the Witness reads the full records, and the Oracle checks what leaves, so the bot that faces outward never touches the files (chapter 16).
 

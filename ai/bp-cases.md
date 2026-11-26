@@ -21,9 +21,9 @@ related:
   - {id: bp-ai-failure-modes, relation: see-also}
   - {id: bp-procurement-machines, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 16, 'A second opinion on every price'", url: "https://books.andrecomeau.xyz/bot-procurement/working/07-building-an-estimator-in-public/"}
+  - {title: "Bot Procurement (book in draft), chapter 16, 'The estimator and the evaluator: a second opinion on every price'", url: "https://books.andrecomeau.xyz/bot-procurement/working/07-building-an-estimator-in-public/"}
   - {title: "Bot Procurement (book in draft), chapter 4, 'Why does the hard bid survive?'", url: "https://books.andrecomeau.xyz/bot-procurement/working/03-how-a-price-is-judged-today/"}
-  - {title: "Bot Procurement (book in draft), chapter 3, 'The insurable event', section 'Who answers for the reading'", url: "https://books.andrecomeau.xyz/bot-procurement/working/06e-the-underwriters-chapter/#who-answers-for-the-reading"}
+  - {title: "Bot Procurement (book in draft), chapter 3, 'Insuring the bidder's margin', section 'Who answers for the reading'", url: "https://books.andrecomeau.xyz/bot-procurement/working/06e-the-underwriters-chapter/#who-answers-for-the-reading"}
 book: [07-building-an-estimator-in-public.md, 03-how-a-price-is-judged-today.md, 06e-the-underwriters-chapter.md]
 terms: [Flag, Second opinion]
 ---

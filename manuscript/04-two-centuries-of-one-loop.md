@@ -1,4 +1,4 @@
-# Two centuries of one loop
+# Two centuries of tendering
 
 Pricing building work has run on one loop for about two centuries. Someone measures the design into quantities. Rivals price those quantities in sealed envelopes opened at a fixed hour, and the lowest responsible bid wins. The opened envelopes become a tabulation, and the tabulations become next year's price book and the owner's next estimate. Then the loop turns again.
 

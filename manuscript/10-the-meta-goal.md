@@ -1,4 +1,4 @@
-# The meta-goal
+# The goal: more autonomy for the people who build
 
 Frederick Taylor split the worker from the manager. Someone in an office would plan the work, and someone on the floor would do it. The gains were real and measurable, and in construction they have flattened out. The office kept growing anyway. Every estimate, schedule, submittal and change order needs someone at a desk, and the people who know the work best are often the ones least at home with the paperwork.
 
@@ -22,7 +22,7 @@ These two goals are not rivals. They meet in one machine.
 
 Chapter 9 gave it its name. A jigbot is what a tradesperson builds when they set up and teach a robot for the task at hand, the way they'd build a jig.
 
-Today's site robots are mostly programmed away from the site. Programming them means translating data from one format into another, with a check at every step. Documents written for machines would remove much of that translation. A robot could then program itself from the same documents the bidders priced, and the tradesperson's job would be to teach it the task at hand. That is how a better jigbot gets built: by the person who knows the cut, with the machine doing the rest.
+Chapter 15 described the robot that programs itself from the same documents the bidders priced. The tradesperson's job would then be to teach it the task at hand. That is how a better jigbot gets built: by the person who knows the cut, with the machine doing the rest.
 
 The jigbot serves both goals at once. The worker who teaches it gains autonomy in the doing, because the machine answers to the person beside it and not to head office. Everyone gains autonomy in the imagining, because things that cannot be built today become affordable to try.
 
@@ -30,13 +30,23 @@ This is the destination, not a plan. The field this book belongs to is Bot Const
 
 ## Questions for the destination
 
-Some questions belong to the field, not to the standard, and this book leaves them open.
-
-Who answers for a jigbot? Probably the same three things that answer for a powder-actuated tool or a scissor lift today: a standard, training with a ticket to show for it, and insurance. Whatever the answer, the bill should not land on the tradesperson simply because they were the last to touch the setup. The hard part is the width of the teaching. Makers will want the machine to do only what they planned, and the trades will need it to follow the site.
+Some questions belong to the field, not to the standard, and this book leaves them open. Chapter 9 asked who answers for a jigbot, and chapter 6 how many doors a project should have. One more is new.
 
 Who holds the authority to teach it? If it sits with the maker, the jigbot is one more machine programmed from head office. If it sits with the worker, the teaching has to be possible without a degree in computer science, and the machine has to respect a body that knows where it is on a ladder in ways no model does. That is a harder design problem than it sounds, and a later standard may have to protect it.
 
-How many doors should a project have? Today one builder usually answers for everything behind the tender. Once machines can read the documents, a buyer might reach the trades more directly. Whether that helps depends on who stands behind each piece and who answers for how the pieces fit. That question belongs to all of them, not to one side.
+## The case against
+
+Not everyone wants this destination. Scalera, a Zürich firm that sells AI for suppliers' quotes, calls autonomous bidding hype, and its guides make the case well. It is worth answering point by point, because the goal is only as strong as its answers.
+
+First, tender data is not structured enough for a machine to decide on. That is true, and it is truer in North America than in the German-speaking countries Scalera serves, where bills of quantities already travel as standard files. The goal depends on the documents standard. Until a tender meets it, a bot should not bid on it alone.
+
+Second, language models give fluent wrong answers, and people trust them too much. Scalera's guides cite Germany's federal IT security office, which advises that critical outputs be checked and finished by hand. The book does not rely on the bot being right. It measures how often the bot is wrong, in public, and pays for the misses through insurance. Over-trust is an argument against the half-way state, a person who nods through what the machine drafted, and that half-way state is what a tool with a mandatory human finish sells. The human check is not a safe net either: a study Scalera itself cites found that people inspecting spreadsheets caught only about 60 percent of the errors.
+
+Third, pricing stays with people and with the rules in the firm's own systems. But rules in a firm's system are already automated pricing: the person approves, and the rules decide. The model in chapter 17 is the same thing made public and testable. The fair point is that the book still has to show how a firm's own cost records feed the bot, and chapter 3 begins that with the costs a bidder declares on bid day.
+
+Fourth, a public client may ask a bidder to show how each unit rate was built, and an unusually low bid must be explained or rejected. A bot that bids alone has to explain every line. The model's four prices give it a breakdown for each one, and the rules on abnormally low bids are outside support for the floor.
+
+On the rest, Scalera and the book agree. Tools should be judged on the buyer's own documents against thresholds written down first, and trust is built on low-risk tasks before the price. The difference is that Scalera stops before the price, and the book carries the same staging on to it.
 
 ## Hammurabi for bots
 
@@ -47,6 +57,8 @@ It is a working rule, and it may even be where to start. But deleting a bot puni
 ## The keyholder
 
 The Stevenson Test said New Nature is wherever there is nobody to appeal to. Bots will make a great deal of new nature. They will read faster than any of us, and they will be wrong in ways that are hard to argue with. What is left for people is to imagine what to build, to decide, and to appeal what was decided. That may be the most human work there is.
+
+Europe calls its version of this future Industry 5.0 and puts the human at its centre, which is easy to read as a person in every loop. This book reads it another way. Venkatesh Rao argues that your brain is already a bicycle and AI is a motorcycle, and that learning to ride AI extends a skill we already have. Nobody learns to ride with someone holding the handlebars forever. Today's signer is the steadying hand, the three standards are the rules of the road, and margin insurance is the helmet, there for the spills that learning always brings. Human-centred, in this reading, means the rider, not the hand on the bars.
 
 So the book ends with a person, but not with a person checking every line. Today the keyholder reads what the machine drafted, adjusts the lines it flagged, signs, and gives a reason. Every chapter has been about making that signature cheaper to give and safer to rely on, until it is no longer needed. The goal is a bot that bids on its own, backed by a published test, a public reference price and cover for its errors. The keyholder may still choose to sign, and many will want to, but they will not have to. What stays with them is the work no bot takes over: deciding what to bid on, changing a price when they disagree, and appealing what was decided.
 

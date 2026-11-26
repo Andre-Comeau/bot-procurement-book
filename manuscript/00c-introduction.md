@@ -1,4 +1,4 @@
-# The zombie garden: what AI gets right
+# What AI gets right
 
 Chapter 14 ended on the words and the accidents, the places where the standard bot has work to do. This chapter asks what a bot is good for once it is put to that work.
 
@@ -24,23 +24,19 @@ A reading that takes an office days takes a bot minutes, and that changes what a
 
 The third strength is the newest, and it is the one this project is betting on. General assistants can already read a messy bid summary and fill a standard table from it. Decades of old tenders sit in archives as PDFs that a person can read and a machine mostly cannot. A bot that reads them well enough can turn them into the forest floor of chapter 1, the market's record of what the work has cost, with a person checking each file it converts. The same skill does the harder reading too. Where a contract is priced as a few lump sums, pricing a change means finding past work that looks like it and combining those prices, and that is reading, not arithmetic.
 
-None of the three seems to need a specialized tool. The one head-to-head test the project has found comes from legal research, where a general model scored level with the specialists, and chapter 11 drew the lesson that the data was the advantage and the writing was not. If the same holds in construction, a general model with open bid data could price as well as a specialized estimating tool. The record matters more than the bot that reads it, which is why the project wants a public test that any tool can take.
-
-## Why the error never reaches zero
-
-Chapter 3 put the limit plainly. Bringing a pricing bot's error to zero would lose the prediction model that drives its usefulness, because its strength lies in discovering averages and reaching solutions at superhuman speeds. A bot that predicts from probabilities will always leave tails, the few prices it misses badly.
-
-So the useful questions are not whether the bot is right. They are how big its usual miss is, who reads the prices that fall outside it, and who carries the cost when a tail is expensive. The first is a number the project intends to publish for every version of its estimator. The second is a named person. The third is the insurable event of chapter 3, and in the base case the buyer carries it by standing behind its own number.
+None of the three seems to need a specialized tool. Chapter 11's head-to-head from legal research drew the lesson that the data was the advantage and the writing was not. If the same holds in construction, a general model with open bid data could price as well as a specialized estimating tool. The record matters more than the bot that reads it, which is why the project wants a public test that any tool can take.
 
 ## What the strengths do not cover
 
-Speed and breadth do not make a reading accountable. A bot cannot sign a memo, and a court will want to know what a person considered and what the tool did. The losing bidder on the US Army contract in chapter 1 could not trace an error to the evaluators' tool, and the court still ordered the tool's output added to the record. The bot can draft, but someone has to answer for the draft.
+The strengths come with tails, the few prices a bot misses badly, and chapter 3 explained why they never reach zero. So the useful questions are how big the usual miss is, who reads the prices that fall outside it, and who carries the cost when a tail is expensive.
+
+Speed and breadth do not make a reading accountable. A bot cannot sign a memo, and a court will want to know what a person considered and what the tool did. In the Army case of chapter 1, the court ordered the tool's output into the record even though no error was traced to it. The bot can draft, but someone has to answer for the draft.
 
 That is why, for now, the project's design keeps a named person on every decision and treats the bot's price as a second opinion. The bot brings the averages, the speed and the reading. The person brings the signature. The signature is a starting point, not the end state. The aim is a bot whose record, test and insurance answer for the draft, so that the person may still sign but no longer has to.
 
 ## The treasure
 
-The treasure is improved productivity in construction, lowering costs and expanding the options. The greatest part of it is the release of human capital from the cognitive serfdom of documentation and administration: the take-offs counted by hand, the quantities retyped from one document into another, the hunt through three addenda for the one that changed a detail. Freed from it, people can turn to exploration, creation, and community building.
+The treasure is improved productivity in construction, lowering costs and expanding the options. The greatest part of it is the release of human capital from the cognitive serfdom of documentation and administration: the takeoffs counted by hand, the quantities retyped from one document into another, the hunt through three addenda for the one that changed a detail. Freed from it, people can turn to exploration, creation, and community building.
 
 The practical treasure begins with sealed alternates. Standardized documents read by a standard bot would bring certainty to the review of a bidder's alternate, and that certainty would unleash the untapped capacity of the bidders to improve the product, with the benefits shared with the buyers. Then there is the industry's transition to digital tools. BIM modelling has existed for long enough that its absence from the tender and the contract, if not from the design office, should be considered structural, and standards for bots could grow to encompass it as well. Finally, programming construction robots currently requires translating data between formats. The checks on each translation ensure a high degree of accuracy, but better base documentation could remove the translation altogether and accelerate adoption. On a standardized, digital-first stack, the robots could program themselves from the same documents the bidders priced, and that ability would let a tradesperson teach a better jigbot, the robot set up for the task at hand that chapter 9 describes. Automated bidding could carry a project from conception to completion.
 
@@ -54,7 +50,7 @@ The operational plan? To prepare an expedition to the heart of the procurement p
 
 As bad as the zombies may be, they are providing an essential service. All the villagers have structured their lives around their existence, so their death would also collapse the system.
 
-To kill the PDF, we will need a revised documentation system, built bot-first: specifications that cannot be misread by machines, and that adjust to the display, whether a phone, a computer or a robot's instructions. That specification would be the first living document in the garden. The technology already exists, but reasonable fears of liability will keep designers from adopting it unless standards can be used to determine the appropriate techniques and standards of care. Under that fear sits the question this book keeps returning to: when a bot causes harm, who is liable?
+To kill the PDF, we will need a revised documentation system, built bot-first: specifications that cannot be misread by machines, and that adjust to the display, whether a phone, a computer or a robot's instructions. That specification would be the first living document in the garden. The technology already exists, but reasonable fears of liability will keep designers from adopting it unless standards can be used to determine the appropriate techniques and standards of care. Under that fear sits the question of who is liable when a bot causes harm, which chapter 12 takes up.
 
 Once dead, the PDF will need to stay dead, and the documentation standards only start the process. A standard bot will be needed to validate the documentation for AI consumption, so that designers can verify that AI is correctly interpreting their documents. When the designers sign off on its outputs, a baseline is established, and custom bots can be supplied to the market to meet the bidding strategies of the different bidders.
 

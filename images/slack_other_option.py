@@ -77,12 +77,12 @@ boxes = [
     (360, "Add slack", D["ink2"], C["hair"],
      ["A bid cushion for the drawings' errors", "A long tender, a plan room, a committee", "The oak: five bids in six lost, as overhead",
       "A contingency for the rest", "Changes bought from a supplier of one", "Reviews by whoever has time",
-      "The margin eats the error; the surety waits", "Taylorism and the largest firms plateau"],
+      "The margin eats the error; the bonding company waits", "Taylorism and the largest firms plateau"],
      "Construction's habit. It no longer works: AI removed the slack and left the attention needed exactly where it was."),
     (730, "Raise the capacity", D["sec"], C["sec_t"],
      ["A second opinion on every price", "The tender as a data file", "The same check, the same way, every bid",
       "A measured miss rate, and a record", "The door open: no cap, no key, no fee", "The evaluator, and the keyholder who signs",
-      "Insurance on the margin picks up the tails", "A standard: template, record, public test"],
+      "Insurance on the margin picks up the tails", "Three standards: documents, test, sign-off"],
      "The other option. More data moves faster through the door without anyone acquiring a say they did not have before."),
 ]
 for (by, title, col, fill, items, verdict) in boxes:

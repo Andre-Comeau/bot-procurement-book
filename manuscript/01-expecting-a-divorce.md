@@ -12,7 +12,7 @@ The compile is long. When an error surfaces on site, the fix runs through a requ
 
 ## Pricing the errors
 
-Bidders read the drawings closely, and they find things. What they do with a find gives this chapter its title. I put it this way in the case study this book grew from:
+Bidders read the drawings closely, and they find things. What they do with a find is where the tension starts. I put it this way in the case study this book grew from:
 
 > While many companies make their margin by pricing projects accounting for unresolved errors in the bid, this generates a lot of animosity and requires active legal claims. It moves the profit and skill away from the field and into the meta-game. It also distracts the effort from product delivery to protection from legal proceedings. Some of this is needed to ensure remedies exist for unknown unknowns, but starting a relationship expecting a divorce feels like an incredibly ineffective system.
 

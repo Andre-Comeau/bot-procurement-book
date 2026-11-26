@@ -32,7 +32,7 @@ sources:
   - {title: "Hinze, Selstead and Mahoney (1992), Cost Overruns on State of Washington Construction Contracts, Transportation Research Record 1351", url: "https://onlinepubs.trb.org/Onlinepubs/trr/1992/1351/1351-013.pdf"}
   - {title: "Dyer, Kagel and Levin (1989), Economic Journal 99: 108-115, experienced construction bidders in common value auctions", url: "https://core.ac.uk/download/357544725.pdf"}
   - {title: "Dyer and Kagel (1996), Management Science 42(10): 1463-1475, how the construction industry corrects for the winner's curse", url: "https://doi.org/10.1287/mnsc.42.10.1463"}
-  - {title: "Survey: 1 in 3 Construction Companies Earning Less Than Expected (Intuit QuickBooks and TSheets, 2019)", url: "https://www.forconstructionpros.com/profit-matters/news/21067180/survey-1-in-3-construction-companies-earning-less-than-expected"}
+  - {title: "Survey: 1 in 3 Construction Companies Earning Less Than Expected (Intuit QuickBooks and TSheets, 2019)", url: "https://www.forconstructionpros.com/business/business-services/financing-insurance-leasing/news/21067180/intuit-quickbooks-survey-1-in-3-construction-companies-earning-less-than-expected"}
   - {title: "Liu et al. (2014), Underpricing for construction projects: a double-edged sword, PMI Learning Library", url: "https://www.pmi.org/learning/library/underpricing-construction-projects-8958"}
 book: [03-how-a-price-is-judged-today.md, 07-building-an-estimator-in-public.md, 06e-the-underwriters-chapter.md]
 terms: [Engineer's estimate, Bid spread]

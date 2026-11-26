@@ -19,7 +19,7 @@ related:
   - {id: bp-evaluator, relation: supports}
   - {id: bp-reading-record, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 16, 'A second opinion on every price'", url: "https://books.andrecomeau.xyz/bot-procurement/working/07-building-an-estimator-in-public/"}
+  - {title: "Bot Procurement (book in draft), chapter 16, 'The estimator and the evaluator: a second opinion on every price'", url: "https://books.andrecomeau.xyz/bot-procurement/working/07-building-an-estimator-in-public/"}
 book: [07-building-an-estimator-in-public.md]
 terms: [Estimator (the project's), Fair and Reasonable Evaluator]
 ---

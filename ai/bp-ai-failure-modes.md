@@ -21,7 +21,7 @@ related:
   - {id: bp-competition-risk, relation: see-also}
   - {id: bp-cases, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 14, 'What do we do with a drunken sailor?'", url: "https://books.andrecomeau.xyz/bot-procurement/working/03b-what-do-we-do-with-a-drunken-sailor/"}
+  - {title: "Bot Procurement (book in draft), chapter 14, 'How AI fails, and a remedy for each'", url: "https://books.andrecomeau.xyz/bot-procurement/working/03b-what-do-we-do-with-a-drunken-sailor/"}
 book: [03b-what-do-we-do-with-a-drunken-sailor.md]
 terms: [Reference bot]
 ---

@@ -24,9 +24,10 @@ related:
   - {id: bp-stakeholder-designers, relation: see-also}
   - {id: bp-tender-as-interface, relation: see-also}
   - {id: bp-why-not-change-contract-type, relation: see-also}
+  - {id: bp-sign-off, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 17, 'The protocol that follows'", url: "https://books.andrecomeau.xyz/bot-procurement/working/09-the-protocol-that-follows/"}
-  - {title: "Bot Procurement (book in draft), chapter 5, 'The zombie lost to a file format'", url: "https://books.andrecomeau.xyz/bot-procurement/working/08b-the-zombie-lost-to-a-file-format/"}
+  - {title: "Bot Procurement (book in draft), chapter 17, 'Three standards, and how they could stick'", url: "https://books.andrecomeau.xyz/bot-procurement/working/09-the-protocol-that-follows/"}
+  - {title: "Bot Procurement (book in draft), chapter 5, 'Where bids already travel as data'", url: "https://books.andrecomeau.xyz/bot-procurement/working/08b-the-zombie-lost-to-a-file-format/"}
   - {title: "GAEB, certification of data-exchange software", url: "https://www.gaeb.de/de/produkte/gaeb-datenaustausch/zertifizierung/"}
 book: [09-the-protocol-that-follows.md, 08b-the-zombie-lost-to-a-file-format.md, 00c-introduction.md]
 terms: [Template, PDF zombie (the zombie garden), Tender]

@@ -1,8 +1,8 @@
-# The monsters we kept
+# Bigger ideas set aside for now
 
-A paper about an experiment usually has a section that most readers skip, where the authors list the approaches they considered and set aside. It is the least exciting part of the paper and one of the most honest, because it tells you what the authors bet against. This chapter is that section, moved to the end so that it doesn't slow down the story, and written with a little more affection than a methods section allows.
+A paper about an experiment usually has a section that most readers skip, where the authors list the approaches they considered and set aside. It is the least exciting part of the paper and one of the most honest, because it tells you what the authors bet against. This chapter is that section, written with a little more affection than a methods section allows.
 
-Bot Procurement is deliberately small. It asks for a readable tender, a published test, and a clear rule for when a bot is wrong. Everything in this chapter is bigger, bolder, and in several cases more interesting. The ideas here were not set aside because they are wrong. Most were set aside because they assume machines that are further along than the time it takes to write a standard, and writing a standard takes years. The next open format for building models, visited in the chapter on file formats, is planned to become an international standard at the end of 2029, and it started well before this book did.
+Bot Procurement is deliberately small. It asks for a readable tender, a published test, and a named person who signs for what the bot found. Everything in this chapter is bigger, bolder, and in several cases more interesting. The ideas here were not set aside because they are wrong. Most were set aside because they assume machines that are further along than the time it takes to write a standard, and writing a standard takes years. The next open format for building models, visited in the chapter on file formats, is planned to become an international standard at the end of 2029, and it started well before this book did.
 
 That is a bet on timing, and timing bets can be lost. The last two years of progress in AI have embarrassed a good many careful forecasts. So the monsters are kept, not slain. Each one is described below with what it promises, the trait that makes it a monster, and what would open the cage. If the cage opens early, the book should say so first.
 
@@ -26,11 +26,11 @@ What would open the cage: an insurer willing to cover a negotiated design, and a
 
 The second creature lives on the builder's side, and it is already half out.
 
-A general contractor pricing a building runs a small swarm of its own. Every trade sends in a price, and the bid fails if one is missing, if two trades price the same piece of work, or if a piece of work falls between them. In November 2026, a team of researchers at the University of Washington and the Allen Institute for AI published an experiment that looks a great deal like this. They gave small teams of identical AI agents a job that none of them could do alone, let them message each other whenever they liked, and gave the whole team one score: a win if any member handed in the right answer, minus a small charge for every word the team used. Nobody was told how to organize.
+A general contractor pricing a building runs a small swarm of its own. Every trade sends in a price, and the bid fails if one is missing, if two trades price the same piece of work, or if a piece of work falls between them. In November 2026, a team of researchers at the University of Washington and the Allen Institute for AI published an experiment that looks a great deal like this. They gave small teams of identical AI agents a job that none of them could do alone, and let them message each other whenever they liked. The whole team got one score: a win if any member handed in the right answer, minus a small charge for every word the team used. Nobody was told how to organize.
 
 The teams organized themselves anyway, and the way they did it is worth a builder's attention. Early on, many teams had a silent member who never shared what it knew, and those teams lost. Later, members whispered to each other one at a time, then shouted at everyone, over and over. By the end, most teams had settled on a habit nobody taught them: each member says what it knows once, to everybody, before reading anything. Speak first, then listen.
 
-When the researchers rewarded each member only for its own answer, the habit collapsed. Sharing only helped the others, so every member learned to wait for someone else to go first, and in the end nobody went. Builders will recognize the trades who send their prices four minutes before the general contractor's deadline, so that nobody has time to shop them to a competitor. Parts of Canada answered that with a closed box, the bid depository, which every trade price has to go into before a set time. It is the same habit, enforced with a lid.
+When the researchers rewarded each member only for its own answer, the habit collapsed. Sharing only helped the others, so every member learned to wait for someone else to go first, and in the end nobody went. Builders will recognize the trades who hold their prices until the last minute so that nobody can shop them to a competitor, and the bid depository that chapter 9 opens with, which enforces the same habit with a lid.
 
 The promise of the hive is a builder's estimating team that organizes itself, divides the drawings without being told, and stops measuring the same walls six times. Inside one firm, that is not very monstrous at all, because the firm answers for its bid whoever in the hive got it wrong.
 
@@ -50,21 +50,9 @@ The monstrous trait is that each head can be held responsible for its own piece,
 
 What would open the cage: someone, bot or firm, who coordinates the pieces and can be sued for the coordination, with a bond to match.
 
-## The flood
-
-The fourth creature arrived before this book did. In February 2023 a science-fiction magazine closed its submissions because machines had learned to write stories faster than people could read them.
-
-The promise, for tenders, is more competition. If a bot can prepare a bid in an hour, small firms that could never afford an estimator could bid on work they are qualified to build, and a buyer who used to see three bids might see thirty.
-
-The monstrous trait is the same as the magazine's. A buyer who sees three hundred bids, most of them plausible and many of them careless, cannot read them, and the cheapest of them is not the best one. The flood does not have to be malicious to drown a buyer. It only has to be cheap.
-
-The tools to tame it are old and dull: limits on how many bids one firm may send, a key that proves a bid came from a real firm, a fee or a bond that makes a careless bid cost something, and a published check that every bid must pass before anyone reads it. Highway buyers already use rough versions of all four.
-
-What would open the cage: a published check that a buyer can trust to sort the plausible from the careless, which is, as it happens, roughly what this book asks for.
-
 ## The electronic person
 
-The fifth creature lives in the law library. If a bot could be sued, nobody else would have to answer for it. A corporation already lets a crowd of people be sued as one. Why not let a bot be sued as itself?
+The fourth creature lives in the law library. If a bot could be sued, nobody else would have to answer for it. A corporation already lets a crowd of people be sued as one. Why not let a bot be sued as itself?
 
 Europe asked the question first. In 2017 the European Parliament invited the Commission to consider a status of "electronic persons" for the most autonomous robots. Experts answered with an open letter against it, and the idea went no further. Several American states have since passed laws to rule it out.
 
@@ -94,6 +82,6 @@ What would open the cage: a buyer's legal department that signs off on a swarm's
 
 A cage is not a grave. Every creature in this chapter is fed a little, on purpose.
 
-The standard asks for documents written for machines first, which is what the parliament of requirements would need. It asks for a record of what a bot read and decided, which is what anyone would need to find the failure between two advocates, or two members of a hive. It asks who makes good when a bot is wrong, which the hydra cannot yet answer. And it asks for a published test, which is the only thing that could tell anyone, early, that the swarm no longer needs one.
+The standard asks for documents written for machines first, which is what the parliament of requirements would need. It asks for a named person to sign for what a bot read and decided, with a record behind the signature, which is what anyone would need to find the failure between two advocates, or two members of a hive. It asks who makes good when a bot is wrong, which the hydra cannot yet answer. And it asks for a published test, which is the only thing that could tell anyone, early, that the swarm no longer needs one.
 
 So the small project and the big creatures are not at war. Bot Procurement is the part small enough to try first. Bot Construction, the field, is where the monsters live, and where some of them will one day be let out.

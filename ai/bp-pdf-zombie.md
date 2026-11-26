@@ -20,7 +20,7 @@ related:
   - {id: bp-glossary, relation: see-also}
   - {id: bp-why-not-existing-software, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 15, 'The zombie garden: what AI gets right'", url: "https://books.andrecomeau.xyz/bot-procurement/working/00c-introduction/"}
+  - {title: "Bot Procurement (book in draft), chapter 15, 'What AI gets right'", url: "https://books.andrecomeau.xyz/bot-procurement/working/00c-introduction/"}
   - {title: "William H. Sewell Jr., 'Three Temporalities: Toward an Eventful Sociology', in Logics of History (2005)"}
 book: [00c-introduction.md]
 terms: [PDF zombie (the zombie garden)]

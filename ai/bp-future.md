@@ -23,8 +23,8 @@ related:
   - {id: bp-stakeholder-trades, relation: see-also}
   - {id: bp-tender-as-interface, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 19, 'The meta-goal'", url: "https://books.andrecomeau.xyz/bot-procurement/working/10-the-meta-goal/"}
-  - {title: "Bot Procurement (book in draft), chapter 9, 'The trades: who holds the jig'", url: "https://books.andrecomeau.xyz/bot-procurement/working/09a-the-trades-who-holds-the-jig/"}
+  - {title: "Bot Procurement (book in draft), chapter 19, 'The goal: more autonomy for the people who build'", url: "https://books.andrecomeau.xyz/bot-procurement/working/10-the-meta-goal/"}
+  - {title: "Bot Procurement (book in draft), chapter 9, 'The trades: who sets up the machines'", url: "https://books.andrecomeau.xyz/bot-procurement/working/09a-the-trades-who-holds-the-jig/"}
 book: [10-the-meta-goal.md, 09a-the-trades-who-holds-the-jig.md]
 terms: [Bot Construction, Bot Procurement]
 ---

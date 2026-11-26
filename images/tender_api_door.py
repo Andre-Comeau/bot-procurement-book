@@ -64,10 +64,10 @@ o.append(f'<path d="M370,660 h120 M370,652 v16 M490,652 v16" stroke="{C["ink2"]}
 o.append(t(430, 530, "W610 × 125", "tiny", C["ink2"], "middle"))
 o.append(t(120, 760, "Why the engineer chose that beam.", "note", C["ink2"]))
 o.append(t(120, 790, "The builder need not know.", "note", C["ink2"]))
-# right room: the surety behind the builder, and the crew schedule
+# right room: the bonding company behind the builder, and the crew schedule
 o.append(person(1215, 505, D["ink2"], "surety", s=2.1, skin="#c68a5e"))
 o.append(person(1130, 575, D["acc"], "builder", s=1.8, hat="#e0a526", skin="#9a623f"))
-o.append(plaque(1215, 455, "the surety", 170, "note"))
+o.append(plaque(1215, 455, "the bonding company", 240, "note"))
 o.append(f'<rect x="1310" y="500" width="180" height="190" rx="4" fill="#ffffff" stroke="{C["ink"]}" stroke-width="3"/>')
 for i in range(6):
     yy = 520 + i*27
@@ -79,7 +79,7 @@ o.append(t(1040, 760, "How the builder schedules its crews.", "note", C["ink2"])
 o.append(t(1040, 790, "The designer need not know.", "note", C["ink2"]))
 o.append(t(1040, 832, "One door means one builder answers for", "note", C["ink"]))
 o.append(t(1040, 860, "everything behind it, whoever it hires.", "note", C["ink"]))
-o.append(t(1040, 888, "A surety stands behind the builder.", "note", C["ink"]))
+o.append(t(1040, 888, "A bonding company stands behind the builder.", "note", C["ink"]))
 o.append(t(120, 860, "The design is tested once, by each bidder,", "note", C["ink"]))
 o.append(t(120, 888, "in the few weeks before the bids close.", "note", C["ink"]))
 # the door: a frame filled with a stack of PDFs

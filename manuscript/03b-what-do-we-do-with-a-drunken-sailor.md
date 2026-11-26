@@ -1,4 +1,4 @@
-# What do we do with a drunken sailor?
+# How AI fails, and a remedy for each
 
 Our world has worked itself into a hysteria about misbehaving bots while quietly forgetting the misbehaving human. Perhaps we have grown fond of the mechanical predictability that automata used to bring into our lives, and as our little technology stack becomes a pre-teen, we find ourselves nostalgic for the earlier years.
 
@@ -24,7 +24,7 @@ A standard bot can start small: a frozen letter for one trade, written down so t
 
 ## Misadventure: the Drunken Sailor
 
-Every child knows the question in this chapter's title, and every answer the song gives is a consequence: put him in the longboat till he's sober. Nobody suggests the sailor meant any harm. He is drunk, he will do something foolish, and the crew will have to deal with it.
+Every child knows the song that asks what to do with a drunken sailor, and every answer it gives is a consequence: put him in the longboat till he's sober. Nobody suggests the sailor meant any harm. He is drunk, he will do something foolish, and the crew will have to deal with it.
 
 If malice is stopped by strength, misadventure is controlled by consequences, and it is the problem we have with the AIs we have, not the future ones. The pain inflicted through AIs with poor judgement will be real, and work to reduce that harm to humans is valuable. The tools against it are familiar from software: better technology, hard guardrails in the programming, version control and reverting to the last model that worked.
 
@@ -48,6 +48,6 @@ The standard still earns its place in the garden. It cannot keep the Serpent out
 
 Revelation tells us that the great dragon and that old serpent are the same being. When words fail him, he turns to force.
 
-The technology has not yet arrived to give AI intent, the knowledge of good and evil, or the ability to choose, and it has not yet arrived to give it a body either, so we are still in the angelic phase, where the forces of language are being channelled into machines that can speak but can barely act. This will not last forever. As compute lengthens the context window, as AI writes its own notes to instruct its compacted self, and perhaps as it builds an open-weight model to act in its image, we should expect malice to find a home, and with embodiment, a pair of hands.
+The technology has not yet arrived to give AI intent, the knowledge of good and evil, or the ability to choose, and it has not yet arrived to give it a body either, so we are still in the angelic phase, where the forces of language are being channelled into machines that can speak but can barely act. This will not last forever. As compute lengthens the context window, the amount a model can hold in mind at once, as AI writes its own notes to instruct its compacted self, and perhaps as it builds an open-weight model to act in its image, we should expect malice to find a home, and with embodiment, a pair of hands.
 
 When it does, the doomers expect a war in heaven, the great dragon against the hosts of angels. Procurement has little to add to that fight. If a frontier dragon attacks a tender outright, we close the tender down and pray that someone else will slay the dragon, whether it is the frontier labs shepherding their top models away from evil or humanity's laws finding a way to apply to silicon beings. Brute force is not a standard's problem to solve. Everywhere short of it, in the words and in the accidents, the standard bot has work to do.

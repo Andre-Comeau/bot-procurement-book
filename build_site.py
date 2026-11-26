@@ -38,7 +38,7 @@ PREVIEWS = {
     "09-the-protocol-that-follows.md": ("social-card-world-2.png",
         "The Standard, World 2 of the overworld map: existing standards as levels, each with the change the book would ask of it, leading to a castle and a courthouse"),
     "06e-the-underwriters-chapter.md": ("social-card-one-losing-job.png",
-        "The insurable event. One losing job is not a claim: completed jobs as mugs filled to their margin, and a policy that pays only when the average across many tenders falls short"),
+        "Insuring the bidder's margin. One losing job is not a claim: completed jobs as mugs filled to their margin, and a policy that pays only when the average across many tenders falls short"),
     "02-the-tender-is-the-api.md": ("social-card-oak-falls.png",
         "The oak falls: the cost of bidding stood as an oak over the market for a century; where it stood, a thicket races for the light"),
     "02b-the-buyers.md": ("social-card-three-parties.png",
@@ -61,10 +61,10 @@ DRAFTED = {
     "02-the-tender-is-the-api.md", "02b-the-buyers.md", "02c-the-bidders.md", "02d-the-vendors.md", "02e-the-designers.md", "06f-the-insurers.md",
     "06c-the-blessing-of-the-legal-department.md", "08b-the-zombie-lost-to-a-file-format.md",
     "09a-the-trades-who-holds-the-jig.md", "09b-the-monsters-we-kept.md",
-    # Drafted 2026-11-20 (thread "Retitle chapters and draft missing pieces"), for Andre's read.
     "00-front-matter.md", "01-expecting-a-divorce.md", "06-the-banana-peel.md",
     "06b-the-bot-in-the-witness-box.md", "04-two-centuries-of-one-loop.md", "10-the-meta-goal.md",
     "app-a-the-cards.md", "app-b-reading-list.md", "app-c-glossary.md",
+    "app-f-who-to-talk-to-first.md",
 }
 
 # The labels, in plain words, and the line at the top of each working-copy page.
@@ -87,46 +87,44 @@ def badge(name):
 
 PARTS = [
     # File names keep their first numbers; this list is the reading order.
-    # Since 2026-11-19 it follows Andre's outline (approved 2026-11-19). Since 2026-11-20 the
-    # groupings are the questions of his structure (Andre: "The questions should be chapter
-    # titles or chapter groupings"), and each stakeholder has its own chapter number.
-    # Chapter titles since 2026-11-19 take a section heading where one names the chapter better.
+    # The part names are the book's questions, and each stakeholder has its own chapter number.
     ("Front matter", [("00-front-matter.md", "Front matter")]),
     ("Overview. Why do we need a standard?", [("00b-prologue.md", "Prologue")]),
     ("Part I. What is the problem?", [
-        ("02-the-tender-is-the-api.md", "1. The tender is the API"),
+        ("02-the-tender-is-the-api.md", "1. The tender and the flood of AI bids"),
         ("01-expecting-a-divorce.md", "2. Tensions built into the tender")]),
     ("Part II. How should we solve it?", [
-        ("06e-the-underwriters-chapter.md", "3. The insurable event")]),
+        ("06e-the-underwriters-chapter.md", "3. Insuring the bidder's margin")]),
     ("Part III. Why not use other tools? Why not change the contract type?", [
         ("03-how-a-price-is-judged-today.md", "4. Why does the hard bid survive?"),
-        ("08b-the-zombie-lost-to-a-file-format.md", "5. The zombie lost to a file format"),
-        ("09b-the-monsters-we-kept.md", "6. The monsters we kept")]),
+        ("08b-the-zombie-lost-to-a-file-format.md", "5. Where bids already travel as data"),
+        ("09b-the-monsters-we-kept.md", "6. Bigger ideas set aside for now")]),
     ("Part IV. What do the stakeholders stand to gain?", [
-        ("02b-the-buyers.md", "7. The buyers: more bids than eyes"),
-        ("02c-the-bidders.md", "8. The bidders: racing for the light"),
-        ("09a-the-trades-who-holds-the-jig.md", "9. The trades: who holds the jig"),
-        ("02e-the-designers.md", "10. The designers and consultants: a second reading"),
-        ("02d-the-vendors.md", "11. The vendors: players, not referees"),
-        ("06c-the-blessing-of-the-legal-department.md", "12. The blessing of the legal department"),
+        ("02b-the-buyers.md", "7. The buyers: more bids than they can read"),
+        ("02c-the-bidders.md", "8. The bidders: what a check and cover change"),
+        ("09a-the-trades-who-holds-the-jig.md", "9. The trades: who sets up the machines"),
+        ("02e-the-designers.md", "10. The designers and consultants: checking the documents before issue"),
+        ("02d-the-vendors.md", "11. The software vendors: why a shared test suits them"),
+        ("06c-the-blessing-of-the-legal-department.md", "12. What a legal department needs before relying on a bot"),
         ("06f-the-insurers.md", "13. The insurers: a pilot, then a standard")]),
     ("Part V. How are we going to get there?", [
-        ("03b-what-do-we-do-with-a-drunken-sailor.md", "14. What do we do with a drunken sailor?"),
-        ("06-the-banana-peel.md", "14a. The banana peel (to fold into chapter 14)"),
-        ("00c-introduction.md", "15. The zombie garden: what AI gets right"),
-        ("07-building-an-estimator-in-public.md", "16. A second opinion on every price"),
-        ("09-the-protocol-that-follows.md", "17. The protocol that follows"),
-        ("06b-the-bot-in-the-witness-box.md", "17a. The bot in the witness box (to fold into chapter 17)")]),
+        ("03b-what-do-we-do-with-a-drunken-sailor.md", "14. How AI fails, and a remedy for each"),
+        ("06-the-banana-peel.md", "14a. A bot should show what it does not know (to fold into chapter 14)"),
+        ("00c-introduction.md", "15. What AI gets right"),
+        ("07-building-an-estimator-in-public.md", "16. The estimator and the evaluator: a second opinion on every price"),
+        ("09-the-protocol-that-follows.md", "17. Three standards, and how they could stick"),
+        ("06b-the-bot-in-the-witness-box.md", "17a. One bot failure, from tender to court (to fold into chapter 17)")]),
     ("Part VI. How have things changed in the past?", [
-        ("04-two-centuries-of-one-loop.md", "18. Two centuries of one loop")]),
+        ("04-two-centuries-of-one-loop.md", "18. Two centuries of tendering")]),
     ("Part VII. Where does this end up?", [
-        ("10-the-meta-goal.md", "19. The meta-goal")]),
+        ("10-the-meta-goal.md", "19. The goal: more autonomy for the people who build")]),
     ("Appendices", [
         ("app-a-the-cards.md", "A. Procurement Machines"),
         ("app-b-reading-list.md", "B. Reading list"),
         ("app-c-glossary.md", "C. Glossary"),
         ("app-d-bibliography.md", "D. Bibliography"),
-        ("app-e-pilot-term-sheet.md", "E. A draft term sheet for a pilot policy")]),
+        ("app-e-pilot-term-sheet.md", "E. A draft term sheet for a pilot policy"),
+        ("app-f-who-to-talk-to-first.md", "F. Who to talk to first")]),
 ]
 
 HOME = """# Bot Procurement Book
@@ -418,7 +416,7 @@ def main():
     site.mkdir()
     (site / "_redirects").write_text(
         f"/ /{SLUG}/ 302\n"
-        # Chapter 3a was folded into chapter 3 (2026-11-24).
+        # Chapter 3a was folded into chapter 3.
         f"/{SLUG}/working/05-liability-shifts/ /{SLUG}/working/06e-the-underwriters-chapter/#who-answers-for-the-reading 301\n",
         encoding="utf-8")
     (site / "robots.txt").write_text(ROBOTS, encoding="utf-8")

@@ -21,7 +21,7 @@ related:
   - {id: bp-future, relation: see-also}
   - {id: bp-two-names, relation: see-also}
 sources:
-  - {title: "Bot Procurement (book in draft), chapter 9, 'The trades: who holds the jig'", url: "https://books.andrecomeau.xyz/bot-procurement/working/09a-the-trades-who-holds-the-jig/"}
+  - {title: "Bot Procurement (book in draft), chapter 9, 'The trades: who sets up the machines'", url: "https://books.andrecomeau.xyz/bot-procurement/working/09a-the-trades-who-holds-the-jig/"}
 book: [09a-the-trades-who-holds-the-jig.md]
 ---
 # Stakeholders: the trades, and who holds the jig
