@@ -43,11 +43,11 @@ read them. With these tools, engineers and architects could still certify the ca
 standardized bot as a surrogate for a reasonable bot, and bidders would be able to lower their estimating
 costs. **[d]**
 
-The long-term goal is bots that bid on their own. For now a person signs every bid the bot drafts, and
-insurance covers the bot's mistakes on price. That signature is a step on the way, not the destination. A
-published test, a public reference price and insurance for the bot's error are what would let the person
-stop checking each line. Some vendors call autonomous bidding hype, and this book takes the objection
-seriously enough to answer it.
+The long-term goal is autonomous AI procurement, with bots that bid on their own. For now a person signs
+every bid the bot drafts. That signature is a step on the way, not the destination. Some vendors call
+autonomous bidding hype, and this book takes the objection seriously enough to answer it. The path there
+runs through insurance for the bot's mistakes and a public standard that allows the courts to evaluate
+what a reasonable bot would have done.
 
 Two names will travel through this book, and they are worth keeping apart. Bot Construction is the field:
 where this work leads, from documents written for machines to robots on site, built on everything the
